@@ -1,0 +1,19 @@
+export Modele_M151A2_TOW_NG_US is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Vehicule/M151A2_TOW_NG/M151A2_TOW.Ase2NdfBin'
+)
+
+export Modele_M151A2_TOW_NG_US_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Vehicule/M151A2_TOW_NG/M151A2_TOW.Ase2NdfBin'
+)
+
+export Modele_M151A2_TOW_NG_US_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Vehicule/M151A2_TOW_NG/M151A2_TOW.Ase2NdfBin'
+)
+
+export Modele_M151A2_TOW_NG_US_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Vehicule/M151A2_TOW_NG/TOW_t1.Ase2NdfBin'
+)

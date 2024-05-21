@@ -1,0 +1,4 @@
+# WARNOModDataStructureHistory
+This Repo aims to keep a History of all the changes made to the Warno Mod Data/File structure. This is so that modders can easily look up what/if  something changed in the latest update, to decrease the time and work needed to update a Mod to be compatible to the newest Version.
+## What is included
+Each commit is a snapshot of the "..WARNO\Mods" folder for each released Update (If i remember and something changed). I include everything, to not miss any changes made in unexpected places, such as the python scripts used to generate new Mods. Some parts/files may be removed from this repo in the future, to decrease repo size, as even just the first commit is 100+mb.

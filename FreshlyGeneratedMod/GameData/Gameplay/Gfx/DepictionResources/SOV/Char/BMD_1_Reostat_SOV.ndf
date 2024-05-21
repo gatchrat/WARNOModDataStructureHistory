@@ -1,0 +1,17 @@
+export Modele_BMD_1_Reostat_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BMD_REOSTAT/BMD_REOSTAT.Ase2NdfBin'
+)
+
+export Modele_BMD_1_Reostat_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BMD_REOSTAT/BMD_REOSTAT.Ase2NdfBin'
+)
+
+export Modele_BMD_1_Reostat_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BMD_REOSTAT/BMD_REOSTAT.Ase2NdfBin'
+)
+
+
+

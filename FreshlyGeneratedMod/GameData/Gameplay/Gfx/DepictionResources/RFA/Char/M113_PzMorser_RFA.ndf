@@ -1,0 +1,19 @@
+export Modele_M113_PzMorser_RFA is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/M113_PzMorser/M113_PzMorser.Ase2NdfBin'
+)
+
+export Modele_M113_PzMorser_RFA_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/M113_PzMorser_MID/M113_PzMorser_MID.Ase2NdfBin'
+)
+
+export Modele_M113_PzMorser_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/LODS/M113_PzMorser_LOW.Ase2NdfBin'
+)
+
+export Modele_M113_PzMorser_RFA_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = ModelFile_MG3_Tourelle_01
+)

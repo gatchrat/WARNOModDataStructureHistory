@@ -1,0 +1,14 @@
+export Modele_2S23_Nona_SVK_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/2S23_NONA_SVK/2S23_NONA_SVK.fbx'
+)
+
+export Modele_2S23_Nona_SVK_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/2S23_NONA_SVK/2S23_NONA_SVK.fbx'
+)
+
+export Modele_2S23_Nona_SVK_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/2S23_NONA_SVK/2S23_NONA_SVK.fbx'
+)

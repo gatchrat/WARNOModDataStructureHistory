@@ -1,0 +1,25 @@
+
+// CONSTANTES POUR LE GAME DESIGN
+
+export IAStratWeaponConstantes is TIAStratWeaponConstantesDescriptor
+(
+
+    // GunThreatInfMap
+    SafeDamageType = [DamageFamily_suppress, DamageFamily_suppressap, DamageFamily_cluster, DamageFamily_bombe, DamageFamily_cluster_ap]
+
+    // GunThreatInfMapDebug
+    DamageFamilyToDebugColor= MAP
+    [
+        (DamageFamily_ap, [0,255,255,255]),
+        (DamageFamily_he, [255,0,255,255]),
+    ]
+
+    DamageFamilyDebugColorPriorityOrder = [DamageFamily_ap, DamageFamily_he]
+    DamageFamilyAdditionnalColor = [DamageFamily_flamme]
+
+    DamageWithMenaceForDangerounessArmor = [DamageFamily_he, DamageFamily_fmballe, DamageFamily_balleaa, DamageFamily_balledca, DamageFamily_missile_he]
+    AlwaysThreateningDamageFamily = [DamageFamily_flamme]
+    MacroActionArtilleryDamageTypeThreat = [DamageFamily_he]
+    AttackDamageTypeThreat = [DamageFamily_he, DamageFamily_balleaa, DamageFamily_balledca, DamageFamily_fmballe]
+    DamageTypeForPrincipalAmmo = [DamageFamily_he, DamageFamily_ap]
+)

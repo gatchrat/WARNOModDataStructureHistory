@@ -1,0 +1,19 @@
+export Modele_T72_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Char/T72/T72.fbx'
+)
+
+export Modele_T72_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Char/T72_MID/T72_MID.fbx'
+)
+
+export Modele_T72_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Char/LODS/T72_LOW.fbx'
+)
+
+// Modele_T72_DDR_Tourelle_02 is TemplateMeshDescriptor
+// (
+//     FileName = ModelFile_NVT_127_Tourelle_02
+// )

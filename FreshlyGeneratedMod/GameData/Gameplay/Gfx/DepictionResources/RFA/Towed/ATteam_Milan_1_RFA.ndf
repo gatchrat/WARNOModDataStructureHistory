@@ -1,0 +1,17 @@
+export Modele_ATteam_Milan_1_RFA is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Antichar/Milan_F1/Milan_F1.Ase2NdfBin'
+)
+
+export Modele_ATteam_Milan_1_RFA_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Antichar/Milan_F1_MID/Milan_F1_MID.Ase2NdfBin'
+)
+
+export Modele_ATteam_Milan_1_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Antichar/LODS/Milan_F1_LOW.Ase2NdfBin'
+)
+
+
+

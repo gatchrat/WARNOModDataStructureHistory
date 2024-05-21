@@ -1,0 +1,14 @@
+export Modele_AMX_10_RCR_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC_Surblinde/AMX_10RC_Surblinde.Ase2NdfBin'
+)
+
+export Modele_AMX_10_RCR_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC_Surblinde_MID/AMX_10RC_Surblinde_MID.Ase2NdfBin'
+)
+
+export Modele_AMX_10_RCR_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/LODS/AMX_10RC_Surblinde_LOW.Ase2NdfBin'
+)

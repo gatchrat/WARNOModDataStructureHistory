@@ -1,0 +1,19 @@
+export Modele_FV432_Mortar_UK is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/APC/FV432_Mortar/FV432_Mortar.Ase2NdfBin'
+)
+
+export Modele_FV432_Mortar_UK_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/APC/FV432_Mortar_MID/FV432_Mortar_MID.Ase2NdfBin'
+)
+
+export Modele_FV432_Mortar_UK_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/APC/LODS/FV432_Mortar_LOW.Ase2NdfBin'
+)
+
+export Modele_FV432_Mortar_UK_Tourelle_02 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/Chieftain_Mk11/L37_t2.Ase2NdfBin'
+)

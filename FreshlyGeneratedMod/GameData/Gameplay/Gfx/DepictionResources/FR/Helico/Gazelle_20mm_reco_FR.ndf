@@ -1,0 +1,14 @@
+export Modele_Gazelle_20mm_reco_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Gazelle_Reco_20mm/Gazelle_20mm.Ase2NdfBin'
+)
+
+export Modele_Gazelle_20mm_reco_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Gazelle_Reco_20mm/Gazelle_20mm.Ase2NdfBin'
+)
+
+export Modele_Gazelle_20mm_reco_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Gazelle_Reco_20mm/Gazelle_20mm.Ase2NdfBin'
+)

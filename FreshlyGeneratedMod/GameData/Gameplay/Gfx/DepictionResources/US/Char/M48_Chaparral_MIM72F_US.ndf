@@ -1,0 +1,14 @@
+export Modele_M48_Chaparral_MIM72F_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/DCA/M48A1_Chaparral/M48A1_Chaparral.Ase2NdfBin'
+)
+
+export Modele_M48_Chaparral_MIM72F_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/DCA/M48A1_Chaparral_MID/M48A1_Chaparral_MID.Ase2NdfBin'
+)
+
+export Modele_M48_Chaparral_MIM72F_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/DCA/LODS/M48A1_Chaparral_LOW.Ase2NdfBin'
+)

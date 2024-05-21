@@ -1,0 +1,14 @@
+export Modele_Roland_2_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/DCA/Roland_2/Roland_2.Ase2NdfBin'
+)
+
+export Modele_Roland_2_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/DCA/Roland_2/Roland_2.Ase2NdfBin'
+)
+
+export Modele_Roland_2_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/DCA/Roland_2/Roland_2.Ase2NdfBin'
+)

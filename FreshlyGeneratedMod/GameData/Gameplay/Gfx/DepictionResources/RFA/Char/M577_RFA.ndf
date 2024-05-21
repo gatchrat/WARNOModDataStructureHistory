@@ -1,0 +1,14 @@
+export Modele_M577_RFA is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/CMD/M577/M577.Ase2NdfBin'
+)
+
+export Modele_M577_RFA_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/CMD/M577_MID/M577_MID.Ase2NdfBin'
+)
+
+export Modele_M577_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/CMD/LODS/M577_LOW.Ase2NdfBin'
+)

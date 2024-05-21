@@ -1,0 +1,14 @@
+export Modele_T813_trans_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Vehicule/T813/T813.Ase2NdfBin'
+)
+
+export Modele_T813_trans_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Vehicule/T813/T813.Ase2NdfBin'
+)
+
+export Modele_T813_trans_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Vehicule/T813/T813.Ase2NdfBin'
+)

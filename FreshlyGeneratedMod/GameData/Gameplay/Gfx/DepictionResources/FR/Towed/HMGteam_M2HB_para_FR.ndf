@@ -1,0 +1,17 @@
+export Modele_HMGteam_M2HB_para_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Canon/M2HB/M2HB.Ase2NdfBin'
+)
+
+export Modele_HMGteam_M2HB_para_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Canon/M2HB/M2HB.Ase2NdfBin'
+)
+
+export Modele_HMGteam_M2HB_para_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Canon/M2HB/M2HB.Ase2NdfBin'
+)
+
+
+

@@ -1,0 +1,14 @@
+export Modele_TRM_2000_supply_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/TRM_2000/TRM_2000.Ase2NdfBin'
+)
+
+export Modele_TRM_2000_supply_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/TRM_2000_MID/TRM_2000_MID.Ase2NdfBin'
+)
+
+export Modele_TRM_2000_supply_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/LODS/TRM_2000_LOW.Ase2NdfBin'
+)

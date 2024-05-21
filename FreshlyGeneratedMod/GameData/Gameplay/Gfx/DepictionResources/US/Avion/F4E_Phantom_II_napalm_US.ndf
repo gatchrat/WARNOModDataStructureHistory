@@ -1,0 +1,19 @@
+export Modele_F4E_Phantom_II_napalm_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F4E_Phantom_II/F4E_Phantom_II.Ase2NdfBin'
+)
+
+export Modele_F4E_Phantom_II_napalm_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F4E_Phantom_II_MID/F4E_Phantom_II_MID.Ase2NdfBin'
+)
+
+export Modele_F4E_Phantom_II_napalm_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/LODS/F4E_Phantom_II_LOW.Ase2NdfBin'
+)
+
+export Modele_F4E_Phantom_II_napalm_US_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F4E_Phantom_II/F4E_Phantom_II_train.Ase2NdfBin'
+)

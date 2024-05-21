@@ -1,0 +1,14 @@
+export Modele_M48A2C_RFA is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Char/M48A2C/M48A2C.Ase2NdfBin'
+)
+
+export Modele_M48A2C_RFA_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Char/M48A2C_MID/M48A2C_MID.Ase2NdfBin'
+)
+
+export Modele_M48A2C_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Char/LODS/M48A2C_LOW.Ase2NdfBin'
+)

@@ -1,0 +1,14 @@
+export Modele_M35_trans_tuto_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Vehicule/M35_Cargo/M35_Cargo.Ase2NdfBin'
+)
+
+export Modele_M35_trans_tuto_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Vehicule/M35_Cargo_MID/M35_Cargo_MID.Ase2NdfBin'
+)
+
+export Modele_M35_trans_tuto_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Vehicule/LODS/M35_Cargo_LOW.Ase2NdfBin'
+)

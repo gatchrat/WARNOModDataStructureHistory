@@ -1,0 +1,14 @@
+export Modele_Iltis_CMD_BEL is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/CMD/Iltis_CMD/Iltis.Ase2NdfBin'
+)
+
+export Modele_Iltis_CMD_BEL_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/CMD/Iltis_CMD/Iltis.Ase2NdfBin'
+)
+
+export Modele_Iltis_CMD_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/CMD/Iltis_CMD/Iltis.Ase2NdfBin'
+)

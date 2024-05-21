@@ -1,0 +1,14 @@
+export Modele_BTR_50_CMD_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/APC/BTR_50_CMD/BTR_50_CMD.Ase2NdfBin'
+)
+
+export Modele_BTR_50_CMD_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/APC/BTR_50_CMD/BTR_50_CMD.Ase2NdfBin'
+)
+
+export Modele_BTR_50_CMD_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/APC/BTR_50_CMD/BTR_50_CMD.Ase2NdfBin'
+)

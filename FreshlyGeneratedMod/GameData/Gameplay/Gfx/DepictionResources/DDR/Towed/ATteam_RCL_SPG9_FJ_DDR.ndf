@@ -1,0 +1,17 @@
+export Modele_ATteam_RCL_SPG9_FJ_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_SPG9/SPG9.Ase2NdfBin'
+)
+
+export Modele_ATteam_RCL_SPG9_FJ_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_SPG9/SPG9.Ase2NdfBin'
+)
+
+export Modele_ATteam_RCL_SPG9_FJ_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_SPG9/SPG9.Ase2NdfBin'
+)
+
+
+

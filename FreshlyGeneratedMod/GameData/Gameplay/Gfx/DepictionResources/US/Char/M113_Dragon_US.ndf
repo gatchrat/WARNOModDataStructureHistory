@@ -1,0 +1,19 @@
+export Modele_M113_Dragon_US is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/APC/M113/M113A1_TOW.Ase2NdfBin'
+)
+
+export Modele_M113_Dragon_US_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/APC/M113_MID/M113A1_TOW_MID.Ase2NdfBin'
+)
+
+export Modele_M113_Dragon_US_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/APC/LODS/M113A1_TOW_LOW.Ase2NdfBin'
+)
+
+export Modele_M113_Dragon_US_Tourelle_02 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/Ammo/Tourelles/M47_Dragon_II.Ase2NdfBin'
+)

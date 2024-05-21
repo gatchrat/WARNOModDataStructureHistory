@@ -1,0 +1,17 @@
+export Modele_BRDM_2_Konkurs_M_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/BRDM2_Konkurs_M/BRDM2_Konkurs.Ase2NdfBin'
+)
+
+export Modele_BRDM_2_Konkurs_M_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/BRDM2_Konkurs_M/BRDM2_Konkurs.Ase2NdfBin'
+)
+
+export Modele_BRDM_2_Konkurs_M_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/BRDM2_Konkurs_M/BRDM2_Konkurs.Ase2NdfBin'
+)
+
+
+

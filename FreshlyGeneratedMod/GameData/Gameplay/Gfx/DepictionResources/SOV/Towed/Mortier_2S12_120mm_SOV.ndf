@@ -1,0 +1,17 @@
+export Modele_Mortier_2S12_120mm_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/2S12_120mm/2S12_120mm.Ase2NdfBin'
+)
+
+export Modele_Mortier_2S12_120mm_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/2S12_120mm/2S12_120mm.Ase2NdfBin'
+)
+
+export Modele_Mortier_2S12_120mm_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/2S12_120mm/2S12_120mm.Ase2NdfBin'
+)
+
+
+

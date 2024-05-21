@@ -1,0 +1,14 @@
+export Modele_Mi_24V_AA_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_24V_Hind/Mi_24V_Hind_AA.Ase2NdfBin'
+)
+
+export Modele_Mi_24V_AA_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_24V_Hind/Mi_24V_Hind_AA.Ase2NdfBin'
+)
+
+export Modele_Mi_24V_AA_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_24V_Hind/Mi_24V_Hind_AA.Ase2NdfBin'
+)

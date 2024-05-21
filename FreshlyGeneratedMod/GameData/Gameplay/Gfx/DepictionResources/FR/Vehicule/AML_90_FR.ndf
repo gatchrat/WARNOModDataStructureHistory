@@ -1,0 +1,14 @@
+export Modele_AML_90_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/AML_90/AML_90.Ase2NdfBin'
+)
+
+export Modele_AML_90_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/AML_90_MID/AML_90_MID.Ase2NdfBin'
+)
+
+export Modele_AML_90_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/LODS/AML_90_LOW.Ase2NdfBin'
+)

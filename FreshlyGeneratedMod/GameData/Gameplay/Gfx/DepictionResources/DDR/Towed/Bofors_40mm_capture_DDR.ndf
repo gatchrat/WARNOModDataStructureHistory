@@ -1,0 +1,14 @@
+export Modele_Bofors_40mm_capture_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/RFA/Canon/Bofors_40mm_L70/Bofors_40mm_L70.Ase2NdfBin'
+)
+
+export Modele_Bofors_40mm_capture_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/RFA/Canon/Bofors_40mm_L70/Bofors_40mm_L70.Ase2NdfBin'
+)
+
+export Modele_Bofors_40mm_capture_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/RFA/Canon/Bofors_40mm_L70/Bofors_40mm_L70.Ase2NdfBin'
+)

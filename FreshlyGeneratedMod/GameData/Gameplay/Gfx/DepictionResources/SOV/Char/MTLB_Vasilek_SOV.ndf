@@ -1,0 +1,19 @@
+export Modele_MTLB_Vasilek_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/APC/MTLB/MTLB_Vasilek.Ase2NdfBin'
+)
+
+export Modele_MTLB_Vasilek_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/APC/MTLB/MTLB_Vasilek.Ase2NdfBin'
+)
+
+export Modele_MTLB_Vasilek_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/APC/MTLB/MTLB_Vasilek.Ase2NdfBin'
+)
+
+export Modele_MTLB_Vasilek_SOV_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Canon/2B9_Vasilek/2B9_Vasilek_t1.Ase2NdfBin'
+)

@@ -1,0 +1,14 @@
+export Modele_MFRW_RM70_cluster_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Artillerie/MFRW_RM70/MFRW_RM70.Ase2NdfBin'
+)
+
+export Modele_MFRW_RM70_cluster_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Artillerie/MFRW_RM70/MFRW_RM70.Ase2NdfBin'
+)
+
+export Modele_MFRW_RM70_cluster_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Artillerie/MFRW_RM70/MFRW_RM70.Ase2NdfBin'
+)

@@ -1,0 +1,14 @@
+export Modele_CH53_Sea_Stallion_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/CH53_SeaStallion/CH53_SeaStallion.Ase2NdfBin'
+)
+
+export Modele_CH53_Sea_Stallion_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/CH53_SeaStallion_MID/CH53_SeaStallion_MID.Ase2NdfBin'
+)
+
+export Modele_CH53_Sea_Stallion_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/LODS/CH53_SeaStallion_LOW.Ase2NdfBin'
+)

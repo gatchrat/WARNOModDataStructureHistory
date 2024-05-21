@@ -1,0 +1,72 @@
+// A maintenir synchro avec Engine\Code\Eugen\CPP\EugIA_Common\InfluenceMapConstantes.h
+template InfluenceMapGeometryParameters
+[
+    DistanceDeLissage : float = 20000.0,
+    DecallageCelluleVideParDefaut : float = -0.2,
+]
+is TInfluenceMapGeometryParameters
+(
+    SmoothDistance  = <DistanceDeLissage>
+    EmptyCellDefaultOffset = <DecallageCelluleVideParDefaut>
+)
+
+export DefaultGeometryParameters is InfluenceMapGeometryParameters()
+//---------------------------------------------------------------------------------------//
+//---------------------------------------------------------------------------------------//
+//-----------------------------TACTIC----------------------------------------------------//
+//---------------------------------------------------------------------------------------//
+//---------------------------------------------------------------------------------------//
+
+export InfluenceMapCstTactic is TInfluenceMapConstantesDescriptor
+(
+    InfluenceMapName = "Influence Map Tactic"
+
+    TailleDeCase = 500 * Metre // Attention impacte lourdement sur les performances
+
+    DefaultDecay = 0.001
+    DefaultMomentum = 0.3
+    MinValueInfluenceForOwnership = 0.4
+
+    UseMinValueForEmptyOwnerCell = true
+
+    ParametresDeCalculDeLaGeometry = DefaultGeometryParameters
+    ManageInfluencePoints = true
+
+)
+//---------------------------------------------------------------------------------------//
+export influenceMapsTactic is TInfluenceMapDescriptors
+(
+    DecayActifUniquementEnPhaseDeCommandement = true
+    InfluenceMapDescriptor = nil
+    ZoneInfluenceMapDescriptor = InfluenceMapCstTactic
+)
+
+//---------------------------------------------------------------------------------------//
+//---------------------------------------------------------------------------------------//
+//-----------------------------STRATEGIC-------------------------------------------------//
+//---------------------------------------------------------------------------------------//
+//---------------------------------------------------------------------------------------//
+
+export InfluenceMapCstStrategic is TInfluenceMapConstantesDescriptor
+(
+    InfluenceMapName = "Influence Map Strategic"
+
+    TailleDeCase = 200 * Metre
+
+    // pour plus d'info --> https://confluence.eugennet.com/pages/viewpage.action?pageId=29364229
+    DefaultDecay = 0.2
+    DefaultMomentum = 0.9
+    MinValueInfluenceForOwnership = 0.3
+
+    UseMinValueForEmptyOwnerCell = false
+
+    ParametresDeCalculDeLaGeometry = DefaultGeometryParameters
+    ManageInfluencePoints = true
+)
+//---------------------------------------------------------------------------------------//
+export influenceMapsStrategic is TInfluenceMapDescriptors
+(
+    DecayActifUniquementEnPhaseDeCommandement = true
+    InfluenceMapDescriptor = InfluenceMapCstStrategic
+    ZoneInfluenceMapDescriptor = nil
+)

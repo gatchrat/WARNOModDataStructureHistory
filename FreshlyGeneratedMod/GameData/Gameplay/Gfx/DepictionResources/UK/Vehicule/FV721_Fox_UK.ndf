@@ -1,0 +1,17 @@
+export Modele_FV721_Fox_UK is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/FV721_Fox/FV721_Fox.Ase2NdfBin'
+)
+
+export Modele_FV721_Fox_UK_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/FV721_Fox_MID/FV721_Fox_MID.Ase2NdfBin'
+)
+
+export Modele_FV721_Fox_UK_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/LODS/FV721_Fox_LOW.Ase2NdfBin'
+)
+
+
+

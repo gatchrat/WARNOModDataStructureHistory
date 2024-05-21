@@ -1,0 +1,14 @@
+export Modele_VLRA_HMG_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VLRA_HMG/VLRA_HMG.Ase2NdfBin'
+)
+
+export Modele_VLRA_HMG_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VLRA_HMG/VLRA_HMG.Ase2NdfBin'
+)
+
+export Modele_VLRA_HMG_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VLRA_HMG/VLRA_HMG.Ase2NdfBin'
+)

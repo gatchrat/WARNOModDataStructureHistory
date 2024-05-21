@@ -1,0 +1,45 @@
+ActionPointsReachModuleDescriptor is TActionPointsReachModuleDescriptor()
+IALinkToGroupModuleDescriptor is TIALinkToGroupModuleDescriptor()
+StrategicSequenceModuleDescriptor is TStrategicSequenceModuleDescriptor()
+StrategicSupplyableModuleDescriptor is TStrategicSupplyableModuleDescriptor()
+StrategicAerialModuleDescriptor is TStrategicAerialModuleDescriptor()
+
+template StrategicFatigueModuleDescriptor [ InitialFatigue ] is TStrategicFatigueModuleDescriptor
+(
+  MaxFatigue      = ~/StrategicMaxFatiguePerUnit
+  InitialFatigue  = <InitialFatigue>
+)
+
+StrategicSelectionModuleDescriptor is TSelectionModuleDescriptor
+(
+    IsSelectable       = True
+    IsHighlightable    = True
+    HasSelectionShader = True
+    HasHighlightShader = True
+)
+
+PawnPositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InGeoDb                    = True
+    ClampInWorld               = False
+    ClampOutMap                = False
+)
+
+StrategicStateEngineModuleDescriptor is TStateEngineUnitModuleDescriptor
+(
+    StateEngineUpdateMode = WorldControllerAccess_InWorld
+)
+
+StrategicBuildingModuleDescriptor is TWargameBuildingModuleDescriptor
+(
+    BoundingBoxMin = $/GFX/Constantes/StrategicBuildingBoxMin
+    BoundingBoxMax = $/GFX/Constantes/StrategicBuildingBoxMax
+)
+
+template StrategicUIModuleDescriptor [ NameToken, ProdMenuTexture ] is TPawnUIModuleDescriptor
+(
+    NameToken = <NameToken>
+    ProdMenuTexture = <ProdMenuTexture>
+)
+
+PawnAirplaneOrderConfigModuleDescriptor is TOrderConfigModuleDescriptor()

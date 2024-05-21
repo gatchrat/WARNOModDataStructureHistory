@@ -1,0 +1,19 @@
+export Modele_BMP_1P_reco_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/APC/BMP1P_reco/BMP1P_reco.Ase2NdfBin'
+)
+
+export Modele_BMP_1P_reco_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/APC/BMP1P_reco_MID/BMP1P_reco_MID.Ase2NdfBin'
+)
+
+export Modele_BMP_1P_reco_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/APC/LODS/BMP1P_reco_LOW.Ase2NdfBin'
+)
+
+// Modele_BMP_1P_reco_DDR_Tourelle_02 is TemplateMeshDescriptor
+// (
+//     FileName = 'GameData:/Assets/3D/Units/DDR/Char/T55_AM2/DShK_127mm.Ase2NdfBin'
+// )

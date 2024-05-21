@@ -1,0 +1,19 @@
+export Modele_M113A1B_MILAN_BEL is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/APC/M113A1B_MILAN/M113A1B_MILAN.Ase2NdfBin'
+)
+
+export Modele_M113A1B_MILAN_BEL_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/APC/M113A1B_MILAN/M113A1B_MILAN.Ase2NdfBin'
+)
+
+export Modele_M113A1B_MILAN_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/APC/M113A1B_MILAN/M113A1B_MILAN.Ase2NdfBin'
+)
+
+// export Modele_M113A1B_MILAN_BEL_Tourelle_02 is TemplateMeshDescriptor
+// (
+//     FileName = 'GameData:/Assets/3D/Units/Ammo/Tourelles/M47_Dragon_II.Ase2NdfBin'
+// )

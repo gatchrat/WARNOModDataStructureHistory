@@ -1,0 +1,17 @@
+export Modele_MTLB_CMD_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/MTLB_CMD/MTLB_CMD.Ase2NdfBin'
+)
+
+export Modele_MTLB_CMD_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/MTLB_Shturm_MID/MTLB_CMD_MID.Ase2NdfBin'
+)
+
+export Modele_MTLB_CMD_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/LODS/MTLB_CMD_LOW.Ase2NdfBin'
+)
+
+
+

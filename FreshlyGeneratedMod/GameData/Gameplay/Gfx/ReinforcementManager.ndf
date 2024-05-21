@@ -1,0 +1,7 @@
+private reinforcementManager is TReinforcementManager
+(
+    ReinforcementColor = RGBA[255,255,255,255]
+    RoadSnapDistanceInLBU = 500
+    LandCorridorTextOffset = 5000
+    AerialCorridorTextOffset = 5000
+)

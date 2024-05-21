@@ -1,0 +1,21 @@
+export Modele_TPZ_Fuchs_1_RFA is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/TPZ_Fuchs_1/TPZ_Fuchs_1.Ase2NdfBin'
+)
+
+export Modele_TPZ_Fuchs_1_RFA_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/TPZ_Fuchs_1_MID/TPZ_Fuchs_1_MID.Ase2NdfBin'
+)
+
+export Modele_TPZ_Fuchs_1_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/LODS/TPZ_Fuchs_1_LOW.Ase2NdfBin'
+)
+
+export ModelFile_MG3_Tourelle_01 is 'GameData:/Assets/3D/Units/Ammo/Tourelles/MG3_t1.Ase2NdfBin'
+
+export Modele_TPZ_Fuchs_1_RFA_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = ModelFile_MG3_Tourelle_01
+)

@@ -1,0 +1,14 @@
+export Modele_VBL_Reco_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VBL_RECO/VBL_RECO.Ase2NdfBin'
+)
+
+export Modele_VBL_Reco_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VBL_RECO/VBL_RECO.Ase2NdfBin'
+)
+
+export Modele_VBL_Reco_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VBL_RECO/VBL_RECO.Ase2NdfBin'
+)

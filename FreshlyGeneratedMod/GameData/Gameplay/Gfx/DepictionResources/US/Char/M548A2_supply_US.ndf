@@ -1,0 +1,14 @@
+export Modele_M548A2_supply_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/APC/M548A2_supply/M548A2_supply.Ase2NdfBin'
+)
+
+export Modele_M548A2_supply_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/APC/M548A2_supply/M548A2_supply.Ase2NdfBin'
+)
+
+export Modele_M548A2_supply_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/APC/M548A2_supply/M548A2_supply.Ase2NdfBin'
+)

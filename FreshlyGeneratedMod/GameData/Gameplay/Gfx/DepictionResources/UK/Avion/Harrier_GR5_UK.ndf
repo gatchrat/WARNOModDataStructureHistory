@@ -1,0 +1,19 @@
+export Modele_Harrier_GR5_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Harrier_GR_5/Harrier_GR_5.Ase2NdfBin'
+)
+
+export Modele_Harrier_GR5_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Harrier_GR5_MID/Harrier_GR5_MID.Ase2NdfBin'
+)
+
+export Modele_Harrier_GR5_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/LODS/Harrier_GR5_LOW.Ase2NdfBin'
+)
+
+export Modele_Harrier_GR5_UK_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Harrier_GR_5/Harrier_GR_5_train.Ase2NdfBin'
+)

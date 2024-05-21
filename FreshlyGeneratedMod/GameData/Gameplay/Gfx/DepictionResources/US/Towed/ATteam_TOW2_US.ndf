@@ -1,0 +1,17 @@
+export Modele_ATteam_TOW2_US is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Antichar/BGM71E_TOW_2A/BGM71E_TOW_2A.Ase2NdfBin'
+)
+
+export Modele_ATteam_TOW2_US_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Antichar/BGM71E_TOW_2A/BGM71E_TOW_2A.Ase2NdfBin'
+)
+
+export Modele_ATteam_TOW2_US_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Antichar/BGM71E_TOW_2A/BGM71E_TOW_2A.Ase2NdfBin'
+)
+
+
+

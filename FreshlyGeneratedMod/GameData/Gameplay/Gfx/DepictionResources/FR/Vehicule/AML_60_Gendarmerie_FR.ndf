@@ -1,0 +1,14 @@
+export Modele_AML_60_Gendarmerie_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/AML_60_Gendarmerie/AML_60_Gendarmerie.fbx'
+)
+
+export Modele_AML_60_Gendarmerie_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/AML_60_Gendarmerie/AML_60_Gendarmerie.fbx'
+)
+
+export Modele_AML_60_Gendarmerie_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/AML_60_Gendarmerie/AML_60_Gendarmerie.fbx'
+)

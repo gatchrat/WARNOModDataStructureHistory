@@ -1,0 +1,19 @@
+export Modele_M113A1B_BEL is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/APC/M113A1B/M113A1B.Ase2NdfBin'
+)
+
+export Modele_M113A1B_BEL_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/APC/M113A1B/M113A1B.Ase2NdfBin'
+)
+
+export Modele_M113A1B_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/APC/M113A1B/M113A1B.Ase2NdfBin'
+)
+
+// export Modele_M113A1B_BEL_Tourelle_01 is TemplateMeshDescriptor
+// (
+//     FileName = ModelFile_MG3_Tourelle_01
+// )

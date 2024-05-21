@@ -1,0 +1,14 @@
+export Modele_Puma_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Puma/Puma.Ase2NdfBin'
+)
+
+export Modele_Puma_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Puma/Puma.Ase2NdfBin'
+)
+
+export Modele_Puma_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Puma/Puma.Ase2NdfBin'
+)

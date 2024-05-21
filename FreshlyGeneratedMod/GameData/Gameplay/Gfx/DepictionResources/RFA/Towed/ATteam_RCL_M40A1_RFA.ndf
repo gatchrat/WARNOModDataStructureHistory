@@ -1,0 +1,17 @@
+export Modele_ATteam_RCL_M40A1_RFA is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/APC/M113_ACAV/M40A1.Ase2NdfBin'
+)
+
+export Modele_ATteam_RCL_M40A1_RFA_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/APC/M113_ACAV/M40A1.Ase2NdfBin'
+)
+
+export Modele_ATteam_RCL_M40A1_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/APC/M113_ACAV/M40A1.Ase2NdfBin'
+)
+
+
+

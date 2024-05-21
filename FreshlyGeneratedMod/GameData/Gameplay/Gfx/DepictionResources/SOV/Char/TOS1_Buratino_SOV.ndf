@@ -1,0 +1,14 @@
+export Modele_TOS1_Buratino_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/TOS1_Buratino/TOS1_Buratino.Ase2NdfBin'
+)
+
+export Modele_TOS1_Buratino_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/TOS1_Buratino_MID/TOS1_Buratino_MID.Ase2NdfBin'
+)
+
+export Modele_TOS1_Buratino_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/LODS/TOS1_Buratino_LOW.Ase2NdfBin'
+)

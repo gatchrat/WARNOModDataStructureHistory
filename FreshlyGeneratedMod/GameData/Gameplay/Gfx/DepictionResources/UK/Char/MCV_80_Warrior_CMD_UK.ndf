@@ -1,0 +1,14 @@
+export Modele_MCV_80_Warrior_CMD_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/MCV_80_WARRIOR_CMD/MCV_80_WARRIOR_CMD.fbx'
+)
+
+export Modele_MCV_80_Warrior_CMD_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/MCV_80_WARRIOR_CMD/MCV_80_WARRIOR_CMD.fbx'
+)
+
+export Modele_MCV_80_Warrior_CMD_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/MCV_80_WARRIOR_CMD/MCV_80_WARRIOR_CMD.fbx'
+)

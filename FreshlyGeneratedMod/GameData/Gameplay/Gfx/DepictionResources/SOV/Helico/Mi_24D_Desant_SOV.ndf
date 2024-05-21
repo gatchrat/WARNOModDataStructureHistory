@@ -1,0 +1,17 @@
+export Modele_Mi_24D_Desant_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_24D/Mi_24V_Hind_Desant.Ase2NdfBin'
+    TextureDirectory = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_24D'
+)
+
+export Modele_Mi_24D_Desant_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_24D_MID/Mi_24V_Hind_Desant_MID.Ase2NdfBin'
+    TextureDirectory = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_24D_MID'
+)
+
+export Modele_Mi_24D_Desant_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_24D_LOW/Mi_24V_Hind_Desant_LOW.Ase2NdfBin'
+    //TextureDirectory = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_24D_LOW'
+)

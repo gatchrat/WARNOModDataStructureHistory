@@ -1,0 +1,19 @@
+export Modele_Mirage_5_BA_BEL is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Avion/Mirage_5BA/Mirage_5_F.Ase2NdfBin'
+)
+
+export Modele_Mirage_5_BA_BEL_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Avion/Mirage_5BA/Mirage_5_F.Ase2NdfBin'
+)
+
+export Modele_Mirage_5_BA_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Avion/Mirage_5BA/Mirage_5_F.Ase2NdfBin'
+)
+
+export Modele_Mirage_5_BA_BEL_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Avion/Mirage_5BA/Mirage_5_F_train.Ase2NdfBin'
+)

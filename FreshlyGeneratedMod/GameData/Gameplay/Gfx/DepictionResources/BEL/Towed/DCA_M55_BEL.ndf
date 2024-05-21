@@ -1,0 +1,17 @@
+export Modele_DCA_M55_BEL is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/NL/Canon/DCA_M55_Maxson/DCA_M55_Maxson.fbx'
+)
+
+export Modele_DCA_M55_BEL_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/NL/Canon/DCA_M55_Maxson/DCA_M55_Maxson.fbx'
+)
+
+export Modele_DCA_M55_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/NL/Canon/DCA_M55_Maxson/DCA_M55_Maxson.fbx'
+)
+
+
+

@@ -1,0 +1,14 @@
+export Modele_2S9_Nona_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/2S9_Nona/2S9_Nona.Ase2NdfBin'
+)
+
+export Modele_2S9_Nona_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/2S9_Nona/2S9_Nona.Ase2NdfBin'
+)
+
+export Modele_2S9_Nona_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/2S9_Nona/2S9_Nona.Ase2NdfBin'
+)

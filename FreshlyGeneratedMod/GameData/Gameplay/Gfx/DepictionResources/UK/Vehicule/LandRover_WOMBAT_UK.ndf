@@ -1,0 +1,17 @@
+export Modele_LandRover_WOMBAT_UK is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/LandRover_Para_WOMBAT/LandRover_Para_WOMBAT.Ase2NdfBin'
+)
+
+export Modele_LandRover_WOMBAT_UK_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/LandRover_Para_WOMBAT_MID/LandRover_Para_WOMBAT_MID.Ase2NdfBin'
+)
+
+export Modele_LandRover_WOMBAT_UK_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Vehicule/LODS/LandRover_Para_WOMBAT_LOW.Ase2NdfBin'
+)
+
+
+

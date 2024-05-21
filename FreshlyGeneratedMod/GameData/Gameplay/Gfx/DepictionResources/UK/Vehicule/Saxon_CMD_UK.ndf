@@ -1,0 +1,17 @@
+export Modele_Saxon_CMD_UK is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/CMD/Saxon_CP/Saxon.Ase2NdfBin'
+)
+
+export Modele_Saxon_CMD_UK_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/CMD/Saxon_CP/Saxon.Ase2NdfBin'
+)
+
+export Modele_Saxon_CMD_UK_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/CMD/Saxon_CP/Saxon.Ase2NdfBin'
+)
+
+
+

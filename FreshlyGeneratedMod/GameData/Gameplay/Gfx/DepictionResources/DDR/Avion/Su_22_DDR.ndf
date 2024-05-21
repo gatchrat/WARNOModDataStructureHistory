@@ -1,0 +1,19 @@
+export Modele_Su_22_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/Su_22/Su_22.Ase2NdfBin'
+)
+
+export Modele_Su_22_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/Su_22_MID/Su_22_MID.Ase2NdfBin'
+)
+
+export Modele_Su_22_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/LODS/Su_22_LOW.Ase2NdfBin'
+)
+
+export Modele_Su_22_DDR_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/Su_22/Su_22_train.Ase2NdfBin'
+)

@@ -1,0 +1,20 @@
+export Modele_BMD_1K_CMD_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BMD_1/BMD_1.Ase2NdfBin'
+    TextureDirectory = 'GameData:/Assets/3D/Units/URSS/CMD/BMD_1K_CMD'
+)
+
+export Modele_BMD_1K_CMD_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BMD_1/BMD_1.Ase2NdfBin'
+    TextureDirectory = 'GameData:/Assets/3D/Units/URSS/CMD/BMD_1K_CMD'
+)
+
+export Modele_BMD_1K_CMD_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BMD_1/BMD_1.Ase2NdfBin'
+    TextureDirectory = 'GameData:/Assets/3D/Units/URSS/CMD/BMD_1K_CMD'
+)
+
+
+

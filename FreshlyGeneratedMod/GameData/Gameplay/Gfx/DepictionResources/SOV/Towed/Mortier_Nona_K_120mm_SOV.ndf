@@ -1,0 +1,17 @@
+export Modele_Mortier_Nona_K_120mm_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/Mortier_Nona_K_120mm/Mortier_Nona_K_120mm.fbx'
+)
+
+export Modele_Mortier_Nona_K_120mm_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/Mortier_Nona_K_120mm/Mortier_Nona_K_120mm.fbx'
+)
+
+export Modele_Mortier_Nona_K_120mm_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/Mortier_Nona_K_120mm/Mortier_Nona_K_120mm.fbx'
+)
+
+
+

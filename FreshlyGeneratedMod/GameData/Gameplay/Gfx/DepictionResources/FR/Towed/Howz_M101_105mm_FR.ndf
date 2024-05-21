@@ -1,0 +1,17 @@
+export Modele_Howz_M101_105mm_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Canon/Howz_M101_105mm_L22/Howz_M101_105mm_L22.Ase2NdfBin'
+)
+
+export Modele_Howz_M101_105mm_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Canon/Howz_M101_105mm_L22/Howz_M101_105mm_L22.Ase2NdfBin'
+)
+
+export Modele_Howz_M101_105mm_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Canon/Howz_M101_105mm_L22/Howz_M101_105mm_L22.Ase2NdfBin'
+)
+
+
+

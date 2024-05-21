@@ -1,0 +1,14 @@
+export Modele_M110A2_HOWZ_BEL is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Artillerie/M110_A2/M110_A2.Ase2NdfBin'
+)
+
+export Modele_M110A2_HOWZ_BEL_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Artillerie/M110_A2/M110_A2.Ase2NdfBin'
+)
+
+export Modele_M110A2_HOWZ_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Artillerie/M110_A2/M110_A2.Ase2NdfBin'
+)

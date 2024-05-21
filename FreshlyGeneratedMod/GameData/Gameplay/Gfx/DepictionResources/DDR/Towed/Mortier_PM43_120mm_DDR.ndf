@@ -1,0 +1,17 @@
+export Modele_Mortier_PM43_120mm_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/Canon/PM43_120mm/PM43_120mm.Ase2NdfBin'
+)
+
+export Modele_Mortier_PM43_120mm_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/Canon/PM43_120mm_MID/PM43_120mm_MID.Ase2NdfBin'
+)
+
+export Modele_Mortier_PM43_120mm_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/Canon/LODS/PM43_120mm_LOW.Ase2NdfBin'
+)
+
+
+

@@ -1,0 +1,21 @@
+export Modele_M109A2_NG_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/M109_A2_NG/M109_A2.Ase2NdfBin'
+)
+
+export Modele_M109A2_NG_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/M109_A2_NG/M109_A2.Ase2NdfBin'
+)
+
+export Modele_M109A2_NG_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/M109_A2_NG/M109_A2.Ase2NdfBin'
+)
+
+export ModelFile_M109A2_NG_US_Tourelle_02 is 'GameData:/Assets/3D/Units/US/Artillerie/M106_A2/cal50_t2.Ase2NdfBin'
+
+export Modele_M109A2_NG_US_Tourelle_02 is TemplateMeshDescriptor
+(
+    FileName = ModelFile_M109A2_NG_US_Tourelle_02
+)

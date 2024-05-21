@@ -1,0 +1,32 @@
+VehicleDestTextures is TDepictionAdditionalTextures
+(
+    Textures = [
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Vehicle/Dest.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Vehicle/Dest_A.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Vehicle/Dest_NM.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Vehicle/Dest_SL.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Vehicle/Dest_R.png',
+    ]
+)
+
+AirplaneDestTextures is TDepictionAdditionalTextures
+(
+    Textures = [
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Airplane/Dest.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Airplane/Dest_A.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Airplane/Dest_NM.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Airplane/Dest_SL.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Airplane/Dest_R.png',
+    ]
+)
+
+HelicoDestTextures is TDepictionAdditionalTextures
+(
+    Textures = [
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Helico/Dest.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Helico/Dest_A.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Helico/Dest_NM.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Helico/Dest_SL.png',
+        'GameData:/Assets/3D/Units/Common/ShaderDest/Helico/Dest_R.png',
+    ]
+)

@@ -1,0 +1,19 @@
+export Modele_Iltis_MILAN_BEL is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/Vehicule/Iltis_reco/Iltis_reco.Ase2NdfBin'
+)
+
+export Modele_Iltis_MILAN_BEL_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/Vehicule/Iltis_reco/Iltis_reco.Ase2NdfBin'
+)
+
+export Modele_Iltis_MILAN_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/Vehicule/Iltis_reco/Iltis_reco.Ase2NdfBin'
+)
+
+export Modele_Iltis_MILAN_BEL_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/APC/AMX_10P_MILAN/MILAN_t1.Ase2NdfBin'
+)

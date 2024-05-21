@@ -1,0 +1,10 @@
+template TemplateMeshDescriptor
+[
+    FileName : string,
+    TextureDirectory : string = '',
+] is TResourceMultiMaterialMesh
+(
+    FileName = <FileName>
+    TextureDirectory = <TextureDirectory>
+    UsefulnessMask = CivMask/Common + TypeMask/Common // Les TypeMask ne sont utilisés que pour les textures, pas pour les meshs.
+)

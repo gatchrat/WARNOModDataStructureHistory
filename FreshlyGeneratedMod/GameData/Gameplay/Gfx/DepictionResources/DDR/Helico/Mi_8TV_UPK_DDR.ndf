@@ -1,0 +1,21 @@
+export Modele_Mi_8TV_UPK_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_8TV/Mi_8TV_UPK.Ase2NdfBin'
+)
+
+export Modele_Mi_8TV_UPK_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_8TV_MID/Mi_8TV_UPK_MID.Ase2NdfBin'
+)
+
+export Modele_Mi_8TV_UPK_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/LODS/Mi_8TV_UPK_LOW.Ase2NdfBin'
+)
+
+export ModelFile_Pod_UPK_t2 is 'GameData:/Assets/3D/Units/Ammo/Tourelles/SOV/UPK_23_250/UPK_23_250_t2.fbx'
+
+export Modele_Mi_8TV_UPK_DDR_Tourelle_02 is TemplateMeshDescriptor
+(
+    FileName = ModelFile_Pod_UPK_t2
+)

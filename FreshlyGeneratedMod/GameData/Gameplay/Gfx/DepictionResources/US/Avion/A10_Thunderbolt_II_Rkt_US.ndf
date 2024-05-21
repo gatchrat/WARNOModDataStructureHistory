@@ -1,0 +1,19 @@
+export Modele_A10_Thunderbolt_II_Rkt_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/A10_Thunderbolt_II/A10_Thunderbolt_II.Ase2NdfBin'
+)
+
+export Modele_A10_Thunderbolt_II_Rkt_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/A10_Thunderbolt_II_MID/A10_Thunderbolt_II_MID.Ase2NdfBin'
+)
+
+export Modele_A10_Thunderbolt_II_Rkt_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/LODS/A10_Thunderbolt_II_LOW.Ase2NdfBin'
+)
+
+export Modele_A10_Thunderbolt_II_Rkt_US_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/A10_Thunderbolt_II/A10_Thunderbolt_II_train.Ase2NdfBin'
+)

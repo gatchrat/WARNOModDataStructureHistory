@@ -1,0 +1,19 @@
+export Modele_Iltis_HMG_BEL is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/Vehicule/Iltis_reco/Iltis_reco.Ase2NdfBin'
+)
+
+export Modele_Iltis_HMG_BEL_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/Vehicule/Iltis_reco/Iltis_reco.Ase2NdfBin'
+)
+
+export Modele_Iltis_HMG_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/Vehicule/Iltis_reco/Iltis_reco.Ase2NdfBin'
+)
+
+export Modele_Iltis_HMG_BEL_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/M106_A2/cal50_t1.Ase2NdfBin'
+)

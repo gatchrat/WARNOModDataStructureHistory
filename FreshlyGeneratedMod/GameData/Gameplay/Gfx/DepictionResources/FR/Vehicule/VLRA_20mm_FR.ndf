@@ -1,0 +1,14 @@
+export Modele_VLRA_20mm_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/DCA/VLRA_20mm/VLRA_20mm.Ase2NdfBin'
+)
+
+export Modele_VLRA_20mm_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/DCA/VLRA_20mm/VLRA_20mm.Ase2NdfBin'
+)
+
+export Modele_VLRA_20mm_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/DCA/VLRA_20mm/VLRA_20mm.Ase2NdfBin'
+)

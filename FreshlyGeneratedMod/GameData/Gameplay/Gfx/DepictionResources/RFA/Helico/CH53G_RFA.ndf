@@ -1,0 +1,14 @@
+export Modele_CH53G_RFA is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Helico/CH_53_G/CH_53_G.Ase2NdfBin'
+)
+
+export Modele_CH53G_RFA_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Helico/CH_53_G_MID/CH_53_G_MID.Ase2NdfBin'
+)
+
+export Modele_CH53G_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Helico/LODS/CH_53_G_LOW.Ase2NdfBin'
+)

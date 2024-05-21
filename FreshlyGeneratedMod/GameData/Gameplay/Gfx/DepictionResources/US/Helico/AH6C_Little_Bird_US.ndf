@@ -1,0 +1,14 @@
+export Modele_AH6C_Little_Bird_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/AH_6C_Little_Bird/AH_6C_Little_Bird.Ase2NdfBin'
+)
+
+export Modele_AH6C_Little_Bird_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/AH_6C_Little_Bird_MID/AH_6C_Little_Bird_MID.Ase2NdfBin'
+)
+
+export Modele_AH6C_Little_Bird_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/LODS/AH_6C_Little_Bird_LOW.Ase2NdfBin'
+)

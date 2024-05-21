@@ -1,0 +1,25 @@
+export Modele_TPZ_Fuchs_MILAN_RFA is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/TPZ_Fuchs_1/TPZ_Fuchs_1.Ase2NdfBin'
+)
+
+export Modele_TPZ_Fuchs_MILAN_RFA_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/TPZ_Fuchs_1_MID/TPZ_Fuchs_1_MID.Ase2NdfBin'
+)
+
+export Modele_TPZ_Fuchs_MILAN_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/LODS/TPZ_Fuchs_1_LOW.Ase2NdfBin'
+)
+
+export Modele_TPZ_Fuchs_MILAN_RFA_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = ModelFile_MG3_Tourelle_01
+)
+export ModelFile_MILAN_Tourelle_02 is 'GameData:/Assets/3D/Units/RFA/APC/Marder_1A2_MILAN/MILAN_t2.Ase2NdfBin'
+
+export Modele_TPZ_Fuchs_MILAN_RFA_Tourelle_02 is TemplateMeshDescriptor
+(
+    FileName = ModelFile_MILAN_Tourelle_02
+)

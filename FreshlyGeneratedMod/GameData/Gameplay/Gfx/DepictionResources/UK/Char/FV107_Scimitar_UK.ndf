@@ -1,0 +1,14 @@
+export Modele_FV107_Scimitar_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/FV107_Scimitar/FV107_Scimitar.Ase2NdfBin'
+)
+
+export Modele_FV107_Scimitar_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/FV107_Scimitar_MID/FV107_Scimitar_MID.Ase2NdfBin'
+)
+
+export Modele_FV107_Scimitar_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/LODS/FV107_Scimitar_LOW.Ase2NdfBin'
+)

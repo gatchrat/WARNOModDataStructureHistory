@@ -1,0 +1,14 @@
+export Modele_Mi_8T_non_arme_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_8T_Mun/Mi_8TZ.Ase2NdfBin'
+)
+
+export Modele_Mi_8T_non_arme_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_8TZ_MID/Mi_8TZ_MID.Ase2NdfBin'
+)
+
+export Modele_Mi_8T_non_arme_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/LODS/Mi_8T_Mun_LOW.Ase2NdfBin'
+)

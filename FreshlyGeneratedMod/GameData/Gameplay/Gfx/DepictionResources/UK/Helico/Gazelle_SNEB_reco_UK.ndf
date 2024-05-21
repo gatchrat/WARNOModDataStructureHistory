@@ -1,0 +1,14 @@
+export Modele_Gazelle_SNEB_reco_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Gazelle_SNEB_Reco/Gazelle_SNEB.Ase2NdfBin'
+)
+
+export Modele_Gazelle_SNEB_reco_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Gazelle_SNEB_Reco/Gazelle_SNEB.Ase2NdfBin'
+)
+
+export Modele_Gazelle_SNEB_reco_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Gazelle_SNEB_Reco/Gazelle_SNEB.Ase2NdfBin'
+)

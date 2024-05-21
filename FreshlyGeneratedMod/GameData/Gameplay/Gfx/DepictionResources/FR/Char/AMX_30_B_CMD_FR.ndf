@@ -1,0 +1,14 @@
+export Modele_AMX_30_B_CMD_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_30B_CMD/AMX_30B.Ase2NdfBin'
+)
+
+export Modele_AMX_30_B_CMD_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_30B_CMD/AMX_30B.Ase2NdfBin'
+)
+
+export Modele_AMX_30_B_CMD_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_30B_CMD/AMX_30B.Ase2NdfBin'
+)

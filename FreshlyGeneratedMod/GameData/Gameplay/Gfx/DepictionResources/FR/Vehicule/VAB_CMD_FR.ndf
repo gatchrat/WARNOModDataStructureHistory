@@ -1,0 +1,19 @@
+export Modele_VAB_CMD_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Vehicule/VAB_CMD/VAB.Ase2NdfBin'
+)
+
+export Modele_VAB_CMD_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Vehicule/VAB_CMD/VAB.Ase2NdfBin'
+)
+
+export Modele_VAB_CMD_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Vehicule/VAB_CMD/VAB.Ase2NdfBin'
+)
+
+export Modele_VAB_CMD_FR_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = ModelFile_VAB_FR_Tourelle_01
+)

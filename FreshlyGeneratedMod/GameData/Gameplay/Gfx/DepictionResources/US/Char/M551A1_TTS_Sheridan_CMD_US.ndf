@@ -1,0 +1,15 @@
+export Modele_M551A1_TTS_Sheridan_CMD_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Char/M551A1_TTS_Sheridan_CMD/M551A1_TTS_Sheridan.Ase2NdfBin'
+)
+
+export Modele_M551A1_TTS_Sheridan_CMD_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Char/M551A1_TTS_Sheridan_CMD/M551A1_TTS_Sheridan.Ase2NdfBin'
+)
+
+export Modele_M551A1_TTS_Sheridan_CMD_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Char/M551A1_TTS_Sheridan_CMD/M551A1_TTS_Sheridan.Ase2NdfBin'
+)
+

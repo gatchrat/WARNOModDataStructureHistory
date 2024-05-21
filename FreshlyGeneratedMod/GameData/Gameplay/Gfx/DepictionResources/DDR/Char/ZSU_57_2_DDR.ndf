@@ -1,0 +1,17 @@
+export Modele_ZSU_57_2_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/DCA/ZSU_57_2/ZSU_57_2.Ase2NdfBin'
+)
+
+export Modele_ZSU_57_2_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/DCA/ZSU_57_2/ZSU_57_2.Ase2NdfBin'
+)
+
+export Modele_ZSU_57_2_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/DCA/ZSU_57_2/ZSU_57_2.Ase2NdfBin'
+)
+
+
+

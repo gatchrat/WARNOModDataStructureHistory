@@ -1,0 +1,14 @@
+export Modele_M35_supply_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Vehicule/M35_Supply/M35_Supply.Ase2NdfBin'
+)
+
+export Modele_M35_supply_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Vehicule/M35_Supply_MID/M35_Supply_MID.Ase2NdfBin'
+)
+
+export Modele_M35_supply_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Vehicule/LODS/M35_Supply_LOW.Ase2NdfBin'
+)

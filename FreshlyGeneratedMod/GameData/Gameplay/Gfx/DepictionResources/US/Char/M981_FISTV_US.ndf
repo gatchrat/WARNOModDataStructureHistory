@@ -1,0 +1,17 @@
+export Modele_M981_FISTV_US is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Antichar/M981_FISTV/M981_FISTV.Ase2NdfBin'
+)
+
+export Modele_M981_FISTV_US_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Antichar/M981_FISTV_MID/M981_FISTV_MID.Ase2NdfBin'
+)
+
+export Modele_M981_FISTV_US_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/Antichar/LODS/M981_FISTV_LOW.Ase2NdfBin'
+)
+
+
+

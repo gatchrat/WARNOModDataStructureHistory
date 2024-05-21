@@ -1,0 +1,14 @@
+export Modele_ERC_90_Sagaie_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/ERC_90_Sagaie/ERC_90_Sagaie.fbx'
+)
+
+export Modele_ERC_90_Sagaie_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/ERC_90_Sagaie/ERC_90_Sagaie.fbx'
+)
+
+export Modele_ERC_90_Sagaie_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/ERC_90_Sagaie/ERC_90_Sagaie.fbx'
+)

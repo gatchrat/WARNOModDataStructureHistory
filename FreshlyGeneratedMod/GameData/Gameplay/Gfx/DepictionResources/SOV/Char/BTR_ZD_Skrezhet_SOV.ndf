@@ -1,0 +1,14 @@
+export Modele_BTR_ZD_Skrezhet_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/DCA/BTR_ZD_Skrezhet/BTR_ZD_Skrezhet.Ase2NdfBin'
+)
+
+export Modele_BTR_ZD_Skrezhet_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/DCA/BTR_ZD_Skrezhet/BTR_ZD_Skrezhet.Ase2NdfBin'
+)
+
+export Modele_BTR_ZD_Skrezhet_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/DCA/BTR_ZD_Skrezhet/BTR_ZD_Skrezhet.Ase2NdfBin'
+)

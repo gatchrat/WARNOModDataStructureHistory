@@ -1,0 +1,19 @@
+export Modele_Su_24M_clu2_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/Su_24M_LGB_SOV/Su_24M_SOV.Ase2NdfBin'
+)
+
+export Modele_Su_24M_clu2_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/Su_24M_LGB_SOV/Su_24M_SOV.Ase2NdfBin'
+)
+
+export Modele_Su_24M_clu2_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/Su_24M_LGB_SOV/Su_24M_SOV.Ase2NdfBin'
+)
+
+export Modele_Su_24M_clu2_SOV_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/Su_24M_LGB_SOV/Su_24M_SOV_Train.Ase2NdfBin'
+)

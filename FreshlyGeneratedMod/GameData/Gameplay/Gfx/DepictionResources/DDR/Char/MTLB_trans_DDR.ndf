@@ -1,0 +1,14 @@
+export Modele_MTLB_trans_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/APC/MTLB/MTLB.Ase2NdfBin'
+)
+
+export Modele_MTLB_trans_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/APC/MTLB_MID/MTLB_MID.Ase2NdfBin'
+)
+
+export Modele_MTLB_trans_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/APC/LODS/MTLB_LOW.Ase2NdfBin'
+)

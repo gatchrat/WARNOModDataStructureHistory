@@ -1,0 +1,14 @@
+export Modele_M113A3_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/APC/M113A3/M113A3.Ase2NdfBin'
+)
+
+export Modele_M113A3_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/APC/M113A3_MID/M113A3_MID.Ase2NdfBin'
+)
+
+export Modele_M113A3_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/APC/LODS/M113A3_LOW.Ase2NdfBin'
+)

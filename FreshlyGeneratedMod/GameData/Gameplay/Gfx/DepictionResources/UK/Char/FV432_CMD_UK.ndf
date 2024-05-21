@@ -1,0 +1,14 @@
+export Modele_FV432_CMD_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/CMD/FV432_CMD/FV432_CMD.Ase2NdfBin'
+)
+
+export Modele_FV432_CMD_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/CMD/FV432_CMD/FV432_CMD.Ase2NdfBin'
+)
+
+export Modele_FV432_CMD_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/CMD/FV432_CMD/FV432_CMD.Ase2NdfBin'
+)

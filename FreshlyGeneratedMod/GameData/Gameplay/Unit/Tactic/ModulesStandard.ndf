@@ -1,0 +1,382 @@
+InfluencePositionModuleDescriptor is TInfluencePositionModuleDescriptor()
+InfluenceDataModuleDescriptor is TInfluenceDataModuleDescriptor()
+EffectApplierModuleDescriptor is TEffectApplierModuleDescriptor()
+OrderDisplayModuleDescriptor is TOrderDisplayModuleDescriptor()
+InflammableModuleDescriptorUnit  is TInflammableModuleDescriptor()
+
+CapturableModuleDescriptor is TCapturableModuleDescriptor
+(
+    RadiusCapture            =  1000.0 * Metre //2000.0 * Metre
+)
+
+GroupableUnitModuleSelector is TModuleSelector
+(
+    Default        = TGroupableUnitModuleDescriptor()
+    Selection      = [~/NilDescriptorIfCadavre]
+)
+
+PlayerMissionModuleDescriptor is TPlayerMissionModuleDescriptor()
+
+TargetCoordinatorModuleSelector is TModuleSelector
+(
+    Default        = TTargetCoordinatorModuleDescriptor()
+    Selection      = [~/NilDescriptorIfCadavre]
+)
+
+TargetManagerModuleSelector is TModuleSelector
+(
+    Default        = TTargetManagerModuleDescriptor()
+    Selection      = [~/NilDescriptorIfCadavre]
+)
+
+IAStratZoneIndexModuleDescriptor is TModuleSelector
+(
+    Default        = TIAStratZoneIndexModuleDescriptor()
+    Selection      = [~/NilDescriptorIfCadavre]
+)
+
+BuildingOrderConfigModuleDescriptor is TOrderableModuleDescriptor
+(
+    UnlockableOrders = [ 'Stop', 'SupplyUnit', 'AskForSupply', 'AIDefend', 'AIAttack', 'AIStop' ]
+)
+
+template AirplaneMovementDescriptor
+[
+    Altitude,
+    AltitudeMin,
+    Speed,
+    AgilityRadius,
+    PitchAngle,
+    RollAngle,
+    RollSpeed,
+    EvacAngle,
+    EvacToStartingPoint,
+    OrderedAttackStrategies,
+] is TModuleSelector
+(
+    Default        = TAirplaneMovementModuleDescriptor
+    (
+        Altitude = <Altitude>
+        AltitudeMax = ~/MaxAltitude
+        AltitudeMin = <AltitudeMin>
+        AltitudeMinForRoll = ~/MinAltitudeForRoll
+        MinRollSpeedForRoll = ~/MinRollSpeedForRoll
+        Speed = <Speed>
+        AgilityRadius = <AgilityRadius>
+        PitchAngle = <PitchAngle>
+        PitchSpeed = ~/MaxPitchSpeed
+        RollAngle = <RollAngle>
+        RollSpeed = <RollSpeed>
+        EvacAngle = <EvacAngle>
+        IgnoreBattlefieldOrders = False
+        EvacuateOnTargetReached = False
+        EvacToStartingPoint = <EvacToStartingPoint>
+        ElevatorRotationMax = ~/ElevatorRotationMax
+        AileronRotationMax = ~/AileronRotationMax
+        RudderRotationMax = ~/RudderRotationMax
+        OrderedAttackStrategies = <OrderedAttackStrategies>
+    )
+    Selection = [~/NilDescriptorIfCadavre]
+)
+
+template BuildingApparenceModelModuleDescriptor
+[
+    BlackHoleIdentifier,
+    SymbolName,
+] is TModuleSelector
+(
+    Default            = TApparenceModelModuleDescriptor
+    (
+        PickableObject                        = True
+        BlackHoleIdentifier = <BlackHoleIdentifier>
+        Depiction = TTimelyModifyLevelBuildReceiverFactory
+        (
+            SymbolName = <SymbolName>
+        )
+    )
+    Selection = [ ~/NilDescriptorIfCadavre ]
+)
+
+DistrictApparenceModelModuleDescriptor is TModuleSelector
+(
+    Default = TApparenceModelModuleDescriptor
+    (
+        PickableObject = True
+        Depiction = TTimelyModifyLevelBuildReceiverFactory()
+    )
+    Selection = [ ~/NilDescriptorIfCadavre ]
+)
+
+template InfantryApparenceModelModuleDescriptor [
+    Depiction,
+    SkinWardrobe = nil,
+] is TApparenceModelModuleDescriptor
+(
+    UseFollowCam = True
+    PickableObject = False
+    Depiction = <Depiction>
+    SkinWardrobe = <SkinWardrobe>
+    ReferenceMesh = $/GFX/DepictionResources/Rien
+)
+
+template VehicleApparenceModelModuleDescriptor [
+    Depiction,
+    BlackHoleIdentifier,
+    GameplayBBoxBoneName,
+    SkinWardrobe = nil,
+    ReferenceMesh,
+] is TModuleSelector
+(
+    Default = TApparenceModelModuleDescriptor
+    (
+        UseFollowCam = True
+        PickableObject = True
+        Depiction = <Depiction>
+        ReferenceMesh = <ReferenceMesh>
+        BlackHoleIdentifier = <BlackHoleIdentifier>
+        GameplayBBoxBoneName = <GameplayBBoxBoneName>
+        SkinWardrobe = <SkinWardrobe>
+    )
+    Selection = [ ~/NilDescriptorIfCadavre ]
+)
+
+FacingInfosModuleDescriptor is TFacingInfosModuleDescriptor()
+
+HeliApparenceModuleDescriptor is TModuleSelector
+(
+    Default = THeliApparenceModuleDescriptor()
+    Selection = [ ~/NilDescriptorIfCadavre ]
+)
+
+UnitStateEngineCompanyModuleDescriptor is TStateEngineCompanyModuleDescriptor
+(
+    StateEngineUpdateMode = WorldControllerAccess_InWorld
+)
+UnitStateEngineModuleDescriptor is TStateEngineUnitModuleDescriptor
+(
+    StateEngineUpdateMode = WorldControllerAccess_InWorld
+)
+
+AirplaneStateEngineCompanyModuleDescriptor is TStateEngineCompanyModuleDescriptor
+(
+    StateEngineUpdateMode = WorldControllerAccess_InOutWorld
+)
+AirplaneStateEngineModuleDescriptor is TStateEngineUnitModuleDescriptor
+(
+    StateEngineUpdateMode = WorldControllerAccess_InOutWorld
+)
+
+template AirplanePositionModuleDescriptor [
+    LowAltitudeFlyingAltitude
+] is TPositionModuleDescriptor
+(
+    InGeoDb                    = True
+    ClampInWorld               = False
+    ClampOutMap                = True
+    LowAltitudeFlyingAltitude  = <LowAltitudeFlyingAltitude>
+)
+
+
+template AirplaneCadavrePositionModuleDescriptor [
+    LowAltitudeFlyingAltitude
+] is TPositionModuleDescriptor
+(
+    InGeoDb                    = False
+    ClampInWorld               = False
+    ClampOutMap                = True
+    LowAltitudeFlyingAltitude  = <LowAltitudeFlyingAltitude>
+)
+
+template HelicopterPositionModuleDescriptor [
+    LowAltitudeFlyingAltitude,
+    NearGroundFlyingAltitude
+] is TPositionModuleDescriptor
+(
+    InGeoDb                    = True
+    ClampInWorld               = True
+    ClampOutMap                = False
+    LowAltitudeFlyingAltitude  = <LowAltitudeFlyingAltitude>
+    NearGroundFlyingAltitude   = <NearGroundFlyingAltitude>
+)
+
+
+template HelicopterCadavrePositionModuleDescriptor [
+    LowAltitudeFlyingAltitude,
+    NearGroundFlyingAltitude
+] is TPositionModuleDescriptor
+(
+    InGeoDb                    = False
+    ClampInWorld               = True
+    ClampOutMap                = False
+    LowAltitudeFlyingAltitude  = <LowAltitudeFlyingAltitude>
+    NearGroundFlyingAltitude   = <NearGroundFlyingAltitude>
+)
+
+UnitPositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InGeoDb                    = True
+    ClampInWorld               = True
+    ClampOutMap                = False
+)
+
+UnitCadavrePositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InGeoDb                    = False
+    ClampInWorld               = True
+    ClampOutMap                = False
+)
+
+DistrictPositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InGeoDb                    = True
+    ClampInWorld               = False
+    ClampOutMap                = False
+)
+
+DistrictCadavrePositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InGeoDb                    = False
+    ClampInWorld               = False
+    ClampOutMap                = False
+)
+
+BunkerCadavrePositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InGeoDb                    = False
+    ClampInWorld               = False
+    ClampOutMap                = False
+)
+
+BuildingPositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InGeoDb                    = True
+    ClampInWorld               = True
+    ClampOutMap                = False
+)
+
+BuildingCadavrePositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InGeoDb                    = False
+    ClampInWorld               = True
+    ClampOutMap                = False
+)
+
+SelectionModuleDescriptor is TSelectionModuleDescriptor
+(
+    IsSelectable        = True
+    IsHighlightable     = True
+    HasSelectionShader  = False // Disabled by [SDDEUX-1276]
+    HasHighlightShader  = True
+)
+
+DistrictSelectionModuleDescriptor is TSelectionModuleDescriptor
+(
+    IsSelectable        = True
+    IsHighlightable     = True
+    HasSelectionShader  = True
+    HasHighlightShader  = True
+)
+
+template TCadavreGeneratorModuleDescriptorUnit
+[ CadavreDescriptor ]
+is TCadavreGeneratorModuleDescriptor
+(
+    CadavreDescriptor = <CadavreDescriptor>
+)
+
+public FXState is TBaseClass
+(
+    // Doit être synchro avec TActOfRuseBuildingAnimationStates/Type
+    // (BuildingAnimationModule_WarGame.h)
+
+    Idle            is 0x00000001
+    OnFire          is 0x00000002
+
+    // Merci de mettre à jour ce champ au besoin
+    All is Idle + OnFire
+)
+
+InflammableModuleDescriptorDistrict  is TInflammableModuleDescriptor
+(
+    FireFxStateId                   = ~/FXState/OnFire
+    IdleFxStateId                   = ~/FXState/Idle
+)
+
+template BuildingCadavreModuleDescriptor [
+    CadavreDuration,
+    ModuleDescriptorsToSteal,
+] is TCadavreModuleDescriptor
+(
+    KillAsVehicule = False
+    KillAsInfanterie = False
+    KillAsHelico = False
+    KillAsAirplane = False
+    KillAsBatiment = True
+    CadavreDuration = <CadavreDuration>
+    CadavreFireDurationMin = ~/CadavrePeriodeEnFeu_Minimum_Batiment
+    CadavreFireDurationMax = ~/CadavrePeriodeEnFeu_Maximum_Batiment
+    FadingDuration = 6
+    DeathExplosionAmmo = nil
+    ModuleDescriptorsToSteal = <ModuleDescriptorsToSteal>
+)
+
+template UnitCadavreModuleDescriptor [
+    KillAsVehicule : bool = false,
+    KillAsInfanterie : bool = false,
+    KillAsHelico : bool = false,
+    KillAsAirplane : bool = false,
+    CadavreDuration,
+    DeathExplosionAmmo,
+    ModuleDescriptorsToSteal,
+] is TCadavreModuleDescriptor
+(
+    KillAsVehicule = <KillAsVehicule>
+    KillAsInfanterie = <KillAsInfanterie>
+    KillAsHelico = <KillAsHelico>
+    KillAsAirplane = <KillAsAirplane>
+    KillAsBatiment = False
+    CadavreDuration = <CadavreDuration>
+    CadavreFireDurationMin = ~/CadavrePeriodeEnFeu_Minimum
+    CadavreFireDurationMax = ~/CadavrePeriodeEnFeu_Maximum
+    FadingDuration = 1
+    DeathExplosionAmmo = <DeathExplosionAmmo>
+    ModuleDescriptorsToSteal = <ModuleDescriptorsToSteal>
+)
+
+FOBBuildingModuleDescriptor is TWargameBuildingModuleDescriptor
+(
+    BoundingBoxMin = $/GFX/Constantes/FOBBoxMin
+    BoundingBoxMax = $/GFX/Constantes/FOBBoxMax
+)
+
+DefenseBuildingModuleDescriptor is TWargameBuildingModuleDescriptor
+(
+    BoundingBoxMin = $/GFX/Constantes/DefenseBoxMin
+    BoundingBoxMax = $/GFX/Constantes/DefenseBoxMax
+)
+
+BuildingDescriptorTagsModuleDescriptor is TTagsModuleDescriptor
+(
+    TagSet = [ "FOB" ]
+)
+
+BuildingTagsModuleDescriptor is TTagsModuleDescriptor
+(
+    TagSet = [ "Standard", "FOB" ]
+)
+
+DistrictModuleDescriptor is TDistrictModuleDescriptor()
+
+LineInfantrySquadSlotPositionsModuleDescriptor is TInfantrySquadSlotPositionsModuleDescriptor
+(
+    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+    SquadFormationDescriptor = ~/SoldierLineDescriptor
+    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+)
+
+ColumnInfantrySquadSlotPositionsModuleDescriptor is TInfantrySquadSlotPositionsModuleDescriptor
+(
+    SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
+    SquadFormationDescriptor = ~/SoldierColumnDescriptor
+    NoiseDescriptor    = ~/SoldierNoiseDescriptor
+)

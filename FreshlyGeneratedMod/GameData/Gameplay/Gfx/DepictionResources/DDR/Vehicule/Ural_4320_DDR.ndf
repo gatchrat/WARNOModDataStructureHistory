@@ -1,0 +1,14 @@
+export Modele_Ural_4320_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Vehicule/Ural_4320/Ural_4320.Ase2NdfBin'
+)
+
+export Modele_Ural_4320_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Vehicule/Ural_4320_MID/Ural_4320_MID.Ase2NdfBin'
+)
+
+export Modele_Ural_4320_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Vehicule/LODS/Ural_4320_LOW.Ase2NdfBin'
+)

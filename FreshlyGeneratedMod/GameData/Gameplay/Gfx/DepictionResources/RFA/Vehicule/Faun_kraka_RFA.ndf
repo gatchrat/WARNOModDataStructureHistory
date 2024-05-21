@@ -1,0 +1,14 @@
+export Modele_Faun_kraka_RFA is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Vehicule/Faun_kraka/Faun_kraka.Ase2NdfBin'
+)
+
+export Modele_Faun_kraka_RFA_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Vehicule/Faun_kraka_MID/Faun_kraka_MID.Ase2NdfBin'
+)
+
+export Modele_Faun_kraka_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Vehicule/LODS/Faun_kraka_LOW.Ase2NdfBin'
+)

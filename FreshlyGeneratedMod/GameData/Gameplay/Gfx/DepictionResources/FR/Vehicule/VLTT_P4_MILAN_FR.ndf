@@ -1,0 +1,14 @@
+export Modele_VLTT_P4_MILAN_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Vehicule/VLTT_P4_MILAN/VLTT_P4_MILAN.Ase2NdfBin'
+)
+
+export Modele_VLTT_P4_MILAN_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Vehicule/VLTT_P4_MILAN_MID/VLTT_P4_MILAN_MID.Ase2NdfBin'
+)
+
+export Modele_VLTT_P4_MILAN_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Vehicule/LODS/VLTT_P4_MILAN_LOW.Ase2NdfBin'
+)

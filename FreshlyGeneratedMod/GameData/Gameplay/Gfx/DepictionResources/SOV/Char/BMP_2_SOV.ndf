@@ -1,0 +1,14 @@
+export Modele_BMP_2_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BMP2/BMP2.Ase2NdfBin'
+)
+
+export Modele_BMP_2_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BMP2_MID/BMP2_MID.Ase2NdfBin'
+)
+
+export Modele_BMP_2_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/LODS/BMP2_LOW.Ase2NdfBin'
+)

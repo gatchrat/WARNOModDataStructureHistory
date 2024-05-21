@@ -1,0 +1,24 @@
+export Modele_Su_22_UPK_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/Su_22/Su_22_UPK.Ase2NdfBin'
+)
+
+export Modele_Su_22_UPK_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/Su_22_MID/Su_22_UPK_MID.Ase2NdfBin'
+)
+
+export Modele_Su_22_UPK_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/LODS/Su_22_UPK_LOW.Ase2NdfBin'
+)
+
+export Modele_Su_22_UPK_DDR_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/Su_22/Su_22_train.Ase2NdfBin'
+)
+
+export Modele_Su_22_UPK_DDR_Tourelle_02 is TemplateMeshDescriptor
+(
+    FileName = ModelFile_Pod_UPK_t2
+)

@@ -1,0 +1,19 @@
+export Modele_F4_Phantom_AA_F3_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/F4_Phantom_F3/F4_Phantom_F3.Ase2NdfBin'
+)
+
+export Modele_F4_Phantom_AA_F3_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/F4_Phantom_F3/F4_Phantom_F3.Ase2NdfBin'
+)
+
+export Modele_F4_Phantom_AA_F3_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/F4_Phantom_F3/F4_Phantom_F3.Ase2NdfBin'
+)
+
+export Modele_F4_Phantom_AA_F3_UK_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/F4_Phantom_F3/F4_Phantom_F3_Train.Ase2NdfBin'
+)

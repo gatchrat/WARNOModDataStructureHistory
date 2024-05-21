@@ -1,0 +1,19 @@
+export Modele_Mirage_5_F_nplm_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/Mirage_5_F/Mirage_5_F.Ase2NdfBin'
+)
+
+export Modele_Mirage_5_F_nplm_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/Mirage_5_F_MID/Mirage_5_F_MID.Ase2NdfBin'
+)
+
+export Modele_Mirage_5_F_nplm_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/LODS/Mirage_5_F_LOW.Ase2NdfBin'
+)
+
+export Modele_Mirage_5_F_nplm_FR_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/Mirage_5_F/Mirage_5_F_train.Ase2NdfBin'
+)

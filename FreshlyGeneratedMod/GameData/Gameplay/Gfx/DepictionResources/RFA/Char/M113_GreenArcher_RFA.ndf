@@ -1,0 +1,19 @@
+export Modele_M113_GreenArcher_RFA is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/M113_GreenArcher/M113_GreenArcher.Ase2NdfBin'
+)
+
+export Modele_M113_GreenArcher_RFA_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/M113_GreenArcher_MID/M113_GreenArcher_MID.Ase2NdfBin'
+)
+
+export Modele_M113_GreenArcher_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/APC/LODS/M113_GreenArcher_LOW.Ase2NdfBin'
+)
+
+export Modele_M113_GreenArcher_RFA_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = ModelFile_MG3_Tourelle_01
+)

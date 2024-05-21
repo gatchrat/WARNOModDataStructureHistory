@@ -1,0 +1,17 @@
+export Modele_MTLB_Strela10_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/MTLB_Strela10/MTLB_Strela10.Ase2NdfBin'
+)
+
+export Modele_MTLB_Strela10_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/MTLB_Strela10_MID/MTLB_Strela10_MID.Ase2NdfBin'
+)
+
+export Modele_MTLB_Strela10_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/LODS/MTLB_Strela10_LOW.Ase2NdfBin'
+)
+
+
+

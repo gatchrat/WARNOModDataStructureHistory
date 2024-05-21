@@ -1,0 +1,14 @@
+export Modele_M163_PIVADS_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/DCA/M163_Pivads/M163_Pivads.Ase2NdfBin'
+)
+
+export Modele_M163_PIVADS_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/DCA/M163_Pivads_MID/M163_Pivads_MID.Ase2NdfBin'
+)
+
+export Modele_M163_PIVADS_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/DCA/LODS/M163_Pivads_LOW.Ase2NdfBin'
+)

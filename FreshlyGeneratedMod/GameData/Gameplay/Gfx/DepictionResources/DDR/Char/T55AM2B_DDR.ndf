@@ -1,0 +1,14 @@
+export Modele_T55AM2B_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Char/T55AM2B/T55AM2B.fbx'
+)
+
+export Modele_T55AM2B_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Char/T55AM2B_MID/T55AM2B_MID.fbx'
+)
+
+export Modele_T55AM2B_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Char/LODS/T55AM2B_LOW.fbx'
+)

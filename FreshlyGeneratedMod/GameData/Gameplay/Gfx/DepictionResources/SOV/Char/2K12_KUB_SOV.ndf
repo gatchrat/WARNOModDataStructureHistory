@@ -1,0 +1,17 @@
+export Modele_2K12_KUB_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/2K12_KUB/2K12_KUB.Ase2NdfBin'
+)
+
+export Modele_2K12_KUB_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/2K12_KUB_MID/2K12_KUB_MID.Ase2NdfBin'
+)
+
+export Modele_2K12_KUB_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/LODS/2K12_KUB_LOW.Ase2NdfBin'
+)
+
+
+

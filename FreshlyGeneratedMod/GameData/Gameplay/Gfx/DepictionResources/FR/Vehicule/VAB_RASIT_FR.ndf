@@ -1,0 +1,14 @@
+export Modele_VAB_RASIT_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VAB_RASIT/VAB_RASIT.Ase2NdfBin'
+)
+
+export Modele_VAB_RASIT_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VAB_RASIT_MID/VAB_RASIT_MID.Ase2NdfBin'
+)
+
+export Modele_VAB_RASIT_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/LODS/VAB_RASIT_LOW.Ase2NdfBin'
+)

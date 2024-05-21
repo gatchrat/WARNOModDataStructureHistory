@@ -1,0 +1,17 @@
+export Modele_BRDM_Strela_1_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/DCA/BRDM_Strela_1/BRDM_Strela_1.Ase2NdfBin'
+)
+
+export Modele_BRDM_Strela_1_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/DCA/BRDM_Strela_1_MID/BRDM_Strela_1_MID.Ase2NdfBin'
+)
+
+export Modele_BRDM_Strela_1_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/DCA/LODS/BRDM_Strela_1_LOW.Ase2NdfBin'
+)
+
+
+

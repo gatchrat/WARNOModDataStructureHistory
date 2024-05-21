@@ -1,0 +1,14 @@
+export Modele_Rover_101FC_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Vehicule/ROVER_101FC/ROVER_101FC.fbx'
+)
+
+export Modele_Rover_101FC_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Vehicule/ROVER_101FC/ROVER_101FC.fbx'
+)
+
+export Modele_Rover_101FC_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Vehicule/ROVER_101FC/ROVER_101FC.fbx'
+)

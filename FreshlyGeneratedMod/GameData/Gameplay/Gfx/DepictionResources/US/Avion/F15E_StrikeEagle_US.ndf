@@ -1,0 +1,19 @@
+export Modele_F15E_StrikeEagle_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F15E_Strike_Eagle/F15E_Strike_Eagle.fbx'
+)
+
+export Modele_F15E_StrikeEagle_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F15E_Strike_Eagle/F15E_Strike_Eagle.fbx'
+)
+
+export Modele_F15E_StrikeEagle_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F15E_Strike_Eagle/F15E_Strike_Eagle.fbx'
+)
+
+export Modele_F15E_StrikeEagle_US_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F15E_Strike_Eagle/F15E_Strike_Eagle_train.fbx'
+)

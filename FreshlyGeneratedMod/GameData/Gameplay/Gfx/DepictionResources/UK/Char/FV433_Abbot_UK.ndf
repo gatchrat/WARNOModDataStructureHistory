@@ -1,0 +1,15 @@
+export Modele_FV433_Abbot_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/FV433_Abbot/FV433_Abbot.Ase2NdfBin'
+)
+
+export Modele_FV433_Abbot_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/FV433_Abbot_MID/FV433_Abbot_MID.Ase2NdfBin'
+)
+
+export Modele_FV433_Abbot_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/LODS/FV433_Abbot_LOW.Ase2NdfBin'
+)
+

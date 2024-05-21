@@ -1,0 +1,17 @@
+export Modele_VLRA_Mortier81_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Artillerie/VLRA_Mortier_81/VLRA_Mortier_81.Ase2NdfBin'
+)
+
+export Modele_VLRA_Mortier81_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Artillerie/VLRA_Mortier_81/VLRA_Mortier_81.Ase2NdfBin'
+)
+
+export Modele_VLRA_Mortier81_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Artillerie/VLRA_Mortier_81/VLRA_Mortier_81.Ase2NdfBin'
+)
+
+
+

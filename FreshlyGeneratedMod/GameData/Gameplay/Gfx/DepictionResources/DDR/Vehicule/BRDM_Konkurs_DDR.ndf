@@ -1,0 +1,20 @@
+export Modele_BRDM_Konkurs_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/BRDM2_Konkurs/BRDM2_Konkurs.Ase2NdfBin'
+    TextureDirectory = 'GameData:/Assets/3D/Units/DDR/Antichar/BRDM2_Konkurs'
+)
+
+export Modele_BRDM_Konkurs_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/BRDM2_Konkurs_MID/BRDM2_Konkurs_MID.Ase2NdfBin'
+    TextureDirectory = 'GameData:/Assets/3D/Units/DDR/Antichar/BRDM2_Konkurs_MID'
+)
+
+export Modele_BRDM_Konkurs_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/LODS/BRDM2_Konkurs_LOW.Ase2NdfBin'
+    TextureDirectory = 'GameData:/Assets/3D/Units/DDR/Antichar/BRDM2_Konkurs_LOW'
+)
+
+
+

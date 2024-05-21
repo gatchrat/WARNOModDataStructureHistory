@@ -1,0 +1,15 @@
+export Modele_M270_MLRS_RFA is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Artillerie/M270/M270.Ase2NdfBin'
+)
+
+export Modele_M270_MLRS_RFA_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Artillerie/M270_MID/M270_MID.Ase2NdfBin'
+)
+
+export Modele_M270_MLRS_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/RFA/Artillerie/LODS/M270_LOW.Ase2NdfBin'
+)
+

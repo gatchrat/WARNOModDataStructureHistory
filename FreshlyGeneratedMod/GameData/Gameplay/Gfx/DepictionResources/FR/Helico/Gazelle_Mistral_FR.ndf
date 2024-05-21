@@ -1,0 +1,14 @@
+export Modele_Gazelle_Mistral_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Gazelle_Mistral/Gazelle_Mistral.Ase2NdfBin'
+)
+
+export Modele_Gazelle_Mistral_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Gazelle_Mistral/Gazelle_Mistral.Ase2NdfBin'
+)
+
+export Modele_Gazelle_Mistral_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Gazelle_Mistral/Gazelle_Mistral.Ase2NdfBin'
+)

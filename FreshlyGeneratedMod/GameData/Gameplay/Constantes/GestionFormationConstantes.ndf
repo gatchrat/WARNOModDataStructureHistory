@@ -1,0 +1,87 @@
+// -*- coding: utf-8 -*-
+
+export ArrivalFormationConstantesWargame is TArrivalFormationConstantes
+(
+    UnitSpacingWidth = 24 * OneMeterInGameUnits
+    FrontLineMinimalSize = 12 * OneMeterInGameUnits
+    DefaultFormationWidthToDepthRatio = 1.0 // Définit vers quel ratio largeur/profondeur la formation essaie de tendre à l'arrivée d'un move avec clic droit non glissé.
+)
+
+FormationResource is TUnitFormationDescriptor
+(
+    SpacingWidth = 50 * OneMeterInGameUnits
+    SpacingDepth = 35 * OneMeterInGameUnits
+    FrontMargin = 35 * OneMeterInGameUnits
+    FormationLines = [
+        TUnitFormationLineDescriptor
+        (
+            UnitTypes = ['Char', 'Vehicule', 'Transport' ]
+        ),
+        TUnitFormationLineDescriptor
+        (
+            UnitTypes = ['Reconnaissance', 'HelicoReco', 'InfanterieReco', 'InfanterieEliteReco']
+        ),
+        TUnitFormationLineDescriptor
+        (
+            UnitTypes = ['Infanterie', 'InfanterieLAAD', 'Infanterie reguliere', 'Infanterie elite', 'InfanterieATGM', 'InfanterieCommand', 'InfanterieSpecOp', 'InfanterieIngenieurs']
+        ),
+        TUnitFormationLineDescriptor
+        (
+            UnitTypes = ['Helico', 'AntiAir', 'Supply']
+        ),
+
+        TUnitFormationLineDescriptor
+        (
+            UnitTypes = ['Artillerie']
+        ),
+        TUnitFormationLineDescriptor()
+    ]
+)
+
+DeploymentFormationResource is TUnitFormationDescriptor
+(
+    SpacingWidth = 24 * OneMeterInGameUnits
+    SpacingDepth = 16 * OneMeterInGameUnits
+    FrontMargin = 16 * OneMeterInGameUnits
+    FormationLines = [
+        TUnitFormationLineDescriptor
+        (
+            UnitTypes = ['Char', 'Vehicule', 'Transport' ]
+        ),
+        TUnitFormationLineDescriptor
+        (
+            UnitTypes = ['Reconnaissance', 'HelicoReco', 'InfanterieReco', 'InfanterieEliteReco']
+        ),
+        TUnitFormationLineDescriptor
+        (
+            UnitTypes = ['Infanterie', 'InfanterieLAAD', 'Infanterie reguliere', 'Infanterie elite', 'InfanterieATGM', 'InfanterieCommand', 'InfanterieSpecOp', 'InfanterieIngenieurs']
+        ),
+        TUnitFormationLineDescriptor
+        (
+            UnitTypes = ['Helico', 'AntiAir', 'Supply']
+        ),
+         TUnitFormationLineDescriptor
+        (
+            UnitTypes = ['Artillerie']
+        ),
+        TUnitFormationLineDescriptor()
+    ]
+)
+
+export FormationConstantes is TFormationConstantes
+(
+    UnitFormationDescriptor = FormationResource
+    UnitDeploymentFormationDescriptor = DeploymentFormationResource
+
+    DistanceMaintienClicPourDeplacementGhost = 1 * Metre
+
+    // -----------------------------------------------------------------------
+    // Réglage de la distance max. de snap des destinations lors du mouvement.
+    // -----------------------------------------------------------------------
+    // Une distance max. négative ou nulle désactive le snapping.
+    // Le debug visuel correspondant est celui du système de recherche de position : il faut activer les ajustables "PositionFinder/Show" et "PositionFinder/Show Positions".
+    // Les croix blanches sont les positions considérées et la croix verte est la position choisie parmi celles-ci.
+    // Les distances sont en mètre RTS
+
+    SnapToFavorableTerrainRadius = 100 * Metre
+)

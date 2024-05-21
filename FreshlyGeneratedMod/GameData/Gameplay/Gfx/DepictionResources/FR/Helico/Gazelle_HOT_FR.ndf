@@ -1,0 +1,14 @@
+export Modele_Gazelle_HOT_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Gazelle_HOT/Gazelle_HOT.Ase2NdfBin'
+)
+
+export Modele_Gazelle_HOT_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Gazelle_HOT/Gazelle_HOT.Ase2NdfBin'
+)
+
+export Modele_Gazelle_HOT_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Gazelle_HOT/Gazelle_HOT.Ase2NdfBin'
+)

@@ -1,0 +1,17 @@
+export Modele_BMP_1P_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/APC/BMP_1P/BMP_1P.Ase2NdfBin'
+)
+
+export Modele_BMP_1P_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/APC/BMP_1P_MID/BMP_1P_MID.Ase2NdfBin'
+)
+
+export Modele_BMP_1P_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/APC/LODS/BMP_1P_LOW.Ase2NdfBin'
+)
+
+
+

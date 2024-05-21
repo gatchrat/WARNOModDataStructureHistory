@@ -1,0 +1,14 @@
+export Modele_LAV_25_M1047_US_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/APC/LAV25/LAV25.fbx'
+)
+
+export Modele_LAV_25_M1047_US_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/APC/LAV25/LAV25.fbx'
+)
+
+export Modele_LAV_25_M1047_US_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/APC/LAV25/LAV25.fbx'
+)

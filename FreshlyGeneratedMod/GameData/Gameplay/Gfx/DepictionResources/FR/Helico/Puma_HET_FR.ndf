@@ -1,0 +1,14 @@
+export Modele_Puma_HET_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Puma_HET/Puma_HET.fbx'
+)
+
+export Modele_Puma_HET_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Puma_MID/Puma_MID.Ase2NdfBin'
+)
+
+export Modele_Puma_HET_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/LODS/Puma_LOW.Ase2NdfBin'
+)

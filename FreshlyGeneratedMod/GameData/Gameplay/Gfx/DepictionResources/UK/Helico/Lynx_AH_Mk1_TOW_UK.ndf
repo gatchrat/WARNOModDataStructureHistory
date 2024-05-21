@@ -1,0 +1,14 @@
+export Modele_Lynx_AH_Mk1_TOW_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Lynx_AH_Mk1_TOW/Lynx_AH_Mk1_TOW.Ase2NdfBin'
+)
+
+export Modele_Lynx_AH_Mk1_TOW_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Lynx_AH_Mk1_TOW/Lynx_AH_Mk1_TOW.Ase2NdfBin'
+)
+
+export Modele_Lynx_AH_Mk1_TOW_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Lynx_AH_Mk1_TOW/Lynx_AH_Mk1_TOW.Ase2NdfBin'
+)

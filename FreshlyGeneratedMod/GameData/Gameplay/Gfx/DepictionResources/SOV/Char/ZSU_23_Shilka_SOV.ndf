@@ -1,0 +1,17 @@
+export Modele_ZSU_23_Shilka_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/ZSU_23_Shilka/ZSU_23_Shilka.Ase2NdfBin'
+)
+
+export Modele_ZSU_23_Shilka_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/ZSU_23_Shilka_MID/ZSU_23_Shilka_MID.Ase2NdfBin'
+)
+
+export Modele_ZSU_23_Shilka_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/LODS/ZSU_23_Shilka_LOW.Ase2NdfBin'
+)
+
+
+

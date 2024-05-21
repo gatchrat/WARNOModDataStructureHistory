@@ -1,0 +1,17 @@
+export Modele_VAB_T20_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/DCA/VAB_T20/VAB_T20.Ase2NdfBin'
+)
+
+export Modele_VAB_T20_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/DCA/VAB_T20/VAB_T20.Ase2NdfBin'
+)
+
+export Modele_VAB_T20_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/DCA/VAB_T20/VAB_T20.Ase2NdfBin'
+)
+
+
+

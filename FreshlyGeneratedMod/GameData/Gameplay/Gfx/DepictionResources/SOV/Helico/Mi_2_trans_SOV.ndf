@@ -1,0 +1,14 @@
+export Modele_Mi_2_trans_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_2_trans/Mi_2_trans.Ase2NdfBin'
+)
+
+export Modele_Mi_2_trans_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_2_trans/Mi_2_trans.Ase2NdfBin'
+)
+
+export Modele_Mi_2_trans_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_2_trans/Mi_2_trans.Ase2NdfBin'
+)

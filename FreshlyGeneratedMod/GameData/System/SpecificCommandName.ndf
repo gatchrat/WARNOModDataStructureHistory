@@ -1,0 +1,8 @@
+//-----------------------------------------------------------------------------
+// Mouvement
+SpecificCommandName is TBaseClass
+(
+    UpdateGUIFromLabelStyles                    is "GUI::UpdateGUIFromLabelStyles"
+    UpdateGUIFromIconType                       is "GUI::UpdateGUIFromIconType"
+    UpdateGUIFromStrategicIconType              is "GUI::UpdateGUIFromStrategicIconType"
+)

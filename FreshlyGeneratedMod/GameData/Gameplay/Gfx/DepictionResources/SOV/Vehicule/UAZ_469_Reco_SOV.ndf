@@ -1,0 +1,19 @@
+export Modele_UAZ_469_Reco_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_Konkurs/UAZ_469_Reco.Ase2NdfBin'
+)
+
+export Modele_UAZ_469_Reco_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_Konkurs_MID/UAZ_469_Reco_MID.Ase2NdfBin'
+)
+
+export Modele_UAZ_469_Reco_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Vehicule/LODS/UAZ_469_Reco_LOW.Ase2NdfBin'
+)
+
+export Modele_UAZ_469_Reco_SOV_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/NSVT_t1.fbx'
+)

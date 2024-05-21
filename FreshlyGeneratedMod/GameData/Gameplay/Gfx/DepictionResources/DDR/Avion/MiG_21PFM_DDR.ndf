@@ -1,0 +1,19 @@
+export Modele_MiG_21PFM_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/MiG_21_PFM/MiG_21_PFM_AS.Ase2NdfBin'
+)
+
+export Modele_MiG_21PFM_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/MiG_21_PFM_MID/MiG_21_PFM_AS_MID.Ase2NdfBin'
+)
+
+export Modele_MiG_21PFM_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/LODS/MiG_21_PFM_AS_LOW.Ase2NdfBin'
+)
+
+export Modele_MiG_21PFM_DDR_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/MiG_21_PFM/MiG_21_PFM_train.Ase2NdfBin'
+)

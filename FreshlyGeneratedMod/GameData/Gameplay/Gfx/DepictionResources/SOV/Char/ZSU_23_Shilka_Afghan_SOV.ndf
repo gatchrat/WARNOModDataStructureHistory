@@ -1,0 +1,17 @@
+export Modele_ZSU_23_Shilka_Afghan_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/ZSU_23_Shilka_Afghanskii/ZSU_23_Shilka_Afghanskii.Ase2NdfBin'
+)
+
+export Modele_ZSU_23_Shilka_Afghan_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/ZSU_23_Shilka_Afghanskii/ZSU_23_Shilka_Afghanskii.Ase2NdfBin'
+)
+
+export Modele_ZSU_23_Shilka_Afghan_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/ZSU_23_Shilka_Afghanskii/ZSU_23_Shilka_Afghanskii.Ase2NdfBin'
+)
+
+
+

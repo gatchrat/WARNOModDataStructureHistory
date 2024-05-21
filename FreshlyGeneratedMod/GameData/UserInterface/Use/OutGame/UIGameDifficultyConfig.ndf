@@ -1,0 +1,33 @@
+UIGameDifficultyListConfig is TUIGameDifficultyListConfiguration
+(
+    GameDifficultyConfigs = MAP
+    [
+        (
+            EGameDifficulty/Easy,
+            TUIGameDifficultyConfigurationRTTI
+            (
+                Name = "AB_GM_0"
+                Description = "OP_GM_0_D"
+                Texture = "difficulty_easy"
+            )
+        ),
+        (
+            EGameDifficulty/Medium,
+            TUIGameDifficultyConfigurationRTTI
+            (
+                Name = "AB_GM_1"
+                Description = "OP_GM_1_D"
+                Texture = "difficulty_medium"
+            )
+        ),
+        (
+            EGameDifficulty/Hard,
+            TUIGameDifficultyConfigurationRTTI
+            (
+                Name = "AB_GM_2"
+                Description = "OP_GM_2_D"
+                Texture = "difficulty_hard"
+            )
+        )
+    ]
+)

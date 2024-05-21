@@ -1,0 +1,14 @@
+export Modele_Challenger_1_Mk1_CMD_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/Challenger_1_Mk1_CMD/Challenger_1_Mk1_CMD.Ase2NdfBin'
+)
+
+export Modele_Challenger_1_Mk1_CMD_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/Challenger_1_Mk1_CMD_MID/Challenger_1_Mk1_CMD_MID.Ase2NdfBin'
+)
+
+export Modele_Challenger_1_Mk1_CMD_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/LODS/Challenger_1_Mk1_CMD_LOW.Ase2NdfBin'
+)

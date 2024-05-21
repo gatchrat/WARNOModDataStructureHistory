@@ -1,0 +1,17 @@
+export Modele_Howz_D30_122mm_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/Howz_D30_122mm/Howz_D30_122mm.Ase2NdfBin'
+)
+
+export Modele_Howz_D30_122mm_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/Howz_D30_122mm/Howz_D30_122mm.Ase2NdfBin'
+)
+
+export Modele_Howz_D30_122mm_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/Howz_D30_122mm/Howz_D30_122mm.Ase2NdfBin'
+)
+
+
+

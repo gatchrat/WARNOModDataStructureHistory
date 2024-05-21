@@ -1,0 +1,14 @@
+export Modele_FH70_155mm_RFA is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/RFA/Canon/FH70_155mm/FH70_155mm.Ase2NdfBin'
+)
+
+export Modele_FH70_155mm_RFA_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/RFA/Canon/FH70_155mm_MID/FH70_155mm_MID.Ase2NdfBin'
+)
+
+export Modele_FH70_155mm_RFA_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/RFA/Canon/LODS/FH70_155mm_LOW.Ase2NdfBin'
+)

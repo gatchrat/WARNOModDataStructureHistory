@@ -1,0 +1,17 @@
+export Modele_AMX_13_DCA_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/DCA/AMX_13_DCA/AMX_13_DCA.Ase2NdfBin'
+)
+
+export Modele_AMX_13_DCA_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/DCA/AMX_13_DCA/AMX_13_DCA.Ase2NdfBin'
+)
+
+export Modele_AMX_13_DCA_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/DCA/AMX_13_DCA/AMX_13_DCA.Ase2NdfBin'
+)
+
+
+

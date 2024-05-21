@@ -1,0 +1,14 @@
+export Modele_VLRA_trans_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VLRA_trans/VLRA_trans.Ase2NdfBin'
+)
+
+export Modele_VLRA_trans_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VLRA_trans/VLRA_trans.Ase2NdfBin'
+)
+
+export Modele_VLRA_trans_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VLRA_trans/VLRA_trans.Ase2NdfBin'
+)

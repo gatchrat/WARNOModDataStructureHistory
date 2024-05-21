@@ -1,0 +1,17 @@
+export Modele_ATteam_Konkurs_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/Konkurs/Konkurs.Ase2NdfBin'
+)
+
+export Modele_ATteam_Konkurs_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/Konkurs/Konkurs.Ase2NdfBin'
+)
+
+export Modele_ATteam_Konkurs_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/Konkurs/Konkurs.Ase2NdfBin'
+)
+
+
+

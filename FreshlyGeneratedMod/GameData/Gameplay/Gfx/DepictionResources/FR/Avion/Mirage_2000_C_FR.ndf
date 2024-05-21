@@ -1,0 +1,19 @@
+export Modele_Mirage_2000_C_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/Mirage_2000_C/Mirage_2000_C.Ase2NdfBin'
+)
+
+export Modele_Mirage_2000_C_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/Mirage_2000_C_MID/Mirage_2000_C_MID.Ase2NdfBin'
+)
+
+export Modele_Mirage_2000_C_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/LODS/Mirage_2000_C_LOW.Ase2NdfBin'
+)
+
+export Modele_Mirage_2000_C_FR_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/Mirage_2000_C/Mirage_2000_C_train.Ase2NdfBin'
+)

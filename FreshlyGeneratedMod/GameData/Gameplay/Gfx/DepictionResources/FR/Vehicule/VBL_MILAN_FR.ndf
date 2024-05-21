@@ -1,0 +1,14 @@
+export Modele_VBL_MILAN_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Vehicule/VBL_MILAN/VBL_MILAN.Ase2NdfBin'
+)
+
+export Modele_VBL_MILAN_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Vehicule/VBL_MILAN/VBL_MILAN.Ase2NdfBin'
+)
+
+export Modele_VBL_MILAN_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Vehicule/VBL_MILAN/VBL_MILAN.Ase2NdfBin'
+)

@@ -1,0 +1,19 @@
+export Modele_F15C_Eagle_AA_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F15C_Eagle/F15C_Eagle.Ase2NdfBin'
+)
+
+export Modele_F15C_Eagle_AA_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F15C_Eagle_MID/F15C_Eagle_MID.Ase2NdfBin'
+)
+
+export Modele_F15C_Eagle_AA_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/LODS/F15C_Eagle_LOW.Ase2NdfBin'
+)
+
+export Modele_F15C_Eagle_AA_US_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F15C_Eagle/F15C_Eagle_Train.Ase2NdfBin'
+)

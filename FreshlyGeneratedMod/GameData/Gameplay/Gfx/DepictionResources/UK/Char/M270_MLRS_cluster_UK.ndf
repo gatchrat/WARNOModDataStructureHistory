@@ -1,0 +1,15 @@
+export Modele_M270_MLRS_cluster_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/M270_Cluster/M270_Cluster.Ase2NdfBin'
+)
+
+export Modele_M270_MLRS_cluster_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/M270_Cluster/M270_Cluster.Ase2NdfBin'
+)
+
+export Modele_M270_MLRS_cluster_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/M270_Cluster/M270_Cluster.Ase2NdfBin'
+)
+

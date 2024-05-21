@@ -1,0 +1,10 @@
+template UIButtonUnit
+[
+    FileName
+]
+is TUIResourceTextureWithUsefulnessMask
+(
+    TypeMask = TypeMask/BuildMenu
+    CivMask  = CivMask/Common
+    FileName = <FileName>
+)

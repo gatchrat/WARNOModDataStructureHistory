@@ -1,0 +1,5 @@
+python36.zip
+../Scripts
+
+# Uncomment to run site.main() automatically
+#import site

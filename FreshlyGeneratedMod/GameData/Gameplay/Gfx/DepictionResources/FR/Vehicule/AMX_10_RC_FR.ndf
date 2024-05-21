@@ -1,0 +1,19 @@
+export Modele_AMX_10_RC_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC/AMX_10RC.Ase2NdfBin'
+)
+
+export Modele_AMX_10_RC_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC/AMX_10RC.Ase2NdfBin'
+)
+
+export Modele_AMX_10_RC_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC/AMX_10RC.Ase2NdfBin'
+)
+
+export Modele_AMX_10_RC_FR_Tourelle_02 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC_Surblinde/NF1_t2.Ase2NdfBin'
+)

@@ -1,0 +1,19 @@
+export Modele_F117_Nighthawk_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F117_Nighthawk/F117_Nighthawk.Ase2NdfBin'
+)
+
+export Modele_F117_Nighthawk_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F117_Nighthawk_MID/F117_Nighthawk_MID.Ase2NdfBin'
+)
+
+export Modele_F117_Nighthawk_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/LODS/F117_Nighthawk_LOW.Ase2NdfBin'
+)
+
+export Modele_F117_Nighthawk_US_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Avion/F117_Nighthawk/F117_Nighthawk_Train.Ase2NdfBin'
+)

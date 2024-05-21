@@ -1,0 +1,14 @@
+export Modele_M270_MLRS_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/M270/M270.Ase2NdfBin'
+)
+
+export Modele_M270_MLRS_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/M270_MID/M270_MID.Ase2NdfBin'
+)
+
+export Modele_M270_MLRS_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/LODS/M270_LOW.Ase2NdfBin'
+)

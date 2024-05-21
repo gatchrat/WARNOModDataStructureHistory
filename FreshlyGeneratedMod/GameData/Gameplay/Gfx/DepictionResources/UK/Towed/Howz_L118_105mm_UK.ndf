@@ -1,0 +1,17 @@
+export Modele_Howz_L118_105mm_UK is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Canon/L118_Light_Gun/L118_Light_Gun.Ase2NdfBin'
+)
+
+export Modele_Howz_L118_105mm_UK_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Canon/L118_Light_Gun_MID/L118_Light_Gun_MID.Ase2NdfBin'
+)
+
+export Modele_Howz_L118_105mm_UK_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Canon/LODS/L118_Light_Gun_LOW.Ase2NdfBin'
+)
+
+
+

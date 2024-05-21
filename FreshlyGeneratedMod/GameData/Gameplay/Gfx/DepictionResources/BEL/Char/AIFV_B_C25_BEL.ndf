@@ -1,0 +1,14 @@
+export Modele_AIFV_B_C25_BEL is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/APC/AIFV_B/AIFV_B.Ase2NdfBin'
+)
+
+export Modele_AIFV_B_C25_BEL_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/APC/AIFV_B/AIFV_B.Ase2NdfBin'
+)
+
+export Modele_AIFV_B_C25_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/APC/AIFV_B/AIFV_B.Ase2NdfBin'
+)

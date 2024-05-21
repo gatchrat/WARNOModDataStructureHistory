@@ -1,0 +1,17 @@
+export Modele_FV101_Scorpion_BEL is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/Char/FV101_Scorpion/FV101_Scorpion.Ase2NdfBin'
+)
+
+export Modele_FV101_Scorpion_BEL_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/Char/FV101_Scorpion_MID/FV101_Scorpion_MID.Ase2NdfBin'
+)
+
+export Modele_FV101_Scorpion_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/BEL/Char/LODS/FV101_Scorpion_LOW.Ase2NdfBin'
+)
+
+
+

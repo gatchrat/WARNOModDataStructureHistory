@@ -1,0 +1,90 @@
+
+
+Playlist_Outgame is
+[
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Brooding-Thoughts.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Canyon.wav" ),
+    Music(                    FileName = "GameData:/Assets/Sons/PerpetualMusic/Clusters_Of_Desolation.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Crime-Scene-Investigation.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Dark_City_Beats.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Dimensional-Pulse.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Divine-Inspiration.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Floating_Consciousness.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Global-Lockdown.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Hollywood-Life.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/I_Am_Enough.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Indifferent.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Into-The-Unknown.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Matrix-One.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Miami-Skies.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Mysteries.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Peace_Within.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Quiet-Discovery.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Raging_Burn.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Ready-For-The-Count.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Resolution.wav" ),
+    Music(                    FileName = "GameData:/Assets/Sons/PerpetualMusic/Rise_Forever.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Sheer-Drop.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Synchronicity.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Things_Are_Stranger.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Through-The-Night.wav" ),
+]
+
+
+Playlist_Ingame is
+[
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Canyon.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Born-A-Hero.wav" ),
+    Music(                    FileName = "GameData:/Assets/Sons/PerpetualMusic/Clusters_Of_Desolation.wav" ),
+    Music(                    FileName = "GameData:/Assets/Sons/PerpetualMusic/Depiction_Of_Fear.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Dark_City_Beats.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Dawn_On_Glendale.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Divine-Inspiration.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Get-Together-2.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Global-Lockdown.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Hollywood-Life.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/I_Am_Enough.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Indifferent.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Into-The-Unknown.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Lap_Time.wav" ),
+    Music(                    FileName = "GameData:/Assets/Sons/PerpetualMusic/Lets_Go.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Matrix-One.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Miami-Skies.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Midnight_Runaway.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Mysteries.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Quiet-Discovery.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Raging_Burn.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Ready-For-The-Count.wav" ),
+    Music(                    FileName = "GameData:/Assets/Sons/PerpetualMusic/Rise_Forever.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Sheer-Drop.wav" ),
+    Music(                    FileName = "GameData:/Assets/Sons/PerpetualMusic/Silicon_Tribes.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Synchronicity.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/TRIPTIDON_Sinful.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Things_Are_Stranger.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Third-Degree.wav" ),
+]
+
+template Music
+[
+    Copyrighted = false,
+    FileName
+]
+is TSong ( Copyrighted=<Copyrighted> Sound=TSoundDescriptor( TheSoundStream = TSoundStream( FileName = <FileName> ) ))
+
+unnamed TPerpetualMusic
+(
+    CopyrightFreeMusic = $/SoundOption/CopyrightFreeMusic
+    DefaultPlaylistsGroup = "Outgame"
+    PlaylistsGroups = MAP
+    [
+        (
+            "Outgame",
+            ~/Playlist_Outgame
+        ),
+        (
+            "Ingame",
+            ~/Playlist_Ingame
+        ),
+    ]
+)
+

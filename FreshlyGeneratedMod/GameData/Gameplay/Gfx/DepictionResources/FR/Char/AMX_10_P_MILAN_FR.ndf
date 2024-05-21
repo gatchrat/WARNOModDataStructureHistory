@@ -1,0 +1,17 @@
+export Modele_AMX_10_P_MILAN_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/APC/AMX_10P_MILAN/AMX_10P_MILAN.Ase2NdfBin'
+)
+
+export Modele_AMX_10_P_MILAN_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/APC/AMX_10P_MILAN_MID/AMX_10P_MILAN_MID.Ase2NdfBin'
+)
+
+export Modele_AMX_10_P_MILAN_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/APC/LODS/AMX_10P_MILAN_LOW.Ase2NdfBin'
+)
+
+
+

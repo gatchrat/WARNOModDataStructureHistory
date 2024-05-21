@@ -1,0 +1,14 @@
+export Modele_BM21V_GradV_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/BM21V_GradV/BM21V_GradV.Ase2NdfBin'
+)
+
+export Modele_BM21V_GradV_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/BM21V_GradV/BM21V_GradV.Ase2NdfBin'
+)
+
+export Modele_BM21V_GradV_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Artillerie/BM21V_GradV/BM21V_GradV.Ase2NdfBin'
+)

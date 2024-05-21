@@ -1,0 +1,14 @@
+export Modele_AMX_30_B2_Brennus_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_30B2_Brennus/AMX_30B2_Brennus.Ase2NdfBin'
+)
+
+export Modele_AMX_30_B2_Brennus_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_30B2_Brennus/AMX_30B2_Brennus.Ase2NdfBin'
+)
+
+export Modele_AMX_30_B2_Brennus_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_30B2_Brennus/AMX_30B2_Brennus.Ase2NdfBin'
+)

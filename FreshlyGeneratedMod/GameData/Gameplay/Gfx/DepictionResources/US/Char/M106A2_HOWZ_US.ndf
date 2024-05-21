@@ -1,0 +1,15 @@
+export Modele_M106A2_HOWZ_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/M106_A2/M106_A2.Ase2NdfBin'
+)
+
+export Modele_M106A2_HOWZ_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/M106_A2_MID/M106_A2_MID.Ase2NdfBin'
+)
+
+export Modele_M106A2_HOWZ_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/LODS/M106_A2_LOW.Ase2NdfBin'
+)
+

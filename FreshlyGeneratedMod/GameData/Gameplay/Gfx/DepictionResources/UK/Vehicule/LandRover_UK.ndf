@@ -1,0 +1,14 @@
+export Modele_LandRover_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Vehicule/LandRover/LandRover.Ase2NdfBin'
+)
+
+export Modele_LandRover_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Vehicule/LandRover_MID/LandRover_MID.Ase2NdfBin'
+)
+
+export Modele_LandRover_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Vehicule/LODS/LandRover_LOW.Ase2NdfBin'
+)

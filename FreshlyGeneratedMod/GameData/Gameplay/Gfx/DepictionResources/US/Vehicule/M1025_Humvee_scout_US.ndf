@@ -1,0 +1,14 @@
+export Modele_M1025_Humvee_scout_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Vehicule/M1025_Humvee_HMG/M1025_Humvee_HMG.Ase2NdfBin'
+)
+
+export Modele_M1025_Humvee_scout_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Vehicule/M1025_Humvee_HMG_MID/M1025_Humvee_HMG_MID.Ase2NdfBin'
+)
+
+export Modele_M1025_Humvee_scout_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Vehicule/LODS/M1025_Humvee_HMG_LOW.Ase2NdfBin'
+)

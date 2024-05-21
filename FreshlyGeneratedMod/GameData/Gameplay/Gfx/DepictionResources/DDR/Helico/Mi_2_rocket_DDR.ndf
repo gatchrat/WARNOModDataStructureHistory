@@ -1,0 +1,14 @@
+export Modele_Mi_2_rocket_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_2_rocket/Mi_2_rocket.Ase2NdfBin'
+)
+
+export Modele_Mi_2_rocket_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_2_rocket_MID/Mi_2_rocket_MID.Ase2NdfBin'
+)
+
+export Modele_Mi_2_rocket_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/LODS/Mi_2_rocket_LOW.Ase2NdfBin'
+)

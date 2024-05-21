@@ -1,0 +1,19 @@
+export Modele_Leopard_1BE_CMD_BEL is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Char/Leopard_1BE_CMD/Leopard_1BE.Ase2NdfBin'
+)
+
+export Modele_Leopard_1BE_CMD_BEL_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Char/Leopard_1BE_CMD/Leopard_1BE.Ase2NdfBin'
+)
+
+export Modele_Leopard_1BE_CMD_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Char/Leopard_1BE_CMD/Leopard_1BE.Ase2NdfBin'
+)
+
+export Modele_Leopard_1BE_CMD_BEL_Tourelle_02 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/Ammo/Tourelles/M60.Ase2NdfBin'
+)

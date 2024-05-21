@@ -1,0 +1,14 @@
+export Modele_A109BA_BEL is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Helico/A109BA/A109BA.fbx'
+)
+
+export Modele_A109BA_BEL_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Helico/A109BA/A109BA.fbx'
+)
+
+export Modele_A109BA_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/Helico/A109BA/A109BA.fbx'
+)

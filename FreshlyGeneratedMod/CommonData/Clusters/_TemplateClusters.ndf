@@ -1,0 +1,316 @@
+//-----------------------------------------------------------------------------
+//*****************************************************************************
+//-----------------------------------------------------------------------------
+template TemplateClusterLoadNDF
+[
+    Files     = [] ,
+    BaseName  : string       = '',
+    NameSpace : string       = '',
+    ModName   : string       = '',
+    ModDependencyTag : string = '',
+    FillResourceList : bool    = false,
+    UsingNamespaces = [],
+    Patchable = true,
+] is TClusterNdfTransaction
+(
+    NdfTransaction = TNDFTransaction
+    (
+        FileList =
+        [
+        TNDFTransactionFileList
+        (
+            Files = <Files>
+        )
+        ]
+        FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
+        BaseName = <Patchable> ? ("Patchable/" + <BaseName> ) : <BaseName>
+        NameSpace =<NameSpace>
+        ModName = <ModName>
+        ModDependencyTag = <ModDependencyTag>
+        UsingNamespaces = <UsingNamespaces>
+    )
+)
+//-----------------------------------------------------------------------------
+template TemplateClusterWithNDFLoadedSubCluster
+[
+    SubClusterName : string,
+    Files     = [] ,
+    BaseName  : string       = '',
+    NameSpace : string       = '',
+    FillResourceList : bool    = false,
+    UsingNamespaces = [],
+    Patchable = true,
+    GenerateCRC   = false
+] is TClusterWithNDFLoadedSubCluster
+(
+    SubClusterName = <SubClusterName>
+    NdfTransaction = TNDFTransaction
+    (
+        BaseName        = <Patchable> ? ("Patchable/" + <BaseName> ) : <BaseName>
+        NameSpace       = <NameSpace>
+        FillResourceListOutputFileName  = <FillResourceList>?(<BaseName> + '.ndfbin'):''
+        FileList         = [TNDFTransactionFileList(Files = <Files>)]
+        UsingNamespaces  = <UsingNamespaces>
+        GenerateCRC   = <GenerateCRC>
+    )
+)
+//-----------------------------------------------------------------------------
+template TemplateClusterWithNDFLoadedSubCluster_FileList_ReloadableForUI
+[
+    SubClusterName : string,
+    FileList     = [] ,
+    BaseName  : string       = '',
+    NameSpace : string       = '',
+    ModName   : string       = '',
+    ModDependencyTag : string = '',
+    FillResourceList : bool    = false,
+    UsingNamespaces = [],
+    Patchable = true,
+    GenerateCRC   = false
+] is TClusterWithNDFLoadedSubCluster_Reloadable
+(
+    SubClusterName = <SubClusterName>
+    NdfTransaction = TNDFTransaction
+    (
+        BaseName        = <Patchable> ? ("Patchable/" + <BaseName> ) : <BaseName>
+        NameSpace       = <NameSpace>
+        ModName         = <ModName>
+        ModDependencyTag = <ModDependencyTag>
+        FillResourceListOutputFileName  = <FillResourceList>?(<BaseName> + '.ndfbin'):''
+        FileList         = <FileList>
+        UsingNamespaces  = <UsingNamespaces>
+        GenerateCRC   = <GenerateCRC>
+    )
+    ReloadType = EReloadableType/UI
+)
+//-----------------------------------------------------------------------------
+template TemplateClusterWithNDFLoadedSubCluster_ReloadableForGameplay
+[
+    SubClusterName : string,
+    Files     = [] ,
+    BaseName  : string       = '',
+    NameSpace : string       = '',
+    ModName   : string       = '',
+    ModDependencyTag : string = '',
+    FillResourceList : bool    = false,
+    UsingNamespaces = [],
+    Patchable = true,
+    GenerateCRC   = false
+] is TClusterWithNDFLoadedSubCluster_Reloadable
+(
+    SubClusterName = <SubClusterName>
+    NdfTransaction = TNDFTransaction
+    (
+        BaseName        = <Patchable> ? ("Patchable/" + <BaseName> ) : <BaseName>
+        NameSpace       = <NameSpace>
+        ModName         = <ModName>
+        ModDependencyTag = <ModDependencyTag>
+        FillResourceListOutputFileName  = <FillResourceList>?(<BaseName> + '.ndfbin'):''
+        FileList        = [TNDFTransactionFileList(Files = <Files>)]
+        UsingNamespaces  = <UsingNamespaces>
+        GenerateCRC   = <GenerateCRC>
+    )
+    ReloadType = EReloadableType/Gameplay
+)
+//-----------------------------------------------------------------------------
+template TemplateClusterLoadDirectoryNDF
+[
+    Directory   : string       = '' ,
+    BaseName  : string         = '',
+    NameSpace : string         = '',
+    Recursive : bool           = true,
+    FillResourceList : bool    = false,
+    UsingNamespaces = [],
+    Patchable = true,
+    GenerateCRC   = false
+] is TClusterNdfTransaction
+(
+    NdfTransaction = TNDFTransaction
+    (
+        FileList =
+        [
+        TNDFTransactionDirectory
+        (
+            Directory = <Directory>
+            Recursive = <Recursive>
+        )
+        ]
+        BaseName = ((<BaseName> != '') ? (<Patchable> ? ("Patchable/" + <BaseName> ) : <BaseName>) : <BaseName>)
+        NameSpace =<NameSpace>
+        UsingNamespaces = <UsingNamespaces>
+        FillResourceListOutputFileName = <FillResourceList>?(<BaseName> + '.ndfbin'):''
+        GenerateCRC   = <GenerateCRC>
+    )
+)
+//-----------------------------------------------------------------------------
+template TemplateClusterLoadDirectoryNDF_And_Files
+[
+    Directory   : string       = '' ,
+    Files     : list<string>   = [] ,
+    BaseName  : string         = '',
+    NameSpace : string         = '',
+    ModName   : string         = '',
+    ModDependencyTag : string  = '',
+    Recursive : bool           = true,
+    FillResourceList : bool    = false,
+    UsingNamespaces = [],
+    Patchable = true,
+    DebugInfo = false,
+    GenerateCRC   = false
+] is TClusterNdfTransaction
+(
+    NdfTransaction = TNDFTransaction
+    (
+        FileList =
+        [
+        TNDFTransactionDirectory
+        (
+            Directory = <Directory>
+            Recursive = <Recursive>
+        ),
+        TNDFTransactionFileList
+        (
+            Files = <Files>
+        )
+        ]
+        FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
+        BaseName = <Patchable> ? ("Patchable/" + <BaseName> ) : <BaseName>
+        NameSpace =<NameSpace>
+        ModName = <ModName>
+        ModDependencyTag = <ModDependencyTag>
+        UsingNamespaces = <UsingNamespaces>
+        DebugInfo = <DebugInfo>
+        GenerateCRC   = <GenerateCRC>
+    )
+)
+//-----------------------------------------------------------------------------
+template TemplateClusterLoadNDF_FileList
+[
+    FileList    : list<TNDFAbstractTransactionFileList>  = [] ,
+    BaseName    : string         = '',
+    NameSpace   : string         = '',
+    ModName   : string           = '',
+    ModDependencyTag : string    = '',
+    FillResourceList : bool      = false,
+    UsingNamespaces              = [],
+    Patchable                    = true,
+] is TClusterNdfTransaction
+(
+    NdfTransaction = TNDFTransaction
+    (
+        FileList = <FileList>
+        FillResourceListOutputFileName = <FillResourceList>?(<BaseName> + '.ndfbin'):''
+        BaseName = <Patchable> ? ("Patchable/" + <BaseName> ) : <BaseName>
+        NameSpace =<NameSpace>
+        ModName = <ModName>
+        ModDependencyTag = <ModDependencyTag>
+        UsingNamespaces = <UsingNamespaces>
+    )
+)
+//-----------------------------------------------------------------------------
+template TemplateClusterLoadNDFForIA
+[
+    NameSpace                  : string = '',
+    ModName                    : string = '',
+    ModDependencyTag           : string = '',
+    FillResourceList           : bool   = false,
+    UsingNamespaces                     = [],
+    FileList                            = [],
+    GenerateCRC                         = true
+] is TClusterNdfTransaction
+(
+    NdfTransaction = TNDFTransaction
+    (
+        NameSpace                  = <NameSpace>
+        BaseName                   = 'Patchable/' + <NameSpace>
+        ModName                    = <ModName>
+        ModDependencyTag           = <ModDependencyTag>
+        UsingNamespaces            = <UsingNamespaces>
+        FileList                   = <FileList>
+        FillResourceListOutputFileName = <FillResourceList> ? ( <NameSpace> + '.ndfbin') : ''
+        StripPrivateRootObjects    = True
+        GenerateCRC                = <GenerateCRC>
+        DebugInfo                  = True
+    )
+)
+//-----------------------------------------------------------------------------
+//*****************************************************************************
+//-----------------------------------------------------------------------------
+
+template TemplateClusterLoadNDFForNoFinal
+[
+    FileList     = [] ,
+    BaseName  : string       = '',
+    NameSpace : string       = '',
+    FillResourceList : bool    = false,
+    UsingNamespaces = [],
+    StripPrivateRootObjects = false,
+] is TClusterNdfTransactionCompilationDependent
+(
+    NdfTransaction = TNDFTransaction
+    (
+        FileList = <FileList>
+        BaseName = "NotFinal/" + <BaseName>
+        NameSpace =<NameSpace>
+        UsingNamespaces = <UsingNamespaces>
+        FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
+        StripPrivateRootObjects = <StripPrivateRootObjects>
+    )
+)
+//-----------------------------------------------------------------------------
+//*****************************************************************************
+//-----------------------------------------------------------------------------
+template TemplateClusterLoadNDFForEditor
+[
+    Files     = [] ,
+    BaseName  : string,
+    NameSpace : string,
+    FillResourceList : bool    = false,
+    UsingNamespaces = [],
+] is TClusterInitialisation_EditorDependent
+(
+    SubClusterModeEditor = TClusterNdfTransaction
+    (
+        NdfTransaction = TNDFTransaction
+        (
+            FileList =
+            [
+            TNDFTransactionFileList
+            (
+                Files = <Files>
+            )
+            ]
+            BaseName = "Editor/" + <BaseName>
+            NameSpace =<NameSpace>
+            UsingNamespaces = <UsingNamespaces>
+            FillResourceListOutputFileName = <FillResourceList>?("Editor/" + <BaseName> + '.ndfbin'):''
+        )
+    )
+)
+//-----------------------------------------------------------------------------
+template TemplateClusterLoadForNoEditor
+[
+    Files     = [] ,
+    BaseName  : string       = '',
+    NameSpace : string       = '',
+    FillResourceList : bool    = false,
+] is TClusterInitialisation_EditorDependent
+(
+    SubClusterModeNoEditor = TClusterNdfTransaction
+    (
+        NdfTransaction = TNDFTransaction
+        (
+            FileList =
+            [
+            TNDFTransactionFileList
+            (
+                Files = <Files>
+            )
+            ]
+            FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
+            BaseName = "Patchable/" + <BaseName>
+            NameSpace =<NameSpace>
+        )
+    )
+)
+//-----------------------------------------------------------------------------

@@ -1,0 +1,14 @@
+export Modele_FV4201_Chieftain_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/Chieftain_Mk10/Chieftain_Mk10.Ase2NdfBin'
+)
+
+export Modele_FV4201_Chieftain_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/Chieftain_Mk10_MID/Chieftain_Mk10_MID.Ase2NdfBin'
+)
+
+export Modele_FV4201_Chieftain_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Char/LODS/Chieftain_Mk10_LOW.Ase2NdfBin'
+)

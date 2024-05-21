@@ -1,0 +1,17 @@
+export Modele_HMGteam_AGS17_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_AGL/AGS17.Ase2NdfBin'
+)
+
+export Modele_HMGteam_AGS17_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_AGL/AGS17.Ase2NdfBin'
+)
+
+export Modele_HMGteam_AGS17_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_AGL/AGS17.Ase2NdfBin'
+)
+
+
+

@@ -1,0 +1,14 @@
+export Modele_Alvis_Stalwart_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Vehicule/Alvis_Stalwart/Alvis_Stalwart.fbx'
+)
+
+export Modele_Alvis_Stalwart_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Vehicule/Alvis_Stalwart/Alvis_Stalwart.fbx'
+)
+
+export Modele_Alvis_Stalwart_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Vehicule/Alvis_Stalwart/Alvis_Stalwart.fbx'
+)

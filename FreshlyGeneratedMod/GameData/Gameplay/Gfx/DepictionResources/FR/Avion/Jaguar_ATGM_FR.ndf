@@ -1,0 +1,19 @@
+export Modele_Jaguar_ATGM_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/Jaguar_A/Jaguar_A_ATGM.Ase2NdfBin'
+)
+
+export Modele_Jaguar_ATGM_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/Jaguar_A/Jaguar_A_ATGM.Ase2NdfBin'
+)
+
+export Modele_Jaguar_ATGM_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/Jaguar_A/Jaguar_A_ATGM.Ase2NdfBin'
+)
+
+export Modele_Jaguar_ATGM_FR_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Avion/Jaguar_A/Jaguar_A_train.Ase2NdfBin'
+)

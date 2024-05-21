@@ -1,0 +1,14 @@
+export Modele_UAZ_469_CMD_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_CMD/UAZ_469_CMD.Ase2NdfBin'
+)
+
+export Modele_UAZ_469_CMD_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Vehicule/UAZ_469_CMD_MID/UAZ_469_CMD_MID.Ase2NdfBin'
+)
+
+export Modele_UAZ_469_CMD_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Vehicule/LODS/UAZ_469_CMD_LOW.Ase2NdfBin'
+)

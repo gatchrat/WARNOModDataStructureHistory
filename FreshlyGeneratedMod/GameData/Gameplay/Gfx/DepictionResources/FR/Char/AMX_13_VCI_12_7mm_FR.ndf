@@ -1,0 +1,19 @@
+export Modele_AMX_13_VCI_12_7mm_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_13_VCI_12_7mm/AMX_13_VCI_12_7mm.Ase2NdfBin'
+)
+
+export Modele_AMX_13_VCI_12_7mm_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_13_VCI_12_7mm_MID/AMX_13_VCI_12_7mm_MID.Ase2NdfBin'
+)
+
+export Modele_AMX_13_VCI_12_7mm_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Char/LODS/AMX_13_VCI_12_7mm_LOW.Ase2NdfBin'
+)
+
+export Modele_AMX_13_VCI_12_7mm_FR_Tourelle_01 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/M106_A2/cal50_t1.Ase2NdfBin'
+)

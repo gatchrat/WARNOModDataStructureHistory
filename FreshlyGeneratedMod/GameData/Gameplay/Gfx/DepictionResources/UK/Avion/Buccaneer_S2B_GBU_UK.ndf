@@ -1,0 +1,19 @@
+export Modele_Buccaneer_S2B_GBU_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Buccaneer_S2B_LGB/Buccaneer_S2B_LGB.fbx'
+)
+
+export Modele_Buccaneer_S2B_GBU_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Buccaneer_S2B_LGB/Buccaneer_S2B_LGB.fbx'
+)
+
+export Modele_Buccaneer_S2B_GBU_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Buccaneer_S2B_LGB/Buccaneer_S2B_LGB.fbx'
+)
+
+export Modele_Buccaneer_S2B_GBU_UK_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Buccaneer_S2B_LGB/Buccaneer_S2B_LGB_train.fbx'
+)

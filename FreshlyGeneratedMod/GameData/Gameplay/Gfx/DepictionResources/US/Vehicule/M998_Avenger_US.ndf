@@ -1,0 +1,17 @@
+export Modele_M998_Avenger_US is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/DCA/M998_Avenger/M998_Avenger.Ase2NdfBin'
+)
+
+export Modele_M998_Avenger_US_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/DCA/M998_Avenger/M998_Avenger.Ase2NdfBin'
+)
+
+export Modele_M998_Avenger_US_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/US/DCA/M998_Avenger/M998_Avenger.Ase2NdfBin'
+)
+
+
+

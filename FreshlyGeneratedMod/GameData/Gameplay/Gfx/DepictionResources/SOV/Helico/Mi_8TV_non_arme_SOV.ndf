@@ -1,0 +1,14 @@
+export Modele_Mi_8TV_non_arme_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_8TZ/Mi_8TZ.Ase2NdfBin'
+)
+
+export Modele_Mi_8TV_non_arme_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_8TZ/Mi_8TZ.Ase2NdfBin'
+)
+
+export Modele_Mi_8TV_non_arme_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_8TZ/Mi_8TZ.Ase2NdfBin'
+)

@@ -1,0 +1,15 @@
+export Modele_M107A2_175mm_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/M107_A2_175mm/M107_A2_175mm.Ase2NdfBin'
+)
+
+export Modele_M107A2_175mm_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/M107_A2_175mm_MID/M107_A2_175mm_MID.Ase2NdfBin'
+)
+
+export Modele_M107A2_175mm_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Artillerie/LODS/M107_A2_175mm_LOW.Ase2NdfBin'
+)
+

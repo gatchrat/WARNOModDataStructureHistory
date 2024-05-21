@@ -1,0 +1,14 @@
+export Modele_Mi_2_gunship_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_2_GUNSHIP/Mi_2_GUNSHIP.Ase2NdfBin'
+)
+
+export Modele_Mi_2_gunship_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_2_GUNSHIP_MID/Mi_2_GUNSHIP_MID.Ase2NdfBin'
+)
+
+export Modele_Mi_2_gunship_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/LODS/Mi_2_GUNSHIP_LOW.Ase2NdfBin'
+)

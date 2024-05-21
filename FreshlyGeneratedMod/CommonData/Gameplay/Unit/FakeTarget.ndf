@@ -1,0 +1,59 @@
+template Template_Unit_FakeTarget
+[
+    DescriptorId = GUID:{00000000-0000-0000-0000-000000000000},
+    ClassNameForDebug = 'UndefinedFakeTarget',
+]  is TEntityDescriptor
+(
+    DescriptorId         = <DescriptorId>
+    ClassNameForDebug    = <ClassNameForDebug>
+    ModulesDescriptors =
+    [
+        TFlagsModuleDescriptor
+        (
+            InitialFlagSet =
+            [
+                Flag_FakeTarget,
+                Flag_FakeTargetInGeoDB,
+                Flag_Detectable,
+            ]
+        ),
+        TPositionModuleDescriptor
+        (
+            InGeoDb        = True
+        ),
+        TVisibilityModuleDescriptor
+        (
+            AutoRevealType = EAutoRevealType/AutoRevealAllies
+            UnitConcealmentBonus = 1.0
+        ),
+        $/GFX/VisionRules/ScannerConfigurationDescriptor,
+        $/GFX/VisionRules/ScannerModuleDescriptor,
+        TLinkTeamModuleDescriptor
+        (
+        ),
+        TPackSignauxModuleDescriptor
+        (
+        ),
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TTargetDataModuleDescriptor
+        (
+        ),
+        TCameraShowroomModuleDescriptor
+        (
+            Token = 'Vehicle'
+            SpawnType = EShowroomSpawnType/Vehicle
+        ),
+    ]
+)
+
+
+Tactic_Descriptor_Unit_FakeTargetInGeoDB is Template_Unit_FakeTarget
+(
+    DescriptorId         = GUID:{00000000-0000-0000-0000-000006000000}
+    ClassNameForDebug    = 'FakeTargetInGeoDB'
+)

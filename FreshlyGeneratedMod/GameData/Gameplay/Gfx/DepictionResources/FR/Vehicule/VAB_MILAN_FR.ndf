@@ -1,0 +1,19 @@
+export Modele_VAB_MILAN_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Antichar/VAB_MILAN/VAB_MILAN.Ase2NdfBin'
+)
+
+export Modele_VAB_MILAN_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Antichar/VAB_MILAN_MID/VAB_MILAN_MID.Ase2NdfBin'
+)
+
+export Modele_VAB_MILAN_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Antichar/LODS/VAB_MILAN_LOW.Ase2NdfBin'
+)
+
+export Modele_VAB_MILAN_FR_Tourelle_02 is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Artillerie/M106_A2/cal50_t2.Ase2NdfBin'
+)

@@ -1,0 +1,17 @@
+export Modele_VAB_Mortar_81_FR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Artillerie/VAB_Mortar_81/VAB_Mortar_81.Ase2NdfBin'
+)
+
+export Modele_VAB_Mortar_81_FR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Artillerie/VAB_Mortar_81/VAB_Mortar_81.Ase2NdfBin'
+)
+
+export Modele_VAB_Mortar_81_FR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/FR/Artillerie/VAB_Mortar_81/VAB_Mortar_81.Ase2NdfBin'
+)
+
+
+

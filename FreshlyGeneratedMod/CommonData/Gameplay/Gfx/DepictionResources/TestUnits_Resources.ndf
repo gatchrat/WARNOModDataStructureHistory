@@ -1,0 +1,39 @@
+private Private_ModelFile_TestUnit_ModelTank is 'CommonData:/Assets/3D/Units_Tests_Autos/Char/Char_Test.Ase2NdfBin'
+private Private_ModelFile_TestUnit_ModelVehicule is 'CommonData:/Assets/3D/Units_Tests_Autos/Vehicule/Vehicule_Test.Ase2NdfBin'
+private Private_ModelFile_TestUnit_ModelHelico is 'CommonData:/Assets/3D/Units_Tests_Autos/Helico/Helico_Test.Ase2NdfBin'
+private Private_ModelFile_TestUnit_ModelAvion is 'CommonData:/Assets/3D/Units_Tests_Autos/Avion/Avion_Test.Ase2NdfBin'
+private Private_ModelFile_TestUnit_ModelBateau is 'CommonData:/Assets/3D/Units_Tests_Autos/Bateau/Bateau_Test.Ase2NdfBin'
+private Private_ModelFile_TestUnit_ModelInfantry is 'CommonData:/Assets/3D/Units_Tests_Autos/Infanterie/Infanterie_Test.Ase2NdfBin'
+private Private_ModelFile_TestUnit_ModelBuilding is 'CommonData:/Assets/3D/Units_Tests_Autos/Building/BaseBuilding_Batiment_Placeholder.Ase2NdfBin'
+
+
+export Modele_TestUnit_Tank is TemplateMeshDescriptor
+(
+    FileName = Private_ModelFile_TestUnit_ModelTank
+)
+
+export Modele_TestUnit_Vehicule is TemplateMeshDescriptor
+(
+    FileName = Private_ModelFile_TestUnit_ModelVehicule
+)
+
+export Modele_TestUnit_Helico is TemplateMeshDescriptor
+(
+    FileName = Private_ModelFile_TestUnit_ModelHelico
+)
+
+export Modele_TestUnit_Avion is TemplateMeshDescriptor
+(
+    FileName = Private_ModelFile_TestUnit_ModelAvion
+)
+
+export Modele_TestUnit_Bateau is TemplateMeshDescriptor
+(
+    FileName = Private_ModelFile_TestUnit_ModelBateau
+)
+
+export Modele_TestUnit_Infantry is TemplateMeshDescriptor
+(
+    FileName = Private_ModelFile_TestUnit_ModelInfantry
+)
+

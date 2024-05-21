@@ -1,0 +1,17 @@
+export Modele_HMGteam_PKM_TTsko_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/PKM.Ase2NdfBin'
+)
+
+export Modele_HMGteam_PKM_TTsko_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/PKM.Ase2NdfBin'
+)
+
+export Modele_HMGteam_PKM_TTsko_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/PKM.Ase2NdfBin'
+)
+
+
+

@@ -1,0 +1,14 @@
+export Modele_AMX_13_mod56_CMD_BEL is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/CMD/AMX_13_mod56_CMD/AMX_13_mod56_CMD.Ase2NdfBin'
+)
+
+export Modele_AMX_13_mod56_CMD_BEL_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/CMD/AMX_13_mod56_CMD_MID/AMX_13_mod56_CMD_MID.Ase2NdfBin'
+)
+
+export Modele_AMX_13_mod56_CMD_BEL_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/BEL/CMD/LODS/AMX_13_mod56_CMD_LOW.Ase2NdfBin'
+)

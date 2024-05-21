@@ -1,0 +1,19 @@
+export Modele_Jaguar_HE1_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Jaguar/Jaguar.Ase2NdfBin'
+)
+
+export Modele_Jaguar_HE1_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Jaguar/Jaguar.Ase2NdfBin'
+)
+
+export Modele_Jaguar_HE1_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Jaguar/Jaguar.Ase2NdfBin'
+)
+
+export Modele_Jaguar_HE1_UK_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Avion/Jaguar/Jaguar_train.Ase2NdfBin'
+)

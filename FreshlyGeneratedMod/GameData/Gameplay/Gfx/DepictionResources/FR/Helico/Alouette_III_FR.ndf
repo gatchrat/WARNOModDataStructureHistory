@@ -1,0 +1,14 @@
+export Modele_Alouette_III_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Alouette_III/Alouette_III.Ase2NdfBin'
+)
+
+export Modele_Alouette_III_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Alouette_III/Alouette_III.Ase2NdfBin'
+)
+
+export Modele_Alouette_III_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Alouette_III/Alouette_III.Ase2NdfBin'
+)

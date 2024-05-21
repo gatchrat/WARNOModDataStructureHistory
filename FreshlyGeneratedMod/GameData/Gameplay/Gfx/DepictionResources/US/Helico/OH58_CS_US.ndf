@@ -1,0 +1,14 @@
+export Modele_OH58_CS_US is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/OH_58C_Stinger/OH_58C_Stinger.Ase2NdfBin'
+)
+
+export Modele_OH58_CS_US_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/OH_58C_Stinger_MID/OH_58C_Stinger_MID.Ase2NdfBin'
+)
+
+export Modele_OH58_CS_US_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/US/Helico/LODS/OH_58C_Stinger_LOW.Ase2NdfBin'
+)

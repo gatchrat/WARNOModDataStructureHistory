@@ -1,0 +1,17 @@
+export Modele_ATteam_Fagot_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/Konkurs/Fagot.Ase2NdfBin'
+)
+
+export Modele_ATteam_Fagot_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/Konkurs/Fagot.Ase2NdfBin'
+)
+
+export Modele_ATteam_Fagot_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Antichar/Konkurs/Fagot.Ase2NdfBin'
+)
+
+
+

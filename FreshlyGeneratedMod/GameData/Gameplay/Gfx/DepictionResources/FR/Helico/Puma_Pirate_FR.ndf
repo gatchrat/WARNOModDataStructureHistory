@@ -1,0 +1,14 @@
+export Modele_Puma_Pirate_FR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Puma_Pirate/Puma_Pirate.Ase2NdfBin'
+)
+
+export Modele_Puma_Pirate_FR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Puma_Pirate/Puma_Pirate.Ase2NdfBin'
+)
+
+export Modele_Puma_Pirate_FR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/FR/Helico/Puma_Pirate/Puma_Pirate.Ase2NdfBin'
+)

@@ -1,0 +1,17 @@
+export Modele_Mortier_M43_82mm_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Canon/81mm_mortar/81mm_mortar.Ase2NdfBin'
+)
+
+export Modele_Mortier_M43_82mm_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Canon/81mm_mortar_MID/81mm_mortar_MID.Ase2NdfBin'
+)
+
+export Modele_Mortier_M43_82mm_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/UK/Canon/LODS/81mm_mortar_LOW.Ase2NdfBin'
+)
+
+
+

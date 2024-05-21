@@ -1,0 +1,14 @@
+export Modele_Gazelle_CMD_UK is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Gazelle/Gazelle.Ase2NdfBin'
+)
+
+export Modele_Gazelle_CMD_UK_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Gazelle/Gazelle.Ase2NdfBin'
+)
+
+export Modele_Gazelle_CMD_UK_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/UK/Helico/Gazelle/Gazelle.Ase2NdfBin'
+)

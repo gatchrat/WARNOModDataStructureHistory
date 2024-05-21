@@ -1,0 +1,15 @@
+export Modele_AT_2A45_SprutB_SOV is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/AT_2A45_SprutB/AT_2A45_SprutB.Ase2NdfBin'
+)
+
+export Modele_AT_2A45_SprutB_SOV_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/AT_2A45_SprutB/AT_2A45_SprutB.Ase2NdfBin'
+)
+
+export Modele_AT_2A45_SprutB_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/URSS/Canon/AT_2A45_SprutB/AT_2A45_SprutB.Ase2NdfBin'
+)
+//-------------------------------------------------------------------------------------

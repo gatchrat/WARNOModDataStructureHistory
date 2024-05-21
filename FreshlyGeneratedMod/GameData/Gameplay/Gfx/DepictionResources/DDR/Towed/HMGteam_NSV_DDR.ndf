@@ -1,0 +1,17 @@
+export Modele_HMGteam_NSV_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/NSVT.fbx'
+)
+
+export Modele_HMGteam_NSV_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/NSVT.fbx'
+)
+
+export Modele_HMGteam_NSV_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/NSVT.fbx'
+)
+
+
+

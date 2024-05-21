@@ -1,0 +1,14 @@
+export Modele_Mi_24D_AA_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_24D/Mi_24V_Hind_AA.Ase2NdfBin'
+)
+
+export Modele_Mi_24D_AA_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/Mi_24D_MID/Mi_24V_Hind_AA_MID.Ase2NdfBin'
+)
+
+export Modele_Mi_24D_AA_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Helico/LODS/Mi_24V_Hind_AA_LOW.Ase2NdfBin'
+)

@@ -1,0 +1,19 @@
+export Modele_MiG_25RBF_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/MiG_25RBF/MiG_25RBF.Ase2NdfBin'
+)
+
+export Modele_MiG_25RBF_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/MiG_25RBF/MiG_25RBF.Ase2NdfBin'
+)
+
+export Modele_MiG_25RBF_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/MiG_25RBF/MiG_25RBF.Ase2NdfBin'
+)
+
+export Modele_MiG_25RBF_SOV_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Avion/MiG_25RBF/MiG_25RBF_train.Ase2NdfBin'
+)

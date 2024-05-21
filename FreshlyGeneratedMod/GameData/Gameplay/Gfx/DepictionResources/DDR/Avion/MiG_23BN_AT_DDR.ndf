@@ -1,0 +1,19 @@
+export Modele_MiG_23BN_AT_DDR is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/MiG_23MF/MiG_23MF.Ase2NdfBin'
+)
+
+export Modele_MiG_23BN_AT_DDR_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/MiG_23MF_MID/MiG_23MF_MID.Ase2NdfBin'
+)
+
+export Modele_MiG_23BN_AT_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/LODS/MiG_23MF_LOW.Ase2NdfBin'
+)
+
+export Modele_MiG_23BN_AT_DDR_train is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/DDR/Avion/MiG_23MF/MiG_23MF_Train.Ase2NdfBin'
+)

@@ -1,0 +1,14 @@
+export Modele_2S5_GiatsintS_SOV is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Canon/2S5_GiatsintS/2S5_GiatsintS.Ase2NdfBin'
+)
+
+export Modele_2S5_GiatsintS_SOV_MID is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Canon/2S5_GiatsintS/2S5_GiatsintS.Ase2NdfBin'
+)
+
+export Modele_2S5_GiatsintS_SOV_LOW is TemplateMeshDescriptor
+(
+    FileName = 'GameData:/Assets/3D/Units/URSS/Canon/2S5_GiatsintS/2S5_GiatsintS.Ase2NdfBin'
+)

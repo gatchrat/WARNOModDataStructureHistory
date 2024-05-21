@@ -1,0 +1,17 @@
+export Modele_Howz_ZiS3_76mm_DDR is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/Canon/AT_ZiS3_76mm/AT_ZiS3_76mm.Ase2NdfBin'
+)
+
+export Modele_Howz_ZiS3_76mm_DDR_MID is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/Canon/AT_ZiS3_76mm/AT_ZiS3_76mm.Ase2NdfBin'
+)
+
+export Modele_Howz_ZiS3_76mm_DDR_LOW is TemplateMeshDescriptor
+(
+    FileName     = 'GameData:/Assets/3D/Units/DDR/Canon/AT_ZiS3_76mm/AT_ZiS3_76mm.Ase2NdfBin'
+)
+
+
+
