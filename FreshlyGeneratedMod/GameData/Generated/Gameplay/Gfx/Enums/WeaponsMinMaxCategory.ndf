@@ -9,14 +9,14 @@ export MinMax_Bombe is 2
 export MinMax_CanonAP is 3
 export MinMax_FLAME is 4
 export MinMax_DCA is 5
-export MinMax_inf_MMG is 6
-export MinMax_Gatling is 7
-export MinMax_Grenade is 8
-export MinMax_MMG_HMG is 9
+export MinMax_MMG_HMG is 6
+export MinMax_inf_MMG is 7
+export MinMax_Gatling is 8
+export MinMax_Grenade is 9
 export MinMax_obusier is 10
 export MinMax_Mortier is 11
-export MinMax_MLRS is 12
-export MinMax_Cluster is 13
+export MinMax_Cluster is 12
+export MinMax_MLRS is 13
 export MinMax_LAW is 14
 export MinMax_Roquette_AS is 15
 export MinMax_inf_sniper is 16
@@ -35,14 +35,14 @@ export MinMaxCategory_Enum is TWeaponMinMaxCategory
         "CanonAP",
         "FLAME",
         "DCA",
+        "MMG_HMG",
         "inf_MMG",
         "Gatling",
         "Grenade",
-        "MMG_HMG",
         "obusier",
         "Mortier",
-        "MLRS",
         "Cluster",
+        "MLRS",
         "LAW",
         "Roquette_AS",
         "inf_sniper",

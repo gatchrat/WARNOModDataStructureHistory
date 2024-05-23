@@ -96,7 +96,6 @@ export Descriptor_Unit_pion_BEL_10Wing_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_10Wing_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -205,7 +204,6 @@ export Descriptor_Unit_pion_BEL_11Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_11Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -314,7 +312,6 @@ export Descriptor_Unit_pion_BEL_1Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_1Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -415,7 +412,6 @@ export Descriptor_Unit_pion_BEL_1Wing_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_1Wing_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -524,7 +520,6 @@ export Descriptor_Unit_pion_BEL_23Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_23Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -633,7 +628,6 @@ export Descriptor_Unit_pion_BEL_2Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_2Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -734,7 +728,6 @@ export Descriptor_Unit_pion_BEL_2Wing_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_2Wing_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -843,7 +836,6 @@ export Descriptor_Unit_pion_BEL_31Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_31Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -952,7 +944,6 @@ export Descriptor_Unit_pion_BEL_349Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_349Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -1061,7 +1052,6 @@ export Descriptor_Unit_pion_BEL_350Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_350Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -1162,7 +1152,6 @@ export Descriptor_Unit_pion_BEL_3Wing_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_3Wing_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -1271,7 +1260,6 @@ export Descriptor_Unit_pion_BEL_42Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_42Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -1380,7 +1368,6 @@ export Descriptor_Unit_pion_BEL_7Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_7Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -1489,7 +1476,6 @@ export Descriptor_Unit_pion_BEL_8Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_8Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -1590,7 +1576,6 @@ export Descriptor_Unit_pion_BEL_9Wing_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_9Wing_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -1691,7 +1676,6 @@ export Descriptor_Unit_pion_BEL_BAF_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_BEL_BAF_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -1792,7 +1776,6 @@ export Descriptor_Unit_pion_RDA_1LVD_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RDA_1LVD_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -1901,7 +1884,6 @@ export Descriptor_Unit_pion_RDA_JBG37 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RDA_JBG37'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -2010,7 +1992,6 @@ export Descriptor_Unit_pion_RDA_JG1 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RDA_JG1'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -2119,7 +2100,6 @@ export Descriptor_Unit_pion_RDA_JG3 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RDA_JG3'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -2228,7 +2208,6 @@ export Descriptor_Unit_pion_RDA_JG7 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RDA_JG7'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -2337,7 +2316,6 @@ export Descriptor_Unit_pion_RDA_JG8 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RDA_JG8'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -2438,7 +2416,6 @@ export Descriptor_Unit_pion_RFA_2LwDiv_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RFA_2LwDiv_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -2547,7 +2524,6 @@ export Descriptor_Unit_pion_RFA_JBG33 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RFA_JBG33'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -2656,7 +2632,6 @@ export Descriptor_Unit_pion_RFA_JBG33_2 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RFA_JBG33_2'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -2765,7 +2740,6 @@ export Descriptor_Unit_pion_RFA_JBG35 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RFA_JBG35'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -2874,7 +2848,6 @@ export Descriptor_Unit_pion_RFA_JBG35_2 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RFA_JBG35_2'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -2983,7 +2956,6 @@ export Descriptor_Unit_pion_RFA_JG74 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RFA_JG74'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -3092,7 +3064,6 @@ export Descriptor_Unit_pion_RFA_JG74_2 is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RFA_JG74_2'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -3193,7 +3164,6 @@ export Descriptor_Unit_pion_SOV_105ADIB_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_105ADIB_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -3302,7 +3272,6 @@ export Descriptor_Unit_pion_SOV_11ORAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_11ORAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -3403,7 +3372,6 @@ export Descriptor_Unit_pion_SOV_125ADIB_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_125ADIB_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -3504,7 +3472,6 @@ export Descriptor_Unit_pion_SOV_126IAD_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_126IAD_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -3605,7 +3572,6 @@ export Descriptor_Unit_pion_SOV_16GvIAD_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_16GvIAD_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -3706,7 +3672,6 @@ export Descriptor_Unit_pion_SOV_16VA_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_16VA_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -3815,7 +3780,6 @@ export Descriptor_Unit_pion_SOV_19GAPIB is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_19GAPIB'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -3924,7 +3888,6 @@ export Descriptor_Unit_pion_SOV_20GAPIB is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_20GAPIB'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -4033,7 +3996,6 @@ export Descriptor_Unit_pion_SOV_294ORAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_294ORAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -4142,7 +4104,6 @@ export Descriptor_Unit_pion_SOV_296APIB is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_296APIB'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -4251,7 +4212,6 @@ export Descriptor_Unit_pion_SOV_31IGAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_31IGAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -4360,7 +4320,6 @@ export Descriptor_Unit_pion_SOV_33IAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_33IAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -4469,7 +4428,6 @@ export Descriptor_Unit_pion_SOV_357OCHAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_357OCHAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -4578,7 +4536,6 @@ export Descriptor_Unit_pion_SOV_35IAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_35IAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -4687,7 +4644,6 @@ export Descriptor_Unit_pion_SOV_368OCHAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_368OCHAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -4796,7 +4752,6 @@ export Descriptor_Unit_pion_SOV_559APIB is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_559APIB'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -4897,7 +4852,6 @@ export Descriptor_Unit_pion_SOV_6GvIAD_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_6GvIAD_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -5006,7 +4960,6 @@ export Descriptor_Unit_pion_SOV_730APIB is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_730APIB'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -5115,7 +5068,6 @@ export Descriptor_Unit_pion_SOV_73IAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_73IAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -5224,7 +5176,6 @@ export Descriptor_Unit_pion_SOV_773IAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_773IAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -5333,7 +5284,6 @@ export Descriptor_Unit_pion_SOV_787IAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_787IAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -5442,7 +5392,6 @@ export Descriptor_Unit_pion_SOV_833IAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_833IAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -5551,7 +5500,6 @@ export Descriptor_Unit_pion_SOV_85IGAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_85IGAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -5660,7 +5608,6 @@ export Descriptor_Unit_pion_SOV_911APIB is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_911APIB'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -5769,7 +5716,6 @@ export Descriptor_Unit_pion_SOV_931ORAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_931ORAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -5878,7 +5824,6 @@ export Descriptor_Unit_pion_SOV_968IAP is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_SOV_968IAP'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -5987,7 +5932,6 @@ export Descriptor_Unit_pion_UK_12Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_12Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -6096,7 +6040,6 @@ export Descriptor_Unit_pion_UK_16_20Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_16_20Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -6205,7 +6148,6 @@ export Descriptor_Unit_pion_UK_17_31Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_17_31Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -6314,7 +6256,6 @@ export Descriptor_Unit_pion_UK_19_92Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_19_92Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -6415,7 +6356,6 @@ export Descriptor_Unit_pion_UK_2ATAF_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_2ATAF_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -6524,7 +6464,6 @@ export Descriptor_Unit_pion_UK_2_15Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_2_15Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -6633,7 +6572,6 @@ export Descriptor_Unit_pion_UK_3_4Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_3_4Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -6742,7 +6680,6 @@ export Descriptor_Unit_pion_UK_9_14Sq is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_9_14Sq'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -6843,7 +6780,6 @@ export Descriptor_Unit_pion_UK_RAFG_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_RAFG_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -6944,7 +6880,6 @@ export Descriptor_Unit_pion_UK_RAF_Bruggen_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_RAF_Bruggen_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -7045,7 +6980,6 @@ export Descriptor_Unit_pion_UK_RAF_Gutersloh_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_RAF_Gutersloh_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -7146,7 +7080,6 @@ export Descriptor_Unit_pion_UK_RAF_Laarbruch_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_RAF_Laarbruch_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -7247,7 +7180,6 @@ export Descriptor_Unit_pion_UK_RAF_Wildenrath_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_UK_RAF_Wildenrath_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -7356,7 +7288,6 @@ export Descriptor_Unit_pion_US_10TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_10TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -7457,7 +7388,6 @@ export Descriptor_Unit_pion_US_10TFW_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_10TFW_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -7558,7 +7488,6 @@ export Descriptor_Unit_pion_US_17AF_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_17AF_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -7659,7 +7588,6 @@ export Descriptor_Unit_pion_US_20TFW_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_20TFW_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -7768,7 +7696,6 @@ export Descriptor_Unit_pion_US_22TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_22TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -7877,7 +7804,6 @@ export Descriptor_Unit_pion_US_23TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_23TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -7986,7 +7912,6 @@ export Descriptor_Unit_pion_US_313TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_313TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -8095,7 +8020,6 @@ export Descriptor_Unit_pion_US_32TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_32TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -8196,7 +8120,6 @@ export Descriptor_Unit_pion_US_36TFW_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_36TFW_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -8297,7 +8220,6 @@ export Descriptor_Unit_pion_US_3AF_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_3AF_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -8406,7 +8328,6 @@ export Descriptor_Unit_pion_US_4450TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_4450TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -8515,7 +8436,6 @@ export Descriptor_Unit_pion_US_480TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_480TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -8616,7 +8536,6 @@ export Descriptor_Unit_pion_US_48TFW_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_48TFW_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -8725,7 +8644,6 @@ export Descriptor_Unit_pion_US_492TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_492TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -8834,7 +8752,6 @@ export Descriptor_Unit_pion_US_493TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_493TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -8943,7 +8860,6 @@ export Descriptor_Unit_pion_US_494TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_494TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -9052,7 +8968,6 @@ export Descriptor_Unit_pion_US_495TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_495TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -9161,7 +9076,6 @@ export Descriptor_Unit_pion_US_496TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_496TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -9262,7 +9176,6 @@ export Descriptor_Unit_pion_US_4ATAF_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_4ATAF_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -9371,7 +9284,6 @@ export Descriptor_Unit_pion_US_509TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_509TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -9472,7 +9384,6 @@ export Descriptor_Unit_pion_US_50TFW_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_50TFW_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -9581,7 +9492,6 @@ export Descriptor_Unit_pion_US_510TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_510TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -9690,7 +9600,6 @@ export Descriptor_Unit_pion_US_511TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_511TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -9799,7 +9708,6 @@ export Descriptor_Unit_pion_US_512TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_512TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -9908,7 +9816,6 @@ export Descriptor_Unit_pion_US_525TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_525TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -10017,7 +9924,6 @@ export Descriptor_Unit_pion_US_526TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_526TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -10126,7 +10032,6 @@ export Descriptor_Unit_pion_US_527Aggress is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_527Aggress'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -10227,7 +10132,6 @@ export Descriptor_Unit_pion_US_52TFW_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_52TFW_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -10336,7 +10240,6 @@ export Descriptor_Unit_pion_US_53TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_53TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -10445,7 +10348,6 @@ export Descriptor_Unit_pion_US_55TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_55TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -10554,7 +10456,6 @@ export Descriptor_Unit_pion_US_77TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_77TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -10663,7 +10564,6 @@ export Descriptor_Unit_pion_US_78TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_78TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -10772,7 +10672,6 @@ export Descriptor_Unit_pion_US_79TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_79TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -10881,7 +10780,6 @@ export Descriptor_Unit_pion_US_81TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_81TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -10990,7 +10888,6 @@ export Descriptor_Unit_pion_US_81TFW is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_81TFW'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -11091,7 +10988,6 @@ export Descriptor_Unit_pion_US_81TFW_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_81TFW_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -11192,7 +11088,6 @@ export Descriptor_Unit_pion_US_86TFW_GROUPE is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_86TFW_GROUPE'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -11301,7 +11196,6 @@ export Descriptor_Unit_pion_US_91TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_91TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -11410,7 +11304,6 @@ export Descriptor_Unit_pion_US_92TFS is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_pion_US_92TFS'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -11518,7 +11411,6 @@ export Descriptor_Unit_test_avion_alex is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_test_avion_alex'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,
@@ -11626,7 +11518,6 @@ export Descriptor_Unit_test_avion_cas is TEntityDescriptor
             ProdMenuTexture = 'Texture_Button_Pawn_test_avion_cas'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
-        ~/StrategicSupplyableModuleDescriptor,
         ~/StrategicSequenceModuleDescriptor,
         StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
         ~/IAStratZoneIndexModuleDescriptor,

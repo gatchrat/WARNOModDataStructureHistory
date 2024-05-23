@@ -277,6 +277,98 @@ export DamageLevelsPackDescriptor_Artillerie_packSupp is TDamageLevelsPackDescri
     ]
     NameForDebug = "Artillerie_packSupp"
 )
+export DamageLevelsPackDescriptor_ArtyUnits_packSupp is TDamageLevelsPackDescriptor
+(
+    DescriptorId = GUID:{e682ec45-c730-4e4f-84a8-0b35443ff000}
+    DamageLevelsDescriptors = [
+        DamageLevelDescriptor_ArtyUnits_packSupp_palier_1 is TDamageLevelDescriptor
+        (
+            DescriptorId = GUID:{87629e3b-506a-43de-9209-1eba8b91a191}
+            Value = 0
+            LocalizationToken = "mrl_4"
+            MoralModifier = 99
+            HitRollModifier = 0
+            TextColor = RGBA[208,191,166,255]
+            AnimationType = ESoldierSuppressStatus/Operational
+            EffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_High,
+            ]
+            NameForDebug = "ArtyUnits_packSupp_palier_1"
+        ),
+        DamageLevelDescriptor_ArtyUnits_packSupp_palier_2 is TDamageLevelDescriptor
+        (
+            DescriptorId = GUID:{72ee05b3-14e3-4a7c-9a91-85b975c649ac}
+            Value = 0.1
+            LocalizationToken = "mrl_4"
+            MoralModifier = 99
+            HitRollModifier = 0
+            TextColor = RGBA[127,255,150,255]
+            AnimationType = ESoldierSuppressStatus/Suppressed
+            EffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_High,
+            ]
+            NameForDebug = "ArtyUnits_packSupp_palier_2"
+        ),
+        DamageLevelDescriptor_ArtyUnits_packSupp_palier_3 is TDamageLevelDescriptor
+        (
+            DescriptorId = GUID:{d3b1620c-3e57-4e10-80c1-1da79230c1ce}
+            Value = 0.25
+            LocalizationToken = "mrl_3"
+            MoralModifier = 99
+            HitRollModifier = -25
+            TextColor = RGBA[255,225,125,255]
+            AnimationType = ESoldierSuppressStatus/Suppressed
+            EffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_Normal,
+            ]
+            NameForDebug = "ArtyUnits_packSupp_palier_3"
+        ),
+        DamageLevelDescriptor_ArtyUnits_packSupp_palier_4 is TDamageLevelDescriptor
+        (
+            DescriptorId = GUID:{0936d0bd-3345-4531-9b9c-2d6967e9e923}
+            Value = 0.5
+            LocalizationToken = "mrl_2"
+            MoralModifier = 99
+            HitRollModifier = -45
+            TextColor = RGBA[255,255,0,255]
+            AnimationType = ESoldierSuppressStatus/Suppressed
+            EffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_Mediocre,
+            ]
+            NameForDebug = "ArtyUnits_packSupp_palier_4"
+        ),
+        DamageLevelDescriptor_ArtyUnits_packSupp_palier_5 is TDamageLevelDescriptor
+        (
+            DescriptorId = GUID:{4b089a4a-be8c-41b6-ad15-21bf7a254b31}
+            Value = 0.75
+            LocalizationToken = "mrl_1"
+            MoralModifier = 99
+            HitRollModifier = -70
+            TextColor = RGBA[255,100,0,255]
+            AnimationType = ESoldierSuppressStatus/Pinned
+            EffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_Low,
+            ]
+            NameForDebug = "ArtyUnits_packSupp_palier_5"
+        ),
+        DamageLevelDescriptor_ArtyUnits_packSupp_palier_6 is TDamageLevelDescriptor
+        (
+            DescriptorId = GUID:{c1bead6d-525a-4967-b93b-9b54abb8b43a}
+            Value = 0.8
+            LocalizationToken = "mrl_1"
+            HitRollModifier = -70
+            TextColor = RGBA[255,84,84,255]
+            AnimationType = ESoldierSuppressStatus/Cowering
+            FeedbackOnSelf = "OnUnitPanicking"
+            EffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_ArtyUnit_Cohesion_Low,
+                $/GFX/EffectCapacity/UnitEffect_Baisse_Dangerosite,
+            ]
+            NameForDebug = "ArtyUnits_packSupp_palier_6"
+        ),
+    ]
+    NameForDebug = "ArtyUnits_packSupp"
+)
 export DamageLevelsPackDescriptor_Bombardier_Cluster_packSupp is TDamageLevelsPackDescriptor
 (
     DescriptorId = GUID:{95770a77-5cb1-4e64-9495-cfa50be74330}

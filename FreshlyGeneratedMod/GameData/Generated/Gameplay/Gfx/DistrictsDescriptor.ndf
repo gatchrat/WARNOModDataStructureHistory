@@ -60,7 +60,7 @@ export Descriptor_District_Big_District is TEntityDescriptor(
             DatabaseId = 1
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_Big_District ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_Big_District ),
         TMinimapDisplayModuleDescriptor
         (
             Texture = "Texture_Minimap_Unit_inf"
@@ -129,7 +129,7 @@ export Descriptor_District_HLM_District is TEntityDescriptor(
             DatabaseId = 1
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_HLM_District ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_HLM_District ),
         TMinimapDisplayModuleDescriptor
         (
             Texture = "Texture_Minimap_Unit_inf"
@@ -198,7 +198,7 @@ export Descriptor_District_Mid_District is TEntityDescriptor(
             DatabaseId = 1
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_Mid_District ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_Mid_District ),
         TMinimapDisplayModuleDescriptor
         (
             Texture = "Texture_Minimap_Unit_inf"
@@ -267,7 +267,7 @@ export Descriptor_District_Small_District is TEntityDescriptor(
             DatabaseId = 1
             GameplayBehavior = EGameplayBehavior/Nothing
         ),
-        TCadavreGeneratorModuleDescriptorUnit( CadavreDescriptor = ~/Descriptor_UnitCadavre_Small_District ),
+        TCadavreGeneratorModuleDescriptor( CadavreDescriptor = ~/Descriptor_UnitCadavre_Small_District ),
         TMinimapDisplayModuleDescriptor
         (
             Texture = "Texture_Minimap_Unit_inf"

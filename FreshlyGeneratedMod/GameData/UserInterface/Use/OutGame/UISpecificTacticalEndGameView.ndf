@@ -1427,7 +1427,7 @@ TacticalEndgameTabsContainer is BUCKSpecificScrollingContainerDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [1176.0, 770.0]
-        MagnifiableOffset = [690.0, 180.0]
+        MagnifiableOffset = [690.0, 210.0]
     )
 
     HasVerticalScrollbar = true

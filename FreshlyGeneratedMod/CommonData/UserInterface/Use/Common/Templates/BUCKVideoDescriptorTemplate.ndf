@@ -44,9 +44,6 @@ template BUCKVideoDescriptor
     VideoDrawer : TUIVideoDrawer = $/UserInterface/UIVideoDrawer,                                 // Le drawer vidéo
     VideoFrame : TUIFramePropertyRTTI = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] ), // Taille de la vidéo
 
-    BackgroundPauseTextureName : string = "",                                                     // ElementName de la texture affichée lors de la pause
-    PlayButtonName : string = "",                                                                 // ElementName du bouton de pause
-
     Loop : bool = false,                                                                          // Indique s'il faut jouer la vidéo en boucle
     CommandExecuteOnFinishVideo : string = "",                                                    // Commande à lancer une fois la vidéo finie (ne peut être rempli si Loop vaut true)
 
@@ -102,9 +99,6 @@ is TBUCKVideoDescriptor
     Video = <Video>
     VideoDrawer = <VideoDrawer>
     VideoFrame = <VideoFrame>
-
-    BackgroundPauseTextureName = <BackgroundPauseTextureName>
-    PlayButtonName = <PlayButtonName>
 
     Loop = <Loop>
     CommandExecuteOnFinishVideo = <CommandExecuteOnFinishVideo>

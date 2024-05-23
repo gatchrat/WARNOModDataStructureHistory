@@ -39,7 +39,6 @@ export colonelDefenseDescriptor is TMacroActionDescriptor_Defense_Specific
         TSupportSettingHolder(SettingList = [Renfort_TransportsAbandonnes]),
         TMacroActionProductionSettingHolder(DisableReinforcement = true),
         TMacroActionLifetimeSettingHolder(MaintainForever = true), //IMPORTANT
-        TIgnoreSafePathSettingHolder(), //on esquive pas la menace sur le chemin
         TDisableUnitToReleaseSettingHolder(),
     ]
 )
@@ -54,7 +53,7 @@ export colonelArtilleryCounterBatteryDescriptor is TMacroActionDescriptor_Artill
         TMacroActionLifetimeSettingHolder(MaintainForever = true), //IMPORTANT
         TArtilleryPlayerMissionSettingHolder(
             AuthorizedTargetTags = ["Artillerie_MLRS", "Artillerie_Longue_Portee", "Artillerie_Courte_Portee"] TargetFilter = ETargetFilter_HasShot MaxDurationForTargetValidity = 60 MinDurationForTargetValidity = 2),
-        TArtilleryStrikeSettingHolder(DelaytBetweenTargetDeathAndNewStrike = 3),
+        TArtilleryStrikeSettingHolder(SupportStrikeRatio = 0.3 DelaytBetweenTargetDeathAndNewStrike = 3),
         TDisableUnitToReleaseSettingHolder(),
     ]
 )
@@ -68,7 +67,7 @@ export colonelArtilleryDescriptor is TMacroActionDescriptor_Artillery_PlayerMiss
         TMacroActionProductionSettingHolder(PoolModelList = [] DistanceToOptimumStartDuringDeployment = 3000*Metre),
         TMacroActionLifetimeSettingHolder(MaintainForever = true), //IMPORTANT
         TArtilleryPlayerMissionSettingHolder(AuthorizedTargetTags = ["AllUnits"] TargetFilter = ETargetFilter_UnitSeen MinDurationForTargetValidity = 5),
-        TArtilleryStrikeSettingHolder(DelaytBetweenTargetDeathAndNewStrike = 3),
+        TArtilleryStrikeSettingHolder(SupportStrikeRatio = 0.3 DelaytBetweenTargetDeathAndNewStrike = 3),
         TDisableUnitToReleaseSettingHolder(),
     ]
 )

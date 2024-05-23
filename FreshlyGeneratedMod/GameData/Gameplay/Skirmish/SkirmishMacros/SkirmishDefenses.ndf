@@ -70,7 +70,6 @@ is TMacroActionDescriptor_CorridorDefense_Specific
         ])
         LaunchASAP_RatioMin = 0.01 DisableReinforcement = true),
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
-        TIgnoreSafePathSettingHolder(), //on esquive pas la menace sur le chemin
     ]
 )
 //-------------------------------------------------------------------------
@@ -101,7 +100,6 @@ is TMacroActionDescriptor_CorridorDynamicDefense_Specific
         ])
         LaunchASAP_RatioMin = 0.01 DisableReinforcement = true),
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
-        TIgnoreSafePathSettingHolder(), //on esquive pas la menace sur le chemin
     ]
 )
 //-------------------------------------------------------------------------
@@ -162,7 +160,6 @@ export Defense_Filler is TMacroActionDescriptor_CorridorDefense_Specific
         TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
         TArtilleryAmountSettingHolder(ArtilleryAmount = 2),
         TMacroActionProductionSettingHolder(PoolModelList = [ ~/Pool_Defense_Filler]),
-        TIgnoreSafePathSettingHolder(),
     ]
 )
 //-------------------------------------------------------------------------
@@ -362,7 +359,6 @@ export Pool_Commandant is TPoolModel
             IndexPriorityOverPrice = true
             PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
-                "Char_CMD",
                 "Vehicule_CMD",
                 "InfmapCommander",
             ]
@@ -381,7 +377,6 @@ export Pool_Commandant_One_Mission is TPoolModel
             IndexPriorityOverPrice = true
             PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
-                "Char_CMD",
                 "Vehicule_CMD",
                 "InfmapCommander",
             ]
@@ -408,11 +403,23 @@ export Pool_Defense_Objectif is TPoolModel
 (
     ModelList = [
         TPoolElement(
+            DescriptorId = GUID:{136b6510-30d8-4ddd-bcb4-4517117b6ab7}
+            Required = true
+            Nb = 1
+            IndexPriorityOverPrice = true
+            PriceComparisonMethod = EPriceComparatorType/Random
+            TagsPriority = [
+                "Canon_AA_Standard",
+                "Canon_AA_Porte",
+                "Helo_AA",
+            ]
+        ),
+        TPoolElement(
             DescriptorId = GUID:{beefdfae-432e-4b42-9b46-4d8c47521c16}
             Required = false
             Nb = 1
-            IndexPriorityOverPrice = false
-            PriceComparisonMethod = EPriceComparatorType/Random
+            IndexPriorityOverPrice = true
+            PriceComparisonMethod = EPriceComparatorType/Cheapest
             TagsPriority = [
                 "Vehicule_Appui",
                 "Canon_AT_Standard",
@@ -431,20 +438,7 @@ export Pool_Defense_Objectif is TPoolModel
                 "Vehicule_Reco",
             ]
         ),
-        TPoolElement(
-            DescriptorId = GUID:{136b6510-30d8-4ddd-bcb4-4517117b6ab7}
-            Required = false
-            Nb = 1
-            IndexPriorityOverPrice = false
-            PriceComparisonMethod = EPriceComparatorType/Random
-            TagsPriority = [
-                "Canon_AA_Standard",
-                "Canon_AA_Porte",
-                "Helo_AA",
-            ]
-        ),
     ]
-    +~/Infantry_Fallback
 )
 
 //-------------------------------------------------------------------------
@@ -714,7 +708,6 @@ is TMacroActionDescriptor_Defense_Specific
         TArtilleryAmountSettingHolder(ArtilleryAmount = 1),
         TSupportSettingHolder(SettingList = [Renfort_TransportsAbandonnes]),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = <PoolModelList> LaunchASAP_RatioMin = 0.01 DisableReinforcement = true),
-        TIgnoreSafePathSettingHolder(), //on esquive pas la menace sur le chemin
     ]
 )
 

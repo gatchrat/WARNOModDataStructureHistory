@@ -83,42 +83,28 @@ MultiScenarioShowTopViewInTopOfAllButton is BUCKButtonDescriptor
 
     Components =
     [
+        ScenarioOverviewComponent
+        (
+            ElementName = "MapOverviewComponent"
+            CommandPointsSize = 20.0
+            AlignOnTop = true
+        ),
         BUCKTextureDescriptor
         (
-            ElementName = "SelectedMapTopview"
             ComponentFrame = TUIFramePropertyRTTI
             (
-                RelativeWidthHeight = [1.0, 1.0]
+                MagnifiableWidthHeight = [20.0, 20.0]
+                AlignementToAnchor = [1.0, 0.0]
+                AlignementToFather = [1.0, 0.0]
+                MagnifiableOffset = [-10.0, 10.0]
             )
 
             TextureFrame = TUIFramePropertyRTTI
             (
-                AlignementToFather = [0.5, 0.0]
-                AlignementToAnchor = [0.5, 0.0]
+                RelativeWidthHeight = [1.0, 1.0]
             )
-
-            ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
-
-            Components =
-            [
-                BUCKTextureDescriptor
-                (
-                    ComponentFrame = TUIFramePropertyRTTI
-                    (
-                        MagnifiableWidthHeight = [20.0, 20.0]
-                        AlignementToAnchor = [1.0, 0.0]
-                        AlignementToFather = [1.0, 0.0]
-                        MagnifiableOffset = [-10.0, 10.0]
-                    )
-
-                    TextureFrame = TUIFramePropertyRTTI
-                    (
-                        RelativeWidthHeight = [1.0, 1.0]
-                    )
-                    TextureColorToken = 'gris_loupe_scenarioListe'
-                    TextureToken = "magnifying_glass"
-                )
-            ]
+            TextureColorToken = 'gris_loupe_scenarioListe'
+            TextureToken = "magnifying_glass"
         )
     ]
 )
@@ -1094,23 +1080,11 @@ private BUCKSpecificMultiScenarioSelectionMainComponentDescriptor is BUCKTransla
 
             Components =
             [
-                BUCKTextureDescriptor
+                ScenarioOverviewComponent
                 (
-                    ElementName = "OverallMapTopViewTexture"
-                    ComponentFrame = TUIFramePropertyRTTI
-                    (
-                        RelativeWidthHeight = [1.0, 1.0]
-                        AlignementToFather = [0.5, 0.5]
-                        AlignementToAnchor = [0.5, 0.5]
-                    )
-                    ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
-
-                    TextureFrame = TUIFramePropertyRTTI
-                    (
-                        AlignementToFather = [0.5, 0.5]
-                        AlignementToAnchor = [0.5, 0.5]
-                    )
-                ),
+                    ElementName = "FullScreenMapOverviewComponent"
+                    CommandPointsSize = 40.0
+                )
             ]
         )
     ]

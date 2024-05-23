@@ -18,15 +18,4 @@
     AT                   is 14
     Defense              is 15
     UniversalFactory     is 16
-
-    // bidouillage un peu sale, dû au fait que les clés de valeur sont convertis en lowercase pour les exporteurs
-    art is Art
-    infanterie is Infantry
-    support is Support
-    reco is Recons
-    tank is Tanks
-    air is Planes
-    at is AT
-    dca is DCA
-    defense is Defense
 )

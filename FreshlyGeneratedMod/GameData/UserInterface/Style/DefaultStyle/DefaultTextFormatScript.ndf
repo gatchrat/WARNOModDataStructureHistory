@@ -79,6 +79,62 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
             )
         ),
         (
+            "moral_color_bad_1",
+            TTFSCommand_StyleChange
+            (
+                Style = TTextStyle
+                (
+                    FontSize    = 1.0
+                    ColorBottom = [255,228,0,255]
+                    ColorUp     = [255,228,0,255]
+                    ColorStroke = [  0,   0,   0, 255]
+                    Stroke = false
+                )
+            )
+        ),
+        (
+            "moral_color_bad_2",
+            TTFSCommand_StyleChange
+            (
+                Style = TTextStyle
+                (
+                    FontSize    = 1.0
+                    ColorBottom = [255,156,0,255]
+                    ColorUp     = [255,156,0,255]
+                    ColorStroke = [  0,   0,   0, 255]
+                    Stroke = false
+                )
+            )
+        ),
+        (
+            "moral_color_bad_3",
+            TTFSCommand_StyleChange
+            (
+                Style = TTextStyle
+                (
+                    FontSize    = 1.0
+                    ColorBottom = [255,74,57,255]
+                    ColorUp     = [255,74,57,255]
+                    ColorStroke = [  0,   0,   0, 255]
+                    Stroke = false
+                )
+            )
+        ),
+        (
+            "moral_color_bad_4",
+            TTFSCommand_StyleChange
+            (
+                Style = TTextStyle
+                (
+                    FontSize    = 1.0
+                    ColorBottom = [61,21,17,255]
+                    ColorUp     = [61,21,17,255]
+                    ColorStroke = [  0,   0,   0, 255]
+                    Stroke = false
+                )
+            )
+        ),
+        (
             "pi0",
             TTFSCommand_StyleChange
             (
@@ -1298,16 +1354,6 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
             )
         ),
         //-------------------------------------------------------------------------------------
-        (
-            "starForExperience",
-            TTFSCommand_UISymbol
-            (
-                TextureToken = "CommonTexture_Etoile_Grande"
-                BBMin=[0, -0.8, 0]
-                BBMax=[1, 0.2, 0]
-                ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
-            )
-        ),
         (
             "conquestArea", //sector
             TTFSCommand_UISymbol

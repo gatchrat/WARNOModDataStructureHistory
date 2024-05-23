@@ -12,7 +12,6 @@ export Strategic_TeamUnitDescriptor is TEntityDescriptor
                 TPiggyBankDescriptor
                 (
                     CurrencyType = $/GFX/Resources/Resource_StrategicPoints
-                    BankMaxValue = 2147483647
                 ),
             ]
         ),
@@ -57,9 +56,6 @@ export Strategic_TeamUnitDescriptor is TEntityDescriptor
         (
         ),
         TIATeamStrategyModuleDescriptor
-        (
-        ),
-        TStrategicSuppliableCacheModuleDescriptor
         (
         ),
         TStrategicStatisticModuleDescriptor

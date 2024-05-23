@@ -71,11 +71,6 @@ GhostDepiction_AH6C_Little_Bird_US is GhostAerialDepictionTemplate
     Alternatives = Alternatives_AH6C_Little_Bird_US
     Selector = SpecificHelicoDepictionSelector
 )
-GhostDepiction_AH6G_Little_Bird_US is GhostAerialDepictionTemplate
-(
-    Alternatives = Alternatives_AH6G_Little_Bird_US
-    Selector = SpecificHelicoDepictionSelector
-)
 GhostDepiction_Alouette_III_FR is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Alouette_III_FR
@@ -99,11 +94,6 @@ GhostDepiction_Alouette_II_reco_BEL is GhostAerialDepictionTemplate
 GhostDepiction_Alouette_II_reco_RFA is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Alouette_II_reco_RFA
-    Selector = SpecificHelicoDepictionSelector
-)
-GhostDepiction_Alouette_II_trans_BEL is GhostAerialDepictionTemplate
-(
-    Alternatives = Alternatives_Alouette_II_trans_BEL
     Selector = SpecificHelicoDepictionSelector
 )
 GhostDepiction_Alpha_Jet_A_clu_RFA is GhostAerialDepictionTemplate
@@ -209,11 +199,6 @@ GhostDepiction_CH53G_RFA is GhostAerialDepictionTemplate
 GhostDepiction_CH53G_trans_RFA is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_CH53G_trans_RFA
-    Selector = SpecificHelicoDepictionSelector
-)
-GhostDepiction_CH53_Sea_Stallion_US is GhostAerialDepictionTemplate
-(
-    Alternatives = Alternatives_CH53_Sea_Stallion_US
     Selector = SpecificHelicoDepictionSelector
 )
 GhostDepiction_EF111_Raven_US is GhostAerialDepictionTemplate
@@ -831,6 +816,11 @@ GhostDepiction_Mi_24K_reco_SOV is GhostAerialDepictionTemplate
     Alternatives = Alternatives_Mi_24K_reco_SOV
     Selector = SpecificHelicoDepictionSelector
 )
+GhostDepiction_Mi_24P_AA_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_Mi_24P_AA_SOV
+    Selector = SpecificHelicoDepictionSelector
+)
 GhostDepiction_Mi_24P_SOV is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Mi_24P_SOV
@@ -1131,11 +1121,6 @@ GhostDepiction_Puma_UK is GhostAerialDepictionTemplate
     Alternatives = Alternatives_Puma_UK
     Selector = SpecificHelicoDepictionSelector
 )
-GhostDepiction_SeaKing_Mk48_BEL is GhostAerialDepictionTemplate
-(
-    Alternatives = Alternatives_SeaKing_Mk48_BEL
-    Selector = SpecificHelicoDepictionSelector
-)
 GhostDepiction_Su_17M4_SOV is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Su_17M4_SOV
@@ -1351,13 +1336,11 @@ AerialMimeticGhost is MAP[
   ( 'AH64_Apache_emp1_US', GhostDepiction_AH64_Apache_emp1_US ),
   ( 'AH64_Apache_emp2_US', GhostDepiction_AH64_Apache_emp2_US ),
   ( 'AH6C_Little_Bird_US', GhostDepiction_AH6C_Little_Bird_US ),
-  ( 'AH6G_Little_Bird_US', GhostDepiction_AH6G_Little_Bird_US ),
   ( 'Alouette_III_FR', GhostDepiction_Alouette_III_FR ),
   ( 'Alouette_III_reco_FR', GhostDepiction_Alouette_III_reco_FR ),
   ( 'Alouette_II_CMD_RFA', GhostDepiction_Alouette_II_CMD_RFA ),
   ( 'Alouette_II_reco_BEL', GhostDepiction_Alouette_II_reco_BEL ),
   ( 'Alouette_II_reco_RFA', GhostDepiction_Alouette_II_reco_RFA ),
-  ( 'Alouette_II_trans_BEL', GhostDepiction_Alouette_II_trans_BEL ),
   ( 'Alpha_Jet_A_clu_RFA', GhostDepiction_Alpha_Jet_A_clu_RFA ),
   ( 'Alpha_Jet_A_he_RFA', GhostDepiction_Alpha_Jet_A_he_RFA ),
   ( 'Alpha_Jet_A_nplm_RFA', GhostDepiction_Alpha_Jet_A_nplm_RFA ),
@@ -1379,7 +1362,6 @@ AerialMimeticGhost is MAP[
   ( 'CH47_Super_Chinook_US', GhostDepiction_CH47_Super_Chinook_US ),
   ( 'CH53G_RFA', GhostDepiction_CH53G_RFA ),
   ( 'CH53G_trans_RFA', GhostDepiction_CH53G_trans_RFA ),
-  ( 'CH53_Sea_Stallion_US', GhostDepiction_CH53_Sea_Stallion_US ),
   ( 'EF111_Raven_US', GhostDepiction_EF111_Raven_US ),
   ( 'EH60A_EW_US', GhostDepiction_EH60A_EW_US ),
   ( 'F104G_Starfighter_AT_RFA', GhostDepiction_F104G_Starfighter_AT_RFA ),
@@ -1503,6 +1485,7 @@ AerialMimeticGhost is MAP[
   ( 'Mi_24D_s5_AT_DDR', GhostDepiction_Mi_24D_s5_AT_DDR ),
   ( 'Mi_24D_s8_AT_DDR', GhostDepiction_Mi_24D_s8_AT_DDR ),
   ( 'Mi_24K_reco_SOV', GhostDepiction_Mi_24K_reco_SOV ),
+  ( 'Mi_24P_AA_SOV', GhostDepiction_Mi_24P_AA_SOV ),
   ( 'Mi_24P_SOV', GhostDepiction_Mi_24P_SOV ),
   ( 'Mi_24P_s8_AT2_DDR', GhostDepiction_Mi_24P_s8_AT2_DDR ),
   ( 'Mi_24P_s8_AT_DDR', GhostDepiction_Mi_24P_s8_AT_DDR ),
@@ -1563,7 +1546,6 @@ AerialMimeticGhost is MAP[
   ( 'Puma_PC_FR', GhostDepiction_Puma_PC_FR ),
   ( 'Puma_Pirate_FR', GhostDepiction_Puma_Pirate_FR ),
   ( 'Puma_UK', GhostDepiction_Puma_UK ),
-  ( 'SeaKing_Mk48_BEL', GhostDepiction_SeaKing_Mk48_BEL ),
   ( 'Su_17M4_SOV', GhostDepiction_Su_17M4_SOV ),
   ( 'Su_22_AT_DDR', GhostDepiction_Su_22_AT_DDR ),
   ( 'Su_22_AT_SOV', GhostDepiction_Su_22_AT_SOV ),

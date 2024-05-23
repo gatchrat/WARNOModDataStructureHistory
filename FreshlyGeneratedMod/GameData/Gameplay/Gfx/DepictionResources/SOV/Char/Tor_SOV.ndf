@@ -1,14 +1,14 @@
-export Modele_Tor_SOV is TemplateMeshDescriptor
+export Modele_Tor_SOV is ModelDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/Tor/Tor.Ase2NdfBin'
 )
 
-export Modele_Tor_SOV_MID is TemplateMeshDescriptor
+export Modele_Tor_SOV_MID is ModelDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/Tor/Tor.Ase2NdfBin'
 )
 
-export Modele_Tor_SOV_LOW is TemplateMeshDescriptor
+export Modele_Tor_SOV_LOW is ModelDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/URSS/DCA/Tor/Tor.Ase2NdfBin'
 )

@@ -55,13 +55,13 @@ UnitLabelUnitSupplyGauge is TSupplyGaugeDescriptor
 // Morale Gauge & Health point gauge
 MoraleAndHPGaugesDescription is TMoraleAndHPGaugesDescription
 (
-    MoraleGaugeColorTokens = ["pi3", "pi2", "pi1", "score_05"]
+    MoraleGaugeColorTokens = ["moral_color_bad_1", "moral_color_bad_2", "moral_color_bad_3", "moral_color_bad_4"]
     // HP value of each HP square.
     // If it equals 1, a 12 HP unit will display 12 HP squares on its label. It if equals 2, 6 HP squares will be displayed.
     HPElementHealthValue = 2
     MagnifiableWidthOneHPLabelBlock = 5.0
 
-    MoraleMagnifiableWidthHeight = [32.0, 2.0]
+    MoraleMagnifiableWidthHeight = [32.0, 3.0]
     HPMagnifiableHeight = 4.0 //La largeur est calculée dans le code à partir de MagnifiableWidthOneHPLabelBlock
     MagnifiableSpacing = 1.0
 

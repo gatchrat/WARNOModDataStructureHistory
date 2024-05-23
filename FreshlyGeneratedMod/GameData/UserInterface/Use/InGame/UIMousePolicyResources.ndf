@@ -73,7 +73,8 @@ MouseWidgetSelector_Attack is TUIMouseWidgetSelector_Attack
         (ETacticalShooting_OutOfRange               , "TC_OOR"),
         (ETacticalShooting_Unseen                   , "TC_NCS"),
         (ETacticalShooting_OutOfTurretConstraint    , "TC_OTC"),
-        (ETacticalShooting_Inefficient              , "TC_ERRNOEF"),
+        (ETacticalShooting_InefficientPenetration   , "TC_ERRNOEF"),
+        (ETacticalShooting_InefficientAccuracy      , "TC_ERRNOAC"),
         (ETacticalShooting_InvalidPosition          , "TC_ERRPOS"),
         (ETacticalShooting_InvalidTarget            , "TC_ERRTARG"),
         //(ETacticalShooting_FullAttackInfos          , ""),
@@ -138,7 +139,8 @@ MouseWidgetSelector_Attack is TUIMouseWidgetSelector_Attack
         (ETacticalShooting_OutOfRange               , TextStyle_OutOfRange),
         (ETacticalShooting_Unseen                   , TextStyle_Unseen),
         (ETacticalShooting_OutOfTurretConstraint    , TextStyle_OutOfRange),
-        (ETacticalShooting_Inefficient              , TextStyle_NotEfficient),
+        (ETacticalShooting_InefficientPenetration   , TextStyle_NotEfficient),
+        (ETacticalShooting_InefficientAccuracy      , TextStyle_NotEfficient),
         (ETacticalShooting_InvalidPosition          , TextStyle_Invalid),
         (ETacticalShooting_InvalidTarget            , TextStyle_Invalid),
         (ETacticalShooting_FullAttackInfos          , TextStyle_WithinRange),
@@ -155,7 +157,8 @@ MouseWidgetSelector_Attack is TUIMouseWidgetSelector_Attack
         (ETacticalShooting_OutOfRange               , CursorColor_OutOfRange),
         (ETacticalShooting_Unseen                   , CursorColor_Unseen),
         (ETacticalShooting_OutOfTurretConstraint    , CursorColor_OutOfRange),
-        (ETacticalShooting_Inefficient              , CursorColor_Inefficient),
+        (ETacticalShooting_InefficientPenetration   , CursorColor_Inefficient),
+        (ETacticalShooting_InefficientAccuracy      , CursorColor_Inefficient),
         (ETacticalShooting_InvalidPosition          , CursorColor_Invalid),
         (ETacticalShooting_InvalidTarget            , CursorColor_Invalid),
         (ETacticalShooting_FullAttackInfos          , CursorColor_Default),
@@ -972,6 +975,56 @@ is TUIMouseWidgetResource
     ]
 )
 
+template Template_SoftwareMouseWidgetResource_Targeting_WithTerrainFeedback
+[
+    RelativeTargetPointerPlacement  = [0.5, 0.5],
+    SoftwareCursorTextureName       = "",
+    // HardwareMouseCursorAnimation    = ~/MouseCursorAnimationPointerSelectionRed,
+]
+is TUIMouseWidgetResource
+(
+    ModuleResourceList = MAP
+    [
+        (
+            "CursorSetter",
+            TUIMouseWidgetTerrainCursorSetterModuleResource
+            (
+                TerrainTypeToMouseCursorAnimation = MAP
+                [
+                    (ETerrainType/Default,          ~/Mousecurseur_mouvement_attaque),
+                    (ETerrainType/EauPeuProfonde,   ~/Mousecurseur_mouvement_attaque),
+                    (ETerrainType/EauProfonde,      ~/Mousecurseur_mouvement_attaque),
+                    (ETerrainType/Bloqueur,         ~/Mousecurseur_mouvement_attaque),
+                    (ETerrainType/BloqueConstruction, ~/Mousecurseur_mouvement_attaque),
+                    (ETerrainType/ForetLegere,      ~/Mousecurseur_mouvement_attaque_coverl),
+                    (ETerrainType/ForetDense,       ~/Mousecurseur_mouvement_attaque_coverl),
+                    (ETerrainType/LightSmoke,       ~/Mousecurseur_mouvement_attaque_coverl),
+                    (ETerrainType/MediumSmoke,      ~/Mousecurseur_mouvement_attaque_coverl),
+                    (ETerrainType/HeavySmoke,       ~/Mousecurseur_mouvement_attaque_coverh),
+                    (ETerrainType/PetitBatiment,    ~/Mousecurseur_mouvement_attaque_coverh),
+                    (ETerrainType/Batiment,         ~/Mousecurseur_mouvement_attaque_coverh),
+                    (ETerrainType/Ruin,             ~/Mousecurseur_mouvement_attaque_coverh),
+                ]
+            )
+        ),
+        (
+            "GabaritModule",
+            TUIMouseWidgetGabaritModuleResource()
+        ),
+        (
+            "LoSModule",
+            TUIMouseWidgetLoSModuleResource()
+        ),
+    ]
+
+    UILayer = $/UserInterface/UILayer_2DInterface_InGame
+
+    ViewDescriptors = MAP
+    [
+        ("AttackCursorView", UISpecificMouseWidgetAttackViewDescriptor(SoftwareCursorTextureName = <SoftwareCursorTextureName>)),
+    ]
+)
+
 //--------------------------------------------------------
 
 MouseWidget_AirMissile is Template_SoftwareMouseWidgetResource_Targeting
@@ -1023,7 +1076,7 @@ MouseWidget_MachineGun is Template_SoftwareMouseWidgetResource_Targeting
 
 //--------------------------------------------------------
 
-MouseWidget_None is Template_SoftwareMouseWidgetResource_Targeting
+MouseWidget_None is Template_SoftwareMouseWidgetResource_Targeting_WithTerrainFeedback
 (
     //TextDescriptor = nil
 )

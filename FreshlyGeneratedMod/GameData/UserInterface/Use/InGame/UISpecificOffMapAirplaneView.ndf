@@ -1,67 +1,6 @@
 
 // -------------------------------------------------------------------------------------------------
 
-OffMapAirplaneSpecialtyTexture is BUCKContainerDescriptor
-(
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [18, 18]
-        PixelWidthHeight = [-2.0, -2.0]
-        AlignementToFather = [0, 0.5]
-        AlignementToAnchor = [0, 0.5]
-    )
-
-    Components =
-    [
-        BUCKTextureDescriptor
-        (
-            ElementName = "SpecialtyTexture"
-            ComponentFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1,1] )
-
-            TextureFrame   = TUIFramePropertyRTTI( RelativeWidthHeight = [1,1] )
-        ),
-
-        BUCKSpecificHintableArea
-        (
-            ElementName = 'SpecialtyTextureHint'
-            DicoToken = ~/LocalisationConstantes/dico_unites
-            HintTitleToken = "UNKNOWN"
-            HintBodyToken = "UNKNOWN"
-            HintExtendedToken = "UNKNOWN"
-        ),
-    ]
-)
-
-// Unit texture + Unit name + specialty + experience
-OffMapAirplaneMainContent is BUCKListDescriptor
-(
-    ElementName = "OffMapAirplaneMainContent"
-
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [0.0, 1.0]
-    )
-
-    Axis = ~/ListAxis/Horizontal
-    FirstMargin = TRTTILength( Magnifiable = 12.0 )
-    LastMargin = TRTTILength( Magnifiable = 12.0 )
-    InterItemMargin = TRTTILength( Magnifiable = 10.0 )
-
-    Elements =
-    [
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = ~/OffMapAirplaneSpecialtyTexture
-        ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = ~/OffMapUnitExperience
-        ),
-    ]
-)
-
-// -------------------------------------------------------------------------------------------------
-
 OffMapAirplaneComponentDimension is [111.0, 72.0]
 OffMapAirplaneRadioButton is TBUCKRadioButtonManager()
 
@@ -95,9 +34,9 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
 
             Components =
             [
-                ~/OffMapAirplaneMainContent,
                 ~/IconeUnite,
                 ~/BlocNom_status_jauge,
+                ~/AirplaneXP,
             ]
         ),
         // bouton EVAC
@@ -142,6 +81,37 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
                     HintExtendedToken = "HOM_EVAE"
                 )
             ]
+        )
+    ]
+)
+
+//-------------------------------------------------------------------------------------
+
+AirplaneXP is BUCKTextureDescriptor
+(
+    ElementName = "XPTexture"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = XPStarMagnifiableWitdhHeight
+        AlignementToFather = [1.0, 0.0]
+        AlignementToAnchor = [1.0, 0.0]
+        MagnifiableOffset = [-3.0, 3.0]
+    )
+
+    TextureFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1.0, 1.0] )
+
+    HasBackground = true
+    BackgroundBlockColorToken = "bleuNavy_fonce"
+
+    // Hint
+    Components =
+    [
+         BUCKSpecificHintableArea
+        (
+            DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+            HintTitleToken = "HPD_UEXPT"
+            HintBodyToken = "HPD_UEXPB"
+            HintExtendedToken = "HPD_UEXPE"
         )
     ]
 )
@@ -329,13 +299,6 @@ StateGauge is BUCKGaugeDescriptor
             HasBackground = true
             BackgroundBlockColorToken = "Fulda2_Orange100"
         ),
-        BUCKSpecificHintableArea
-        (
-            DicoToken = ~/LocalisationConstantes/dico_interface_ingame
-            HintTitleToken = "HPD_UEXPT"
-            HintBodyToken = "HPD_UEXPB"
-            HintExtendedToken = "HPD_UEXPE"
-        ),
         ~/StatusUnite,
     ]
 )
@@ -346,4 +309,6 @@ UISpecificOffMapAirplaneViewDescriptor is TUISpecificOffMapAirplaneViewDescripto
 (
     MainComponentDescriptor = ~/BUCKSpecificOffMapAirplaneMainComponentDescriptor
     MainComponentContainerUniqueName = "" // Permet d'indiquer l'endroit ou le composant doit s'insérer
+
+    ExperienceTextureTokens = ["CommonTexture_Chevron_1", "CommonTexture_Chevron_2", "CommonTexture_Chevron_3"]
 )

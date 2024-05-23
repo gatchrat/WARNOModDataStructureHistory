@@ -6,8 +6,12 @@ UIGameDifficultyListConfig is TUIGameDifficultyListConfiguration
             EGameDifficulty/Easy,
             TUIGameDifficultyConfigurationRTTI
             (
-                Name = "AB_GM_0"
-                Description = "OP_GM_0_D"
+                Name = "OP_AI_0"
+                DescriptionByMissionType = MAP
+                [
+                    (MissionType_Challenge, "OP_AIH_0"),
+                    (MissionType_Strategic, "AG_AIH_0")
+                ]
                 Texture = "difficulty_easy"
             )
         ),
@@ -15,8 +19,12 @@ UIGameDifficultyListConfig is TUIGameDifficultyListConfiguration
             EGameDifficulty/Medium,
             TUIGameDifficultyConfigurationRTTI
             (
-                Name = "AB_GM_1"
-                Description = "OP_GM_1_D"
+                Name = "OP_AI_1"
+                DescriptionByMissionType = MAP
+                [
+                    (MissionType_Challenge, "OP_AIH_1"),
+                    (MissionType_Strategic, "AG_AIH_1")
+                ]
                 Texture = "difficulty_medium"
             )
         ),
@@ -24,8 +32,12 @@ UIGameDifficultyListConfig is TUIGameDifficultyListConfiguration
             EGameDifficulty/Hard,
             TUIGameDifficultyConfigurationRTTI
             (
-                Name = "AB_GM_2"
-                Description = "OP_GM_2_D"
+                Name = "OP_AI_2"
+                DescriptionByMissionType = MAP
+                [
+                    (MissionType_Challenge, "OP_AIH_2"),
+                    (MissionType_Strategic, "AG_AIH_2")
+                ]
                 Texture = "difficulty_hard"
             )
         )

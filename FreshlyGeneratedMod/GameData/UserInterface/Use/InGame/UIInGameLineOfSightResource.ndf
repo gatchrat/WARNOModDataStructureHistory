@@ -1,7 +1,7 @@
 
 template Template_CircleDescriptor
          [
-             Radius,
+             RadiusGRU,
              Color = [220, 222, 221, 127],
              Thickness = 700,
              ShowDistanceText = false,
@@ -9,7 +9,7 @@ template Template_CircleDescriptor
              TextSize = 3500
          ] is TFeedbackLineOfSightCircleDescriptor
 (
-    Radius = <Radius>
+    RadiusGRU = <RadiusGRU>
     Color = <Color>
     Thickness = <Thickness>
     ShowText = <ShowDistanceText>
@@ -35,7 +35,7 @@ FeedbackLineOfSightDescriptor is TFeedbackLineOfSightDescriptor
     FillRadiusEndFade = 13000 * Metre //5500
 
     CircleDotDescriptor = TFeedbackLineOfSightCircleDescriptor(
-                                Radius = 400
+                                RadiusGRU = 5.43625985322
                                 Color = [216, 201, 181, 127]
                                 Thickness = 650
                                 ShowText = false
@@ -47,40 +47,40 @@ FeedbackLineOfSightDescriptor is TFeedbackLineOfSightDescriptor
     CirclesDescriptors =
     [
         Template_CircleDescriptor(
-            Radius = 100 * Metre div MultiplicateurMetreRTSVersDistanceFeedbackTactique
+            RadiusGRU = 100
             Thickness = 1000
             ShowDistanceText = true
             TextSize = 3500
             Color = [216, 201, 181, 80]
          ),
         Template_CircleDescriptor(
-            Radius = 500 * Metre div MultiplicateurMetreRTSVersDistanceFeedbackTactique
+            RadiusGRU = 500
             Thickness = 1000
             ShowDistanceText = true
             TextSize = 3500
             Color = [216, 201, 181, 80]
          ),
         Template_CircleDescriptor(
-            Radius = 1000 * Metre div MultiplicateurMetreRTSVersDistanceFeedbackTactique
+            RadiusGRU = 1000
             Thickness = 1000
             TextSize = 5000
             ShowDistanceText = true
          ),
         Template_CircleDescriptor(
-            Radius = 1500 * Metre div MultiplicateurMetreRTSVersDistanceFeedbackTactique
+            RadiusGRU = 1500
             Thickness = 1000
             ShowDistanceText = true
             TextSize = 3500
             Color = [216, 201, 181, 80]
          ),
         Template_CircleDescriptor(
-            Radius = 2000 * Metre div MultiplicateurMetreRTSVersDistanceFeedbackTactique
+            RadiusGRU = 2000
             Thickness = 1200
             TextSize = 5000
             ShowDistanceText = true
          ),
         Template_CircleDescriptor(
-            Radius = 2500 * Metre div MultiplicateurMetreRTSVersDistanceFeedbackTactique
+            RadiusGRU = 2500
             Thickness = 1000
             ShowDistanceText = true
             TextSize = 3500
@@ -88,7 +88,7 @@ FeedbackLineOfSightDescriptor is TFeedbackLineOfSightDescriptor
     ]
 
     CircleOverrideDescriptor = TFeedbackLineOfSightCircleDescriptor(
-                                    Radius = 3330 * Metre
+                                    RadiusGRU = 1176.67844523
                                     Color = [236, 221, 201, 200]
                                     Thickness = 2000
                                     ShowText = true
@@ -98,7 +98,7 @@ FeedbackLineOfSightDescriptor is TFeedbackLineOfSightDescriptor
                                 )
 
     DeactivatedCircleOverrideDescriptor = TFeedbackLineOfSightCircleDescriptor(
-                                    Radius = 3330 * Metre
+                                    RadiusGRU = 1176.67844523
                                     Color = [150, 150, 150, 100]
                                     Thickness = 1500
                                     ShowText = true

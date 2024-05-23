@@ -1,14 +1,17 @@
-export Modele_Challenger_1_Mk1_UK is TemplateMeshDescriptor
+export ModelFile_Challenger_1_Mk1_UK is 'GameData:/Assets/3D/Units/UK/Char/Challenger_1_Mk1/Challenger_1_Mk1.fbx'
+export Modele_Challenger_1_Mk1_UK is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/UK/Char/Challenger_1_Mk1/Challenger_1_Mk1.Ase2NdfBin'
+    FileName = ModelFile_Challenger_1_Mk1_UK
 )
 
-export Modele_Challenger_1_Mk1_UK_MID is TemplateMeshDescriptor
+export ModelFile_Challenger_1_Mk1_UK_MID is 'GameData:/Assets/3D/Units/UK/Char/Challenger_1_Mk1_MID/Challenger_1_Mk1_MID.fbx'
+export Modele_Challenger_1_Mk1_UK_MID is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/UK/Char/Challenger_1_Mk1_MID/Challenger_1_Mk1_MID.Ase2NdfBin'
+    FileName = ModelFile_Challenger_1_Mk1_UK_MID
 )
 
-export Modele_Challenger_1_Mk1_UK_LOW is TemplateMeshDescriptor
+export ModelFile_Challenger_1_Mk1_UK_LOW is 'GameData:/Assets/3D/Units/UK/Char/Challenger_1_Mk1_LOW/Challenger_1_Mk1_LOW.fbx'
+export Modele_Challenger_1_Mk1_UK_LOW is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/UK/Char/LODS/Challenger_1_Mk1_LOW.Ase2NdfBin'
+    FileName = ModelFile_Challenger_1_Mk1_UK_LOW
 )

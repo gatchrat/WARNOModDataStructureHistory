@@ -1,6 +1,6 @@
 RatioDeLaTailleDuFeu is 0.8 // Utilisé pour modifier la taille visuelle des feux (1.0 = 100% = taille normale)
 
-OnlyHighDepictionSelector is TConstantAlternativeSelector(Key = ['high'])
+OnlyHighDepictionSelector is TConstantAlternativeSelector(Key = [LOD_High])
 
 export template Template_DescriptorFire_Depiction
 [

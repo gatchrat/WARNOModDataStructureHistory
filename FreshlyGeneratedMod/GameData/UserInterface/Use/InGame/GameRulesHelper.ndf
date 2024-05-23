@@ -107,6 +107,7 @@ GameRulesHelper is TUITacticalGameRulesHelper
     ComponentToUseForRemainingTimeMessage = "RemainingTimeAlertComponent"
     ComponentToUseForLocalPlayerAllianceMessage = "ConquestLocalPlayerHasAdvantageComponent"
     ComponentToUseForOtherAllianceMessage = "ConquestOpponentHasAdvantageComponent"
+    LDHintTextComponentNameToFill = "Text1"
 
     LDHintMoralDico = "INGAME"
     LDHintMoralTokenLocalPlayerAlliance = "MOLO_HTS"

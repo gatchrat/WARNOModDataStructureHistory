@@ -16,16 +16,15 @@ export Capacite_Aura_Commandement_1 is TCapaciteDescriptor
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
     Radius              = 1000.00 * Metre
-    Range               = 1250.00 * Metre
+    Range               = 1273.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastTime            = 0.00
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_Gain_un_niveau_XP
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -62,16 +61,15 @@ export Capacite_Aura_Commandement_2 is TCapaciteDescriptor
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
     Radius              = 1000.00 * Metre
-    Range               = 1500.00 * Metre
+    Range               = 1700.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastTime            = 0.00
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_Gain_un_niveau_XP
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -108,16 +106,15 @@ export Capacite_Aura_Commandement_3 is TCapaciteDescriptor
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
     Radius              = 1500.00 * Metre
-    Range               = 1750.00 * Metre
+    Range               = 2122.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastTime            = 0.00
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_Gain_un_niveau_XP
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -160,7 +157,6 @@ export Capacite_Aura_capture_allie_solo is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_capture_allie_solo
     TargetEffectDuration = 1.00
@@ -203,7 +199,6 @@ export Capacite_Bouclier_Anti_Suppression_50 is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Bouclier_Suppression_50
     TargetEffectDuration = 2.00
@@ -245,7 +240,6 @@ export Capacite_Bouclier_Anti_Suppression_99 is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Bouclier_Suppression_99
     TargetEffectDuration = 2.00
@@ -271,7 +265,7 @@ export Capacite_Choc is TCapaciteDescriptor
     DescriptorId     = GUID:{206928d2-f3f0-49a8-800d-484b2822b0c6}
     Name             = "Choc"
     NameToken        = "None"
-    CumulEffect          = ~/CapaciteCumulEffect_oui
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
     Declenchement        = ~/CapaciteDeclenchementType_automatique
     TypeCible            = ~/CapaciteTypeCible_unite
     TargetTeamFilter     = ~/CapaciteTargetFilter_ennemi
@@ -281,18 +275,17 @@ export Capacite_Choc is TCapaciteDescriptor
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
     Radius              = 150.00 * Metre
-    Range               = 400.00 * Metre
+    Range               = 495.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastTime            = 0.00
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Placebo
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffect       = ~/UnitEffect_Choc
-    SelfEffectDuration   = 1.00
+    SelfEffectDuration   = -1.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
     MaxTargetNb            = -1
@@ -331,7 +324,6 @@ export Capacite_Cowering_Rampe_Capacite is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Infanterie_Cowering_Rampe
     TargetEffectDuration = 1.00
@@ -376,7 +368,6 @@ export Capacite_Cowering_Stop_Capacite is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Infanterie_Cowering_Stop
     TargetEffectDuration = 1.00
@@ -421,7 +412,6 @@ export Capacite_Debarque_camion is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet
     TargetEffectDuration = 1.00
@@ -465,7 +455,6 @@ export Capacite_Declare_hors_transport is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Ajoute_Tag_Hors_Transport
     TargetEffectDuration = 1.00
@@ -507,10 +496,9 @@ export Capacite_GSR is TCapaciteDescriptor
     Cooldown            = 0.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_GSR
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -529,6 +517,7 @@ export Capacite_GSR is TCapaciteDescriptor
     Conditions = [
         ~/ConditionTagNotRaisedInUnit_RadioJammed_1,
         ~/ConditionTagRaisedInUnit_GSR_ok_1,
+        ~/ConditionNotInMovement,
     ]
 )
 export Capacite_GSR_no_GSR is TCapaciteDescriptor
@@ -552,10 +541,9 @@ export Capacite_GSR_no_GSR is TCapaciteDescriptor
     Cooldown            = 0.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Ajoute_Tag_GSR_ok
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -571,7 +559,9 @@ export Capacite_GSR_no_GSR is TCapaciteDescriptor
     Price = MAP[]
     TagsCiblePossible = [
     ]
-
+    Conditions = [
+        ~/ConditionNotInMovement,
+    ]
 )
 export Capacite_IFV is TCapaciteDescriptor
 (
@@ -588,16 +578,15 @@ export Capacite_IFV is TCapaciteDescriptor
     InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
     ActionRadiusWithBoundingBox = False
     Radius              = 500.00 * Metre
-    Range               = 900.00 * Metre
+    Range               = 990.00 * Metre
     AutomaticOrderRange = 0.00 * Metre
     CastTime            = 0.00
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_Bouclier_Suppression_IFV
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -637,7 +626,6 @@ export Capacite_Infanterie_Dissimulee is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Infanterie_bonus_discretion
     TargetEffectDuration = 2.00
@@ -658,7 +646,9 @@ export Capacite_Infanterie_Dissimulee is TCapaciteDescriptor
         "Infanterie",
         "Unite_transportable",
     ]
-
+    Conditions = [
+        ~/ConditionNotInMovement,
+    ]
 )
 export Capacite_Infanterie_Retranchee is TCapaciteDescriptor
 (
@@ -681,7 +671,6 @@ export Capacite_Infanterie_Retranchee is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_Infanterie_bonus_defense
     TargetEffectDuration = 2.00
@@ -701,7 +690,9 @@ export Capacite_Infanterie_Retranchee is TCapaciteDescriptor
     TagsCiblePossible = [
         "Infanterie",
     ]
-
+    Conditions = [
+        ~/ConditionNotInMovement,
+    ]
 )
 export Capacite_Malus_Suppress_AllTime is TCapaciteDescriptor
 (
@@ -724,7 +715,6 @@ export Capacite_Malus_Suppress_AllTime is TCapaciteDescriptor
     Cooldown            = 30.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Effet_Suppress_Recu_125pourcent
     TargetEffectDuration = 30.00
@@ -766,7 +756,6 @@ export Capacite_Malus_Suppress_Zone_Influence_Ennemie is TCapaciteDescriptor
     Cooldown            = 0.60
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Effet_Suppress_Recu_125pourcent
     TargetEffectDuration = 0.60
@@ -808,10 +797,9 @@ export Capacite_MilitaryPolice is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_military_police
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -851,7 +839,6 @@ export Capacite_Ordre_Unload_NonArmes is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Destruction
     TargetEffectDuration = 1.00
@@ -893,7 +880,6 @@ export Capacite_Regen_suppress_xp_1 is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_Regen_suppress_regular
     TargetEffectDuration = 1.00
@@ -914,6 +900,7 @@ export Capacite_Regen_suppress_xp_1 is TCapaciteDescriptor
     ]
     Conditions = [
         ~/ConditionTagRaisedInUnit_xp_regular_1,
+        ~/ConditionNotInMovement,
     ]
 )
 export Capacite_Regen_suppress_xp_2 is TCapaciteDescriptor
@@ -937,7 +924,6 @@ export Capacite_Regen_suppress_xp_2 is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_Regen_suppress_veteran
     TargetEffectDuration = 1.00
@@ -958,6 +944,7 @@ export Capacite_Regen_suppress_xp_2 is TCapaciteDescriptor
     ]
     Conditions = [
         ~/ConditionTagRaisedInUnit_xp_veteran_1,
+        ~/ConditionNotInMovement,
     ]
 )
 export Capacite_Regen_suppress_xp_3 is TCapaciteDescriptor
@@ -981,7 +968,6 @@ export Capacite_Regen_suppress_xp_3 is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_Regen_suppress_elite
     TargetEffectDuration = 1.00
@@ -1002,6 +988,7 @@ export Capacite_Regen_suppress_xp_3 is TCapaciteDescriptor
     ]
     Conditions = [
         ~/ConditionTagRaisedInUnit_xp_elite_1,
+        ~/ConditionNotInMovement,
     ]
 )
 export Capacite_Suicide_SurCetteCibleEnnemie is TCapaciteDescriptor
@@ -1025,7 +1012,6 @@ export Capacite_Suicide_SurCetteCibleEnnemie is TCapaciteDescriptor
     Cooldown            = 2.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_Effet_Vide
     TargetEffectDuration = 1.00
@@ -1045,7 +1031,9 @@ export Capacite_Suicide_SurCetteCibleEnnemie is TCapaciteDescriptor
     Price = MAP[]
     TagsCiblePossible = [
     ]
-
+    Conditions = [
+        ~/ConditionNotInMovement,
+    ]
 )
 export Capacite_Suicide_SurCettePosition is TCapaciteDescriptor
 (
@@ -1068,7 +1056,6 @@ export Capacite_Suicide_SurCettePosition is TCapaciteDescriptor
     Cooldown            = 2.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_Effet_Vide
     TargetEffectDuration = 1.00
@@ -1089,7 +1076,9 @@ export Capacite_Suicide_SurCettePosition is TCapaciteDescriptor
     TagsCiblePossible = [
         "GroundUnits",
     ]
-
+    Conditions = [
+        ~/ConditionNotInMovement,
+    ]
 )
 export Capacite_Tank_Dissimule is TCapaciteDescriptor
 (
@@ -1112,7 +1101,6 @@ export Capacite_Tank_Dissimule is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Tank_bonus_discretion
     TargetEffectDuration = 2.00
@@ -1124,6 +1112,49 @@ export Capacite_Tank_Dissimule is TCapaciteDescriptor
     TargetInBuilding       = False
     TargetInTransport      = False
     TargetInSelf           = False
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+    ]
+    Conditions = [
+        ~/ConditionNotInMovement,
+    ]
+)
+export Capacite_UAV is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{5df09981-76d9-4e63-b27b-6a4605eab9eb}
+    Name             = "UAV"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_soi
+    TargetTeamFilter     = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_soi
+    InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
+    ActionRadiusWithBoundingBox = False
+    Radius              = 1.00 * Metre
+    Range               = 1.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastTime            = 0.00
+    Cooldown            = 1.00
+    CheckVisibility     = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect         = ~/UnitEffect_Malus_ciblage_UAV
+    TargetEffectDuration = -1.00
+    SelfEffectDuration   = 0.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = -1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
     TargetMySelf           = True
     FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
     DisplayRangeColor      = RGBA[0,0,0,0]
@@ -1154,7 +1185,6 @@ export Capacite_electronic_warfare is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = False
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_electronic_warfare
     TargetEffectDuration = 1.00
@@ -1197,10 +1227,9 @@ export Capacite_jammer is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = False
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_jammer
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -1240,10 +1269,9 @@ export Capacite_jammer_arty is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = False
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = False
     TargetEffect         = ~/UnitEffect_electronic_warfare_arty
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -1283,7 +1311,6 @@ export Capacite_poorly_trained is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_reserviste
     TargetEffectDuration = -1.00
@@ -1304,6 +1331,7 @@ export Capacite_poorly_trained is TCapaciteDescriptor
     ]
     Conditions = [
         ~/ConditionTagNotRaisedInUnit_reserviste_immune_1,
+        ~/ConditionNotInMovement,
     ]
 )
 export Capacite_reserviste is TCapaciteDescriptor
@@ -1327,10 +1355,9 @@ export Capacite_reserviste is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = True
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_reserviste
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -1371,7 +1398,6 @@ export Capacite_resolute is TCapaciteDescriptor
     Cooldown            = 1.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_resolute
     TargetEffectDuration = -1.00
@@ -1390,7 +1416,9 @@ export Capacite_resolute is TCapaciteDescriptor
     Price = MAP[]
     TagsCiblePossible = [
     ]
-
+    Conditions = [
+        ~/ConditionNotInMovement,
+    ]
 )
 export Capacite_security is TCapaciteDescriptor
 (
@@ -1413,10 +1441,9 @@ export Capacite_security is TCapaciteDescriptor
     Cooldown            = 0.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_security
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -1433,7 +1460,9 @@ export Capacite_security is TCapaciteDescriptor
     TagsCiblePossible = [
         "GroundUnits",
     ]
-
+    Conditions = [
+        ~/ConditionNotInMovement,
+    ]
 )
 export Capacite_sniper is TCapaciteDescriptor
 (
@@ -1456,10 +1485,9 @@ export Capacite_sniper is TCapaciteDescriptor
     Cooldown            = 0.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_sniper
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -1477,6 +1505,7 @@ export Capacite_sniper is TCapaciteDescriptor
     ]
     Conditions = [
         ~/ConditionTagRaisedInUnit_snipe_ok_1,
+        ~/ConditionNotInMovement,
     ]
 )
 export Capacite_sniper_no_snipe is TCapaciteDescriptor
@@ -1500,10 +1529,9 @@ export Capacite_sniper_no_snipe is TCapaciteDescriptor
     Cooldown            = 0.00
     CheckVisibility     = True
     AllowReflexDuringCast   = True
-    AllowMovementDuringCast = False
     CanBeCastFromTransport  = True
     TargetEffect         = ~/UnitEffect_Ajoute_Tag_snipe_ok
-    TargetEffectDuration = 1.00
+    TargetEffectDuration = -1.00
     SelfEffectDuration   = 0.00
     MinVirtualUnits         = 1
     OrderMustSpreadTargets = False
@@ -1519,5 +1547,7 @@ export Capacite_sniper_no_snipe is TCapaciteDescriptor
     Price = MAP[]
     TagsCiblePossible = [
     ]
-
+    Conditions = [
+        ~/ConditionNotInMovement,
+    ]
 )

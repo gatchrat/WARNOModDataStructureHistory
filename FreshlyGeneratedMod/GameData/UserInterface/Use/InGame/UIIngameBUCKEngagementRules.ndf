@@ -145,7 +145,7 @@ template TextTitreRoE
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [140.0, 0.0]
+        MagnifiableWidthHeight = [150.0, 0.0]
         AlignementToAnchor = [0.0, 0.5]
         AlignementToFather = [0.0, 0.5]
     )
@@ -261,7 +261,7 @@ EngagementRulesPanel is BUCKListDescriptor
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [660.0, 0.0]
+        MagnifiableWidthHeight = [670.0, 0.0]
     )
 
     HidePointerEvents = true
@@ -506,6 +506,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementAdvance_Hunt"
                         RadioButtonManager = ~/advanceButtonManager
                         TextToken       = "ER_ADVHN"
+                        HintTitleToken = "ER_ADVHN"
                         HintBodyToken = "HNT_ADVHNB"
                         HintExtendedToken = "HNT_ADVHNE"
                         TextColor = 'Gold'
@@ -516,6 +517,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementAdvance_Move"
                         RadioButtonManager = ~/advanceButtonManager
                         TextToken       = "ER_ADVMV"
+                        HintTitleToken = "ER_ADVMV"
                         HintBodyToken = "HNT_ADVMVB"
                         HintExtendedToken = "HNT_ADVMVE"
                     ),
@@ -547,6 +549,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementUseRoad_True"
                         RadioButtonManager = ~/useRoadButtonManager
                         TextToken       = "ER_URFA"
+                        HintTitleToken = "ER_URFA"
                         HintBodyToken = "HNT_URFAB"
                         HintExtendedToken = "HNT_URFAE"
                         TextColor = 'Gold'
@@ -557,6 +560,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementUseRoad_False"
                         RadioButtonManager = ~/useRoadButtonManager
                         TextToken       = "ER_URSH"
+                        HintTitleToken = "ER_URSH"
                         HintBodyToken = "HNT_URSHB"
                         HintExtendedToken = "HNT_URSHE"
                     ),
@@ -588,6 +592,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         Mapping = $/KeyboardOption/Mapping_EngagmentRules_Move
                         RadioButtonManager = ~/SmartMoveButtonManager
                         TextToken       = "ER_SMCO"
+                        HintTitleToken = "ER_SMCO"
                         HintBodyToken = "HNT_SMCOB"
                         HintExtendedToken = "HNT_SMCOE"
                     ),
@@ -598,6 +603,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         Mapping = $/KeyboardOption/Mapping_EngagmentRules_Move
                         RadioButtonManager = ~/SmartMoveButtonManager
                         TextToken       = "ER_SMSH"
+                        HintTitleToken = "ER_SMSH"
                         HintBodyToken = "HNT_SMSHB"
                         HintExtendedToken = "HNT_SMSHE"
                         TextColor = 'Gold'
@@ -630,6 +636,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementIdleBehavior_AutoCover"
                         RadioButtonManager = ~/IdleBehaviorButtonManager
                         TextToken       = "ER_IDCO"
+                        HintTitleToken = "ER_IDCO"
                         HintBodyToken = "HNT_IDCOB"
                         HintExtendedToken = "HNT_IDCOE"
                         TextColor = 'Gold'
@@ -640,6 +647,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementIdleBehavior_Nothing"
                         RadioButtonManager = ~/IdleBehaviorButtonManager
                         TextToken       = "ER_IDNO"
+                        HintTitleToken = "ER_IDNO"
                         HintBodyToken = "HNT_IDNOB"
                         HintExtendedToken = "HNT_IDNOE"
                     ),
@@ -649,6 +657,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementIdleBehavior_Hold"
                         RadioButtonManager = ~/IdleBehaviorButtonManager
                         TextToken       = "ER_IDHO"
+                        HintTitleToken = "ER_IDHO"
                         HintBodyToken = "HNT_IDHOB"
                         HintExtendedToken = "HNT_AIDEF"
                     ),
@@ -680,6 +689,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementAutoResale_True"
                         RadioButtonManager = ~/autoResaleButtonManager
                         TextToken       = "ER_ARY"
+                        HintTitleToken = "ER_ARY"
                         HintBodyToken = "HNT_ARYB"
                         HintExtendedToken = "HNT_ARYE"
                         TextColor = 'Gold'
@@ -690,6 +700,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementAutoResale_False"
                         RadioButtonManager = ~/autoResaleButtonManager
                         TextToken       = "ER_ARN"
+                        HintTitleToken = "ER_ARN"
                         HintBodyToken = "HNT_ARNB"
                         HintExtendedToken = "HNT_ARNE"
                     ),
@@ -721,6 +732,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementUnarmedVehiculeBehavior_HoldFire"
                         RadioButtonManager = ~/UnarmedVehiculeBehaviorButtonManager
                         TextToken       = "ER_UVHF"
+                        HintTitleToken = "ER_UVHF"
                         HintBodyToken = "ROE_phh"
                     ),
                     // Fire At Will
@@ -729,6 +741,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementUnarmedVehiculeBehavior_FireAtWill"
                         RadioButtonManager = ~/UnarmedVehiculeBehaviorButtonManager
                         TextToken       = "ER_UVFW"
+                        HintTitleToken = "ER_UVFW"
                         HintBodyToken = "ROE_phf"
                         TextColor = 'Gold'
                     ),
@@ -824,6 +837,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementMissilesBehavior_NeverLooktAtTransport"
                         RadioButtonManager = ~/MissilesBehaviorButtonManager
                         TextToken       = "ER_UVHF"
+                        HintTitleToken = "ER_UVHF"
                         HintBodyToken = "ROE_mhh"
                     ),
                     // LookAtNonEmptyTransport
@@ -832,6 +846,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementMissilesBehavior_LookAtNonEmptyTransport"
                         RadioButtonManager = ~/MissilesBehaviorButtonManager
                         TextToken       = "ER_GMTT"
+                        HintTitleToken = "ER_GMTT"
                         HintBodyToken = "ROE_mnef"
                         TextColor = 'Gold'
                     ),
@@ -841,6 +856,7 @@ private UISpecificTacticEngagementRulesViewDescriptor is TUISpecificEngagementRu
                         ElementName = "EngagementMissilesBehavior_LookAtAllTransport"
                         RadioButtonManager = ~/MissilesBehaviorButtonManager
                         TextToken       = "ER_UVFW"
+                        HintTitleToken = "ER_UVFW"
                         HintBodyToken = "ROE_mhf"
                     ),
                 ]

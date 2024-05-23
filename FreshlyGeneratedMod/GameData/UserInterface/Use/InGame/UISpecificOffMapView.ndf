@@ -73,39 +73,6 @@ OffMapUnitName is BUCKTextDescriptor
     )
 )
 
-// -------------------------------------------------------------------------------------------------
-// Unit experience stars
-OffMapUnitExperience is BUCKTextDescriptor
-(
-    ElementName = "UnitExperience"
-
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [0,1]
-        AlignementToAnchor = [0.0, 0.5]
-        AlignementToFather = [0.0, 0.5]
-    )
-
-    TextStyle = "Default"
-
-    ParagraphStyle = TParagraphStyle
-    (
-        Alignment = UIText_Left
-        VerticalAlignment = UIText_VerticalCenter
-    )
-
-    BigLineAction = ~/BigLineAction/CutByDots
-
-    TextSize = "12"
-    TextColor = "ButtonHUD"
-    TextToken = ""
-    TextDico = ~/LocalisationConstantes/dico_interface_ingame
-    TypefaceToken = "UIMainFont"
-
-    HorizontalFitStyle = ~/FitStyle/FitToContent
-    VerticalFitStyle = ~/FitStyle/UserDefined
-)
-
 //--------------------------------------------------------------------------------------------------
 // Gauge displaying the unit state. Starts at 100, lowers and then replenishes, once the unit is ready again.
 

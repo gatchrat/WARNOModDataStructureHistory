@@ -7,7 +7,7 @@ export GfxProperties is TGfxProperties
         ("dummy", TDepictionTemplate
             (
                 Scaler = TIdentityScaler()
-                Selector = TConstantAlternativeSelector(Key = ['high'])
+                Selector = TConstantAlternativeSelector(Key = [LOD_High])
                 DepictionAlternatives = [ DepictionDescriptor_LOD_High(MeshDescriptor = $/GFX/DepictionResources/Rien) ]
             )
         )

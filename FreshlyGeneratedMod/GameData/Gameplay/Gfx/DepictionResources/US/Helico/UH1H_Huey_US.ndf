@@ -1,14 +1,17 @@
-export Modele_UH1H_Huey_US is TemplateMeshDescriptor
+export ModelFile_UH1H_Huey_US is 'GameData:/Assets/3D/Units/US/Helico/UH_1H_Huey/UH_1H_Huey.fbx'
+export Modele_UH1H_Huey_US is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/US/Helico/UH_1H_Huey/UH_1H_Huey.Ase2NdfBin'
+    FileName = ModelFile_UH1H_Huey_US
 )
 
-export Modele_UH1H_Huey_US_MID is TemplateMeshDescriptor
+export ModelFile_UH1H_Huey_US_MID is 'GameData:/Assets/3D/Units/US/Helico/UH_1H_Huey_MID/UH_1H_Huey_MID.fbx'
+export Modele_UH1H_Huey_US_MID is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/US/Helico/UH_1H_Huey_MID/UH_1H_Huey_MID.Ase2NdfBin'
+    FileName = ModelFile_UH1H_Huey_US_MID
 )
 
-export Modele_UH1H_Huey_US_LOW is TemplateMeshDescriptor
+export ModelFile_UH1H_Huey_US_LOW is 'GameData:/Assets/3D/Units/US/Helico/LODS/UH_1H_Huey_LOW.fbx'
+export Modele_UH1H_Huey_US_LOW is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/US/Helico/LODS/UH_1H_Huey_LOW.Ase2NdfBin'
+    FileName = ModelFile_UH1H_Huey_US_LOW
 )

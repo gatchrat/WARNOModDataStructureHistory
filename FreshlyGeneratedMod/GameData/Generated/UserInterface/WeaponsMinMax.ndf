@@ -3,143 +3,362 @@
 
 
 
-
 MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
 (
     WeaponsMinMaxValues = MAP
     [
-        ( $/GFX/Weapon/MinMax_SAM
+        ( $/GFX/Weapon/MinMax_AAM
         , TWeaponMinMaxValues
           (
                // PhysicalDamages x weapon_count_ (Number of weapons)
                PhysicalDamages = TMinMaxValue (
                        Min = 4.0
-                       Max = 9.0
+                       Max = 8.0
                )
                // SuppressDamages x weapon_count_ (Number of weapons)
                SuppressDamages = TMinMaxValue (
-                       Min = 136
-                       Max = 852
+                       Min = 192
+                       Max = 712
                )
                SplashDamageRadius = TMinMaxValue (
-                       Min = 75 * Metre
-                       Max = 469 * Metre
+                       Min = 106 * Metre
+                       Max = 392 * Metre
                )
-               MaxRange = TMinMaxValue (
+               MaxRangeGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 7004
-                       Max = 8985
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 2125
                )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 5023
-                       Max = 16980
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 3525
+                       Max = 12725
                )
                AimTime = TMinMaxValue (
-                       Min = 1.0
-                       Max = 2.75
+                       Min = 0.0
+                       Max = 0.0
                )
                ReloadTime = TMinMaxValue (
-                       Min = 5.0
-                       Max = 20.0
+                       Min = 2.0
+                       Max = 2.0
                )
                TurretSpeed = TMinMaxValue (
-                       Min = 90
+                       Min = 0
                        Max = 360
                )
                Accuracy = TMinMaxValue (
-                       Min = 25
+                       Min = 40
+                       Max = 60
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 40
+                       Max = 60
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 30.0
+                       Max = 30.0
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 0.2
+                       Max = 2.0
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 1
+                       Max = 1
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 20
+                       Max = 30
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_AGM
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 1.0
+                       Max = 1.0
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 362
+                       Max = 702
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 14 * Metre
+                       Max = 14 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 2800
+                       Max = 4400
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AimTime = TMinMaxValue (
+                       Min = 0.0
+                       Max = 1.0
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 1.0
+                       Max = 5.0
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 100
+                       Max = 360
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 35
+                       Max = 70
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 35
+                       Max = 60
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 20.0
+                       Max = 60.0
+               )
+               Penetration = TMinMaxValue (
+                       Min = 24
+                       Max = 30
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 1.0
+                       Max = 2.0
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 1
+                       Max = 16
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 30
+                       Max = 360
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_ATGM
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 1.0
+                       Max = 1.0
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 160
+                       Max = 338
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 8 * Metre
+                       Max = 17 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 1575
+                       Max = 2800
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AimTime = TMinMaxValue (
+                       Min = 1.25
+                       Max = 2.25
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 5.0
+                       Max = 15.0
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 60
+                       Max = 360
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 40
                        Max = 65
                )
                AccuracyMovement = TMinMaxValue (
                        Min = 0
-                       Max = 60
+                       Max = 0
                )
                RateOfFire = TMinMaxValue (
-                       Min = 5.0
-                       Max = 21.818181818181817
+                       Min = 6.0
+                       Max = 48.0
+               )
+               Penetration = TMinMaxValue (
+                       Min = 14
+                       Max = 25
                )
                TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 2.0
-                       Max = 4.5
+                       Min = 1.0
+                       Max = 1.0
                )
                NbShotsBySalvo = TMinMaxValue (
                        Min = 1
-                       Max = 8
+                       Max = 16
                )
                SupplyCost = TMinMaxValue (
-                       Min = 20
+                       Min = 10
                        Max = 240
               )
          )
        ),
 
-        ( $/GFX/Weapon/MinMax_obusier
+        ( $/GFX/Weapon/MinMax_AutocanonHE
         , TWeaponMinMaxValues
           (
                // PhysicalDamages x weapon_count_ (Number of weapons)
                PhysicalDamages = TMinMaxValue (
-                       Min = 0.12
-                       Max = 4.466
+                       Min = 0.36
+                       Max = 1.0
                )
                // SuppressDamages x weapon_count_ (Number of weapons)
                SuppressDamages = TMinMaxValue (
-                       Min = 7
-                       Max = 264
+                       Min = 15
+                       Max = 51
                )
                SplashDamageRadius = TMinMaxValue (
-                       Min = 5 * Metre
-                       Max = 304 * Metre
+                       Min = 0 * Metre
+                       Max = 21 * Metre
                )
-               MaxRange = TMinMaxValue (
-                       Min = 24904
-                       Max = 109946
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 1400
+                       Max = 1750
                )
-               MaxRangeTBA = TMinMaxValue (
+               MaxRangeTBAGRU = TMinMaxValue (
                        Min = 0
-                       Max = 0
+                       Max = 1600
                )
-               MaxRangeHA = TMinMaxValue (
+               MaxRangeHAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
                AimTime = TMinMaxValue (
-                       Min = 15.0
-                       Max = 40.0
+                       Min = 2.25
+                       Max = 2.5
                )
                ReloadTime = TMinMaxValue (
-                       Min = 30.0
-                       Max = 81.0
+                       Min = 0.25
+                       Max = 2.5
                )
                TurretSpeed = TMinMaxValue (
                        Min = 60
-                       Max = 120
+                       Max = 360
                )
                Accuracy = TMinMaxValue (
-                       Min = 0
-                       Max = 0
+                       Min = 5
+                       Max = 21
                )
                AccuracyMovement = TMinMaxValue (
+                       Min = 2
+                       Max = 13
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 81.08108108108107
+                       Max = 521.7391304347826
+               )
+               Penetration = TMinMaxValue (
+                       Min = 1
+                       Max = 13
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 0.1
+                       Max = 0.3
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 5
+                       Max = 10
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 5
+                       Max = 10
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_Bombe
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 2.0328000000000004
+                       Max = 45.0
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 158
+                       Max = 990
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 118 * Metre
+                       Max = 465 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 150
+                       Max = 2975
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AimTime = TMinMaxValue (
+                       Min = 0.0
+                       Max = 0.0
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 1.0
+                       Max = 1.0
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 0
+                       Max = 360
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 30
+                       Max = 90
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 30
+                       Max = 90
+               )
                RateOfFire = TMinMaxValue (
-                       Min = 1.3953488372093024
-                       Max = 6.0
+                       Min = 60.0
+                       Max = 384.0
                )
                TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 4.0
-                       Max = 6.0
+                       Min = 0.1
+                       Max = 0.1
                )
                NbShotsBySalvo = TMinMaxValue (
-                       Min = 2
-                       Max = 6
+                       Min = 1
+                       Max = 16
                )
                SupplyCost = TMinMaxValue (
-                       Min = 2
-                       Max = 180
+                       Min = 30
+                       Max = 480
+               )
+               Penetration = TMinMaxValue (
+                       Min = 10
+                       Max = 15
               )
          )
        ),
@@ -158,18 +377,18 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 432
                )
                SplashDamageRadius = TMinMaxValue (
-                       Min = 0 * Metre
+                       Min = 11 * Metre
                        Max = 160 * Metre
                )
-               MaxRange = TMinMaxValue (
-                       Min = 2406
-                       Max = 6438
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 850
+                       Max = 2275
                )
-               MaxRangeTBA = TMinMaxValue (
+               MaxRangeTBAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
-               MaxRangeHA = TMinMaxValue (
+               MaxRangeHAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
@@ -207,11 +426,507 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                SupplyCost = TMinMaxValue (
                        Min = 2
-                       Max = 456
+                       Max = 600
                )
                TurretSpeed = TMinMaxValue (
                        Min = 60
                        Max = 120
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_Cluster
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 1.92
+                       Max = 1.92
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 200
+                       Max = 200
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 400 * Metre
+                       Max = 400 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 1400
+                       Max = 1400
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AimTime = TMinMaxValue (
+                       Min = 0.0
+                       Max = 0.0
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 0.1
+                       Max = 0.1
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 360
+                       Max = 360
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 10
+                       Max = 10
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 10
+                       Max = 10
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 235199.99999999997
+                       Max = 235199.99999999997
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 0.1
+                       Max = 0.1
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 12
+                       Max = 12
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 360
+                       Max = 360
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_DCA
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 0.3
+                       Max = 0.875
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 24
+                       Max = 70
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 6 * Metre
+                       Max = 18 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 1200
+                       Max = 1200
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 2125
+                       Max = 2825
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 1775
+                       Max = 3000
+               )
+               AimTime = TMinMaxValue (
+                       Min = 1.0
+                       Max = 2.0
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 0.5
+                       Max = 4.0
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 60
+                       Max = 120
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 10
+                       Max = 40
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 0
+                       Max = 25
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 685.7142857142858
+                       Max = 1263.157894736842
+               )
+               Penetration = TMinMaxValue (
+                       Min = 1
+                       Max = 1
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 0.2
+                       Max = 0.6
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 4
+                       Max = 10
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 8
+                       Max = 20
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_FLAME
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 0.5
+                       Max = 1.4
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 125
+                       Max = 350
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 25 * Metre
+                       Max = 70 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 350
+                       Max = 1025
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AimTime = TMinMaxValue (
+                       Min = 4.0
+                       Max = 4.0
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 8.0
+                       Max = 8.0
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 120
+                       Max = 360
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 14
+                       Max = 60
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 0
+                       Max = 30
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 14.117647058823529
+                       Max = 14.117647058823529
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 3.0
+                       Max = 3.0
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 4
+                       Max = 4
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 10
+                       Max = 10
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_Gatling
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 0.3
+                       Max = 1.0
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 15
+                       Max = 39
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 0 * Metre
+                       Max = 39 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 1200
+                       Max = 2100
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 2825
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 3175
+               )
+               AimTime = TMinMaxValue (
+                       Min = 0.0
+                       Max = 2.5
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 0.25
+                       Max = 2.0
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 0
+                       Max = 360
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 4
+                       Max = 40
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 2
+                       Max = 40
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 315.7894736842105
+                       Max = 6000.0
+               )
+               Penetration = TMinMaxValue (
+                       Min = 1
+                       Max = 9
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 0.1
+                       Max = 0.2
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 5
+                       Max = 20
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 5
+                       Max = 20
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_Grenade
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 1.0
+                       Max = 1.0
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 200
+                       Max = 200
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 500 * Metre
+                       Max = 500 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 150
+                       Max = 150
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AimTime = TMinMaxValue (
+                       Min = 0.0
+                       Max = 0.0
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 15.0
+                       Max = 15.0
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 360
+                       Max = 360
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 40
+                       Max = 40
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 4.0
+                       Max = 4.0
+               )
+               Penetration = TMinMaxValue (
+                       Min = 1
+                       Max = 1
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 15.0
+                       Max = 15.0
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 1
+                       Max = 1
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 30
+                       Max = 30
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_LAW
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 0.35
+                       Max = 1.0
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 80
+                       Max = 431
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 10 * Metre
+                       Max = 50 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 500
+                       Max = 1400
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AimTime = TMinMaxValue (
+                       Min = 2.0
+                       Max = 2.0
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 3.0
+                       Max = 6.0
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 360
+                       Max = 360
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 23
+                       Max = 65
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 10.0
+                       Max = 29.62962962962963
+               )
+               Penetration = TMinMaxValue (
+                       Min = 10
+                       Max = 21
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 0.7
+                       Max = 1.0
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 1
+                       Max = 4
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 2
+                       Max = 80
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_MLRS
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 1.1
+                       Max = 3.0
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 122
+                       Max = 440
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 282 * Metre
+                       Max = 477 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 3500
+                       Max = 52975
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AimTime = TMinMaxValue (
+                       Min = 20.0
+                       Max = 25.0
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 79.0
+                       Max = 360.0
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 30
+                       Max = 60
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 3.5555555555555554
+                       Max = 18.94736842105263
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 0.5
+                       Max = 2.0
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 12
+                       Max = 40
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 240
+                       Max = 3000
+               )
+               Penetration = TMinMaxValue (
+                       Min = 4
+                       Max = 8
               )
          )
        ),
@@ -231,22 +946,22 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                SplashDamageRadius = TMinMaxValue (
                        Min = 2 * Metre
-                       Max = 9 * Metre
+                       Max = 11 * Metre
                )
-               MaxRange = TMinMaxValue (
-                       Min = 2901
-                       Max = 3962
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 1025
+                       Max = 1400
                )
-               MaxRangeTBA = TMinMaxValue (
+               MaxRangeTBAGRU = TMinMaxValue (
                        Min = 0
-                       Max = 3467
+                       Max = 1225
                )
-               MaxRangeHA = TMinMaxValue (
+               MaxRangeHAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
                AimTime = TMinMaxValue (
-                       Min = 2.25
+                       Min = 1.0
                        Max = 2.5
                )
                ReloadTime = TMinMaxValue (
@@ -303,17 +1018,17 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                SplashDamageRadius = TMinMaxValue (
                        Min = 5 * Metre
-                       Max = 266 * Metre
+                       Max = 239 * Metre
                )
-               MaxRange = TMinMaxValue (
-                       Min = 920
-                       Max = 15919
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 325
+                       Max = 5625
                )
-               MaxRangeTBA = TMinMaxValue (
+               MaxRangeTBAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
-               MaxRangeHA = TMinMaxValue (
+               MaxRangeHAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
@@ -351,723 +1066,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                SupplyCost = TMinMaxValue (
                        Min = 4
-                       Max = 200
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_AutocanonHE
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 0.36
-                       Max = 1.0
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 15
-                       Max = 51
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 0 * Metre
-                       Max = 21 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 3962
-                       Max = 4952
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 4528
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AimTime = TMinMaxValue (
-                       Min = 2.0
-                       Max = 2.5
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 0.25
-                       Max = 3.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 60
-                       Max = 360
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 5
-                       Max = 21
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 2
-                       Max = 13
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 81.08108108108107
-                       Max = 521.7391304347826
-               )
-               Penetration = TMinMaxValue (
-                       Min = 1
-                       Max = 13
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 0.1
-                       Max = 0.3
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 5
-                       Max = 10
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 5
-                       Max = 10
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_ATGM
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 1.0
-                       Max = 1.0
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 144
-                       Max = 338
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 11 * Metre
-                       Max = 14 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 4457
-                       Max = 7924
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AimTime = TMinMaxValue (
-                       Min = 1.25
-                       Max = 2.25
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 5.0
-                       Max = 15.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 60
-                       Max = 360
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 40
-                       Max = 65
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 6.0
-                       Max = 48.0
-               )
-               Penetration = TMinMaxValue (
-                       Min = 14
-                       Max = 25
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 1.0
-                       Max = 1.0
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 1
-                       Max = 16
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 10
-                       Max = 240
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_DCA
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 0.3
-                       Max = 0.875
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 24
-                       Max = 70
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 6 * Metre
-                       Max = 18 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 3396
-                       Max = 3396
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 6014
-                       Max = 7995
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 5023
-                       Max = 8490
-               )
-               AimTime = TMinMaxValue (
-                       Min = 1.0
-                       Max = 2.0
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 0.5
-                       Max = 4.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 60
-                       Max = 120
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 10
-                       Max = 40
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 0
-                       Max = 25
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 685.7142857142858
-                       Max = 1263.157894736842
-               )
-               Penetration = TMinMaxValue (
-                       Min = 1
-                       Max = 1
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 0.2
-                       Max = 0.6
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 4
-                       Max = 10
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 8
-                       Max = 20
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_inf_MMG
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 0.04
-                       Max = 0.65
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 4
-                       Max = 100
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 5 * Metre
-                       Max = 11 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 1415
-                       Max = 2406
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 1203
-                       Max = 1981
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AimTime = TMinMaxValue (
-                       Min = 0.2
-                       Max = 1.9
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 1.0
-                       Max = 4.2
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 60
-                       Max = 360
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 25
-                       Max = 90
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 0
-                       Max = 80
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 60.0
-                       Max = 333.33333333333337
-               )
-               Penetration = TMinMaxValue (
-                       Min = 1
-                       Max = 1
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 1.0
-                       Max = 2.0
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 1
-                       Max = 8
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 1
-                       Max = 8
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_LAW
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 0.35
-                       Max = 1.0
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 80
-                       Max = 392
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 12 * Metre
-                       Max = 50 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 1415
-                       Max = 3962
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AimTime = TMinMaxValue (
-                       Min = 2.0
-                       Max = 2.0
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 3.0
-                       Max = 6.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 360
-                       Max = 360
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 23
-                       Max = 65
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 10.0
-                       Max = 29.62962962962963
-               )
-               Penetration = TMinMaxValue (
-                       Min = 13
-                       Max = 21
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 0.7
-                       Max = 1.0
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 1
-                       Max = 4
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 2
-                       Max = 80
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_Grenade
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 1.0
-                       Max = 1.0
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 200
-                       Max = 200
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 500 * Metre
-                       Max = 500 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 424
-                       Max = 424
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AimTime = TMinMaxValue (
-                       Min = 0.0
-                       Max = 0.0
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 15.0
-                       Max = 15.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 360
-                       Max = 360
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 40
-                       Max = 40
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 4.0
-                       Max = 4.0
-               )
-               Penetration = TMinMaxValue (
-                       Min = 1
-                       Max = 1
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 15.0
-                       Max = 15.0
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 1
-                       Max = 1
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 30
-                       Max = 30
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_inf_sniper
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 0.15
-                       Max = 0.15
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 50
-                       Max = 150
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 0 * Metre
-                       Max = 0 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 1415
-                       Max = 3538
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 1274
-                       Max = 2972
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AimTime = TMinMaxValue (
-                       Min = 3.0
-                       Max = 5.0
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 2.0
-                       Max = 5.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 360
-                       Max = 360
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 45
-                       Max = 55
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 12.0
-                       Max = 30.0
-               )
-               Penetration = TMinMaxValue (
-                       Min = 1
-                       Max = 1
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 2.0
-                       Max = 5.0
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 1
-                       Max = 1
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 1
-                       Max = 1
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_MLRS
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 1.1
-                       Max = 3.0
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 122
-                       Max = 440
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 282 * Metre
-                       Max = 477 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 9905
-                       Max = 149919
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AimTime = TMinMaxValue (
-                       Min = 20.0
-                       Max = 25.0
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 72.0
-                       Max = 360.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 30
-                       Max = 60
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 3.5555555555555554
-                       Max = 20.186915887850464
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 0.5
-                       Max = 2.0
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 12
-                       Max = 40
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 240
-                       Max = 3000
-               )
-               Penetration = TMinMaxValue (
-                       Min = 4
-                       Max = 8
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_FLAME
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 0.5
-                       Max = 1.4
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 125
-                       Max = 350
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 25 * Metre
-                       Max = 70 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 990
-                       Max = 2901
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AimTime = TMinMaxValue (
-                       Min = 4.0
-                       Max = 4.0
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 8.0
-                       Max = 8.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 120
-                       Max = 360
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 14
-                       Max = 60
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 0
-                       Max = 30
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 14.117647058823529
-                       Max = 14.117647058823529
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 3.0
-                       Max = 3.0
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 4
-                       Max = 4
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 10
-                       Max = 10
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_Gatling
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 0.245
-                       Max = 1.0
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 7
-                       Max = 39
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 0 * Metre
-                       Max = 39 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 2901
-                       Max = 5943
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 7995
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 8985
-               )
-               AimTime = TMinMaxValue (
-                       Min = 0.0
-                       Max = 2.5
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 0.25
-                       Max = 2.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 0
-                       Max = 360
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 7
-                       Max = 40
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 3
-                       Max = 40
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 315.7894736842105
-                       Max = 6000.0
-               )
-               Penetration = TMinMaxValue (
-                       Min = 1
-                       Max = 9
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 0.1
-                       Max = 0.2
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 5
-                       Max = 20
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 5
-                       Max = 20
+                       Max = 50
               )
          )
        ),
@@ -1089,15 +1088,15 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Min = 16 * Metre
                        Max = 80 * Metre
                )
-               MaxRange = TMinMaxValue (
-                       Min = 5943
-                       Max = 9905
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 2100
+                       Max = 3500
                )
-               MaxRangeTBA = TMinMaxValue (
+               MaxRangeTBAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
-               MaxRangeHA = TMinMaxValue (
+               MaxRangeHAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
@@ -1118,7 +1117,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 20
                )
                RateOfFire = TMinMaxValue (
-                       Min = 120.0
+                       Min = 92.3076923076923
                        Max = 285.0
                )
                Penetration = TMinMaxValue (
@@ -1144,214 +1143,70 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
          )
        ),
 
-        ( $/GFX/Weapon/MinMax_AGM
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 1.0
-                       Max = 1.0
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 362
-                       Max = 702
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 14 * Metre
-                       Max = 14 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 7924
-                       Max = 12452
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AimTime = TMinMaxValue (
-                       Min = 0.0
-                       Max = 1.0
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 1.0
-                       Max = 5.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 100
-                       Max = 360
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 35
-                       Max = 70
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 35
-                       Max = 60
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 20.0
-                       Max = 60.0
-               )
-               Penetration = TMinMaxValue (
-                       Min = 24
-                       Max = 30
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 1.0
-                       Max = 2.0
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 1
-                       Max = 16
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 30
-                       Max = 360
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_AAM
+        ( $/GFX/Weapon/MinMax_SAM
         , TWeaponMinMaxValues
           (
                // PhysicalDamages x weapon_count_ (Number of weapons)
                PhysicalDamages = TMinMaxValue (
                        Min = 4.0
-                       Max = 8.0
+                       Max = 9.0
                )
                // SuppressDamages x weapon_count_ (Number of weapons)
                SuppressDamages = TMinMaxValue (
-                       Min = 192
-                       Max = 712
+                       Min = 136
+                       Max = 852
                )
                SplashDamageRadius = TMinMaxValue (
-                       Min = 106 * Metre
-                       Max = 392 * Metre
+                       Min = 75 * Metre
+                       Max = 469 * Metre
                )
-               MaxRange = TMinMaxValue (
+               MaxRangeGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 6014
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 2475
+                       Max = 3175
                )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 9976
-                       Max = 36012
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 1775
+                       Max = 6000
                )
                AimTime = TMinMaxValue (
-                       Min = 0.0
-                       Max = 0.0
+                       Min = 1.0
+                       Max = 2.75
                )
                ReloadTime = TMinMaxValue (
-                       Min = 2.0
-                       Max = 2.0
+                       Min = 5.0
+                       Max = 20.0
                )
                TurretSpeed = TMinMaxValue (
-                       Min = 0
+                       Min = 90
                        Max = 360
                )
                Accuracy = TMinMaxValue (
-                       Min = 40
-                       Max = 60
+                       Min = 25
+                       Max = 65
                )
                AccuracyMovement = TMinMaxValue (
-                       Min = 40
+                       Min = 0
                        Max = 60
                )
                RateOfFire = TMinMaxValue (
-                       Min = 30.0
-                       Max = 30.0
+                       Min = 5.0
+                       Max = 21.818181818181817
                )
                TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 0.2
-                       Max = 2.0
+                       Min = 2.0
+                       Max = 4.5
                )
                NbShotsBySalvo = TMinMaxValue (
                        Min = 1
-                       Max = 1
+                       Max = 8
                )
                SupplyCost = TMinMaxValue (
                        Min = 20
-                       Max = 30
-              )
-         )
-       ),
-
-        ( $/GFX/Weapon/MinMax_Bombe
-        , TWeaponMinMaxValues
-          (
-               // PhysicalDamages x weapon_count_ (Number of weapons)
-               PhysicalDamages = TMinMaxValue (
-                       Min = 2.0328000000000004
-                       Max = 45.0
-               )
-               // SuppressDamages x weapon_count_ (Number of weapons)
-               SuppressDamages = TMinMaxValue (
-                       Min = 158
-                       Max = 990
-               )
-               SplashDamageRadius = TMinMaxValue (
-                       Min = 118 * Metre
-                       Max = 465 * Metre
-               )
-               MaxRange = TMinMaxValue (
-                       Min = 424
-                       Max = 8419
-               )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               MaxRangeHA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
-               )
-               AimTime = TMinMaxValue (
-                       Min = 0.0
-                       Max = 0.0
-               )
-               ReloadTime = TMinMaxValue (
-                       Min = 1.0
-                       Max = 1.0
-               )
-               TurretSpeed = TMinMaxValue (
-                       Min = 0
-                       Max = 360
-               )
-               Accuracy = TMinMaxValue (
-                       Min = 30
-                       Max = 90
-               )
-               AccuracyMovement = TMinMaxValue (
-                       Min = 30
-                       Max = 90
-               )
-               RateOfFire = TMinMaxValue (
-                       Min = 60.0
-                       Max = 384.0
-               )
-               TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 0.1
-                       Max = 0.1
-               )
-               NbShotsBySalvo = TMinMaxValue (
-                       Min = 1
-                       Max = 16
-               )
-               SupplyCost = TMinMaxValue (
-                       Min = 30
-                       Max = 480
-               )
-               Penetration = TMinMaxValue (
-                       Min = 10
-                       Max = 15
+                       Max = 240
               )
          )
        ),
@@ -1373,15 +1228,15 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Min = 40 * Metre
                        Max = 50 * Metre
                )
-               MaxRange = TMinMaxValue (
-                       Min = 12452
-                       Max = 15424
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 4400
+                       Max = 5450
                )
-               MaxRangeTBA = TMinMaxValue (
+               MaxRangeTBAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
-               MaxRangeHA = TMinMaxValue (
+               MaxRangeHAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
@@ -1428,70 +1283,214 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
          )
        ),
 
-        ( $/GFX/Weapon/MinMax_Cluster
+        ( $/GFX/Weapon/MinMax_inf_MMG
         , TWeaponMinMaxValues
           (
                // PhysicalDamages x weapon_count_ (Number of weapons)
                PhysicalDamages = TMinMaxValue (
-                       Min = 1.92
-                       Max = 1.92
+                       Min = 0.04
+                       Max = 0.65
                )
                // SuppressDamages x weapon_count_ (Number of weapons)
                SuppressDamages = TMinMaxValue (
-                       Min = 200
-                       Max = 200
+                       Min = 4
+                       Max = 100
                )
                SplashDamageRadius = TMinMaxValue (
-                       Min = 400 * Metre
-                       Max = 400 * Metre
+                       Min = 5 * Metre
+                       Max = 11 * Metre
                )
-               MaxRange = TMinMaxValue (
-                       Min = 3962
-                       Max = 3962
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 500
+                       Max = 850
                )
-               MaxRangeTBA = TMinMaxValue (
-                       Min = 0
-                       Max = 0
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 425
+                       Max = 700
                )
-               MaxRangeHA = TMinMaxValue (
+               MaxRangeHAGRU = TMinMaxValue (
                        Min = 0
                        Max = 0
                )
                AimTime = TMinMaxValue (
-                       Min = 0.0
-                       Max = 0.0
+                       Min = 0.2
+                       Max = 1.9
                )
                ReloadTime = TMinMaxValue (
-                       Min = 0.1
-                       Max = 0.1
+                       Min = 1.0
+                       Max = 4.2
                )
                TurretSpeed = TMinMaxValue (
                        Min = 360
                        Max = 360
                )
                Accuracy = TMinMaxValue (
-                       Min = 10
-                       Max = 10
+                       Min = 25
+                       Max = 80
                )
                AccuracyMovement = TMinMaxValue (
-                       Min = 10
-                       Max = 10
+                       Min = 0
+                       Max = 80
                )
                RateOfFire = TMinMaxValue (
-                       Min = 235199.99999999997
-                       Max = 235199.99999999997
+                       Min = 60.0
+                       Max = 333.33333333333337
+               )
+               Penetration = TMinMaxValue (
+                       Min = 1
+                       Max = 1
                )
                TimeBetweenTwoShots = TMinMaxValue (
-                       Min = 0.1
-                       Max = 0.1
+                       Min = 1.0
+                       Max = 1.5
                )
                NbShotsBySalvo = TMinMaxValue (
-                       Min = 12
-                       Max = 12
+                       Min = 1
+                       Max = 8
                )
                SupplyCost = TMinMaxValue (
+                       Min = 1
+                       Max = 8
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_inf_sniper
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 0.15
+                       Max = 0.15
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 50
+                       Max = 150
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 0 * Metre
+                       Max = 0 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 500
+                       Max = 1250
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 450
+                       Max = 1050
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AimTime = TMinMaxValue (
+                       Min = 3.0
+                       Max = 5.0
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 2.0
+                       Max = 5.0
+               )
+               TurretSpeed = TMinMaxValue (
                        Min = 360
                        Max = 360
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 45
+                       Max = 55
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 12.0
+                       Max = 30.0
+               )
+               Penetration = TMinMaxValue (
+                       Min = 1
+                       Max = 1
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 2.0
+                       Max = 5.0
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 1
+                       Max = 1
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 1
+                       Max = 1
+              )
+         )
+       ),
+
+        ( $/GFX/Weapon/MinMax_obusier
+        , TWeaponMinMaxValues
+          (
+               // PhysicalDamages x weapon_count_ (Number of weapons)
+               PhysicalDamages = TMinMaxValue (
+                       Min = 0.12
+                       Max = 4.466
+               )
+               // SuppressDamages x weapon_count_ (Number of weapons)
+               SuppressDamages = TMinMaxValue (
+                       Min = 7
+                       Max = 264
+               )
+               SplashDamageRadius = TMinMaxValue (
+                       Min = 5 * Metre
+                       Max = 304 * Metre
+               )
+               MaxRangeGRU = TMinMaxValue (
+                       Min = 8800
+                       Max = 38850
+               )
+               MaxRangeTBAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               MaxRangeHAGRU = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AimTime = TMinMaxValue (
+                       Min = 15.0
+                       Max = 40.0
+               )
+               ReloadTime = TMinMaxValue (
+                       Min = 30.0
+                       Max = 81.0
+               )
+               TurretSpeed = TMinMaxValue (
+                       Min = 60
+                       Max = 120
+               )
+               Accuracy = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               AccuracyMovement = TMinMaxValue (
+                       Min = 0
+                       Max = 0
+               )
+               RateOfFire = TMinMaxValue (
+                       Min = 1.3953488372093024
+                       Max = 6.0
+               )
+               TimeBetweenTwoShots = TMinMaxValue (
+                       Min = 4.0
+                       Max = 6.0
+               )
+               NbShotsBySalvo = TMinMaxValue (
+                       Min = 2
+                       Max = 6
+               )
+               SupplyCost = TMinMaxValue (
+                       Min = 2
+                       Max = 180
               )
          )
        ),

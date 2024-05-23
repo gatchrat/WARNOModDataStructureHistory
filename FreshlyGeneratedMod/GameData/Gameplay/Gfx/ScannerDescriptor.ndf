@@ -17,9 +17,9 @@ export ScannerModuleDescriptor is TReverseScannerWithIdentificationDescriptor
 
 export ScannerConfigurationDescriptor is TScannerConfigurationDescriptor
 (
-    PorteeVisionTBA         = 0
-    DetectionTBA            = 0
-    PorteeVision            = 0
+    PorteeVisionTBAGRU      = 0
+    DetectionTBAGRU         = 0
+    PorteeVisionGRU         = 0
     PorteeIdentification    = 0
     OpticalStrength         = 0
 )

@@ -832,10 +832,10 @@ is BUCKButtonDescriptor
             HorizontalFitStyle = ~/FitStyle/UserDefined
             VerticalFitStyle = ~/FitStyle/UserDefined
 
-            BigLineAction   = ~/BigLineAction/CutByDots
+            BigLineAction   = ~/BigLineAction/MultiLine
 
             TextColor       = "BlancEquipe"
-            TextSize        = "14"
+            TextSize        = "12"
             TextDico        = ~/LocalisationConstantes/dico_interface_ingame
             TextToken       = "ER_ROE"
 

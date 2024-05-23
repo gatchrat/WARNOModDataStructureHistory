@@ -1,14 +1,14 @@
-export Modele_2S1_DDR is TemplateMeshDescriptor
+export Modele_2S1_DDR is ModelDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/DDR/Artillerie/2S1_Gvozdika/2S1_Gvozdika.Ase2NdfBin'
 )
 
-export Modele_2S1_DDR_MID is TemplateMeshDescriptor
+export Modele_2S1_DDR_MID is ModelDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/DDR/Artillerie/2S1_Gvozdika_MID/2S1_Gvozdika_MID.Ase2NdfBin'
 )
 
-export Modele_2S1_DDR_LOW is TemplateMeshDescriptor
+export Modele_2S1_DDR_LOW is ModelDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/DDR/Artillerie/LODS/2S1_Gvozdika_LOW.Ase2NdfBin'
 )

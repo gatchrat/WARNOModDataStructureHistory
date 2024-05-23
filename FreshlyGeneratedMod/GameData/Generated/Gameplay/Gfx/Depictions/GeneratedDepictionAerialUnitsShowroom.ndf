@@ -306,30 +306,6 @@ Gfx_AH6C_Little_Bird_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
         SubGenerators_Showroom_AH6C_Little_Bird_US,
     ]
 )
-Gfx_AH6G_Little_Bird_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_AH6G_Little_Bird_US
-    Operators = 
-    [
-        DepictionOperator_Reset_Generic,
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_1"
-            RotationAxis = float3[0, 0, 1]
-            RotationInDegree = -30
-        ),
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_2"
-            RotationAxis = float3[0, 1, 0]
-            RotationInDegree = -30
-        ),
-    ]
-    SubDepictionGenerators = 
-    [
-        SubGenerators_Showroom_AH6G_Little_Bird_US,
-    ]
-)
 Gfx_Alouette_III_FR_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Alouette_III_FR
@@ -413,26 +389,6 @@ Gfx_Alouette_II_reco_BEL_Showroom_Autogen is ShowroomAerialDepictionTemplate
 Gfx_Alouette_II_reco_RFA_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Alouette_II_reco_RFA
-    Operators = 
-    [
-        DepictionOperator_Reset_Generic,
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_1"
-            RotationAxis = float3[0, 0, 1]
-            RotationInDegree = -30
-        ),
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_2"
-            RotationAxis = float3[0, 1, 0]
-            RotationInDegree = -30
-        ),
-    ]
-)
-Gfx_Alouette_II_trans_BEL_Showroom_Autogen is ShowroomAerialDepictionTemplate
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_Alouette_II_trans_BEL
     Operators = 
     [
         DepictionOperator_Reset_Generic,
@@ -803,26 +759,6 @@ Gfx_CH53G_RFA_Showroom_Autogen is ShowroomAerialDepictionTemplate
 Gfx_CH53G_trans_RFA_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_CH53G_trans_RFA
-    Operators = 
-    [
-        DepictionOperator_Reset_Generic,
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_1"
-            RotationAxis = float3[0, 0, 1]
-            RotationInDegree = -30
-        ),
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_2"
-            RotationAxis = float3[0, 1, 0]
-            RotationInDegree = -30
-        ),
-    ]
-)
-Gfx_CH53_Sea_Stallion_US_Showroom_Autogen is ShowroomAerialDepictionTemplate
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_CH53_Sea_Stallion_US
     Operators = 
     [
         DepictionOperator_Reset_Generic,
@@ -2322,7 +2258,13 @@ Gfx_MiG_21bis_RKT2_DDR_Showroom_Autogen is ShowroomAerialDepictionTemplate
     MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_21bis_RKT2_DDR
     SubDepictionGenerators = 
     [
-        SubGenerators_Showroom_MiG_21bis_RKT2_DDR,
+        ShowroomRocketSubDepictionTemplate
+        (
+            RocketCount = 4
+            RocketMeshDescriptor = $/GFX/DepictionResources/Modele_Missile_S_24_240mm
+            UnitMeshDescriptor = $/GFX/DepictionResources/Modele_MiG_21bis_RKT2_DDR
+            WeaponIndex = 2
+        ),
     ]
     SubDepictions = 
     [
@@ -2892,6 +2834,30 @@ Gfx_Mi_24K_reco_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
         ),
     ]
 )
+Gfx_Mi_24P_AA_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_AA_SOV
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_Mi_24P_AA_SOV,
+    ]
+)
 Gfx_Mi_24P_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_SOV
@@ -3378,6 +3344,14 @@ Gfx_Mi_8TV_Gunship_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
     SubDepictionGenerators = 
     [
         SubGenerators_Showroom_Mi_8TV_Gunship_SOV,
+        ShowroomRocketSubDepictionTemplate
+        (
+            RocketCount = 2
+            RocketMeshDescriptor = $/GFX/DepictionResources/Modele_Missile_S_24_240mm
+            StartGroupIndex = 2
+            UnitMeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8TV_Gunship_SOV
+            WeaponIndex = 3
+        ),
     ]
 )
 Gfx_Mi_8TV_PodGatling_DDR_Showroom_Autogen is ShowroomAerialDepictionTemplate
@@ -4280,26 +4254,6 @@ Gfx_Puma_UK_Showroom_Autogen is ShowroomAerialDepictionTemplate
             BoneName = "bloc_moteur_2"
             RotationAxis = float3[0, 1, 0]
             RotationInDegree = -30
-        ),
-    ]
-)
-Gfx_SeaKing_Mk48_BEL_Showroom_Autogen is ShowroomAerialDepictionTemplate
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_SeaKing_Mk48_BEL
-    Operators = 
-    [
-        DepictionOperator_Reset_Generic,
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_1"
-            RotationAxis = float3[0, 0, 1]
-            RotationInDegree = -30
-        ),
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_2"
-            RotationAxis = float3[0, 1, 0]
-            RotationInDegree = 30
         ),
     ]
 )

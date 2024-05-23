@@ -52,6 +52,11 @@ UseStrategic_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
 
         ("SelectPawn_oob", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/SelectPawn_oob.png"))] ),
 
+        ("icone_nextTurn", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/Feedback/icone_nextTurn.png'))] ),
+        ("wait_until_next_turn", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/Feedback/icone_nextTurn.png')),
+                                      (~/ComponentState/Toggled, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/Feedback/icone_wakeup.png' )),
+                                      (~/ComponentState/ToggleHighlighted, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseStrategic/Feedback/icone_wakeup.png' )), ] ),
+
         ("UseStrategic_SelectionPanel_Deploy",                       MAP [(~/ComponentState/Normal, ~/UseStrategic_SelectionPanel_Deploy)] ),
         ("UseStrategic_SelectionPanel_Command",                      MAP [(~/ComponentState/Normal, ~/UseStrategic_SelectionPanel_Command)] ),
         ("UseStrategic_SelectionPanel_Assault",                      MAP [(~/ComponentState/Normal, ~/UseStrategic_SelectionPanel_Assault)] ),

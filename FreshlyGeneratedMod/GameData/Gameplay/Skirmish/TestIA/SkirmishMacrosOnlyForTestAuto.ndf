@@ -179,6 +179,7 @@ export Artillery_OnlyTestAuto is TMacroActionDescriptor_Artillery_Specific
         TArtilleryMoveOutThreatSettingHolder(ThreatThresholdValue = 1 MoveOutThreatProbability = 1.0),
 
         TArtilleryStrikeSettingHolder(
+            SupportStrikeRatio = 0.3
             ArtilleryStrikeThreatBonusPerTags =
             [
                 (["Canon_AT"], 100.0),
@@ -195,7 +196,6 @@ export Artillery_OnlyTestAuto is TMacroActionDescriptor_Artillery_Specific
         ),
 
         TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Artillery_TestAuto] DistanceToOptimumStartDuringDeployment = 3000*Metre),
-        TIgnoreSafePathSettingHolder(), //on esquive pas la menace sur le chemin
         TForcedPlacementSettingHolder(ForcedCorridor = [5]),
     ]
 )

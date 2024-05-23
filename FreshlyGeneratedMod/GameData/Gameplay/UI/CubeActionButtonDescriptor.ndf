@@ -387,7 +387,7 @@ export CubeAction_Order_ShootDefensiveSmoke is Template_CubeActionOrderButtonInf
 
     ButtonTextToken          = 'ORD_SMOKD'
     HintTitleToken           = 'ORD_SMOKD'
-    HintBodyToken            = 'HNT_SMOKE'
+    HintBodyToken            = 'HNT_SMOKD'
     HintExtendedToken        = ''
     HintDico                 = ~/LocalisationConstantes/dico_interface_ingame
 

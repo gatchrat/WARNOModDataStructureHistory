@@ -202,6 +202,73 @@ export ExperienceLevelsPackDescriptor_XP_pack_avion is TExperienceLevelsPackDesc
     ]
     NameForDebug = "XP_pack_avion"
 )
+export ExperienceLevelsPackDescriptor_XP_pack_helico is TExperienceLevelsPackDescriptor
+(
+    DescriptorId = GUID:{20d1deed-cbde-4b0c-9e2b-8ed3ef39ee47}
+    ExperienceLevelsDescriptors = [
+        ExperienceLevelDescriptor_XP_pack_helico_0 is TExperienceLevelDescriptor
+        (
+            DescriptorId = GUID:{90a611ba-5525-477b-87ad-f6c70c898bc7}
+            LocalizationToken = "EXPLEVEL0"
+            ThresholdAdditionalValue = 0.0
+            ThresholdPriceMultiplier = 0.0
+            IconsByNationality = [
+            ]
+            HintTitleToken = 'DES_UE_VE0'
+            HintBodyToken = 'xp_hel_0'
+            LevelEffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_xp_rookie_helo,
+            ]
+            NameForDebug = "Exemple_XP_niveau_0"
+        ),
+        ExperienceLevelDescriptor_XP_pack_helico_1 is TExperienceLevelDescriptor
+        (
+            DescriptorId = GUID:{7acce1d9-7ad9-4432-b1ba-4a62314262eb}
+            LocalizationToken = "EXPLEVEL1"
+            ThresholdAdditionalValue = 0.0
+            ThresholdPriceMultiplier = 4.8
+            IconsByNationality = [
+            ]
+            HintTitleToken = 'DES_UE_VE1'
+            HintBodyToken = 'xp_hel_1'
+            LevelEffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_xp_trained_helo,
+            ]
+            NameForDebug = "Exemple_XP_niveau_1"
+        ),
+        ExperienceLevelDescriptor_XP_pack_helico_2 is TExperienceLevelDescriptor
+        (
+            DescriptorId = GUID:{d42c1d49-9b01-45e2-9439-f90686cce951}
+            LocalizationToken = "EXPLEVEL2"
+            ThresholdAdditionalValue = 0.0
+            ThresholdPriceMultiplier = 6.4
+            IconsByNationality = [
+            ]
+            HintTitleToken = 'DES_UE_VE2'
+            HintBodyToken = 'xp_hel_2'
+            LevelEffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_xp_veteran_helo,
+            ]
+            NameForDebug = "Exemple_XP_niveau_2"
+        ),
+        ExperienceLevelDescriptor_XP_pack_helico_3 is TExperienceLevelDescriptor
+        (
+            DescriptorId = GUID:{1cf0d817-04a7-4554-8413-415eafcd2382}
+            LocalizationToken = "EXPLEVEL3"
+            ThresholdAdditionalValue = 0.0
+            ThresholdPriceMultiplier = 9.6
+            IconsByNationality = [
+            ]
+            HintTitleToken = 'DES_UE_VE3'
+            HintBodyToken = 'xp_hel_3'
+            LevelEffectsPacks = [
+                $/GFX/EffectCapacity/UnitEffect_xp_elite_helo,
+            ]
+            NameForDebug = "Exemple_XP_niveau_3"
+        ),
+    ]
+    NameForDebug = "XP_pack_helico"
+)
 export ExperienceLevelsPackDescriptor_XP_pack_simple_v3 is TExperienceLevelsPackDescriptor
 (
     DescriptorId = GUID:{a3f6efab-0560-4a32-88d5-b9cb5f0bd4d4}
@@ -226,7 +293,7 @@ export ExperienceLevelsPackDescriptor_XP_pack_simple_v3 is TExperienceLevelsPack
             DescriptorId = GUID:{d1f7870c-fdc3-4377-958c-c894756a6aa4}
             LocalizationToken = "EXPLEVEL1"
             ThresholdAdditionalValue = 0.0
-            ThresholdPriceMultiplier = 6.0
+            ThresholdPriceMultiplier = 4.8
             IconsByNationality = [
             ]
             HintTitleToken = 'DES_UE_VE1'
@@ -241,7 +308,7 @@ export ExperienceLevelsPackDescriptor_XP_pack_simple_v3 is TExperienceLevelsPack
             DescriptorId = GUID:{a5c0959f-d6d1-4166-8e19-28753e8856e9}
             LocalizationToken = "EXPLEVEL2"
             ThresholdAdditionalValue = 0.0
-            ThresholdPriceMultiplier = 8.0
+            ThresholdPriceMultiplier = 6.4
             IconsByNationality = [
             ]
             HintTitleToken = 'DES_UE_VE2'
@@ -256,7 +323,7 @@ export ExperienceLevelsPackDescriptor_XP_pack_simple_v3 is TExperienceLevelsPack
             DescriptorId = GUID:{6f9d9b6e-2aea-4697-a76c-438783c14d9c}
             LocalizationToken = "EXPLEVEL3"
             ThresholdAdditionalValue = 0.0
-            ThresholdPriceMultiplier = 12.0
+            ThresholdPriceMultiplier = 9.6
             IconsByNationality = [
             ]
             HintTitleToken = 'DES_UE_VE3'

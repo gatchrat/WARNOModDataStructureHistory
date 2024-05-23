@@ -1,19 +1,19 @@
-export Modele_FV103_Spartan_BEL is TemplateMeshDescriptor
+export Modele_FV103_Spartan_BEL is ModelDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/BEL/APC/FV103_Spartan/FV103_Spartan.Ase2NdfBin'
 )
 
-export Modele_FV103_Spartan_BEL_MID is TemplateMeshDescriptor
+export Modele_FV103_Spartan_BEL_MID is ModelDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/BEL/APC/FV103_Spartan_MID/FV103_Spartan_MID.Ase2NdfBin'
 )
 
-export Modele_FV103_Spartan_BEL_LOW is TemplateMeshDescriptor
+export Modele_FV103_Spartan_BEL_LOW is ModelDescriptor
 (
     FileName = 'GameData:/Assets/3D/Units/BEL/APC/LODS/FV103_Spartan_LOW.Ase2NdfBin'
 )
 
-export Modele_FV103_Spartan_BEL_Tourelle_01 is TemplateMeshDescriptor
+export Modele_FV103_Spartan_BEL_Tourelle_01 is ModelDescriptor
 (
     FileName = ModelFile_FV103_Spartan_UK_Tourelle_01
 )

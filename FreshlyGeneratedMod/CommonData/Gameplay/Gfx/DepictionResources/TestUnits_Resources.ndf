@@ -7,32 +7,32 @@ private Private_ModelFile_TestUnit_ModelInfantry is 'CommonData:/Assets/3D/Units
 private Private_ModelFile_TestUnit_ModelBuilding is 'CommonData:/Assets/3D/Units_Tests_Autos/Building/BaseBuilding_Batiment_Placeholder.Ase2NdfBin'
 
 
-export Modele_TestUnit_Tank is TemplateMeshDescriptor
+export Modele_TestUnit_Tank is ModelDescriptor
 (
     FileName = Private_ModelFile_TestUnit_ModelTank
 )
 
-export Modele_TestUnit_Vehicule is TemplateMeshDescriptor
+export Modele_TestUnit_Vehicule is ModelDescriptor
 (
     FileName = Private_ModelFile_TestUnit_ModelVehicule
 )
 
-export Modele_TestUnit_Helico is TemplateMeshDescriptor
+export Modele_TestUnit_Helico is ModelDescriptor
 (
     FileName = Private_ModelFile_TestUnit_ModelHelico
 )
 
-export Modele_TestUnit_Avion is TemplateMeshDescriptor
+export Modele_TestUnit_Avion is ModelDescriptor
 (
     FileName = Private_ModelFile_TestUnit_ModelAvion
 )
 
-export Modele_TestUnit_Bateau is TemplateMeshDescriptor
+export Modele_TestUnit_Bateau is ModelDescriptor
 (
     FileName = Private_ModelFile_TestUnit_ModelBateau
 )
 
-export Modele_TestUnit_Infantry is TemplateMeshDescriptor
+export Modele_TestUnit_Infantry is ModelDescriptor
 (
     FileName = Private_ModelFile_TestUnit_ModelInfantry
 )

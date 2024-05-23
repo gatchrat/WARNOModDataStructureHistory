@@ -155,6 +155,7 @@ template TemplateClusterLoadDirectoryNDF_And_Files
     FillResourceList : bool    = false,
     UsingNamespaces = [],
     Patchable = true,
+    GeneratesInDataPackMode = false,
     DebugInfo = false,
     GenerateCRC   = false
 ] is TClusterNdfTransaction
@@ -175,6 +176,7 @@ template TemplateClusterLoadDirectoryNDF_And_Files
         ]
         FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
         BaseName = <Patchable> ? ("Patchable/" + <BaseName> ) : <BaseName>
+        GeneratesInDataPackMode = <GeneratesInDataPackMode>
         NameSpace =<NameSpace>
         ModName = <ModName>
         ModDependencyTag = <ModDependencyTag>
@@ -294,6 +296,8 @@ template TemplateClusterLoadForNoEditor
     BaseName  : string       = '',
     NameSpace : string       = '',
     FillResourceList : bool    = false,
+    GeneratesInDataPackMode : bool   = false,
+    Patchable = true,
 ] is TClusterInitialisation_EditorDependent
 (
     SubClusterModeNoEditor = TClusterNdfTransaction
@@ -308,7 +312,8 @@ template TemplateClusterLoadForNoEditor
             )
             ]
             FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
-            BaseName = "Patchable/" + <BaseName>
+            GeneratesInDataPackMode = <GeneratesInDataPackMode>
+            BaseName = <Patchable> ? ("Patchable/" + <BaseName>) : <BaseName>
             NameSpace =<NameSpace>
         )
     )

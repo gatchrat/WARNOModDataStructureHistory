@@ -1,4 +1,4 @@
-template TemplateMeshDescriptor
+template ModelDescriptor
 [
     FileName : string,
     TextureDirectory : string = '',

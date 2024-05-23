@@ -5,6 +5,7 @@ template TreeLineButton
 [
     LineButtonTexture : string = "StyleDeskTexture_SortingCheckBox",
     LineButtonTextureColor : string = "",
+    LeftClickSound : TSoundDescriptor = nil,
 ] is BUCKButtonDescriptor
 (
     ElementName = "TreeLineButton"
@@ -14,7 +15,7 @@ template TreeLineButton
     )
 
     IsTogglable = true
-    LeftClickSound = ~/SoundEvent_TreeLineButtonSound
+    LeftClickSound = <LeftClickSound>
 
     Components =
     [

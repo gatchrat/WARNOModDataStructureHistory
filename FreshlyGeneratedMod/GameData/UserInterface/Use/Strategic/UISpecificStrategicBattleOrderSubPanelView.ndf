@@ -48,6 +48,8 @@ BUCKSpecificStrategicBattleOrderSubPanelMainComponentDescriptor is BUCKSpecificS
 
                 // voir ci-dessous pour ce qui envoyé
             )
+
+            TreeViewLineButtonDescriptor = TreeLineButton(LeftClickSound = ~/SoundEvent_TreeLineButtonSound)
         ),
     ]
 )

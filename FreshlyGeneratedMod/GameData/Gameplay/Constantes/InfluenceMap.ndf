@@ -1,16 +1,3 @@
-// A maintenir synchro avec Engine\Code\Eugen\CPP\EugIA_Common\InfluenceMapConstantes.h
-template InfluenceMapGeometryParameters
-[
-    DistanceDeLissage : float = 20000.0,
-    DecallageCelluleVideParDefaut : float = -0.2,
-]
-is TInfluenceMapGeometryParameters
-(
-    SmoothDistance  = <DistanceDeLissage>
-    EmptyCellDefaultOffset = <DecallageCelluleVideParDefaut>
-)
-
-export DefaultGeometryParameters is InfluenceMapGeometryParameters()
 //---------------------------------------------------------------------------------------//
 //---------------------------------------------------------------------------------------//
 //-----------------------------TACTIC----------------------------------------------------//
@@ -29,9 +16,10 @@ export InfluenceMapCstTactic is TInfluenceMapConstantesDescriptor
 
     UseMinValueForEmptyOwnerCell = true
 
-    ParametresDeCalculDeLaGeometry = DefaultGeometryParameters
     ManageInfluencePoints = true
 
+    SmoothDistance  = 20000.0
+    EmptyCellDefaultOffset = -0.2
 )
 //---------------------------------------------------------------------------------------//
 export influenceMapsTactic is TInfluenceMapDescriptors
@@ -60,8 +48,10 @@ export InfluenceMapCstStrategic is TInfluenceMapConstantesDescriptor
 
     UseMinValueForEmptyOwnerCell = false
 
-    ParametresDeCalculDeLaGeometry = DefaultGeometryParameters
     ManageInfluencePoints = true
+
+    SmoothDistance  = 20000.0
+    EmptyCellDefaultOffset = -0.2
 )
 //---------------------------------------------------------------------------------------//
 export influenceMapsStrategic is TInfluenceMapDescriptors

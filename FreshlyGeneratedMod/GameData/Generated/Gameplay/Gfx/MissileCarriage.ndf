@@ -588,35 +588,6 @@ MissileCarriage_ATteam_Milan_1_UK_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// ATteam_Milan_1_para_BEL : ['ATGM MILAN']
-MissileCarriage_ATteam_Milan_1_para_BEL is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_ATteam_Milan_1_para_BEL
-    PylonSet = ~/DepictionPylonSet_ATGM
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 6
-            MissileType = eAGM
-            WeaponIndex = 1
-        ),
-    ]
-)
-MissileCarriage_ATteam_Milan_1_para_BEL_Showroom is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_ATteam_Milan_1_para_BEL
-    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 6
-            MissileType = eAGM
-            WeaponIndex = 1
-        ),
-    ]
-)
 // ATteam_Milan_1_para_FR : ['ATGM MILAN']
 MissileCarriage_ATteam_Milan_1_para_FR is TMissileCarriageConnoisseur
 (
@@ -1980,35 +1951,6 @@ MissileCarriage_FV102_Striker_UK_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// FV102_Striker_para_BEL : ['ATGM Swingfire x5']
-MissileCarriage_FV102_Striker_para_BEL is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_FV102_Striker_para_BEL
-    PylonSet = ~/DepictionPylonSet_ATGM
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 10
-            MissileType = eAGM
-            WeaponIndex = 1
-        ),
-    ]
-)
-MissileCarriage_FV102_Striker_para_BEL_Showroom is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_FV102_Striker_para_BEL
-    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 10
-            MissileType = eAGM
-            WeaponIndex = 1
-        ),
-    ]
-)
 // FV120_Spartan_MCT_UK : ['ATGM MILAN 2 x2']
 MissileCarriage_FV120_Spartan_MCT_UK is TMissileCarriageConnoisseur
 (
@@ -2290,6 +2232,7 @@ MissileCarriage_M1025_Humvee_TOW_US is TMissileCarriageConnoisseur
         TMissileCarriageWeaponInfo
         (
             Count = 8
+            MeshDescriptor = $/GFX/DepictionResources/Modele_M1025_Humvee_TOW_US_Tourelle_01
             MissileType = eAGM
             WeaponIndex = 1
         ),
@@ -2304,6 +2247,7 @@ MissileCarriage_M1025_Humvee_TOW_US_Showroom is TMissileCarriageConnoisseur
         TMissileCarriageWeaponInfo
         (
             Count = 8
+            MeshDescriptor = $/GFX/DepictionResources/Modele_M1025_Humvee_TOW_US_Tourelle_01
             MissileType = eAGM
             WeaponIndex = 1
         ),
@@ -2319,6 +2263,7 @@ MissileCarriage_M1025_Humvee_TOW_para_US is TMissileCarriageConnoisseur
         TMissileCarriageWeaponInfo
         (
             Count = 8
+            MeshDescriptor = $/GFX/DepictionResources/Modele_M1025_Humvee_TOW_para_US_Tourelle_01
             MissileType = eAGM
             WeaponIndex = 1
         ),
@@ -2333,6 +2278,7 @@ MissileCarriage_M1025_Humvee_TOW_para_US_Showroom is TMissileCarriageConnoisseur
         TMissileCarriageWeaponInfo
         (
             Count = 8
+            MeshDescriptor = $/GFX/DepictionResources/Modele_M1025_Humvee_TOW_para_US_Tourelle_01
             MissileType = eAGM
             WeaponIndex = 1
         ),
@@ -2865,6 +2811,37 @@ MissileCarriage_M998_Avenger_US_Showroom is TMissileCarriageConnoisseur
             Count = 16
             MissileType = eAAM
             WeaponIndex = 1
+        ),
+    ]
+)
+// MCV_80_Warrior_MILAN_ERA_UK : ['ATGM MILAN 2']
+MissileCarriage_MCV_80_Warrior_MILAN_ERA_UK is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MCV_80_Warrior_MILAN_ERA_UK
+    PylonSet = ~/DepictionPylonSet_ATGM
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MeshDescriptor = $/GFX/DepictionResources/Modele_MCV_80_Warrior_MILAN_ERA_UK_Tourelle_02
+            MissileType = eAGM
+            WeaponIndex = 2
+        ),
+    ]
+)
+MissileCarriage_MCV_80_Warrior_MILAN_ERA_UK_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MCV_80_Warrior_MILAN_ERA_UK
+    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MeshDescriptor = $/GFX/DepictionResources/Modele_MCV_80_Warrior_MILAN_ERA_UK_Tourelle_02
+            MissileType = eAGM
+            WeaponIndex = 2
         ),
     ]
 )
@@ -3713,35 +3690,6 @@ MissileCarriage_UAZ_469_Fagot_DDR_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// UAZ_469_Konkurs_SOV : ['ATGM 9M113 Konkurs BMP2']
-MissileCarriage_UAZ_469_Konkurs_SOV is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_UAZ_469_Konkurs_SOV
-    PylonSet = ~/DepictionPylonSet_ATGM
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 8
-            MissileType = eAGM
-            WeaponIndex = 1
-        ),
-    ]
-)
-MissileCarriage_UAZ_469_Konkurs_SOV_Showroom is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_UAZ_469_Konkurs_SOV
-    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 8
-            MissileType = eAGM
-            WeaponIndex = 1
-        ),
-    ]
-)
 // UAZ_469_Konkurs_VDV_SOV : ['ATGM 9M113 Konkurs BMP2']
 MissileCarriage_UAZ_469_Konkurs_VDV_SOV is TMissileCarriageConnoisseur
 (
@@ -4385,37 +4333,6 @@ MissileCarriage_AH6C_Little_Bird_US_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// AH6G_Little_Bird_US : ['RocketAir Hydra 70mm x14']
-MissileCarriage_AH6G_Little_Bird_US is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_AH6G_Little_Bird_US
-    PylonSet = ~/DepictionPylonSet_Helico_Default
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 14
-            MissileType = eAGM
-            MountingType = eMountingPod
-            WeaponIndex = 1
-        ),
-    ]
-)
-MissileCarriage_AH6G_Little_Bird_US_Showroom is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_AH6G_Little_Bird_US
-    PylonSet = ~/DepictionPylonSet_Helico_Default_Showroom
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 14
-            MissileType = eAGM
-            MountingType = eMountingPod
-            WeaponIndex = 1
-        ),
-    ]
-)
 // Bo_105_PAH_1A1_RFA : ['AGM HOT2 x6']
 MissileCarriage_Bo_105_PAH_1A1_RFA is TMissileCarriageConnoisseur
 (
@@ -5033,6 +4950,49 @@ MissileCarriage_Mi_24K_reco_SOV_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// Mi_24P_AA_SOV : ['RocketAir S5 57mm x8'] ['AA R60M Vympel_helo']
+MissileCarriage_Mi_24P_AA_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_AA_SOV
+    PylonSet = ~/DepictionPylonSet_Helico_SOV
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 48
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAAM
+            WeaponIndex = 3
+        ),
+    ]
+)
+MissileCarriage_Mi_24P_AA_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_AA_SOV
+    PylonSet = ~/DepictionPylonSet_Helico_SOV_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 48
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAAM
+            WeaponIndex = 3
+        ),
+    ]
+)
 // Mi_24P_SOV : ['RocketAir B8 80mm x10'] ['AGM 9M114M KokonM x4']
 MissileCarriage_Mi_24P_SOV is TMissileCarriageConnoisseur
 (
@@ -5555,7 +5515,7 @@ MissileCarriage_Mi_8TV_DDR_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// Mi_8TV_Gunship_SOV : ['RocketAir B8 80mm x20'] ['AA R60M Vympel'] ['FakeRoquette S_24_helo']
+// Mi_8TV_Gunship_SOV : ['RocketAir B8 80mm x20'] ['AA R60M Vympel']
 MissileCarriage_Mi_8TV_Gunship_SOV is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8TV_Gunship_SOV
@@ -5574,12 +5534,6 @@ MissileCarriage_Mi_8TV_Gunship_SOV is TMissileCarriageConnoisseur
             Count = 2
             MissileType = eAAM
             WeaponIndex = 2
-        ),
-        TMissileCarriageWeaponInfo
-        (
-            Count = 2
-            MissileType = eAGM
-            WeaponIndex = 3
         ),
     ]
 )
@@ -5601,12 +5555,6 @@ MissileCarriage_Mi_8TV_Gunship_SOV_Showroom is TMissileCarriageConnoisseur
             Count = 2
             MissileType = eAAM
             WeaponIndex = 2
-        ),
-        TMissileCarriageWeaponInfo
-        (
-            Count = 2
-            MissileType = eAGM
-            WeaponIndex = 3
         ),
     ]
 )
@@ -9244,35 +9192,6 @@ MissileCarriage_MiG_21bis_NPLM_DDR_Showroom is TMissileCarriageConnoisseur
             MissileType = eAGM
             MountingType = eMountingBomb
             WeaponIndex = 3
-        ),
-    ]
-)
-// MiG_21bis_RKT2_DDR : ['FakeRoquette S_24']
-MissileCarriage_MiG_21bis_RKT2_DDR is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_21bis_RKT2_DDR
-    PylonSet = ~/DepictionPylonSet_Airplane_SOV
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 4
-            MissileType = eAGM
-            WeaponIndex = 2
-        ),
-    ]
-)
-MissileCarriage_MiG_21bis_RKT2_DDR_Showroom is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_21bis_RKT2_DDR
-    PylonSet = ~/DepictionPylonSet_Airplane_SOV_Showroom
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 4
-            MissileType = eAGM
-            WeaponIndex = 2
         ),
     ]
 )

@@ -393,6 +393,21 @@ CubeAction_Capacity_Tank_Dissimule is TCubeActionCapacityButtonInformationsDescr
     Descriptor                   = $/GFX/EffectCapacity/Capacite_Tank_Dissimule
 )
 
+CubeAction_Capacity_UAV is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_UAV"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_UAV"
+    HoverSound                   = CubeActionButtonHoverSound_IfEnabled
+    ClickSound                   = CubeActionButtonClickSound_IfEnabled
+    ButtonTextToken              = ""
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = ""
+    HintBodyToken                = ""
+    HintExtendedToken            = ""
+    Descriptor                   = $/GFX/EffectCapacity/Capacite_UAV
+)
+
 CubeAction_Capacity_electronic_warfare is TCubeActionCapacityButtonInformationsDescriptor
 (
     CubeActionName               = "CubeAction_Capacity_electronic_warfare"

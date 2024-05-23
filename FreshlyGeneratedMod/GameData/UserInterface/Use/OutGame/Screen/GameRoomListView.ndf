@@ -667,6 +667,8 @@ ListeDesParties_ContentList is BUCKListDescriptor
                                     (
                                         VerticalAlignment = ~/UIText_VerticalCenter
                                         Alignment = UIText_Center
+                                        InterLine = 0.3
+
                                     )
 
                                     HorizontalFitStyle = ~/FitStyle/UserDefined

@@ -87,7 +87,7 @@ private template Template_Reco
     MinimumResourceForLaunch = MAP[],
     NumberLaunchBasedOnGenerationType:int = 1
 ]
-is TMacroActionDescriptor_CorridorDefense_Specific
+is TMacroActionDescriptor_CorridorDynamicDefense_Specific
 (
     ParametresDeMission =
     [

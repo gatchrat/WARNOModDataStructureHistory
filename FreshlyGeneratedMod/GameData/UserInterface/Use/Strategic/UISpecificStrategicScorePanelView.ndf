@@ -634,6 +634,15 @@ is BUCKListDescriptor
                 Camp  = <Camp>
             )
         ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = Display2ColumnsScore
+            (
+                TextToken = 'SSC_Script'
+                ElementName = 'PointsFromEvents'
+                Camp  = <Camp>
+            )
+        ),
         //-------------------------------------------------------------------------------------
         BUCKListElementDescriptor
         (

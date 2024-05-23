@@ -37,16 +37,66 @@ template BUCKSpecificSelectionPanelPawnMainComponent
 
                 Elements =
                 (
-                    <ContainsCubeAction> ? [
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = BUCKContainerDescriptor
+                    <ContainsCubeAction> ?
+                    [
+                        BUCKListElementDescriptor
                         (
-                            UniqueName = "SpecificStrategicCubeActionViewMainContainer"
-                            ComponentFrame = TUIFramePropertyRTTI()
-                            FitStyle = ~/ContainerFitStyle/FitToContent
+                            ComponentDescriptor = BUCKListDescriptor
+                            (
+                                Axis = ~/ListAxis/Horizontal
+                                FirstMargin = TRTTILength(Magnifiable = 5)
+
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    MagnifiableWidthHeight = [0.0, 36.0]
+                                )
+
+                                Elements =
+                                [
+                                    BUCKListElementDescriptor
+                                    (
+                                        ComponentDescriptor = BUCKContainerDescriptor
+                                        (
+                                            UniqueName = "WaitUntilNextTurnContainer"
+
+                                            ComponentFrame = TUIFramePropertyRTTI
+                                            (
+                                                MagnifiableWidthHeight = [50.0, 38.0]
+                                            )
+
+                                            Components =
+                                            [
+                                                PanelRoundedCorner
+                                                (
+                                                    ComponentFrame = TUIFramePropertyRTTI
+                                                    (
+                                                        RelativeWidthHeight = [1.0, 1.0]
+                                                        MagnifiableWidthHeight = [0, 0]
+                                                        AlignementToFather = [0.5, 0.5]
+                                                        AlignementToAnchor = [0.5, 0.5]
+                                                    )
+
+                                                    Radius = 3
+                                                    BackgroundBlockColorToken = 'SM_Noir'
+                                                    RoundedVertexes = [false, true, true, false]
+                                                    HasBorder = false
+                                                ),
+                                            ]
+                                        )
+                                    ),
+                                    BUCKListElementDescriptor
+                                    (
+                                        ComponentDescriptor = BUCKContainerDescriptor
+                                        (
+                                            UniqueName = "SpecificStrategicCubeActionViewMainContainer"
+                                            ComponentFrame = TUIFramePropertyRTTI()
+                                            FitStyle = ~/ContainerFitStyle/FitToContent
+                                        )
+                                    ),
+                                ]
+                            )
                         )
-                    )] : []
+                    ] : []
                 ) +
                 [
                     BUCKListElementDescriptor
@@ -221,7 +271,7 @@ CombatGroupsTabInStrategic is BUCKDraggableContainerDescriptor
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [250.0, 22.0]
+        MagnifiableWidthHeight = [320.0, 22.0]
         AlignementToAnchor = [0.5, 0.0]
         AlignementToFather = [0.5, 0.0]
     )
@@ -939,4 +989,55 @@ is TUISpecificSelectionPanelPawnViewDescriptor
         "sm_airs", // AirSupport
         "sm_arts",  // GroundSupport
     ]
+)
+
+WaitUntilNextTurnButton is BUCKButtonDescriptor
+(
+    ElementName = "WaitUntilNextTurnButton"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [38.0, 32.0]
+        AlignementToFather = [0.5, 0.5]
+        AlignementToAnchor = [0.5, 0.5]
+    )
+    IsTogglable = true
+
+    HasBorder = true
+    BorderLineColorToken = 'ButtonHUD'
+    BorderThicknessToken = '1'
+    BordersToDraw = ~/TBorderSide/Default
+
+    HasBackground = true
+    BackgroundBlockColorToken = 'SM_Noir'
+
+    Components =
+    [
+        BUCKTextureDescriptor
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [28.0, 28.0]
+                AlignementToFather = [0.5, 0.5]
+                AlignementToAnchor = [0.5, 0.5]
+            )
+
+            TextureToken = "wait_until_next_turn"
+            TextureColorToken = 'SM_paleSilver'
+        ),
+
+        BUCKSpecificStrategicHintableArea
+        (
+            HintTitleToken = "HNT_WAITUT"
+            HintBodyToken = "HNT_WAITUB"
+            HintExtendedToken = "HNT_WAITUE"
+            DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+        )
+    ]
+    Mapping = $/KeyboardOption/Mapping_WaitUntilNextTurn
+)
+
+UIWaitUntilNextTurnViewDescriptor is TUISpecificWaitUntilNextTurnViewDescriptor
+(
+    MainComponentContainerUniqueName = "WaitUntilNextTurnContainer"
+    MainComponentDescriptor = ~/WaitUntilNextTurnButton
 )

@@ -292,6 +292,16 @@ private StrategicBoutonsMenus is PanelRoundedCorner
             [
                 BUCKListElementDescriptor
                 (
+                    ComponentDescriptor = BUCKContainerDescriptor
+                    (
+                        UniqueName = "SpecificStrategicHUDUnusedUnitButtonContainer"
+                        ComponentFrame = TUIFramePropertyRTTI ()
+
+                        FitStyle = ~/ContainerFitStyle/FitToContent
+                    )
+                ),
+                BUCKListElementDescriptor
+                (
                     ComponentDescriptor = ~/BoutonAffichageStrategicSituation
                 ),
                 BUCKListElementDescriptor
@@ -345,6 +355,12 @@ UIStrategicChatButtonDescriptor is TUISpecificStrategicHUDChatButtonViewDescript
 (
     MainComponentDescriptor = BoutonChat
     MainComponentContainerUniqueName = "SpecificStrategicHUDChatButtonContainer"
+)
+
+UIStrategicUnusedUnitButtonDescriptor is TUISpecificIdleUnitViewDescriptor
+(
+    MainComponentDescriptor = UnusedUnitContainer
+    MainComponentContainerUniqueName = "SpecificStrategicHUDUnusedUnitButtonContainer"
 )
 
 // -------------------------------------------------------------------------------------------------

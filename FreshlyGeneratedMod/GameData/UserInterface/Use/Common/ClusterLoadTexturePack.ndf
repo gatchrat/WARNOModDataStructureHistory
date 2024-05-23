@@ -2,32 +2,12 @@
 //-----------------------------------------------------------------------------
 //*****************************************************************************
 //-----------------------------------------------------------------------------
-private TexturePack_ModdingTexture is TResourceDescriptorTexturePack
-(
-    PackName = "Pack/ModdingTexture.ppk"
-    LoadResourceAtRegister = true
-    UsefulnessMask = CivMask/Modding + TypeMask/OutGameInterface + TypeMask/InGameInterface + TypeMask/Common
-    TransactionFiles = [ 'UI/Components.ndfbin']
-)
-//-----------------------------------------------------------------------------
-private TexturePack_ModdingTextureGFX is TResourceDescriptorTexturePack
-(
-    PackName = "Pack/ModdingTextureGFX.ppk"
-    LoadResourceAtRegister = true
-    UsefulnessMask = CivMask/Modding + TypeMask/OutGameInterface + TypeMask/InGameInterface + TypeMask/Common
-    TransactionFiles = [ 'GFX/DepictionResources.ndfbin', 'GFX/Constantes.ndfbin', 'GFX/UI.ndfbin']
-)
-//-----------------------------------------------------------------------------
-//*****************************************************************************
-//-----------------------------------------------------------------------------
 export clusterLoadResourceTexturePackCommon is TClusterInitialisation_OnlyInResourceLoad
 (
     SubCluster = TClusterLoadResource
     (
         Packs =
         [
-            ~/TexturePack_ModdingTexture,
-            ~/TexturePack_ModdingTextureGFX,
             $/Clusters/TexturePack_CommonComponents,
             TResourceDescriptorTexturePack
             (

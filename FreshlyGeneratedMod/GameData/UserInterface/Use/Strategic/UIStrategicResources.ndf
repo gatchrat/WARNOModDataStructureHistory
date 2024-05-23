@@ -34,13 +34,14 @@ StrategicResource is TUISpecificStrategicResources
         ("LDVideoViewDescriptor", ~/UIStrategicLDVideoViewDescriptor),
         ("UIStrategicHUDHeaderViewDescriptor", ~/SpecificStrategicHUDHeaderViewDescriptor),
         ("UIStrategicChatButtonDescriptor", ~/UIStrategicChatButtonDescriptor),
+        ("UIStrategicUnusedUnitButtonDescriptor", ~/UIStrategicUnusedUnitButtonDescriptor),
+        ("UIWaitUntilNextTurnViewDescriptor", ~/UIWaitUntilNextTurnViewDescriptor),
     ]
 
     MainContainerResource       = ~/StrategicMainContainerResource
 
     CommonHUDResources          = ~/InGameHUDResource
     LabelResource               = ~/CommonLabelResource
-    LDHintResource              = ~/SpecificInGameLDHintResource
     GabaritResources            = ~/StrategicGabaritResources
     ZoCResources                = ~/StrategicZoCResources
     WarningPanelResources       = ~/WarningPanelStrategicResources

@@ -1416,10 +1416,10 @@ template UISpecificShowRoomGroupsDeckCreatorScreenViewDescriptor
     [
         EDefaultFactories/Logistic,
         EDefaultFactories/Infantry,
-        EDefaultFactories/Support,
+        EDefaultFactories/Art,
         EDefaultFactories/Tanks,
         EDefaultFactories/Recons,
-        EDefaultFactories/AT,
+        EDefaultFactories/DCA,
         EDefaultFactories/Helis,
         EDefaultFactories/Planes,
     ]

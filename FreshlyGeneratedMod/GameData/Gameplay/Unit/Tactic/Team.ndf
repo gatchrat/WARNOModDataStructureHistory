@@ -33,12 +33,10 @@ export Tactic_TeamUnitDescriptor is TEntityDescriptor
                 TPiggyBankDescriptor
                 (
                     CurrencyType = $/GFX/Resources/Resource_CommandPoints
-                    BankMaxValue = 2147483647
                 ),
                 TPiggyBankDescriptor
                 (
                     CurrencyType = $/GFX/Resources/Resource_Tickets
-                    BankMaxValue = 2147483647
                 ),
             ]
         ),

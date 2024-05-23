@@ -15049,14 +15049,14 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11PzR_3_SK_3_PR11 is TDeckCombatGroupDescr
     ]
 )
 
-Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_1_FR11 is TDeckCombatGroupDescriptor
+Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_1_FRR8 is TDeckCombatGroupDescriptor
 (
-    Name = "BTOZSUQECE"
+    Name = "WCVXNMNGCD"
     SmartGroupList =
     [
         TDeckSmartGroupDescriptor
         (
-            Name = "GIXURWDMFL"
+            Name = "ADGGXJYYGU"
             PackIndexUnitNumberList =
             [
                 (0,2),
@@ -15065,7 +15065,7 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_1_FR11 is TDeckCombatGroupDescriptor
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "ISLYRURUCS"
+            Name = "AMBEJODSQD"
             PackIndexUnitNumberList =
             [
                 (4,2),
@@ -15074,7 +15074,7 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_1_FR11 is TDeckCombatGroupDescriptor
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "OELBXELUBN"
+            Name = "ACTMUKQPTF"
             PackIndexUnitNumberList =
             [
                 (8,3),
@@ -15082,8 +15082,7 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_1_FR11 is TDeckCombatGroupDescriptor
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "EPJXPVWDCW"
-            IsHQ = True
+            Name = "ASPNKMOAPK"
             PackIndexUnitNumberList =
             [
                 (11,1),
@@ -15093,14 +15092,14 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_1_FR11 is TDeckCombatGroupDescriptor
     ]
 )
 
-Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_2_FR11 is TDeckCombatGroupDescriptor
+Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_2_FRR8 is TDeckCombatGroupDescriptor
 (
-    Name = "IYBKHSOFNT"
+    Name = "FAWWYYEMML"
     SmartGroupList =
     [
         TDeckSmartGroupDescriptor
         (
-            Name = "GIXURWDMFL"
+            Name = "ADGGXJYYGU"
             PackIndexUnitNumberList =
             [
                 (13,2),
@@ -15109,7 +15108,7 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_2_FR11 is TDeckCombatGroupDescriptor
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "ISLYRURUCS"
+            Name = "AMBEJODSQD"
             PackIndexUnitNumberList =
             [
                 (17,2),
@@ -15118,7 +15117,7 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_2_FR11 is TDeckCombatGroupDescriptor
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "OELBXELUBN"
+            Name = "ACTMUKQPTF"
             PackIndexUnitNumberList =
             [
                 (21,3),
@@ -15126,8 +15125,7 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_2_FR11 is TDeckCombatGroupDescriptor
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "EPJXPVWDCW"
-            IsHQ = True
+            Name = "ASPNKMOAPK"
             PackIndexUnitNumberList =
             [
                 (24,1),
@@ -15137,14 +15135,14 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_2_FR11 is TDeckCombatGroupDescriptor
     ]
 )
 
-Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_3_FR11 is TDeckCombatGroupDescriptor
+Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_3_FRR8 is TDeckCombatGroupDescriptor
 (
-    Name = "ORWQSEUFGV"
+    Name = "AFVGCZOHIL"
     SmartGroupList =
     [
         TDeckSmartGroupDescriptor
         (
-            Name = "GIXURWDMFL"
+            Name = "ADGGXJYYGU"
             PackIndexUnitNumberList =
             [
                 (26,2),
@@ -15153,7 +15151,7 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_3_FR11 is TDeckCombatGroupDescriptor
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "ISLYRURUCS"
+            Name = "AMBEJODSQD"
             PackIndexUnitNumberList =
             [
                 (30,2),
@@ -15162,7 +15160,7 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_3_FR11 is TDeckCombatGroupDescriptor
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "OELBXELUBN"
+            Name = "ACTMUKQPTF"
             PackIndexUnitNumberList =
             [
                 (34,3),
@@ -15170,8 +15168,7 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_3_FR11 is TDeckCombatGroupDescriptor
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "EPJXPVWDCW"
-            IsHQ = True
+            Name = "ASPNKMOAPK"
             PackIndexUnitNumberList =
             [
                 (37,1),
@@ -15181,21 +15178,27 @@ Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_3_FR11 is TDeckCombatGroupDescriptor
     ]
 )
 
-Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_SK_FR11 is TDeckCombatGroupDescriptor
+Descriptor_CombatGroup_pion_RDA_11MSD_11SAM_SK_FRR8 is TDeckCombatGroupDescriptor
 (
-    Name = "USDQBQXLTN"
-    IsHQ = True
+    Name = "HXRDNOODFV"
     SmartGroupList =
     [
         TDeckSmartGroupDescriptor
         (
-            Name = "EPJXPVWDCW"
-            IsHQ = True
+            Name = "ASPNKMOAPK"
             PackIndexUnitNumberList =
             [
                 (39,1),
-                (40,1),
-                (41,1),
+                (40,2),
+                (42,1),
+            ]
+        ),
+        TDeckSmartGroupDescriptor
+        (
+            Name = "BMCEELTXUG"
+            PackIndexUnitNumberList =
+            [
+                (43,6),
             ]
         ),
     ]
@@ -46876,9 +46879,9 @@ Descriptor_CombatGroup_pion_RFA_3K_Flieger36_SK_36__HFR is TDeckCombatGroupDescr
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (104,2),
-                (106,1),
-                (107,3),
+                (104,1),
+                (105,3),
+                (108,5),
             ]
         ),
     ]
@@ -72977,8 +72980,7 @@ Descriptor_CombatGroup_pion_SOV_1GTA_Tauroggen__Teile__LStR_40 is TDeckCombatGro
             PackIndexUnitNumberList =
             [
                 (184,1),
-                (185,4),
-                (189,6),
+                (185,6),
             ]
         ),
     ]
@@ -109084,9 +109086,9 @@ Descriptor_CombatGroup_pion_UK_14_20_Hussars_HQ_14_20_Hussars is TDeckCombatGrou
             Name = "YSYUZLPDKO"
             PackIndexUnitNumberList =
             [
-                (45,2),
-                (47,2),
-                (49,4),
+                (45,4),
+                (49,2),
+                (51,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109094,8 +109096,8 @@ Descriptor_CombatGroup_pion_UK_14_20_Hussars_HQ_14_20_Hussars is TDeckCombatGrou
             Name = "JCNDWQXBEQ"
             PackIndexUnitNumberList =
             [
-                (53,2),
-                (55,9),
+                (55,2),
+                (57,9),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109103,7 +109105,7 @@ Descriptor_CombatGroup_pion_UK_14_20_Hussars_HQ_14_20_Hussars is TDeckCombatGrou
             Name = "RMJVJBQRYD"
             PackIndexUnitNumberList =
             [
-                (64,4),
+                (66,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109111,7 +109113,7 @@ Descriptor_CombatGroup_pion_UK_14_20_Hussars_HQ_14_20_Hussars is TDeckCombatGrou
             Name = "VAJIWKBBCC"
             PackIndexUnitNumberList =
             [
-                (68,4),
+                (70,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109119,8 +109121,8 @@ Descriptor_CombatGroup_pion_UK_14_20_Hussars_HQ_14_20_Hussars is TDeckCombatGrou
             Name = "UDYOSTMVVP"
             PackIndexUnitNumberList =
             [
-                (72,3),
-                (75,8),
+                (74,3),
+                (77,8),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109128,7 +109130,7 @@ Descriptor_CombatGroup_pion_UK_14_20_Hussars_HQ_14_20_Hussars is TDeckCombatGrou
             Name = "YFGMRHGQTA"
             PackIndexUnitNumberList =
             [
-                (83,6),
+                (85,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109137,9 +109139,9 @@ Descriptor_CombatGroup_pion_UK_14_20_Hussars_HQ_14_20_Hussars is TDeckCombatGrou
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (89,2),
-                (91,1),
-                (92,4),
+                (91,2),
+                (93,1),
+                (94,4),
             ]
         ),
     ]
@@ -109357,9 +109359,9 @@ Descriptor_CombatGroup_pion_UK_17_21_Lancers_HQ_17_21_Lancers is TDeckCombatGrou
             Name = "UGOBQKJLQC"
             PackIndexUnitNumberList =
             [
-                (45,2),
-                (47,2),
-                (49,4),
+                (45,4),
+                (49,2),
+                (51,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109367,8 +109369,8 @@ Descriptor_CombatGroup_pion_UK_17_21_Lancers_HQ_17_21_Lancers is TDeckCombatGrou
             Name = "JXFRLZYGDM"
             PackIndexUnitNumberList =
             [
-                (53,2),
-                (55,9),
+                (55,2),
+                (57,9),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109376,7 +109378,7 @@ Descriptor_CombatGroup_pion_UK_17_21_Lancers_HQ_17_21_Lancers is TDeckCombatGrou
             Name = "XVIXUTIGOI"
             PackIndexUnitNumberList =
             [
-                (64,4),
+                (66,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109384,7 +109386,7 @@ Descriptor_CombatGroup_pion_UK_17_21_Lancers_HQ_17_21_Lancers is TDeckCombatGrou
             Name = "ITBGBPJPAQ"
             PackIndexUnitNumberList =
             [
-                (68,4),
+                (70,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109392,8 +109394,8 @@ Descriptor_CombatGroup_pion_UK_17_21_Lancers_HQ_17_21_Lancers is TDeckCombatGrou
             Name = "NKQWZTOEYW"
             PackIndexUnitNumberList =
             [
-                (72,3),
-                (75,8),
+                (74,3),
+                (77,8),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109401,7 +109403,7 @@ Descriptor_CombatGroup_pion_UK_17_21_Lancers_HQ_17_21_Lancers is TDeckCombatGrou
             Name = "AEQDUWCFEA"
             PackIndexUnitNumberList =
             [
-                (83,6),
+                (85,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109410,9 +109412,9 @@ Descriptor_CombatGroup_pion_UK_17_21_Lancers_HQ_17_21_Lancers is TDeckCombatGrou
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (89,2),
-                (91,1),
-                (92,4),
+                (91,2),
+                (93,1),
+                (94,4),
             ]
         ),
     ]
@@ -109914,20 +109916,12 @@ Descriptor_CombatGroup_pion_UK_1BrC_16_5QRL_HQ_16_5QRL is TDeckCombatGroupDescri
     [
         TDeckSmartGroupDescriptor
         (
-            Name = "HCZNJMRALX"
-            PackIndexUnitNumberList =
-            [
-                (106,2),
-                (108,2),
-                (110,4),
-            ]
-        ),
-        TDeckSmartGroupDescriptor
-        (
             Name = "VSCQGXLOSO"
             PackIndexUnitNumberList =
             [
-                (114,4),
+                (106,4),
+                (110,1),
+                (111,2),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109935,7 +109929,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_16_5QRL_HQ_16_5QRL is TDeckCombatGroupDescri
             Name = "WOCCJIIPRD"
             PackIndexUnitNumberList =
             [
-                (118,6),
+                (113,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -109944,8 +109938,8 @@ Descriptor_CombatGroup_pion_UK_1BrC_16_5QRL_HQ_16_5QRL is TDeckCombatGroupDescri
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (124,3),
-                (127,2),
+                (119,3),
+                (122,2),
             ]
         ),
     ]
@@ -109993,8 +109987,8 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_A_1QDG is TDeckCombatGroupDescriptor
             Name = "RIGOYEMJRH"
             PackIndexUnitNumberList =
             [
-                (16,5),
-                (21,5),
+                (16,2),
+                (18,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110003,8 +109997,8 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_A_1QDG is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (26,2),
-                (28,1),
+                (22,2),
+                (24,4),
             ]
         ),
     ]
@@ -110020,7 +110014,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_B_1QDG is TDeckCombatGroupDescriptor
             Name = "DNINJRMXYH"
             PackIndexUnitNumberList =
             [
-                (29,4),
+                (28,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110028,7 +110022,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_B_1QDG is TDeckCombatGroupDescriptor
             Name = "LEOXWGVNVP"
             PackIndexUnitNumberList =
             [
-                (33,4),
+                (32,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110036,7 +110030,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_B_1QDG is TDeckCombatGroupDescriptor
             Name = "WPBYJCXOEG"
             PackIndexUnitNumberList =
             [
-                (37,4),
+                (36,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110044,7 +110038,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_B_1QDG is TDeckCombatGroupDescriptor
             Name = "WZBJJJQVDX"
             PackIndexUnitNumberList =
             [
-                (41,4),
+                (40,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110052,8 +110046,8 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_B_1QDG is TDeckCombatGroupDescriptor
             Name = "RIGOYEMJRH"
             PackIndexUnitNumberList =
             [
-                (45,5),
-                (50,5),
+                (44,2),
+                (46,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110062,8 +110056,8 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_B_1QDG is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (55,2),
-                (57,1),
+                (50,2),
+                (52,4),
             ]
         ),
     ]
@@ -110079,7 +110073,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_C_1QDG is TDeckCombatGroupDescriptor
             Name = "UXMEJLILPM"
             PackIndexUnitNumberList =
             [
-                (58,4),
+                (56,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110087,7 +110081,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_C_1QDG is TDeckCombatGroupDescriptor
             Name = "YOGCMFMKSI"
             PackIndexUnitNumberList =
             [
-                (62,4),
+                (60,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110095,7 +110089,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_C_1QDG is TDeckCombatGroupDescriptor
             Name = "YDLHDPAEGE"
             PackIndexUnitNumberList =
             [
-                (66,4),
+                (64,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110103,7 +110097,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_C_1QDG is TDeckCombatGroupDescriptor
             Name = "ZXTHGUOKLU"
             PackIndexUnitNumberList =
             [
-                (70,4),
+                (68,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110111,8 +110105,8 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_C_1QDG is TDeckCombatGroupDescriptor
             Name = "RIGOYEMJRH"
             PackIndexUnitNumberList =
             [
-                (74,5),
-                (79,5),
+                (72,2),
+                (74,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110121,8 +110115,8 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_C_1QDG is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (84,2),
-                (86,1),
+                (78,2),
+                (80,4),
             ]
         ),
     ]
@@ -110138,7 +110132,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_D_1QDG is TDeckCombatGroupDescriptor
             Name = "GQRSODWVYJ"
             PackIndexUnitNumberList =
             [
-                (87,4),
+                (84,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110146,7 +110140,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_D_1QDG is TDeckCombatGroupDescriptor
             Name = "MVTWVFOZWF"
             PackIndexUnitNumberList =
             [
-                (91,4),
+                (88,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110154,7 +110148,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_D_1QDG is TDeckCombatGroupDescriptor
             Name = "HMTIPGWJSC"
             PackIndexUnitNumberList =
             [
-                (95,4),
+                (92,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110162,7 +110156,16 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_D_1QDG is TDeckCombatGroupDescriptor
             Name = "PXYTXTWJOW"
             PackIndexUnitNumberList =
             [
-                (99,4),
+                (96,4),
+            ]
+        ),
+        TDeckSmartGroupDescriptor
+        (
+            Name = "NMOUUQVKGS"
+            PackIndexUnitNumberList =
+            [
+                (100,2),
+                (102,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110171,8 +110174,8 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_D_1QDG is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (103,2),
-                (105,1),
+                (106,2),
+                (108,4),
             ]
         ),
     ]
@@ -110189,17 +110192,9 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_HQ_1QDG is TDeckCombatGroupDescriptor
             Name = "IPTMLUVCLA"
             PackIndexUnitNumberList =
             [
-                (106,2),
-                (108,2),
-                (110,4),
-            ]
-        ),
-        TDeckSmartGroupDescriptor
-        (
-            Name = "WMBPFAGTWL"
-            PackIndexUnitNumberList =
-            [
-                (114,4),
+                (112,1),
+                (113,2),
+                (115,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110207,7 +110202,7 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_HQ_1QDG is TDeckCombatGroupDescriptor
             Name = "OTGVWQHHMJ"
             PackIndexUnitNumberList =
             [
-                (118,6),
+                (119,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110216,8 +110211,44 @@ Descriptor_CombatGroup_pion_UK_1BrC_1QDG_HQ_1QDG is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (124,3),
-                (127,2),
+                (125,3),
+                (128,2),
+            ]
+        ),
+    ]
+)
+
+Descriptor_CombatGroup_pion_UK_1BrC_664_Sq__AAC is TDeckCombatGroupDescriptor
+(
+    Name = "QHUXKZLOEY"
+    SmartGroupList =
+    [
+        TDeckSmartGroupDescriptor
+        (
+            Name = "YAHSXHGNIN"
+            PackIndexUnitNumberList =
+            [
+                (0,2),
+                (2,2),
+            ]
+        ),
+        TDeckSmartGroupDescriptor
+        (
+            Name = "IHCAAQLYFO"
+            PackIndexUnitNumberList =
+            [
+                (4,2),
+                (6,2),
+            ]
+        ),
+        TDeckSmartGroupDescriptor
+        (
+            Name = "KSDWNQMSGO"
+            IsHQ = True
+            PackIndexUnitNumberList =
+            [
+                (8,1),
+                (9,1),
             ]
         ),
     ]
@@ -110235,8 +110266,8 @@ Descriptor_CombatGroup_pion_UK_1BrC_HQ_1_Br__Corps is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (0,12),
-                (12,6),
+                (10,12),
+                (22,6),
             ]
         ),
     ]
@@ -110860,7 +110891,7 @@ Descriptor_CombatGroup_pion_UK_3AAC_Gurkhas_Coy_Sandhurst is TDeckCombatGroupDes
             PackIndexUnitNumberList =
             [
                 (48,2),
-                (50,2),
+                (50,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110868,8 +110899,8 @@ Descriptor_CombatGroup_pion_UK_3AAC_Gurkhas_Coy_Sandhurst is TDeckCombatGroupDes
             Name = "GATPCFGICE"
             PackIndexUnitNumberList =
             [
-                (52,6),
-                (58,6),
+                (51,2),
+                (53,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110877,8 +110908,8 @@ Descriptor_CombatGroup_pion_UK_3AAC_Gurkhas_Coy_Sandhurst is TDeckCombatGroupDes
             Name = "YWGGJKYBHF"
             PackIndexUnitNumberList =
             [
-                (64,10),
-                (74,10),
+                (54,2),
+                (56,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110887,8 +110918,8 @@ Descriptor_CombatGroup_pion_UK_3AAC_Gurkhas_Coy_Sandhurst is TDeckCombatGroupDes
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (84,2),
-                (86,2),
+                (57,2),
+                (59,2),
             ]
         ),
     ]
@@ -110906,9 +110937,9 @@ Descriptor_CombatGroup_pion_UK_3AAC_HQ_3AAC is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (88,2),
-                (90,2),
-                (92,6),
+                (61,2),
+                (63,2),
+                (65,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -110916,7 +110947,7 @@ Descriptor_CombatGroup_pion_UK_3AAC_HQ_3AAC is TDeckCombatGroupDescriptor
             Name = "EZMAOQSHWE"
             PackIndexUnitNumberList =
             [
-                (98,10),
+                (71,10),
             ]
         ),
     ]
@@ -111607,9 +111638,9 @@ Descriptor_CombatGroup_pion_UK_3ArmDiv_9_12Lancers_HQ_9_12Lancers is TDeckCombat
             Name = "MJETJOTPZD"
             PackIndexUnitNumberList =
             [
-                (106,2),
-                (108,2),
-                (110,4),
+                (106,4),
+                (110,2),
+                (112,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -111617,7 +111648,7 @@ Descriptor_CombatGroup_pion_UK_3ArmDiv_9_12Lancers_HQ_9_12Lancers is TDeckCombat
             Name = "CXDQFHMPNZ"
             PackIndexUnitNumberList =
             [
-                (114,4),
+                (116,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -111625,7 +111656,7 @@ Descriptor_CombatGroup_pion_UK_3ArmDiv_9_12Lancers_HQ_9_12Lancers is TDeckCombat
             Name = "IVECKHNVWQ"
             PackIndexUnitNumberList =
             [
-                (118,6),
+                (120,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -111634,8 +111665,8 @@ Descriptor_CombatGroup_pion_UK_3ArmDiv_9_12Lancers_HQ_9_12Lancers is TDeckCombat
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (124,3),
-                (127,2),
+                (126,3),
+                (129,2),
             ]
         ),
     ]
@@ -112014,9 +112045,9 @@ Descriptor_CombatGroup_pion_UK_3RTR_HQ_3RTR is TDeckCombatGroupDescriptor
             Name = "ZISMTAUYGO"
             PackIndexUnitNumberList =
             [
-                (60,2),
-                (62,2),
-                (64,4),
+                (60,4),
+                (64,2),
+                (66,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112024,8 +112055,8 @@ Descriptor_CombatGroup_pion_UK_3RTR_HQ_3RTR is TDeckCombatGroupDescriptor
             Name = "TABDGYHUPF"
             PackIndexUnitNumberList =
             [
-                (68,2),
-                (70,9),
+                (70,2),
+                (72,9),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112033,7 +112064,7 @@ Descriptor_CombatGroup_pion_UK_3RTR_HQ_3RTR is TDeckCombatGroupDescriptor
             Name = "GZNUMYZQBX"
             PackIndexUnitNumberList =
             [
-                (79,4),
+                (81,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112041,7 +112072,7 @@ Descriptor_CombatGroup_pion_UK_3RTR_HQ_3RTR is TDeckCombatGroupDescriptor
             Name = "RUABSOMGBF"
             PackIndexUnitNumberList =
             [
-                (83,4),
+                (85,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112049,8 +112080,8 @@ Descriptor_CombatGroup_pion_UK_3RTR_HQ_3RTR is TDeckCombatGroupDescriptor
             Name = "WBESWFYVOK"
             PackIndexUnitNumberList =
             [
-                (87,1),
-                (88,8),
+                (89,1),
+                (90,8),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112058,7 +112089,7 @@ Descriptor_CombatGroup_pion_UK_3RTR_HQ_3RTR is TDeckCombatGroupDescriptor
             Name = "HDYCRTLJQE"
             PackIndexUnitNumberList =
             [
-                (96,6),
+                (98,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112067,9 +112098,9 @@ Descriptor_CombatGroup_pion_UK_3RTR_HQ_3RTR is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (102,2),
                 (104,2),
-                (106,4),
+                (106,2),
+                (108,4),
             ]
         ),
     ]
@@ -112548,9 +112579,9 @@ Descriptor_CombatGroup_pion_UK_BlueRoyals_HQ_Blues_and_Royals is TDeckCombatGrou
             Name = "ZISMTAUYGO"
             PackIndexUnitNumberList =
             [
-                (60,2),
-                (62,2),
-                (64,4),
+                (60,4),
+                (64,2),
+                (66,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112558,8 +112589,8 @@ Descriptor_CombatGroup_pion_UK_BlueRoyals_HQ_Blues_and_Royals is TDeckCombatGrou
             Name = "TABDGYHUPF"
             PackIndexUnitNumberList =
             [
-                (68,2),
-                (70,9),
+                (70,2),
+                (72,9),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112567,7 +112598,7 @@ Descriptor_CombatGroup_pion_UK_BlueRoyals_HQ_Blues_and_Royals is TDeckCombatGrou
             Name = "GZNUMYZQBX"
             PackIndexUnitNumberList =
             [
-                (79,4),
+                (81,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112575,7 +112606,7 @@ Descriptor_CombatGroup_pion_UK_BlueRoyals_HQ_Blues_and_Royals is TDeckCombatGrou
             Name = "RUABSOMGBF"
             PackIndexUnitNumberList =
             [
-                (83,4),
+                (85,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112583,8 +112614,8 @@ Descriptor_CombatGroup_pion_UK_BlueRoyals_HQ_Blues_and_Royals is TDeckCombatGrou
             Name = "WBESWFYVOK"
             PackIndexUnitNumberList =
             [
-                (87,3),
-                (90,8),
+                (89,3),
+                (92,8),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112592,7 +112623,7 @@ Descriptor_CombatGroup_pion_UK_BlueRoyals_HQ_Blues_and_Royals is TDeckCombatGrou
             Name = "HDYCRTLJQE"
             PackIndexUnitNumberList =
             [
-                (98,6),
+                (100,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112601,9 +112632,9 @@ Descriptor_CombatGroup_pion_UK_BlueRoyals_HQ_Blues_and_Royals is TDeckCombatGrou
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (104,2),
-                (106,1),
-                (107,4),
+                (106,2),
+                (108,1),
+                (109,4),
             ]
         ),
     ]
@@ -112759,8 +112790,8 @@ Descriptor_CombatGroup_pion_UK_GrenadierGds_HQ_1GrenGds is TDeckCombatGroupDescr
             PackIndexUnitNumberList =
             [
                 (48,2),
-                (50,2),
-                (52,4),
+                (50,4),
+                (54,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112768,7 +112799,7 @@ Descriptor_CombatGroup_pion_UK_GrenadierGds_HQ_1GrenGds is TDeckCombatGroupDescr
             Name = "JHCZJIHRMM"
             PackIndexUnitNumberList =
             [
-                (56,4),
+                (58,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112776,7 +112807,7 @@ Descriptor_CombatGroup_pion_UK_GrenadierGds_HQ_1GrenGds is TDeckCombatGroupDescr
             Name = "FUCWTGEXFD"
             PackIndexUnitNumberList =
             [
-                (60,4),
+                (62,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112784,7 +112815,7 @@ Descriptor_CombatGroup_pion_UK_GrenadierGds_HQ_1GrenGds is TDeckCombatGroupDescr
             Name = "UXUOZFEMGA"
             PackIndexUnitNumberList =
             [
-                (64,3),
+                (66,3),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112792,7 +112823,7 @@ Descriptor_CombatGroup_pion_UK_GrenadierGds_HQ_1GrenGds is TDeckCombatGroupDescr
             Name = "EJLIAJEKJP"
             PackIndexUnitNumberList =
             [
-                (67,6),
+                (69,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112801,9 +112832,9 @@ Descriptor_CombatGroup_pion_UK_GrenadierGds_HQ_1GrenGds is TDeckCombatGroupDescr
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (73,2),
                 (75,2),
-                (77,1),
+                (77,2),
+                (79,1),
             ]
         ),
     ]
@@ -112819,9 +112850,9 @@ Descriptor_CombatGroup_pion_UK_GrenadierGds_Support_I_GrenGds is TDeckCombatGrou
             Name = "RPYZYEEWPL"
             PackIndexUnitNumberList =
             [
-                (78,12),
-                (90,8),
-                (98,4),
+                (80,12),
+                (92,8),
+                (100,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112829,9 +112860,9 @@ Descriptor_CombatGroup_pion_UK_GrenadierGds_Support_I_GrenGds is TDeckCombatGrou
             Name = "LCQXOBGFBT"
             PackIndexUnitNumberList =
             [
-                (102,4),
-                (106,4),
-                (110,4),
+                (104,4),
+                (108,4),
+                (112,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112840,8 +112871,8 @@ Descriptor_CombatGroup_pion_UK_GrenadierGds_Support_I_GrenGds is TDeckCombatGrou
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (114,1),
-                (115,1),
+                (116,1),
+                (117,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -112849,7 +112880,7 @@ Descriptor_CombatGroup_pion_UK_GrenadierGds_Support_I_GrenGds is TDeckCombatGrou
             Name = "ZFOFGDZLXC"
             PackIndexUnitNumberList =
             [
-                (116,8),
+                (118,8),
             ]
         ),
     ]
@@ -113019,8 +113050,8 @@ Descriptor_CombatGroup_pion_UK_QLR_1_HQ_I__QLR is TDeckCombatGroupDescriptor
             PackIndexUnitNumberList =
             [
                 (42,2),
-                (44,2),
-                (46,4),
+                (44,4),
+                (48,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113028,7 +113059,7 @@ Descriptor_CombatGroup_pion_UK_QLR_1_HQ_I__QLR is TDeckCombatGroupDescriptor
             Name = "GZNUMYZQBX"
             PackIndexUnitNumberList =
             [
-                (50,4),
+                (52,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113036,7 +113067,7 @@ Descriptor_CombatGroup_pion_UK_QLR_1_HQ_I__QLR is TDeckCombatGroupDescriptor
             Name = "RUABSOMGBF"
             PackIndexUnitNumberList =
             [
-                (54,4),
+                (56,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113044,8 +113075,8 @@ Descriptor_CombatGroup_pion_UK_QLR_1_HQ_I__QLR is TDeckCombatGroupDescriptor
             Name = "AIIMCNDONF"
             PackIndexUnitNumberList =
             [
-                (58,2),
                 (60,2),
+                (62,2),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113053,7 +113084,7 @@ Descriptor_CombatGroup_pion_UK_QLR_1_HQ_I__QLR is TDeckCombatGroupDescriptor
             Name = "HDYCRTLJQE"
             PackIndexUnitNumberList =
             [
-                (62,6),
+                (64,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113062,9 +113093,9 @@ Descriptor_CombatGroup_pion_UK_QLR_1_HQ_I__QLR is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (68,2),
                 (70,2),
-                (72,1),
+                (72,2),
+                (74,1),
             ]
         ),
     ]
@@ -113080,9 +113111,9 @@ Descriptor_CombatGroup_pion_UK_QLR_1_Support_I__QLR is TDeckCombatGroupDescripto
             Name = "MMISGNOMQO"
             PackIndexUnitNumberList =
             [
-                (73,12),
-                (85,4),
-                (89,8),
+                (75,12),
+                (87,4),
+                (91,8),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113090,9 +113121,9 @@ Descriptor_CombatGroup_pion_UK_QLR_1_Support_I__QLR is TDeckCombatGroupDescripto
             Name = "JYZDSITBSM"
             PackIndexUnitNumberList =
             [
-                (97,4),
-                (101,4),
-                (105,1),
+                (99,4),
+                (103,4),
+                (107,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113101,8 +113132,8 @@ Descriptor_CombatGroup_pion_UK_QLR_1_Support_I__QLR is TDeckCombatGroupDescripto
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (106,1),
-                (107,1),
+                (108,1),
+                (109,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113110,7 +113141,7 @@ Descriptor_CombatGroup_pion_UK_QLR_1_Support_I__QLR is TDeckCombatGroupDescripto
             Name = "WBESWFYVOK"
             PackIndexUnitNumberList =
             [
-                (108,8),
+                (110,8),
             ]
         ),
     ]
@@ -113260,8 +113291,8 @@ Descriptor_CombatGroup_pion_UK_QOH_1_HQ_I__QOH is TDeckCombatGroupDescriptor
             PackIndexUnitNumberList =
             [
                 (42,2),
-                (44,2),
-                (46,4),
+                (44,4),
+                (48,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113269,7 +113300,7 @@ Descriptor_CombatGroup_pion_UK_QOH_1_HQ_I__QOH is TDeckCombatGroupDescriptor
             Name = "GZNUMYZQBX"
             PackIndexUnitNumberList =
             [
-                (50,4),
+                (52,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113277,7 +113308,7 @@ Descriptor_CombatGroup_pion_UK_QOH_1_HQ_I__QOH is TDeckCombatGroupDescriptor
             Name = "RUABSOMGBF"
             PackIndexUnitNumberList =
             [
-                (54,4),
+                (56,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113285,8 +113316,8 @@ Descriptor_CombatGroup_pion_UK_QOH_1_HQ_I__QOH is TDeckCombatGroupDescriptor
             Name = "AIIMCNDONF"
             PackIndexUnitNumberList =
             [
-                (58,2),
                 (60,2),
+                (62,2),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113294,7 +113325,7 @@ Descriptor_CombatGroup_pion_UK_QOH_1_HQ_I__QOH is TDeckCombatGroupDescriptor
             Name = "HDYCRTLJQE"
             PackIndexUnitNumberList =
             [
-                (62,6),
+                (64,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113303,9 +113334,9 @@ Descriptor_CombatGroup_pion_UK_QOH_1_HQ_I__QOH is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (68,2),
                 (70,2),
-                (72,1),
+                (72,2),
+                (74,1),
             ]
         ),
     ]
@@ -113321,9 +113352,9 @@ Descriptor_CombatGroup_pion_UK_QOH_1_Support_I__QOH is TDeckCombatGroupDescripto
             Name = "MMISGNOMQO"
             PackIndexUnitNumberList =
             [
-                (73,12),
-                (85,4),
-                (89,8),
+                (75,12),
+                (87,4),
+                (91,8),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113331,9 +113362,9 @@ Descriptor_CombatGroup_pion_UK_QOH_1_Support_I__QOH is TDeckCombatGroupDescripto
             Name = "JYZDSITBSM"
             PackIndexUnitNumberList =
             [
-                (97,4),
-                (101,4),
-                (105,1),
+                (99,4),
+                (103,4),
+                (107,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113342,8 +113373,8 @@ Descriptor_CombatGroup_pion_UK_QOH_1_Support_I__QOH is TDeckCombatGroupDescripto
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (106,1),
-                (107,1),
+                (108,1),
+                (109,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113351,7 +113382,7 @@ Descriptor_CombatGroup_pion_UK_QOH_1_Support_I__QOH is TDeckCombatGroupDescripto
             Name = "WBESWFYVOK"
             PackIndexUnitNumberList =
             [
-                (108,8),
+                (110,8),
             ]
         ),
     ]
@@ -113507,8 +113538,8 @@ Descriptor_CombatGroup_pion_UK_RRF_1_HQ_1RRF is TDeckCombatGroupDescriptor
             PackIndexUnitNumberList =
             [
                 (48,2),
-                (50,2),
-                (52,4),
+                (50,4),
+                (54,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113516,7 +113547,7 @@ Descriptor_CombatGroup_pion_UK_RRF_1_HQ_1RRF is TDeckCombatGroupDescriptor
             Name = "GZNUMYZQBX"
             PackIndexUnitNumberList =
             [
-                (56,4),
+                (58,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113524,7 +113555,7 @@ Descriptor_CombatGroup_pion_UK_RRF_1_HQ_1RRF is TDeckCombatGroupDescriptor
             Name = "RUABSOMGBF"
             PackIndexUnitNumberList =
             [
-                (60,4),
+                (62,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113532,7 +113563,7 @@ Descriptor_CombatGroup_pion_UK_RRF_1_HQ_1RRF is TDeckCombatGroupDescriptor
             Name = "AIIMCNDONF"
             PackIndexUnitNumberList =
             [
-                (64,3),
+                (66,3),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113540,7 +113571,7 @@ Descriptor_CombatGroup_pion_UK_RRF_1_HQ_1RRF is TDeckCombatGroupDescriptor
             Name = "HDYCRTLJQE"
             PackIndexUnitNumberList =
             [
-                (67,6),
+                (69,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113549,9 +113580,9 @@ Descriptor_CombatGroup_pion_UK_RRF_1_HQ_1RRF is TDeckCombatGroupDescriptor
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (73,2),
                 (75,2),
-                (77,1),
+                (77,2),
+                (79,1),
             ]
         ),
     ]
@@ -113567,9 +113598,9 @@ Descriptor_CombatGroup_pion_UK_RRF_1_Support_I__RRF is TDeckCombatGroupDescripto
             Name = "MMISGNOMQO"
             PackIndexUnitNumberList =
             [
-                (78,12),
-                (90,8),
-                (98,4),
+                (80,12),
+                (92,8),
+                (100,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113577,9 +113608,9 @@ Descriptor_CombatGroup_pion_UK_RRF_1_Support_I__RRF is TDeckCombatGroupDescripto
             Name = "JYZDSITBSM"
             PackIndexUnitNumberList =
             [
-                (102,4),
-                (106,4),
-                (110,4),
+                (104,4),
+                (108,4),
+                (112,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113588,8 +113619,8 @@ Descriptor_CombatGroup_pion_UK_RRF_1_Support_I__RRF is TDeckCombatGroupDescripto
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (114,1),
-                (115,1),
+                (116,1),
+                (117,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113597,7 +113628,7 @@ Descriptor_CombatGroup_pion_UK_RRF_1_Support_I__RRF is TDeckCombatGroupDescripto
             Name = "WBESWFYVOK"
             PackIndexUnitNumberList =
             [
-                (116,8),
+                (118,8),
             ]
         ),
     ]
@@ -113753,8 +113784,8 @@ Descriptor_CombatGroup_pion_UK_RScots_1_HQ_1RoyalScots is TDeckCombatGroupDescri
             PackIndexUnitNumberList =
             [
                 (48,2),
-                (50,2),
-                (52,4),
+                (50,4),
+                (54,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113762,7 +113793,7 @@ Descriptor_CombatGroup_pion_UK_RScots_1_HQ_1RoyalScots is TDeckCombatGroupDescri
             Name = "GZNUMYZQBX"
             PackIndexUnitNumberList =
             [
-                (56,4),
+                (58,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113770,7 +113801,7 @@ Descriptor_CombatGroup_pion_UK_RScots_1_HQ_1RoyalScots is TDeckCombatGroupDescri
             Name = "RUABSOMGBF"
             PackIndexUnitNumberList =
             [
-                (60,4),
+                (62,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113778,7 +113809,7 @@ Descriptor_CombatGroup_pion_UK_RScots_1_HQ_1RoyalScots is TDeckCombatGroupDescri
             Name = "AIIMCNDONF"
             PackIndexUnitNumberList =
             [
-                (64,3),
+                (66,3),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113786,7 +113817,7 @@ Descriptor_CombatGroup_pion_UK_RScots_1_HQ_1RoyalScots is TDeckCombatGroupDescri
             Name = "HDYCRTLJQE"
             PackIndexUnitNumberList =
             [
-                (67,6),
+                (69,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113795,9 +113826,9 @@ Descriptor_CombatGroup_pion_UK_RScots_1_HQ_1RoyalScots is TDeckCombatGroupDescri
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (73,2),
                 (75,2),
-                (77,1),
+                (77,2),
+                (79,1),
             ]
         ),
     ]
@@ -113813,9 +113844,9 @@ Descriptor_CombatGroup_pion_UK_RScots_1_Support_I__Royal_Scots is TDeckCombatGro
             Name = "MMISGNOMQO"
             PackIndexUnitNumberList =
             [
-                (78,12),
-                (90,8),
-                (98,4),
+                (80,12),
+                (92,8),
+                (100,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113823,9 +113854,9 @@ Descriptor_CombatGroup_pion_UK_RScots_1_Support_I__Royal_Scots is TDeckCombatGro
             Name = "JYZDSITBSM"
             PackIndexUnitNumberList =
             [
-                (102,4),
-                (106,4),
-                (110,4),
+                (104,4),
+                (108,4),
+                (112,4),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113834,8 +113865,8 @@ Descriptor_CombatGroup_pion_UK_RScots_1_Support_I__Royal_Scots is TDeckCombatGro
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (114,1),
-                (115,1),
+                (116,1),
+                (117,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -113843,7 +113874,7 @@ Descriptor_CombatGroup_pion_UK_RScots_1_Support_I__Royal_Scots is TDeckCombatGro
             Name = "WBESWFYVOK"
             PackIndexUnitNumberList =
             [
-                (116,8),
+                (118,8),
             ]
         ),
     ]
@@ -132266,16 +132297,15 @@ Descriptor_CombatGroup_pion_US_3ID_AviaBrigade_HQ_AviaBrigade_3ID_ is TDeckComba
 
 Descriptor_CombatGroup_pion_US_4450TFS_A_4450th_TFS is TDeckCombatGroupDescriptor
 (
-    Name = "NOSDMSBCAI"
+    Name = "KPILBIMXAN"
     SmartGroupList =
     [
         TDeckSmartGroupDescriptor
         (
-            Name = "KYYDJSPZZG"
+            Name = "BTRDUJAJQY"
             PackIndexUnitNumberList =
             [
-                (0,2),
-                (2,2),
+                (0,4),
             ]
         ),
     ]
@@ -132283,16 +132313,15 @@ Descriptor_CombatGroup_pion_US_4450TFS_A_4450th_TFS is TDeckCombatGroupDescripto
 
 Descriptor_CombatGroup_pion_US_4450TFS_B_4450th_TFS is TDeckCombatGroupDescriptor
 (
-    Name = "YHYNKAVJEQ"
+    Name = "UVNWHBUKJH"
     SmartGroupList =
     [
         TDeckSmartGroupDescriptor
         (
-            Name = "JVNRQDNWIY"
+            Name = "CFTGBPRXFW"
             PackIndexUnitNumberList =
             [
-                (4,2),
-                (6,2),
+                (4,4),
             ]
         ),
     ]
@@ -132300,16 +132329,15 @@ Descriptor_CombatGroup_pion_US_4450TFS_B_4450th_TFS is TDeckCombatGroupDescripto
 
 Descriptor_CombatGroup_pion_US_4450TFS_C_4450th_TFS is TDeckCombatGroupDescriptor
 (
-    Name = "TJNSXUJOIK"
+    Name = "GRLDFTIRNZ"
     SmartGroupList =
     [
         TDeckSmartGroupDescriptor
         (
-            Name = "UVOCNONEUW"
+            Name = "QBXHASEFGH"
             PackIndexUnitNumberList =
             [
-                (8,2),
-                (10,2),
+                (8,4),
             ]
         ),
     ]

@@ -3,215 +3,215 @@
 
 Texture_Speciality_Icon_AA is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/AA.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/AA.png"
 )
 Texture_Speciality_Icon_AT is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/AT.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/AT.png"
 )
 Texture_Speciality_Icon_Armor_heavy is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/Armor_heavy.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/Armor_heavy.png"
 )
 Texture_Speciality_Icon_infantry_half is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/infantry_half.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/infantry_half.png"
 )
 Texture_Speciality_Icon_amphibie is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/amphibie.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/amphibie.png"
 )
 Texture_Speciality_Icon_shock is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/shock.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/shock.png"
 )
 Texture_Speciality_Icon_electronic_warfare is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/electronic_warfare.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/electronic_warfare.png"
 )
 Texture_Speciality_Icon_era is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/era.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/era.png"
 )
 Texture_Speciality_Icon_falseflag is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/falseflag.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/falseflag.png"
 )
 Texture_Speciality_Icon_gsr is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/gsr.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/gsr.png"
 )
 Texture_Speciality_Icon_ifv_2 is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/ifv_2.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/ifv_2.png"
 )
 Texture_Speciality_Icon_jammer is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/jammer.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/jammer.png"
 )
 Texture_Speciality_Icon_cmd is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/cmd.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/cmd.png"
 )
 Texture_Speciality_Icon_mp is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/mp.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/mp.png"
 )
 Texture_Speciality_Icon_para is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/para.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/para.png"
 )
 Texture_Speciality_Icon_poorlytrained is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/poorlytrained.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/poorlytrained.png"
 )
 Texture_Speciality_Icon_reco_deploy is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/reco_deploy.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/reco_deploy.png"
 )
 Texture_Speciality_Icon_reserviste is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/reserviste.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/reserviste.png"
 )
 Texture_Speciality_Icon_resolute is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/resolute.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/resolute.png"
 )
 Texture_Speciality_Icon_security is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/security.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/security.png"
 )
 Texture_Speciality_Icon_sf is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/sf.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/sf.png"
 )
 Texture_Speciality_Icon_smoke_launcher is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/smoke_launcher.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/smoke_launcher.png"
 )
 Texture_Speciality_Icon_sniper is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/sniper.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/sniper.png"
 )
 Texture_Speciality_Icon_transport1 is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/transport1.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/transport1.png"
 )
 Texture_Speciality_Icon_transport2 is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/transport2.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/transport2.png"
 )
 Texture_Speciality_Icon_appui is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/appui.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/appui.png"
 )
 Texture_Speciality_Icon_armor is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/armor.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/armor.png"
 )
 Texture_Speciality_Icon_armored is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/armored.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/armored.png"
 )
 Texture_Speciality_Icon_assault is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/assault.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/assault.png"
 )
 Texture_Speciality_Icon_assault_half is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/assault_half.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/assault_half.png"
 )
 Texture_Speciality_Icon_bomb is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/bomb.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/bomb.png"
 )
 Texture_Speciality_Icon_engineer is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/engineer.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/engineer.png"
 )
 Texture_Speciality_Icon_flak is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/flak.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/flak.png"
 )
 Texture_Speciality_Icon_gunship is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/gunship.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/gunship.png"
 )
 Texture_Speciality_Icon_half is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/half.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/half.png"
 )
 Texture_Speciality_Icon_reco is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/reco.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/reco.png"
 )
 Texture_Speciality_Icon_howitzer is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/howitzer.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/howitzer.png"
 )
 Texture_Speciality_Icon_hq is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/hq.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/hq.png"
 )
 Texture_Speciality_Icon_ifv is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/ifv.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/ifv.png"
 )
 Texture_Speciality_Icon_ifv_infantry_half is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/ifv_infantry_half.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/ifv_infantry_half.png"
 )
 Texture_Speciality_Icon_infantry is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/infantry.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/infantry.png"
 )
 Texture_Speciality_Icon_mlrs is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/mlrs.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/mlrs.png"
 )
 Texture_Speciality_Icon_mortar is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/mortar.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/mortar.png"
 )
 Texture_Speciality_Icon_sead is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/sead.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/sead.png"
 )
 Texture_Speciality_Icon_special is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/special.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/special.png"
 )
 Texture_Speciality_Icon_supply is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/supply.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/supply.png"
 )
 Texture_Speciality_Icon_A is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/A.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/A.png"
 )
 Texture_Speciality_Icon_B is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/B.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/B.png"
 )
 Texture_Speciality_Icon_C is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/C.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/C.png"
 )
 Texture_Speciality_Icon_D is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/D.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/D.png"
 )
 Texture_Speciality_Icon_team is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/team.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/team.png"
 )
 Texture_Speciality_Icon_transport is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/transport.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/transport.png"
 )
 Texture_Speciality_Icon_veh is TUIResourceTexture_Common
 (
-    FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/veh.png"
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/veh.png"
 )
 
 UnitSpecialityAdditionalTextureBank is TBUCKToolAdditionalTextureBank

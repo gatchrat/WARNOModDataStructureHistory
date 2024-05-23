@@ -145,16 +145,16 @@ Gfx_A10_Thunderbolt_II_ATGM_US_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_TurretCannonGatling_SlowRotation( XAxisHasTargetPhysicalPropertyName = "tourelle1target" XAxisRotationNode = "canon_01" ),
             DepictionOperator_EjectableProps_Plane
             (
-                AdditionalEjectableNodes = 
+                DeathOnlyEjectableList = 
                 [
-                    "aile_droite",
-                    "aileron_g",
-                    "elevator_g",
-                    "reacteur_gauche",
-                    "rudder_1",
-                    "queue",
-                    "aile_gauche",
-                    "rudder_2",
+                    ("aile_droite", ~/EjectableSettingsPlaneMedium),
+                    ("aileron_g", ~/EjectableSettingsPlaneLight),
+                    ("elevator_g", ~/EjectableSettingsPlaneLight),
+                    ("reacteur_gauche", ~/EjectableSettingsPlaneHeavy),
+                    ("rudder_1", ~/EjectableSettingsPlaneLight),
+                    ("queue", ~/EjectableSettingsPlaneMedium),
+                    ("aile_gauche", ~/EjectableSettingsPlaneMedium),
+                    ("rudder_2", ~/EjectableSettingsPlaneLight),
                 ]
             ),
             DepictionOperator_Flares,
@@ -258,16 +258,16 @@ Gfx_A10_Thunderbolt_II_Rkt_US_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_TurretCannonGatling_SlowRotation( XAxisHasTargetPhysicalPropertyName = "tourelle1target" XAxisRotationNode = "canon_01" ),
             DepictionOperator_EjectableProps_Plane
             (
-                AdditionalEjectableNodes = 
+                DeathOnlyEjectableList = 
                 [
-                    "aile_droite",
-                    "aileron_g",
-                    "elevator_g",
-                    "reacteur_gauche",
-                    "rudder_1",
-                    "queue",
-                    "aile_gauche",
-                    "rudder_2",
+                    ("aile_droite", ~/EjectableSettingsPlaneMedium),
+                    ("aileron_g", ~/EjectableSettingsPlaneLight),
+                    ("elevator_g", ~/EjectableSettingsPlaneLight),
+                    ("reacteur_gauche", ~/EjectableSettingsPlaneHeavy),
+                    ("rudder_1", ~/EjectableSettingsPlaneLight),
+                    ("queue", ~/EjectableSettingsPlaneMedium),
+                    ("aile_gauche", ~/EjectableSettingsPlaneMedium),
+                    ("rudder_2", ~/EjectableSettingsPlaneLight),
                 ]
             ),
             DepictionOperator_Flares,
@@ -370,16 +370,16 @@ Gfx_A10_Thunderbolt_II_US_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_TurretCannonGatling_SlowRotation( XAxisHasTargetPhysicalPropertyName = "tourelle1target" XAxisRotationNode = "canon_01" ),
             DepictionOperator_EjectableProps_Plane
             (
-                AdditionalEjectableNodes = 
+                DeathOnlyEjectableList = 
                 [
-                    "aile_droite",
-                    "aileron_g",
-                    "elevator_g",
-                    "reacteur_gauche",
-                    "rudder_1",
-                    "queue",
-                    "aile_gauche",
-                    "rudder_2",
+                    ("aile_droite", ~/EjectableSettingsPlaneMedium),
+                    ("aileron_g", ~/EjectableSettingsPlaneLight),
+                    ("elevator_g", ~/EjectableSettingsPlaneLight),
+                    ("reacteur_gauche", ~/EjectableSettingsPlaneHeavy),
+                    ("rudder_1", ~/EjectableSettingsPlaneLight),
+                    ("queue", ~/EjectableSettingsPlaneMedium),
+                    ("aile_gauche", ~/EjectableSettingsPlaneMedium),
+                    ("rudder_2", ~/EjectableSettingsPlaneLight),
                 ]
             ),
             DepictionOperator_Flares,
@@ -1158,16 +1158,16 @@ Gfx_AH64_Apache_NG_US_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_Heat,
             DepictionOperator_EjectableProps_Helico
             (
-                AdditionalEjectableNodes = 
+                DeathOnlyEjectableList = 
                 [
-                    "queue",
-                    "reacteur_droite",
-                    "reacteur_gauche",
-                    "helice_ls_1_pale1",
-                    "helice_ls_1_pale2",
-                    "helice_ls_1_pale3",
-                    "helice_ls_1_pale4",
-                    "helice_ls_2",
+                    ("queue", ~/EjectableSettingsHelicoMedium),
+                    ("reacteur_droite", ~/EjectableSettingsHelicoHeavy),
+                    ("reacteur_gauche", ~/EjectableSettingsHelicoHeavy),
+                    ("helice_ls_1_pale1", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale2", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale3", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale4", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_2", ~/EjectableSettingsHelicoLight),
                 ]
             ),
             DepictionOperator_Flares,
@@ -1306,16 +1306,16 @@ Gfx_AH64_Apache_US_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_Heat,
             DepictionOperator_EjectableProps_Helico
             (
-                AdditionalEjectableNodes = 
+                DeathOnlyEjectableList = 
                 [
-                    "queue",
-                    "reacteur_droite",
-                    "reacteur_gauche",
-                    "helice_ls_1_pale1",
-                    "helice_ls_1_pale2",
-                    "helice_ls_1_pale3",
-                    "helice_ls_1_pale4",
-                    "helice_ls_2",
+                    ("queue", ~/EjectableSettingsHelicoMedium),
+                    ("reacteur_droite", ~/EjectableSettingsHelicoHeavy),
+                    ("reacteur_gauche", ~/EjectableSettingsHelicoHeavy),
+                    ("helice_ls_1_pale1", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale2", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale3", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale4", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_2", ~/EjectableSettingsHelicoLight),
                 ]
             ),
             DepictionOperator_Flares,
@@ -1442,16 +1442,16 @@ Gfx_AH64_Apache_emp1_US_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_Heat,
             DepictionOperator_EjectableProps_Helico
             (
-                AdditionalEjectableNodes = 
+                DeathOnlyEjectableList = 
                 [
-                    "queue",
-                    "reacteur_droite",
-                    "reacteur_gauche",
-                    "helice_ls_1_pale1",
-                    "helice_ls_1_pale2",
-                    "helice_ls_1_pale3",
-                    "helice_ls_1_pale4",
-                    "helice_ls_2",
+                    ("queue", ~/EjectableSettingsHelicoMedium),
+                    ("reacteur_droite", ~/EjectableSettingsHelicoHeavy),
+                    ("reacteur_gauche", ~/EjectableSettingsHelicoHeavy),
+                    ("helice_ls_1_pale1", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale2", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale3", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale4", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_2", ~/EjectableSettingsHelicoLight),
                 ]
             ),
             DepictionOperator_Flares,
@@ -1589,16 +1589,16 @@ Gfx_AH64_Apache_emp2_US_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_Heat,
             DepictionOperator_EjectableProps_Helico
             (
-                AdditionalEjectableNodes = 
+                DeathOnlyEjectableList = 
                 [
-                    "queue",
-                    "reacteur_droite",
-                    "reacteur_gauche",
-                    "helice_ls_1_pale1",
-                    "helice_ls_1_pale2",
-                    "helice_ls_1_pale3",
-                    "helice_ls_1_pale4",
-                    "helice_ls_2",
+                    ("queue", ~/EjectableSettingsHelicoMedium),
+                    ("reacteur_droite", ~/EjectableSettingsHelicoHeavy),
+                    ("reacteur_gauche", ~/EjectableSettingsHelicoHeavy),
+                    ("helice_ls_1_pale1", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale2", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale3", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_1_pale4", ~/EjectableSettingsHelicoLight),
+                    ("helice_ls_2", ~/EjectableSettingsHelicoLight),
                 ]
             ),
             DepictionOperator_Flares,
@@ -1732,107 +1732,6 @@ Gfx_AH6C_Little_Bird_US_Autogen is TacticAerialDepictionTemplate
         ]        
 
         SubDepictionGenerators = [ SubGenerators_AH6C_Little_Bird_US ]
-)
-// Dépiction de l'unité AH6G_Little_Bird_US
-Op_AH6G_Little_Bird_US_Weapon1 is DepictionOperator_WeaponContinuousFire
-(
-    Anchors = 
-    [
-        "fx_tourelle1_tir_01",
-        "fx_tourelle1_tir_02",
-    ]
-    FireEffectTag = "weapon_effet_tag1"
-    NbFX = 2
-    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
-    WeaponShootDataPropertyName = "WeaponShootData_0_1"
-)
-Op_AH6G_Little_Bird_US_Weapon2 is DepictionOperator_WeaponMissileCarriageFire
-(
-    Connoisseur = MissileCarriage_AH6G_Little_Bird_US
-    FireEffectTag = "weapon_effet_tag2"
-    NbProj = 1
-    WeaponIndex = 1
-    WeaponShootDataPropertyName = 
-    [
-        "WeaponShootData_0_2",
-    ]
-)
-Gfx_AH6G_Little_Bird_US_Autogen is TacticAerialDepictionTemplate
-(
-    AdditionalTextures = HelicoDestTextures
-    Selector = SpecificHelicoDepictionSelector
-    CoatingName = 'AH6G_Little_Bird_US'
-    Alternatives = Alternatives_AH6G_Little_Bird_US
-
-    Operators = 
-        [
-            $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_LittleBird,
-            Op_AH6G_Little_Bird_US_Weapon1,
-            Op_AH6G_Little_Bird_US_Weapon2,
-            DepictionOperator_CriticalEffects,
-            DepictionOperator_HelicopterLanding,
-            DepictionOperator_GroundPuff_Helico,
-            DepictionOperator_ShadowPointCloudProvider,
-            DepictionOperator_Rotors
-            (
-                HelixList = 
-                [
-                    THelix
-                    (
-                        BladeCount = 4
-                        BladesBoneName = "helice_ls_1"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_1",
-                        ]
-                        Clockwise = False
-                        HelixBoneName = "bloc_moteur_1"
-                        RotationAxis = 2
-                        RotationSpeed = 242
-                    ),
-                    THelix
-                    (
-                        BladeCount = 2
-                        BladesBoneName = "helice_ls_2"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_2",
-                        ]
-                        Clockwise = False
-                        HelixBoneName = "bloc_moteur_2"
-                        RotationAxis = 1
-                        RotationSpeed = 242
-                    ),
-                ]
-            ),
-            DepictionOperator_Feedback_Degat_Level1,
-            DepictionOperator_Feedback_Degat_Level2,
-            DepictionOperator_Heat,
-        ]
-        Actions = MAP[
-                    ( [ "weapon_effet_tag1" ], Weapon_Gatling_m134_7_62mm_x2 ),
-                    ( [ "weapon_effet_tag2" ], Weapon_RocketAir_Hydra_70mm_x14 ),
-                ]
-                + DepictionAction_Stress_And_Wrecked_Helicopter
-                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 900 PaleCount = 4 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
-                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 170 PaleCount = 2 RotationAxis = float3[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
-                + DepictionAction_CriticalFX_Helicopter
-
-        SubDepictions = 
-
-        [
-            TSubDepiction
-            (
-                Anchors = 
-                [
-                    "pilot",
-                    "pilot2",
-                ]
-                Depiction = Pilot_Pilote_Helico_US
-            ),
-        ]        
-
-        SubDepictionGenerators = [ SubGenerators_AH6G_Little_Bird_US ]
 )
 // Dépiction de l'unité Alouette_III_FR
 Gfx_Alouette_III_FR_Autogen is TacticAerialDepictionTemplate
@@ -2129,78 +2028,6 @@ Gfx_Alouette_II_reco_RFA_Autogen is TacticAerialDepictionTemplate
     Selector = SpecificHelicoDepictionSelector
     CoatingName = 'Alouette_II_reco_RFA'
     Alternatives = Alternatives_Alouette_II_reco_RFA
-
-    Operators = 
-        [
-            $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Alouette,
-            DepictionOperator_CriticalEffects,
-            DepictionOperator_HelicopterLanding,
-            DepictionOperator_GroundPuff_Helico,
-            DepictionOperator_ShadowPointCloudProvider,
-            DepictionOperator_Rotors
-            (
-                HelixList = 
-                [
-                    THelix
-                    (
-                        BladeCount = 3
-                        BladesBoneName = "helice_ls_1"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_1",
-                        ]
-                        Clockwise = False
-                        HelixBoneName = "bloc_moteur_1"
-                        RotationAxis = 2
-                        RotationSpeed = 242
-                    ),
-                    THelix
-                    (
-                        BladeCount = 2
-                        BladesBoneName = "helice_ls_2"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_2",
-                        ]
-                        Clockwise = False
-                        HelixBoneName = "bloc_moteur_2"
-                        RotationAxis = 1
-                        RotationSpeed = 242
-                    ),
-                ]
-            ),
-            DepictionOperator_Feedback_Degat_Level1,
-            DepictionOperator_Feedback_Degat_Level2,
-            DepictionOperator_Heat,
-        ]
-        Actions = MAP[
-                ]
-                + DepictionAction_Stress_And_Wrecked_Helicopter
-                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1150 PaleCount = 3 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
-                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 250 PaleCount = 2 RotationAxis = float3[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
-                + DepictionAction_CriticalFX_Helicopter
-
-        SubDepictions = 
-
-        [
-            TSubDepiction
-            (
-                Anchors = 
-                [
-                    "pilot",
-                    "pilot2",
-                ]
-                Depiction = Pilot_Pilote_Helico_US
-            ),
-        ]        
-)
-// Dépiction de l'unité Alouette_II_trans_BEL
-Gfx_Alouette_II_trans_BEL_Autogen is TacticAerialDepictionTemplate
-(
-    AdditionalTextures = HelicoDestTextures
-    Selector = SpecificHelicoDepictionSelector
-    CoatingName = 'Alouette_II_trans_BEL'
-    Alternatives = Alternatives_Alouette_II_trans_BEL
 
     Operators = 
         [
@@ -3709,80 +3536,6 @@ Gfx_CH53G_trans_RFA_Autogen is TacticAerialDepictionTemplate
     Selector = SpecificHelicoDepictionSelector
     CoatingName = 'CH53G_trans_RFA'
     Alternatives = Alternatives_CH53G_trans_RFA
-
-    Operators = 
-        [
-            $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_CH53,
-            DepictionOperator_CriticalEffects,
-            DepictionOperator_HelicopterLanding,
-            DepictionOperator_GroundPuff_Helico,
-            DepictionOperator_ShadowPointCloudProvider,
-            DepictionOperator_Rotors
-            (
-                HelixList = 
-                [
-                    THelix
-                    (
-                        BladeCount = 6
-                        BladesBoneName = "helice_ls_1"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_1",
-                        ]
-                        Clockwise = False
-                        HelixBoneName = "bloc_moteur_1"
-                        RotationAxis = 2
-                        RotationSpeed = 242
-                    ),
-                    THelix
-                    (
-                        BladeCount = 4
-                        BladesBoneName = "helice_ls_2"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_2",
-                        ]
-                        Clockwise = False
-                        HelixBoneName = "bloc_moteur_2"
-                        RotationAxis = 1
-                        RotationSpeed = 242
-                    ),
-                ]
-            ),
-            DepictionOperator_Feedback_Degat_Level1,
-            DepictionOperator_Feedback_Degat_Level2,
-            DepictionOperator_Heat,
-            DepictionOperator_Flares,
-        ]
-        Actions = MAP[
-                ]
-                + DepictionAction_Stress_And_Wrecked_Helicopter
-                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 2500 PaleCount = 6 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
-                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 600 PaleCount = 4 RotationAxis = float3[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
-                + DepictionAction_CriticalFX_Helicopter
-                + DepictionAction_Flare_Simple
-
-        SubDepictions = 
-
-        [
-            TSubDepiction
-            (
-                Anchors = 
-                [
-                    "pilot",
-                    "pilot2",
-                ]
-                Depiction = Pilot_Pilote_Helico_US
-            ),
-        ]        
-)
-// Dépiction de l'unité CH53_Sea_Stallion_US
-Gfx_CH53_Sea_Stallion_US_Autogen is TacticAerialDepictionTemplate
-(
-    AdditionalTextures = HelicoDestTextures
-    Selector = SpecificHelicoDepictionSelector
-    CoatingName = 'CH53_Sea_Stallion_US'
-    Alternatives = Alternatives_CH53_Sea_Stallion_US
 
     Operators = 
         [
@@ -10071,7 +9824,7 @@ Gfx_Lynx_AH_Mk1_UK_Autogen is TacticAerialDepictionTemplate
                 (
                     Actions = 
                     MAP[
-                        ([ "weapon_effet_tag1" ], Weapon_MMG_FN_MAG_7_62mm),
+                        ([ "weapon_effet_tag1" ], Weapon_MMG_FN_MAG_7_62mm_Helo),
                     ]
                     AdditionalTextures = HelicoDestTextures
                     CoatingName = "Lynx_AH_Mk1_UK_turret1"
@@ -10919,16 +10672,20 @@ Op_MiG_21bis_RKT2_DDR_Weapon1 is DepictionOperator_WeaponContinuousFire
     WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
     WeaponShootDataPropertyName = "WeaponShootData_0_1"
 )
-Op_MiG_21bis_RKT2_DDR_Weapon2 is DepictionOperator_WeaponMissileCarriageFire
+Op_MiG_21bis_RKT2_DDR_Weapon2 is DepictionOperator_WeaponInstantFire
 (
-    Connoisseur = MissileCarriage_MiG_21bis_RKT2_DDR
+    Anchors = 
+    [
+        "fx_tourelle2_tir_01",
+        "fx_tourelle2_tir_02",
+        "fx_tourelle2_tir_03",
+        "fx_tourelle2_tir_04",
+    ]
     FireEffectTag = "weapon_effet_tag2"
-    NbProj = 2
-    WeaponIndex = 2
+    NbProj = 1
     WeaponShootDataPropertyName = 
     [
         "WeaponShootData_0_2",
-        "WeaponShootData_1_2",
     ]
 )
 Gfx_MiG_21bis_RKT2_DDR_Autogen is TacticAerialDepictionTemplate
@@ -10955,7 +10712,7 @@ Gfx_MiG_21bis_RKT2_DDR_Autogen is TacticAerialDepictionTemplate
         ]
         Actions = MAP[
                     ( [ "weapon_effet_tag1" ], Weapon_GatlingAir_GSh_23_23mm ),
-                    ( [ "weapon_effet_tag2" ], Weapon_FakeRoquette_S_24 ),
+                    ( [ "weapon_effet_tag2" ], Weapon_RocketAir_S24_240mm_x2 ),
                 ]
                 + DepictionAction_Stress_And_Wrecked_Avion
                 + DepictionAction_CriticalFX_Airplane
@@ -10975,7 +10732,14 @@ Gfx_MiG_21bis_RKT2_DDR_Autogen is TacticAerialDepictionTemplate
             ),
         ]        
 
-        SubDepictionGenerators = [ SubGenerators_MiG_21bis_RKT2_DDR ]
+        SubDepictionGenerators = [ RocketAirplaneSubDepictionTemplate(
+                UnitMeshDescriptor = $/GFX/DepictionResources/Modele_MiG_21bis_RKT2_DDR
+                RocketMeshDescriptor = $/GFX/DepictionResources/Modele_Missile_S_24_240mm
+                RocketCount = 4
+                WeaponIndex = 2
+                PhysicalProperty = "Tourelle2_MissileCount"
+                StartGroupIndex = 0
+            ) ]
 )
 // Dépiction de l'unité MiG_23BN_AT2_DDR
 Op_MiG_23BN_AT2_DDR_Weapon1 is DepictionOperator_WeaponContinuousFire
@@ -13731,6 +13495,139 @@ Gfx_Mi_24K_reco_SOV_Autogen is TacticAerialDepictionTemplate
 
         SubDepictionGenerators = [ SubGenerators_Mi_24K_reco_SOV ]
 )
+// Dépiction de l'unité Mi_24P_AA_SOV
+Op_Mi_24P_AA_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    Anchors = 
+    [
+        "fx_tourelle1_tir_01",
+    ]
+    FireEffectTag = "weapon_effet_tag1"
+    NbProj = 1
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_1",
+    ]
+)
+Op_Mi_24P_AA_SOV_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    Anchors = 
+    [
+        "fx_tourelle1_tir_01",
+    ]
+    FireEffectTag = "weapon_effet_tag2"
+    NbProj = 1
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_2",
+    ]
+)
+Op_Mi_24P_AA_SOV_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
+(
+    Connoisseur = MissileCarriage_Mi_24P_AA_SOV
+    FireEffectTag = "weapon_effet_tag3"
+    NbProj = 1
+    WeaponIndex = 3
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_3",
+    ]
+)
+Op_Mi_24P_AA_SOV_Weapon4 is DepictionOperator_WeaponMissileCarriageFire
+(
+    Connoisseur = MissileCarriage_Mi_24P_AA_SOV
+    FireEffectTag = "weapon_effet_tag4"
+    NbProj = 1
+    WeaponIndex = 2
+    WeaponShootDataPropertyName = 
+    [
+        "WeaponShootData_0_4",
+    ]
+)
+Gfx_Mi_24P_AA_SOV_Autogen is TacticAerialDepictionTemplate
+(
+    AdditionalTextures = HelicoDestTextures
+    Selector = SpecificHelicoDepictionSelector
+    CoatingName = 'Mi_24P_AA_SOV'
+    Alternatives = Alternatives_Mi_24P_AA_SOV
+
+    Operators = 
+        [
+            $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_Turret_1_Aim,
+            Op_Mi_24P_AA_SOV_Weapon1,
+            Op_Mi_24P_AA_SOV_Weapon2,
+            Op_Mi_24P_AA_SOV_Weapon3,
+            Op_Mi_24P_AA_SOV_Weapon4,
+            DepictionOperator_CriticalEffects,
+            DepictionOperator_HelicopterLanding,
+            DepictionOperator_GroundPuff_Helico,
+            DepictionOperator_ShadowPointCloudProvider,
+            DepictionOperator_Rotors
+            (
+                HelixList = 
+                [
+                    THelix
+                    (
+                        BladeCount = 5
+                        BladesBoneName = "helice_ls_1"
+                        BlurActionId = 
+                        [
+                            "FX_Helice_1",
+                        ]
+                        Clockwise = False
+                        HelixBoneName = "bloc_moteur_1"
+                        RotationAxis = 2
+                        RotationSpeed = 242
+                    ),
+                    THelix
+                    (
+                        BladeCount = 3
+                        BladesBoneName = "helice_ls_2"
+                        BlurActionId = 
+                        [
+                            "FX_Helice_2",
+                        ]
+                        Clockwise = False
+                        HelixBoneName = "bloc_moteur_2"
+                        RotationAxis = 1
+                        RotationSpeed = 242
+                    ),
+                ]
+            ),
+            DepictionOperator_Feedback_Degat_Level1,
+            DepictionOperator_Feedback_Degat_Level2,
+            DepictionOperator_Heat,
+            DepictionOperator_Flares,
+        ]
+        Actions = MAP[
+                    ( [ "weapon_effet_tag1" ], Weapon_AutoCanon_AP_30mm_Bitube_Gsh30k ),
+                    ( [ "weapon_effet_tag2" ], Weapon_AutoCanon_HE_30mm_Bitube_Gsh30k ),
+                    ( [ "weapon_effet_tag3" ], Weapon_AA_R60M_Vympel_helo ),
+                    ( [ "weapon_effet_tag4" ], Weapon_RocketAir_S5_57mm_x8 ),
+                ]
+                + DepictionAction_Stress_And_Wrecked_Helicopter
+                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 2000 PaleCount = 5 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
+                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 450 PaleCount = 3 RotationAxis = float3[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
+                + DepictionAction_CriticalFX_Helicopter
+                + DepictionAction_Flare_Simple
+
+        SubDepictions = 
+
+        [
+            TSubDepiction
+            (
+                Anchors = 
+                [
+                    "pilot",
+                    "pilot2",
+                ]
+                Depiction = Pilot_Pilote_Helico_SOV
+            ),
+        ]        
+
+        SubDepictionGenerators = [ SubGenerators_Mi_24P_AA_SOV ]
+)
 // Dépiction de l'unité Mi_24P_SOV
 Op_Mi_24P_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -15872,16 +15769,18 @@ Op_Mi_8TV_Gunship_SOV_Weapon2 is DepictionOperator_WeaponMissileCarriageFire
         "WeaponShootData_0_2",
     ]
 )
-Op_Mi_8TV_Gunship_SOV_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
+Op_Mi_8TV_Gunship_SOV_Weapon3 is DepictionOperator_WeaponInstantFire
 (
-    Connoisseur = MissileCarriage_Mi_8TV_Gunship_SOV
+    Anchors = 
+    [
+        "fx_tourelle3_tir_01",
+        "fx_tourelle3_tir_02",
+    ]
     FireEffectTag = "weapon_effet_tag3"
-    NbProj = 2
-    WeaponIndex = 3
+    NbProj = 1
     WeaponShootDataPropertyName = 
     [
         "WeaponShootData_0_3",
-        "WeaponShootData_1_3",
     ]
 )
 Gfx_Mi_8TV_Gunship_SOV_Autogen is TacticAerialDepictionTemplate
@@ -15940,7 +15839,7 @@ Gfx_Mi_8TV_Gunship_SOV_Autogen is TacticAerialDepictionTemplate
         Actions = MAP[
                     ( [ "weapon_effet_tag1" ], Weapon_RocketAir_B8_80mm_x20 ),
                     ( [ "weapon_effet_tag2" ], Weapon_AA_R60M_Vympel ),
-                    ( [ "weapon_effet_tag3" ], Weapon_FakeRoquette_S_24_helo ),
+                    ( [ "weapon_effet_tag3" ], Weapon_RocketAir_S24_240mm_x2 ),
                 ]
                 + DepictionAction_Stress_And_Wrecked_Helicopter
                 + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 2030 PaleCount = 5 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
@@ -15961,7 +15860,14 @@ Gfx_Mi_8TV_Gunship_SOV_Autogen is TacticAerialDepictionTemplate
             ),
         ]        
 
-        SubDepictionGenerators = [ SubGenerators_Mi_8TV_Gunship_SOV ]
+        SubDepictionGenerators = [ SubGenerators_Mi_8TV_Gunship_SOV,RocketSubDepictionTemplate(
+                UnitMeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8TV_Gunship_SOV
+                RocketMeshDescriptor = $/GFX/DepictionResources/Modele_Missile_S_24_240mm
+                RocketCount = 2
+                WeaponIndex = 3
+                PhysicalProperty = "Tourelle3_MissileCount"
+                StartGroupIndex = 2
+            ) ]
 )
 // Dépiction de l'unité Mi_8TV_PodGatling_DDR
 Op_Mi_8TV_PodGatling_DDR_Weapon1 is DepictionOperator_WeaponContinuousFire
@@ -19561,80 +19467,6 @@ Gfx_Puma_UK_Autogen is TacticAerialDepictionTemplate
             ),
         ]        
 )
-// Dépiction de l'unité SeaKing_Mk48_BEL
-Gfx_SeaKing_Mk48_BEL_Autogen is TacticAerialDepictionTemplate
-(
-    AdditionalTextures = HelicoDestTextures
-    Selector = SpecificHelicoDepictionSelector
-    CoatingName = 'SeaKing_Mk48_BEL'
-    Alternatives = Alternatives_SeaKing_Mk48_BEL
-
-    Operators = 
-        [
-            $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Sea_King,
-            DepictionOperator_CriticalEffects,
-            DepictionOperator_HelicopterLanding,
-            DepictionOperator_GroundPuff_Helico,
-            DepictionOperator_ShadowPointCloudProvider,
-            DepictionOperator_Rotors
-            (
-                HelixList = 
-                [
-                    THelix
-                    (
-                        BladeCount = 5
-                        BladesBoneName = "helice_ls_1"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_1",
-                        ]
-                        Clockwise = False
-                        HelixBoneName = "bloc_moteur_1"
-                        RotationAxis = 2
-                        RotationSpeed = 242
-                    ),
-                    THelix
-                    (
-                        BladeCount = 6
-                        BladesBoneName = "helice_ls_2"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_2",
-                        ]
-                        Clockwise = True
-                        HelixBoneName = "bloc_moteur_2"
-                        RotationAxis = 1
-                        RotationSpeed = 242
-                    ),
-                ]
-            ),
-            DepictionOperator_Feedback_Degat_Level1,
-            DepictionOperator_Feedback_Degat_Level2,
-            DepictionOperator_Heat,
-            DepictionOperator_Flares,
-        ]
-        Actions = MAP[
-                ]
-                + DepictionAction_Stress_And_Wrecked_Helicopter
-                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1800 PaleCount = 5 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
-                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 380 PaleCount = 6 RotationAxis = float3[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
-                + DepictionAction_CriticalFX_Helicopter
-                + DepictionAction_Flare_Simple
-
-        SubDepictions = 
-
-        [
-            TSubDepiction
-            (
-                Anchors = 
-                [
-                    "pilot",
-                    "pilot2",
-                ]
-                Depiction = Pilot_Pilote_Helico_US
-            ),
-        ]        
-)
 // Dépiction de l'unité Su_17M4_SOV
 Op_Su_17M4_SOV_Weapon1 is DepictionOperator_WeaponContinuousFire
 (
@@ -22430,6 +22262,17 @@ Op_UH1D_RFA_Weapon1 is DepictionOperator_WeaponContinuousFire
     WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
     WeaponShootDataPropertyName = "WeaponShootData_0_1"
 )
+Op_UH1D_RFA_Weapon2 is DepictionOperator_WeaponContinuousFire
+(
+    Anchors = 
+    [
+        "fx_tourelle2_tir_01",
+    ]
+    FireEffectTag = "weapon_effet_tag2"
+    NbFX = 1
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_2"
+    WeaponShootDataPropertyName = "WeaponShootData_0_2"
+)
 Gfx_UH1D_RFA_Autogen is TacticAerialDepictionTemplate
 (
     AdditionalTextures = HelicoDestTextures
@@ -22441,7 +22284,9 @@ Gfx_UH1D_RFA_Autogen is TacticAerialDepictionTemplate
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Huey,
             DepictionOperator_Turret_1_Aim,
+            DepictionOperator_Turret_2_Aim,
             Op_UH1D_RFA_Weapon1,
+            Op_UH1D_RFA_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -22483,7 +22328,8 @@ Gfx_UH1D_RFA_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_Heat,
         ]
         Actions = MAP[
-                    ( [ "weapon_effet_tag1" ], Weapon_MMG_MG3_7_62mm ),
+                    ( [ "weapon_effet_tag1" ], Weapon_MMG_MG3_7_62mm_helo ),
+                    ( [ "weapon_effet_tag2" ], Weapon_MMG_MG3_7_62mm_helo ),
                 ]
                 + DepictionAction_Stress_And_Wrecked_Helicopter
                 + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1700 PaleCount = 2 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
@@ -22577,18 +22423,27 @@ Gfx_UH1D_Supply_RFA_Autogen is TacticAerialDepictionTemplate
         ]        
 )
 // Dépiction de l'unité UH1H_Huey_US
-Op_UH1H_Huey_US_Weapon1 is DepictionOperator_WeaponInstantFire
+Op_UH1H_Huey_US_Weapon1 is DepictionOperator_WeaponContinuousFire
 (
     Anchors = 
     [
         "fx_tourelle1_tir_01",
     ]
     FireEffectTag = "weapon_effet_tag1"
-    NbProj = 1
-    WeaponShootDataPropertyName = 
+    NbFX = 1
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+)
+Op_UH1H_Huey_US_Weapon2 is DepictionOperator_WeaponContinuousFire
+(
+    Anchors = 
     [
-        "WeaponShootData_0_1",
+        "fx_tourelle2_tir_01",
     ]
+    FireEffectTag = "weapon_effet_tag2"
+    NbFX = 1
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_2"
+    WeaponShootDataPropertyName = "WeaponShootData_0_2"
 )
 Gfx_UH1H_Huey_US_Autogen is TacticAerialDepictionTemplate
 (
@@ -22601,7 +22456,9 @@ Gfx_UH1H_Huey_US_Autogen is TacticAerialDepictionTemplate
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Huey,
             DepictionOperator_Turret_1_Aim,
+            DepictionOperator_Turret_2_Aim,
             Op_UH1H_Huey_US_Weapon1,
+            Op_UH1H_Huey_US_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -22643,7 +22500,8 @@ Gfx_UH1H_Huey_US_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_Heat,
         ]
         Actions = MAP[
-                    ( [ "weapon_effet_tag1" ], Weapon_MMG_M60_7_62mm ),
+                    ( [ "weapon_effet_tag1" ], Weapon_MMG_M60_7_62mm_helo ),
+                    ( [ "weapon_effet_tag2" ], Weapon_MMG_M60_7_62mm_helo ),
                 ]
                 + DepictionAction_Stress_And_Wrecked_Helicopter
                 + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1700 PaleCount = 2 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_1" ))]

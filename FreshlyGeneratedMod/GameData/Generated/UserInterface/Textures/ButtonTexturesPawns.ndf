@@ -443,6 +443,7 @@ PawnButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Pawn_pion_RFA_TKNord_Jag732", MAP [( ~/ComponentState/Normal, UIButtonUnit( FileName = "Assets/2D/Interface/Common/PawnsIcons/EU/default.png"))]),
         ("Texture_Button_Pawn_pion_RFA_TKNord_Jag733", MAP [( ~/ComponentState/Normal, UIButtonUnit( FileName = "Assets/2D/Interface/Common/PawnsIcons/EU/default.png"))]),
         ("Texture_Button_Pawn_pion_RFA_TKNord_Pz633", MAP [( ~/ComponentState/Normal, UIButtonUnit( FileName = "Assets/2D/Interface/Common/PawnsIcons/EU/default.png"))]),
+        ("Texture_Button_Pawn_pion_RFA_TKNord_VBK_III_GROUPE", MAP [( ~/ComponentState/Normal, UIButtonUnit( FileName = "Assets/2D/Interface/Common/PawnsIcons/EU/default.png"))]),
         ("Texture_Button_Pawn_pion_RFA_TKSud", MAP [( ~/ComponentState/Normal, UIButtonUnit( FileName = "Assets/2D/Interface/Common/PawnsIcons/EU/default.png"))]),
         ("Texture_Button_Pawn_pion_RFA_TKSud_441Sich", MAP [( ~/ComponentState/Normal, UIButtonUnit( FileName = "Assets/2D/Interface/Common/PawnsIcons/EU/default.png"))]),
         ("Texture_Button_Pawn_pion_RFA_TKSud_4431Sich", MAP [( ~/ComponentState/Normal, UIButtonUnit( FileName = "Assets/2D/Interface/Common/PawnsIcons/EU/default.png"))]),

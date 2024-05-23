@@ -21,8 +21,6 @@ private deploiementGamePhaseDescriptor is TDeploiementGamePhaseDescriptor
 (
     GamePhaseType = $/GFX/Skirmish/DeploiementPhase
 
-    PourcentPointUniteADepenserPourDegriserBouton = 0
-
 // la description pour NotSpecified est obligatoire, c'est celle par défaut pour tous les modes
     ListeProprietesTempsGrace = MAP [
         (

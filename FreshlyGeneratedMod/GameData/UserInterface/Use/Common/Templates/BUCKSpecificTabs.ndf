@@ -146,7 +146,8 @@ template BUCKSpecific_Fulda_WithTabsComponentDescriptor
 
     RedefinedTabsContainer : TBUCKContainerDescriptor = nil,
 
-    CanReselectTabs : bool = false
+    CanReselectTabs : bool = false,
+    ShowTabsFirst : bool = false,
 ]
 is BUCKWithTabsDescriptor
 (
@@ -159,16 +160,18 @@ is BUCKWithTabsDescriptor
     BackgroundBlockColorToken = <BackgroundBlockColorToken>
 
     HidePointerEvents = <HidePointerEvents>
-    InterMarginBetwwenTabsAndContent = TRTTILength(Magnifiable = 40.0)
+    InterMarginBetwwenTabsAndContent = TRTTILength(Magnifiable = 51.0)
     FitStyle = <FitStyle>
 
     TabsAndContent = <TabsAndContent>
 
     TabsListBackgroundColorToken = ""
     RedefinedTabsContainer = <RedefinedTabsContainer>
+    Axis = ~/ListAxis/Horizontal
 
     CanReselectTabs = <CanReselectTabs>
 
     IsFocusable = true
+    ShowTabsFirst = <ShowTabsFirst>
 )
 

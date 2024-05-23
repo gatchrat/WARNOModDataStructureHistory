@@ -1,6 +1,151 @@
 // Ne pas éditer, ce fichier est auto-généré !
 
 
+Eject_Actions_AMX_10_RCR_FR is MAP
+[
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_10_RCR_FR_DebrisFX_Tourelle_01
+        )
+    ),
+    ( [ "fx_eject_roue_droite_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_10_RCR_FR_DebrisFX_Roue_Droite_01
+        )
+    ),
+    ( [ "fx_eject_roue_gauche_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_10_RCR_FR_DebrisFX_Roue_Gauche_01
+        )
+    ),
+    ( [ "fx_eject_tourelle_02" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_10_RCR_FR_DebrisFX_Tourelle_02
+        )
+    ),
+]
+Eject_Actions_AMX_10_RC_FR is MAP
+[
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_10_RC_FR_DebrisFX_Tourelle_01
+        )
+    ),
+    ( [ "fx_eject_roue_droite_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_10_RC_FR_DebrisFX_Roue_Droite_01
+        )
+    ),
+    ( [ "fx_eject_roue_gauche_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_10_RC_FR_DebrisFX_Roue_Gauche_01
+        )
+    ),
+]
+Eject_Actions_AMX_13_90mm_FR is MAP
+[
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_13_90mm_FR_DebrisFX_Tourelle_01
+        )
+    ),
+]
+Eject_Actions_AMX_13_VCI_20mm_FR is MAP
+[
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_13_VCI_20mm_FR_DebrisFX_Tourelle_01
+        )
+    ),
+]
+Eject_Actions_AMX_30_B2_Brennus_FR is MAP
+[
+    ( [ "fx_eject_props_1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_B2_Brennus_FR_DebrisFX_Props_1
+        )
+    ),
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_B2_Brennus_FR_DebrisFX_Tourelle_01
+        )
+    ),
+]
+Eject_Actions_AMX_30_B2_CMD_FR is MAP
+[
+    ( [ "fx_eject_props_1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_B2_CMD_FR_DebrisFX_Props_1
+        )
+    ),
+    ( [ "fx_eject_props_2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_B2_CMD_FR_DebrisFX_Props_2
+        )
+    ),
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_B2_CMD_FR_DebrisFX_Tourelle_01
+        )
+    ),
+]
+Eject_Actions_AMX_30_B2_FR is MAP
+[
+    ( [ "fx_eject_props_1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_B2_FR_DebrisFX_Props_1
+        )
+    ),
+    ( [ "fx_eject_props_2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_B2_FR_DebrisFX_Props_2
+        )
+    ),
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_B2_FR_DebrisFX_Tourelle_01
+        )
+    ),
+]
+Eject_Actions_AMX_30_B_CMD_FR is MAP
+[
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_B_CMD_FR_DebrisFX_Tourelle_01
+        )
+    ),
+]
+Eject_Actions_AMX_30_B_FR is MAP
+[
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_B_FR_DebrisFX_Tourelle_01
+        )
+    ),
+]
+Eject_Actions_AMX_30_EBG_FR is MAP
+[
+    ( [ "fx_eject_props_1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_EBG_FR_DebrisFX_Props_1
+        )
+    ),
+    ( [ "fx_eject_props_2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_EBG_FR_DebrisFX_Props_2
+        )
+    ),
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_EBG_FR_DebrisFX_Tourelle_01
+        )
+    ),
+    ( [ "fx_eject_tourelle_02" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/AMX_30_EBG_FR_DebrisFX_Tourelle_02
+        )
+    ),
+]
 Eject_Actions_BMD_2_CMD_SOV is MAP
 [
     ( [ "fx_eject_blindage_d1" ], template_UnitDebrisHappening
@@ -404,6 +549,178 @@ Eject_Actions_BMP_2_reco_SOV is MAP
     ( [ "fx_eject_tourelle_02" ], template_UnitDebrisHappening
         (
             Action = $/GFX/GameFx/BMP_2_reco_SOV_DebrisFX_Tourelle_02
+        )
+    ),
+]
+Eject_Actions_Challenger_1_Mk1_CMD_UK is MAP
+[
+    ( [ "fx_eject_blindage_d1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_CMD_UK_DebrisFX_Blindage_D1
+        )
+    ),
+    ( [ "fx_eject_blindage_g1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_CMD_UK_DebrisFX_Blindage_G1
+        )
+    ),
+    ( [ "fx_eject_blindage_d2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_CMD_UK_DebrisFX_Blindage_D2
+        )
+    ),
+    ( [ "fx_eject_blindage_g2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_CMD_UK_DebrisFX_Blindage_G2
+        )
+    ),
+    ( [ "fx_eject_blindage_d3" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_CMD_UK_DebrisFX_Blindage_D3
+        )
+    ),
+    ( [ "fx_eject_blindage_g3" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_CMD_UK_DebrisFX_Blindage_G3
+        )
+    ),
+    ( [ "fx_eject_blindage_d4" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_CMD_UK_DebrisFX_Blindage_D4
+        )
+    ),
+    ( [ "fx_eject_blindage_g4" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_CMD_UK_DebrisFX_Blindage_G4
+        )
+    ),
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_CMD_UK_DebrisFX_Tourelle_01
+        )
+    ),
+]
+Eject_Actions_Challenger_1_Mk1_UK is MAP
+[
+    ( [ "fx_eject_blindage_d1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_UK_DebrisFX_Blindage_D1
+        )
+    ),
+    ( [ "fx_eject_blindage_g1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_UK_DebrisFX_Blindage_G1
+        )
+    ),
+    ( [ "fx_eject_blindage_d2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_UK_DebrisFX_Blindage_D2
+        )
+    ),
+    ( [ "fx_eject_blindage_g2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_UK_DebrisFX_Blindage_G2
+        )
+    ),
+    ( [ "fx_eject_blindage_d3" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_UK_DebrisFX_Blindage_D3
+        )
+    ),
+    ( [ "fx_eject_blindage_g3" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_UK_DebrisFX_Blindage_G3
+        )
+    ),
+    ( [ "fx_eject_blindage_d4" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_UK_DebrisFX_Blindage_D4
+        )
+    ),
+    ( [ "fx_eject_blindage_g4" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_UK_DebrisFX_Blindage_G4
+        )
+    ),
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk1_UK_DebrisFX_Tourelle_01
+        )
+    ),
+]
+Eject_Actions_Challenger_1_Mk3_UK is MAP
+[
+    ( [ "fx_eject_blindage_d1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Blindage_D1
+        )
+    ),
+    ( [ "fx_eject_blindage_g1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Blindage_G1
+        )
+    ),
+    ( [ "fx_eject_blindage_d2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Blindage_D2
+        )
+    ),
+    ( [ "fx_eject_blindage_g2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Blindage_G2
+        )
+    ),
+    ( [ "fx_eject_blindage_d3" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Blindage_D3
+        )
+    ),
+    ( [ "fx_eject_blindage_g3" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Blindage_G3
+        )
+    ),
+    ( [ "fx_eject_blindage_d4" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Blindage_D4
+        )
+    ),
+    ( [ "fx_eject_blindage_g4" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Blindage_G4
+        )
+    ),
+    ( [ "fx_eject_props_1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Props_1
+        )
+    ),
+    ( [ "fx_eject_props_2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Props_2
+        )
+    ),
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/Challenger_1_Mk3_UK_DebrisFX_Tourelle_01
+        )
+    ),
+]
+Eject_Actions_FV4003_Centurion_AVRE_UK is MAP
+[
+    ( [ "fx_eject_props_1" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/FV4003_Centurion_AVRE_UK_DebrisFX_Props_1
+        )
+    ),
+    ( [ "fx_eject_props_2" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/FV4003_Centurion_AVRE_UK_DebrisFX_Props_2
+        )
+    ),
+    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
+        (
+            Action = $/GFX/GameFx/FV4003_Centurion_AVRE_UK_DebrisFX_Tourelle_01
         )
     ),
 ]
@@ -1143,85 +1460,11 @@ Eject_Actions_M3A2_Bradley_CFV_US is MAP
         )
     ),
 ]
-Eject_Actions_M48_Chaparral_MIM72F_US is MAP
-[
-    ( [ "fx_eject_props_1" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/M48_Chaparral_MIM72F_US_DebrisFX_Props_1
-        )
-    ),
-    ( [ "fx_eject_props_2" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/M48_Chaparral_MIM72F_US_DebrisFX_Props_2
-        )
-    ),
-    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/M48_Chaparral_MIM72F_US_DebrisFX_Tourelle_01
-        )
-    ),
-]
 Eject_Actions_Roland_2_FR is MAP
 [
     ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
         (
             Action = $/GFX/GameFx/Roland_2_FR_DebrisFX_Tourelle_01
-        )
-    ),
-]
-Eject_Actions_T55A_CMD_SOV is MAP
-[
-    ( [ "fx_eject_props_1" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/T55A_CMD_SOV_DebrisFX_Props_1
-        )
-    ),
-    ( [ "fx_eject_props_2" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/T55A_CMD_SOV_DebrisFX_Props_2
-        )
-    ),
-    ( [ "fx_eject_props_3" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/T55A_CMD_SOV_DebrisFX_Props_3
-        )
-    ),
-    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/T55A_CMD_SOV_DebrisFX_Tourelle_01
-        )
-    ),
-    ( [ "fx_eject_tourelle_02" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/T55A_CMD_SOV_DebrisFX_Tourelle_02
-        )
-    ),
-]
-Eject_Actions_T55A_SOV is MAP
-[
-    ( [ "fx_eject_props_1" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/T55A_SOV_DebrisFX_Props_1
-        )
-    ),
-    ( [ "fx_eject_props_2" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/T55A_SOV_DebrisFX_Props_2
-        )
-    ),
-    ( [ "fx_eject_props_3" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/T55A_SOV_DebrisFX_Props_3
-        )
-    ),
-    ( [ "fx_eject_tourelle_01" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/T55A_SOV_DebrisFX_Tourelle_01
-        )
-    ),
-    ( [ "fx_eject_tourelle_02" ], template_UnitDebrisHappening
-        (
-            Action = $/GFX/GameFx/T55A_SOV_DebrisFX_Tourelle_02
         )
     ),
 ]

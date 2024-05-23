@@ -181,9 +181,10 @@ template BUCKWithTabsDescriptor
     TabsListBackgroundColorToken : string = "",                                       // Donne un background a la ligne des tabs
     RedefinedTabsContainer : TBUCKContainerDescriptor = nil,                          // Permet de redéfinir le conteneur des titre d'onglets
 
-    Axis : int = ~/ListAxis/Horizontal,                                               // Axe de la liste d'onglets
+    Axis : int,                                                                       // Axe de la liste d'onglets
 
-    IsFocusable : bool = false                                                        // Détermine si les onglets sont focusables
+    IsFocusable : bool = false,                                                       // Détermine si les onglets sont focusables
+    ShowTabsFirst : bool = false,                                                     // Détermine si les onglets précèdent le contenu dans l'affichage
 ]
 is TBUCKWithTabsDescriptor
 (
@@ -248,8 +249,8 @@ is TBUCKWithTabsDescriptor
             Axis = (<Axis> == ~/ListAxis/Horizontal ? ~/ListAxis/Vertical : ~/ListAxis/Horizontal)
 
             Elements =
-            [
-                BUCKListElementDescriptor                                                   // Contenu
+            (<ShowTabsFirst> ? [] : [
+                BUCKListElementDescriptor
                 (
                     ExtendWeight = 1.0
                     ComponentDescriptor = BUCKContainerDescriptor
@@ -260,7 +261,9 @@ is TBUCKWithTabsDescriptor
                             RelativeWidthHeight = [1.0, 1.0]
                         )
                     )
-                ),
+                )
+            ]) +
+            [
                 BUCKListElementDescriptor
                 (
                     MinSize = TRTTILength( Magnifiable = 75.0 )
@@ -292,7 +295,22 @@ is TBUCKWithTabsDescriptor
                         )
                     )
                 )
-            ]
+            ] +
+            (<ShowTabsFirst> ? [
+                BUCKListElementDescriptor
+                (
+                    ExtendWeight = 1.0
+                    ComponentDescriptor = BUCKContainerDescriptor
+                    (
+                        ElementName = <ElementName> + "Content"
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            RelativeWidthHeight = [1.0, 1.0]
+                        )
+                    )
+                )
+            ] : [])
+
         )
     ]
 )

@@ -27,7 +27,7 @@ WeaponTypePriorities is TWeaponTypePrioritiesHolder
         (DamageFamily_he, EWeaponRangeDependant/NotDefined),
     ]
 
-    DistanceToConsiderAsFar = 1000 * Metre // Attention, cette valeur est dans l'unité du feedback de tir
+    DistanceToConsiderAsFarGRU = 1000
 
     Score_OnRange = 8 //Bonus au score selon que l'arme soit a portee ou pas
     Score_OutOfRange = 0

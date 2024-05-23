@@ -20,36 +20,6 @@ template TemplateTFS_Division
     ShaderDescriptor = $/M3D/Shader/MaterialInterface2D_Blend
 )
 
-template TFSCommand_ChangeColor
-[
-    Color = [255, 255, 255, 255]
-] is TTFSCommand_StyleChange
-(
-    Style = TTextStyle
-    (
-        FontSize    = 1
-        ColorBottom = <Color>
-        ColorUp     = <Color>
-        Stroke = false
-    )
-)
-
-export ResourceFeedbackTextSize is 18
-
-template TFSCommand_ChangeColorForResourceFeedback
-[
-    Color = [255, 255, 255, 255]
-] is TTFSCommand_StyleChange
-(
-    Style = TTextStyle
-    (
-        FontSize    = ResourceFeedbackTextSize
-        ColorBottom = <Color>
-        ColorUp     = <Color>
-        Stroke = false
-    )
-)
-
 DefaultStyleGuide is TUIStyleGuide
 (
     CommonResource          = ~/UICommonResource
@@ -2481,7 +2451,9 @@ DefaultStyleGuide is TUIStyleGuide
         ("SM_xanadu",                           MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = xanadu ) ),]),
         ("SM_paleSilver",                       MAP [
                                                         ( ~/ComponentState/Normal,                 TColorRTTI( Color = paleSilver ) ),
-                                                        ( ~/ComponentState/Highlighted,                 TColorRTTI( Color = [210,216,240,255] ) ),
+                                                        ( ~/ComponentState/Highlighted,            TColorRTTI( Color = [210,216,240,255] ) ),
+                                                        ( ~/ComponentState/Toggled,                TColorRTTI( Color = [204,192,182,255] ) ),
+                                                        ( ~/ComponentState/ToggleHighlighted,      TColorRTTI( Color = [210,216,240,255] ) ),
                                                         ( ~/ComponentState/Grayed,                 TColorRTTI( Color = [204 - 20,192 - 20,182 - 20,100] ) ),
                                                     ]),
         ("SM_onyx",                             MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = onyx ) ),]),
@@ -2492,6 +2464,11 @@ DefaultStyleGuide is TUIStyleGuide
                                                         ( ~/ComponentState/Normal,                 TColorRTTI( Color = Feldgrau ) ),
                                                         ( ~/ComponentState/Highlighted,            TColorRTTI( Color = [93,116,88,255] ) ),
                                                         ( ~/ComponentState/Toggled,                TColorRTTI( Color = [101,128,96,255] ) ),
+                                                    ]),
+        ("SM_Feldgrau_NoToggle",                  MAP [
+                                                        ( ~/ComponentState/Normal,                 TColorRTTI( Color = [101,128,96,255] ) ),
+                                                        ( ~/ComponentState/Highlighted,            TColorRTTI( Color = [93,116,88,255] ) ),
+                                                        ( ~/ComponentState/Grayed,                 TColorRTTI( Color = Feldgrau ) ),
                                                     ]),
         ("SM_Feldgrau_75",                         MAP [
                                                         ( ~/ComponentState/Normal,                 TColorRTTI( Color = [73,91,69,220] ) ),
@@ -2507,6 +2484,10 @@ DefaultStyleGuide is TUIStyleGuide
         ("SM_Grullo",                           MAP [
                                                         ( ~/ComponentState/Normal,                 TColorRTTI( Color = Grullo ) ),
                                                         ( ~/ComponentState/Highlighted,                 TColorRTTI( Color = [210,216,240,255] ) ),
+                                                        ( ~/ComponentState/Grayed,                 TColorRTTI( Color = [210,216,240,50] ) ),
+                                                    ]),
+        ("SM_Grullo_NoToggle",                           MAP [
+                                                        ( ~/ComponentState/Normal,                 TColorRTTI( Color = [210,216,240,255] ) ),
                                                         ( ~/ComponentState/Grayed,                 TColorRTTI( Color = [210,216,240,50] ) ),
                                                     ]),
         ("SM_Grullo_2",                           MAP [
@@ -2528,6 +2509,7 @@ DefaultStyleGuide is TUIStyleGuide
         ("SM_DarkLava",                         MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = DarkLava ) ),]),
 
         ("SM_Noir",                             MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [30,32,33,255] ) ),]),
+        ("Transparent_SM_Noir",                             MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [30,32,33, 175] ) ),]),
         ("SM_Noir_80",                             MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [30,32,33,240] ) ),]),
         ("SM_renfort_nonAvailable",MAP [
                                         ( ~/ComponentState/Normal,                 TColorRTTI( Color = [30,32,33,255] ) ),
@@ -2655,8 +2637,13 @@ DefaultStyleGuide is TUIStyleGuide
         ("pi2",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [127,255,117,255] ) ),]),
         ("pi3",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [67,255,255,255] ) ),]),
 
-
         ("score_05b",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [255,187,181,255] ) ),]),
+
+
+        ("moral_color_bad_1",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [255,228,0,255] ) ),]),
+        ("moral_color_bad_2",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [255,156,0,255] ) ),]),
+        ("moral_color_bad_3",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [255,74,57,255] ) ),]),
+        ("moral_color_bad_4",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [61,21,17,255] ) ),]),
 
         // labelVille
 
@@ -3118,6 +3105,12 @@ DefaultStyleGuide is TUIStyleGuide
                                     ( ~/ComponentState/Toggled,           TColorRTTI( Color = [234,243,245,255] ) ),
                                     ( ~/ComponentState/ToggleHighlighted, TColorRTTI( Color = Blanc ) ),
                                     ( ~/ComponentState/ToggleClicked,     TColorRTTI( Color = Blanc184 ) ),
+                                ]),
+        ("CouleurTexture_boutonShortcutsStrategic_NoToggle", MAP [
+                                    ( ~/ComponentState/Grayed,            TColorRTTI( Color = [255,255,255,80] ) ),
+                                    ( ~/ComponentState/Normal,           TColorRTTI( Color = [234,243,245,255] ) ),
+                                    ( ~/ComponentState/Highlighted, TColorRTTI( Color = Blanc ) ),
+                                    ( ~/ComponentState/Clicked,     TColorRTTI( Color = Blanc184 ) ),
                                 ]),
         ("CouleurFond_boutonShortcuts", MAP [
 

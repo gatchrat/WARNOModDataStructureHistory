@@ -28,6 +28,8 @@ Playlist_Outgame is
     Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Synchronicity.wav" ),
     Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Things_Are_Stranger.wav" ),
     Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Through-The-Night.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Light_Grid.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Rock_Star.wav" ),
 ]
 
 
@@ -62,6 +64,8 @@ Playlist_Ingame is
     Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/TRIPTIDON_Sinful.wav" ),
     Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Things_Are_Stranger.wav" ),
     Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Third-Degree.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Light_Grid.wav" ),
+    Music( Copyrighted = true FileName = "GameData:/Assets/Sons/PerpetualMusic/Rock_Star.wav" ),
 ]
 
 template Music

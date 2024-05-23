@@ -121,6 +121,4 @@ InGameMinimap is TUISpecificInGameMinimapResources
     SeuilRotateCameraInDegree           = 20
 
     DistrictColor                       = RGBA[255, 252,  58, 255]
-
-    MinimapPanelDescriptor = ~/MinimapPanelDescriptor
 )

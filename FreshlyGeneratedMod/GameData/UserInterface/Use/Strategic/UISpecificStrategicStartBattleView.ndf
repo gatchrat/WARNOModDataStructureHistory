@@ -38,6 +38,7 @@ private StartBattleBoutonsList is BUCKListDescriptor
             ElementName = 'CancelButton'
             TextToken = "BtnCanPrep"
             HintBodyToken = "BtnCanPreH"
+            Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
         )
     ]
 )

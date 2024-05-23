@@ -63,7 +63,7 @@ is TDepictionTemplate
     Selector = <Selector>
     DepictionAlternatives = [
         TDepictionDescriptor(
-            SelectorId = ['high']
+            SelectorId = [LOD_High]
             MeshDescriptor = <ProjectileModelResource>
             ),
     ]
@@ -120,6 +120,19 @@ is TemplateDepictionMissile
     ProjectileModelResource = <ProjectileModelResource>
 )
 
+template TemplateDepictionStaticRocketsAirUnit
+[
+    PhysicalProperty,
+    ProjectileModelResource,
+    VisibleRocketCount,
+]
+is TemplateDepictionMissile
+(
+    ShadowLessInitialValue = True
+    Selector = DepictionInstancedRocketsSelector( PhysicalProperty = <PhysicalProperty> VisibleRocketCount = <VisibleRocketCount> )
+    ProjectileModelResource = <ProjectileModelResource>
+)
+
 template TemplateDepictionMissileAirUnit
 [
     PhysicalProperty,
@@ -154,7 +167,7 @@ is TDepictionTemplate
     Selector = OnlyHighDepictionSelector
     DepictionAlternatives = [
         TDepictionDescriptor(
-            SelectorId = ['high']
+            SelectorId = [LOD_High]
             MeshDescriptor = <ProjectileModelResource>
             )
     ]

@@ -1,5 +1,5 @@
 // Enum TGameMode // A maintenir synchro avec EugGame/GameMode.h
-Unknown                 is 0
+Invalid                 is 0
 GameTutorial            is 1
 GameNetwork             is 2
 GameSkirmish            is 3

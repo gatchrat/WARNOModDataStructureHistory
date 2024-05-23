@@ -134,34 +134,6 @@ BUCKSpecificConnectingPanelMainComponentDescriptor is LoginTvContainer
                 ),
             ]
         ),
-        BUCKListDescriptor
-        (
-            ElementName = "ConnectingPanelButtonList"
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [0.0, 50.0]
-                MagnifiableOffset = [0.0, -50.0]
-                AlignementToFather  = [0.5, 1.0]
-                AlignementToAnchor  = [0.5, 1.0]
-            )
-
-            Axis = ~/ListAxis/Horizontal
-            InterItemMargin = TRTTILength(Magnifiable = 5.0)
-
-            Elements =
-            [
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = CancelButton
-                    (
-                        ElementName = "CancelButton"
-                        TextToken = "BTN_CANCEL"
-
-                        Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-                    )
-                ),
-            ]
-        ),
     ]
 )
 

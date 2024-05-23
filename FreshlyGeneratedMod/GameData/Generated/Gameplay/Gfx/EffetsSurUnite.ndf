@@ -445,6 +445,154 @@ export UnitEffect_Artillerie_Suppressed is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_ArtyUnit_Cohesion_High is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{b81ebc33-bcb1-4a6f-b0de-d4a7eab93b76}
+    NameForDebug       = 'ArtyUnit_Cohesion_High'
+    EffectsDescriptors = [
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "GroundUnit_Engaged",
+            ]
+        ),
+    ]
+)
+export UnitEffect_ArtyUnit_Cohesion_Low is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{ac339b28-f3ea-4240-9123-1daad25211ae}
+    NameForDebug       = 'ArtyUnit_Cohesion_Low'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseChassisRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusChassisRotationSpeed  = -50
+        ),
+        TUnitEffectIncreaseTurretRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusTurretRotationSpeed  = -50
+        ),
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Pourcentage
+            BonusSpeedBaseInPercent  = -15
+        ),
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.18
+        ),
+        TUnitEffectIncreaseWeaponDispersionMaxRangeDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 2
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.40
+        ),
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "GroundUnit_Engaged",
+                 "GroundUnit_Stressed",
+                 "GroundUnit_Suppressed",
+                 "GroundUnit_Pinned",
+            ]
+        ),
+    ]
+)
+export UnitEffect_ArtyUnit_Cohesion_Mediocre is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{2d2b32d1-7b23-4a5a-a268-ee7d5679246e}
+    NameForDebug       = 'ArtyUnit_Cohesion_Mediocre'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseChassisRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusChassisRotationSpeed  = -25
+        ),
+        TUnitEffectIncreaseTurretRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusTurretRotationSpeed  = -25
+        ),
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Pourcentage
+            BonusSpeedBaseInPercent  = -10
+        ),
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.12
+        ),
+        TUnitEffectIncreaseWeaponDispersionMaxRangeDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.40
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.20
+        ),
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "GroundUnit_Engaged",
+                 "GroundUnit_Stressed",
+                 "GroundUnit_Suppressed",
+            ]
+        ),
+    ]
+)
+export UnitEffect_ArtyUnit_Cohesion_Normal is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{1b20d33c-1efc-4631-9d12-f30210592c29}
+    NameForDebug       = 'ArtyUnit_Cohesion_Normal'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseChassisRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusChassisRotationSpeed  = -10
+        ),
+        TUnitEffectIncreaseTurretRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusTurretRotationSpeed  = -10
+        ),
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Pourcentage
+            BonusSpeedBaseInPercent  = -5
+        ),
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.08
+        ),
+        TUnitEffectIncreaseWeaponDispersionMaxRangeDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.20
+        ),
+        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.10
+        ),
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "GroundUnit_Engaged",
+                 "GroundUnit_Stressed",
+            ]
+        ),
+    ]
+)
 export UnitEffect_Aura_Commandement_Plus is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{208b3aea-db04-438b-ab04-7567942fe1f3}
@@ -573,7 +721,7 @@ export UnitEffect_Bouclier_Suppression_IFV is TEffectsPackDescriptor
         TUnitEffectIncreaseDamageTakenDescriptor
         (
             ModifierType        = ~/ModifierType_Pourcentage
-            BonusDamage         = -50
+            BonusDamage         = -33
             DamageType          = EDamageType/Suppress
         ),
         TUnitEffectShowLabelIconDescriptor
@@ -731,22 +879,22 @@ export UnitEffect_Choc is TEffectsPackDescriptor
         TBonusWeaponAimtimeEffectDescriptor
         (
             ModifierType  = ~/ModifierType_Multiplicatif
-            ModifierValue = 0.8
+            ModifierValue = 0.85
         ),
         TUnitEffectIncreaseWeaponPhysicalDamagesDescriptor
         (
             ModifierType  = ~/ModifierType_Pourcentage
-            ModifierValue = 20
+            ModifierValue = 15
         ),
         TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
         (
             ModifierType  = ~/ModifierType_Multiplicatif
-            ModifierValue = 0.8
+            ModifierValue = 0.85
         ),
         TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
         (
             ModifierType  = ~/ModifierType_Pourcentage
-            ModifierValue = -20
+            ModifierValue = -15
         ),
         TUnitEffectShowLabelIconDescriptor
         (
@@ -2033,6 +2181,28 @@ export UnitEffect_Infanterie_bonus_discretion is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_Malus_ciblage_UAV is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{8651f756-e794-4dc7-bafd-ff5f79fc5de0}
+    NameForDebug       = 'Malus_ciblage_UAV'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = -100
+            DamageType          = EDamageType/Suppress
+        ),
+        TUnitEffectBonusPrecisionWhenTargetedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusPrecisionWhenTargeted = -50
+        ),
+        TUnitEffectShowLabelIconDescriptor
+        (
+            TextureToken         = "icone_electronic_warfare"
+        ),
+    ]
+)
 export UnitEffect_Mobilite_plus_15pourcent is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{6a93df37-ce2a-4706-9f5d-62a677fd532f}
@@ -3212,6 +3382,46 @@ export UnitEffect_xp_elite_avion is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_xp_elite_helo is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{eb44f6ec-4392-4414-839f-695eec281fda}
+    NameForDebug       = 'xp_elite_helo'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = -45
+            DamageType          = EDamageType/Suppress
+        ),
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 0.40
+        ),
+        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType  = ~/ModifierType_Additionnel
+            ModifierValue = 16
+        ),
+        TUnitEffectIncreaseWeaponPrecisionMouvementDescriptor
+        (
+            ModifierType  = ~/ModifierType_Additionnel
+            ModifierValue = 16
+        ),
+        TUnitEffectHealOverTimeDescriptor
+        (
+            NbUpdatePerSecond  = 1
+            HealUnitsPerSecond = 4
+            DamageType = EDamageType/Suppress
+        ),
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "xp_elite",
+            ]
+        ),
+    ]
+)
 export UnitEffect_xp_poorly_trained is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{3f22d303-a701-4daa-84bf-67d25e62c5ae}
@@ -3276,6 +3486,19 @@ export UnitEffect_xp_rookie_avion is TEffectsPackDescriptor
     DescriptorId       = GUID:{9d93a0b1-9970-46b1-b405-64b8c4e19285}
     NameForDebug       = 'xp_rookie_avion'
     EffectsDescriptors = [
+    ]
+)
+export UnitEffect_xp_rookie_helo is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{9cc64b1b-bdd9-4901-90e9-b822bca6dc67}
+    NameForDebug       = 'xp_rookie_helo'
+    EffectsDescriptors = [
+        TUnitEffectHealOverTimeDescriptor
+        (
+            NbUpdatePerSecond  = 1
+            HealUnitsPerSecond = 0.6
+            DamageType = EDamageType/Suppress
+        ),
     ]
 )
 export UnitEffect_xp_trained is TEffectsPackDescriptor
@@ -3417,6 +3640,40 @@ export UnitEffect_xp_trained_avion is TEffectsPackDescriptor
         (
             NbUpdatePerSecond  = 1
             HealUnitsPerSecond = 1
+            DamageType = EDamageType/Suppress
+        ),
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "xp_regular",
+            ]
+        ),
+    ]
+)
+export UnitEffect_xp_trained_helo is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{95f64a6f-5bd8-497d-ab2c-8b1a129060ce}
+    NameForDebug       = 'xp_trained_helo'
+    EffectsDescriptors = [
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 0.8
+        ),
+        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType  = ~/ModifierType_Additionnel
+            ModifierValue = 5
+        ),
+        TUnitEffectIncreaseWeaponPrecisionMouvementDescriptor
+        (
+            ModifierType  = ~/ModifierType_Additionnel
+            ModifierValue = 5
+        ),
+        TUnitEffectHealOverTimeDescriptor
+        (
+            NbUpdatePerSecond  = 1
+            HealUnitsPerSecond = 2
             DamageType = EDamageType/Suppress
         ),
         TUnitEffectRaiseTagDescriptor
@@ -3587,6 +3844,46 @@ export UnitEffect_xp_veteran_avion is TEffectsPackDescriptor
         (
             NbUpdatePerSecond  = 1
             HealUnitsPerSecond = 2
+            DamageType = EDamageType/Suppress
+        ),
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "xp_veteran",
+            ]
+        ),
+    ]
+)
+export UnitEffect_xp_veteran_helo is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{0f6f1863-5b9b-49a0-8caa-ad76d319c244}
+    NameForDebug       = 'xp_veteran_helo'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = -25
+            DamageType          = EDamageType/Suppress
+        ),
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 0.60
+        ),
+        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType  = ~/ModifierType_Additionnel
+            ModifierValue = 8
+        ),
+        TUnitEffectIncreaseWeaponPrecisionMouvementDescriptor
+        (
+            ModifierType  = ~/ModifierType_Additionnel
+            ModifierValue = 8
+        ),
+        TUnitEffectHealOverTimeDescriptor
+        (
+            NbUpdatePerSecond  = 1
+            HealUnitsPerSecond = 3
             DamageType = EDamageType/Suppress
         ),
         TUnitEffectRaiseTagDescriptor

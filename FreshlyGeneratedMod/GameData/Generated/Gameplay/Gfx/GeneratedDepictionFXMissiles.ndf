@@ -17,6 +17,7 @@ FXWeapon_AA_R13M is FXWeapon_1
 FXWeapon_AA_R23R_Vympel is FXWeapon_0
 FXWeapon_AA_R24MR_Vympel is FXWeapon_0
 FXWeapon_AA_R24R_Vympel is FXWeapon_0
+FXWeapon_AA_R27ER_Vympel is FXWeapon_0
 FXWeapon_AA_R27R_Vympel is FXWeapon_0
 FXWeapon_AA_R27T_Vympel is FXWeapon_0
 FXWeapon_AA_R33_Vympel is FXWeapon_0
@@ -81,6 +82,7 @@ FXWeapon_AGM_Kh25MP is FXWeapon_6
 FXWeapon_AGM_Kh25MPU is FXWeapon_6
 FXWeapon_AGM_Kh28_X28 is FXWeapon_6
 FXWeapon_AGM_Kh29D is FXWeapon_6
+FXWeapon_AGM_Kh29L is FXWeapon_6
 FXWeapon_AGM_Kh29T is FXWeapon_6
 FXWeapon_AGM_Kh31P is FXWeapon_6
 FXWeapon_AGM_Kh58U is FXWeapon_6
@@ -149,6 +151,7 @@ FXWeapon_Bomb_KAB_1500Kr_x1 is FXWeapon_9
 FXWeapon_Bomb_KAB_1500Kr_x2 is FXWeapon_9
 FXWeapon_Bomb_KAB_500Kr_x1 is FXWeapon_9
 FXWeapon_Bomb_KAB_500Kr_x2 is FXWeapon_9
+FXWeapon_Eryx is FXWeapon_8
 FXWeapon_FakeRoquette_S_24 is FXWeapon_10
 FXWeapon_FakeRoquette_S_24_helo is FXWeapon_10
 FXWeapon_Javelin is FXWeapon_10

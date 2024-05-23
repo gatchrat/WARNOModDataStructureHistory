@@ -1,14 +1,14 @@
-export Modele_HMGteam_MG3_FJ_RFA is TemplateMeshDescriptor
+export Modele_HMGteam_MG3_FJ_RFA is ModelDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/MG3.Ase2NdfBin'
 )
 
-export Modele_HMGteam_MG3_FJ_RFA_MID is TemplateMeshDescriptor
+export Modele_HMGteam_MG3_FJ_RFA_MID is ModelDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/MG3.Ase2NdfBin'
 )
 
-export Modele_HMGteam_MG3_FJ_RFA_LOW is TemplateMeshDescriptor
+export Modele_HMGteam_MG3_FJ_RFA_LOW is ModelDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/Ammo/Armes/HMG_trepied/MG3.Ase2NdfBin'
 )

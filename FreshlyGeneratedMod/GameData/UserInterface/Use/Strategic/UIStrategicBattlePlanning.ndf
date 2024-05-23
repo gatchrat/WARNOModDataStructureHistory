@@ -143,6 +143,7 @@ AttackPreparation is PanelRoundedCorner
                                     ElementName = 'CancelButton'
                                     TextToken = "BTL_SHOCAN"
                                     HintBodyToken = "BtnCanPreH"
+                                    Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
                                 )
                             ),
                          ]

@@ -167,6 +167,8 @@ SoundEvent_SteelmanAttackPrepareRemoveUnit  is ClickSound_Remove_Card
 SoundEvent_SteelmanTacticPrepChangeTeam     is ClickSound_Change_Selector //ClickSound_page
 SoundEvent_SteelmanTacticPrepBack           is ClickSound_Back //ClickSound_folder
 SoundEvent_SteelmanTacticPrepStart          is ClickSound_Over_And_Out_Radio_Effect_4 //ClickSound_RadioBlip //ClickSound_keyboard
+SoundEvent_SteelmanTacticShowMap            is NoSound
+SoundEvent_SteelmanTacticCloseMap           is NoSound
 
 // Steelman - Unit actions "cube action" (like 'Deploy AA')
 // -> For button click, modify directly CubeActionStrategicButtonDescriptor.ndf

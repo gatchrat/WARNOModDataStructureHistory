@@ -94,7 +94,7 @@ Panoramique_video is BUCKContainerDescriptor
                AlignementToFather = [0.5, 0.5]
             )
 
-            SoundVolume = 0.0
+            SoundVolume = 3.0
         )
     ]
 )
@@ -128,7 +128,7 @@ Cutscene25_video is BUCKContainerDescriptor
                 AlignementToFather = [0.5, 0.5]
             )
 
-            SoundVolume = 0.0
+            SoundVolume = 3.0
         )
     ]
 )
@@ -164,7 +164,7 @@ Cutscene10_video is BUCKContainerDescriptor
                AlignementToFather = [0.5, 0.5]
             )
 
-            SoundVolume = 0.0
+            SoundVolume = 3.0
         )
     ]
 )

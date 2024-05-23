@@ -29,6 +29,7 @@ private StrategicEndTurnMainComponent is BUCKContainerDescriptor
 SpotLight_NextTurn is BUCKSpotlightDescriptor
 (
     UniqueName = "SpotLight_NextTurn"
+    ElementName = 'SpotLight_NextTurn'
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [1.0, 1.0]

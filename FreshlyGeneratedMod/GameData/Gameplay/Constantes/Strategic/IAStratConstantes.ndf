@@ -8,7 +8,9 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
     DistanceMaxToAssignPawnToExistingGroup = 1500.0 * Metre
     DistanceMaxForPawnToBeAvailableForCurrentObjective = 1500.0 * Metre
 
-    MaxFatigueToBeSelectedForStrategicBattle = 4 // indique le max de PA que peut avoir un pion pour participer à un combat mais aussi pour reculer le temps de récupérer sa fatigue.
+    MaxCellsDistanceFromFrontlineAllowedOutOfSupply = 3.0
+
+    MaxFatigueToBeSelectedForStrategicBattle = 3 // indique le max de PA que peut avoir un pion pour participer à un combat mais aussi pour reculer le temps de récupérer sa fatigue.
 
     AttackAndDefensePowerRatioForAttackersToMoveBack = 0.5
 
@@ -226,7 +228,7 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
                     Comparator = EIAGroupPoolElementComparatorType/AverageAttack
                 ),
             ]
-            Behaviors = [ TIAPawnsBehaviorExhausted, TIAPawnsBehaviorAttackTarget, TIAPawnsBehaviorNotSupplied, TIAPawnsBehaviorArtillery, TIAPawnsBehaviorAntiAir, TIAPawnsBehaviorAttack ]
+            Behaviors = [ TIAPawnsBehaviorExhausted, TIAPawnsBehaviorAttackTarget, TIAPawnsBehaviorNotSupplied, TIAPawnsBehaviorArtillery, TIAPawnsBehaviorAntiAir, TIAPawnsBehaviorMoveWithoutInfluence, TIAPawnsBehaviorAttack ]
         ),
         TIAGroupPool
         (

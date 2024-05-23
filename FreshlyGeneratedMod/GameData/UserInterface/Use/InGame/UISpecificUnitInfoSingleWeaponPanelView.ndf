@@ -1,139 +1,43 @@
-
-DamageTypeComponentConfigurations is
+template DamageComponentConfiguration
 [
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_ap
-        Button = "APButton"
-        AmmoText = "WeaponAPAmmoText"
-        CalibreText = "WeaponAPCalibreText"
+    Name : string,
+    AmmoText : string,
+    CalibreText : string,
+] is TDamageComponentConfiguration
+(
+    MainComponentName = <Name>
+    AmmoText = <AmmoText>
+    CalibreText = <CalibreText>
+)
+
+// -------------------------------------------------------------------------------------------------
+
+DamageTypeComponentConfigurations is MAP
+[
+    (-1,
+        DamageComponentConfiguration
+        (
+            Name = "StandardAmmo"
+            AmmoText = "WeaponStandardAmmoText"
+            CalibreText = "WeaponStandardAmmoCalibreText"
+        )
     ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_he
-        Button = "HEButton"
-        AmmoText = "WeaponHEAmmoText"
-        CalibreText = "WeaponHECalibreText"
+    (DamageFamily_flamme,
+        DamageComponentConfiguration
+        (
+            Name = "Flame"
+            AmmoText = "WeaponFlameAmmoText"
+            CalibreText = "WeaponFlameCalibreText"
+        )
     ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_he_autocanon
-        Button = "HEAutoCanonButton"
-        AmmoText = "WeaponHEAutoCanonAmmoText"
-        CalibreText = "WeaponHEAutoCanonCalibreText"
+    (DamageFamily_smoke,
+        DamageComponentConfiguration
+        (
+            Name = "Smoke"
+            AmmoText = "WeaponSmokeAmmoText"
+            CalibreText = "WeaponSmokeCalibreText"
+        )
     ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_howz
-        Button = "HOWZAPButton"
-        AmmoText = "WeaponHowzAPAmmoText"
-        CalibreText = "WeaponHowzAPCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_cac
-        Button = "APCRButton"
-        AmmoText = "WeaponAPCRAmmoText"
-        CalibreText = "WeaponAPCRCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_balle
-        Button = "BulletButton"
-        AmmoText = "WeaponBulletAmmoText"
-        CalibreText = "WeaponBulletCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_fmballe
-        Button = "BulletAAButton"
-        AmmoText = "WeaponBulletAAAmmoText"
-        CalibreText = "WeaponBulletAACalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_balledca
-        Button = "BulletDCAButton"
-        AmmoText = "WeaponBulletDCAAmmoText"
-        CalibreText = "WeaponBulletDCACalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_howz_bombe
-        Button = "RocketHEButton"
-        AmmoText = "WeaponRocketHEAmmoText"
-        CalibreText = "WeaponRocketHECalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_roquette_ap
-        Button = "RocketAPButton"
-        AmmoText = "WeaponRocketAPAmmoText"
-        CalibreText = "WeaponRocketAPCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_ap_missile
-        Button = "APMissileButton"
-        AmmoText = "WeaponAPMissileAmmoText"
-        CalibreText = "WeaponAPMissileCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_superhe
-        Button = "RocketFragButton"
-        AmmoText = "WeaponRocketFragAmmoText"
-        CalibreText = "WeaponRocketFragCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_bombe
-        Button = "BombButton"
-        AmmoText = "WeaponBombAmmoText"
-        CalibreText = "WeaponBombCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_cluster_ap
-        Button = "ClusterAPButton"
-        AmmoText = "WeaponClusterAPAmmoText"
-        CalibreText = "WeaponClusterAPCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_clu_sol_ap
-        Button = "ClusterSolAPButton"
-        AmmoText = "WeaponClusterSolAPAmmoText"
-        CalibreText = "WeaponClusterSolAPCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_cluster
-        Button = "ClusterHEButton"
-        AmmoText = "WeaponClusterHEAmmoText"
-        CalibreText = "WeaponClusterHECalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_flamme
-        Button = "FlameButton"
-        AmmoText = "WeaponFlameAmmoText"
-        CalibreText = "WeaponFlameCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_smoke
-        Button = "SmokeButton"
-        AmmoText = "WeaponSmokeAmmoText"
-        CalibreText = "WeaponSmokeCalibreText"
-    ),
-    TDamageComponentConfiguration
-    (
-        DamageType = DamageFamily_missile_he
-        Button = "MissileHEButton"
-        AmmoText = "WeaponMissileHEAmmoText"
-        CalibreText = "WeaponMissileHECalibreText"
-    )
 ]
 
 // -------------------------------------------------------------------------------------------------
@@ -1085,6 +989,7 @@ is TUISpecificUnitInfoSingleWeaponPanelViewDescriptor
 
     ValueTextColors = ~/InfoPanelValuesColors
     DamageTypeComponents = ~/DamageTypeComponentConfigurations
+
     MergeDamageTypes = true
 )
 

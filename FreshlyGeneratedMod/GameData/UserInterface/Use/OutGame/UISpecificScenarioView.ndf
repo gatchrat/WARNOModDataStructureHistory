@@ -352,6 +352,7 @@ private ScenarioDifficultyComponent is BUCKButtonDescriptor
 
             Axis = ~/ListAxis/Vertical
             InterItemMargin = TRTTILength(Magnifiable = 5.0)
+            ChildFitToContent = true
 
             Elements =
             [
@@ -407,6 +408,10 @@ private ScenarioDifficultyComponent is BUCKButtonDescriptor
                     )
                 ),
             ]
+        ),
+        BUCKSpecificHintableArea
+        (
+            ElementName = "DifficultyHint"
         )
     ]
 )
@@ -518,39 +523,6 @@ private template ScenarioDescriptionContainer
                                 BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
                                 InterItemMargin = TRTTILength( Magnifiable = 10.0 )
                                 BladeDescriptor = ~/ScenarioDifficultyComponent
-                            )
-                        ),
-                        BUCKListElementSpacer( Magnifiable = 10.0),
-                        BUCKListElementDescriptor
-                        (
-                            ComponentDescriptor = BUCKTextDescriptor
-                            (
-                                ElementName = "SelectedDifficultyDescriptionText"
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    // RelativeWidthHeight = [1.0, 0.0]
-                                    MagnifiableWidthHeight = [490,0]
-                                    AlignementToAnchor = [0.5, 0.0]
-                                    AlignementToFather = [0.5, 0.0]
-                                )
-
-                                ParagraphStyle = TParagraphStyle
-                                (
-                                    Alignment = UIText_Center
-                                    VerticalAlignment = UIText_VerticalCenter
-                                    InterLine = 0.4
-                                )
-                                BigLineAction = ~/BigLineAction/MultiLine
-                                HorizontalFitStyle = ~/FitStyle/UserDefined
-                                VerticalFitStyle = ~/FitStyle/FitToContent
-
-                                TextStyle = 'Default'
-                                TextPadding = TRTTILength4(Magnifiable = [20,0,20,0])
-                                TypefaceToken = "Eurostyle"
-                                TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                                TextColor = "Noir"
-                                TextSize = "11"
-                                // TextSize = (<GameType> == ~/GameStrategic ? "11" : "14")
                             )
                         )
                     ] + (<GameType> == ~/GameChallenge ?
@@ -1219,7 +1191,7 @@ FullPanelPreviewMission is BUCKTextureDescriptor
 
 template UISpecificScenarioViewDescriptor
 [
-    GameType : int = ~/Unknown,
+    GameType : int,
     ComponentContainerUniqueName : string = "",
     IsSubView : bool = false,
 ] is TUISpecificScenarioSelectionViewDescriptor

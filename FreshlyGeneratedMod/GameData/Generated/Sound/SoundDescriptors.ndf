@@ -9691,6 +9691,65 @@ export SoundHappening_FULDA_Silenced_Burst is TSoundHappening
 )
 
 
+export Sound_FULDA_Sniper_Barret_M82 is TSoundSet
+(
+    Items = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Fusil_Mitrailleur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Fusils/Barret_M82_firing_1_round_01.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Fusil_Mitrailleur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Fusils/Barret_M82_firing_1_round_02.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Fusil_Mitrailleur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Fusils/Barret_M82_firing_1_round_03.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Fusil_Mitrailleur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Fusils/Barret_M82_firing_1_round_04.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Fusil_Mitrailleur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Fusils/Barret_M82_firing_1_round_05.wav"
+            )
+            UseSpecialLoop = False
+        ),
+    ]
+)
+
+export SoundHappening_FULDA_Sniper_Barret_M82 is TSoundHappening
+(
+    SoundDescList = Sound_FULDA_Sniper_Barret_M82
+    Volume = 1
+)
+
+
 export Sound_FULDA_Sniper_Dragunov_1_Round is TSoundSet
 (
     Items = 

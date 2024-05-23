@@ -1,19 +1,23 @@
-export Modele_AMX_10_RC_FR is TemplateMeshDescriptor
+export ModelFile_AMX_10_RC_FR is 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC/AMX_10RC.fbx'
+export Modele_AMX_10_RC_FR is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC/AMX_10RC.Ase2NdfBin'
+    FileName = ModelFile_AMX_10_RC_FR
 )
 
-export Modele_AMX_10_RC_FR_MID is TemplateMeshDescriptor
+export ModelFile_AMX_10_RC_FR_MID is 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC_MID/AMX_10RC_MID.fbx'
+export Modele_AMX_10_RC_FR_MID is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC/AMX_10RC.Ase2NdfBin'
+    FileName = ModelFile_AMX_10_RC_FR_MID
 )
 
-export Modele_AMX_10_RC_FR_LOW is TemplateMeshDescriptor
+export ModelFile_AMX_10_RC_FR_LOW is 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC_LOW/AMX_10RC_LOW.fbx'
+export Modele_AMX_10_RC_FR_LOW is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC/AMX_10RC.Ase2NdfBin'
+    FileName = ModelFile_AMX_10_RC_FR_LOW
 )
 
-export Modele_AMX_10_RC_FR_Tourelle_02 is TemplateMeshDescriptor
+export ModelFile_AMX_10_RC_FR_Tourelle_02 is 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC_Surblinde/NF1_t2.fbx'
+export Modele_AMX_10_RC_FR_Tourelle_02 is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/FR/Char/AMX_10RC_Surblinde/NF1_t2.Ase2NdfBin'
+    FileName = ModelFile_AMX_10_RC_FR_Tourelle_02
 )

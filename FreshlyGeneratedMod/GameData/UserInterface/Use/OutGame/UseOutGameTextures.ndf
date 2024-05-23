@@ -37,8 +37,8 @@ OutgameTexture_TrendMinus is TUIResourceTexture_OutGame(FileName = "GameData:/As
 OutgameTexture_TrendPlus is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Multi/TrendPlus.png")
 OutgameTexture_TrendUnranked is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Multi/TrendUnranked.png")
 
-OutgameTexture_DivisionBackground is TUIResourceTexture_OutGame(FileName = "Assets/2D/Interface/UseOutGame/Division/Panel/fond.png")
-OutgameTexture_DivisionBackground_Frontal_Assault is TUIResourceTexture_OutGame(FileName = "Assets/2D/Interface/UseOutGame/Division/Panel/fond_frontal_assault.png")
+OutgameTexture_DivisionBackground is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Panel/fond.png")
+OutgameTexture_DivisionBackground_Frontal_Assault is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Panel/fond_frontal_assault.png")
 
 OutGameTexture_Category_Support    is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/CategoryTextures/Support.png" )
 OutGameTexture_Category_Infanterie is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/CategoryTextures/Infanterie.png" )

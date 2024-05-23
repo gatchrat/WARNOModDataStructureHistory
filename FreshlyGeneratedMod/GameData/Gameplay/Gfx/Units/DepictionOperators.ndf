@@ -468,19 +468,15 @@ DepictionOperator_HelicopterLanding is TCosmeticHelicopterLandingOperatorDesc()
 
 template DepictionOperator_EjectableProps_Vehicle
 [
-    ArmorPlateCount : int = 0,
-    PropCount       : int = 0,
-    TrapdoorCount   : int = 0,
-    AdditionalEjectableNodes = []
+    AliveEjectableList = [],
+    DeathOnlyEjectableList = []
 ]
 is TCosmeticEjectablePropsOnDamageOrExplosionOperatorDesc
 (
     OperatorId = 'EjectableProps'
 
-    ArmorPlateCount = <ArmorPlateCount>
-    PropCount = <PropCount>
-    TrapdoorCount = <TrapdoorCount>
-    AdditionalEjectableNodes = <AdditionalEjectableNodes>
+    AliveEjectableList = <AliveEjectableList>
+    DeathOnlyEjectableList = <DeathOnlyEjectableList>
 
     EjectHazardAtNoDamage = 0.5 // 0.1
     AlwaysEjectFromDamageValue = 5.0
@@ -489,13 +485,13 @@ is TCosmeticEjectablePropsOnDamageOrExplosionOperatorDesc
 
 template DepictionOperator_EjectableProps_Plane
 [
-    AdditionalEjectableNodes = []
+    DeathOnlyEjectableList = []
 ]
 is TCosmeticEjectablePropsOnDeathOperatorDesc
 (
     OperatorId = 'EjectableProps'
 
-    AdditionalEjectableNodes = <AdditionalEjectableNodes>
+    DeathOnlyEjectableList = <DeathOnlyEjectableList>
 
     EjectHazardAtNoDamage = 0.0
     AlwaysEjectFromDamageValue = 0.0
@@ -504,13 +500,13 @@ is TCosmeticEjectablePropsOnDeathOperatorDesc
 
 template DepictionOperator_EjectableProps_Helico
 [
-    AdditionalEjectableNodes = []
+    DeathOnlyEjectableList = []
 ]
 is TCosmeticEjectablePropsOnDeathOperatorDesc
 (
     OperatorId = 'EjectableProps'
 
-    AdditionalEjectableNodes = <AdditionalEjectableNodes>
+    DeathOnlyEjectableList = <DeathOnlyEjectableList>
 
     EjectHazardAtNoDamage = 0.0
     AlwaysEjectFromDamageValue = 0.0
@@ -739,3 +735,63 @@ CommonTowedUnitsOperators is
 [
     DepictionOperator_ShadowPointCloudProvider,
 ]
+
+EjectableSettingsHeavy is TEjectablePropsSettings
+(
+    IsHeavy = true
+    Lifetime = 600
+    ProjectionForce = 5000
+    RotationSpeed = 0.5
+    FluidFriction = 0.5
+    Gravity = 4000
+)
+
+EjectableSettingsMedium is TEjectablePropsSettings
+(
+    Lifetime = 120
+    ProjectionForce = 6000
+    RotationSpeed = 1
+    FluidFriction = 1
+    Gravity = 2000
+)
+
+EjectableSettingsLight is TEjectablePropsSettings
+(
+    Lifetime = 60
+    ProjectionForce = 5000
+    RotationSpeed = 1
+    FluidFriction = 1
+    Gravity = 2000
+)
+
+EjectableSettingsPlaneHeavy is TEjectablePropsSettings
+(
+    IsHeavy = true
+    Lifetime = 120
+    ProjectionForce = 5000
+    RotationSpeed = 0.25
+    FluidFriction = 0.1
+    Gravity = 8000
+)
+
+EjectableSettingsPlaneMedium is TEjectablePropsSettings
+(
+    Lifetime = 60
+    ProjectionForce = 6000
+    RotationSpeed = 1
+    FluidFriction = 1
+    Gravity = 4000
+)
+
+EjectableSettingsPlaneLight is TEjectablePropsSettings
+(
+    Lifetime = 40
+    ProjectionForce = 5000
+    RotationSpeed = 1
+    FluidFriction = 1
+    Gravity = 2000
+)
+
+EjectableSettingsHelicoHeavy is EjectableSettingsPlaneHeavy
+EjectableSettingsHelicoMedium is EjectableSettingsPlaneMedium
+EjectableSettingsHelicoLight is EjectableSettingsPlaneLight

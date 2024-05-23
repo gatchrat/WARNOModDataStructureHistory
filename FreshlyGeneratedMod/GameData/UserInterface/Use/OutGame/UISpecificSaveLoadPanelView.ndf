@@ -794,6 +794,7 @@ private SaveLoadPanelHeader is BUCKContainerDescriptor
     (
         RelativeWidthHeight = [1.0, 0.0]
         MagnifiableWidthHeight = [0.0, 45.0]
+        MagnifiableOffset = [0.0, 70.0]
     )
 
     Components =
@@ -805,7 +806,7 @@ private SaveLoadPanelHeader is BUCKContainerDescriptor
             ComponentFrame = TUIFramePropertyRTTI
             (
                 RelativeWidthHeight = [1.0, 0.0]
-                MagnifiableOffset = [0.0, 75.0]
+                MagnifiableOffset = [0.0, 59.0]
                 AlignementToFather = [0.0, 0.5]
                 AlignementToAnchor = [0.0, 0.5]
             )
@@ -870,15 +871,71 @@ private SaveLoadTabsComponent is BUCKSpecific_Fulda_WithTabsComponentDescriptor
     (
         RelativeWidthHeight = [1.0, 0.0]
         MagnifiableWidthHeight = [0.0, 849.0]
+        MagnifiableOffset = [0.0, 22.0]
     )
+
+    ShowTabsFirst = true
 
     TabsAndContent =
     [
+        // tuto
+        (
+            OngletSpecificLoad
+            (
+                TextToken = "SGP_TUTO"
+            ),
+            BUCKContainerDescriptor
+            (
+                ElementName = 'SavedGamesPanelCampaignTab'
+
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    RelativeWidthHeight = [1.0, 1.0]
+                )
+
+                Components =
+                [
+                    SaveLoadColumnBackground
+                    (
+                        MagnifiableWidth = colonneDuration
+                        RelativeHorizontalOffset = 1.0
+                        MagnifiableHorizontalOffset = -DateColumnOffset
+                    ),
+                    SaveLoadMultiList(Category = "Tutorial")
+                ]
+            )
+        ),
+        // army general
+        (
+            OngletSpecificLoad
+            (
+                TextToken = "new_AG"
+            ),
+            BUCKContainerDescriptor
+            (
+                ElementName = 'SavedGamesPanelStrategicTab'
+
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    RelativeWidthHeight = [1.0, 1.0]
+                )
+
+                Components =
+                [
+                    SaveLoadColumnBackground
+                    (
+                        MagnifiableWidth = colonneDuration
+                        RelativeHorizontalOffset = 1.0
+                        MagnifiableHorizontalOffset = -DateColumnOffset
+                    ),
+                    SaveLoadMultiList(Category = "Strategic")
+                ]
+            )
+        ),
         // skirmish
         (
             OngletSpecificLoad
             (
-                HorizontalFitStyle = ~/FitStyle/UserDefined
                 TextToken = "SGP_SKIR"
             ),
             BUCKContainerDescriptor
@@ -906,7 +963,6 @@ private SaveLoadTabsComponent is BUCKSpecific_Fulda_WithTabsComponentDescriptor
         (
             OngletSpecificLoad
             (
-                HorizontalFitStyle = ~/FitStyle/UserDefined
                 TextToken = "OP_NAME"
             ),
             BUCKContainerDescriptor
@@ -930,66 +986,10 @@ private SaveLoadTabsComponent is BUCKSpecific_Fulda_WithTabsComponentDescriptor
                 ]
             )
         ),
-        // army general
+        // Replays
         (
             OngletSpecificLoad
             (
-                HorizontalFitStyle = ~/FitStyle/UserDefined
-                TextToken = "new_AG"
-            ),
-            BUCKContainerDescriptor
-            (
-                ElementName = 'SavedGamesPanelStrategicTab'
-
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    RelativeWidthHeight = [1.0, 1.0]
-                )
-
-                Components =
-                [
-                    SaveLoadColumnBackground
-                    (
-                        MagnifiableWidth = colonneDuration
-                        RelativeHorizontalOffset = 1.0
-                        MagnifiableHorizontalOffset = -DateColumnOffset
-                    ),
-                    SaveLoadMultiList(Category = "Strategic")
-                ]
-            )
-        ),
-        // tuto
-        (
-            OngletSpecificLoad
-            (
-                HorizontalFitStyle = ~/FitStyle/UserDefined
-                TextToken = "SGP_TUTO"
-            ),
-            BUCKContainerDescriptor
-            (
-                ElementName = 'SavedGamesPanelCampaignTab'
-
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    RelativeWidthHeight = [1.0, 1.0]
-                )
-
-                Components =
-                [
-                    SaveLoadColumnBackground
-                    (
-                        MagnifiableWidth = colonneDuration
-                        RelativeHorizontalOffset = 1.0
-                        MagnifiableHorizontalOffset = -DateColumnOffset
-                    ),
-                    SaveLoadMultiList(Category = "Tutorial")
-                ]
-            )
-        ),
-        (
-            OngletSpecificLoad
-            (
-                HorizontalFitStyle = ~/FitStyle/UserDefined
                 TextToken = "T_REPLAY"
             ),
             BUCKContainerDescriptor
@@ -1048,28 +1048,15 @@ template SaveLoadColumnBackground
 //-------------------------------------------------------------------------------------
 template OngletSpecificLoad
 [
-    UniqueName : string = '',
-    ElementName : string = '',
-
-    BigLineAction : int = ~/BigLineAction/ResizeFont,
     TextToken : string,
-    TextDico : string = ~/LocalisationConstantes/dico_interface_outgame,
-
-    HorizontalFitStyle : int = ~/FitStyle/FitToContent,
-    TextureToken : string = 'onglets_solo',
-    TextureMagnifiableWidthHeight : float2 = [180.0, 33.0],
 ]
 is BUCKOneTabDescriptor
 (
-    UniqueName = <UniqueName>
-    ElementName = <ElementName>
-
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [175.0, 33.0]
     )
 
-    FitStyle = (<HorizontalFitStyle> == ~/FitStyle/UserDefined ? ~/ContainerFitStyle/None : ~/ContainerFitStyle/FitToContentHorizontally)
     LeftClickSound = SoundEvent_SaveLoadSwitchTab
 
     Components =
@@ -1078,34 +1065,33 @@ is BUCKOneTabDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = <TextureMagnifiableWidthHeight>
+                MagnifiableWidthHeight = [180.0, 33.0]
                 AlignementToFather  = [0.5, 0.5]
                 AlignementToAnchor  = [0.5, 0.5]
                 MagnifiableOffset = [0.0, -1.0]
             )
-            TextureToken = <TextureToken>
+            TextureToken = "onglets_solo"
+            Rotation = 180
         ),
         BUCKTextDescriptor
         (
-            ElementName = (<ElementName> != '' ? <ElementName> + "Text" : '')
             ComponentFrame = TUIFramePropertyRTTI
             (
                 MagnifiableWidthHeight = [150.0, 33.0]
                 AlignementToFather  = [0.5, 0.5]
                 AlignementToAnchor  = [0.5, 0.5]
-                MagnifiableOffset = [0.0, -3.0]
             )
 
             ParagraphStyle = ~/paragraphStyleTextCenter
             TextStyle = "Default"
             TypefaceToken = "UIMainFont"
-            BigLineAction = <BigLineAction>
+            BigLineAction = ~/BigLineAction/ResizeFont
             TextToken = <TextToken>
-            TextDico = <TextDico>
+            TextDico = ~/LocalisationConstantes/dico_interface_outgame
             HorizontalFitStyle = ~/FitStyle/UserDefined
             VerticalFitStyle = ~/FitStyle/UserDefined
 
-            TextColor = "Vert_loadOnglet"
+            TextColor = "MarronPanel_noir"
             TextSize = "18"
 
             ChildFitToContent = true
@@ -1131,7 +1117,7 @@ private template BUCKSpecificSaveLoadPanelMainComponentDescriptor
 
     FramePropertyBeforeAnimation = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [1.0, 1.0]
+        MagnifiableWidthHeight = [1500.0, 988.0]
         AlignementToAnchor = [0.5, 0.0]
         AlignementToFather = [0.5, 1.0]
     )
@@ -1206,29 +1192,8 @@ private template BUCKSpecificSaveLoadPanelMainComponentDescriptor
                         )
                     ]
                 ),
-                BUCKListDescriptor
-                (
-                    ComponentFrame = TUIFramePropertyRTTI
-                    (
-                        RelativeWidthHeight = [1.0, 0.0]
-                        MagnifiableOffset = [0.0, 54.0]
-                    )
-
-                    Axis = ~/ListAxis/Vertical
-                    InterItemMargin = TRTTILength ( Magnifiable = 49.0)
-                    Elements =
-                    [
-                        BUCKListElementDescriptor
-                        (
-                            ComponentDescriptor = ~/SaveLoadPanelHeader
-                        ),
-                        BUCKListElementDescriptor
-                        (
-                            ExtendWeight = 1.0
-                            ComponentDescriptor = ~/SaveLoadTabsComponent
-                        )
-                    ]
-                ),
+                SaveLoadPanelHeader,
+                SaveLoadTabsComponent
             ]
         )
     ]

@@ -88,8 +88,8 @@ export GenBTAtk_PhaseDeploiement is TSequenceGeneratorDescriptor
         ~/Attack_Main_BKT,
         ~/Attack_Main_BKT,
 
-        ~/GenBTAtk_Artillery_Support,
-        ~/GenBTAtk_Artillery_TriggerHappy_1for4Corridors,
+        ~/Artillery_Support,
+        ~/Artillery_TriggerHappy_1for4Corridors,
 
     ] + ~/GenBTAtk_Defenses_Airstrike_Arti_Shuffle_Deploy
 
@@ -118,7 +118,7 @@ export GenBTAtk_Phase_Command is TSequenceGeneratorDescriptor
         ~/Supply_Skirmish_WithAllied_OnePerCorridor,
         ~/Reco,
 
-        ~/GenBTAtk_Artillery_TriggerHappy_1for4Corridors,
+        ~/Artillery_TriggerHappy_1for4Corridors,
 
         //------------------------------
         // Attaques principales
@@ -126,8 +126,8 @@ export GenBTAtk_Phase_Command is TSequenceGeneratorDescriptor
         ~/Attack_Main_BKT,
         ~/Attack_Main_BKT,
 
-        ~/GenBTAtk_Artillery_Support,
-        ~/GenBTAtk_Artillery_Expensive,
+        ~/Artillery_Support,
+        ~/Artillery_Expensive,
 
         ~/Airstrike_Offense,
         ~/Airstrike_AA,
@@ -153,11 +153,11 @@ export GenBTAtk_Phase_Command is TSequenceGeneratorDescriptor
 GenBTAtk_Defenses_Airstrike_Arti_Shuffle_Deploy is
 [
     ~/Airstrike_Assault,
-    ~/GenBTAtk_Artillery_Expensive,
+    ~/Artillery_Expensive,
     ~/Defense_Static_AA,
     ~/Airstrike_Offense,
     ~/Airstrike_AA,
-    ~/GenBTAtk_Artillery_TriggerHappy_1for4Corridors,
+    ~/Artillery_TriggerHappy_1for4Corridors,
 ]
 
 GenBTAtk_Scaling is
@@ -165,14 +165,13 @@ GenBTAtk_Scaling is
     ~/Attack_Helo_Autogen,
     ~/Attack_Adaptive_Autogen,
     ~/Attack_Objectives_Autogen,
-    ~/GenBTAtk_Artillery_Expensive_Autogen,
+    ~/Artillery_Expensive_Autogen,
     ~/Airstrike_AA_Autogen,
     ~/Defense_Dynamic_Adaptive_Autogen,
     ~/Defense_Static_AA_Autogen,
     ~/Attack_Adaptive_Autogen,
-    ~/GenBTAtk_Artillery_TriggerHappy_Autogen,
+    ~/Artillery_TriggerHappy_Autogen,
     ~/Airstrike_Offense_Autogen,
-    ~/GenBTAtk_Artillery_TriggerHappy_Autogen,
     ~/Airstrike_Assault_Autogen,
 ]
 

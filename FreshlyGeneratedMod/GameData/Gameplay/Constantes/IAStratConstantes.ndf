@@ -46,12 +46,6 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     // Si on utilise le contrôle des zones par ratios de force, c'est la valeur minimale à dépasser pour contrôler la zone
     ControlRatioMinToControl = 1.0
 
-    CountAlliesAsDefenders = true // Chaque IA considère qu'une zone n'est défendue que si elle la défend personellement
-
-    // False : Perte du contrôle de la zone lorsque l'IA n'a plus d'unité dessus
-    // True : Le contrôle de la zone est gardé jusqu'à ce qu'il y ait une unité ennemie dessus
-    KeepEmptyZoneControl = true
-
     ZoneKnowledgeDuration = 360 // Durée pendant laquelle une zone reste connue après reco
     CommandZoneWeight = ~/CommandZoneCustomWeighForIAStrat // Numero donné aux zones générées automatiquement autours des zones objectif.
 
@@ -110,7 +104,8 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     [
         (EDefensePointType/NearCover, ["Helo"]),
         (EDefensePointType/Hidden, ["InfmapCommander"]),
-        (EDefensePointType/HardCover, ["Infanterie", "Canon_AT", "ChasseurDeChar", "Canon_AA", "Char", "Infanterie_Reco", "Vehicule_Reco"]),
+        (EDefensePointType/HardCover, ["Infanterie", "Canon_AT", "ChasseurDeChar", "Canon_AA", "Char", "Infanterie_Reco", "Vehicule_Reco", "InfmapCommander"]),
+        (EDefensePointType/All, ["InfmapCommander"]),
     ]
 
     MaxDistanceForNearCoverDefensePoint = 2.0
@@ -390,7 +385,6 @@ AirstrikeConstantes is TIAStratAirstrikeConstantes
 ArtilleryStrikeConstantes is TIAStratArtilleryStrikeConstantes
 (
     ArtilleryStrikeSupportOffset = 1000 * Metre // Les artilleries sur carte lançant un tir Smoke en soutien viseront à cette distance derrière l'ennemi
-    SupportStrikeRatioForMissionSupport = 0.3 // Ratio Tir pour tuer / Tir de soutien (Smoke ou barrage) lors du support de mission (0 : pas de Smoke, 1 : que des Smoke)
     ArtilleryStrikeThreatBonusPerTags =  // Multiplicateur appliqué lors du calcul de la menace d'unité. On applique le premier bonus qui match les tags de notre unité (1 par défaut)
     [
         (["Canon_AT"], 1.5),
@@ -405,7 +399,7 @@ ArtilleryStrikeConstantes is TIAStratArtilleryStrikeConstantes
         (["Helo"], 0.5),
     ]
 
-    ArtilleryRangeRatioPosition = 0.30
+    ArtilleryRangeRatioPosition = 0.70
 )
 
 //--------------------------------------------------------------------------------------//

@@ -44,7 +44,7 @@ template AirplaneMovementDescriptor
 [
     Altitude,
     AltitudeMin,
-    Speed,
+    SpeedInKmph,
     AgilityRadius,
     PitchAngle,
     RollAngle,
@@ -61,7 +61,7 @@ template AirplaneMovementDescriptor
         AltitudeMin = <AltitudeMin>
         AltitudeMinForRoll = ~/MinAltitudeForRoll
         MinRollSpeedForRoll = ~/MinRollSpeedForRoll
-        Speed = <Speed>
+        SpeedInKmph = <SpeedInKmph>
         AgilityRadius = <AgilityRadius>
         PitchAngle = <PitchAngle>
         PitchSpeed = ~/MaxPitchSpeed
@@ -277,13 +277,6 @@ DistrictSelectionModuleDescriptor is TSelectionModuleDescriptor
     HasHighlightShader  = True
 )
 
-template TCadavreGeneratorModuleDescriptorUnit
-[ CadavreDescriptor ]
-is TCadavreGeneratorModuleDescriptor
-(
-    CadavreDescriptor = <CadavreDescriptor>
-)
-
 public FXState is TBaseClass
 (
     // Doit être synchro avec TActOfRuseBuildingAnimationStates/Type
@@ -379,4 +372,19 @@ ColumnInfantrySquadSlotPositionsModuleDescriptor is TInfantrySquadSlotPositionsM
     SquadMovementDataDescriptor  = ~/SoldierSquadMovementDataDescriptor
     SquadFormationDescriptor = ~/SoldierColumnDescriptor
     NoiseDescriptor    = ~/SoldierNoiseDescriptor
+)
+
+BuildingScannerConfigurationDescriptor is TScannerConfigurationDescriptor
+(
+    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
+    PorteeVisionTBAGRU = 0.0
+    PorteeVisionFOWGRU = 0.0
+    DetectionTBAGRU = 3533.56890459
+    PorteeVisionGRU = 3533.56890459
+    PorteeIdentification = 0.0
+    OpticalStrength = 0.0
+    OpticalStrengthAltitude = 40
+    SpecializedDetectionsGRU = MAP [
+        ( EVisionUnitType/AlwaysInHighAltitude, 3533.56890459 ),
+    ]
 )

@@ -24,6 +24,8 @@ export PodSOVModelPylon_Airplane_20 is CommonMeshDesc( ModelFile = 'GameData:/As
 export PodSOVModelPylon_32 is CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/SOV/UB_32_rocket_pod/UB_32_rocket_pod_x32.Ase2NdfBin' )
 export PodSOVModelPylon_33 is CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/URSS/Helico/Mi_17/Pod_Rockets_SOV_33.Ase2NdfBin' )
 
+export PodFRModelPylon_4  is CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/FR/Type_100_4.fbx' ) // ce pod a 4 boites
+
 export PodFRModelResource is  CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/FR/JL_100R.Ase2NdfBin' ) // ce pod a 19 boites
 export PodRFAModelResource is CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/FR/JL_100R.Ase2NdfBin' ) // ce pod a 19 boites
 export PodUKModelResource is  CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/UK/LAU_5003/LAU_5003_x19.Ase2NdfBin' ) // ce pod a 19 boites

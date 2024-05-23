@@ -19,10 +19,10 @@ SpecificInGameUnitLabelResources is TUISpecificInGameUnitLabelResources
     OpacityControlByFloat           = $/M3D/Shader/UnitLabelOpacity
     FadeFactorForShaderParameter    = $/M3D/Scene/MaskAlphaFade
 
-    LabelInAggregatMagnifiableBox = [UnitLabelAggregationWidth * 0.2, UnitLabelAggregationHeight * 0.4]
-    LabelMagnifiableBox = [16, 9]
+    LabelInAggregatMagnifiableBox = [18, 16]        // taille des boites rouges dans le debug (label agregé)
+    LabelMagnifiableBox = [18, 12]                  // taille des boites cyan dans le debug (label non agregé)
     MagnifiableOffsetCenter = [0.0, -37.0]
-    MagnifiableOffsetAggregatCenter = [0.0, -32.0]
+    MagnifiableOffsetAggregatCenter = [0.0, -40]
 
     NbMaxAggregatedUnits = 12
 

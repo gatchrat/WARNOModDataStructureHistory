@@ -266,7 +266,7 @@ GameOptions is BUCKListElementDescriptor
                                     HintBodyToken = "GS_BATTLEB"
                                     HintExtendedToken = "GS_BATTLEE"
                                 )
-                                FloatingListMagnifiableHeight = 700
+                                FloatingListMagnifiableHeight = 500
                                 ItemsTextPadding = TRTTILength4(Magnifiable = [45.0, 5.0, 0.0, 5.0])
                                 MainTextPadding = TRTTILength4(Magnifiable = [40.0, 5.0, 0.0, 5.0])
 

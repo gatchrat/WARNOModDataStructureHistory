@@ -19,13 +19,17 @@ private DisabledOperatorLow is DisabledOperatorMid + [
     'Wheels',
 ]
 
+LOD_High is 'high'
+LOD_Mid  is 'mid'
+LOD_Low  is 'low'
+
 // ****************************************************************************************************************************************
 // *** Véhicules **************************************************************************************************************************
 // ****************************************************************************************************************************************
 template DepictionDescriptor_LOD_High
 [
     MeshDescriptor : TResourceMultiMaterialMesh,
-    SelectorId = 'high'
+    SelectorId = LOD_High
 ]
 is TDepictionDescriptor
 (
@@ -36,7 +40,7 @@ is TDepictionDescriptor
 template DepictionDescriptor_LOD_Mid
 [
     MeshDescriptor : TResourceMultiMaterialMesh,
-    SelectorId = 'mid'
+    SelectorId = LOD_Mid
 ]
 is TDepictionDescriptor
 (
@@ -48,7 +52,7 @@ is TDepictionDescriptor
 template DepictionDescriptor_LOD_Low
 [
     MeshDescriptor : TResourceMultiMaterialMesh,
-    SelectorId = 'low',
+    SelectorId = LOD_Low,
     DisabledOperators = []
 ]
 is TDepictionDescriptor
@@ -73,7 +77,7 @@ template DepictionDescriptor_LOD_InfantryHigh
 ]
 is TDepictionDescriptor
 (
-    SelectorId = ['high']
+    SelectorId = [LOD_High]
     MeshDescriptor = <MeshDescriptor>
 )
 
@@ -83,7 +87,7 @@ template DepictionDescriptor_LOD_InfantryLow
 ]
 is TDepictionDescriptor
 (
-    SelectorId = ['low']
+    SelectorId = [LOD_Low]
     MeshDescriptor = <MeshDescriptor>
 )
 
@@ -129,25 +133,25 @@ template TemplateWeaponAccessorySubDepiction
             NoneLimitInMeter = LodHighNoneLimit_SoldierWeapon
             CameraMoverManagerModernWarfare = $/Camera/CameraMoverManager
             MeshAlternativeKeys = ['mesh_alternative','mesh_alternative_backpack']
-            PrincipalDepiction = ['high']
+            PrincipalDepiction = [LOD_High]
             EnabledValue = <EnabledValue>
         )
         DepictionAlternatives = [
-          TDepictionDescriptor( SelectorId = ['high'] MeshDescriptor = <MeshDescriptor> ),
+          TDepictionDescriptor( SelectorId = [LOD_High] MeshDescriptor = <MeshDescriptor> ),
         ]
     )
 )
 
-TacticDepiction_01_Surrogates is [['high', '01']]
-TacticDepiction_02_Surrogates is TacticDepiction_01_Surrogates + [['high', '02']]
-TacticDepiction_03_Surrogates is TacticDepiction_02_Surrogates + [['high', '03']]
-TacticDepiction_04_Surrogates is TacticDepiction_03_Surrogates + [['high', '04']]
-TacticDepiction_05_Surrogates is TacticDepiction_04_Surrogates + [['high', '05']]
-TacticDepiction_06_Surrogates is TacticDepiction_05_Surrogates + [['high', '06']]
-TacticDepiction_07_Surrogates is TacticDepiction_06_Surrogates + [['high', '07']]
-TacticDepiction_08_Surrogates is TacticDepiction_07_Surrogates + [['high', '08']]
-TacticDepiction_09_Surrogates is TacticDepiction_08_Surrogates + [['high', '09']]
-TacticDepiction_10_Surrogates is TacticDepiction_09_Surrogates + [['high', '10']]
+TacticDepiction_01_Surrogates is [[LOD_High, '01']]
+TacticDepiction_02_Surrogates is TacticDepiction_01_Surrogates + [[LOD_High, '02']]
+TacticDepiction_03_Surrogates is TacticDepiction_02_Surrogates + [[LOD_High, '03']]
+TacticDepiction_04_Surrogates is TacticDepiction_03_Surrogates + [[LOD_High, '04']]
+TacticDepiction_05_Surrogates is TacticDepiction_04_Surrogates + [[LOD_High, '05']]
+TacticDepiction_06_Surrogates is TacticDepiction_05_Surrogates + [[LOD_High, '06']]
+TacticDepiction_07_Surrogates is TacticDepiction_06_Surrogates + [[LOD_High, '07']]
+TacticDepiction_08_Surrogates is TacticDepiction_07_Surrogates + [[LOD_High, '08']]
+TacticDepiction_09_Surrogates is TacticDepiction_08_Surrogates + [[LOD_High, '09']]
+TacticDepiction_10_Surrogates is TacticDepiction_09_Surrogates + [[LOD_High, '10']]
 
 template TemplateInfantrySelectorTactic
 [
@@ -386,7 +390,7 @@ is TSubDepiction
     (
         Selector = OnlyHighDepictionSelector
         DepictionAlternatives = [
-            TDepictionDescriptor( SelectorId = ['high'] MeshDescriptor = <MeshDescriptor> )
+            TDepictionDescriptor( SelectorId = [LOD_High] MeshDescriptor = <MeshDescriptor> )
         ]
     )
 )
@@ -450,24 +454,29 @@ is TSubDepiction
     )
 )
 
-template RocketSubDepictionTemplate
+template RocketSubDepictionTemplateCommon
 [
     UnitMeshDescriptor,
     RocketMeshDescriptor,
     RocketCount,
+    WeaponIndex,
+    PhysicalProperty,
+    RocketDepiction,
+    StartGroupIndex
 ] is TRocketSubDepictionGenerator
 (
     MissileCarriageConnoisseur = TMissileCarriageConnoisseur
     (
         MeshDescriptor = <UnitMeshDescriptor>
         PylonSet = ~/DepictionPylonSet_ATGM
+        StartGroupIndex = <StartGroupIndex>
         WeaponInfos =
         [
             TMissileCarriageWeaponInfo
             (
                 Count = <RocketCount>
                 MissileType = eAGM
-                WeaponIndex = 1
+                WeaponIndex = <WeaponIndex>
             ),
         ]
     )
@@ -476,18 +485,61 @@ template RocketSubDepictionTemplate
     [
         TRocketSubDepictionMissileInfo
         (
-            Depiction = TemplateDepictionStaticRocketsGroundUnit
-            (
-                PhysicalProperty = "Tourelle1_MissileCount"
-                ProjectileModelResource = <RocketMeshDescriptor>
-                VisibleRocketCount = <RocketCount>
-            )
+            Depiction = <RocketDepiction>
             MissileCount = <RocketCount>
-            WeaponIndex = 1
+            WeaponIndex = <WeaponIndex>
         ),
     ]
     Pylons = ~/DepictionPylonSet_ATGM
     ReferenceMesh = <UnitMeshDescriptor>
+)
+
+template RocketSubDepictionTemplate
+[
+    UnitMeshDescriptor,
+    RocketMeshDescriptor,
+    RocketCount,
+    WeaponIndex,
+    PhysicalProperty,
+    StartGroupIndex = 0
+] is RocketSubDepictionTemplateCommon
+(
+    UnitMeshDescriptor = <UnitMeshDescriptor>
+    RocketMeshDescriptor = <RocketMeshDescriptor>
+    RocketCount = <RocketCount>
+    WeaponIndex = <WeaponIndex>
+    PhysicalProperty = <PhysicalProperty>
+    StartGroupIndex = <StartGroupIndex>
+    RocketDepiction = TemplateDepictionStaticRocketsGroundUnit
+    (
+        PhysicalProperty = <PhysicalProperty>
+        ProjectileModelResource = <RocketMeshDescriptor>
+        VisibleRocketCount = <RocketCount>
+    )
+)
+
+template RocketAirplaneSubDepictionTemplate
+[
+    UnitMeshDescriptor,
+    RocketMeshDescriptor,
+    RocketCount,
+    WeaponIndex,
+    PhysicalProperty,
+    StartGroupIndex = 0
+] is RocketSubDepictionTemplateCommon
+(
+    UnitMeshDescriptor = <UnitMeshDescriptor>
+    RocketMeshDescriptor = <RocketMeshDescriptor>
+    RocketCount = <RocketCount>
+    WeaponIndex = <WeaponIndex>
+    PhysicalProperty = <PhysicalProperty>
+    StartGroupIndex = <StartGroupIndex>
+    RocketDepiction = TemplateDepictionStaticRocketsAirUnit
+    (
+        PhysicalProperty = <PhysicalProperty>
+        ProjectileModelResource = <RocketMeshDescriptor>
+        VisibleRocketCount = <RocketCount>
+    )
 )
 
 template ShowroomRocketSubDepictionTemplate
@@ -495,19 +547,22 @@ template ShowroomRocketSubDepictionTemplate
     UnitMeshDescriptor,
     RocketMeshDescriptor,
     RocketCount,
+    WeaponIndex = 1,
+    StartGroupIndex = 0
 ] is TStaticMissileCarriageSubDepictionGenerator
 (
     MissileCarriageConnoisseur = TMissileCarriageConnoisseur
     (
         MeshDescriptor = <UnitMeshDescriptor>
         PylonSet = ~/DepictionPylonSet_ATGM
+        StartGroupIndex = <StartGroupIndex>
         WeaponInfos =
         [
             TMissileCarriageWeaponInfo
             (
                 Count = <RocketCount>
                 MissileType = eAGM
-                WeaponIndex = 1
+                WeaponIndex = <WeaponIndex>
             ),
         ]
     )
@@ -521,7 +576,7 @@ template ShowroomRocketSubDepictionTemplate
                 ProjectileModelResource = <RocketMeshDescriptor>
             )
             MissileCount = <RocketCount>
-            WeaponIndex = 1
+            WeaponIndex = <WeaponIndex>
         ),
     ]
     Pylons = ~/DepictionPylonSet_Vehicle_Default_Showroom

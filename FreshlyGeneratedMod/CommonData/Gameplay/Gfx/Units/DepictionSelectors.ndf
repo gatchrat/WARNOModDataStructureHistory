@@ -25,7 +25,7 @@ export PixelConstantValuesSpecific is TBaseClass
 )
 
 
-export OnlyHighDepictionSelector is TConstantAlternativeSelector(Key = ['high'])
+export OnlyHighDepictionSelector is TConstantAlternativeSelector(Key = [LOD_High])
 
 
 //selecteur séparé pour les soldats pour faire un réglage indépendant des tanks

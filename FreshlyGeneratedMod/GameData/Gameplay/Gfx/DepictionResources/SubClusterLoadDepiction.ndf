@@ -12,5 +12,6 @@ export TransactionBase is TNDFTransactionFileList
         'GameData:/Gameplay/Gfx/DepictionResources/StrategicPawnModelResources.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/TestDepiction.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/AllMissileResources.ndf',
+        'GameData:/Gameplay/Gfx/DepictionResources/DepictionTurrets.ndf',
     ]
 )

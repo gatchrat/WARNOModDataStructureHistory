@@ -23,16 +23,6 @@ template TUIResourceTexture_CommonNoGen
     ContentType = ContentType_Texture_UI_Common
 )
 
-template TUIResourceTexture_CommonModded
-[
-    FileName : string
-] is TUIResourceTexture
-(
-    FileName = "Mod:/AssetsModding/" + <FileName>
-    UsefulnessMask = CivMask/Modding + TypeMask/Common
-    ContentType = ContentType_Texture_UI_Common
-)
-
 template TUIResourceTexture_OutGame
 [
     FileName : string
@@ -40,16 +30,6 @@ template TUIResourceTexture_OutGame
 (
     FileName = <FileName>
     UsefulnessMask = CivMask/Common + TypeMask/OutGameInterface
-    ContentType = ContentType_Texture_UI_Outgame
-)
-
-template TUIResourceTexture_OutGameModded
-[
-    FileName : string
-] is TUIResourceTexture
-(
-    FileName = "Mod:/AssetsModding/" + <FileName>
-    UsefulnessMask = CivMask/Modding + TypeMask/OutGameInterface
     ContentType = ContentType_Texture_UI_Outgame
 )
 
@@ -75,16 +55,6 @@ template TUIResourceTexture_InGameNoGen
     ContentType = ContentType_Texture_UI_Ingame
 )
 
-template TUIResourceTexture_InGameModded
-[
-    FileName : string
-] is TUIResourceTexture
-(
-    FileName = "Mod:/AssetsModding/" + <FileName>
-    UsefulnessMask = CivMask/Modding + TypeMask/InGameInterface
-    ContentType = ContentType_Texture_UI_Ingame
-)
-
 template TUIResourceTexture_Debug
 [
     FileName : string,
@@ -94,4 +64,3 @@ template TUIResourceTexture_Debug
     UsefulnessMask = CivMask/Common + TypeMask/DebugScreen
     ContentType = ContentType_Texture_UI_Common
 )
-

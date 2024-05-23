@@ -8,7 +8,6 @@ is TSequencingActionHappening
     (
         LocalVariables =
         [
-            parPower is TPinnableValue(ExpectedType: float InitialValue = 5),
             parPosition is TPinnableValue(ExpectedType: float3),
             parDirection is TPinnableValue(ExpectedType: float3),
             parRadiusPhysical is TPinnableValue(ExpectedType: float InitialValue = 0),
@@ -46,7 +45,6 @@ is TSequencingActionHappening
 
                 NamedParams = MAP[
                     ('parPosition', float3[0, 0, 0]),
-                    ('parPower', parPower),
                     ('parDirection', float3[1,0,0]),
                     ('parRadiusPhysical', parRadiusPhysical),
                     ('parRadiusSuppress', parRadiusSuppress),

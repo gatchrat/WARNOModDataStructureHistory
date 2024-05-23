@@ -276,8 +276,38 @@ template DepictionPylonSet_Airplane_Common_Showroom [ ModelResource ] is TMultiP
     BombPylonSet = PylonSet_DefaultMissileShowroom
 )
 
-DepictionPylonSet_Airplane_FR is DepictionPylonSet_Airplane_Common( ModelResource = $/GFX/DepictionResources/PodFRModelResource )
-DepictionPylonSet_Airplane_FR_Showroom is DepictionPylonSet_Airplane_Common_Showroom( ModelResource = $/GFX/DepictionResources/PodFRModelResource )
+DepictionPylonSet_Airplane_FR is TMultiPylonSet
+(
+    DefaultPylonSet = PylonSet_DefaultMissileAirplane
+    PodPylonSet = PylonSet_FRPodAirplane
+    BombPylonSet = PylonSet_DefaultMissileAirplane
+)
+
+DepictionPylonSet_Airplane_FR_Showroom is TMultiPylonSet
+(
+    DefaultPylonSet = PylonSet_DefaultMissileShowroom
+    PodPylonSet = PylonSet_FRPodAirplaneShowroom
+    BombPylonSet = PylonSet_DefaultMissileShowroom
+)
+
+PylonSet_FRPodAirplane is TDepictionPylonSet
+(
+    Pylons = [
+        PylonDepictionAirplane( ModelResource = $/GFX/DepictionResources/PodFRModelPylon_4 ),
+        PylonDepictionAirplane( ModelResource = $/GFX/DepictionResources/PodFRModelResource ),
+    ]
+)
+
+PylonSet_FRPodAirplaneShowroom is TDepictionPylonSet
+(
+    Pylons = [
+        PylonDepictionShowroom( ModelResource = $/GFX/DepictionResources/PodFRModelPylon_4 ),
+        PylonDepictionShowroom( ModelResource = $/GFX/DepictionResources/PodFRModelResource ),
+    ]
+)
+
+// DepictionPylonSet_Airplane_FR is DepictionPylonSet_Airplane_Common( ModelResource = $/GFX/DepictionResources/PodFRModelResource )
+// DepictionPylonSet_Airplane_FR_Showroom is DepictionPylonSet_Airplane_Common_Showroom( ModelResource = $/GFX/DepictionResources/PodFRModelResource )
 
 DepictionPylonSet_Airplane_RFA is DepictionPylonSet_Airplane_Common( ModelResource = $/GFX/DepictionResources/PodRFAModelResource )
 DepictionPylonSet_Airplane_RFA_Showroom is DepictionPylonSet_Airplane_Common_Showroom( ModelResource = $/GFX/DepictionResources/PodRFAModelResource )

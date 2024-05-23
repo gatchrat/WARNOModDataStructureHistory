@@ -24,7 +24,7 @@ EDiceHitModifier is TBaseClass
 (
     Precision        is 0
     DistanceToTarget is 1
-    SuccesiveShots   is 2
+    SuccessiveShots  is 2
     Suppress         is 3
     Length           is 4
 )

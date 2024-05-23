@@ -34,3 +34,8 @@ TIAPawnsBehaviorDefense is TIAPawnsBehavior(
     Filter = TIAPawnsBehaviorFilterAcceptEveryPawns()
     EndTurn = TIAPawnsBehaviorDefensePlacement()
 )
+
+TIAPawnsBehaviorMoveWithoutInfluence is TIAPawnsBehavior(
+    Filter = TIAPawnsBehaviorFilterPawnsWithoutInfluence()
+    EndTurn = TIAPawnsBehaviorMoveWithoutInfluenceEndTurn()
+)

@@ -36,7 +36,6 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("CommonTexture_MotherCountryFlag_JAP",  MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_JAP)]),
         ("CommonTexture_MotherCountryFlag_ANZ",  MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_ANZ)]),
         ("CommonTexture_MotherCountryFlag_HON",  MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_HON)]),
-        ("CommonTexture_MotherCountryFlag_AWP",  MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_POL)]),
         ("CommonTexture_MotherCountryFlag_FIN",  MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_FIN)]),
         ("CommonTexture_MotherCountryFlag_ROU",  MAP [(~/ComponentState/Normal, ~/CommonTexture_MotherCountryFlag_ROU)]),
         ("CommonTexture_MotherCountryFlag_DDR",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/Flags/Normal/RDA_FLAG.png"))]),

@@ -185,8 +185,8 @@ MouseCurseur_couvert_rocher is TMouseCursorAnimation
 
 Mousecurseur_mouvement_attaque is TMouseCursorAnimation
 (
-    HotSpotX           = 1
-    HotSpotY           = 1
+    HotSpotX           = 16
+    HotSpotY           = 16
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
@@ -200,8 +200,8 @@ Mousecurseur_mouvement_attaque is TMouseCursorAnimation
 
 Mousecurseur_mouvement_attaque_coverl is TMouseCursorAnimation
 (
-    HotSpotX           = 1
-    HotSpotY           = 1
+    HotSpotX           = 16
+    HotSpotY           = 16
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
@@ -215,8 +215,8 @@ Mousecurseur_mouvement_attaque_coverl is TMouseCursorAnimation
 
 Mousecurseur_mouvement_attaque_coverh is TMouseCursorAnimation
 (
-    HotSpotX           = 1
-    HotSpotY           = 1
+    HotSpotX           = 16
+    HotSpotY           = 16
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (

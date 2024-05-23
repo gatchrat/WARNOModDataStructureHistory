@@ -1,14 +1,14 @@
-export Modele_BRM_1_DDR is TemplateMeshDescriptor
+export Modele_BRM_1_DDR is ModelDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/DDR/APC/BRM1/BRM1.Ase2NdfBin'
 )
 
-export Modele_BRM_1_DDR_MID is TemplateMeshDescriptor
+export Modele_BRM_1_DDR_MID is ModelDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/DDR/APC/BRM1_MID/BRM1_MID.Ase2NdfBin'
 )
 
-export Modele_BRM_1_DDR_LOW is TemplateMeshDescriptor
+export Modele_BRM_1_DDR_LOW is ModelDescriptor
 (
     FileName     = 'GameData:/Assets/3D/Units/DDR/APC/LODS/BRM1_LOW.Ase2NdfBin'
 )

@@ -88,14 +88,14 @@ export EasyBTAtk_PhaseDeploiement is TSequenceGeneratorDescriptor
         ~/Attack_Main_BKT,
         ~/Attack_Main_BKT,
 
-        ~/GenBTAtk_Artillery_Support,
+        ~/Artillery_Support,
 
         ~/Airstrike_Offense,
         ~/Airstrike_AA,
 
         ~/Attack_Objectives,
 
-        ~/GenBTAtk_Artillery_TriggerHappy_1for4Corridors,
+        ~/Artillery_TriggerHappy_1for4Corridors,
 
     ] + ~/EasyAtk_Defenses_Airstrike_Arti_Shuffle_Deploy
 
@@ -130,14 +130,14 @@ export EasyBTAtk_Phase_Command is TSequenceGeneratorDescriptor
         ~/Attack_Main_BKT,
         ~/Attack_Main_BKT,
 
-        ~/GenBTAtk_Artillery_Support,
+        ~/Artillery_Support,
 
         ~/Airstrike_Offense,
         ~/Airstrike_AA,
 
         ~/Attack_Objectives,
 
-        ~/GenBTAtk_Artillery_TriggerHappy_1for4Corridors,
+        ~/Artillery_TriggerHappy_1for4Corridors,
 
     ] + ~/Airstrike_Arti_Shuffle // On sort les défenses d'ici pour les mettre plus haut dans la prio
 
@@ -161,7 +161,7 @@ EasyAtk_Defenses_Airstrike_Arti_Shuffle_Deploy is
     ~/Defense_Static_AA,
     ~/Airstrike_Offense,
     ~/Airstrike_AA,
-    ~/GenBTAtk_Artillery_Expensive,
+    ~/Artillery_Expensive,
 ]
 
 EasyAtk_Scaling is
@@ -171,11 +171,11 @@ EasyAtk_Scaling is
     ~/Attack_Objectives_Autogen,
     ~/Airstrike_AA_Autogen,
     ~/Defense_Dynamic_Adaptive_Autogen,
-    ~/GenBTAtk_Artillery_Expensive_Autogen,
+    ~/Artillery_Expensive_Autogen,
     ~/Defense_Static_AA_Autogen,
     ~/Attack_Adaptive_Autogen,
     ~/Airstrike_Offense_Autogen,
-    ~/GenBTAtk_Artillery_TriggerHappy_Autogen,
+    ~/Artillery_TriggerHappy_Autogen,
     ~/Airstrike_Assault_Autogen,
 ]
 

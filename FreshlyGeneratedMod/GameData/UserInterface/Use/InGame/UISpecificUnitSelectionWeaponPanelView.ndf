@@ -46,7 +46,6 @@ private WeaponPanelContentList is BUCKListDescriptor
     )
 
     Axis = ~/ListAxis/Vertical
-    // FirstMargin  = TRTTILength (Magnifiable = 4.0)
 
     Elements =
     [
@@ -133,11 +132,11 @@ is BUCKListDescriptor
         (
             ComponentDescriptor = PanelAffichageArmeStatut (IsSelection = <IsSelection>)
         ),
-        // Ammunitions buttons container
+        // Ammunitions container
         BUCKListElementDescriptor
         (
             ExtendWeight = 1.0
-            ComponentDescriptor = WeaponPanelAmmunitionsButtonsContainer(Scale = <Scale> IsSelection = <IsSelection>)
+            ComponentDescriptor = WeaponPanelAmmunitionsContainer(Scale = <Scale> IsSelection = <IsSelection>)
         ),
     ]
 )
@@ -172,7 +171,6 @@ private WeaponPanelWeaponStatus is BUCKContainerDescriptor
 
     HasBackground = true
     BackgroundBlockColorToken = "BlancTresTransparent"
-    // BackgroundBlockColorToken = "Orange"
 
     Components =
     [
@@ -185,6 +183,7 @@ private WeaponPanelWeaponStatus is BUCKContainerDescriptor
                 AlignementToAnchor = [0.5, 0.5]
                 AlignementToFather = [0.5, 0.5]
             )
+
             Axis = ~/ListAxis/Horizontal
 
             Elements =
@@ -303,9 +302,6 @@ is BUCKContainerDescriptor
         MagnifiableWidthHeight = (<IsSelection> ? [0.0, 24.0] : [0.0, 0.0])
     )
 
-    // HasBackground = true
-    // BackgroundBlockColorToken = 'Red'
-
     Components = [] +
     (<IsSelection> ?
     [
@@ -332,10 +328,7 @@ WeaponRadarIcon is BUCKTextureDescriptor
         AlignementToAnchor     = [0.5, 0.5]
     )
 
-    HasBackground = false
-    BackgroundBlockColorToken = "AppleGreen"
     TextureToken = 'icone_PourPanelSelectionRdr'
-
     Components =
     [
         BUCKSpecificHintableArea
@@ -370,9 +363,6 @@ WeaponPanelWeaponIcon is BUCKTextureDescriptor
     )
 
     TextureColorToken = 'MarronPanel_blanc'
-    HasBackground = false
-    BackgroundBlockColorToken = 'Gris_pi'
-    ClipContent = false
 )
 
 // -------------------------------------------------------------------------------------------------
@@ -399,10 +389,8 @@ is BUCKTextDescriptor
         Alignment = UIText_Center
         VerticalAlignment = UIText_VerticalCenter
     )
-    TextStyle = "Default"
-    // HasBackground = true
-    BackgroundBlockColorToken = 'Orange'
 
+    TextStyle = "Default"
     HorizontalFitStyle = (<IsSelection> ? ~/FitStyle/FitToContent : ~/FitStyle/UserDefined)
 
     TypefaceToken = "Eurostyle"
@@ -420,22 +408,19 @@ is BUCKTextDescriptor
         HintBodyToken = 'pi_wname'
         HintExtendedToken = ''
     )
-
 )
 
 // -------------------------------------------------------------------------------------------------
 // WeaponPanelAmmunitionsContainer
 // -------------------------------------------------------------------------------------------------
-// Container for ammunitions buttons
-template WeaponPanelAmmunitionsButtonsContainer
+// Container for ammunitions
+template WeaponPanelAmmunitionsContainer
 [
     IsSelection : bool,
     Scale : float,
 ]
 is BUCKContainerDescriptor
 (
-    ElementName = 'WeaponPanelAmmunitionsButtonsContainer'
-
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight    = [1.0, 0.0]
@@ -445,818 +430,270 @@ is BUCKContainerDescriptor
     )
 
     FitStyle = ~/ContainerFitStyle/MaxBetweenUserDefinedAndContentVertically
-    // HasBackground = true
-    BackgroundBlockColorToken = 'Orange'
-    Components =
 
+    Components = <IsSelection> ?
     [
-
-
-        BUCKListDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 0.0]
-                AlignementToFather  = [0.5, 0.0]
-                AlignementToAnchor  = [0.5, 0.0]
-            )
-
-            Axis = ~/ListAxis/Vertical
-            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
-
-            FirstMargin = TRTTILength ( Magnifiable = (<IsSelection> ? 2.0 : 2.0 ))
-            LastMargin = TRTTILength ( Magnifiable = (<IsSelection> ? 0.0 : 0.0 ))
-
-            Elements =
-            [
-                // APCR
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelAPCRButton(IsSelection = <IsSelection>)
-                ),
-                // AP
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelAPButton(IsSelection = <IsSelection>)
-                ),
-                // HOWZ
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelHOWZAPButton(IsSelection = <IsSelection>)
-                ),
-                // APHE
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelAPHEButton(IsSelection = <IsSelection>)
-                ),
-
-                // HE OR SUPPLY
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelHEButton(IsSelection = <IsSelection>)
-                ),
-
-                // HE autocanon
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelHEAutoCanonButton(IsSelection = <IsSelection>)
-                ),
-
-                // Bullet
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelBulletButton(IsSelection = <IsSelection>)
-                ),
-
-                // Bullet AA
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelBulletAAButton(IsSelection = <IsSelection>)
-                ),
-
-                // Bullet DCA
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelBulletDCAButton(IsSelection = <IsSelection>)
-                ),
-
-                // Rockets
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelRocketHEButton(IsSelection = <IsSelection>)
-                ),
-
-                // RocketsAP
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelRocketAPButton(IsSelection = <IsSelection>)
-                ),
-
-                // APMissile
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelAPMissileButton(IsSelection = <IsSelection>)
-                ),
-
-                // RocketFrag
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelRocketFragButton(IsSelection = <IsSelection>)
-                ),
-
-                // Bomb
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelBombButton(IsSelection = <IsSelection>)
-                ),
-
-                // ClusterAP
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelClusterAPButton(IsSelection = <IsSelection>)
-                ),
-
-                // ClusterSolAP
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelClusterSolAPButton(IsSelection = <IsSelection>)
-                ),
-
-                // ClusterHE
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelClusterHEButton(IsSelection = <IsSelection>)
-                ),
-
-                // Flame
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelFlameButton(IsSelection = <IsSelection>)
-                ),
-
-                // Smoke
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelSmokeButton(IsSelection = <IsSelection>)
-                ),
-
-                // Missile HE Button
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = WeaponPanelMissileHEButton(IsSelection = <IsSelection>)
-                ),
-            ]
-        ),
+        ~/WeaponPanelStandardAmmoForSelection
+    ] : [
+        ~/WeaponPanelStandardAmmo
     ]
-
 )
 
 // -------------------------------------------------------------------------------------------------
-// WeaponPanelButton
+// WeaponPanelAmmo
 // -------------------------------------------------------------------------------------------------
 
-template WeaponPanelButton
+template WeaponPanelAmmo
 [
-    ElementName,
-    ElementNameCalibre,
-    ElementNameText,
-    BackgroundBlockColorToken,
-    TextToken,
-    HintTitleToken,
-    HintBodyToken,
-    HintExtendedToken,
-    IsSelection : bool = true ,
+    ElementName : string,
+    ElementNameCalibre : string,
+    ElementNameText : string,
+    TextToken : string,
 ]
-is BUCKSpecificButton
+is BUCKListDescriptor
 (
     ElementName = <ElementName>
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [0.0, 20.0]
+    )
 
-    ButtonMagnifiableWidthHeight = [-8.0, 0.0]
-    ButtonRelativeWidthHeight = [1.0, 0.0]
-    ButtonAlignementToFather = [0.5, 0.0]
-    ButtonAlignementToAnchor = [0.5, 0.0]
+    Axis = ~/ListAxis/Horizontal
+    ChildFitToContent = true
 
-    IsTogglable = <IsSelection>
-    HasBorder = false
-    HasBackground = false
-
-    FitStyle = ~/ContainerFitStyle/FitToContentVertically
-
-    Components =
+    Elements =
     [
-        (<IsSelection> ?
-            BUCKListDescriptor
+        BUCKListElementDescriptor
+        (
+            ExtendWeight = 1.0
+            ComponentDescriptor = BUCKContainerDescriptor(ComponentFrame = TUIFramePropertyRTTI ())
+        ),
+        // nom de  la munition
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKTextDescriptor
             (
+                ElementName = <ElementNameCalibre>
                 ComponentFrame = TUIFramePropertyRTTI
                 (
-                    RelativeWidthHeight = [0.0, 0.0]
-                    MagnifiableWidthHeight = [0,24]
-                    AlignementToFather  = [0.5, 0.0]
-                    AlignementToAnchor  = [0.5, 0.0]
+                    AlignementToAnchor = [0.0, 0.5]
+                    AlignementToFather = [0.0, 0.5]
                 )
 
-                Axis = ~/ListAxis/Horizontal
-                ChildFitToContent = true
+                ParagraphStyle = paragraphStyleTextRightAlign
 
-                Elements =
-                [
-                    // nom de  la munition
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = BUCKTextDescriptor
-                        (
-                            ElementName = <ElementNameCalibre>
-                            ComponentFrame = TUIFramePropertyRTTI
-                            (
-                                // AlignementToAnchor = [0.5, 0.0]
-                                // AlignementToFather = [0.5, 0.0]
-                            )
+                TextStyle = "Default"
 
-                            ParagraphStyle = TParagraphStyle
-                            (
-                                Alignment = UIText_Center
-                                VerticalAlignment = UIText_VerticalCenter
-                                InterLine = 0
-                            )
+                HorizontalFitStyle = ~/FitStyle/FitToContent
+                VerticalFitStyle = ~/FitStyle/FitToContent
 
-                            TextStyle = "Default"
+                TypefaceToken = "Eurostyle"
+                BigLineAction = ~/BigLineAction/CutByDots
 
-                            HorizontalFitStyle = ~/FitStyle/FitToContent
-                            VerticalFitStyle = ~/FitStyle/FitToContent
+                TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                TextToken = <TextToken>
 
-                            TypefaceToken = (<IsSelection> ? "Eurostyle" : "Eurostyle")
-                            BigLineAction = ~/BigLineAction/CutByDots
+                TextColor = "MarronPanel_noir"
+                TextSize = "12"
 
-                            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                            TextToken = <TextToken>
-
-                            TextColor = (<IsSelection> ? "BlancEquipe" : "MarronPanel_noir")
-                            TextSize = (<IsSelection> ? "12" : "12")
-
-                            // Hints
-                            Hint = BUCKSpecificHintableArea
-                            (
-                                DicoToken = ~/LocalisationConstantes/dico_interface_ingame
-                                HintTitleToken = 'HIPW_amt'
-                                HintBodyToken = 'HIPW_am'
-                            )
-                        )
-                    ),
-                    // nombre de munition
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = BUCKTextDescriptor
-                        (
-                            ElementName = <ElementNameText>
-                            ComponentFrame = TUIFramePropertyRTTI
-                            (
-                                // AlignementToAnchor = [0.5, 0.0]
-                                // AlignementToFather = [0.5, 0.0]
-                            )
-
-                            ParagraphStyle = TParagraphStyle
-                            (
-                                Alignment = UIText_Center
-                                VerticalAlignment = UIText_VerticalCenter
-                                InterLine = 0
-                            )
-
-                            TextStyle = "Default"
-
-                            HorizontalFitStyle = ~/FitStyle/FitToContent
-                            VerticalFitStyle = ~/FitStyle/FitToContent
-
-                            TypefaceToken = (<IsSelection> ? "UIMainFont" : "Eurostyle")
-                            BigLineAction = ~/BigLineAction/CutByDots
-                            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                            TextToken = "WEAPAMMO"
-                            HasBackground = false
-                            BackgroundBlockColorToken = 'Green'
-                            TextColor = (<IsSelection> ? "Blanc" : "MarronPanel_noir")
-                            TextSize = (<IsSelection> ? "12" : "12")
-
-                            // Hints
-                            Hint = BUCKSpecificHintableArea
-                            (
-                                DicoToken = ~/LocalisationConstantes/dico_interface_ingame
-                                HintTitleToken = 'HIPW_amt'
-                                HintBodyToken = 'HIPW_amn'
-                            )
-                        )
-                    ),
-                ]
-            ) :
-            BUCKListDescriptor
-            (
-                ComponentFrame = TUIFramePropertyRTTI
+                // Hints
+                Hint = BUCKSpecificHintableArea
                 (
-                    MagnifiableWidthHeight = [0.0, 20.0]
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                    HintTitleToken = 'HIPW_amt'
+                    HintBodyToken = 'HIPW_am'
                 )
-
-                Axis = ~/ListAxis/Horizontal
-                ChildFitToContent = true
-
-                Elements =
-                [
-                    BUCKListElementDescriptor
-                    (
-                        ExtendWeight = 1.0
-                        ComponentDescriptor = BUCKContainerDescriptor(ComponentFrame = TUIFramePropertyRTTI ())
-                    ),
-                    // nom de  la munition
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = BUCKTextDescriptor
-                        (
-                            ElementName = <ElementNameCalibre>
-                            ComponentFrame = TUIFramePropertyRTTI
-                            (
-                                AlignementToAnchor = [0.0, 0.5]
-                                AlignementToFather = [0.0, 0.5]
-                            )
-
-                            ParagraphStyle = paragraphStyleTextRightAlign
-
-                            TextStyle = "Default"
-
-                            HorizontalFitStyle = ~/FitStyle/FitToContent
-                            VerticalFitStyle = ~/FitStyle/FitToContent
-
-                            TypefaceToken = "Eurostyle"
-                            BigLineAction = ~/BigLineAction/CutByDots
-
-                            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                            TextToken = <TextToken>
-
-                            TextColor = "MarronPanel_noir"
-                            TextSize = "12"
-
-                            // Hints
-                            Hint = BUCKSpecificHintableArea
-                            (
-                                DicoToken = ~/LocalisationConstantes/dico_interface_ingame
-                                HintTitleToken = 'HIPW_amt'
-                                HintBodyToken = 'HIPW_am'
-                            )
-                        )
-                    ),
-                    BUCKListElementDescriptor
-                    (
-                            ComponentDescriptor = BUCKTextDescriptor
-                            (
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-
-                                    AlignementToFather = [0.0, 0.5]
-                                    AlignementToAnchor = [0.0, 0.5]
-                                )
-                                ParagraphStyle = paragraphStyleTextCenter
-                                TextPadding = TRTTILength4 (Magnifiable = [5.0, 0.0, 3.0, 0.0])
-                                TextStyle = "Default"
-                                HorizontalFitStyle = ~/FitStyle/FitToContent
-                                VerticalFitStyle = ~/FitStyle/FitToContent
-                                TypefaceToken = "Eurostyle"
-                                BigLineAction = ~/BigLineAction/MultiLine
-                                TextToken = 'HPROD_NBUX'
-                                TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                                TextColor = "MarronPanel_noir"
-                                TextSize = "12"
-                            )
-
-                    ),
-                    // nombre de munition
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = BUCKTextDescriptor
-                        (
-                            ElementName = <ElementNameText>
-                            ComponentFrame = TUIFramePropertyRTTI
-                            (
-                                AlignementToAnchor = [0.0, 0.5]
-                                AlignementToFather = [0.0, 0.5]
-                            )
-
-                            ParagraphStyle = paragraphStyleTextLeftAlign
-
-                            TextStyle = "Default"
-
-                            HorizontalFitStyle = ~/FitStyle/FitToContent
-                            VerticalFitStyle = ~/FitStyle/FitToContent
-
-                            TypefaceToken = (<IsSelection> ? "Bombardier" : "Eurostyle")
-                            BigLineAction = ~/BigLineAction/CutByDots
-                            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                            TextToken = "WEAPAMMO"
-
-                            TextColor = (<IsSelection> ? "Blanc" : "MarronPanel_noir")
-                            TextSize = (<IsSelection> ? "12" : "12")
-
-                            // Hints
-                            Hint = BUCKSpecificHintableArea
-                            (
-                                DicoToken = ~/LocalisationConstantes/dico_interface_ingame
-                                HintTitleToken = 'HIPW_amt'
-                                HintBodyToken = 'HIPW_amn'
-                            )
-                        )
-                    ),
-                    BUCKListElementDescriptor
-                    (
-                        ExtendWeight = 1.0
-                        ComponentDescriptor = BUCKContainerDescriptor(ComponentFrame = TUIFramePropertyRTTI ())
-                    ),
-                ]
             )
-        )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKTextDescriptor
+            (
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+
+                    AlignementToFather = [0.0, 0.5]
+                    AlignementToAnchor = [0.0, 0.5]
+                )
+                ParagraphStyle = paragraphStyleTextCenter
+                TextPadding = TRTTILength4 (Magnifiable = [5.0, 0.0, 3.0, 0.0])
+                TextStyle = "Default"
+                HorizontalFitStyle = ~/FitStyle/FitToContent
+                VerticalFitStyle = ~/FitStyle/FitToContent
+                TypefaceToken = "Eurostyle"
+                BigLineAction = ~/BigLineAction/MultiLine
+                TextToken = 'HPROD_NBUX'
+                TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                TextColor = "MarronPanel_noir"
+                TextSize = "12"
+            )
+        ),
+        // nombre de munition
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKTextDescriptor
+            (
+                ElementName = <ElementNameText>
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToAnchor = [0.0, 0.5]
+                    AlignementToFather = [0.0, 0.5]
+                )
+
+                ParagraphStyle = paragraphStyleTextLeftAlign
+
+                TextStyle = "Default"
+
+                HorizontalFitStyle = ~/FitStyle/FitToContent
+                VerticalFitStyle = ~/FitStyle/FitToContent
+
+                TypefaceToken = "Eurostyle"
+                BigLineAction = ~/BigLineAction/CutByDots
+                TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                TextToken = "WEAPAMMO"
+
+                TextColor = "MarronPanel_noir"
+                TextSize = "12"
+
+                // Hints
+                Hint = BUCKSpecificHintableArea
+                (
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                    HintTitleToken = 'HIPW_amt'
+                    HintBodyToken = 'HIPW_amn'
+                )
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ExtendWeight = 1.0
+            ComponentDescriptor = BUCKContainerDescriptor(ComponentFrame = TUIFramePropertyRTTI ())
+        ),
     ]
 )
 
 // -------------------------------------------------------------------------------------------------
-// WeaponPanelAPButton
-// -------------------------------------------------------------------------------------------------
 
-// AP button
-template WeaponPanelAPButton
+template WeaponPanelAmmoForSelection
 [
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'APButton'
-    ElementNameText = 'WeaponAPAmmoText'
-    ElementNameCalibre = 'WeaponAPCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/APButton"
-    TextToken = "AMMOB_AP"
-    HintTitleToken = "HIP_AFINFT"
-    HintBodyToken = "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelHOWZAPButton
-// -------------------------------------------------------------------------------------------------
-
-// AP button
-template WeaponPanelHOWZAPButton
-[
-    IsSelection : bool = true ,
+    ElementName : string,
+    ElementNameCalibre : string,
+    ElementNameText : string,
+    TextToken : string,
 ]
-is WeaponPanelButton
+is BUCKListDescriptor
 (
-    ElementName = 'HOWZAPButton'
-    ElementNameText = 'WeaponHowzAPAmmoText'
-    ElementNameCalibre = 'WeaponHowzAPCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/APButton"
-    TextToken = "AMMOB_AP"
-    HintTitleToken = "HIP_AFINFT"
-    HintBodyToken = "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
+    ElementName = <ElementName>
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        RelativeWidthHeight = [0.0, 0.0]
+        MagnifiableWidthHeight = [0.0, 24.0]
+        AlignementToFather  = [0.5, 0.0]
+        AlignementToAnchor  = [0.5, 0.0]
+    )
+
+    Axis = ~/ListAxis/Horizontal
+    ChildFitToContent = true
+
+    Elements =
+    [
+        // nom de  la munition
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKTextDescriptor
+            (
+                ElementName = <ElementNameCalibre>
+                ComponentFrame = TUIFramePropertyRTTI()
+
+                ParagraphStyle = TParagraphStyle
+                (
+                    Alignment = UIText_Center
+                    VerticalAlignment = UIText_VerticalCenter
+                    InterLine = 0
+                )
+
+                TextStyle = "Default"
+
+                HorizontalFitStyle = ~/FitStyle/FitToContent
+                VerticalFitStyle = ~/FitStyle/FitToContent
+
+                TypefaceToken = "Eurostyle"
+                BigLineAction = ~/BigLineAction/CutByDots
+
+                TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                TextToken = <TextToken>
+
+                TextColor = "BlancEquipe"
+                TextSize = "12"
+
+                // Hints
+                Hint = BUCKSpecificHintableArea
+                (
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                    HintTitleToken = 'HIPW_amt'
+                    HintBodyToken = 'HIPW_am'
+                )
+            )
+        ),
+        // nombre de munition
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKTextDescriptor
+            (
+                ElementName = <ElementNameText>
+                ComponentFrame = TUIFramePropertyRTTI()
+
+                ParagraphStyle = TParagraphStyle
+                (
+                    Alignment = UIText_Center
+                    VerticalAlignment = UIText_VerticalCenter
+                    InterLine = 0
+                )
+
+                TextStyle = "Default"
+
+                HorizontalFitStyle = ~/FitStyle/FitToContent
+                VerticalFitStyle = ~/FitStyle/FitToContent
+
+                TypefaceToken = "UIMainFont"
+                BigLineAction = ~/BigLineAction/CutByDots
+                TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                TextToken = "WEAPAMMO"
+
+                TextColor = "Blanc"
+                TextSize = "12"
+
+                // Hints
+                Hint = BUCKSpecificHintableArea
+                (
+                    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                    HintTitleToken = 'HIPW_amt'
+                    HintBodyToken = 'HIPW_amn'
+                )
+            )
+        ),
+    ]
 )
 
 // -------------------------------------------------------------------------------------------------
-// WeaponPanelHEButton
+// WeaponPanelStandardAmmo
 // -------------------------------------------------------------------------------------------------
 
-// HE Button
-template WeaponPanelHEButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
+// Standard button
+WeaponPanelStandardAmmo is WeaponPanelAmmo
 (
-    ElementName = 'HEButton'
-    ElementNameText = 'WeaponHEAmmoText'
-    ElementNameCalibre = 'WeaponHECalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_HE"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
+    ElementName = 'StandardAmmo'
+    ElementNameText = 'WeaponStandardAmmoText'
+    ElementNameCalibre = 'WeaponStandardAmmoCalibreText'
+    TextToken = "AMMOB_STD"
 )
 
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelHEAutoCanonButton
-// -------------------------------------------------------------------------------------------------
-
-// HE auto canon Button
-template WeaponPanelHEAutoCanonButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
+WeaponPanelStandardAmmoForSelection is WeaponPanelAmmoForSelection
 (
-    ElementName = 'HEAutoCanonButton'
-    ElementNameText = 'WeaponHEAutoCanonAmmoText'
-    ElementNameCalibre = 'WeaponHEAutoCanonCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_HE"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelAPCRButton
-// -------------------------------------------------------------------------------------------------
-
-// APCR button
-template WeaponPanelAPCRButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'APCRButton'
-    ElementNameText = 'WeaponAPCRAmmoText'
-    ElementNameCalibre = 'WeaponAPCRCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_APCR"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelAPHEButton
-// -------------------------------------------------------------------------------------------------
-
-// APHE button (AP and HE combination)
-template WeaponPanelAPHEButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'APHEButton'
-    ElementNameText = 'WeaponAPHEAmmoText'
-    ElementNameCalibre = 'WeaponAPHECalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_APHE"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelRocketButton
-// -------------------------------------------------------------------------------------------------
-
-// Rocket button
-template WeaponPanelRocketHEButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'RocketHEButton'
-    ElementNameText = 'WeaponRocketHEAmmoText'
-    ElementNameCalibre = 'WeaponRocketHECalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_ROHE"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-
-template WeaponPanelRocketAPButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'RocketAPButton'
-    ElementNameText = 'WeaponRocketAPAmmoText'
-    ElementNameCalibre = 'WeaponRocketAPCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_ROAP"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-
-template WeaponPanelAPMissileButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'APMissileButton'
-    ElementNameText = 'WeaponAPMissileAmmoText'
-    ElementNameCalibre = 'WeaponAPMissileCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_APMI"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-
-template WeaponPanelRocketFragButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'RocketFragButton'
-    ElementNameText = 'WeaponRocketFragAmmoText'
-    ElementNameCalibre = 'WeaponRocketFragCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_ROFR"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelBulletButton
-// -------------------------------------------------------------------------------------------------
-
-// Bullet button
-template WeaponPanelBulletButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'BulletButton'
-    ElementNameText = 'WeaponBulletAmmoText'
-    ElementNameCalibre = 'WeaponBulletCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_BUL"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelBulletAAButton
-// -------------------------------------------------------------------------------------------------
-
-// Bullet button
-template WeaponPanelBulletAAButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'BulletAAButton'
-    ElementNameText = 'WeaponBulletAAAmmoText'
-    ElementNameCalibre = 'WeaponBulletAACalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_BUL"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelBulletDCAButton
-// -------------------------------------------------------------------------------------------------
-
-// Bullet button
-template WeaponPanelBulletDCAButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'BulletDCAButton'
-    ElementNameText = 'WeaponBulletDCAAmmoText'
-    ElementNameCalibre = 'WeaponBulletDCACalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_BUL"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelBombButton
-// -------------------------------------------------------------------------------------------------
-
-// Bomb button
-template WeaponPanelBombButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'BombButton'
-    ElementNameText = 'WeaponBombAmmoText'
-    ElementNameCalibre = 'WeaponBombCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_BOM"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-
-template WeaponPanelClusterHEButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'ClusterHEButton'
-    ElementNameText = 'WeaponClusterHEAmmoText'
-    ElementNameCalibre = 'WeaponClusterHECalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_CLHE"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-
-template WeaponPanelClusterAPButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'ClusterAPButton'
-    ElementNameText = 'WeaponClusterAPAmmoText'
-    ElementNameCalibre = 'WeaponClusterAPCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_CLAP"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-
-template WeaponPanelClusterSolAPButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'ClusterSolAPButton'
-    ElementNameText = 'WeaponClusterSolAPAmmoText'
-    ElementNameCalibre = 'WeaponClusterSolAPCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_CLAP"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-
-// WeaponPanelFlameButton
-// -------------------------------------------------------------------------------------------------
-
-// Flame button
-template WeaponPanelFlameButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'FlameButton'
-    ElementNameText = 'WeaponFlameAmmoText'
-    ElementNameCalibre = 'WeaponFlameCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_FLA"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-)
-
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelSmokeButton
-// -------------------------------------------------------------------------------------------------
-
-// Smoke button
-template WeaponPanelSmokeButton
-[
-    IsSelection : bool = true,
-] is WeaponPanelButton
-(
-    ElementName = 'SmokeButton'
-    ElementNameText = 'WeaponSmokeAmmoText'
-    ElementNameCalibre = 'WeaponSmokeCalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_SMO"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-
-)
-
-// -------------------------------------------------------------------------------------------------
-// WeaponPanelMissileButton
-// -------------------------------------------------------------------------------------------------
-
-// Missile HE button
-template WeaponPanelMissileHEButton
-[
-    IsSelection : bool = true ,
-]
-is WeaponPanelButton
-(
-    ElementName = 'MissileHEButton'
-    ElementNameText = 'WeaponMissileHEAmmoText'
-    ElementNameCalibre = 'WeaponMissileHECalibreText'
-    BackgroundBlockColorToken = "WeaponButton/HEButton"
-    TextToken = "AMMOB_HE"
-    HintTitleToken = <IsSelection>  ? "HWP_ACTT"  : "HIP_AFINFT"
-    HintBodyToken = <IsSelection>  ? "HWP_ACT"   : "HIP_AFINF"
-    HintExtendedToken = ""
-    IsSelection = <IsSelection>
-
+    ElementName = 'StandardAmmo'
+    ElementNameText = 'WeaponStandardAmmoText'
+    ElementNameCalibre = 'WeaponStandardAmmoCalibreText'
+    TextToken = "AMMOB_STD"
 )
 
 // -------------------------------------------------------------------------------------------------
@@ -1266,11 +703,8 @@ UISpecificUnitSelectionWeaponPanelViewDescriptor is TUISpecificUnitSelectionWeap
     MainComponentDescriptor = ~/WeaponPanelWeaponButton
     MainComponentContainerUniqueName = "" // Permet d'indiquer l'endroit ou le composant doit s'insérer
 
-    DamageTypeComponents = ~/DamageTypeComponentConfigurations
-    DamageTypeToModifyForSupply = DamageFamily_he // Voir WeaponPanelHEButton en mode supply
-
+    DefaultDamageType = -1
     WeaponNameAndAmountToken = "UIPW_NUM"
-
     UnknownValueToken = "UK_VAL"
     UnknownValueDicoToken = ~/LocalisationConstantes/dico_interface_ingame
 

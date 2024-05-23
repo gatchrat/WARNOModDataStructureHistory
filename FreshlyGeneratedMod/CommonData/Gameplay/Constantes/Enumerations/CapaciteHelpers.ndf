@@ -27,8 +27,7 @@ CapaciteWoundedFilterType_oui  is 1
 CapaciteWoundedFilterType_non  is 2
 
 CapaciteAreaShape_circulaire    is 0
-CapaciteAreaShape_rectangulaire is 1
-CapaciteAreaShape_soi           is 2
+CapaciteAreaShape_soi           is 1
 
 CapaciteCumulEffect_oui             is 0
 CapaciteCumulEffect_jamais          is 1

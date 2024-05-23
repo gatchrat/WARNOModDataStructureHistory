@@ -39,8 +39,8 @@ is TDepictionTemplate
     ShadowLessInitialValue = true
     Selector = <Selector>
     DepictionAlternatives = [
-        TDepictionDescriptor( SelectorId = ['high'] MeshDescriptor = <MeshDescriptorHigh> ),
-        TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = <MeshDescriptorLow> ),
+        TDepictionDescriptor( SelectorId = [LOD_High] MeshDescriptor = <MeshDescriptorHigh> ),
+        TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = <MeshDescriptorLow> ),
     ]
 
     Operators = [
@@ -118,8 +118,8 @@ template SubDepiction_ServantTemplate
     (
         Selector = <Selector>
         DepictionAlternatives = [
-            TDepictionDescriptor( SelectorId = ['high'] MeshDescriptor = <MeshDescriptorHigh> ),
-            TDepictionDescriptor( SelectorId = ['low']  MeshDescriptor = <MeshDescriptorLow> ),
+            TDepictionDescriptor( SelectorId = [LOD_High] MeshDescriptor = <MeshDescriptorHigh> ),
+            TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = <MeshDescriptorLow> ),
         ]
 
         Operators = [ <AnimationOperator> ]
@@ -239,7 +239,7 @@ template ShowroomSubDepiction_Template
     Depiction = TDepictionTemplate
     (
         Selector = OnlyHighDepictionSelector
-        DepictionAlternatives = [ TDepictionDescriptor( SelectorId = ['high'] MeshDescriptor = <MeshDescriptor> ) ]
+        DepictionAlternatives = [ TDepictionDescriptor( SelectorId = [LOD_High] MeshDescriptor = <MeshDescriptor> ) ]
 
         Operators = [
             TCosmeticSingleSkeletalAnimationOperatorDesc(Animation = <Animation>)

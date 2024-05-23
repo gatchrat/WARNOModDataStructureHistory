@@ -319,11 +319,19 @@ is TIntroduceMobileHappening( Happening = TSequencingActionHappening
         [
             private parStartPosition is TPinnableValue(InitialValue = float3[0,0,0]),
             private parInitialSpeed is TPinnableValue(InitialValue = float3[0,0,0]),
+            private parLifetime is TPinnableValue(),
+            private parRotationSpeed is TPinnableValue(),
+            private parFluidFriction is TPinnableValue(),
+            private parGravity is TPinnableValue(),
         ]
         NamedParams = MAP
         [
             ( 'parStartPosition', parStartPosition ),
             ( 'parInitialSpeed', parInitialSpeed ),
+            ('parLifetime', parLifetime ),
+            ('parRotationSpeed', parRotationSpeed ),
+            ('parFluidFriction', parFluidFriction ),
+            ('parGravity', parGravity ),
         ]
         Action = <Action>
     )

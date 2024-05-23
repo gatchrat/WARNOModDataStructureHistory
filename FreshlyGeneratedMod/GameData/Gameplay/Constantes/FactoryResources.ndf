@@ -4,10 +4,10 @@ FactoryResources is TSpecificFactoryResources
     [
         EDefaultFactories/Logistic,
         EDefaultFactories/Infantry,
-        EDefaultFactories/Support,
+        EDefaultFactories/Art,
         EDefaultFactories/Tanks,
         EDefaultFactories/Recons,
-        EDefaultFactories/AT,
+        EDefaultFactories/DCA,
         EDefaultFactories/Helis,
         EDefaultFactories/Planes,
         EDefaultFactories/Defense,
@@ -27,13 +27,13 @@ FactoryResources is TSpecificFactoryResources
         ),
 
         (
-            EDefaultFactories/Support,
+            EDefaultFactories/Art,
             TSpecificFactoryDescription
             (
-                FactoryName = "SUPPORT"
-                FactoryHintTitle = "HPD_SUPT"
-                FactoryHintBody = "HPD_SUPB"
-                FactoryHintExtended = "HPD_SUPE"
+                FactoryName = "ARTILLERY"
+                FactoryHintTitle = "HPD_ARTT"
+                FactoryHintBody = "HPD_ARTB"
+                FactoryHintExtended = "HPD_ARTE"
             )
         ),
         (
@@ -67,10 +67,10 @@ FactoryResources is TSpecificFactoryResources
             )
         ),
         (
-            EDefaultFactories/AT,
+            EDefaultFactories/DCA,
             TSpecificFactoryDescription
             (
-                FactoryName = "VEHICLE"
+                FactoryName = "ANTIAIR"
                 FactoryHintTitle = "HPD_DCAT"
                 FactoryHintBody = "HPD_DCAB"
                 FactoryHintExtended = "HPD_DCAE"

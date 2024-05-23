@@ -6,13 +6,8 @@ export ModernWarfareModularUnitFireDescriptorForTestIA is TEntityDescriptor
 
     ModulesDescriptors           =
     [
-        TTypeUnitModuleDescriptor
-        (
-        ),
-        TPositionModuleDescriptor
-        (
-            InGeoDb              = false
-        ),
+        TTypeUnitModuleDescriptor(),
+        TPositionModuleDescriptor(),
         TApparenceModelModuleDescriptor
         (
             Depiction  = Template_DescriptorFire_Depiction
@@ -33,12 +28,9 @@ export ModernWarfareModularUnitFireDescriptorForTestIA is TEntityDescriptor
             Radius                    = ((100) * Metre)
             AmmunitionForBurn         = Ammo_FireWithHighSpreadProbaForTestIA // Faut bien mettre quelque chose... -> et quelque chose qui fait au moins 1 de PhysicalDamages si on veut pas péter un test
             TimeBetweenBurns          = 1
-            OverridenSpreadDescriptor = nil
             SmokeDescriptor           = ~/ModernWarfareModularUnitSmokeDescriptorForTestIA
         ),
-        TLinkTeamModuleDescriptor
-        (
-        ),
+        TLinkTeamModuleDescriptor(),
     ]
 )
 
@@ -51,15 +43,9 @@ export Ammo_FireWithHighSpreadProbaForTestIA is TAmmunitionDescriptor
     Arme                        = TDamageTypeRTTI(Family=DamageFamily_he Index=1)
     ProjectileType              = EProjectileType/Obus
     TempsEntreDeuxTirs          = 1.0
-    PorteeMaximale              = ((3000) * Metre)
-    PorteeMinimaleTBA           = ((0) * Metre)
-    PorteeMaximaleTBA           = ((0) * Metre)
-    PorteeMinimaleHA            = ((0) * Metre)
-    PorteeMaximaleHA            = ((0) * Metre)
-    PorteeMinimale              = ((0) * Metre)
+    PorteeMaximaleGRU           = 1060
     AltitudeAPorteeMinimale     = ((0.1) * Metre)
     AltitudeAPorteeMaximale     = ((0.1) * Metre)
-    AffecteParNombre            = False
     AngleDispersion             = 0.01
     RadiusSplashPhysicalDamages = ((50) * Metre)
     PhysicalDamages             = 2.0
@@ -83,21 +69,13 @@ export Ammo_FireWithHighSpreadProbaForTestIA is TAmmunitionDescriptor
             (EBaseHitValueModifier/Base, 0.0),
             (EBaseHitValueModifier/Moving, 0.0),
         ]
-        HitModifierList       =
-        [
-            EDiceHitModifier/Precision,
-            EDiceHitModifier/DistanceToTarget,
-            EDiceHitModifier/SuccesiveShots,
-            EDiceHitModifier/Suppress,
-        ]
+        DistanceToTarget = True
     )
     TempsDeVisee                = 2.0
     TempsEntreDeuxSalves        = 4.0
     NbTirParSalves              = 20
     NbrProjectilesSimultanes    = 1
     AffichageMunitionParSalve   = 40
-    MissileDescriptor           = nil
-    SmokeDescriptor             = nil
     FireDescriptor              = ~/Descriptor_FireWithHighSpreadProba
     FireTriggeringProbability   = 1.0
     CanHarmAirplanes            = True
@@ -109,13 +87,8 @@ export Descriptor_FireWithHighSpreadProba is TEntityDescriptor
     DescriptorId      = GUID:{00000000-0000-0000-0000-000014000000}
     ClassNameForDebug = 'FireWithHighSpreadProba'
     ModulesDescriptors           = [
-        TTypeUnitModuleDescriptor
-        (
-        ),
-        TPositionModuleDescriptor
-        (
-            InGeoDb              = False
-        ),
+        TTypeUnitModuleDescriptor(),
+        TPositionModuleDescriptor(),
         TFireModuleDescriptor
         (
             TimeToLive                     = 60
@@ -129,8 +102,6 @@ export Descriptor_FireWithHighSpreadProba is TEntityDescriptor
             OverridenSpreadDescriptor      = nil
             SmokeDescriptor                = Descriptor_Smoke_FumiNapalm
         ),
-        TLinkTeamModuleDescriptor
-        (
-        ),
+        TLinkTeamModuleDescriptor(),
     ]
 )

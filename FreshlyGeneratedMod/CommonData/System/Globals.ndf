@@ -1,6 +1,6 @@
 // A incrémenter quand on veut provoquer une recompilation des glads chez tout le monde sans gêner personne
 
-// Version : 00555
+// Version : 00557
 
 //-----------------------------------------------------------------------------
 // differentes constantes utilisees un peu partout.
@@ -304,6 +304,18 @@ ShaderVertexFetchMode is TBaseClass
 )
 
 //-----------------------------------------------------------------------------
+//  RenderType
+//-----------------------------------------------------------------------------
+RenderType_Undefined                 is 0
+RenderType_Forward                   is 1
+RenderType_GBuffer                   is 2
+RenderType_DepthShadow               is 3
+RenderType_ScreenSpeed               is 4
+RenderType_ImposterWorld             is 5
+RenderType_ImposterWorld_DepthShadow is 6
+RenderType_BakingHeightmap           is 7
+
+//-----------------------------------------------------------------------------
 // Commande name
 
 InGameKeyCommands is TBaseClass
@@ -404,8 +416,6 @@ ResourceLoadType is TBaseClass // doit matcher avec TResourceLoadType
 CivMask is TBaseClass // namespace
 (
     Common              is 1
-
-    Modding             is 4
 )
 
 TypeMask is TBaseClass // namespace
@@ -777,4 +787,3 @@ ELevelLaunch is TBaseClass
 // /!\ Doit rester synchronisé avec EugIA/Constantes.h
 
 Metre                             is 26.0
-MultiplicateurMetreRTSVersDistanceFeedbackTactique is 1 div 2.83
