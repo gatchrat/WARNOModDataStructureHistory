@@ -2058,6 +2058,10 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
             TemplateTFS_Division(TextureToken = "CommonTexture_division_UK_3armoured")
         ),
         (
+            "UK_1AD",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_UK_1AD")
+        ),
+        (
             "BEL_16mec",
             TemplateTFS_Division(TextureToken = "CommonTexture_division_BEL_16mec")
         ),
@@ -2094,6 +2098,14 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
             TemplateTFS_Division(TextureToken = "CommonTexture_division_RFA_2Luft")
         ),
         (
+            "NL_1D",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_NL_1D")
+        ),
+        (
+            "NL_4D",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_NL_4D")
+        ),
+        (
             "DDR_7PZD",
             TemplateTFS_Division(TextureToken = "CommonTexture_division_DDR_7PZD")
         ),
@@ -2108,6 +2120,18 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
         (
             "DDR_17MSD",
             TemplateTFS_Division(TextureToken = "CommonTexture_division_DDR_17MSD")
+        ),
+        (
+            "DDR_19MSD",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_DDR_19MSD")
+        ),
+        (
+            "DDR_8MSD",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_DDR_8MSD")
+        ),
+        (
+            "DDR_9PZD",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_DDR_9PZD")
         ),
         (
             "DDR_Luft",
@@ -2263,6 +2287,10 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
         (
             "BEL",
             TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_BEL")
+        ),
+        (
+            "NL",
+            TemplateTFS_Flag(TextureToken = "CommonTexture_MotherCountryFlag_NL")
         ),
         //-------------------------------------------------------------------------------------
         (

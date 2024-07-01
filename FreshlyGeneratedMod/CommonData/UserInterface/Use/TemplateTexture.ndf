@@ -1,26 +1,10 @@
-
 template TUIResourceTexture_Common
 [
     FileName : string,
-    SynchroneTextureSourceCarac : TTextureSourceCarac_FromFile = nil,
-] is TUIResourceTexture
-(
-    FileName = <FileName>
-    UsefulnessMask = CivMask/Common + TypeMask/Common
-    SynchroneTextureSourceCarac = <SynchroneTextureSourceCarac>
-    ContentType = ContentType_Texture_UI_Common
-)
-
-template TUIResourceTexture_CommonNoGen
-[
-    FileName : string,
-    SynchroneTextureSourceCarac : TTextureSourceCarac_FromFile = nil,
 ] is TUIResourceTexture
 (
     FileName = <FileName>
     UsefulnessMask = TypeMask/Common
-    SynchroneTextureSourceCarac = <SynchroneTextureSourceCarac>
-    ContentType = ContentType_Texture_UI_Common
 )
 
 template TUIResourceTexture_OutGame
@@ -29,8 +13,7 @@ template TUIResourceTexture_OutGame
 ] is TUIResourceTexture
 (
     FileName = <FileName>
-    UsefulnessMask = CivMask/Common + TypeMask/OutGameInterface
-    ContentType = ContentType_Texture_UI_Outgame
+    UsefulnessMask = TypeMask/OutGameInterface
 )
 
 template TUIResourceTexture_InGame
@@ -39,20 +22,7 @@ template TUIResourceTexture_InGame
 ] is TUIResourceTexture
 (
     FileName = <FileName>
-    UsefulnessMask = CivMask/Common + TypeMask/InGameInterface
-    ContentType = ContentType_Texture_UI_Ingame
-)
-
-template TUIResourceTexture_InGameNoGen
-[
-    FileName : string,
-    SynchroneTextureSourceCarac : TTextureSourceCarac_FromFile = nil
-] is TUIResourceTexture
-(
-    FileName = <FileName>
     UsefulnessMask = TypeMask/InGameInterface
-    SynchroneTextureSourceCarac = <SynchroneTextureSourceCarac>
-    ContentType = ContentType_Texture_UI_Ingame
 )
 
 template TUIResourceTexture_Debug
@@ -61,6 +31,14 @@ template TUIResourceTexture_Debug
 ] is TUIResourceTexture
 (
     FileName = <FileName>
-    UsefulnessMask = CivMask/Common + TypeMask/DebugScreen
-    ContentType = ContentType_Texture_UI_Common
+    UsefulnessMask = TypeMask/DebugScreen
+)
+
+template TUIResourceTexture_MapPack
+[
+    FileName : string,
+] is TUIAutoRegisteredResourceTexture
+(
+    FileName = <FileName>
+    UsefulnessMask = TypeMask/Common
 )

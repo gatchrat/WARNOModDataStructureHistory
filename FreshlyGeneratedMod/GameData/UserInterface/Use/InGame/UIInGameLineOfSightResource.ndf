@@ -1,13 +1,12 @@
-
 template Template_CircleDescriptor
-         [
-             RadiusGRU,
-             Color = [220, 222, 221, 127],
-             Thickness = 700,
-             ShowDistanceText = false,
-             TextColor = [230, 230, 230, 255],
-             TextSize = 3500
-         ] is TFeedbackLineOfSightCircleDescriptor
+[
+    RadiusGRU,
+    Color = [220, 222, 221, 127],
+    Thickness = 700,
+    ShowDistanceText = false,
+    TextColor = [230, 230, 230, 255],
+    TextSize = 3500
+] is TFeedbackLineOfSightCircleDescriptor
 (
     RadiusGRU = <RadiusGRU>
     Color = <Color>
@@ -20,100 +19,109 @@ template Template_CircleDescriptor
 
 FeedbackLineOfSightDescriptor is TFeedbackLineOfSightDescriptor
 (
-    AnimationDuration = 0.05*6
+    AnimationDuration = 0.30
 
-    RenderRange = 12000 * Metre
-    DefaultVisionRange = 10000 * Metre
+    RenderRangeGRU = 4240
+    DefaultVisionRangeGRU = 3534
 
     BorderColor = [255, 255, 255, 255]
     BorderThickness = 2500
-    BorderRadiusStartFade = 12000 * Metre //4000
-    BorderRadiusEndFade = 13000 * Metre //5750
+    BorderRadiusStartFadeGRU = 4240
+    BorderRadiusEndFadeGRU = 4594
 
     FillColor = [255, 0, 0, 170] //[178, 153, 163, 255]
-    FillRadiusStartFade = 12000 * Metre //4000
-    FillRadiusEndFade = 13000 * Metre //5500
+    FillRadiusStartFadeGRU = 4240
+    FillRadiusEndFadeGRU = 4594
 
-    CircleDotDescriptor = TFeedbackLineOfSightCircleDescriptor(
-                                RadiusGRU = 5.43625985322
-                                Color = [216, 201, 181, 127]
-                                Thickness = 650
-                                ShowText = false
-                                TextLayout = 'Nop %1'
-                                TextColor = [0, 0, 0, 0]
-                                TextSize = 0
-                            )
+    CircleDotDescriptor = TFeedbackLineOfSightCircleDescriptor
+    (
+        RadiusGRU = 5.43625985322
+        Color = [216, 201, 181, 127]
+        Thickness = 650
+        ShowText = false
+        TextLayout = 'Nop %1'
+        TextColor = [0, 0, 0, 0]
+        TextSize = 0
+    )
 
     CirclesDescriptors =
     [
-        Template_CircleDescriptor(
+        Template_CircleDescriptor
+        (
             RadiusGRU = 100
             Thickness = 1000
             ShowDistanceText = true
             TextSize = 3500
             Color = [216, 201, 181, 80]
-         ),
-        Template_CircleDescriptor(
+        ),
+        Template_CircleDescriptor
+        (
             RadiusGRU = 500
             Thickness = 1000
             ShowDistanceText = true
             TextSize = 3500
             Color = [216, 201, 181, 80]
-         ),
-        Template_CircleDescriptor(
+        ),
+        Template_CircleDescriptor
+        (
             RadiusGRU = 1000
             Thickness = 1000
             TextSize = 5000
             ShowDistanceText = true
-         ),
-        Template_CircleDescriptor(
+        ),
+        Template_CircleDescriptor
+        (
             RadiusGRU = 1500
             Thickness = 1000
             ShowDistanceText = true
             TextSize = 3500
             Color = [216, 201, 181, 80]
-         ),
-        Template_CircleDescriptor(
+        ),
+        Template_CircleDescriptor
+        (
             RadiusGRU = 2000
             Thickness = 1200
             TextSize = 5000
             ShowDistanceText = true
-         ),
-        Template_CircleDescriptor(
+        ),
+        Template_CircleDescriptor
+        (
             RadiusGRU = 2500
             Thickness = 1000
             ShowDistanceText = true
             TextSize = 3500
-         ),
+        ),
     ]
 
-    CircleOverrideDescriptor = TFeedbackLineOfSightCircleDescriptor(
-                                    RadiusGRU = 1176.67844523
-                                    Color = [236, 221, 201, 200]
-                                    Thickness = 2000
-                                    ShowText = true
-                                    TextLayout = "Error %1: Si vous lisez ce message en jeu, c'est que quelqu'un à fait de la merde, et c'est surement moi ! (Frédéric M. 15/03/17)"
-                                    TextColor = [230, 230, 230, 255]
-                                    TextSize = 5000
-                                )
+    CircleOverrideDescriptor = TFeedbackLineOfSightCircleDescriptor
+    (
+        RadiusGRU = 1177
+        Color = [236, 221, 201, 200]
+        Thickness = 2000
+        ShowText = true
+        TextLayout = "Error %1"
+        TextColor = [230, 230, 230, 255]
+        TextSize = 5000
+    )
 
-    DeactivatedCircleOverrideDescriptor = TFeedbackLineOfSightCircleDescriptor(
-                                    RadiusGRU = 1176.67844523
-                                    Color = [150, 150, 150, 100]
-                                    Thickness = 1500
-                                    ShowText = true
-                                    TextLayout = "Error %1: Si vous lisez ce message en jeu, c'est que quelqu'un à fait de la merde, et c'est surement moi ! (Frédéric M. 15/03/17)"
-                                    TextColor = [150, 150, 150, 255]
-                                    TextSize = 5000
-                                )
+    DeactivatedCircleOverrideDescriptor = TFeedbackLineOfSightCircleDescriptor
+    (
+        RadiusGRU = 1177
+        Color = [150, 150, 150, 100]
+        Thickness = 1500
+        ShowText = true
+        TextLayout = "Error %1"
+        TextColor = [150, 150, 150, 255]
+        TextSize = 5000
+    )
 
     RaysAngleInDegree = 70
     RayColor = [216, 201, 181, 127]
-    RayThickness = 400*4
-    RayStartDistanceStartFade = 500 * Metre //500
-    RayStartDistanceEndFade = 800 * Metre //1000
-    RayEndDistanceStartFade = 9999 * Metre //5000
-    RayEndDistanceEndFade = 10000 * Metre //6500
+    RayThickness = 1600
+    RayStartDistanceStartFadeGRU = 177
+    RayStartDistanceEndFadeGRU = 283
+    RayEndDistanceStartFadeGRU = 3533.2
+    RayEndDistanceEndFadeGRU = 3533.5
 )
 
 FeedbackLineOfSightResource is TFeedbackLineOfSightResource

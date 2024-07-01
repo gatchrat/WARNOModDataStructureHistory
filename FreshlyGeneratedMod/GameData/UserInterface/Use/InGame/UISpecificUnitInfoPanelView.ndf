@@ -4,6 +4,8 @@ private UnitInfoPanelShowRoomScale is 1.0
 private SingleWeaponColumnWidth is 144.0
 private WeaponsColumnTotalWidth is 441.0
 
+MaxNbWeaponToShowInUI is 4
+
 //-------------------------------------------------------------------------------------
 
 InfoPanelValuesColors is MAP
@@ -353,6 +355,7 @@ is BUCKListDescriptor
     )
 
     Axis = ~/ListAxis/Horizontal
+
     InterItemMargin = TRTTILength( Magnifiable = (WeaponsColumnTotalWidth - (3.0 * SingleWeaponColumnWidth)) div 2.0 )
 
     // envoie en code : BUCKSpecificUnitInfoSingleWeaponPanelMainComponentDescriptor
@@ -507,7 +510,11 @@ is BUCKListDescriptor
 private AffichageDuBlindage is BUCKListDescriptor
 (
     ElementName = 'AffichageDuBlindage'
-    ComponentFrame = TUIFramePropertyRTTI()
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        AlignementToFather = [0.5, 0.0]
+        AlignementToAnchor = [0.5, 0.0]
+    )
 
     Axis = ~/ListAxis/Horizontal
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
@@ -741,7 +748,11 @@ private UnitInfoPanelSpecialtiesSubPanel is BUCKListDescriptor
 (
     ElementName = "UnitInfoPanelSpecialtiesSubPanel"
 
-    ComponentFrame = TUIFramePropertyRTTI()
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        AlignementToFather = [0.5, 0.0]
+        AlignementToAnchor = [0.5, 0.0]
+    )
 
     Axis = ~/ListAxis/Horizontal
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
@@ -773,6 +784,12 @@ private UnitInfoPanelSpecialtiesSubPanel is BUCKListDescriptor
 private UnitInfoPanelAttributesSubPanel is BUCKGridDescriptor
 (
     ElementName = "UnitAttributeContainer"
+
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        AlignementToFather = [0.5, 0.0]
+        AlignementToAnchor = [0.5, 0.0]
+    )
 
     BackgroundBlockColorToken = 'White'
     FirstElementMargin = TRTTILength2(Magnifiable = [0.0, 0.0])
@@ -826,6 +843,89 @@ private PanelInfoDivision is BUCKListDescriptor
 )
 
 // -------------------------------------------------------------------------------------------------
+private template MainListePanelInfo
+[
+    IsShowRoom : bool,
+    Scale : float = 1.0,
+] is BUCKListDescriptor
+(
+    ElementName = 'MainListePanelInfo'
+
+    ComponentFrame = TUIFramePropertyRTTI()
+
+    Axis = ~/ListAxis/Vertical
+    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
+    Elements =
+    [
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = AffichageTitrePanelInfo( Scale = <Scale>)
+        ),
+        BUCKListElementSpacer( Magnifiable = 5.0*<Scale>),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ~/UnitInfoPanelSpecialtiesSubPanel
+        ),
+        BUCKListElementSpacer( Magnifiable = 10.0*<Scale>),
+        // affichage de l'armure
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = TextExplicatif
+            (
+                ElementName = "Armor"
+                TextToken = 'HUD_ARMOR'
+                TextSize = '12'
+                Scale = <Scale>
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ~/AffichageDuBlindage
+        ),
+
+        BUCKListElementSpacer( Magnifiable = 10.0*<Scale>),
+        // Affichage des armes
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = TextExplicatif
+            (
+                ElementName = "Weapon"
+                TextToken = 'PIU_weap'
+                TextSize = '12'
+                Scale = <Scale>
+            )
+        )
+        ,
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = AffichagePanelDesArmes(Scale = <Scale>)
+        ),
+        // affichage des caractériques secondaires
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = TextExplicatif
+            (
+                ElementName = "Secondary"
+                TextToken = 'PIVEC'
+                TextSize = '12'
+                Scale = <Scale>
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ~/UnitInfoPanelAttributesSubPanel
+        ),
+    ]
+    + (<IsShowRoom> ? [
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ~/PanelInfoDivision
+        ),
+    ] : [])
+)
+
+// -------------------------------------------------------------------------------------------------
 
 private template BUCKSpecificUnitInfoPanelMainComponentDescriptor
 [
@@ -838,7 +938,7 @@ is PanelRoundedCorner
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [500.0, <IsShowRoom> ? 875.0 : 820]
+        MagnifiableWidthHeight = [0.0, <IsShowRoom> ? 875.0 : 820]
     )
 
     MagnifierMultiplication = <Scale>
@@ -851,6 +951,8 @@ is PanelRoundedCorner
     BorderThicknessToken = '2'
     RoundedVertexes = [false,false,true,true]
 
+    FitStyle = ~/ContainerFitStyle/FitToContentHorizontally
+
     Components =
     [
         // texture fond
@@ -858,94 +960,38 @@ is PanelRoundedCorner
         (
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [530.0, <IsShowRoom> ? 907.0 : 849.0]
+                RelativeWidthHeight = [1.0, 1.0]
+                MagnifiableWidthHeight = [30.0, <IsShowRoom> ? 32.0 : 29.0]
                 MagnifiableOffset = [-15.0, -5.0]
             )
             TextureToken = 'UseInGame_UnitInfoPanel_fond_panel2'
         ),
-
         BUCKListDescriptor
         (
-            ElementName = 'MainListePanelInfo'
-
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [440.0, 0.0]
-                AlignementToAnchor = [0.5, 0.0]
-                AlignementToFather = [0.5, 0.0]
                 MagnifiableOffset = [15.0, 25.0]
             )
 
-            Axis = ~/ListAxis/Vertical
-            InterItemMargin = TRTTILength (Magnifiable = 0.0)
+            ChildFitToContent = true
+
+            Axis = ~/ListAxis/Horizontal
+            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
+            FirstMargin = TRTTILength(Magnifiable = 30.0)
+            LastMargin = TRTTILength(Magnifiable = 30.0)
 
             Elements =
             [
                 BUCKListElementDescriptor
                 (
-                    ComponentDescriptor = AffichageTitrePanelInfo( Scale = <Scale>)
-                ),
-                BUCKListElementSpacer( Magnifiable = 5.0*<Scale>),
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = ~/UnitInfoPanelSpecialtiesSubPanel
-                ),
-                BUCKListElementSpacer( Magnifiable = 10.0*<Scale>),
-                // affichage de l'armure
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = TextExplicatif
+                    ComponentDescriptor = MainListePanelInfo
                     (
-                        ElementName = "Armor"
-                        TextToken = 'HUD_ARMOR'
-                        TextSize = '12'
+                        IsShowRoom = <IsShowRoom>
                         Scale = <Scale>
                     )
-                ),
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = ~/AffichageDuBlindage
-                ),
-
-                BUCKListElementSpacer( Magnifiable = 10.0*<Scale>),
-                // Affichage des armes
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = TextExplicatif
-                    (
-                        ElementName = "Weapon"
-                        TextToken = 'PIU_weap'
-                        TextSize = '12'
-                        Scale = <Scale>
-                    )
-                )
-                ,
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = AffichagePanelDesArmes(Scale = <Scale>)
-                ),
-                // affichage des caractériques secondaires
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = TextExplicatif
-                    (
-                        ElementName = "Secondary"
-                        TextToken = 'PIVEC'
-                        TextSize = '12'
-                        Scale = <Scale>
-                    )
-                ),
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = ~/UnitInfoPanelAttributesSubPanel
                 ),
             ]
-            + (<IsShowRoom> ? [
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = ~/PanelInfoDivision
-                ),
-            ] : [])
         ),
         // fake text 1
         BUCKTextDescriptor
@@ -953,9 +999,9 @@ is PanelRoundedCorner
             ComponentFrame = TUIFramePropertyRTTI
             (
                 MagnifiableWidthHeight = [20.0, 250.0]
-                AlignementToFather = [0.5, 0.5]
-                AlignementToAnchor = [0.5, 0.5]
-                MagnifiableOffset = [-230.0,0]
+                AlignementToFather = [0.0, 0.5]
+                AlignementToAnchor = [0.0, 0.5]
+                MagnifiableOffset = [20.0,0]
             )
 
             ParagraphStyle = paragraphStyleTextCenter
@@ -1284,10 +1330,13 @@ template UISpecificUnitInfoPanelViewDescriptor
 is TUISpecificUnitInfoPanelViewDescriptor
 (
     Scale is <IsShowRoom> ? UnitInfoPanelShowRoomScale : UnitInfoPanelGameScale
-    MainComponentDescriptor = BUCKSpecificUnitInfoPanelMainComponentDescriptor( IsShowRoom = <IsShowRoom> Scale = Scale)
+    MainComponentDescriptor = BUCKSpecificUnitInfoPanelMainComponentDescriptor(IsShowRoom = <IsShowRoom> Scale = Scale)
+
     MainComponentContainerUniqueName = <MainComponentContainerUniqueName>
 
-    NbWeaponsToShow = 3
+    DefaultNbWeaponForSize = 3
+    MaxNbWeaponToShow = ~/MaxNbWeaponToShowInUI
+
     WeaponViewDescriptor = UISpecificUnitInfoSingleWeaponPanelViewDescriptor( Scale = Scale)
 
     VehiculeToken = "UIP_VEHIC"
@@ -1356,6 +1405,8 @@ is TUISpecificUnitInfoPanelViewDescriptor
 
         ("VehiculeSupplier", listeAffichageInfoUnit_Supply),
 
+        ("FOB", listeAffichageInfoUnit_FOB),
+
         ("HelicoDefault", listeAffichageInfoUnit_HelicoDefault),
 
         ("HelicoTransporter", listeAffichageInfoUnit_HelicoTransport),
@@ -1409,7 +1460,6 @@ listeAffichageInfoUnit_VehiculeTransport is
     "AttributeMaxDamages","AttributeOptics", "AttributeConcealment",
     "AttributeAmphibious","AttributeSpeed",  "AttributeRoadSpeed",
     "AttributeAutonomy","AttributeFuel","AttributeAdvanceDeployment",
-    "AttributeTransportSize", "EMPTY_SLOT", "EMPTY_SLOT1",
 ]
 
 listeAffichageInfoUnit_Infanterie is
@@ -1426,11 +1476,17 @@ listeAffichageInfoUnit_Supply is
     "EMPTY_SLOT", "AttributeSupply", "AttributeAdvanceDeployment",
 ]
 
+listeAffichageInfoUnit_FOB is
+[
+    "AttributeMaxDamages","AttributeOptics", "AttributeConcealment",
+    "EMPTY_SLOT", "AttributeSupply", "EMPTY_SLOT1",
+]
+
 listeAffichageInfoUnit_Air is
 [
     "AttributeMaxDamages", "AttributeAirOptics", "AttributeAgility",
     "AttributeECM", "AttributeSpeed","AttributeTravelTime",
-    "AttributeFuelMoveDuration", "AttributeFuel", "AttributeAdvanceDeployment",
+    "AttributeFuelMoveDuration", "AttributeFuel", "EMPTY_SLOT"
 ]
 
 

@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par InfantryWeaponsUnitsFileWriter_Specific
 
 
 
@@ -134,29 +134,7 @@ InfantryWeapon_FM_M16 is TIntroduceMobileHappening
     )
 )
 
-InfantryWeapon_RocketInf_M72_LAW_66mm is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            fx_tir_LAW_2,
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_traine_LAW_1_2_False_00_00,
-                    fx_traine_LAW_2_2_False_00_00,
-                    fx_traine_LAW_3_2_False_00_00,
-                    fx_traine_LAW_4_2_False_00_00,
-                ]
-            ),
-            $/GFX/Sound/SFXWeapon_RocketInf_M72_LAW_66mm,
-        ]
-    )
-)
-
-InfantryWeapon_MMG_inf_M240B_7_62mm is TIntroduceMobileHappening
+InfantryWeapon_MMG_M60_7_62mm is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
     (
@@ -181,12 +159,12 @@ InfantryWeapon_MMG_inf_M240B_7_62mm is TIntroduceMobileHappening
                     fx_traine_MMG_Inf_4_2_False_00_00,
                 ]
             ),
-            $/GFX/Sound/SFXWeapon_MMG_inf_M240B_7_62mm,
+            $/GFX/Sound/SFXWeapon_MMG_M60_7_62mm,
         ]
     )
 )
 
-InfantryWeapon_RocketInf_AT4_83mm is TIntroduceMobileHappening
+InfantryWeapon_RocketInf_M202_Flash_66mm is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
     (
@@ -203,7 +181,34 @@ InfantryWeapon_RocketInf_AT4_83mm is TIntroduceMobileHappening
                     fx_traine_LAW_4_2_False_00_00,
                 ]
             ),
-            $/GFX/Sound/SFXWeapon_RocketInf_AT4_83mm,
+            $/GFX/Sound/SFXWeapon_RocketInf_M202_Flash_66mm,
+        ]
+    )
+)
+
+InfantryWeapon_Grenade_Satchel_Charge is TIntroduceMobileHappening
+(
+    Happening = fx_traine_grenade_Satchem_2_False_00_00
+)
+
+InfantryWeapon_RocketInf_M72_LAW_66mm is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_LAW_2,
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_LAW_1_2_False_00_00,
+                    fx_traine_LAW_2_2_False_00_00,
+                    fx_traine_LAW_3_2_False_00_00,
+                    fx_traine_LAW_4_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_RocketInf_M72_LAW_66mm,
         ]
     )
 )
@@ -238,19 +243,7 @@ InfantryWeapon_SAW_M249_5_56mm is TIntroduceMobileHappening
     )
 )
 
-InfantryWeapon_M47_DRAGON_II is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            fx_tir_missile_ATGM_Gen2_5,
-            $/GFX/Sound/SFXWeapon_M47_DRAGON_II,
-        ]
-    )
-)
-
-InfantryWeapon_RocketInf_M202_Flash_66mm is TIntroduceMobileHappening
+InfantryWeapon_RocketInf_AT4_83mm is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
     (
@@ -267,14 +260,64 @@ InfantryWeapon_RocketInf_M202_Flash_66mm is TIntroduceMobileHappening
                     fx_traine_LAW_4_2_False_00_00,
                 ]
             ),
-            $/GFX/Sound/SFXWeapon_RocketInf_M202_Flash_66mm,
+            $/GFX/Sound/SFXWeapon_RocketInf_AT4_83mm,
         ]
     )
 )
 
-InfantryWeapon_Grenade_Satchel_Charge is TIntroduceMobileHappening
+InfantryWeapon_M47_DRAGON_II is TIntroduceMobileHappening
 (
-    Happening = fx_traine_grenade_Satchem_2_False_00_00
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_missile_ATGM_Gen2_5,
+            $/GFX/Sound/SFXWeapon_M47_DRAGON_II,
+        ]
+    )
+)
+
+InfantryWeapon_Sniper_M14 is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_Sniper_Lourd_12_7_Douille_2,
+            fx_Traine_Sniper_7_62_2_False_00_00,
+            $/GFX/Sound/SFXWeapon_Sniper_M14,
+        ]
+    )
+)
+
+InfantryWeapon_MMG_inf_M240B_7_62mm is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_tir_mitrailleuse_M60_douilles_eject_1_2,
+                    fx_tir_mitrailleuse_M60_douilles_eject_2_2,
+                    fx_tir_mitrailleuse_M60_douilles_eject_3_2,
+                ]
+            ),
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_MMG_Inf_1_2_False_00_00,
+                    fx_traine_MMG_Inf_2_2_False_00_00,
+                    fx_traine_MMG_Inf_3_2_False_00_00,
+                    fx_traine_MMG_Inf_4_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_MMG_inf_M240B_7_62mm,
+        ]
+    )
 )
 
 InfantryWeapon_RocketInf_M67_RCL_90mm is TIntroduceMobileHappening
@@ -365,7 +408,7 @@ InfantryWeapon_FM_L85A1 is TIntroduceMobileHappening
     )
 )
 
-InfantryWeapon_MMG_inf_MAG_7_62mm is TIntroduceMobileHappening
+InfantryWeapon_MMG_inf_L7A2_7_62mm is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
     (
@@ -390,7 +433,7 @@ InfantryWeapon_MMG_inf_MAG_7_62mm is TIntroduceMobileHappening
                     fx_traine_MMG_Inf_4_2_False_00_00,
                 ]
             ),
-            $/GFX/Sound/SFXWeapon_MMG_inf_MAG_7_62mm,
+            $/GFX/Sound/SFXWeapon_MMG_inf_L7A2_7_62mm,
         ]
     )
 )
@@ -814,6 +857,58 @@ InfantryWeapon_PM_AKSU_74 is TIntroduceMobileHappening
     )
 )
 
+InfantryWeapon_MMG_PKM_7_62mm is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_tir_mitrailleuse_M60_douilles_eject_1_2,
+                    fx_tir_mitrailleuse_M60_douilles_eject_2_2,
+                    fx_tir_mitrailleuse_M60_douilles_eject_3_2,
+                ]
+            ),
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_MMG_Inf_green_1_2_False_00_00,
+                    fx_traine_MMG_Inf_green_2_2_False_00_00,
+                    fx_traine_MMG_Inf_green_3_2_False_00_00,
+                    fx_traine_MMG_Inf_green_4_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_MMG_PKM_7_62mm,
+        ]
+    )
+)
+
+InfantryWeapon_RocketInf_RPO_A_93mm is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_LAW_2,
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_LAW_1_2_False_00_00,
+                    fx_traine_LAW_2_2_False_00_00,
+                    fx_traine_LAW_3_2_False_00_00,
+                    fx_traine_LAW_4_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_RocketInf_RPO_A_93mm,
+        ]
+    )
+)
+
 InfantryWeapon_SAW_RPK_74_5_56mm is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
@@ -910,6 +1005,62 @@ InfantryWeapon_FM_AKS_74 is TIntroduceMobileHappening
     )
 )
 
+InfantryWeapon_RocketInf_RPG18_64mm is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_LAW_2,
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_LAW_1_2_False_00_00,
+                    fx_traine_LAW_2_2_False_00_00,
+                    fx_traine_LAW_3_2_False_00_00,
+                    fx_traine_LAW_4_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_RocketInf_RPG18_64mm,
+        ]
+    )
+)
+
+InfantryWeapon_ATGM_9K115_Metis_M is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_missile_ATGM_Gen2_5,
+            $/GFX/Sound/SFXWeapon_ATGM_9K115_Metis_M,
+        ]
+    )
+)
+
+InfantryWeapon_RocketInf_RPG16 is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_LAW_2,
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_LAW_1_2_False_00_00,
+                    fx_traine_LAW_2_2_False_00_00,
+                    fx_traine_LAW_3_2_False_00_00,
+                    fx_traine_LAW_4_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_RocketInf_RPG16,
+        ]
+    )
+)
+
 InfantryWeapon_RocketInf_RPG7VL is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
@@ -928,6 +1079,63 @@ InfantryWeapon_RocketInf_RPG7VL is TIntroduceMobileHappening
                 ]
             ),
             $/GFX/Sound/SFXWeapon_RocketInf_RPG7VL,
+        ]
+    )
+)
+
+InfantryWeapon_PM_M4_Carbine is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2,
+                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_2_2,
+                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_3_2,
+                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_4_2,
+                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_5_2,
+                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_6_2,
+                ]
+            ),
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_5_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_2_False_00_00,
+                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_PM_M4_Carbine,
+        ]
+    )
+)
+
+InfantryWeapon_Sniper_M24 is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_Sniper_Lourd_12_7_Douille_2,
+            fx_Traine_Sniper_7_62_2_False_00_00,
+            $/GFX/Sound/SFXWeapon_Sniper_M24,
         ]
     )
 )
@@ -972,36 +1180,6 @@ InfantryWeapon_FM_Mpi_AK_74N is TIntroduceMobileHappening
                 ]
             ),
             $/GFX/Sound/SFXWeapon_FM_Mpi_AK_74N,
-        ]
-    )
-)
-
-InfantryWeapon_MMG_PKM_7_62mm is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_tir_mitrailleuse_M60_douilles_eject_1_2,
-                    fx_tir_mitrailleuse_M60_douilles_eject_2_2,
-                    fx_tir_mitrailleuse_M60_douilles_eject_3_2,
-                ]
-            ),
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_traine_MMG_Inf_green_1_2_False_00_00,
-                    fx_traine_MMG_Inf_green_2_2_False_00_00,
-                    fx_traine_MMG_Inf_green_3_2_False_00_00,
-                    fx_traine_MMG_Inf_green_4_2_False_00_00,
-                ]
-            ),
-            $/GFX/Sound/SFXWeapon_MMG_PKM_7_62mm,
         ]
     )
 )
@@ -1116,6 +1294,36 @@ InfantryWeapon_RocketInf_Armbrust is TIntroduceMobileHappening
     )
 )
 
+InfantryWeapon_MMG_inf_MAG_7_62mm is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_tir_mitrailleuse_M60_douilles_eject_1_2,
+                    fx_tir_mitrailleuse_M60_douilles_eject_2_2,
+                    fx_tir_mitrailleuse_M60_douilles_eject_3_2,
+                ]
+            ),
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_MMG_Inf_1_2_False_00_00,
+                    fx_traine_MMG_Inf_2_2_False_00_00,
+                    fx_traine_MMG_Inf_3_2_False_00_00,
+                    fx_traine_MMG_Inf_4_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_MMG_inf_MAG_7_62mm,
+        ]
+    )
+)
+
 InfantryWeapon_PM_uzi is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
@@ -1160,6 +1368,28 @@ InfantryWeapon_PM_uzi is TIntroduceMobileHappening
     )
 )
 
+InfantryWeapon_RocketInf_RPG7 is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_LAW_2,
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_LAW_1_2_False_00_00,
+                    fx_traine_LAW_2_2_False_00_00,
+                    fx_traine_LAW_3_2_False_00_00,
+                    fx_traine_LAW_4_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_RocketInf_RPG7,
+        ]
+    )
+)
+
 InfantryWeapon_FM_AK_74 is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
@@ -1200,50 +1430,6 @@ InfantryWeapon_FM_AK_74 is TIntroduceMobileHappening
                 ]
             ),
             $/GFX/Sound/SFXWeapon_FM_AK_74,
-        ]
-    )
-)
-
-InfantryWeapon_RocketInf_RPG18_64mm is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            fx_tir_LAW_2,
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_traine_LAW_1_2_False_00_00,
-                    fx_traine_LAW_2_2_False_00_00,
-                    fx_traine_LAW_3_2_False_00_00,
-                    fx_traine_LAW_4_2_False_00_00,
-                ]
-            ),
-            $/GFX/Sound/SFXWeapon_RocketInf_RPG18_64mm,
-        ]
-    )
-)
-
-InfantryWeapon_RocketInf_RPG7 is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            fx_tir_LAW_2,
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_traine_LAW_1_2_False_00_00,
-                    fx_traine_LAW_2_2_False_00_00,
-                    fx_traine_LAW_3_2_False_00_00,
-                    fx_traine_LAW_4_2_False_00_00,
-                ]
-            ),
-            $/GFX/Sound/SFXWeapon_RocketInf_RPG7,
         ]
     )
 )
@@ -1322,6 +1508,28 @@ InfantryWeapon_flamethrower_LPO is TIntroduceMobileHappening
     )
 )
 
+InfantryWeapon_RocketInf_RPO_RYS is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_LAW_2,
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_LAW_1_2_False_00_00,
+                    fx_traine_LAW_2_2_False_00_00,
+                    fx_traine_LAW_3_2_False_00_00,
+                    fx_traine_LAW_4_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_RocketInf_RPO_RYS,
+        ]
+    )
+)
+
 InfantryWeapon_RocketInf_Handflammpatrone is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
@@ -1340,28 +1548,6 @@ InfantryWeapon_RocketInf_Handflammpatrone is TIntroduceMobileHappening
                 ]
             ),
             $/GFX/Sound/SFXWeapon_RocketInf_Handflammpatrone,
-        ]
-    )
-)
-
-InfantryWeapon_RocketInf_RPO_A_93mm is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            fx_tir_LAW_2,
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_traine_LAW_1_2_False_00_00,
-                    fx_traine_LAW_2_2_False_00_00,
-                    fx_traine_LAW_3_2_False_00_00,
-                    fx_traine_LAW_4_2_False_00_00,
-                ]
-            ),
-            $/GFX/Sound/SFXWeapon_RocketInf_RPO_A_93mm,
         ]
     )
 )
@@ -1436,36 +1622,6 @@ InfantryWeapon_SAW_Bren_L4A4 is TIntroduceMobileHappening
                 ]
             ),
             $/GFX/Sound/SFXWeapon_SAW_Bren_L4A4,
-        ]
-    )
-)
-
-InfantryWeapon_MMG_M60_7_62mm is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_tir_mitrailleuse_M60_douilles_eject_1_2,
-                    fx_tir_mitrailleuse_M60_douilles_eject_2_2,
-                    fx_tir_mitrailleuse_M60_douilles_eject_3_2,
-                ]
-            ),
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_traine_MMG_Inf_1_2_False_00_00,
-                    fx_traine_MMG_Inf_2_2_False_00_00,
-                    fx_traine_MMG_Inf_3_2_False_00_00,
-                    fx_traine_MMG_Inf_4_2_False_00_00,
-                ]
-            ),
-            $/GFX/Sound/SFXWeapon_MMG_M60_7_62mm,
         ]
     )
 )
@@ -1640,18 +1796,6 @@ InfantryWeapon_SAW_lMG_K_7_62mm is TIntroduceMobileHappening
     )
 )
 
-InfantryWeapon_ATGM_9K115_Metis_M is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            fx_tir_missile_ATGM_Gen2_5,
-            $/GFX/Sound/SFXWeapon_ATGM_9K115_Metis_M,
-        ]
-    )
-)
-
 InfantryWeapon_Sniper_G3A3ZF is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
@@ -1727,50 +1871,6 @@ InfantryWeapon_PM_MAT_49 is TIntroduceMobileHappening
                 ]
             ),
             $/GFX/Sound/SFXWeapon_PM_MAT_49,
-        ]
-    )
-)
-
-InfantryWeapon_PM_M4_Carbine is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_1_2,
-                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_2_2,
-                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_3_2,
-                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_4_2,
-                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_5_2,
-                    fx_tir_Fusil_Mitrailleur_M16_tres_petit_douilles_6_2,
-                ]
-            ),
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_1_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_10_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_11_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_12_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_13_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_14_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_15_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_2_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_3_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_4_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_5_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_6_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_7_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_8_2_False_00_00,
-                    fx_traine_Fusil_Mitrailleur_M16_tres_petite_9_2_False_00_00,
-                ]
-            ),
-            $/GFX/Sound/SFXWeapon_PM_M4_Carbine,
         ]
     )
 )
@@ -1951,19 +2051,6 @@ InfantryWeapon_Sniper_L96A1 is TIntroduceMobileHappening
             fx_tir_Sniper_Lourd_12_7_Douille_2,
             fx_Traine_Sniper_7_62_2_False_00_00,
             $/GFX/Sound/SFXWeapon_Sniper_L96A1,
-        ]
-    )
-)
-
-InfantryWeapon_Sniper_M14 is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            fx_tir_Sniper_Lourd_12_7_Douille_2,
-            fx_Traine_Sniper_7_62_2_False_00_00,
-            $/GFX/Sound/SFXWeapon_Sniper_M14,
         ]
     )
 )
@@ -2214,19 +2301,6 @@ InfantryWeapon_RocketInf_RPG27_105mm is TIntroduceMobileHappening
                 ]
             ),
             $/GFX/Sound/SFXWeapon_RocketInf_RPG27_105mm,
-        ]
-    )
-)
-
-InfantryWeapon_Sniper_M24 is TIntroduceMobileHappening
-(
-    Happening = TCompositeHappening
-    (
-        SubHappenings = 
-        [
-            fx_tir_Sniper_Lourd_12_7_Douille_2,
-            fx_Traine_Sniper_7_62_2_False_00_00,
-            $/GFX/Sound/SFXWeapon_Sniper_M24,
         ]
     )
 )
@@ -3211,6 +3285,7 @@ InfantryHappenings is MAP[
   ( ['FireEffect_MMG_PKM_7_62mm'], InfantryWeapon_MMG_PKM_7_62mm ),
   ( ['FireEffect_MMG_inf_AA52_7_5mm'], InfantryWeapon_MMG_inf_AA52_7_5mm ),
   ( ['FireEffect_MMG_inf_AANF1_7_62mm'], InfantryWeapon_MMG_inf_AANF1_7_62mm ),
+  ( ['FireEffect_MMG_inf_L7A2_7_62mm'], InfantryWeapon_MMG_inf_L7A2_7_62mm ),
   ( ['FireEffect_MMG_inf_M240B_7_62mm'], InfantryWeapon_MMG_inf_M240B_7_62mm ),
   ( ['FireEffect_MMG_inf_MAG_7_62mm'], InfantryWeapon_MMG_inf_MAG_7_62mm ),
   ( ['FireEffect_MMG_inf__MG3_7_62mm'], InfantryWeapon_MMG_inf__MG3_7_62mm ),
@@ -3242,6 +3317,7 @@ InfantryHappenings is MAP[
   ( ['FireEffect_RocketInf_M72_LAW_66mm'], InfantryWeapon_RocketInf_M72_LAW_66mm ),
   ( ['FireEffect_RocketInf_PzF_3'], InfantryWeapon_RocketInf_PzF_3 ),
   ( ['FireEffect_RocketInf_PzF_44'], InfantryWeapon_RocketInf_PzF_44 ),
+  ( ['FireEffect_RocketInf_RPG16'], InfantryWeapon_RocketInf_RPG16 ),
   ( ['FireEffect_RocketInf_RPG18_64mm'], InfantryWeapon_RocketInf_RPG18_64mm ),
   ( ['FireEffect_RocketInf_RPG2'], InfantryWeapon_RocketInf_RPG2 ),
   ( ['FireEffect_RocketInf_RPG22_72_5mm'], InfantryWeapon_RocketInf_RPG22_72_5mm ),
@@ -3252,6 +3328,7 @@ InfantryHappenings is MAP[
   ( ['FireEffect_RocketInf_RPG7VL'], InfantryWeapon_RocketInf_RPG7VL ),
   ( ['FireEffect_RocketInf_RPG7VR_64mm'], InfantryWeapon_RocketInf_RPG7VR_64mm ),
   ( ['FireEffect_RocketInf_RPO_A_93mm'], InfantryWeapon_RocketInf_RPO_A_93mm ),
+  ( ['FireEffect_RocketInf_RPO_RYS'], InfantryWeapon_RocketInf_RPO_RYS ),
   ( ['FireEffect_SAW_Bren_L4A4'], InfantryWeapon_SAW_Bren_L4A4 ),
   ( ['FireEffect_SAW_FALO'], InfantryWeapon_SAW_FALO ),
   ( ['FireEffect_SAW_HK21_7_62mm'], InfantryWeapon_SAW_HK21_7_62mm ),

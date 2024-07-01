@@ -201,6 +201,11 @@ Outgame_fond_deckCreator_foreground is TUIResourceTexture_OutGame( FileName = "G
 Outgame_foreground_panelPawn is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Deck/foreground_panelPawn.png" )
 
 //-------------------------------------------------------------------------------------
+// DLCs
+
+UseOutGame_GetNemesisDLC1 is TUIResourceTexture_OutGame( FileName = 'GameData:/Assets/2D/Interface/UseOutGame/DLC/Pop_Up_NemesisDLC1.png')
+
+//-------------------------------------------------------------------------------------
 // buttons
 
 Texture_ShortButton is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Boutons/bouton_court.png" )
@@ -305,26 +310,9 @@ unnamed TBUCKToolAdditionalTextureBank
         ("Outgame_survol_liste_mission", MAP [( ~/ComponentState/Highlighted, ~/Outgame_survol_liste_mission),
                                                ( ~/ComponentState/Normal, ~/Outgame_transparent), ]),
 
-        ("test_image_mission", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/test_image_mission_2.png"))] ),
-        ("challenge_BlackHorsesLastStand", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/map_BlackHorsesLastStand.png"))] ),
-        ("challenge_RedJuggernaut", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/map_RedJuggernaut.png"))] ),
-        ("challenge_Gotterdammerung", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/map_Gotterdammerung.png"))] ),
-        ("challenge_TheKitzingenRuse", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/map_TheKitzingenRuse.png"))] ),
-        ("challenge_BackhandBlow", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/map_BackhandBlow.png"))] ),
-        ("challenge_HoldUntilRelieved", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/map_HoldUntilRelieved.png"))] ),
-        ("challenge_TheDieburgSalient", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/map_LastManStanting.png"))] ),
-        ("challenge_Convoy", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/map_Convoy.png"))] ),
-        ("challenge_Sledgehammer", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/map_Sledgehammer.png"))] ),
         ("Outgame_bandeNoireListeMission", MAP [( ~/ComponentState/Normal, ~/Outgame_bandeNoireListeMission), ]),
         ("Outgame_backgroundMultiScreen", MAP [( ~/ComponentState/Normal, ~/Outgame_backgroundMultiScreen), ]),
-        //-------------------------------------------------------------------------------------
-        // ressources pour Steelman
 
-        ("AG_carte_bk", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/AG_carte_bk.png"))] ),
-        ("AG_carte_ab", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/AG_carte_ab.png"))] ),
-        ("AG_carte_fg", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/AG_carte_fg.png"))] ),
-        ("AG_carte_hw", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/AG_carte_hw.png"))] ),
-        ("AG_carte_ba", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Missions/AG_carte_ba.png"))] ),
         //-------------------------------------------------------------------------------------
         // fond test pour effets
         ("outgame_fond_test", MAP [( ~/ComponentState/Normal, ~/outgame_fond_test), ]),
@@ -503,6 +491,9 @@ unnamed TBUCKToolAdditionalTextureBank
         ("Outgame_deck_arrow", MAP [( ~/ComponentState/Normal, ~/Outgame_deck_arrow), ]),
         ("Outgame_fond_deckCreator_foreground", MAP [( ~/ComponentState/Normal, ~/Outgame_fond_deckCreator_foreground), ]),
         ("Outgame_foreground_panelPawn", MAP [( ~/ComponentState/Normal, ~/Outgame_foreground_panelPawn), ]),
+        //-------------------------------------------------------------------------------------
+        // DLCs
+        ("UseOutGame_GetNemesisDLC1", MAP [(~/ComponentState/Normal, ~/UseOutGame_GetNemesisDLC1)]),
         //-------------------------------------------------------------------------------------
         ("OutgameTexture_outgame_Solo", MAP [( ~/ComponentState/Normal, ~/OutgameTexture_outgame_Solo), ]),
         ("OutgameTexture_outgame_Solo_fond", MAP [( ~/ComponentState/Normal, ~/OutgameTexture_outgame_Solo_fond), ]),

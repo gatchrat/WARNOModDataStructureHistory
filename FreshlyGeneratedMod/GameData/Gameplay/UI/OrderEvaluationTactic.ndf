@@ -57,12 +57,6 @@ public orderEvaluatorCollectionTactic is TOrderEvaluatorCollectionDescriptor(
         ),
 
         TOrderEvaluatorAny(
-            OrderToken = "HoldPosition"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorAny(
             OrderToken = "AIDefend"
             IgnoreDefaultOrder = true
             IgnoreDirectOrder = false

@@ -276,6 +276,7 @@ template TacticVehicleDepictionTemplate
     Alternatives,
     Operators,
     Actions,
+    CullingSubBBoxes = [],
     SubDepictions = [],
     SubDepictionGenerators = []
 ]
@@ -284,6 +285,7 @@ is TTimelyDepictionReceiverFactory
     DepictionTemplate = TDepictionTemplate
     (
         ResidentMaterialTags = [ MaterialTagMech ]
+        CullingSubBBoxes = <CullingSubBBoxes>
         AdditionalTextures = VehicleDestTextures
         CoatingName = <CoatingName>
         Scaler = CommonVehicleScaler
@@ -305,6 +307,7 @@ template TacticAerialDepictionTemplate
     Alternatives,
     Operators,
     Actions,
+    CullingSubBBoxes = [],
     SubDepictions = [],
     SubDepictionGenerators = [],
 ]
@@ -315,6 +318,7 @@ is TTimelyDepictionReceiverFactory
         Deviator = <Deviator>
         AdditionalTextures = <AdditionalTextures>
         ResidentMaterialTags = [ MaterialTagMech ]
+        CullingSubBBoxes = <CullingSubBBoxes>
         CoatingName = <CoatingName>
         Scaler = SpecificFlyingScaler
         Selector = <Selector>

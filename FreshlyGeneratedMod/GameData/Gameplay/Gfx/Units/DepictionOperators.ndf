@@ -474,7 +474,7 @@ template DepictionOperator_EjectableProps_Vehicle
 is TCosmeticEjectablePropsOnDamageOrExplosionOperatorDesc
 (
     OperatorId = 'EjectableProps'
-
+    WorldFloorProxy = $/M3D/Scene/WorldFloorForOnlyGround
     AliveEjectableList = <AliveEjectableList>
     DeathOnlyEjectableList = <DeathOnlyEjectableList>
 
@@ -490,7 +490,7 @@ template DepictionOperator_EjectableProps_Plane
 is TCosmeticEjectablePropsOnDeathOperatorDesc
 (
     OperatorId = 'EjectableProps'
-
+    WorldFloorProxy = $/M3D/Scene/WorldFloorForOnlyGround
     DeathOnlyEjectableList = <DeathOnlyEjectableList>
 
     EjectHazardAtNoDamage = 0.0
@@ -505,7 +505,7 @@ template DepictionOperator_EjectableProps_Helico
 is TCosmeticEjectablePropsOnDeathOperatorDesc
 (
     OperatorId = 'EjectableProps'
-
+    WorldFloorProxy = $/M3D/Scene/WorldFloorForOnlyGround
     DeathOnlyEjectableList = <DeathOnlyEjectableList>
 
     EjectHazardAtNoDamage = 0.0

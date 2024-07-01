@@ -2578,6 +2578,9 @@ DefaultStyleGuide is TUIStyleGuide
         ("division_UK_boar_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [178,131,42,190] ) ),]),
         ("division_UK_air",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [129,162,155,255] ) ),]),
 
+        ("division_NL_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [250,129,0,255] ) ),]),
+        ("division_NL_2",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [250,157,58,255] ) ),]),
+
         ("division_SOV_1",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [134,37,4,180] ) ), ]),
         ("division_SOV_2",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [116,90,35,180] ) ), ]),
         ("division_SOV_3",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [201,59,12,180] ) ), ]),
@@ -2596,6 +2599,10 @@ DefaultStyleGuide is TUIStyleGuide
         ("division_DDR_hq",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [91,80,80,210] ) ), ]),
         ("division_DDR_11",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [36,19,15,230] ) ), ]),
         ("division_DDR_7",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [43,36,32,230] ) ), ]),
+        ("division_DDR_8",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [49,40,36,255] ) ),]),
+        ("division_DDR_9",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [70,37,10,255] ) ),]),
+        ("division_DDR_20",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [61,48,20,255] ) ),]),
+
 
         // OTAN DIVERS
         ("corps_otan",                            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [19,42,19,255] ) ),]),

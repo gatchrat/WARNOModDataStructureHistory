@@ -8,7 +8,7 @@ Curseur_Blank is TMouseCursorAnimation
 
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             'GameData:/Assets/2D/Interface/Common/Cursors/CursorBlank.png',
@@ -23,7 +23,7 @@ MouseCursorAnimationDefault is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/CursorDefault.png",
@@ -38,7 +38,7 @@ MouseCursorAnimationDefaultFull is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/PointerFull.png",
@@ -53,7 +53,7 @@ MouseCursorAnimationPointerSelectionRed is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/PointerSelectionRed.png",
@@ -70,7 +70,7 @@ MouseCurseur_defaut is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/CursorDefault.png",
@@ -85,7 +85,7 @@ MouseCurseur_selection_defaut is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/PointerSelectionYellow.png",
@@ -103,7 +103,7 @@ MouseCurseur_invalide is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_invalide.png",
@@ -120,7 +120,7 @@ MouseCurseur_attaque is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_attaque.png",
@@ -138,7 +138,7 @@ MouseCurseur_couvert_leger is TMouseCursorAnimation
     //RepetitionFrame    = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/CursorDefault_couvertLeger.png"
@@ -156,7 +156,7 @@ MouseCurseur_couvert_lourd is TMouseCursorAnimation
     //RepetitionFrame    = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/CursorDefault_couvertLourd.png"
@@ -173,7 +173,7 @@ MouseCurseur_couvert_rocher is TMouseCursorAnimation
     //RepetitionFrame    = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/PointerSelectionYellow.png"
@@ -190,7 +190,7 @@ Mousecurseur_mouvement_attaque is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_mouvement_attaque.png",
@@ -205,7 +205,7 @@ Mousecurseur_mouvement_attaque_coverl is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_mouvement_attaque_cl.png",
@@ -220,7 +220,7 @@ Mousecurseur_mouvement_attaque_coverh is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_mouvement_attaque_ch.png",
@@ -237,7 +237,7 @@ Mousecurseur_mouvement_rapide is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_mouvement_rapide.png",
@@ -252,7 +252,7 @@ Mousecurseur_mouvement_rapide_coverl is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_mouvement_rapide_cl.png",
@@ -267,7 +267,7 @@ Mousecurseur_mouvement_rapide_coverh is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_mouvement_rapide_ch.png",
@@ -285,7 +285,7 @@ Mousecurseur_curseur_retour is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_retour.png",
@@ -300,7 +300,7 @@ Mousecurseur_curseur_retour_coverl is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_retour_cl.png",
@@ -315,7 +315,7 @@ Mousecurseur_curseur_retour_coverh is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_retour_ch.png",
@@ -332,7 +332,7 @@ Mousecurseur_UnloadAtPosition is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_debarquement.png",
@@ -347,7 +347,7 @@ Mousecurseur_UnloadAtPosition_coverl is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_debarquement_cl.png",
@@ -362,7 +362,7 @@ Mousecurseur_UnloadAtPosition_coverh is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_debarquement_ch.png",
@@ -379,7 +379,7 @@ MouseCurseur_MoveAndExplode is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_mouvement_explode.png",
@@ -396,7 +396,7 @@ MouseCurseur_AddDefensePoint is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_ajout_ligne_defense.png",
@@ -411,7 +411,7 @@ MouseCurseur_ValidateDefense is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_pose_ligne_defense.png",
@@ -426,7 +426,7 @@ MouseCurseur_InvalidDefense is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_pose_ligne_defense_inaccessible.png",
@@ -443,7 +443,7 @@ Mousecurseur_ai_attack is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_ai_attack.png",
@@ -460,7 +460,7 @@ Mousecurseur_ai_artillery_focus is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/AIManageArtillery_Focus.png",
@@ -477,7 +477,7 @@ MouseCurseur_strategic_plaine is TMouseCursorAnimation
     //RepetitionFrame    = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_strategic_plaine.png"
@@ -492,7 +492,7 @@ MouseCurseur_strategic_foret is TMouseCursorAnimation
     //RepetitionFrame    = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_strategic_foret.png"
@@ -507,7 +507,7 @@ MouseCurseur_strategic_urbain is TMouseCursorAnimation
     //RepetitionFrame    = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_strategic_urbain.png"
@@ -522,7 +522,7 @@ MouseCurseur_strategic_semiurbain is TMouseCursorAnimation
     //RepetitionFrame    = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = CivMask/Common + TypeMask/PCInterface
+        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/curseur_strategic_semiurbain.png"

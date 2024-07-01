@@ -15,12 +15,3 @@ EVisionOpticsAltitudeConfig is TBaseClass
     DontUse                              is 0
     UseOnRS_TBAWithGroundOpticsLerp      is 1
 )
-
-// TAutoRevealType // A maintenir synchro avec EugIA_Common/TVisibilityModuleDescriptor.h
-EAutoRevealType is TBaseClass
-(
-    NoAutoReveal         is 0
-    AutoRevealOwnUnits   is 1
-    AutoRevealAllies     is 2
-    AutoRevealAll        is 3
-)

@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par SoundDescriptorsFileWriter
 
 
 export Sound_AmbianceArtilleryImpactsArmyGeneral is TSoundSet
@@ -5305,6 +5305,47 @@ export Sound_FULDA_D44_85mm is TSoundSet
 export SoundHappening_FULDA_D44_85mm is TSoundHappening
 (
     SoundDescList = Sound_FULDA_D44_85mm
+    Volume = 2
+)
+
+
+export Sound_FULDA_DANA_SP_152mm is TSoundSet
+(
+    Items = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Canon_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Canon/152mm_canon_tir_DANA_SP_1.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Canon_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Canon/152mm_canon_tir_DANA_SP_2.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Canon_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Canon/152mm_canon_tir_DANA_SP_3.wav"
+            )
+            UseSpecialLoop = False
+        ),
+    ]
+)
+
+export SoundHappening_FULDA_DANA_SP_152mm is TSoundHappening
+(
+    SoundDescList = Sound_FULDA_DANA_SP_152mm
     Volume = 2
 )
 
@@ -10759,6 +10800,29 @@ export SoundHappening_FULDA_Tir_roquette_M270_MLRS is TSoundHappening
 )
 
 
+export Sound_FULDA_Tir_roquette_MRF_Minenraumfahrzeug is TSoundSet
+(
+    Items = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_MLRS
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Roquettes/Roquette_MRF_Minenraumfahrzeug_1.wav"
+            )
+            UseSpecialLoop = False
+        ),
+    ]
+)
+
+export SoundHappening_FULDA_Tir_roquette_MRF_Minenraumfahrzeug is TSoundHappening
+(
+    SoundDescList = Sound_FULDA_Tir_roquette_MRF_Minenraumfahrzeug
+    Volume = 2
+)
+
+
 export Sound_FULDA_UZI_Burst is TSoundSet
 (
     Items = 
@@ -15002,6 +15066,47 @@ export SoundHappening_ImpactRoquettes_Buratino_lourdeSol is TSoundHappening
 (
     SoundDescList = Sound_ImpactRoquettes_Buratino_lourdeSol
     Volume = 1
+)
+
+
+export Sound_ImpactRoquettes_MRF_lourdeSol is TSoundSet
+(
+    Items = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Gros_Impact_HE
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Impacts/Impacts_Roquette_MRF_Minenraumfahrzeug_1.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Gros_Impact_HE
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Impacts/Impacts_Roquette_MRF_Minenraumfahrzeug_2.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Gros_Impact_HE
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Impacts/Impacts_Roquette_MRF_Minenraumfahrzeug_3.wav"
+            )
+            UseSpecialLoop = False
+        ),
+    ]
+)
+
+export SoundHappening_ImpactRoquettes_MRF_lourdeSol is TSoundHappening
+(
+    SoundDescList = Sound_ImpactRoquettes_MRF_lourdeSol
+    Volume = 2
 )
 
 

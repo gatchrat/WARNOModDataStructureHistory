@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par DepictionAerialGhostsFileWriter
 
 
 GhostDepiction_A109BA_BEL is GhostAerialDepictionTemplate
@@ -46,6 +46,11 @@ GhostDepiction_AH1S_Cobra_US is GhostAerialDepictionTemplate
     Alternatives = Alternatives_AH1S_Cobra_US
     Selector = SpecificHelicoDepictionSelector
 )
+GhostDepiction_AH64_Apache_ATAS_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_AH64_Apache_ATAS_US
+    Selector = SpecificHelicoDepictionSelector
+)
 GhostDepiction_AH64_Apache_NG_US is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_AH64_Apache_NG_US
@@ -69,6 +74,11 @@ GhostDepiction_AH64_Apache_emp2_US is GhostAerialDepictionTemplate
 GhostDepiction_AH6C_Little_Bird_US is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_AH6C_Little_Bird_US
+    Selector = SpecificHelicoDepictionSelector
+)
+GhostDepiction_AH6G_Little_Bird_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_AH6G_Little_Bird_US
     Selector = SpecificHelicoDepictionSelector
 )
 GhostDepiction_Alouette_III_FR is GhostAerialDepictionTemplate
@@ -616,6 +626,16 @@ GhostDepiction_Lynx_AH_Mk7_SNEB_UK is GhostAerialDepictionTemplate
     Alternatives = Alternatives_Lynx_AH_Mk7_SNEB_UK
     Selector = SpecificHelicoDepictionSelector
 )
+GhostDepiction_MH47D_Super_Chinook_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_MH47D_Super_Chinook_US
+    Selector = SpecificHelicoDepictionSelector
+)
+GhostDepiction_MH_60A_DAP_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_MH_60A_DAP_US
+    Selector = SpecificHelicoDepictionSelector
+)
 GhostDepiction_MiG_21PFM_AA_DDR is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_MiG_21PFM_AA_DDR
@@ -731,6 +751,16 @@ GhostDepiction_MiG_25RBF_SOV is GhostAerialDepictionTemplate
     Alternatives = Alternatives_MiG_25RBF_SOV
     Selector = SpecificAirplaneDepictionSelector
 )
+GhostDepiction_MiG_27K_AT1_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_MiG_27K_AT1_SOV
+    Selector = SpecificAirplaneDepictionSelector
+)
+GhostDepiction_MiG_27K_AT2_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_MiG_27K_AT2_SOV
+    Selector = SpecificAirplaneDepictionSelector
+)
 GhostDepiction_MiG_27K_LGB_SOV is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_MiG_27K_LGB_SOV
@@ -826,6 +856,11 @@ GhostDepiction_Mi_24P_SOV is GhostAerialDepictionTemplate
     Alternatives = Alternatives_Mi_24P_SOV
     Selector = SpecificHelicoDepictionSelector
 )
+GhostDepiction_Mi_24P_TCH is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_Mi_24P_TCH
+    Selector = SpecificHelicoDepictionSelector
+)
 GhostDepiction_Mi_24P_s8_AT2_DDR is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Mi_24P_s8_AT2_DDR
@@ -896,6 +931,11 @@ GhostDepiction_Mi_2_trans_SOV is GhostAerialDepictionTemplate
     Alternatives = Alternatives_Mi_2_trans_SOV
     Selector = SpecificHelicoDepictionSelector
 )
+GhostDepiction_Mi_6_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_Mi_6_SOV
+    Selector = SpecificHelicoDepictionSelector
+)
 GhostDepiction_Mi_8K_CMD_SOV is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Mi_8K_CMD_SOV
@@ -909,6 +949,11 @@ GhostDepiction_Mi_8MTPI_SOV is GhostAerialDepictionTemplate
 GhostDepiction_Mi_8MTV_SOV is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Mi_8MTV_SOV
+    Selector = SpecificHelicoDepictionSelector
+)
+GhostDepiction_Mi_8PPA_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_Mi_8PPA_SOV
     Selector = SpecificHelicoDepictionSelector
 )
 GhostDepiction_Mi_8R_SOV is GhostAerialDepictionTemplate
@@ -1331,11 +1376,13 @@ AerialMimeticGhost is MAP[
   ( 'AH1F_Cobra_US', GhostDepiction_AH1F_Cobra_US ),
   ( 'AH1F_HeavyHog_US', GhostDepiction_AH1F_HeavyHog_US ),
   ( 'AH1S_Cobra_US', GhostDepiction_AH1S_Cobra_US ),
+  ( 'AH64_Apache_ATAS_US', GhostDepiction_AH64_Apache_ATAS_US ),
   ( 'AH64_Apache_NG_US', GhostDepiction_AH64_Apache_NG_US ),
   ( 'AH64_Apache_US', GhostDepiction_AH64_Apache_US ),
   ( 'AH64_Apache_emp1_US', GhostDepiction_AH64_Apache_emp1_US ),
   ( 'AH64_Apache_emp2_US', GhostDepiction_AH64_Apache_emp2_US ),
   ( 'AH6C_Little_Bird_US', GhostDepiction_AH6C_Little_Bird_US ),
+  ( 'AH6G_Little_Bird_US', GhostDepiction_AH6G_Little_Bird_US ),
   ( 'Alouette_III_FR', GhostDepiction_Alouette_III_FR ),
   ( 'Alouette_III_reco_FR', GhostDepiction_Alouette_III_reco_FR ),
   ( 'Alouette_II_CMD_RFA', GhostDepiction_Alouette_II_CMD_RFA ),
@@ -1445,6 +1492,8 @@ AerialMimeticGhost is MAP[
   ( 'Lynx_AH_Mk7_I_TOW2_UK', GhostDepiction_Lynx_AH_Mk7_I_TOW2_UK ),
   ( 'Lynx_AH_Mk7_I_TOW_UK', GhostDepiction_Lynx_AH_Mk7_I_TOW_UK ),
   ( 'Lynx_AH_Mk7_SNEB_UK', GhostDepiction_Lynx_AH_Mk7_SNEB_UK ),
+  ( 'MH47D_Super_Chinook_US', GhostDepiction_MH47D_Super_Chinook_US ),
+  ( 'MH_60A_DAP_US', GhostDepiction_MH_60A_DAP_US ),
   ( 'MiG_21PFM_AA_DDR', GhostDepiction_MiG_21PFM_AA_DDR ),
   ( 'MiG_21PFM_DDR', GhostDepiction_MiG_21PFM_DDR ),
   ( 'MiG_21bis_AA2_DDR', GhostDepiction_MiG_21bis_AA2_DDR ),
@@ -1468,6 +1517,8 @@ AerialMimeticGhost is MAP[
   ( 'MiG_23P_SOV', GhostDepiction_MiG_23P_SOV ),
   ( 'MiG_25BM_SOV', GhostDepiction_MiG_25BM_SOV ),
   ( 'MiG_25RBF_SOV', GhostDepiction_MiG_25RBF_SOV ),
+  ( 'MiG_27K_AT1_SOV', GhostDepiction_MiG_27K_AT1_SOV ),
+  ( 'MiG_27K_AT2_SOV', GhostDepiction_MiG_27K_AT2_SOV ),
   ( 'MiG_27K_LGB_SOV', GhostDepiction_MiG_27K_LGB_SOV ),
   ( 'MiG_27M_CLU_SOV', GhostDepiction_MiG_27M_CLU_SOV ),
   ( 'MiG_27M_SOV', GhostDepiction_MiG_27M_SOV ),
@@ -1487,6 +1538,7 @@ AerialMimeticGhost is MAP[
   ( 'Mi_24K_reco_SOV', GhostDepiction_Mi_24K_reco_SOV ),
   ( 'Mi_24P_AA_SOV', GhostDepiction_Mi_24P_AA_SOV ),
   ( 'Mi_24P_SOV', GhostDepiction_Mi_24P_SOV ),
+  ( 'Mi_24P_TCH', GhostDepiction_Mi_24P_TCH ),
   ( 'Mi_24P_s8_AT2_DDR', GhostDepiction_Mi_24P_s8_AT2_DDR ),
   ( 'Mi_24P_s8_AT_DDR', GhostDepiction_Mi_24P_s8_AT_DDR ),
   ( 'Mi_24VP_SOV', GhostDepiction_Mi_24VP_SOV ),
@@ -1501,9 +1553,11 @@ AerialMimeticGhost is MAP[
   ( 'Mi_2_rocket_DDR', GhostDepiction_Mi_2_rocket_DDR ),
   ( 'Mi_2_trans_DDR', GhostDepiction_Mi_2_trans_DDR ),
   ( 'Mi_2_trans_SOV', GhostDepiction_Mi_2_trans_SOV ),
+  ( 'Mi_6_SOV', GhostDepiction_Mi_6_SOV ),
   ( 'Mi_8K_CMD_SOV', GhostDepiction_Mi_8K_CMD_SOV ),
   ( 'Mi_8MTPI_SOV', GhostDepiction_Mi_8MTPI_SOV ),
   ( 'Mi_8MTV_SOV', GhostDepiction_Mi_8MTV_SOV ),
+  ( 'Mi_8PPA_SOV', GhostDepiction_Mi_8PPA_SOV ),
   ( 'Mi_8R_SOV', GhostDepiction_Mi_8R_SOV ),
   ( 'Mi_8TB_DDR', GhostDepiction_Mi_8TB_DDR ),
   ( 'Mi_8TV_DDR', GhostDepiction_Mi_8TV_DDR ),

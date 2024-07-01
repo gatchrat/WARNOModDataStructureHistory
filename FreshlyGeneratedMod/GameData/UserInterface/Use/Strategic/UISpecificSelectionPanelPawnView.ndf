@@ -418,32 +418,6 @@ PawnDivisionInfosBanner is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKTextureDescriptor
             (
-                ElementName = "CountryFlag"
-
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableWidthHeight = [1.0, 1.0]
-                    AlignementToFather = [0.0, 0.5]
-                    AlignementToAnchor = [0.0, 0.5]
-                )
-
-                ResizeMode = ~/TextureResizeMode/UserDefined
-                TextureDrawer = 'ColorMultiply_NoGrayscale'
-
-                Components =
-                [
-                    BUCKSpecificStrategicHintableArea
-                    (
-                        ElementName = "FlagHint"
-                        DicoToken = ~/LocalisationConstantes/dico_unites
-                    )
-                ]
-            )
-        ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKTextureDescriptor
-            (
                 ElementName = "DivisionIcon"
 
                 ComponentFrame = TUIFramePropertyRTTI

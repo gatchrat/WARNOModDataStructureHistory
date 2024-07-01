@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par DepictionTowableFileWriter
 
 
 SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
@@ -46,6 +46,12 @@ SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
         TDepictionDescriptor(SelectorId = [LOD_High, 'DCA_I_Hawk_capture_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_I_Hawk_capture_DDR ),
         TDepictionDescriptor(SelectorId = [LOD_Mid, 'DCA_I_Hawk_capture_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_I_Hawk_capture_DDR_MID ),
         TDepictionDescriptor(SelectorId = [LOD_Low, 'DCA_I_Hawk_capture_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_I_Hawk_capture_DDR_LOW ),
+        TDepictionDescriptor(SelectorId = [LOD_High, 'DCA_M167A2_Vulcan_20mm_Aero_US'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_Aero_US ),
+        TDepictionDescriptor(SelectorId = [LOD_Mid, 'DCA_M167A2_Vulcan_20mm_Aero_US'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_Aero_US_MID ),
+        TDepictionDescriptor(SelectorId = [LOD_Low, 'DCA_M167A2_Vulcan_20mm_Aero_US'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_Aero_US_LOW ),
+        TDepictionDescriptor(SelectorId = [LOD_High, 'DCA_M167A2_Vulcan_20mm_US'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_US ),
+        TDepictionDescriptor(SelectorId = [LOD_Mid, 'DCA_M167A2_Vulcan_20mm_US'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_US_MID ),
+        TDepictionDescriptor(SelectorId = [LOD_Low, 'DCA_M167A2_Vulcan_20mm_US'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_US_LOW ),
         TDepictionDescriptor(SelectorId = [LOD_High, 'DCA_M167_Vulcan_20mm_BEL'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167_Vulcan_20mm_BEL ),
         TDepictionDescriptor(SelectorId = [LOD_Mid, 'DCA_M167_Vulcan_20mm_BEL'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167_Vulcan_20mm_BEL_MID ),
         TDepictionDescriptor(SelectorId = [LOD_Low, 'DCA_M167_Vulcan_20mm_BEL'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167_Vulcan_20mm_BEL_LOW ),
@@ -146,6 +152,8 @@ SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
         ('DCA_I_Hawk_RFA', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_I_Hawk_RFA Angle = 0.0 )),
         ('DCA_I_Hawk_US', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_I_Hawk_US Angle = 0.0 )),
         ('DCA_I_Hawk_capture_DDR', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_I_Hawk_capture_DDR Angle = 0.0 )),
+        ('DCA_M167A2_Vulcan_20mm_Aero_US', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_Aero_US Angle = 0.0 )),
+        ('DCA_M167A2_Vulcan_20mm_US', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167A2_Vulcan_20mm_US Angle = 0.0 )),
         ('DCA_M167_Vulcan_20mm_BEL', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167_Vulcan_20mm_BEL Angle = 0.0 )),
         ('DCA_M167_Vulcan_20mm_US', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167_Vulcan_20mm_US Angle = 0.0 )),
         ('DCA_M167_Vulcan_20mm_nonPara_US', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_M167_Vulcan_20mm_nonPara_US Angle = 0.0 )),

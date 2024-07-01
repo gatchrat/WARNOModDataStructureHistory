@@ -58,8 +58,6 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     //Delay maximum avant le demarrage de l'IA, pour placement du flare permettant au joueur de jouer là ou il veut (secondes)
     IAStartDelay = 10.0
 
-    MaxNbTickWithoutUpdateAcceptable = 3
-
     //Les coeffs sont calculé pour le modificateur de menace
     //La formule est la suivante : Coeff/Moyenne_Des_Stats_Resistances
     //Moyenne_Des_Stats_Resistances ayant pour arguments :
@@ -269,13 +267,13 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     [
         //Fallback AnyDifficulty doit toujours être présent
         (EDeploymentMode/NotSpecified, MAP[
-            (IADifficulty/AnyDifficulty, (1.0, 1.5)),
-            (IADifficulty/TresFacile, (1.0, 1.5)),         // On ne prend pas de risque, mais on perd aussi en réactivitée
-            (IADifficulty/Facile, (1.0, 1.5)),
-            (IADifficulty/Normal, (0.8, 1.25)),
-            (IADifficulty/Difficile, (0.65, 1.25)),
-            (IADifficulty/TresDifficile, (0.65, 1.25)),     // On prend plus de risque a partir de very hard
-            (IADifficulty/PlusDifficile, (0.65, 1.25)),
+            (IADifficulty/AnyDifficulty, (0.9, 1.25)),
+            (IADifficulty/TresFacile, (0.9, 1.25)),         // On ne prend pas de risque, mais on perd aussi en réactivitée
+            (IADifficulty/Facile, (0.9, 1.25)),
+            (IADifficulty/Normal, (0.7, 1.0)),
+            (IADifficulty/Difficile, (0.65, 0.9)),
+            (IADifficulty/TresDifficile, (0.65, 0.9)),     // On prend plus de risque a partir de very hard
+            (IADifficulty/PlusDifficile, (0.65, 0.9)),
         ]),
 
         (EDeploymentMode/Breakthrough, MAP[
@@ -305,6 +303,7 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     IAStratPathCacheCostPathfindType = ~/IAStratPathCacheCostConstante/IAStratPathCacheCostPathfindType
 
     DeployOffRoadUnitsTags = ["Helo", "FOB"]
+    MinSpeedForSearchZone = 2000.0 //On cherche les unités se déplacant rapidement pour fouiller une zone
 )
 
 //--------------------------------------------------------------------------------------//
@@ -323,7 +322,7 @@ UnitPowerInformation is TUnitPowerInformationConstante
 RoEConstantes is TRoEConstantes
 (
     UnarmedVehiculeBehavior = EUnarmedVehiculeBehaviour/FireAtWill
-    MissilesBehavior = EMissilesBehaviour/NeverLooktAtTransport
+    MissilesBehavior = EMissilesBehaviour/LookAtAllTransport
     ShotReactionBehavior = EShotReactionBehaviour/Defensive
     ActivateAutoResale = true
 )

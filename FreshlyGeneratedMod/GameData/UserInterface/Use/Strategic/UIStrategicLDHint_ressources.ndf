@@ -24,7 +24,7 @@ unnamed TUICommonLDHintResource
         ( "major_UK",                Steelman_newLDHINT(Texture = 'major_UK' portrait_name = 'uk_maj_1')),
 
         ( "general_RFA",             Steelman_newLDHINT(Texture = 'general_RFA' portrait_name = 'rfa_gen_1' )),
-        ( "general_RFA_name",        ST_Component_1Texture_1Text_Portrait(portrait_name = 'ddr_maj_1')),
+        ( "general_RFA_name",        ST_Component_1Texture_1Text_Portrait(portrait_name = 'rfa_gen_1')),
         ( "major_RFA",               Steelman_newLDHINT(Texture = 'major_RFA' portrait_name = 'rfa_maj_1' )),
 
         ( "general_SOV",             Steelman_newLDHINT(Texture = 'general_SOV' portrait_name = 'sov_gen_1' )),

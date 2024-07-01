@@ -1394,7 +1394,6 @@ NombreDePack is BUCKTextDescriptor
        DicoToken = ~/LocalisationConstantes/dico_interface_ingame
        HintTitleToken = "ProdPacT"
        HintBodyToken = "ProdPacB"
-       HintExtendedToken = "ProdPacE"
    )
 )
 

@@ -23,7 +23,7 @@ export Tactic_TeamUnitDescriptor is TEntityDescriptor
             // Point d'essence par tick
             FuelSupplyAmountBySecond = 10
             // Cout du ravitaillement de point de vie par tick
-            HealthSupplyAmountBySecond = 0.0198 //0.018 // 0.034
+            HealthSupplyAmountBySecond = 0.0198
             // Cout du ravitaillement de munition par tick
             AmmunitionSupplyAmountBySecond = 1
         ),
@@ -105,7 +105,7 @@ export Tactic_TeamUnitDescriptor is TEntityDescriptor
             SoundAcknowUnitDuration = 5
             DamageFeedbackTriggerLevel = 0.5        // niveau de santé restante pour trigger le feedback "damage received"
             HeavyDamageFeedbackTriggerLevel = 0.25  // niveau de santé restante pour trigger le feedback "heavy damage received"
-            EnemyContactZoneRadius = 10000 * Metre   // 2000 * OneMeterInGameUnits
+            EnemyContactZoneRadius = 10000 * Metre
         ),
         TTeamDescriptionModuleDescriptor
         (

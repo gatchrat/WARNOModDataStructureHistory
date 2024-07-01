@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par DecksFileWriter
 
 
 export Descriptor_Deck_RDA_4_MSD_multi is TDeckDescriptor
@@ -97,37 +97,43 @@ export Descriptor_Deck_WP_Unternehmen_Zentrum_multi is TDeckDescriptor
     DeckDivision = ~/Descriptor_Deck_Division_WP_Unternehmen_Zentrum_multi
     DeckPackList =
     [
+        ~/Descriptor_Deck_Pack_FOB_DDR_1,
+        ~/Descriptor_Deck_Pack_MTLB_supply_DDR_0,
         ~/Descriptor_Deck_Pack_T813_DDR_0,
-        ~/Descriptor_Deck_Pack_MTLB_supply_DDR_1,
-        ~/Descriptor_Deck_Pack_Mi_8_supply_DDR_1,
+        ~/Descriptor_Deck_Pack_Mi_8_supply_DDR_0,
         ~/Descriptor_Deck_Pack_Wachregiment_CMD_DDR_PSzH_IV_DDR_2,
-        ~/Descriptor_Deck_Pack_KdA_DDR_W50_LA_A_DDR_0,
-        ~/Descriptor_Deck_Pack_MotRifles_BTR_DDR_BTR_70_DDR_0,
+        ~/Descriptor_Deck_Pack_Wachregiment_RPG_DDR_BTR_70_DDR_1,
+        ~/Descriptor_Deck_Pack_Wachregiment_DDR_BTR_70_DDR_1,
+        ~/Descriptor_Deck_Pack_KdA_CMD_DDR_SPW_152K_DDR_1,
+        ~/Descriptor_Deck_Pack_KdA_DDR_SPW_152K_DDR_0,
+        ~/Descriptor_Deck_Pack_MotRifles_BTR_DDR_BTR_70_DDR_1,
+        ~/Descriptor_Deck_Pack_MotRifles_SVD_DDR_BTR_70_DDR_1,
         ~/Descriptor_Deck_Pack_Engineers_AGI_DDR_BTR_70_DDR_0,
-        ~/Descriptor_Deck_Pack_MotRifles_CMD_DDR_BTR_70_DDR_2,
-        ~/Descriptor_Deck_Pack_Wachregiment_DDR_W50_LA_A_DDR_2,
-        ~/Descriptor_Deck_Pack_Wachregiment_SMG_DDR_W50_LA_A_DDR_2,
+        ~/Descriptor_Deck_Pack_Groupe_AT_Wach_DDR_PSzH_IV_DDR_1,
+        ~/Descriptor_Deck_Pack_ATteam_Fagot_DDR_UAZ_469_trans_DDR_1,
+        ~/Descriptor_Deck_Pack_2S1_DDR_1,
         ~/Descriptor_Deck_Pack_2S3_DDR_0,
+        ~/Descriptor_Deck_Pack_MFRW_RM70_DDR_0,
         ~/Descriptor_Deck_Pack_T55A_CMD_DDR_1,
-        ~/Descriptor_Deck_Pack_T55A_DDR_0,
-        ~/Descriptor_Deck_Pack_T55A_DDR_0,
+        ~/Descriptor_Deck_Pack_T55A_DDR_1,
+        ~/Descriptor_Deck_Pack_T55A_DDR_1,
+        ~/Descriptor_Deck_Pack_TO_55_DDR_0,
+        ~/Descriptor_Deck_Pack_AT_T12_Rapira_DDR_T813_trans_DDR_0,
+        ~/Descriptor_Deck_Pack_Scout_KdA_DDR_W50_LA_A_DDR_0,
         ~/Descriptor_Deck_Pack_Grenzer_Flam_DDR_W50_LA_A_DDR_0,
-        ~/Descriptor_Deck_Pack_Scout_DDR_UAZ_469_Reco_DDR_0,
+        ~/Descriptor_Deck_Pack_Scout_DDR_UAZ_469_Reco_DDR_1,
         ~/Descriptor_Deck_Pack_BRM_1_DDR_1,
         ~/Descriptor_Deck_Pack_MANPAD_Strela_2M_DDR_UAZ_469_trans_DDR_1,
-        ~/Descriptor_Deck_Pack_ZSU_23_Shilka_DDR_0,
-        ~/Descriptor_Deck_Pack_2K12_KUB_DDR_0,
-        ~/Descriptor_Deck_Pack_Mi_8TV_s57_32_DDR_1,
+        ~/Descriptor_Deck_Pack_ZSU_23_Shilka_DDR_1,
+        ~/Descriptor_Deck_Pack_2K12_KUB_DDR_1,
+        ~/Descriptor_Deck_Pack_2K12_KUB_DDR_1,
         ~/Descriptor_Deck_Pack_Mi_8TV_PodGatling_DDR_1,
-        ~/Descriptor_Deck_Pack_FOB_DDR_1,
+        ~/Descriptor_Deck_Pack_Mi_8TV_s57_32_DDR_1,
+        ~/Descriptor_Deck_Pack_Mi_8TV_s57_32_DDR_1,
+        ~/Descriptor_Deck_Pack_MiG_21bis_AA3_DDR_1,
+        ~/Descriptor_Deck_Pack_L39ZO_DDR_1,
         ~/Descriptor_Deck_Pack_L39ZO_HE1_DDR_1,
-        ~/Descriptor_Deck_Pack_Su_22_UPK_DDR_1,
-        ~/Descriptor_Deck_Pack_Su_22_AT_DDR_1,
-        ~/Descriptor_Deck_Pack_2K12_KUB_DDR_0,
-        ~/Descriptor_Deck_Pack_Su_22_nplm_DDR_1,
-        ~/Descriptor_Deck_Pack_Grenzer_Mot_DDR_OT_65_DDR_0,
-        ~/Descriptor_Deck_Pack_KdA_CMD_DDR_SPW_152K_DDR_1,
-        ~/Descriptor_Deck_Pack_MotRifles_Strela_DDR_BTR_70_DDR_0,
+        ~/Descriptor_Deck_Pack_L39ZO_CLU_DDR_1,
     ]
 )
 
@@ -172,6 +178,7 @@ export Descriptor_Deck_FR_11e_Para_multi is TDeckDescriptor
         ~/Descriptor_Deck_Pack_Gazelle_Mistral_FR_1,
         ~/Descriptor_Deck_Pack_Jaguar_clu_FR_1,
         ~/Descriptor_Deck_Pack_Jaguar_SEAD2_FR_1,
+        ~/Descriptor_Deck_Pack_Puma_Pirate_FR_1,
     ]
 )
 
@@ -964,9 +971,9 @@ export Descriptor_Deck_US_82nd_Airborne_multi is TDeckDescriptor
         ~/Descriptor_Deck_Pack_F111F_Aardvark_napalm_US_1,
         ~/Descriptor_Deck_Pack_A10_Thunderbolt_II_Rkt_US_1,
         ~/Descriptor_Deck_Pack_F16E_SEAD_US_1,
-        ~/Descriptor_Deck_Pack_AeroRifles_US_UH60A_Black_Hawk_US_1,
+        ~/Descriptor_Deck_Pack_AeroRifles_AB_US_UH60A_Black_Hawk_US_1,
         ~/Descriptor_Deck_Pack_CH47_Super_Chinook_US_0,
-        ~/Descriptor_Deck_Pack_AeroRifles_US_UH60A_Black_Hawk_US_1,
+        ~/Descriptor_Deck_Pack_AeroRifles_AB_US_UH60A_Black_Hawk_US_1,
         ~/Descriptor_Deck_Pack_CH47_Super_Chinook_US_0,
         ~/Descriptor_Deck_Pack_M551A1_ACAV_Sheridan_US_1,
     ]
@@ -1013,6 +1020,94 @@ export Descriptor_Deck_US_8th_Inf_multi is TDeckDescriptor
         ~/Descriptor_Deck_Pack_M35_supply_US_0,
         ~/Descriptor_Deck_Pack_M35_supply_US_0,
         ~/Descriptor_Deck_Pack_HEMTT_US_0,
+    ]
+)
+
+export Descriptor_Deck_US_101st_Airmobile_multi is TDeckDescriptor
+(
+    DeckName = 'SOPQEOVMKR'
+    DeckDivision = ~/Descriptor_Deck_Division_US_101st_Airmobile_multi
+    DeckPackList =
+    [
+        ~/Descriptor_Deck_Pack_M1025_Humvee_CMD_US_2,
+        ~/Descriptor_Deck_Pack_OH58C_CMD_US_1,
+        ~/Descriptor_Deck_Pack_Gama_Goat_supply_US_1,
+        ~/Descriptor_Deck_Pack_CH47_Super_Chinook_US_1,
+        ~/Descriptor_Deck_Pack_GreenBerets_CMD_US_MH47D_Super_Chinook_US_3,
+        ~/Descriptor_Deck_Pack_GreenBerets_ODA_US_MH47D_Super_Chinook_US_2,
+        ~/Descriptor_Deck_Pack_Aero_half_Dragon_US_M998_Humvee_US_1,
+        ~/Descriptor_Deck_Pack_MP_RCL_US_M998_Humvee_US_1,
+        ~/Descriptor_Deck_Pack_AeroEngineers_US_M1038_Humvee_US_1,
+        ~/Descriptor_Deck_Pack_AeroRifles_AB_US_UH60A_Black_Hawk_US_1,
+        ~/Descriptor_Deck_Pack_AeroRifles_Dragon_US_UH60A_Black_Hawk_US_1,
+        ~/Descriptor_Deck_Pack_AeroRifles_AT4_US_CH47_Chinook_US_1,
+        ~/Descriptor_Deck_Pack_ATteam_TOW2_Aero_US_Gama_Goat_trans_US_1,
+        ~/Descriptor_Deck_Pack_Howz_M198_155mm_US_M35_trans_US_1,
+        ~/Descriptor_Deck_Pack_81mm_mortar_Aero_US_Gama_Goat_trans_US_1,
+        ~/Descriptor_Deck_Pack_M1IP_Abrams_US_1,
+        ~/Descriptor_Deck_Pack_M1IP_Abrams_US_1,
+        ~/Descriptor_Deck_Pack_M1025_Humvee_TOW_US_1,
+        ~/Descriptor_Deck_Pack_EH60A_EW_US_1,
+        ~/Descriptor_Deck_Pack_OH58D_Combat_Scout_US_1,
+        ~/Descriptor_Deck_Pack_LRRP_Aero_US_CH47_Chinook_US_1,
+        ~/Descriptor_Deck_Pack_DeltaForce_US_M998_Humvee_Delta_US_2,
+        ~/Descriptor_Deck_Pack_Sniper_US_M998_Humvee_US_1,
+        ~/Descriptor_Deck_Pack_MANPAD_Stinger_C_Aero_US_M998_Humvee_US_1,
+        ~/Descriptor_Deck_Pack_DCA_M167A2_Vulcan_20mm_Aero_US_Gama_Goat_trans_US_1,
+        ~/Descriptor_Deck_Pack_AH1F_HeavyHog_US_1,
+        ~/Descriptor_Deck_Pack_MH_60A_DAP_US_3,
+        ~/Descriptor_Deck_Pack_F15C_Eagle_AA2_US_1,
+        ~/Descriptor_Deck_Pack_F4E_Phantom_II_AA_US_1,
+        ~/Descriptor_Deck_Pack_F4E_Phantom_II_HE_US_1,
+        ~/Descriptor_Deck_Pack_M274_Mule_RCL_US_1,
+        ~/Descriptor_Deck_Pack_AH6C_Little_Bird_US_3,
+        ~/Descriptor_Deck_Pack_AH64_Apache_ATAS_US_1,
+        ~/Descriptor_Deck_Pack_AH64_Apache_ATAS_US_1,
+        ~/Descriptor_Deck_Pack_AH64_Apache_US_1,
+        ~/Descriptor_Deck_Pack_Howz_M102_105mm_US_CH47_Chinook_US_1,
+    ]
+)
+
+export Descriptor_Deck_SOV_56_AirAslt_Brig_multi is TDeckDescriptor
+(
+    DeckName = 'RDCLMXSIZI'
+    DeckDivision = ~/Descriptor_Deck_Division_SOV_56_AirAslt_Brig_multi
+    DeckPackList =
+    [
+        ~/Descriptor_Deck_Pack_BTR_60_CHAIKA_CMD_SOV_1,
+        ~/Descriptor_Deck_Pack_Ural_4320_SOV_1,
+        ~/Descriptor_Deck_Pack_Ural_4320_SOV_1,
+        ~/Descriptor_Deck_Pack_Mi_6_SOV_1,
+        ~/Descriptor_Deck_Pack_DShV_SOV_BMP_2D_SOV_1,
+        ~/Descriptor_Deck_Pack_DShV_SOV_BMP_2D_SOV_1,
+        ~/Descriptor_Deck_Pack_DShV_Metis_SOV_BTR_70_AGS_SOV_1,
+        ~/Descriptor_Deck_Pack_DShV_RPG16_SOV_GTMU_1D_AGS_SOV_1,
+        ~/Descriptor_Deck_Pack_DShV_Afgantsy_SOV_Mi_24D_Desant_SOV_2,
+        ~/Descriptor_Deck_Pack_DShV_Hvy_SOV_Mi_8TV_non_arme_SOV_2,
+        ~/Descriptor_Deck_Pack_DShV_Hvy_SOV_Mi_8TV_non_arme_SOV_2,
+        ~/Descriptor_Deck_Pack_Security_SOV_Ural_4320_trans_SOV_0,
+        ~/Descriptor_Deck_Pack_Atteam_Konkurs_DShV_SOV_LUAZ_967M_SOV_1,
+        ~/Descriptor_Deck_Pack_Mortier_240mm_M240_Cluster_SOV_KrAZ_255B_SOV_1,
+        ~/Descriptor_Deck_Pack_BM21_Grad_SOV_1,
+        ~/Descriptor_Deck_Pack_T62MD_CMD_SOV_2,
+        ~/Descriptor_Deck_Pack_T62MD1_SOV_1,
+        ~/Descriptor_Deck_Pack_T62MD_SOV_1,
+        ~/Descriptor_Deck_Pack_LUAZ_967M_Fagot_SOV_1,
+        ~/Descriptor_Deck_Pack_ZSU_23_Shilka_reco_SOV_1,
+        ~/Descriptor_Deck_Pack_Mi_8PPA_SOV_1,
+        ~/Descriptor_Deck_Pack_Scout_SpetsnazGRU_Stinger_SOV_LUAZ_967M_SOV_2,
+        ~/Descriptor_Deck_Pack_MANPAD_Igla_DShV_SOV_BTR_70D_SOV_1,
+        ~/Descriptor_Deck_Pack_MTLB_Strela10_SOV_1,
+        ~/Descriptor_Deck_Pack_ZSU_23_Shilka_Afghan_SOV_1,
+        ~/Descriptor_Deck_Pack_Ural_4320_ZU_SOV_1,
+        ~/Descriptor_Deck_Pack_Mi_24P_SOV_1,
+        ~/Descriptor_Deck_Pack_Mi_24P_SOV_1,
+        ~/Descriptor_Deck_Pack_MiG_23MLD_SOV_1,
+        ~/Descriptor_Deck_Pack_MiG_23P_SOV_1,
+        ~/Descriptor_Deck_Pack_MiG_23P_SOV_1,
+        ~/Descriptor_Deck_Pack_MiG_27K_AT2_SOV_1,
+        ~/Descriptor_Deck_Pack_MiG_27K_LGB_SOV_1,
+        ~/Descriptor_Deck_Pack_Engineers_DShV_SOV_BTR_70_S8_SOV_1,
     ]
 )
 
@@ -1338,7 +1433,7 @@ export Descriptor_Deck_SOV_79_Gds_Tank_challenge_OP_03_STR_Player is TDeckDescri
     [
         TDeckCombatGroupDescriptor
         (
-            Name = "ZOMQAFHITM"
+            Name = "AIFMQGIAGU"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
@@ -1698,7 +1793,7 @@ export Descriptor_Deck_SOV_57_GMRD_challenge_Sledgehammer_OP_04_BOH_Player is TD
     [
         TDeckCombatGroupDescriptor
         (
-            Name = "ZOMQAFHITM"
+            Name = "IMKHWKBLFM"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
@@ -2438,7 +2533,7 @@ export Descriptor_Deck_SOV_35_AirAslt_Brig_challenge_OP_12_AA_Player is TDeckDes
     [
         TDeckCombatGroupDescriptor
         (
-            Name = "ZOMQAFHITM"
+            Name = "AIFMQGIAGU"
             SmartGroupList =
             [
                 TDeckSmartGroupDescriptor
@@ -3083,7 +3178,7 @@ export Descriptor_Deck_FR_7e_Blindee_challenge_OP_15_LMS_Player is TDeckDescript
             [
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "cha_1"
+                    Name = "squad_1"
                     PackIndexUnitNumberList =
                     [
                         (26,4),
@@ -3092,7 +3187,7 @@ export Descriptor_Deck_FR_7e_Blindee_challenge_OP_15_LMS_Player is TDeckDescript
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "cha_2"
+                    Name = "squad_2"
                     PackIndexUnitNumberList =
                     [
                         (23,2),
@@ -3100,7 +3195,7 @@ export Descriptor_Deck_FR_7e_Blindee_challenge_OP_15_LMS_Player is TDeckDescript
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "cha_3"
+                    Name = "squad_3"
                     PackIndexUnitNumberList =
                     [
                         (24,2),
@@ -3108,7 +3203,7 @@ export Descriptor_Deck_FR_7e_Blindee_challenge_OP_15_LMS_Player is TDeckDescript
                 ),
                 TDeckSmartGroupDescriptor
                 (
-                    Name = "cha_4"
+                    Name = "squad_4"
                     PackIndexUnitNumberList =
                     [
                         (25,2),
@@ -3296,6 +3391,8 @@ private DeckList is TDeckDescriptorList
         ~/Descriptor_Deck_US_3rd_Arm_multi,
         ~/Descriptor_Deck_US_82nd_Airborne_multi,
         ~/Descriptor_Deck_US_8th_Inf_multi,
+        ~/Descriptor_Deck_US_101st_Airmobile_multi,
+        ~/Descriptor_Deck_SOV_56_AirAslt_Brig_multi,
     ]
 
     DeckListForIdentifier =

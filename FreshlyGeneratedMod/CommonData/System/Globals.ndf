@@ -1,6 +1,6 @@
 // A incrémenter quand on veut provoquer une recompilation des glads chez tout le monde sans gêner personne
 
-// Version : 00557
+// Version : 00559
 
 //-----------------------------------------------------------------------------
 // differentes constantes utilisees un peu partout.
@@ -32,12 +32,6 @@ ContentType_Texture_LevelBuild_Mid       is 3
 ContentType_Texture_LevelBuild_Low       is 4
 ContentType_Texture_Units                is 5
 ContentType_Texture_Terrain              is 6
-ContentType_Texture_Map                  is 7
-ContentType_Texture_UI_Common            is 8
-ContentType_Texture_UI_Outgame           is 9
-ContentType_Texture_UI_Ingame            is 10
-
-ContentType_Texture_UI_Map               is 13
 ContentType_Texture_FX                   is 14
 //ContentType_Texture_Sky                  is 15
 
@@ -364,7 +358,6 @@ CommandName is TBaseClass
     DectivateTestText3D is "Text3DTest::Deactivate"
     ActivateTestObjective is "ObjectiveTest::ActivateDeactivate"
     ActivateDeactivateLabelTest is "LabelTest::ActivateDeactivate"
-    ActivateDeactivateUITools is "UITools::ActivateDeactivate"
 
     PythonLib25PackLoad is "Lib25PythonPack::Load"
     PythonLib25PackUnload is "Lib25PythonPack::Unload"
@@ -413,24 +406,19 @@ ResourceLoadType is TBaseClass // doit matcher avec TResourceLoadType
     Skeleton is 2
 )
 
-CivMask is TBaseClass // namespace
-(
-    Common              is 1
-)
-
 TypeMask is TBaseClass // namespace
 (
-    Common           is 0x10000 * 0x1
+    Common           is  0x1
 
     // flags juste pour les pack de Texture
-    BuildMenu        is 0x10000 * 0x2
-    EndGameScreen    is 0x10000 * 0x4
-    DebugScreen      is 0x10000 * 0x8
-    FX               is 0x10000 * 0x10
-    PCInterface      is 0x10000 * 0x40
-    InGameInterface  is 0x10000 * 0x80
-    OutGameInterface is 0x10000 * 0x100
-    LoadingScreen    is 0x10000 * 0x400
+    BuildMenu        is 0x2
+    EndGameScreen    is 0x4
+    DebugScreen      is 0x8
+    FX               is 0x10
+    PCInterface      is 0x40
+    InGameInterface  is 0x80
+    OutGameInterface is 0x100
+    LoadingScreen    is 0x400
 )
 
 OneMeterInGameUnits is 215 //Francis (21/12/21) A virer ASAP

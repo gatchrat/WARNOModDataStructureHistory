@@ -29,6 +29,7 @@ export Pool_Objective_Attack_TestAuto is TPoolModel
     ]
 )
 
+//-------------------------------------------------------------------------
 export Attack_Corridor_OnlyTestAuto is TMacroActionDescriptor_CorridorAttack_Specific
 (
     ParametresDeMission =
@@ -38,6 +39,19 @@ export Attack_Corridor_OnlyTestAuto is TMacroActionDescriptor_CorridorAttack_Spe
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 1.2 RatioPourAttaquerPerduAChaqueTick = 0.00084),
         TCorridorPlacementSettingHolder(StayInCorridorIfp = true),
         TForcedPlacementSettingHolder(ForcedCorridor = [2]), // On force le couloirs pour ne pas dépendre du déterminisme
+    ]
+)
+
+//-------------------------------------------------------------------------
+export Attack_Corridor_MiddleCommandZone_OnlyTestAuto is TMacroActionDescriptor_CorridorAttack_Specific
+(
+    ParametresDeMission =
+    [
+        TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
+        TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [Pool_Corridor_Attack_TestAuto] LaunchASAP_RatioMin = 0.01 DisableReinforcement = true),
+        TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 1.2 RatioPourAttaquerPerduAChaqueTick = 0.00084),
+        TCorridorPlacementSettingHolder(StayInCorridorIfp = true),
+        TForcedPlacementSettingHolder(ForcedCorridor = [5]), // On force le couloirs pour ne pas dépendre du déterminisme
     ]
 )
 

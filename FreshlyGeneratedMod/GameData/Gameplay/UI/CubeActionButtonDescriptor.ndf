@@ -318,23 +318,6 @@ export CubeAction_Order_AIAttack is Template_CubeActionOrderButtonInformationsDe
     ValidationTargetToken    = 'CA_VALTAR'
     Mapping                  = $/KeyboardOption/Mapping_AIAttack
 )
-export CubeAction_Order_HoldPosition is Template_CubeActionOrderButtonInformationsDescriptor_WithSound
-(
-    CubeActionName           = "CubeAction_Order_HoldPosition"
-    DebugName                = "InGameCubeAction_ButtonHoldPosition"
-
-    CubeActionFunctionType   = TacticCubeActionFunctionType/TogglableOrders
-
-    ButtonTextToken          = 'ORD_HOLDP'
-    HintTitleToken           = 'ORD_HOLDP'
-    HintBodyToken            = 'HNT_HOLDP'
-    HintExtendedToken        = ''
-    HintDico                 = ~/LocalisationConstantes/dico_interface_ingame
-
-    OrderToken               = "HoldPosition"
-    ActionType               = OrderInstant
-    Mapping                  = $/KeyboardOption/Mapping_HoldPosition
-)
 
 export CubeAction_Order_ShootOnPosition is Template_CubeActionOrderButtonInformationsDescriptor_WithSound
 (
@@ -548,44 +531,6 @@ export CubeAction_Order_ChangeAltitude is Template_CubeActionOrderButtonInformat
     OrderToken               = "ChangeAltitude"
     ActionType               = OrderInstant
     Mapping                  = $/KeyboardOption/Mapping_ChangeAltitude
-)
-
-export CubeAction_Order_ChangeMaster is Template_CubeActionOrderButtonInformationsDescriptor_WithSound
-(
-    CubeActionName           = "CubeAction_Order_ChangeMaster"
-    DebugName                = "InGameCubeAction_ButtonChangeMaster"
-
-    CubeActionFunctionType   = TacticCubeActionFunctionType/Orders
-
-    ButtonTextToken          = 'ORD_CHMAST'
-    HintTitleToken           = 'ORD_CHMAST'
-    HintBodyToken            = 'HNT_CHMAST'
-    HintExtendedToken        = ''
-    HintDico                 = ~/LocalisationConstantes/dico_interface_ingame
-
-    OrderToken               = "ChangeMaster"
-    ActionType               = OrderWithClickValidation
-    ValidationTargetToken    = 'CA_VALPOS'
-    Mapping                  = $/KeyboardOption/Mapping_ChangeMaster
-)
-
-export CubeAction_Order_ChangeClient is Template_CubeActionOrderButtonInformationsDescriptor_WithSound
-(
-    CubeActionName           = "CubeAction_Order_ChangeClient"
-    DebugName                = "InGameCubeAction_ButtonChangeClient"
-
-    CubeActionFunctionType   = TacticCubeActionFunctionType/Orders
-
-    ButtonTextToken          = 'ORD_CHCLIE'
-    HintTitleToken           = 'ORD_CHCLIE'
-    HintBodyToken            = 'HNT_CHCLIE'
-    HintExtendedToken        = ''
-    HintDico                 = ~/LocalisationConstantes/dico_interface_ingame
-
-    OrderToken               = "ChangeClient"
-    ActionType               = OrderWithClickValidation
-    ValidationTargetToken    = 'CA_VALPOS'
-    Mapping                  = $/KeyboardOption/Mapping_ChangeClient
 )
 
 export CubeAction_Order_Sell is Template_CubeActionOrderButtonInformationsDescriptor_WithSound

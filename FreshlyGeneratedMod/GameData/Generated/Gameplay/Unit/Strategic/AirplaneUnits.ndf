@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par AirplanePawnUnitDescriptorFileWriter_Specific
 
 
 export Descriptor_Unit_pion_BEL_10Wing_GROUPE is TEntityDescriptor
@@ -43,7 +43,7 @@ export Descriptor_Unit_pion_BEL_10Wing_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_10Wing_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -51,12 +51,11 @@ export Descriptor_Unit_pion_BEL_10Wing_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -151,7 +150,7 @@ export Descriptor_Unit_pion_BEL_11Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_11Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -159,12 +158,11 @@ export Descriptor_Unit_pion_BEL_11Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -259,7 +257,7 @@ export Descriptor_Unit_pion_BEL_1Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_1Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -267,12 +265,11 @@ export Descriptor_Unit_pion_BEL_1Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -359,7 +356,7 @@ export Descriptor_Unit_pion_BEL_1Wing_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_1Wing_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -367,12 +364,11 @@ export Descriptor_Unit_pion_BEL_1Wing_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -467,7 +463,7 @@ export Descriptor_Unit_pion_BEL_23Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_23Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -475,12 +471,11 @@ export Descriptor_Unit_pion_BEL_23Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -575,7 +570,7 @@ export Descriptor_Unit_pion_BEL_2Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_2Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -583,12 +578,11 @@ export Descriptor_Unit_pion_BEL_2Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -675,7 +669,7 @@ export Descriptor_Unit_pion_BEL_2Wing_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_2Wing_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -683,12 +677,11 @@ export Descriptor_Unit_pion_BEL_2Wing_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -783,7 +776,7 @@ export Descriptor_Unit_pion_BEL_31Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_31Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -791,12 +784,11 @@ export Descriptor_Unit_pion_BEL_31Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -891,7 +883,7 @@ export Descriptor_Unit_pion_BEL_349Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_349Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -899,12 +891,11 @@ export Descriptor_Unit_pion_BEL_349Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -999,7 +990,7 @@ export Descriptor_Unit_pion_BEL_350Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_350Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -1007,12 +998,11 @@ export Descriptor_Unit_pion_BEL_350Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -1099,7 +1089,7 @@ export Descriptor_Unit_pion_BEL_3Wing_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_3Wing_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -1107,12 +1097,11 @@ export Descriptor_Unit_pion_BEL_3Wing_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -1207,7 +1196,7 @@ export Descriptor_Unit_pion_BEL_42Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_42Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -1215,12 +1204,11 @@ export Descriptor_Unit_pion_BEL_42Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -1315,7 +1303,7 @@ export Descriptor_Unit_pion_BEL_7Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_7Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -1323,12 +1311,11 @@ export Descriptor_Unit_pion_BEL_7Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -1423,7 +1410,7 @@ export Descriptor_Unit_pion_BEL_8Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_8Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -1431,12 +1418,11 @@ export Descriptor_Unit_pion_BEL_8Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -1523,7 +1509,7 @@ export Descriptor_Unit_pion_BEL_9Wing_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_9Wing_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -1531,12 +1517,11 @@ export Descriptor_Unit_pion_BEL_9Wing_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -1623,7 +1608,7 @@ export Descriptor_Unit_pion_BEL_BAF_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_BEL_BAF_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -1631,12 +1616,11 @@ export Descriptor_Unit_pion_BEL_BAF_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -1731,12 +1715,11 @@ export Descriptor_Unit_pion_RDA_1LVD_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -1839,12 +1822,11 @@ export Descriptor_Unit_pion_RDA_JBG37 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -1947,12 +1929,11 @@ export Descriptor_Unit_pion_RDA_JG1 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -2055,12 +2036,11 @@ export Descriptor_Unit_pion_RDA_JG3 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -2163,12 +2143,11 @@ export Descriptor_Unit_pion_RDA_JG7 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -2271,12 +2250,11 @@ export Descriptor_Unit_pion_RDA_JG8 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -2363,7 +2341,7 @@ export Descriptor_Unit_pion_RFA_2LwDiv_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_RFA_2LwDiv_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -2371,12 +2349,11 @@ export Descriptor_Unit_pion_RFA_2LwDiv_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -2471,7 +2448,7 @@ export Descriptor_Unit_pion_RFA_JBG33 is TEntityDescriptor
         (
             DeckIdentifier = 'pion_RFA_JBG33'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -2479,12 +2456,11 @@ export Descriptor_Unit_pion_RFA_JBG33 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -2579,7 +2555,7 @@ export Descriptor_Unit_pion_RFA_JBG33_2 is TEntityDescriptor
         (
             DeckIdentifier = 'pion_RFA_JBG33_2'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -2587,12 +2563,11 @@ export Descriptor_Unit_pion_RFA_JBG33_2 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -2687,7 +2662,7 @@ export Descriptor_Unit_pion_RFA_JBG35 is TEntityDescriptor
         (
             DeckIdentifier = 'pion_RFA_JBG35'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -2695,12 +2670,11 @@ export Descriptor_Unit_pion_RFA_JBG35 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -2795,7 +2769,7 @@ export Descriptor_Unit_pion_RFA_JBG35_2 is TEntityDescriptor
         (
             DeckIdentifier = 'pion_RFA_JBG35_2'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -2803,12 +2777,11 @@ export Descriptor_Unit_pion_RFA_JBG35_2 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -2903,7 +2876,7 @@ export Descriptor_Unit_pion_RFA_JG74 is TEntityDescriptor
         (
             DeckIdentifier = 'pion_RFA_JG74'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -2911,12 +2884,11 @@ export Descriptor_Unit_pion_RFA_JG74 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -3011,7 +2983,7 @@ export Descriptor_Unit_pion_RFA_JG74_2 is TEntityDescriptor
         (
             DeckIdentifier = 'pion_RFA_JG74_2'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -3019,12 +2991,11 @@ export Descriptor_Unit_pion_RFA_JG74_2 is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -3119,12 +3090,11 @@ export Descriptor_Unit_pion_SOV_105ADIB_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -3227,12 +3197,11 @@ export Descriptor_Unit_pion_SOV_11ORAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -3327,12 +3296,11 @@ export Descriptor_Unit_pion_SOV_125ADIB_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -3427,12 +3395,11 @@ export Descriptor_Unit_pion_SOV_126IAD_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -3527,12 +3494,11 @@ export Descriptor_Unit_pion_SOV_16GvIAD_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -3627,12 +3593,11 @@ export Descriptor_Unit_pion_SOV_16VA_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -3735,12 +3700,11 @@ export Descriptor_Unit_pion_SOV_19GAPIB is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -3843,12 +3807,11 @@ export Descriptor_Unit_pion_SOV_20GAPIB is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -3951,12 +3914,11 @@ export Descriptor_Unit_pion_SOV_294ORAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -4059,12 +4021,11 @@ export Descriptor_Unit_pion_SOV_296APIB is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -4167,12 +4128,11 @@ export Descriptor_Unit_pion_SOV_31IGAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -4275,12 +4235,11 @@ export Descriptor_Unit_pion_SOV_33IAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -4383,12 +4342,11 @@ export Descriptor_Unit_pion_SOV_357OCHAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -4491,12 +4449,11 @@ export Descriptor_Unit_pion_SOV_35IAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -4599,12 +4556,11 @@ export Descriptor_Unit_pion_SOV_368OCHAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -4707,12 +4663,11 @@ export Descriptor_Unit_pion_SOV_559APIB is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -4807,12 +4762,11 @@ export Descriptor_Unit_pion_SOV_6GvIAD_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -4915,12 +4869,11 @@ export Descriptor_Unit_pion_SOV_730APIB is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -5023,12 +4976,11 @@ export Descriptor_Unit_pion_SOV_73IAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -5131,12 +5083,11 @@ export Descriptor_Unit_pion_SOV_773IAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -5239,12 +5190,11 @@ export Descriptor_Unit_pion_SOV_787IAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -5347,12 +5297,11 @@ export Descriptor_Unit_pion_SOV_833IAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -5455,12 +5404,11 @@ export Descriptor_Unit_pion_SOV_85IGAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -5563,12 +5511,11 @@ export Descriptor_Unit_pion_SOV_911APIB is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -5671,12 +5618,11 @@ export Descriptor_Unit_pion_SOV_931ORAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -5779,12 +5725,11 @@ export Descriptor_Unit_pion_SOV_968IAP is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -5879,7 +5824,7 @@ export Descriptor_Unit_pion_UK_12Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_12Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -5887,12 +5832,11 @@ export Descriptor_Unit_pion_UK_12Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -5987,7 +5931,7 @@ export Descriptor_Unit_pion_UK_16_20Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_16_20Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -5995,12 +5939,11 @@ export Descriptor_Unit_pion_UK_16_20Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -6095,7 +6038,7 @@ export Descriptor_Unit_pion_UK_17_31Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_17_31Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -6103,12 +6046,11 @@ export Descriptor_Unit_pion_UK_17_31Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -6203,7 +6145,7 @@ export Descriptor_Unit_pion_UK_19_92Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_19_92Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -6211,12 +6153,11 @@ export Descriptor_Unit_pion_UK_19_92Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -6303,7 +6244,7 @@ export Descriptor_Unit_pion_UK_2ATAF_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_2ATAF_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -6311,12 +6252,11 @@ export Descriptor_Unit_pion_UK_2ATAF_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -6411,7 +6351,7 @@ export Descriptor_Unit_pion_UK_2_15Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_2_15Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -6419,12 +6359,11 @@ export Descriptor_Unit_pion_UK_2_15Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -6519,7 +6458,7 @@ export Descriptor_Unit_pion_UK_3_4Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_3_4Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -6527,12 +6466,11 @@ export Descriptor_Unit_pion_UK_3_4Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -6627,7 +6565,7 @@ export Descriptor_Unit_pion_UK_9_14Sq is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_9_14Sq'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -6635,12 +6573,11 @@ export Descriptor_Unit_pion_UK_9_14Sq is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -6727,7 +6664,7 @@ export Descriptor_Unit_pion_UK_RAFG_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_RAFG_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -6735,12 +6672,11 @@ export Descriptor_Unit_pion_UK_RAFG_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -6827,7 +6763,7 @@ export Descriptor_Unit_pion_UK_RAF_Bruggen_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_RAF_Bruggen_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -6835,12 +6771,11 @@ export Descriptor_Unit_pion_UK_RAF_Bruggen_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -6927,7 +6862,7 @@ export Descriptor_Unit_pion_UK_RAF_Gutersloh_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_RAF_Gutersloh_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -6935,12 +6870,11 @@ export Descriptor_Unit_pion_UK_RAF_Gutersloh_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -7027,7 +6961,7 @@ export Descriptor_Unit_pion_UK_RAF_Laarbruch_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_RAF_Laarbruch_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -7035,12 +6969,11 @@ export Descriptor_Unit_pion_UK_RAF_Laarbruch_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -7127,7 +7060,7 @@ export Descriptor_Unit_pion_UK_RAF_Wildenrath_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_UK_RAF_Wildenrath_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -7135,12 +7068,11 @@ export Descriptor_Unit_pion_UK_RAF_Wildenrath_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -7235,7 +7167,7 @@ export Descriptor_Unit_pion_US_10TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_10TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -7243,12 +7175,11 @@ export Descriptor_Unit_pion_US_10TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -7335,7 +7266,7 @@ export Descriptor_Unit_pion_US_10TFW_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_10TFW_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -7343,12 +7274,11 @@ export Descriptor_Unit_pion_US_10TFW_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -7435,7 +7365,7 @@ export Descriptor_Unit_pion_US_17AF_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_17AF_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -7443,12 +7373,11 @@ export Descriptor_Unit_pion_US_17AF_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -7535,7 +7464,7 @@ export Descriptor_Unit_pion_US_20TFW_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_20TFW_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -7543,12 +7472,11 @@ export Descriptor_Unit_pion_US_20TFW_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -7643,7 +7571,7 @@ export Descriptor_Unit_pion_US_22TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_22TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -7651,12 +7579,11 @@ export Descriptor_Unit_pion_US_22TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -7751,7 +7678,7 @@ export Descriptor_Unit_pion_US_23TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_23TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -7759,12 +7686,11 @@ export Descriptor_Unit_pion_US_23TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -7859,7 +7785,7 @@ export Descriptor_Unit_pion_US_313TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_313TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -7867,12 +7793,11 @@ export Descriptor_Unit_pion_US_313TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -7967,7 +7892,7 @@ export Descriptor_Unit_pion_US_32TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_32TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -7975,12 +7900,11 @@ export Descriptor_Unit_pion_US_32TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -8067,7 +7991,7 @@ export Descriptor_Unit_pion_US_36TFW_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_36TFW_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -8075,12 +7999,11 @@ export Descriptor_Unit_pion_US_36TFW_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -8167,7 +8090,7 @@ export Descriptor_Unit_pion_US_3AF_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_3AF_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -8175,12 +8098,11 @@ export Descriptor_Unit_pion_US_3AF_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -8275,7 +8197,7 @@ export Descriptor_Unit_pion_US_4450TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_4450TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -8283,12 +8205,11 @@ export Descriptor_Unit_pion_US_4450TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -8383,7 +8304,7 @@ export Descriptor_Unit_pion_US_480TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_480TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -8391,12 +8312,11 @@ export Descriptor_Unit_pion_US_480TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -8483,7 +8403,7 @@ export Descriptor_Unit_pion_US_48TFW_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_48TFW_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -8491,12 +8411,11 @@ export Descriptor_Unit_pion_US_48TFW_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -8591,7 +8510,7 @@ export Descriptor_Unit_pion_US_492TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_492TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -8599,12 +8518,11 @@ export Descriptor_Unit_pion_US_492TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -8699,7 +8617,7 @@ export Descriptor_Unit_pion_US_493TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_493TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -8707,12 +8625,11 @@ export Descriptor_Unit_pion_US_493TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -8807,7 +8724,7 @@ export Descriptor_Unit_pion_US_494TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_494TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -8815,12 +8732,11 @@ export Descriptor_Unit_pion_US_494TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -8915,7 +8831,7 @@ export Descriptor_Unit_pion_US_495TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_495TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -8923,12 +8839,11 @@ export Descriptor_Unit_pion_US_495TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -9023,7 +8938,7 @@ export Descriptor_Unit_pion_US_496TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_496TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -9031,12 +8946,11 @@ export Descriptor_Unit_pion_US_496TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -9123,7 +9037,7 @@ export Descriptor_Unit_pion_US_4ATAF_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_4ATAF_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -9131,12 +9045,11 @@ export Descriptor_Unit_pion_US_4ATAF_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -9231,7 +9144,7 @@ export Descriptor_Unit_pion_US_509TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_509TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -9239,12 +9152,11 @@ export Descriptor_Unit_pion_US_509TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -9331,7 +9243,7 @@ export Descriptor_Unit_pion_US_50TFW_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_50TFW_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -9339,12 +9251,11 @@ export Descriptor_Unit_pion_US_50TFW_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -9439,7 +9350,7 @@ export Descriptor_Unit_pion_US_510TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_510TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -9447,12 +9358,11 @@ export Descriptor_Unit_pion_US_510TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -9547,7 +9457,7 @@ export Descriptor_Unit_pion_US_511TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_511TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -9555,12 +9465,11 @@ export Descriptor_Unit_pion_US_511TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -9655,7 +9564,7 @@ export Descriptor_Unit_pion_US_512TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_512TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -9663,12 +9572,11 @@ export Descriptor_Unit_pion_US_512TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -9763,7 +9671,7 @@ export Descriptor_Unit_pion_US_525TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_525TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -9771,12 +9679,11 @@ export Descriptor_Unit_pion_US_525TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -9871,7 +9778,7 @@ export Descriptor_Unit_pion_US_526TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_526TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -9879,12 +9786,11 @@ export Descriptor_Unit_pion_US_526TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -9979,7 +9885,7 @@ export Descriptor_Unit_pion_US_527Aggress is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_527Aggress'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -9987,12 +9893,11 @@ export Descriptor_Unit_pion_US_527Aggress is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -10079,7 +9984,7 @@ export Descriptor_Unit_pion_US_52TFW_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_52TFW_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -10087,12 +9992,11 @@ export Descriptor_Unit_pion_US_52TFW_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -10187,7 +10091,7 @@ export Descriptor_Unit_pion_US_53TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_53TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -10195,12 +10099,11 @@ export Descriptor_Unit_pion_US_53TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -10295,7 +10198,7 @@ export Descriptor_Unit_pion_US_55TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_55TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -10303,12 +10206,11 @@ export Descriptor_Unit_pion_US_55TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -10403,7 +10305,7 @@ export Descriptor_Unit_pion_US_77TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_77TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -10411,12 +10313,11 @@ export Descriptor_Unit_pion_US_77TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -10511,7 +10412,7 @@ export Descriptor_Unit_pion_US_78TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_78TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -10519,12 +10420,11 @@ export Descriptor_Unit_pion_US_78TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -10619,7 +10519,7 @@ export Descriptor_Unit_pion_US_79TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_79TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -10627,12 +10527,11 @@ export Descriptor_Unit_pion_US_79TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -10727,7 +10626,7 @@ export Descriptor_Unit_pion_US_81TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_81TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -10735,12 +10634,11 @@ export Descriptor_Unit_pion_US_81TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -10835,7 +10733,7 @@ export Descriptor_Unit_pion_US_81TFW is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_81TFW'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -10843,12 +10741,11 @@ export Descriptor_Unit_pion_US_81TFW is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -10935,7 +10832,7 @@ export Descriptor_Unit_pion_US_81TFW_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_81TFW_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -10943,12 +10840,11 @@ export Descriptor_Unit_pion_US_81TFW_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -11035,7 +10931,7 @@ export Descriptor_Unit_pion_US_86TFW_GROUPE is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_86TFW_GROUPE'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -11043,12 +10939,11 @@ export Descriptor_Unit_pion_US_86TFW_GROUPE is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -11143,7 +11038,7 @@ export Descriptor_Unit_pion_US_91TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_91TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -11151,12 +11046,11 @@ export Descriptor_Unit_pion_US_91TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -11251,7 +11145,7 @@ export Descriptor_Unit_pion_US_92TFS is TEntityDescriptor
         (
             DeckIdentifier = 'pion_US_92TFS'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -11259,12 +11153,11 @@ export Descriptor_Unit_pion_US_92TFS is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -11358,7 +11251,7 @@ export Descriptor_Unit_test_avion_alex is TEntityDescriptor
         (
             DeckIdentifier = 'test_deck_avion'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -11366,12 +11259,11 @@ export Descriptor_Unit_test_avion_alex is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),
@@ -11465,7 +11357,7 @@ export Descriptor_Unit_test_avion_cas is TEntityDescriptor
         (
             DeckIdentifier = 'test_deck_avion'
             RegimentName = 'None'
-            Score = 2
+            Score = 1
             PictureForSelection = 'Texture_PawnPicture_Default'
             MaxPackCount = 12
         ),
@@ -11473,12 +11365,11 @@ export Descriptor_Unit_test_avion_cas is TEntityDescriptor
         (
             CanBeInitialTarget = False
             HasZoneOfControl = False
-            BattleSupportRadius = -1.0 * Metre
+            BattleSupportRadiusInAPCase = -1.0
             BattleRole = ~/EStrategicBattleRole/AirSupport
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType       = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
             VisionUnitType       = EVisionUnitType/Undefined
         ),

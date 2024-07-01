@@ -1,4 +1,4 @@
-export template AirRecoMissionLaunchSettingHolderTemplate
+template AirRecoMissionLaunchSettingHolderTemplate
 [
     PriorityCorridors = [],
     MaxAirplaneCountOnBattlefield:int = 1,

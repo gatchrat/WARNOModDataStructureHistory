@@ -28,9 +28,9 @@ UseInGame_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("UseInGame_Transport_FLAME",                         MAP [(~/ComponentState/Normal, ~/UseInGame_Transport_FLAME)] ),
         ("UseInGame_Transport_REGINF",                        MAP [(~/ComponentState/Normal, ~/UseInGame_Transport_REGINF)] ),
 
-        ("UseInGame_Transport_assault",                        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/assault.png'))] ),
+        ("UseInGame_Transport_assault",                        MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/assault.png'))] ),
 
-        ("UseInGame_Transport_HMG", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/HMG.png"))] ),
+        ("UseInGame_Transport_HMG", MAP [(~/ComponentState/Normal, TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/HMG.png"))] ),
 
         ("UseInGame_Transport_ELIINF",                        MAP [(~/ComponentState/Normal, ~/UseInGame_Transport_ELIINF)] ),
         ("UseInGame_Transport_APC",                           MAP [(~/ComponentState/Normal, ~/UseInGame_Transport_APC)] ),
@@ -44,10 +44,10 @@ UseInGame_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("UseInGame_Transport_HOWZ",                          MAP [(~/ComponentState/Normal, ~/UseInGame_Transport_HOWZ)] ),
         ("UseInGame_Transport_UNKNOW",                        MAP [(~/ComponentState/Normal, ~/UseInGame_Transport_UNKNOW)] ),
 
-        ("UseInGame_Transport_Tank",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Armor.png'))] ),
-        ("UseInGame_Transport_Plane",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA_air.png'))] ),
-        ("UseInGame_Transport_Helo",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/hel.png'))] ),
-        ("UseInGame_Transport_Support",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/appui.png'))] ),
+        ("UseInGame_Transport_Tank",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Armor.png'))] ),
+        ("UseInGame_Transport_Plane",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA_air.png'))] ),
+        ("UseInGame_Transport_Helo",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/hel.png'))] ),
+        ("UseInGame_Transport_Support",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/appui.png'))] ),
 
 
 //       Curseurs tactiques
@@ -124,7 +124,7 @@ UseInGame_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
 
 //-------------------------------------------------------------------------------------// icones de player mission
         ("texturePlayerMissionSeize", MAP [
-                            (~/ComponentState/Normal, TUIResourceTexture_InGameNoGen( FileName='GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Seize_Beacon.png' )),
+                            (~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Seize_Beacon.png' )),
                             ] ),
 
 //-------------------------------------------------------------------------------------// Score panel icons
@@ -482,10 +482,10 @@ UseInGame_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
 
         //-------------------------------------------------------------------------------------
         // Panel LoS
-        ("UseInGame_LoS_Bad",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Armor.png'))] ),
-        ("UseInGame_LoS_Mediocre",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/appui.png'))] ),
-        ("UseInGame_LoS_Good",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Infantry.png'))] ),
-        ("UseInGame_LoS_Exceptional",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Infantry_half.png'))] ),
+        ("UseInGame_LoS_Bad",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Armor.png'))] ),
+        ("UseInGame_LoS_Mediocre",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/appui.png'))] ),
+        ("UseInGame_LoS_Good",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Infantry.png'))] ),
+        ("UseInGame_LoS_Exceptional",                        MAP [(~/ComponentState/Normal,  TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Infantry_half.png'))] ),
     ]
 )
 
@@ -497,8 +497,8 @@ UseInGame_Play           is TUIResourceTexture_InGame(FileName = 'GameData:/Asse
 UseInGame_Play_Selected  is TUIResourceTexture_InGame(FileName = 'GameData:/Assets/2D/Interface/UseInGame/Common/play_s.png')
 UseInGame_Pause          is TUIResourceTexture_InGame(FileName = 'GameData:/Assets/2D/Interface/UseInGame/Common/pause.png')
 UseInGame_Pause_Selected is TUIResourceTexture_InGame(FileName = 'GameData:/Assets/2D/Interface/UseInGame/Common/pause_s.png')
-UseInGame_Chrono_Fond    is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/targetLoading.png")
-UseInGame_Chrono_Full    is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/target.png")
+UseInGame_Chrono_Fond    is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/targetLoading.png")
+UseInGame_Chrono_Full    is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/target.png")
 
 // -------------------------------------------------------------------------------
 // Line of Sight
@@ -581,30 +581,30 @@ UseInGame_UnitInfoPanel_DefaultInfantry is TUIResourceTexture_InGame(FileName = 
 // -------------------------------------------------------------------------------
 // Textures de transport
 // -------------------------------------------------------------------------------
-UseInGame_Transport_ATGM           is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/AT.png')
-UseInGame_Transport_COMMAND        is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/HQ.png')
-UseInGame_Transport_RECO           is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/reco.png')
-UseInGame_Transport_REGINF         is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Infantry.png')
-UseInGame_Transport_LAAD           is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/manpad.png')
-UseInGame_Transport_flak           is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA.png')
-UseInGame_Transport_howitzer       is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/howitzer.png')
-UseInGame_Transport_ATGun          is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/ATGun.png')
-UseInGame_Transport_Mortar         is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/mortar.png')
+UseInGame_Transport_ATGM           is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/AT.png')
+UseInGame_Transport_COMMAND        is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/HQ.png')
+UseInGame_Transport_RECO           is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/reco.png')
+UseInGame_Transport_REGINF         is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Infantry.png')
+UseInGame_Transport_LAAD           is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/manpad.png')
+UseInGame_Transport_flak           is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA.png')
+UseInGame_Transport_howitzer       is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/howitzer.png')
+UseInGame_Transport_ATGun          is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/ATGun.png')
+UseInGame_Transport_Mortar         is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/mortar.png')
 
 
 // old icones
 
-UseInGame_Transport_SUPPORT        is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/SUPPORT.png')
-UseInGame_Transport_FLAME          is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/FLAME.png')
-UseInGame_Transport_APC            is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/APC.png')
-UseInGame_Transport_ARMORED        is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/armored.png')
-UseInGame_Transport_CMD            is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/CMD.png')
-UseInGame_Transport_ELIINF         is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/ELIINF.png')
-UseInGame_Transport_HOWZ           is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/HOWZ.png')
-UseInGame_Transport_supply         is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/supply.png')
-UseInGame_Transport_UNKNOW         is TUIResourceTexture_InGameNoGen( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/UNKNOW.png')
+UseInGame_Transport_SUPPORT        is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/SUPPORT.png')
+UseInGame_Transport_FLAME          is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/FLAME.png')
+UseInGame_Transport_APC            is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/APC.png')
+UseInGame_Transport_ARMORED        is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/armored.png')
+UseInGame_Transport_CMD            is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/CMD.png')
+UseInGame_Transport_ELIINF         is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/ELIINF.png')
+UseInGame_Transport_HOWZ           is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/HOWZ.png')
+UseInGame_Transport_supply         is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/supply.png')
+UseInGame_Transport_UNKNOW         is TUIResourceTexture_InGame( FileName = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport/UNKNOW.png')
 
-UseInGame_RadioFeedback                       is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/radio_feedback.png")
+UseInGame_RadioFeedback                       is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/radio_feedback.png")
 
 // -------------------------------------------------------------------------------
 // Curseurs tactiques DEBUT
@@ -675,31 +675,31 @@ UseInGame_PerformanceAlert_NetworkDelayAlert        is TUIResourceTexture_InGame
 // -------------------------------------------------------------------------------
 // Labels
 // -------------------------------------------------------------------------------
-UseInGame_Barre_Moral     is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Barre_de_moral.png")
+UseInGame_Barre_Moral     is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Barre_de_moral.png")
 
-UseInGame_Empty_Supply    is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/empty.png")
+UseInGame_Empty_Supply    is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/empty.png")
 
-UseInGame_Feedback_Bullets                is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_bullets_feedback.png")
-UseInGame_Feedback_Bullets_Refill         is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_bullets_feedback_refill.png")
-UseInGame_Feedback_Shell                  is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_shell_feedback.png")
-UseInGame_Feedback_Shell_Refill           is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_shell_feedback_refill.png")
-UseInGame_Feedback_Smoke                  is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_smoke_feedback.png")
-UseInGame_Feedback_Smoke_Refill           is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_smoke_feedback_refill.png")
-UseInGame_Feedback_Flamethrower           is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_flamethrower_feedback.png")
-UseInGame_Feedback_Flamethrower_Refill    is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_flamethrower_feedback_refill.png")
-UseInGame_Feedback_Grenade                is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_grenade_feedback.png")
-UseInGame_Feedback_Grenade_Refill         is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_grenade_feedback_refill.png")
-UseInGame_Feedback_Artillery              is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_artillery_feedback.png")
-UseInGame_Feedback_Artillery_Refill       is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_artillery_feedback_refill.png")
-UseInGame_Feedback_Repair                 is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/repair_feedback.png")
-UseInGame_Feedback_Repair_Refill          is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/repair_feedback_refill.png")
-UseInGame_Feedback_Oil                    is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/oil_feedback.png")
+UseInGame_Feedback_Bullets                is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_bullets_feedback.png")
+UseInGame_Feedback_Bullets_Refill         is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_bullets_feedback_refill.png")
+UseInGame_Feedback_Shell                  is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_shell_feedback.png")
+UseInGame_Feedback_Shell_Refill           is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_shell_feedback_refill.png")
+UseInGame_Feedback_Smoke                  is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_smoke_feedback.png")
+UseInGame_Feedback_Smoke_Refill           is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_smoke_feedback_refill.png")
+UseInGame_Feedback_Flamethrower           is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_flamethrower_feedback.png")
+UseInGame_Feedback_Flamethrower_Refill    is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_flamethrower_feedback_refill.png")
+UseInGame_Feedback_Grenade                is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_grenade_feedback.png")
+UseInGame_Feedback_Grenade_Refill         is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_grenade_feedback_refill.png")
+UseInGame_Feedback_Artillery              is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_artillery_feedback.png")
+UseInGame_Feedback_Artillery_Refill       is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_artillery_feedback_refill.png")
+UseInGame_Feedback_Repair                 is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/repair_feedback.png")
+UseInGame_Feedback_Repair_Refill          is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/repair_feedback_refill.png")
+UseInGame_Feedback_Oil                    is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/oil_feedback.png")
 
 
 
-UseInGame_Evacuation is TUIResourceTexture_InGameNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/evac_feedback.png")
+UseInGame_Evacuation is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/evac_feedback.png")
 
-UseInGame_District is TUIResourceTexture_CommonNoGen(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Icone_Quartier.png")
+UseInGame_District is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Icone_Quartier.png")
 
 // -------------------------------------------------------------------------------
 // Strategic Scenarios

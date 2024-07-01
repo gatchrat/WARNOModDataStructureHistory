@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par MimeticImpactMappingFileWriter
 
 
 FxImpact2A38Autocanon_ is TRandomHappening
@@ -123,6 +123,14 @@ OrientationWrapperFxImpactSolAvionGros__ is TRandomHappening
         ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_7 ),
         ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_8 ),
         ImpactWrapper( Action = $/GFX/GameFx/OrientationWrapper_fx_impact_sol_avion_gros_9 ),
+    ]
+)
+FxImpactSolMRFMinenraumfahrzeug_ is TRandomHappening
+(
+    Alternatives = [
+        ImpactWrapper( Action = $/GFX/GameFx/fx_Impact_sol_MRF_Minenraumfahrzeug_1 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_Impact_sol_MRF_Minenraumfahrzeug_2 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_Impact_sol_MRF_Minenraumfahrzeug_3 ),
     ]
 )
 FxOuvertureBombeCluster_ is TRandomHappening
@@ -2202,6 +2210,16 @@ AllImpactHappenings is MAP[
       ( EImpactSurface/Vehicle , TCompositeHappening( SubHappenings = [ FxImpactSolHEM270227MmCluster_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Cluster_sol ] ) ),
       ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ FxImpactSolHEM270227MmCluster_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Cluster_sol ] ) ),
       ( EImpactSurface/Missile , $/GFX/Sound/SoundHappening_FULDA_Bombe_Cluster_sol ),
+      ( EImpactSurface/Ricochet , nil ),
+    ])),
+  ([ 'RoquetteMRFMinenraumfahrzeug' ], TImpactHappening( Happenings = MAP[
+      ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ FxImpactSolMRFMinenraumfahrzeug_, $/GFX/Sound/SoundHappening_ImpactRoquettes_MRF_lourdeSol ] ) ),
+      ( EImpactSurface/Water , TCompositeHappening( SubHappenings = [ FxImpactEauHEGros, $/GFX/Sound/SoundHappening_Impact_HE_Gros_Eau ] ) ),
+      ( EImpactSurface/Air , FxImpactSolMRFMinenraumfahrzeug_ ),
+      ( EImpactSurface/Wall , TCompositeHappening( SubHappenings = [ FxImpactSolMRFMinenraumfahrzeug_, $/GFX/Sound/SoundHappening_ImpactRoquettes_MRF_lourdeSol ] ) ),
+      ( EImpactSurface/Vehicle , TCompositeHappening( SubHappenings = [ FxImpactSolMRFMinenraumfahrzeug_, $/GFX/Sound/SoundHappening_ImpactRoquettes_MRF_lourdeSol ] ) ),
+      ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ FxImpactSolMRFMinenraumfahrzeug_, $/GFX/Sound/SoundHappening_ImpactRoquettes_MRF_lourdeSol ] ) ),
+      ( EImpactSurface/Missile , $/GFX/Sound/SoundHappening_ImpactRoquettes_MRF_lourdeSol ),
       ( EImpactSurface/Ricochet , nil ),
     ])),
   ([ 'RoquetteRecoilessGun' ], TImpactHappening( Happenings = MAP[

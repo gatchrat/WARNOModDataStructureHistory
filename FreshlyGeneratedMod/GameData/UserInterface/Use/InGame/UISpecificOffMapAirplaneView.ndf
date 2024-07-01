@@ -186,7 +186,6 @@ StatusUnite is BUCKTextDescriptor
         ElementName = "StateHint"
         DicoToken = ~/LocalisationConstantes/dico_interface_ingame
         HintTitleToken = "HOM_STATT"
-        HintBodyToken = "HOM_STATB"
         HintExtendedToken = "HOM_STATE"
     )
 )

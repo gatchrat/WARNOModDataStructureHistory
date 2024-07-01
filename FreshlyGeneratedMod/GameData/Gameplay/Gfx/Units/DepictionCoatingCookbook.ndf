@@ -25,10 +25,16 @@ liveEditCoatingCookbook is TCoatingCookbook
                 'Mi_24V_SOV_landing_gears'
             ]
         )),
-        ('Mi_24VP_SOV', TCoatingRecipe
+        ('Mi_24V_POL', TCoatingRecipe
         (
             Ingredients = [
                 'Mi_24V_SOV_landing_gears'
+            ]
+        )),
+        ('Mi_24VP_SOV', TCoatingRecipe
+        (
+            Ingredients = [
+                'Mi_24P_landing_gears'
             ]
         )),
         ('Mi_24V_AT_SOV', TCoatingRecipe
@@ -52,10 +58,16 @@ liveEditCoatingCookbook is TCoatingCookbook
         ('Mi_24P_s8_AT_DDR', TCoatingRecipe
         (
             Ingredients = [
-                'Mi_24V_SOV_landing_gears'
+                'Mi_24P_landing_gears'
             ]
         )),
         ('Mi_24P_s8_AT2_DDR', TCoatingRecipe
+        (
+            Ingredients = [
+                'Mi_24P_landing_gears'
+            ]
+        )),
+        ('Mi_24P_AA_SOV', TCoatingRecipe
         (
             Ingredients = [
                 'Mi_24V_SOV_landing_gears'
@@ -64,7 +76,7 @@ liveEditCoatingCookbook is TCoatingCookbook
         ('Mi_24D_s5_AT_DDR', TCoatingRecipe
         (
             Ingredients = [
-                'Mi_24V_SOV_landing_gears'
+                'Mi_24P_landing_gears'
             ]
         )),
         ('Mi_24D_s8_AT_DDR', TCoatingRecipe
@@ -76,7 +88,7 @@ liveEditCoatingCookbook is TCoatingCookbook
         ('Mi_24D_AA_DDR', TCoatingRecipe
         (
             Ingredients = [
-                'Mi_24V_SOV_landing_gears'
+                'Mi_24P_landing_gears'
             ]
         )),
         ('Mi_24P_SOV', TCoatingRecipe
@@ -85,16 +97,22 @@ liveEditCoatingCookbook is TCoatingCookbook
                 'Mi_24V_SOV_landing_gears'
             ]
         )),
-        ('Mi_24K_reco_SOV', TCoatingRecipe
+        ('Mi_24P_TCH', TCoatingRecipe
         (
             Ingredients = [
                 'Mi_24V_SOV_landing_gears'
             ]
         )),
+        ('Mi_24K_reco_SOV', TCoatingRecipe
+        (
+            Ingredients = [
+                'Mi_24P_landing_gears'
+            ]
+        )),
         ('Mi_24D_Desant_SOV', TCoatingRecipe
         (
             Ingredients = [
-                'Mi_24V_SOV_landing_gears'
+                'Mi_24P_landing_gears'
             ]
         )),
         ('Ka_50_SOV', TCoatingRecipe

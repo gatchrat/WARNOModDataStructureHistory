@@ -1085,6 +1085,158 @@ is BUCKContainerDescriptor
     ]
 )
 
+template Component_Operation_1Texture_1Text
+[
+]
+is BUCKContainerDescriptor
+(
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        RelativeWidthHeight = [1.0, 1.0]
+    )
+
+    Components =
+    [
+        BUCKContainerDescriptor
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [0.0, 0.0]
+                RelativeWidthHeight = [1.0, 0.0]
+
+                AlignementToFather = [0.0, 0.5]
+                AlignementToAnchor = [0.0, 0.5]
+
+                MagnifiableOffset = [10.0, 0.0]
+            )
+
+            Components =
+            [
+
+                BUCKListDescriptor
+                (
+                    ComponentFrame = TUIFramePropertyRTTI
+                    (
+                        MagnifiableWidthHeight = [450.0, 0.0]
+                        AlignementToFather = [0.0, 0.5]
+                        AlignementToAnchor = [0.0, 0.5]
+                    )
+
+                    Axis = ~/ListAxis/Vertical
+
+                    Elements =
+                    [
+                        //Separateur du haut
+                        BUCKListElementDescriptor
+                        (
+                            ComponentDescriptor = BUCKTextureDescriptor
+                            (
+                                ElementName = 'Texture1'
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                     MagnifiableWidthHeight = [440.0*0.8, 359.0*0.8]
+                                )
+
+                                TextureFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1.0, 1.0]
+                                )
+                            )
+                        ),
+
+                        BUCKListElementDescriptor
+                        (
+                            ComponentDescriptor = BUCKListDescriptor
+
+                            (
+                            Axis = ~/ListAxis/Vertical
+                            ComponentFrame = TUIFramePropertyRTTI
+                            (
+                                MagnifiableWidthHeight = [450.0, 0.0]
+
+                            )
+
+                            Elements =
+                            [
+                                BUCKListElementDescriptor
+                                (
+                                    ComponentDescriptor = LDHintTopBottomBorder()
+                                ),
+
+                                //-------------------------------------------------------------------------------------
+                                BUCKListElementDescriptor
+                                (
+                                    ComponentDescriptor = BUCKTextDescriptor
+                                    (
+                                        ElementName = 'Text1'
+                                        ComponentFrame = TUIFramePropertyRTTI
+                                        (
+                                            RelativeWidthHeight = [1.0, 0.0]
+                                        )
+
+                                        ParagraphStyle = TParagraphStyle
+                                        (
+                                            Alignment = UIText_Center
+                                            VerticalAlignment = UIText_VerticalCenter
+                                            BigWordAction = ~/BigWordAction/BigWordNewLine
+                                            InterLine = 0.5
+                                        )
+                                        TextStyle = "Default"
+
+                                        HorizontalFitStyle = ~/FitStyle/UserDefined
+                                        VerticalFitStyle = ~/FitStyle/FitToContent
+
+                                        TextPadding = TRTTILength4 (Magnifiable = [10,0,10,0])
+
+                                        TypefaceToken = "Eurostyle"
+                                        BigLineAction = ~/BigLineAction/MultiLine
+
+                                        TextColor = "LDHintSolo_texte"
+                                        TextSize = "20"
+
+                                        TextDico = ~/LocalisationConstantes/dico_dialogues
+
+                                    )
+                                ),
+
+                                //Boutons
+                                BUCKListElementDescriptor
+                                (
+                                    ComponentDescriptor = LDHintDefaultButtonList
+                                    (
+                                        InterItemMarginAsFloat = ~/LDHintMagnifiableInterButtonMargin
+                                        BladeDescriptor = LDHintBlueButton()
+                                    )
+                                ),
+
+                                //Separateur du bas
+                                BUCKListElementDescriptor
+                                (
+                                    ComponentDescriptor = LDHintTopBottomBorder()
+                                ),
+                            ]
+                            BackgroundComponents =
+                            [
+                                PanelRoundedCorner
+                                (
+                                    Radius = 5
+                                    BackgroundBlockColorToken = 'LDHintSolo_fond'
+                                    BorderLineColorToken = 'LDHintSolo_texte'
+                                    BorderThicknessToken = '2'
+                                )
+                            ]
+                            )
+                        ),
+
+
+                    ]
+
+
+                )
+            ]
+        ),
+    ]
+)
 template Component_1Video_1Text
 [
 ]

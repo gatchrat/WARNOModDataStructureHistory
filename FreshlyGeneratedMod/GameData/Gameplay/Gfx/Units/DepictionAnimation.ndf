@@ -132,27 +132,6 @@ template DepictionOperator_SkeletalAnimation2_Default [ConditionalTags = [] ] is
      $/GFX/DepictionResources/UnarmedCapture]
 )
 
-template DepictionOperator_SkeletalAnimation2_New [ConditionalTags = [] ] is TCosmeticSkeletalAnimation2OperatorDesc
-(
-    // réglage de l'animation de transition :
-    // SwappingDuration donne la durée de la présente du tag de swap, sachant que les infos gameplay auront toujours la prio
-    // On ne dispose que du temps de visée pour swapper l'arme, donc si le temps de visée est + court que le temps de swap, l'animation va glitch
-    SwappingDuration = 1.0
-
-    ConditionalTags = <ConditionalTags>
-    Animations = [
-        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = $/GFX/DepictionResources/Test_Rifle_Run IsLegCycle = true InTransition = 1.0 OutTransition = 1.0 ) Tags = ['run']),
-        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = $/GFX/DepictionResources/Test_Rifle_Run IsLegCycle = true InTransition = 1.0 OutTransition = 1.0 ) Tags = ['walk']),
-        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = $/GFX/DepictionResources/Test_Rifle_Idle IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['stand']),
-        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = $/GFX/DepictionResources/Test_Rifle_Aiming IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['aiming']),
-        TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = $/GFX/DepictionResources/Test_Rifle_Firing IsLegCycle = false InTransition = 0.0 OutTransition = 0.5) TorsoOnly = true PlayTillEnd = true Tags = ['aiming', 'shoot']),
-    ]
-
-    UpperBodyBones = UpperBodyBoneList
-
-    DebugAnimations = []
-)
-
 DepictionOperator_FreezeAnimation_Ghost is TCosmeticFreezeSkeletalAnimationOperatorDesc(Animation = $/GFX/DepictionResources/FusilierIdle)
 
 // ****************************************************************************************************************************************

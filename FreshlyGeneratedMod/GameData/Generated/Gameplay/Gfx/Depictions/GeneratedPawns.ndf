@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par DepictionPawnsFileWriter
 
 
 Depiction_pion_BEL_14Linie is StrategicGroundVehiclePawnDepictionTemplate
@@ -2668,17 +2668,7 @@ Depiction_pion_UK_1AAC is StrategicHelicopterPawnDepictionTemplate
     MeshDescriptorPawn = $/GFX/DepictionResources/Modele_Lynx_AH_Mk7_I_TOW_UK
     MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_UK
 )
-Depiction_pion_UK_1BrC is StrategicGroundVehiclePawnDepictionTemplate
-(
-    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_M109A2_UK
-    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_UK
-)
 Depiction_pion_UK_1BrC_16_5QRL is StrategicGroundVehiclePawnDepictionTemplate
-(
-    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_FV107_Scimitar_UK
-    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_UK
-)
-Depiction_pion_UK_1BrC_1QDG is StrategicGroundVehiclePawnDepictionTemplate
 (
     MeshDescriptorPawn = $/GFX/DepictionResources/Modele_FV107_Scimitar_UK
     MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_UK
@@ -4145,9 +4135,7 @@ Gfx_pion_SOV_WGF_34ArtDiv_307ArtBrigade is TTimelyDepictionReceiverFactory( Depi
 Gfx_pion_UK_14_20_Hussars is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_UK_14_20_Hussars)
 Gfx_pion_UK_17_21_Lancers is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_UK_17_21_Lancers)
 Gfx_pion_UK_1AAC is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_UK_1AAC)
-Gfx_pion_UK_1BrC is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_UK_1BrC)
 Gfx_pion_UK_1BrC_16_5QRL is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_UK_1BrC_16_5QRL)
-Gfx_pion_UK_1BrC_1QDG is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_UK_1BrC_1QDG)
 Gfx_pion_UK_1BrC_RAF_Gutersloh is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_UK_1BrC_RAF_Gutersloh)
 Gfx_pion_UK_2Art is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_UK_2Art)
 Gfx_pion_UK_3AAC is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_UK_3AAC)
@@ -4836,9 +4824,7 @@ PawnGhost is MAP[
   ( 'pion_UK_14_20_Hussars', Depiction_pion_UK_14_20_Hussars ),
   ( 'pion_UK_17_21_Lancers', Depiction_pion_UK_17_21_Lancers ),
   ( 'pion_UK_1AAC', Depiction_pion_UK_1AAC ),
-  ( 'pion_UK_1BrC', Depiction_pion_UK_1BrC ),
   ( 'pion_UK_1BrC_16_5QRL', Depiction_pion_UK_1BrC_16_5QRL ),
-  ( 'pion_UK_1BrC_1QDG', Depiction_pion_UK_1BrC_1QDG ),
   ( 'pion_UK_1BrC_RAF_Gutersloh', Depiction_pion_UK_1BrC_RAF_Gutersloh ),
   ( 'pion_UK_2Art', Depiction_pion_UK_2Art ),
   ( 'pion_UK_3AAC', Depiction_pion_UK_3AAC ),

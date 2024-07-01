@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par AllUnitsFileWriter_Specific
 
 AllUnitsStrategic is [
 
@@ -737,9 +737,7 @@ AllUnitsStrategic is [
     $/GFX/Unit/Descriptor_Unit_pion_UK_14_20_Hussars,
     $/GFX/Unit/Descriptor_Unit_pion_UK_17_21_Lancers,
     $/GFX/Unit/Descriptor_Unit_pion_UK_1AAC,
-    $/GFX/Unit/Descriptor_Unit_pion_UK_1BrC,
     $/GFX/Unit/Descriptor_Unit_pion_UK_1BrC_16_5QRL,
-    $/GFX/Unit/Descriptor_Unit_pion_UK_1BrC_1QDG,
     $/GFX/Unit/Descriptor_Unit_pion_UK_1BrC_GROUPE,
     $/GFX/Unit/Descriptor_Unit_pion_UK_1BrC_RAF_Gutersloh,
     $/GFX/Unit/Descriptor_Unit_pion_UK_2Art,

@@ -224,7 +224,7 @@ DivisionsBriefMultiList is BUCKMultiListDescriptor
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [800.0, 400.0]
+        MagnifiableWidthHeight = [800.0, 560.0]
         AlignementToFather = [1.0, 0.0]
         AlignementToAnchor = [1.0, 0.0]
     )
@@ -247,102 +247,6 @@ DivisionsBriefMultiList is BUCKMultiListDescriptor
 
     TitleDescriptor = ~/DivisionsBriefMultiListTitle
     ContentDescriptor = ~/DivisionBriefsScrollingContainer
-)
-
-//-------------------------------------------------------------------------------------
-
-DivisionInfosDisplay is BUCKContainerDescriptor
-(
-    ElementName = "DivisionInfosDisplay"
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [1.0, 0.0]
-        MagnifiableWidthHeight = [0.0 , 170.0 ]
-    )
-
-    Components =
-    [
-        BUCKListDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [790.0, 0.0]
-                MagnifiableOffset = [18.0, 0.0]
-            )
-
-            Axis = ~/ListAxis/Vertical
-            InterItemMargin = TRTTILength(Magnifiable = 20.0)
-            HasBorder = true
-            BorderThicknessToken = '3'
-            BorderLineColorToken = 'VertLogin'
-            Elements =
-            [
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = DisplayInfoGreenLine
-                ),
-
-                BUCKListElementDescriptor
-                (
-                    ComponentDescriptor = BUCKSpecificScrollingContainerDescriptor
-                    (
-                        ElementName = "DivisionHistoryScrollingContainer"
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            RelativeWidthHeight = [1.0, 0.0]
-                            MagnifiableWidthHeight = [0.0, 130.0]
-                            AlignementToAnchor = [0.5, 0.0]
-                            AlignementToFather = [0.5, 0.0]
-                        )
-
-                        HasVerticalScrollbar = true
-                        ScrollBarBackgroundToken = 'Transparent'
-                        ScrollBarElevatorBackgroundToken = 'VertLogin'
-                        VerticalScrollbarComponentFrame = TUIFramePropertyRTTI
-                        (
-                            MagnifiableWidthHeight = [7.0, 0.0]
-                            AlignementToFather = [1.0, 0.0]
-                            MagnifiableOffset = [7.0, 0.0]
-                        )
-
-                        Components =
-                        [
-                            BUCKTextDescriptor
-                            (
-                                ElementName = "DivisionHistoryText"
-
-                                ComponentFrame = TUIFramePropertyRTTI()
-                                ParagraphStyle = TParagraphStyle
-                                (
-                                    Alignment = ~/UIText_Left
-                                    VerticalAlignment = ~/UIText_Up
-                                    BigWordAction = ~/BigWordAction/BigWordNewLine
-                                    InterLine = 0.2
-                                )
-
-                                BigLineAction = ~/BigLineAction/MultiLine
-
-                                HorizontalFitStyle = ~/FitStyle/FitToParent
-                                VerticalFitStyle = ~/FitStyle/FitToContent
-
-                                TextStyle = 'TextStyleEcranMoniteur'
-                                TypefaceToken = "IBM"
-                                TextSize = '18'
-                                TextDico = ~/LocalisationConstantes/dico_interface_outgame
-                                TextColor = "Blanc"
-                                TextPadding = TRTTILength4 (Magnifiable = [10.0, 0.0, 5.0, 10.0])
-                                Hint = BUCKSpecificHintableArea
-                                (
-                                    ElementName = 'DivisionDescriptionHint'
-                                    DicoToken = ~/LocalisationConstantes/dico_unites
-                                )
-                            )
-                        ]
-                    )
-                ),
-            ]
-        ),
-    ]
 )
 
 //-------------------------------------------------------------------------------------
@@ -373,78 +277,6 @@ is BUCKTextDescriptor
 
 //-------------------------------------------------------------------------------------
 
-DisplayInfoGreenLine is BUCKContainerDescriptor
-(
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [790.0, 1.0]
-    )
-
-    HasBackground = true
-    BackgroundBlockColorToken = 'VertLogin'
-
-    Components =
-    [
-        BUCKListDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [0.0, 20.0]
-            )
-
-            InterItemMargin = TRTTILength( Magnifiable = 6.0 )
-            LastMargin = TRTTILength( Magnifiable = 0.0 )
-            Axis = ~/ListAxis/Horizontal
-
-            Elements =
-            [
-                BUCKListElementDescriptor
-                (
-                    ExtendWeight = 0.5
-                    ComponentDescriptor = BUCKTextureDescriptor
-                    (
-                        ElementName = "DivisionEmblem"
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            MagnifiableWidthHeight = [1.0, 1.0]
-                        )
-
-                        TextureFrame = TUIFramePropertyRTTI
-                        (
-                            AlignementToAnchor = [0.5, 0.5]
-                            AlignementToFather = [0.5, 0.5]
-                        )
-
-                        ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
-                    )
-                ),
-                BUCKListElementDescriptor
-                (
-                    ExtendWeight = 0.5
-                    ComponentDescriptor = BUCKTextureDescriptor
-                    (
-                        ElementName = "DivisionPortrait"
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            MagnifiableWidthHeight = [1.0, 1.0]
-                        )
-
-                        TextureFrame = TUIFramePropertyRTTI
-                        (
-                            AlignementToAnchor = [0.5, 0.5]
-                            AlignementToFather = [0.5, 0.5]
-                        )
-
-                        ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
-                    )
-                ),
-            ]
-        )
-    ]
-)
-
-//-------------------------------------------------------------------------------------
-
 private SpecificDivisionSelectionContent is BUCKListDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
@@ -461,10 +293,6 @@ private SpecificDivisionSelectionContent is BUCKListDescriptor
         (
             ComponentDescriptor = ~/DivisionsBriefMultiList
         ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = ~/DivisionInfosDisplay
-        )
     ]
 
     ForegroundComponents =

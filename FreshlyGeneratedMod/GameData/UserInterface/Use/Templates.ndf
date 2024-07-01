@@ -5,6 +5,5 @@ template UIButtonUnit
 is TUIResourceTextureWithUsefulnessMask
 (
     TypeMask = TypeMask/BuildMenu
-    CivMask  = CivMask/Common
     FileName = <FileName>
 )

@@ -2,7 +2,7 @@ RatioDeLaTailleDuFeu is 0.8 // Utilisé pour modifier la taille visuelle des feu
 
 OnlyHighDepictionSelector is TConstantAlternativeSelector(Key = [LOD_High])
 
-export template Template_DescriptorFire_Depiction
+template Template_DescriptorFire_Depiction
 [
     Radius,
     Density,
@@ -49,7 +49,7 @@ export template Template_DescriptorFire_Depiction
     )
 )
 
-export template Template_DescriptorSmoke_Depiction
+template Template_DescriptorSmoke_Depiction
 [
   Radius,
   Height,

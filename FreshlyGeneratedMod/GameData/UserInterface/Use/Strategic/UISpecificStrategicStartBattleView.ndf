@@ -39,6 +39,14 @@ private StartBattleBoutonsList is BUCKListDescriptor
             TextToken = "BtnCanPrep"
             HintBodyToken = "BtnCanPreH"
             Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
+        ),
+        // map preview
+        BoutonStartBattle
+        (
+            MagnifiableWidthHeight = [160.0, 40.0]
+            ElementName = 'MapOverview'
+            TextToken = "BtnMapOv"
+            HintBodyToken = "BtnMapOvH"
         )
     ]
 )
@@ -54,8 +62,6 @@ template BoutonStartBattle
     MagnifiableWidthHeight : float2 = [160.0, 40.0],
     Mapping : TEugBMutablePBaseClass = nil,
     SpotlightUniqueName : string = "",
-
-
 ] is BUCKListElementDescriptor
 (
     ComponentDescriptor = BUCKButtonDescriptor
@@ -936,14 +942,14 @@ BUCKSpecificStrategicStartBattleMainComponentDescriptor is BUCKTranslationAnimat
 )
 
 //------------------------------------------------------------------------------
-
+PanelWidth is 160.0 * 4 + 40     // 4 boutons de 160 avec un peu de marge
 PanelAide is PanelRoundedCorner
 (
     ElementName = "PanelAide"
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [600.0, 0.0]
+        MagnifiableWidthHeight = [PanelWidth, 0.0]
         AlignementToAnchor = [0.5, 0.0]
         AlignementToFather = [0.5, 0.0]
         MagnifiableOffset = [0.0, 150.0]
@@ -1424,6 +1430,7 @@ UISpecificStrategicStartBattleViewDescriptor is TUISpecificStrategicStartBattleV
     MainComponentContainerUniqueName = "PourPlacerPanneauPreparationCombat"
 
     BattleGroupsViewDescriptor = UISpecificStrategicStartBattleGroupViewDescriptor()
+    ScenarioMapOverviewViewDescriptor = UIScenarioOverviewViewDescriptor
 
     TerrainTypeTokens = ~/StrategicTerrainTypeTokens
 

@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par DepictionFxMissilesFileWriter
 
 
 FXWeapon_AA_AIM120A_AMRAAM is FXWeapon_0
@@ -137,6 +137,7 @@ FXWeapon_ATGM_Swingfire is FXWeapon_4
 FXWeapon_ATGM_Swingfire_x2 is FXWeapon_4
 FXWeapon_ATGM_Swingfire_x5 is FXWeapon_4
 FXWeapon_ATGM_9K115_Metis_M is FXWeapon_4
+FXWeapon_ATGM_Eryx is FXWeapon_4
 FXWeapon_Bomb_BGL_400_x1 is FXWeapon_9
 FXWeapon_Bomb_BGL_400_x2 is FXWeapon_9
 FXWeapon_Bomb_CPU_123_x1 is FXWeapon_9
@@ -149,9 +150,10 @@ FXWeapon_Bomb_GBU_27_x1 is FXWeapon_9
 FXWeapon_Bomb_GBU_27_x2 is FXWeapon_9
 FXWeapon_Bomb_KAB_1500Kr_x1 is FXWeapon_9
 FXWeapon_Bomb_KAB_1500Kr_x2 is FXWeapon_9
+FXWeapon_Bomb_KAB_1500L_x1 is FXWeapon_9
 FXWeapon_Bomb_KAB_500Kr_x1 is FXWeapon_9
 FXWeapon_Bomb_KAB_500Kr_x2 is FXWeapon_9
-FXWeapon_Eryx is FXWeapon_8
+FXWeapon_Bomb_KAB_500L_x1 is FXWeapon_9
 FXWeapon_FakeRoquette_S_24 is FXWeapon_10
 FXWeapon_FakeRoquette_S_24_helo is FXWeapon_10
 FXWeapon_Javelin is FXWeapon_10

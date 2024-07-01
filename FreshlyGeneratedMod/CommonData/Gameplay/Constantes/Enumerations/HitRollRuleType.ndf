@@ -1,14 +1,6 @@
 // Fichier écrit à la main
 
 //Correspondance : HitRollRuleEnums.h
-ERoll is TBaseClass
-(
-    Hit     is 0
-    Pierce  is 1
-    Critic  is 2
-)
-
-//Correspondance : HitRollRuleEnums.h
 //Doit être synchro avec HitRollRuleExporter.py
 EBaseHitValueModifier is TBaseClass
 (
@@ -17,14 +9,4 @@ EBaseHitValueModifier is TBaseClass
     Moving          is 2
     Targeted        is 3
     Length          is 4
-)
-
-//Correspondance : HitRollRuleEnums.h
-EDiceHitModifier is TBaseClass
-(
-    Precision        is 0
-    DistanceToTarget is 1
-    SuccessiveShots  is 2
-    Suppress         is 3
-    Length           is 4
 )

@@ -1,11 +1,7 @@
-template Template_Unit_FakeTarget
-[
-    DescriptorId = GUID:{00000000-0000-0000-0000-000000000000},
-    ClassNameForDebug = 'UndefinedFakeTarget',
-]  is TEntityDescriptor
+Tactic_Descriptor_Unit_FakeTarget is TEntityDescriptor
 (
-    DescriptorId         = <DescriptorId>
-    ClassNameForDebug    = <ClassNameForDebug>
+    DescriptorId         = GUID:{00000000-0000-0000-0000-000006000000}
+    ClassNameForDebug    = 'FakeTarget'
     ModulesDescriptors =
     [
         TFlagsModuleDescriptor
@@ -13,7 +9,6 @@ template Template_Unit_FakeTarget
             InitialFlagSet =
             [
                 Flag_FakeTarget,
-                Flag_FakeTargetInGeoDB,
                 Flag_Detectable,
             ]
         ),
@@ -23,7 +18,6 @@ template Template_Unit_FakeTarget
         ),
         TVisibilityModuleDescriptor
         (
-            AutoRevealType = EAutoRevealType/AutoRevealAllies
             UnitConcealmentBonus = 1.0
         ),
         $/GFX/VisionRules/ScannerConfigurationDescriptor,
@@ -49,11 +43,4 @@ template Template_Unit_FakeTarget
             SpawnType = EShowroomSpawnType/Vehicle
         ),
     ]
-)
-
-
-Tactic_Descriptor_Unit_FakeTargetInGeoDB is Template_Unit_FakeTarget
-(
-    DescriptorId         = GUID:{00000000-0000-0000-0000-000006000000}
-    ClassNameForDebug    = 'FakeTargetInGeoDB'
 )

@@ -86,7 +86,7 @@ export EasyBTAtk_PhaseDeploiement is TSequenceGeneratorDescriptor
         //------------------------------
         // Grosse attaque
         ~/Attack_Main_BKT,
-        ~/Attack_Main_BKT,
+        ~/Attack_Main_Diversify_BKT,
 
         ~/Artillery_Support,
 
@@ -128,7 +128,7 @@ export EasyBTAtk_Phase_Command is TSequenceGeneratorDescriptor
         // Attaques principales
         //------------------------------
         ~/Attack_Main_BKT,
-        ~/Attack_Main_BKT,
+        ~/Attack_Main_Diversify_BKT,
 
         ~/Artillery_Support,
 

@@ -35,11 +35,12 @@ private DissimulationButton is TBUCKButtonDescriptor
         BUCKListDescriptor
         (
             Axis = ~/ListAxis/Vertical
-            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
             LastMargin = TRTTILength(Magnifiable = 10.0)
 
             ComponentFrame = TUIFramePropertyRTTI
             (
+                RelativeWidthHeight = [1.0, 0.0]
                 AlignementToFather = [0.5, 0.5]
                 AlignementToAnchor = [0.5, 0.5]
             )
@@ -50,38 +51,24 @@ private DissimulationButton is TBUCKButtonDescriptor
                 BUCKListElementDescriptor
                 (
                     ExtendWeight = 3.0
-                    ComponentDescriptor = BUCKContainerDescriptor
+                    ComponentDescriptor = BUCKTextureDescriptor
                     (
+                        ElementName = "DissimulationButtonTexture"
+
                         ComponentFrame = TUIFramePropertyRTTI
                         (
-                            RelativeWidthHeight = [0.0, 1.0]
+                            RelativeWidthHeight = [1.0, 1.0]
                             AlignementToFather = [0.5, 0.5]
                             AlignementToAnchor = [0.5, 0.5]
                         )
 
-                        Components =
-                        [
-                            BUCKTextureDescriptor
-                            (
-                                ElementName = "DissimulationButtonTexture"
+                        TextureFrame = TUIFramePropertyRTTI
+                        (
+                            AlignementToFather = [0.5, 0.5]
+                            AlignementToAnchor = [0.5, 0.5]
+                        )
 
-                                ComponentFrame = TUIFramePropertyRTTI
-                                (
-                                    RelativeWidthHeight = [1.0, 1.0]
-                                    AlignementToFather = [0.5, 0.5]
-                                    AlignementToAnchor = [0.5, 0.5]
-                                )
-
-                                TextureFrame = TUIFramePropertyRTTI
-                                (
-                                    RelativeWidthHeight = [0.0, 0.0]
-                                    AlignementToFather = [0.5, 0.5]
-                                    AlignementToAnchor = [0.5, 0.5]
-                                )
-
-                                ResizeMode = ~/TextureResizeMode/VerticalFitToParent
-                            )
-                        ]
+                        ResizeMode = ~/TextureResizeMode/FitToParentConservingRatio
                     )
                 ),
 

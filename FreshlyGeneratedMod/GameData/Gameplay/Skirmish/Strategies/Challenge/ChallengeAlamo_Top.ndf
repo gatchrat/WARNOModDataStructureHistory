@@ -1,0 +1,136 @@
+//-------------------------------------------------------------------------
+//----------------------------- STRATEGY ----------------------------------
+//-------------------------------------------------------------------------
+
+export ChallengeAlamo_Top is TIAGeneralStrategy
+(
+    StrategyName = "AlamoTopAI"
+    FirstGenerator = ChalAlamoTop_Choose_Strategy
+    AuthorizedCorridorList = [1,2]
+    AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
+    TransitionList =
+    [
+        ChalAlamoTop_Transition_StartToPhaseCommand,
+        ChalAlamoTop_Transition_StartToGeneric,
+        ChalAlamoTop_Transition_DeployToCommandPhase,
+    ]
+)
+
+//-------------------------------------------------------------------------
+//---------------------------- CONDITIONS ---------------------------------
+//-------------------------------------------------------------------------
+export ChalAlamoTop_Condition_GotoGeneric is TSequenceCondition_True
+(
+)
+//-------------------------------------------------------------------------
+export ChalAlamoTop_Condition_CommandPhase is TSequenceCondition_Phase
+(
+    PhaseType = CommandPhase
+)
+
+//-------------------------------------------------------------------------
+//--------------------------- TRANSITIONS ---------------------------------
+//-------------------------------------------------------------------------
+export ChalAlamoTop_Transition_StartToPhaseCommand is TIAGeneralStrategyTransition
+(
+    Origine = ChalAlamoTop_Choose_Strategy
+    Condition = ChalAlamoTop_Condition_CommandPhase
+    Destination = ChalAlamoTop_Phase_Command
+)
+export ChalAlamoTop_Transition_StartToGeneric is TIAGeneralStrategyTransition
+(
+    Origine = ChalAlamoTop_Choose_Strategy
+    Condition = ChalAlamoTop_Condition_GotoGeneric
+    Destination = ChalAlamoTop_Phase_Deploiement
+)
+//-------------------------------------------------------------------------
+export ChalAlamoTop_Transition_DeployToCommandPhase is TIAGeneralStrategyTransition
+(
+    Origine = ChalAlamoTop_Phase_Deploiement
+    Condition = ChalAlamoTop_Condition_CommandPhase
+    Destination = ChalAlamoTop_Phase_Command
+)
+
+//-------------------------------------------------------------------------
+//------------------------------ PHASES -----------------------------------
+//-------------------------------------------------------------------------
+export ChalAlamoTop_Choose_Strategy is TSequenceGeneratorDescriptor
+(
+    // Fake phase qui permet juste d'orienter la strategie dans la direction voulue
+    NbMacroActionAllowedToProduceSimultaneous = 9001
+    GeneratorList =
+    [
+        ~/Support_Transports,
+        ~/Supply_Skirmish,
+    ]
+)
+//-------------------------------------------------------------------------
+export ChalAlamoTop_Phase_Deploiement is TSequenceGeneratorDescriptor
+(
+    NbMacroActionAllowedToProduceSimultaneous = 4
+    GeneratorList =
+    [
+        ~/Support_Transports,
+        ~/Supply_Skirmish,
+
+        ~/Challenge_CaptureAllZoneObjectif_SpecInf,
+
+        ~/Challenge_Alamo_Top_Main_Attack,
+        ~/Challenge_Alamo_Top_Aux_Attack,
+        ~/Challenge_Alamo_Top_Artillery,
+        ~/Challenge_Alamo_Top_Artillery,
+    ]
+
+    ScalingGeneratorList = ~/ChalAlamo_Top_Scaling
+)
+//-------------------------------------------------------------------------
+export ChalAlamoTop_Phase_Command is TSequenceGeneratorDescriptor
+(
+    NbMacroActionAllowedToProduceSimultaneous = 3
+    GeneratorList =
+    [
+        ~/Support_Transports,
+        ~/Supply_Skirmish,
+
+        ~/Challenge_CaptureAllZoneObjectif_SpecInf,
+
+        ~/Challenge_Alamo_Top_Main_Attack,
+        ~/Challenge_Alamo_Top_Aux_Attack,
+        ~/Challenge_Alamo_Top_Artillery,
+        ~/Challenge_Alamo_Top_Artillery,
+    ]
+
+    ScalingGeneratorList = ~/ChalAlamo_Top_Scaling
+)
+
+//-------------------------------------------------------------------------
+export ChalAlamoTop_Phase_2 is TSequenceGeneratorDescriptor
+(
+    NbMacroActionAllowedToProduceSimultaneous = 3
+    GeneratorList =
+    [
+        ~/Support_Transports,
+        ~/Supply_Skirmish,
+
+        ~/Challenge_CaptureAllZoneObjectif_SpecInf,
+
+        ~/Challenge_Alamo_Top_Main_Attack_Phase2,
+        ~/Challenge_Alamo_Top_Aux_Attack_Phase2,
+        ~/Challenge_Alamo_Top_Artillery,
+        ~/Challenge_Alamo_Top_Artillery,
+        ~/Challenge_Alamo_Top_Artillery,
+        ~/Challenge_Alamo_Top_Artillery,
+    ]
+
+    ScalingGeneratorList = ~/ChalAlamo_Top_Scaling_Phase2
+)
+
+ChalAlamo_Top_Scaling is
+[
+    ~/Challenge_Alamo_Top_Aux_Attack,
+]
+
+ChalAlamo_Top_Scaling_Phase2 is
+[
+    ~/Challenge_Alamo_Top_Aux_Attack_Phase2,
+]

@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par MissileCarriageFileWriter
 
 eAAM is 1
 eAGM is 2
@@ -820,6 +820,35 @@ MissileCarriage_ATteam_Milan_2_para_UK_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// ATteam_TOW2_Aero_US : ['ATGM BGM71D TOW 2']
+MissileCarriage_ATteam_TOW2_Aero_US is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_ATteam_TOW2_Aero_US
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
+MissileCarriage_ATteam_TOW2_Aero_US_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_ATteam_TOW2_Aero_US
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
 // ATteam_TOW2_US : ['ATGM BGM71D TOW 2']
 MissileCarriage_ATteam_TOW2_US is TMissileCarriageConnoisseur
 (
@@ -907,6 +936,35 @@ MissileCarriage_ATteam_TOW_US_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// Atteam_Fagot_DShV_SOV : ['ATGM 9K111M Fagot_M']
+MissileCarriage_Atteam_Fagot_DShV_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Atteam_Fagot_DShV_SOV
+    PylonSet = ~/DepictionPylonSet_ATGM
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
+MissileCarriage_Atteam_Fagot_DShV_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Atteam_Fagot_DShV_SOV
+    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
 // Atteam_Fagot_VDV_SOV : ['ATGM 9K111M Fagot_M']
 MissileCarriage_Atteam_Fagot_VDV_SOV is TMissileCarriageConnoisseur
 (
@@ -925,6 +983,35 @@ MissileCarriage_Atteam_Fagot_VDV_SOV is TMissileCarriageConnoisseur
 MissileCarriage_Atteam_Fagot_VDV_SOV_Showroom is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Atteam_Fagot_VDV_SOV
+    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
+// Atteam_Konkurs_DShV_SOV : ['ATGM 9M113 KonkursM']
+MissileCarriage_Atteam_Konkurs_DShV_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Atteam_Konkurs_DShV_SOV
+    PylonSet = ~/DepictionPylonSet_ATGM
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
+MissileCarriage_Atteam_Konkurs_DShV_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Atteam_Konkurs_DShV_SOV
     PylonSet = ~/DepictionPylonSet_ATGM_Showroom
     WeaponInfos = 
     [
@@ -1342,6 +1429,35 @@ MissileCarriage_BMP_2D_SOV_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// BMP_2D_reco_SOV : ['ATGM 9M113 Konkurs BMP2']
+MissileCarriage_BMP_2D_reco_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_BMP_2D_reco_SOV
+    PylonSet = ~/DepictionPylonSet_ATGM
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAGM
+            WeaponIndex = 2
+        ),
+    ]
+)
+MissileCarriage_BMP_2D_reco_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_BMP_2D_reco_SOV
+    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAGM
+            WeaponIndex = 2
+        ),
+    ]
+)
 // BMP_2_CMD_SOV : ['ATGM 9M113 Konkurs BMP2']
 MissileCarriage_BMP_2_CMD_SOV is TMissileCarriageConnoisseur
 (
@@ -1629,6 +1745,68 @@ MissileCarriage_BRDM_Strela_1_SOV_Showroom is TMissileCarriageConnoisseur
             Count = 4
             MissileType = eAAM
             WeaponIndex = 1
+        ),
+    ]
+)
+// BTR_70_S5_SOV : ['RocketAir S5 57mm x16 BTR']
+MissileCarriage_BTR_70_S5_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_BTR_70_S5_SOV
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 16
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+    ]
+)
+MissileCarriage_BTR_70_S5_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_BTR_70_S5_SOV
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 16
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+    ]
+)
+// BTR_70_S8_SOV : ['RocketAir B8 80mm x20 BTR']
+MissileCarriage_BTR_70_S8_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_BTR_70_S8_SOV
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 20
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+    ]
+)
+MissileCarriage_BTR_70_S8_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_BTR_70_S8_SOV
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 20
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
         ),
     ]
 )
@@ -2164,6 +2342,35 @@ MissileCarriage_Jaguar_2_RFA_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// LUAZ_967M_Fagot_SOV : ['ATGM 9K111M Fagot_M']
+MissileCarriage_LUAZ_967M_Fagot_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_LUAZ_967M_Fagot_SOV
+    PylonSet = ~/DepictionPylonSet_ATGM
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
+MissileCarriage_LUAZ_967M_Fagot_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_LUAZ_967M_Fagot_SOV
+    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
 // LandRover_MILAN_Para_UK : ['ATGM MILAN 2']
 MissileCarriage_LandRover_MILAN_Para_UK is TMissileCarriageConnoisseur
 (
@@ -2432,6 +2639,35 @@ MissileCarriage_M151A2_TOW_NG_US_Showroom is TMissileCarriageConnoisseur
         (
             Count = 4
             MeshDescriptor = $/GFX/DepictionResources/Modele_M151A2_TOW_NG_US_Tourelle_01
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
+// M274_Mule_ITOW_US : ['ATGM BGM71C ITOW']
+MissileCarriage_M274_Mule_ITOW_US is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_M274_Mule_ITOW_US
+    PylonSet = ~/DepictionPylonSet_ATGM
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
+MissileCarriage_M274_Mule_ITOW_US_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_M274_Mule_ITOW_US
+    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
             MissileType = eAGM
             WeaponIndex = 1
         ),
@@ -3253,6 +3489,35 @@ MissileCarriage_T55AM2B_DDR_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// T62MD_SOV : ['ATGM 9M117 Bastion']
+MissileCarriage_T62MD_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_T62MD_SOV
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
+MissileCarriage_T62MD_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_T62MD_SOV
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 6
+            MissileType = eAGM
+            WeaponIndex = 1
+        ),
+    ]
+)
 // T62MV_SOV : ['ATGM 9M117 Bastion']
 MissileCarriage_T62MV_SOV is TMissileCarriageConnoisseur
 (
@@ -3719,6 +3984,37 @@ MissileCarriage_UAZ_469_Konkurs_VDV_SOV_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// Ural_4320_Metla_SOV : ['RocketAir S5 57mm x16 BTR']
+MissileCarriage_Ural_4320_Metla_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Ural_4320_Metla_SOV
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 16
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+    ]
+)
+MissileCarriage_Ural_4320_Metla_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Ural_4320_Metla_SOV
+    PylonSet = ~/DepictionPylonSet_Vehicle_Default_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 16
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+    ]
+)
 // VAB_HOT_FR : ['ATGM HOT2 x4']
 MissileCarriage_VAB_HOT_FR is TMissileCarriageConnoisseur
 (
@@ -4142,6 +4438,47 @@ MissileCarriage_AH1S_Cobra_US_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// AH64_Apache_ATAS_US : ['SAM FIM92 Stinger CS x4'] ['AGM AGM114A x8']
+MissileCarriage_AH64_Apache_ATAS_US is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_AH64_Apache_ATAS_US
+    PylonSet = ~/DepictionPylonSet_Helico_Default
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAAM
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 8
+            MissileType = eAGM
+            WeaponIndex = 3
+        ),
+    ]
+)
+MissileCarriage_AH64_Apache_ATAS_US_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_AH64_Apache_ATAS_US
+    PylonSet = ~/DepictionPylonSet_Helico_Default_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAAM
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 8
+            MissileType = eAGM
+            WeaponIndex = 3
+        ),
+    ]
+)
 // AH64_Apache_NG_US : ['RocketAir Hydra 70mm x19'] ['AGM AGM114A x8']
 MissileCarriage_AH64_Apache_NG_US is TMissileCarriageConnoisseur
 (
@@ -4330,6 +4667,37 @@ MissileCarriage_AH6C_Little_Bird_US_Showroom is TMissileCarriageConnoisseur
             MissileType = eAGM
             MountingType = eMountingPod
             WeaponIndex = 1
+        ),
+    ]
+)
+// AH6G_Little_Bird_US : ['RocketAir Hydra 70mm x19']
+MissileCarriage_AH6G_Little_Bird_US is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_AH6G_Little_Bird_US
+    PylonSet = ~/DepictionPylonSet_Helico_Default
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 19
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+    ]
+)
+MissileCarriage_AH6G_Little_Bird_US_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_AH6G_Little_Bird_US
+    PylonSet = ~/DepictionPylonSet_Helico_Default_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 19
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
         ),
     ]
 )
@@ -4759,6 +5127,37 @@ MissileCarriage_Lynx_AH_Mk7_SNEB_UK_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// MH_60A_DAP_US : ['RocketAir Hydra 70mm x19']
+MissileCarriage_MH_60A_DAP_US is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MH_60A_DAP_US
+    PylonSet = ~/DepictionPylonSet_Helico_Default
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 19
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+    ]
+)
+MissileCarriage_MH_60A_DAP_US_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MH_60A_DAP_US
+    PylonSet = ~/DepictionPylonSet_Helico_Default_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 19
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+    ]
+)
 // Mi_24D_AA_DDR : ['AA R60M Vympel_helo'] ['RocketAir B8 80mm x10']
 MissileCarriage_Mi_24D_AA_DDR is TMissileCarriageConnoisseur
 (
@@ -4950,7 +5349,7 @@ MissileCarriage_Mi_24K_reco_SOV_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// Mi_24P_AA_SOV : ['RocketAir S5 57mm x8'] ['AA R60M Vympel_helo']
+// Mi_24P_AA_SOV : ['RocketAir B8 80mm x10'] ['AA R60M Vympel_helo']
 MissileCarriage_Mi_24P_AA_SOV is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_AA_SOV
@@ -4959,7 +5358,7 @@ MissileCarriage_Mi_24P_AA_SOV is TMissileCarriageConnoisseur
     [
         TMissileCarriageWeaponInfo
         (
-            Count = 48
+            Count = 40
             MissileType = eAGM
             MountingType = eMountingPod
             WeaponIndex = 2
@@ -4980,7 +5379,7 @@ MissileCarriage_Mi_24P_AA_SOV_Showroom is TMissileCarriageConnoisseur
     [
         TMissileCarriageWeaponInfo
         (
-            Count = 48
+            Count = 40
             MissileType = eAGM
             MountingType = eMountingPod
             WeaponIndex = 2
@@ -5018,6 +5417,49 @@ MissileCarriage_Mi_24P_SOV is TMissileCarriageConnoisseur
 MissileCarriage_Mi_24P_SOV_Showroom is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_SOV
+    PylonSet = ~/DepictionPylonSet_Helico_SOV_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 80
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAGM
+            WeaponIndex = 3
+        ),
+    ]
+)
+// Mi_24P_TCH : ['RocketAir B8 80mm x10'] ['AGM 9M114M KokonM x4']
+MissileCarriage_Mi_24P_TCH is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_TCH
+    PylonSet = ~/DepictionPylonSet_Helico_SOV
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 80
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAGM
+            WeaponIndex = 3
+        ),
+    ]
+)
+MissileCarriage_Mi_24P_TCH_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_TCH
     PylonSet = ~/DepictionPylonSet_Helico_SOV_Showroom
     WeaponInfos = 
     [
@@ -9715,6 +10157,90 @@ MissileCarriage_MiG_25RBF_SOV_Showroom is TMissileCarriageConnoisseur
             MissileType = eAGM
             MountingType = eMountingBomb
             WeaponIndex = 2
+        ),
+    ]
+)
+// MiG_27K_AT1_SOV : ['AGM Kh29L'] ['RocketAir B8 80mm x40']
+MissileCarriage_MiG_27K_AT1_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_27K_AT1_SOV
+    PylonSet = ~/DepictionPylonSet_Airplane_SOV
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAGM
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 40
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 3
+        ),
+    ]
+)
+MissileCarriage_MiG_27K_AT1_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_27K_AT1_SOV
+    PylonSet = ~/DepictionPylonSet_Airplane_SOV_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAGM
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 40
+            MissileType = eAGM
+            MountingType = eMountingPod
+            WeaponIndex = 3
+        ),
+    ]
+)
+// MiG_27K_AT2_SOV : ['AGM Kh29T'] ['AA R60M Vympel']
+MissileCarriage_MiG_27K_AT2_SOV is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_27K_AT2_SOV
+    PylonSet = ~/DepictionPylonSet_Airplane_SOV
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAGM
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAAM
+            WeaponIndex = 3
+        ),
+    ]
+)
+MissileCarriage_MiG_27K_AT2_SOV_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_27K_AT2_SOV
+    PylonSet = ~/DepictionPylonSet_Airplane_SOV_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAGM
+            WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 4
+            MissileType = eAAM
+            WeaponIndex = 3
         ),
     ]
 )

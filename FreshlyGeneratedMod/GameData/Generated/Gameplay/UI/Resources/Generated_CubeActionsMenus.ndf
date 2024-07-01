@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par CubeActionMenuDescriptorFileWriter_Specific
 
 
 export CubeAction_Menu_Ordres_avions is TCubeActionMenuDescriptor
@@ -9,7 +9,7 @@ export CubeAction_Menu_Ordres_avions is TCubeActionMenuDescriptor
         ( 2, [ CubeAction_Order_Evacuate ] ),
         ( 3, [ CubeAction_Order_Move ] ),
         ( 4, [ CubeAction_Order_Attack ] ),
-        ( 14, [ CubeAction_Order_AIAirplaneAutoManage ] ),
+        ( 17, [ CubeAction_Order_AIAirplaneAutoManage ] ),
     ]
 )
 
@@ -27,7 +27,7 @@ export CubeAction_Menu_Ordres_helicos is TCubeActionMenuDescriptor
         ( 9, [ CubeAction_Order_Land ] ),
         ( 11, [ CubeAction_Order_Sell ] ),
         ( 12, [ CubeAction_Order_AIAttack ] ),
-        ( 14, [ CubeAction_Order_AISupply ] ),
+        ( 17, [ CubeAction_Order_AISupply ] ),
     ]
 )
 
@@ -44,7 +44,7 @@ export CubeAction_Menu_Ordres_helicos_NonArme is TCubeActionMenuDescriptor
         ( 8, [ CubeAction_Order_UnloadFromTransport ] ),
         ( 9, [ CubeAction_Order_Land ] ),
         ( 11, [ CubeAction_Order_Sell ] ),
-        ( 14, [ CubeAction_Order_AISupply ] ),
+        ( 17, [ CubeAction_Order_AISupply ] ),
     ]
 )
 
@@ -160,7 +160,7 @@ export CubeAction_Menu_Ordres_vehiculeSol_supply is TCubeActionMenuDescriptor
         ( 9, [ CubeAction_Order_Reverse ] ),
         ( 10, [ CubeAction_Functionality_RiposteStance ] ),
         ( 11, [ CubeAction_Order_Sell ] ),
-        ( 14, [ CubeAction_Order_AISupply ] ),
+        ( 17, [ CubeAction_Order_AISupply ] ),
     ]
 )
 

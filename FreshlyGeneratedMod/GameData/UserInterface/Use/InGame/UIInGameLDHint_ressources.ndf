@@ -38,6 +38,7 @@ unnamed TUICommonLDHintResource
         ( "Component_1Texture_1Text",       Component_1Texture_1Text()),
         ( "Component_1Texture_1Text_Portrait", Component_1Texture_1Text_Portrait()),
         ( "Component_1Texture_1Text_TextureLeft", Component_1Texture_1Text_TextureLeft()),
+        ( "Component_Operation_1Texture_1Text", Component_Operation_1Texture_1Text()),
         ( "Component_1Text_hint",           Component_1Text_hint()),
         ( "Component_1Text",                Component_1Text()),
         ( "Component_1Text_Titre",          Component_1Text_FullScreen()),

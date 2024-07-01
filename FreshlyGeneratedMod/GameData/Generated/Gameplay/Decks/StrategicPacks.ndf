@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par StrategicPacksFileWriter
 
 
 Descriptor_StrategicPack_Alpha_Jet_BEL_1 is DeckPackDescriptor
@@ -277,6 +277,12 @@ Descriptor_StrategicPack_Iltis_trans_BEL_Scout_BEL_1 is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Scout_BEL
 )
 
+Descriptor_StrategicPack_Unimog_supply_BEL_1 is DeckPackDescriptor
+(
+    Xp = 1
+    Unit = $/GFX/Unit/Descriptor_Unit_Unimog_supply_BEL
+)
+
 Descriptor_StrategicPack_MAN_Z311_BEL_1 is DeckPackDescriptor
 (
     Xp = 1
@@ -345,12 +351,6 @@ Descriptor_StrategicPack_A109BA_BEL_LRRP_BEL_3 is DeckPackDescriptor
     Xp = 3
     Transport = $/GFX/Unit/Descriptor_Unit_A109BA_BEL
     Unit = $/GFX/Unit/Descriptor_Unit_LRRP_BEL
-)
-
-Descriptor_StrategicPack_Unimog_supply_BEL_1 is DeckPackDescriptor
-(
-    Xp = 1
-    Unit = $/GFX/Unit/Descriptor_Unit_Unimog_supply_BEL
 )
 
 Descriptor_StrategicPack_AIFV_B_C25_BEL_Mech_Rifles_AT_BEL_1 is DeckPackDescriptor
@@ -1284,16 +1284,11 @@ Descriptor_StrategicPack_T55A_CMD_DDR_2 is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_T55A_CMD_DDR
 )
 
-Descriptor_StrategicPack_T72_DDR_2 is DeckPackDescriptor
+Descriptor_StrategicPack_BMP_1_SP2_DDR_MotRifles_BTR_DDR_2 is DeckPackDescriptor
 (
     Xp = 2
-    Unit = $/GFX/Unit/Descriptor_Unit_T72_DDR
-)
-
-Descriptor_StrategicPack_T72M_CMD_DDR_2 is DeckPackDescriptor
-(
-    Xp = 2
-    Unit = $/GFX/Unit/Descriptor_Unit_T72M_CMD_DDR
+    Transport = $/GFX/Unit/Descriptor_Unit_BMP_1_SP2_DDR
+    Unit = $/GFX/Unit/Descriptor_Unit_MotRifles_BTR_DDR
 )
 
 Descriptor_StrategicPack_T72M_DDR_2 is DeckPackDescriptor
@@ -1302,10 +1297,16 @@ Descriptor_StrategicPack_T72M_DDR_2 is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_T72M_DDR
 )
 
-Descriptor_StrategicPack_T72_DDR_1 is DeckPackDescriptor
+Descriptor_StrategicPack_T72M_CMD_DDR_2 is DeckPackDescriptor
+(
+    Xp = 2
+    Unit = $/GFX/Unit/Descriptor_Unit_T72M_CMD_DDR
+)
+
+Descriptor_StrategicPack_T72M_DDR_1 is DeckPackDescriptor
 (
     Xp = 1
-    Unit = $/GFX/Unit/Descriptor_Unit_T72_DDR
+    Unit = $/GFX/Unit/Descriptor_Unit_T72M_DDR
 )
 
 Descriptor_StrategicPack_T72M_CMD_DDR_1 is DeckPackDescriptor
@@ -1318,12 +1319,6 @@ Descriptor_StrategicPack_T72M1_DDR_1 is DeckPackDescriptor
 (
     Xp = 1
     Unit = $/GFX/Unit/Descriptor_Unit_T72M1_DDR
-)
-
-Descriptor_StrategicPack_T72M_DDR_1 is DeckPackDescriptor
-(
-    Xp = 1
-    Unit = $/GFX/Unit/Descriptor_Unit_T72M_DDR
 )
 
 Descriptor_StrategicPack_T72M1_DDR_2 is DeckPackDescriptor
@@ -4051,10 +4046,10 @@ Descriptor_StrategicPack_T80UD_SOV_2 is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_T80UD_SOV
 )
 
-Descriptor_StrategicPack_T80U_CMD_SOV_2 is DeckPackDescriptor
+Descriptor_StrategicPack_T80BV_CMD_SOV_2 is DeckPackDescriptor
 (
     Xp = 2
-    Unit = $/GFX/Unit/Descriptor_Unit_T80U_CMD_SOV
+    Unit = $/GFX/Unit/Descriptor_Unit_T80BV_CMD_SOV
 )
 
 Descriptor_StrategicPack_MTLB_Strela10_SOV_2 is DeckPackDescriptor
@@ -4112,12 +4107,6 @@ Descriptor_StrategicPack_T80BV_SOV_2 is DeckPackDescriptor
 (
     Xp = 2
     Unit = $/GFX/Unit/Descriptor_Unit_T80BV_SOV
-)
-
-Descriptor_StrategicPack_T80BV_CMD_SOV_2 is DeckPackDescriptor
-(
-    Xp = 2
-    Unit = $/GFX/Unit/Descriptor_Unit_T80BV_CMD_SOV
 )
 
 Descriptor_StrategicPack_Mi_2_trans_SOV_Spetsnaz_FireSupport_SOV_3 is DeckPackDescriptor
@@ -4674,18 +4663,6 @@ Descriptor_StrategicPack_Rover_101FC_UK_Rifles_AT_UK_2 is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Rifles_AT_UK
 )
 
-Descriptor_StrategicPack_Saxon_CMD_UK_2 is DeckPackDescriptor
-(
-    Xp = 2
-    Unit = $/GFX/Unit/Descriptor_Unit_Saxon_CMD_UK
-)
-
-Descriptor_StrategicPack_FOB_UK_2 is DeckPackDescriptor
-(
-    Xp = 2
-    Unit = $/GFX/Unit/Descriptor_Unit_FOB_UK
-)
-
 Descriptor_StrategicPack_FV432_UK_Engineers_UK_1 is DeckPackDescriptor
 (
     Xp = 1
@@ -4877,6 +4854,12 @@ Descriptor_StrategicPack_Lynx_AH_Mk1_UK_SAS_UK_3 is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_SAS_UK
 )
 
+Descriptor_StrategicPack_FOB_UK_2 is DeckPackDescriptor
+(
+    Xp = 2
+    Unit = $/GFX/Unit/Descriptor_Unit_FOB_UK
+)
+
 Descriptor_StrategicPack_FV432_UK_Engineers_AT_UK_2 is DeckPackDescriptor
 (
     Xp = 2
@@ -5003,6 +4986,12 @@ Descriptor_StrategicPack_FV432_Mortar_UK_2 is DeckPackDescriptor
 (
     Xp = 2
     Unit = $/GFX/Unit/Descriptor_Unit_FV432_Mortar_UK
+)
+
+Descriptor_StrategicPack_Saxon_CMD_UK_2 is DeckPackDescriptor
+(
+    Xp = 2
+    Unit = $/GFX/Unit/Descriptor_Unit_Saxon_CMD_UK
 )
 
 Descriptor_StrategicPack_FV432_UK_Rifles_UK_2 is DeckPackDescriptor

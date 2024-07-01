@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par EffectNDFFileWriter
 
 
 export UnitEffect_A_BonusType_Calcul is TEffectsPackDescriptor
@@ -3659,16 +3659,6 @@ export UnitEffect_xp_trained_helo is TEffectsPackDescriptor
         (
             ModifierType  = ~/ModifierType_Multiplicatif
             ModifierValue = 0.8
-        ),
-        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
-        (
-            ModifierType  = ~/ModifierType_Additionnel
-            ModifierValue = 5
-        ),
-        TUnitEffectIncreaseWeaponPrecisionMouvementDescriptor
-        (
-            ModifierType  = ~/ModifierType_Additionnel
-            ModifierValue = 5
         ),
         TUnitEffectHealOverTimeDescriptor
         (

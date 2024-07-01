@@ -1176,30 +1176,6 @@ BUCKSpecificStrategicTacticalPreparationMainComponentDescriptor is BUCKListDescr
                     (
                         ComponentDescriptor = ConfirmButton
                         (
-                            TextToken = 'BtnBack'
-                            ElementName = 'BackButton'
-                            Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
-                            ButtonMagnifiableWidthHeight = [175.0, 35.0]
-                            ButtonAlignementToAnchor = [0.0, 0.0]
-                            ButtonAlignementToFather = [0.0, 0.0]
-                            ButtonMagnifiableOffset = [0.0, -10.0]
-                            TextTypefaceToken = "Liberator"
-                            TextColorToken = "tampon_gris"
-                            BorderLineColorToken = "tampon_gris"
-                            HasBackground = false
-                            BackgroundBlockColorToken = "loginBoutonBackground_cyan"
-                            TextSizeToken = "32"
-                            BorderThicknessToken = "3"
-                            BigLineAction = ~/BigLineAction/ResizeFont
-                            TextPadding = TRTTILength4( Magnifiable = [5.0, 0.0, 5.0, 0.0] )
-                            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                            LeftClickSound = ~/SoundEvent_SteelmanTacticPrepBack
-                        )
-                    ),
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = ConfirmButton
-                        (
                             TextToken = 'BtnBattle'
                             ElementName = 'StartButton'
                             Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
@@ -1218,29 +1194,6 @@ BUCKSpecificStrategicTacticalPreparationMainComponentDescriptor is BUCKListDescr
                             TextPadding = TRTTILength4( Magnifiable = [5.0, 0.0, 5.0, 0.0] )
                             TextDico = ~/LocalisationConstantes/dico_interface_ingame
                             LeftClickSound = ~/SoundEvent_SteelmanTacticPrepStart
-                        )
-                    ),
-                    BUCKListElementDescriptor
-                    (
-                        ComponentDescriptor = ConfirmButton
-                        (
-                            TextToken = "BtnMapOv"
-                            ElementName = "MapOverview"
-                            ButtonMagnifiableWidthHeight = [175.0, 35.0]
-                            ButtonAlignementToAnchor = [0.0, 0.0]
-                            ButtonAlignementToFather = [0.0, 0.0]
-                            ButtonMagnifiableOffset = [0.0, -10.0]
-                            TextTypefaceToken = "Liberator"
-                            TextColorToken = "tampon_gris"
-                            BorderLineColorToken = "tampon_gris"
-                            HasBackground = false
-                            BackgroundBlockColorToken = "loginBoutonBackground_cyan"
-                            TextSizeToken = "32"
-                            BorderThicknessToken = "3"
-                            BigLineAction = ~/BigLineAction/ResizeFont
-                            TextPadding = TRTTILength4( Magnifiable = [5.0, 0.0, 5.0, 0.0] )
-                            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                            LeftClickSound = ~/SoundEvent_SteelmanTacticShowMap
                         )
                     ),
                 ]
@@ -1289,7 +1242,6 @@ UISpecificStrategicTacticalPreparationViewDescriptor is TUISpecificStrategicTact
 
     PawnContainerDescriptor = ~/PawnContainer
     UnitInfoPanelViewDescriptor = UISpecificUnitInfoPanelViewDescriptor(MainComponentContainerUniqueName = "UnitPanelInfoContainerForTacticalPreparation")
-    ScenarioMapOverviewViewDescriptor = UIScenarioOverviewViewDescriptor
 
     ConfigurationMinMaxPercentage = [0.2, 0.8]
 

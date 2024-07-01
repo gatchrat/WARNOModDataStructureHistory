@@ -1,0 +1,105 @@
+//-------------------------------------------------------------------------
+//----------------------------- STRATEGY ----------------------------------
+//-------------------------------------------------------------------------
+
+export ChallengeAlamo_Side is TIAGeneralStrategy
+(
+    StrategyName = "AlaSideAI"
+    FirstGenerator = ChalAlamoSide_Choose_Strategy
+    AuthorizedCorridorList = [0]
+    AllowToByPassNbMacroActionAllowedToProduceSimultaneous = true
+    TransitionList =
+    [
+        ChalAlamoSide_Transition_StartToPhaseCommand,
+        ChalAlamoSide_Transition_StartToGeneric,
+        ChalAlamoSide_Transition_DeployToCommandPhase,
+    ]
+)
+
+//-------------------------------------------------------------------------
+//---------------------------- CONDITIONS ---------------------------------
+//-------------------------------------------------------------------------
+export ChalAlamoSide_Condition_GotoGeneric is TSequenceCondition_True
+(
+)
+//-------------------------------------------------------------------------
+export ChalAlamoSide_Condition_CommandPhase is TSequenceCondition_Phase
+(
+    PhaseType = CommandPhase
+)
+
+//-------------------------------------------------------------------------
+//--------------------------- TRANSITIONS ---------------------------------
+//-------------------------------------------------------------------------
+export ChalAlamoSide_Transition_StartToPhaseCommand is TIAGeneralStrategyTransition
+(
+    Origine = ChalAlamoSide_Choose_Strategy
+    Condition = ChalAlamoSide_Condition_CommandPhase
+    Destination = ChalAlamoSide_Phase_Command
+)
+export ChalAlamoSide_Transition_StartToGeneric is TIAGeneralStrategyTransition
+(
+    Origine = ChalAlamoSide_Choose_Strategy
+    Condition = ChalAlamoSide_Condition_GotoGeneric
+    Destination = ChalAlamoSide_Phase_Deploiement
+)
+//-------------------------------------------------------------------------
+export ChalAlamoSide_Transition_DeployToCommandPhase is TIAGeneralStrategyTransition
+(
+    Origine = ChalAlamoSide_Phase_Deploiement
+    Condition = ChalAlamoSide_Condition_CommandPhase
+    Destination = ChalAlamoSide_Phase_Command
+)
+
+//-------------------------------------------------------------------------
+//------------------------------ PHASES -----------------------------------
+//-------------------------------------------------------------------------
+export ChalAlamoSide_Choose_Strategy is TSequenceGeneratorDescriptor
+(
+    // Fake phase qui permet juste d'orienter la strategie dans la direction voulue
+    NbMacroActionAllowedToProduceSimultaneous = 9001
+    GeneratorList =
+    [
+        ~/Support_Transports,
+        ~/Supply_Skirmish,
+    ]
+)
+//-------------------------------------------------------------------------
+export ChalAlamoSide_Phase_Deploiement is TSequenceGeneratorDescriptor
+(
+    NbMacroActionAllowedToProduceSimultaneous = 4
+    GeneratorList =
+    [
+        ~/Support_Transports,
+        ~/Supply_Skirmish,
+
+        ~/Challenge_CaptureOneZoneObjectif_SpecInf,
+
+        ~/Challenge_Alamo_Side_Main_Attack,
+        ~/Challenge_Alamo_Side_Aux_Attack,
+    ]
+
+    ScalingGeneratorList = ~/ChalAlamo_Side_Scaling
+)
+//-------------------------------------------------------------------------
+export ChalAlamoSide_Phase_Command is TSequenceGeneratorDescriptor
+(
+    NbMacroActionAllowedToProduceSimultaneous = 3
+    GeneratorList =
+    [
+        ~/Support_Transports,
+        ~/Supply_Skirmish,
+
+        ~/Challenge_CaptureOneZoneObjectif_SpecInf,
+
+        ~/Challenge_Alamo_Side_Main_Attack,
+        ~/Challenge_Alamo_Side_Aux_Attack,
+    ]
+
+    ScalingGeneratorList = ~/ChalAlamo_Side_Scaling
+)
+
+ChalAlamo_Side_Scaling is
+[
+    ~/Challenge_Alamo_Side_Aux_Attack,
+]

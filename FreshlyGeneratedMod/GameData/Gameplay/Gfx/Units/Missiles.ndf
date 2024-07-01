@@ -12,7 +12,7 @@ is TIntroduceMobileHappening
     )
 )
 
-export template Template_DescriptorMissileBase
+template Template_DescriptorMissileBase
 [
     ProjectileModelResource,
     Actions,

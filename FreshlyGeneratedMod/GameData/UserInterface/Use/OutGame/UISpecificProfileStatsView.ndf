@@ -425,6 +425,16 @@ StatsPanelLevelList is BUCKListDescriptor
             )
         ),
 
+        // Playing time in tutorial
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "PlayingTimeInTutorial"
+                TextToken = "SP_PLYTUTO"
+            )
+        ),
+
         // Playing time in campaign
         BUCKListElementDescriptor
         (
@@ -432,6 +442,16 @@ StatsPanelLevelList is BUCKListDescriptor
             (
                 ElementName = "PlayingTimeInCampaign"
                 TextToken = "SP_PLYCAMP"
+            )
+        ),
+
+        // Playing time in operation
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "PlayingTimeInChallenge"
+                TextToken = "SP_PLYCHAL"
             )
         ),
 
@@ -482,6 +502,16 @@ StatsPanelLevelList is BUCKListDescriptor
             (
                 ElementName = "TotalTimeInArmory"
                 TextToken = "SP_PLYARMO"
+            )
+        ),
+
+        // Total Time in replay
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "TotalTimeInReplay"
+                TextToken = "SP_PLYRPL"
             )
         ),
     ]
@@ -1039,6 +1069,7 @@ StatsPanelCampaignMultiList is BUCKListDescriptor
             ComponentDescriptor = StatsPanelMultiListTitleLine
             (
                 ElementName = "SubtitleCampaign"
+                TitleToken = "SP_CMPT"
             )
         ),
 
@@ -1092,6 +1123,98 @@ StatsPanelCampaignMultiList is BUCKListDescriptor
                 TextToken = "SP_LSTPLY"
             )
         ),
+
+        // Title TacticalSteelman
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListTitleLine
+            (
+                ElementName = "SubtitleTacticalSteelman"
+                TitleToken = "SP_STST"
+            )
+        ),
+
+        // TacticalSteelman Matches
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "TacticalSteelmanMatches"
+                TextToken = "SP_TSTGAM"
+            )
+        ),
+
+        // TacticalSteelman Victories
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "TacticalSteelmanVictories"
+                TextToken = "SP_SKTVIC"
+            )
+        ),
+
+        // TacticalSteelman Defeats
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "TacticalSteelmanDefeats"
+                TextToken = "SP_SKTDEF"
+            )
+        ),
+
+        // TacticalSteelman Draws
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "TacticalSteelmanDraws"
+                TextToken = "SP_SKTDRA"
+            )
+        ),
+
+        // TacticalSteelman Ratio
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "TacticalSteelmanRatio"
+                TextToken = "SP_SKTRAT"
+            )
+        ),
+
+        // TacticalSteelman Game With NATO
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "TacticalSteelmanGameWithNATO"
+                TextToken = "SP_TSTNATO"
+            )
+        ),
+
+        // TacticalSteelman Game With PACT
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "TacticalSteelmanGameWithPACT"
+                TextToken = "SP_TSTPACT"
+            )
+        ),
+
+        // Last Multi Game Played
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = StatsPanelMultiListLine
+            (
+                ElementName = "TacticalSteelmanLastGamePlayed"
+                TextToken = "SP_LSTPLY"
+            )
+        ),
+
+
     ]
 )
 
@@ -1268,7 +1391,7 @@ private StatsButtons is BUCKListDescriptor
         MagnifiableWidthHeight = [0.0, 50.0]
         AlignementToFather = [0.5, 1.0]
         AlignementToAnchor = [0.5, 1.0]
-        MagnifiableOffset = [-32, -30.0]
+        MagnifiableOffset = [-26.0, -22.0]
     )
 
     Axis = ~/ListAxis/Horizontal

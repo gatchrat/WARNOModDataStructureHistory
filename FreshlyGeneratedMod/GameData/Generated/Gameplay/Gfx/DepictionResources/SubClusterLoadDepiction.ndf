@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par SubLoadDepictionFileWriter
 
 export TransactionGenerated is TNDFTransactionFileList
 (
@@ -59,7 +59,6 @@ export TransactionGenerated is TNDFTransactionFileList
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Towed/ATteam_RCL_SPG9_VDV_SOV.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/US/Towed/ATteam_TOW2_US.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/US/Towed/ATteam_TOW2_para_US.ndf',
-        'GameData:/Gameplay/Gfx/DepictionResources/US/Towed/ATteam_TOW_US.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/UK/Vehicule/Alvis_Stalwart_UK.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Towed/Atteam_Fagot_VDV_SOV.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Towed/Atteam_Konkurs_VDV_SOV.ndf',
@@ -101,8 +100,6 @@ export TransactionGenerated is TNDFTransactionFileList
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Char/BRM_1_SOV.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Char/BTR_50_CMD_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Char/BTR_50_DDR.ndf',
-        'GameData:/Gameplay/Gfx/DepictionResources/DDR/Vehicule/BTR_60_CHAIKA_CMD_DDR.ndf',
-        'GameData:/Gameplay/Gfx/DepictionResources/SOV/Vehicule/BTR_60_CHAIKA_CMD_SOV.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Vehicule/BTR_60_CMD_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Vehicule/BTR_60_CMD_SOV.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Vehicule/BTR_60_DDR.ndf',
@@ -335,7 +332,6 @@ export TransactionGenerated is TNDFTransactionFileList
         'GameData:/Gameplay/Gfx/DepictionResources/RFA/Towed/Mortier_Tampella_120mm_RFA.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Vehicule/Osa_9K33M3_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Vehicule/Osa_9K33M3_SOV.ndf',
-        'GameData:/Gameplay/Gfx/DepictionResources/DDR/Vehicule/PSzH_IV_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Char/PT76B_CMD_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Char/PT76B_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Char/PT76B_tank_DDR.ndf',
@@ -489,8 +485,8 @@ export TransactionGenerated is TNDFTransactionFileList
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Helico/Mi_24D_s5_AT_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Helico/Mi_24D_s8_AT_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Helico/Mi_24K_reco_SOV.ndf',
-        'GameData:/Gameplay/Gfx/DepictionResources/SOV/Helico/Mi_24P_AA_SOV.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Helico/Mi_24P_SOV.ndf',
+        'GameData:/Gameplay/Gfx/DepictionResources/TCH/Helico/Mi_24P_TCH.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Helico/Mi_24P_s8_AT2_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Helico/Mi_24P_s8_AT_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Helico/Mi_24VP_SOV.ndf',

@@ -1,16 +1,16 @@
 export Modele_VAB_FR is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VAB/VAB.Ase2NdfBin'
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VAB/VAB.fbx'
 )
 
 export Modele_VAB_FR_MID is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VAB_MID/VAB_MID.Ase2NdfBin'
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/VAB_MID/VAB_MID.fbx'
 )
 
 export Modele_VAB_FR_LOW is ModelDescriptor
 (
-    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/LODS/VAB_LOW.Ase2NdfBin'
+    FileName = 'GameData:/Assets/3D/Units/FR/Vehicule/LODS/VAB_LOW.fbx'
 )
 
 export Modele_VAB_FR_Tourelle_01 is ModelDescriptor

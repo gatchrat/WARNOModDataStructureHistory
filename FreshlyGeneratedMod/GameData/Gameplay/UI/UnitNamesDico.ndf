@@ -31,6 +31,5 @@ WargameUnitNames is TModernWarfareUnitNamesDico
         ("ROU", "NAMES_HON"),
         ("ESP", "NAMES_ESP"),
     ]
-    DefaultNameIfNotFound = "John Doe"
 )
 

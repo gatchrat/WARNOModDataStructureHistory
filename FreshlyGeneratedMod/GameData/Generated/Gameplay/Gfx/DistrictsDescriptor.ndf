@@ -1,4 +1,4 @@
-// Ne pas éditer, ce fichier est auto-généré !
+// Ne pas éditer, ce fichier est généré par DistrictDescriptorFileWriter_Specific
 
 
 export Descriptor_District_Big_District is TEntityDescriptor(
@@ -45,7 +45,6 @@ export Descriptor_District_Big_District is TEntityDescriptor(
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 5.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = True
@@ -114,7 +113,6 @@ export Descriptor_District_HLM_District is TEntityDescriptor(
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = False
-            HitRollSize = 5.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = True
@@ -183,7 +181,6 @@ export Descriptor_District_Mid_District is TEntityDescriptor(
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 5.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = True
@@ -252,7 +249,6 @@ export Descriptor_District_Small_District is TEntityDescriptor(
                 ExplosiveReactiveArmor = False
             )
             KillWhenDamagesReachMax = True
-            HitRollSize = 5.0
             HitRollECM = 0.0
             AutoOrientation = False
             UseTopArmorAgainstFire = True
