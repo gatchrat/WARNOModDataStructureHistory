@@ -1,0 +1,35 @@
+unnamed TLocalisationDicoResource
+(
+    DicoToken = ~/LocalisationConstantes/dico_units
+    FileName = 'GameData:/Localisation/FreshlyGeneratedMod/UNITS.csv'
+    CanBeMissing = true
+)
+
+unnamed TLocalisationDicoResource
+(
+    DicoToken = ~/LocalisationConstantes/dico_companies
+    FileName = 'GameData:/Localisation/FreshlyGeneratedMod/COMPANIES.csv'
+    CanBeMissing = true
+)
+
+unnamed TLocalisationDicoResource
+(
+    DicoToken = ~/LocalisationConstantes/dico_platoons
+    FileName = 'GameData:/Localisation/FreshlyGeneratedMod/PLATOONS.csv'
+    CanBeMissing = true
+)
+
+unnamed TLocalisationDicoResource
+(
+    DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+    FileName = 'GameData:/Localisation/FreshlyGeneratedMod/INTERFACE_INGAME.csv'
+    CanBeMissing = true
+)
+
+unnamed TLocalisationDicoResource
+(
+    DicoToken = ~/LocalisationConstantes/dico_interface_outgame
+    FileName = 'GameData:/Localisation/FreshlyGeneratedMod/INTERFACE_OUTGAME.csv'
+    CanBeMissing = true
+)
+

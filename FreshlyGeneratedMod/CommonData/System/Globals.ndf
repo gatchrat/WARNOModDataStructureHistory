@@ -174,13 +174,6 @@ WindowMode is TBaseClass
 )
 
 //-----------------------------------------------------------------------------
-// doit matcher avec l'enum TPixelFormatSupportFlag de Core3D/PixelFormatInfo.h
-PixelFormatSupportFlag is TBaseClass
-(
-    Texture is 1
-)
-
-//-----------------------------------------------------------------------------
 // doit matcher avec Core3D/RenderState.h
 WrapMode is TBaseClass
 (
@@ -399,28 +392,6 @@ CommandName is TBaseClass
 RSP_DecompressedBufferResourceThreshold is 5000*42
 
 //-----------------------------------------------------------------------------
-ResourceLoadType is TBaseClass // doit matcher avec TResourceLoadType
-(
-    Synchrone is 0
-    Asynchrone is 1
-    Skeleton is 2
-)
-
-TypeMask is TBaseClass // namespace
-(
-    Common           is  0x1
-
-    // flags juste pour les pack de Texture
-    BuildMenu        is 0x2
-    EndGameScreen    is 0x4
-    DebugScreen      is 0x8
-    FX               is 0x10
-    PCInterface      is 0x40
-    InGameInterface  is 0x80
-    OutGameInterface is 0x100
-    LoadingScreen    is 0x400
-)
-
 OneMeterInGameUnits is 215 //Francis (21/12/21) A virer ASAP
 
 CaseSplitCount is TBaseClass

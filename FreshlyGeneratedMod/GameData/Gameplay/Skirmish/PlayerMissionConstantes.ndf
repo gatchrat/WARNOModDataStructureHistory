@@ -211,9 +211,6 @@ export PlayerMissionDescriptor_Stop is TPlayerMissionDescriptor(
 ///////////////////////////////////////////////////////////////////////////////////////////
 export PlayerMissionDescriptorList is TPlayerMissionConstantesDescriptor
 (
-    StartFadeAlphaAfterTimeInSeconds = 0.5 // secondes
-    AlphaFadeDurationInSeconds = 2.0 // secondes
-
     PlayerMissionDescriptorByType = MAP[
         (
             EPlayerMissionRequestType_Seize,
@@ -298,6 +295,8 @@ export PlayerMissionDescriptorList is TPlayerMissionConstantesDescriptor
             )
         ),
     ]
+
+    MaxCustomZoneDistanceForSimilar = 830.0 * Metre
 )
 ///////////////////////////////////////////////////////////////////////////////////////////
 // FEEDBACK
@@ -328,4 +327,7 @@ PlayerMissionFeedbackDescriptor is TUIPlayerMissionConstantesDescriptor
                          )
         ),
     ]
+
+    StartFadeAlphaAfterTimeInSeconds = 0.5 // secondes
+    AlphaFadeDurationInSeconds = 2.0 // secondes
 )

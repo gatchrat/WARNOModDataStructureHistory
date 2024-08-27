@@ -104,7 +104,6 @@ private ArmoryCategoryButtonDescriptor is BUCKButtonDescriptor
 private template CategoryFiltersMainRack
 [
     ElementNamePrefix : string,
-    CategoryTextToken : string,
     TextureColorToken : string = "GrisOnglet_armory",
     MagnifiableWidthHeight : float2 = [40.0, 40.0],
     MagnifiableWidthHeight_button : float2 = [28.0, 28.0],
@@ -443,7 +442,7 @@ ArmoryDivisionFilterButtonDescriptor is BUCKButtonDescriptor
         BUCKSpecificHintableArea
         (
             ElementName = "FilterHintableArea"
-            DicoToken = ~/LocalisationConstantes/dico_unites
+            DicoToken = ~/LocalisationConstantes/dico_units
         )
     ]
 )
@@ -1071,7 +1070,6 @@ ShowroomVerticalFilterBarContainer is PanelRoundedCorner
                         MagnifiableWidthHeight_button = [40.0, 40.0]
                         MagnifiableWidthHeight = [40.0, 40.0]
 
-                        CategoryTextToken = "DES_TYPE"
                         TextureColorToken = "MarronPanel_noir2"
                     )
                 ),
@@ -1084,7 +1082,6 @@ ShowroomVerticalFilterBarContainer is PanelRoundedCorner
                     ComponentDescriptor = CategoryFiltersMainRack
                     (
                         ElementNamePrefix = "Role"
-                        CategoryTextToken = "DES_ROLE"
                         MagnifiableWidthHeight = [20.0, 20.0]
                         TextureColorToken = "Bouton_puissance"
                     )

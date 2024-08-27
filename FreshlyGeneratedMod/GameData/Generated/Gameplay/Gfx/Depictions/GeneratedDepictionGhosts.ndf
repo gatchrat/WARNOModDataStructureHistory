@@ -1,6 +1,11 @@
 // Ne pas éditer, ce fichier est généré par DepictionGhostsFileWriter
 
 
+GhostDepiction_2K11_KRUG_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_2K11_KRUG_DDR
+    Alternatives = Alternatives_2K11_KRUG_DDR
+)
 GhostDepiction_2K12_KUB_DDR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_2K12_KUB_DDR
@@ -60,6 +65,11 @@ GhostDepiction_81mm_mortar_Aero_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_81mm_mortar_Aero_US
     Alternatives = Alternatives_81mm_mortar_Aero_US
+)
+GhostDepiction_81mm_mortar_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_81mm_mortar_NG_US
+    Alternatives = Alternatives_81mm_mortar_NG_US
 )
 GhostDepiction_81mm_mortar_UK is GhostVehicleDepictionTemplate
 (
@@ -246,6 +256,11 @@ GhostDepiction_AT_ZiS2_57mm_DDR is GhostVehicleDepictionTemplate
     Selector = Selector_AT_ZiS2_57mm_DDR
     Alternatives = Alternatives_AT_ZiS2_57mm_DDR
 )
+GhostDepiction_AT_vz52_85mm_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_AT_vz52_85mm_DDR
+    Alternatives = Alternatives_AT_vz52_85mm_DDR
+)
 GhostDepiction_ATteam_Fagot_DDR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_ATteam_Fagot_DDR
@@ -260,6 +275,11 @@ GhostDepiction_ATteam_Fagot_SOV is GhostVehicleDepictionTemplate
 (
     Selector = Selector_ATteam_Fagot_SOV
     Alternatives = Alternatives_ATteam_Fagot_SOV
+)
+GhostDepiction_ATteam_ITOW_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_ATteam_ITOW_NG_US
+    Alternatives = Alternatives_ATteam_ITOW_NG_US
 )
 GhostDepiction_ATteam_ITOW_US is GhostVehicleDepictionTemplate
 (
@@ -345,6 +365,11 @@ GhostDepiction_ATteam_Milan_2_para_UK is GhostVehicleDepictionTemplate
 (
     Selector = Selector_ATteam_Milan_2_para_UK
     Alternatives = Alternatives_ATteam_Milan_2_para_UK
+)
+GhostDepiction_ATteam_RCL_M40A1_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_ATteam_RCL_M40A1_NG_US
+    Alternatives = Alternatives_ATteam_RCL_M40A1_NG_US
 )
 GhostDepiction_ATteam_RCL_M40A1_RFA is GhostVehicleDepictionTemplate
 (
@@ -566,6 +591,11 @@ GhostDepiction_BMP_3_SOV is GhostVehicleDepictionTemplate
     Selector = Selector_BMP_3_SOV
     Alternatives = Alternatives_BMP_3_SOV
 )
+GhostDepiction_BRDM_1_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_BRDM_1_DDR
+    Alternatives = Alternatives_BRDM_1_DDR
+)
 GhostDepiction_BRDM_2_CMD_DDR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_BRDM_2_CMD_DDR
@@ -626,6 +656,11 @@ GhostDepiction_BRM_1_SOV is GhostVehicleDepictionTemplate
     Selector = Selector_BRM_1_SOV
     Alternatives = Alternatives_BRM_1_SOV
 )
+GhostDepiction_BTR_152A_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_BTR_152A_DDR
+    Alternatives = Alternatives_BTR_152A_DDR
+)
 GhostDepiction_BTR_50_CMD_DDR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_BTR_50_CMD_DDR
@@ -635,6 +670,16 @@ GhostDepiction_BTR_50_DDR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_BTR_50_DDR
     Alternatives = Alternatives_BTR_50_DDR
+)
+GhostDepiction_BTR_50_MRF_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_BTR_50_MRF_DDR
+    Alternatives = Alternatives_BTR_50_MRF_DDR
+)
+GhostDepiction_BTR_60_CHAIKA_CMD_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_BTR_60_CHAIKA_CMD_DDR
+    Alternatives = Alternatives_BTR_60_CHAIKA_CMD_DDR
 )
 GhostDepiction_BTR_60_CHAIKA_CMD_SOV is GhostVehicleDepictionTemplate
 (
@@ -781,6 +826,16 @@ GhostDepiction_DCA_53T2_20mm_Para_FR is GhostVehicleDepictionTemplate
     Selector = Selector_DCA_53T2_20mm_Para_FR
     Alternatives = Alternatives_DCA_53T2_20mm_Para_FR
 )
+GhostDepiction_DCA_AZP_S60_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_DCA_AZP_S60_DDR
+    Alternatives = Alternatives_DCA_AZP_S60_DDR
+)
+GhostDepiction_DCA_FASTA_4_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_DCA_FASTA_4_DDR
+    Alternatives = Alternatives_DCA_FASTA_4_DDR
+)
 GhostDepiction_DCA_FK20_2_20mm_RFA is GhostVehicleDepictionTemplate
 (
     Selector = Selector_DCA_FK20_2_20mm_RFA
@@ -816,6 +871,11 @@ GhostDepiction_DCA_Javelin_LML_UK is GhostVehicleDepictionTemplate
     Selector = Selector_DCA_Javelin_LML_UK
     Alternatives = Alternatives_DCA_Javelin_LML_UK
 )
+GhostDepiction_DCA_KS19_100mm_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_DCA_KS19_100mm_DDR
+    Alternatives = Alternatives_DCA_KS19_100mm_DDR
+)
 GhostDepiction_DCA_M167A2_Vulcan_20mm_Aero_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_DCA_M167A2_Vulcan_20mm_Aero_US
@@ -850,6 +910,11 @@ GhostDepiction_DCA_Rapier_UK is GhostVehicleDepictionTemplate
 (
     Selector = Selector_DCA_Rapier_UK
     Alternatives = Alternatives_DCA_Rapier_UK
+)
+GhostDepiction_DCA_XMIM_115A_Roland_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_DCA_XMIM_115A_Roland_US
+    Alternatives = Alternatives_DCA_XMIM_115A_Roland_US
 )
 GhostDepiction_DCA_ZPU4_DDR is GhostVehicleDepictionTemplate
 (
@@ -1181,6 +1246,11 @@ GhostDepiction_HMGteam_M2HB_FR is GhostVehicleDepictionTemplate
     Selector = Selector_HMGteam_M2HB_FR
     Alternatives = Alternatives_HMGteam_M2HB_FR
 )
+GhostDepiction_HMGteam_M2HB_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_HMGteam_M2HB_NG_US
+    Alternatives = Alternatives_HMGteam_M2HB_NG_US
+)
 GhostDepiction_HMGteam_M2HB_UK is GhostVehicleDepictionTemplate
 (
     Selector = Selector_HMGteam_M2HB_UK
@@ -1446,6 +1516,11 @@ GhostDepiction_LAV_25_M1047_US_US is GhostVehicleDepictionTemplate
     Selector = Selector_LAV_25_M1047_US_US
     Alternatives = Alternatives_LAV_25_M1047_US_US
 )
+GhostDepiction_LO_1800_FASTA_4_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_LO_1800_FASTA_4_DDR
+    Alternatives = Alternatives_LO_1800_FASTA_4_DDR
+)
 GhostDepiction_LUAZ_967M_AGL_SOV is GhostVehicleDepictionTemplate
 (
     Selector = Selector_LUAZ_967M_AGL_SOV
@@ -1586,6 +1661,11 @@ GhostDepiction_M1025_Humvee_CMD_para_US is GhostVehicleDepictionTemplate
     Selector = Selector_M1025_Humvee_CMD_para_US
     Alternatives = Alternatives_M1025_Humvee_CMD_para_US
 )
+GhostDepiction_M1025_Humvee_MP_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M1025_Humvee_MP_US
+    Alternatives = Alternatives_M1025_Humvee_MP_US
+)
 GhostDepiction_M1025_Humvee_TOW_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M1025_Humvee_TOW_US
@@ -1615,6 +1695,11 @@ GhostDepiction_M106A2_HOWZ_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M106A2_HOWZ_US
     Alternatives = Alternatives_M106A2_HOWZ_US
+)
+GhostDepiction_M106A2_Howz_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M106A2_Howz_NG_US
+    Alternatives = Alternatives_M106A2_Howz_NG_US
 )
 GhostDepiction_M107A2_175mm_UK is GhostVehicleDepictionTemplate
 (
@@ -1656,6 +1741,11 @@ GhostDepiction_M110A2_HOWZ_US is GhostVehicleDepictionTemplate
     Selector = Selector_M110A2_HOWZ_US
     Alternatives = Alternatives_M110A2_HOWZ_US
 )
+GhostDepiction_M110A2_Howz_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M110A2_Howz_NG_US
+    Alternatives = Alternatives_M110A2_Howz_NG_US
+)
 GhostDepiction_M110A2_Howz_RFA is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M110A2_Howz_RFA
@@ -1696,10 +1786,20 @@ GhostDepiction_M113A1G_supply_RFA is GhostVehicleDepictionTemplate
     Selector = Selector_M113A1G_supply_RFA
     Alternatives = Alternatives_M113A1G_supply_RFA
 )
+GhostDepiction_M113A1_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M113A1_NG_US
+    Alternatives = Alternatives_M113A1_NG_US
+)
 GhostDepiction_M113A1_TOW_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M113A1_TOW_US
     Alternatives = Alternatives_M113A1_TOW_US
+)
+GhostDepiction_M113A2_TOW_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M113A2_TOW_US
+    Alternatives = Alternatives_M113A2_TOW_US
 )
 GhostDepiction_M113A2_supply_US is GhostVehicleDepictionTemplate
 (
@@ -1710,6 +1810,11 @@ GhostDepiction_M113A3_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M113A3_US
     Alternatives = Alternatives_M113A3_US
+)
+GhostDepiction_M113_ACAV_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M113_ACAV_NG_US
+    Alternatives = Alternatives_M113_ACAV_NG_US
 )
 GhostDepiction_M113_ACAV_US is GhostVehicleDepictionTemplate
 (
@@ -1735,6 +1840,11 @@ GhostDepiction_M113_PzMorser_RFA is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M113_PzMorser_RFA
     Alternatives = Alternatives_M113_PzMorser_RFA
+)
+GhostDepiction_M125_HOWZ_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M125_HOWZ_NG_US
+    Alternatives = Alternatives_M125_HOWZ_NG_US
 )
 GhostDepiction_M125_HOWZ_US is GhostVehicleDepictionTemplate
 (
@@ -1921,6 +2031,11 @@ GhostDepiction_M3A2_Bradley_CFV_US is GhostVehicleDepictionTemplate
     Selector = Selector_M3A2_Bradley_CFV_US
     Alternatives = Alternatives_M3A2_Bradley_CFV_US
 )
+GhostDepiction_M42_Duster_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M42_Duster_US
+    Alternatives = Alternatives_M42_Duster_US
+)
 GhostDepiction_M48A2C_RFA is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M48A2C_RFA
@@ -1971,20 +2086,60 @@ GhostDepiction_M577_US is GhostVehicleDepictionTemplate
     Selector = Selector_M577_US
     Alternatives = Alternatives_M577_US
 )
+GhostDepiction_M60A1_AVLM_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M60A1_AVLM_US
+    Alternatives = Alternatives_M60A1_AVLM_US
+)
+GhostDepiction_M60A1_RISE_Passive_CMD_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M60A1_RISE_Passive_CMD_US
+    Alternatives = Alternatives_M60A1_RISE_Passive_CMD_US
+)
+GhostDepiction_M60A1_RISE_Passive_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M60A1_RISE_Passive_US
+    Alternatives = Alternatives_M60A1_RISE_Passive_US
+)
+GhostDepiction_M60A1_RISE_Passive_reco_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M60A1_RISE_Passive_reco_US
+    Alternatives = Alternatives_M60A1_RISE_Passive_reco_US
+)
 GhostDepiction_M60A3_CMD_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M60A3_CMD_US
     Alternatives = Alternatives_M60A3_CMD_US
+)
+GhostDepiction_M60A3_ERA_Patton_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M60A3_ERA_Patton_US
+    Alternatives = Alternatives_M60A3_ERA_Patton_US
+)
+GhostDepiction_M60A3_Patton_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M60A3_Patton_NG_US
+    Alternatives = Alternatives_M60A3_Patton_NG_US
 )
 GhostDepiction_M60A3_Patton_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M60A3_Patton_US
     Alternatives = Alternatives_M60A3_Patton_US
 )
+GhostDepiction_M728_CEV_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M728_CEV_NG_US
+    Alternatives = Alternatives_M728_CEV_NG_US
+)
 GhostDepiction_M728_CEV_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_M728_CEV_US
     Alternatives = Alternatives_M728_CEV_US
+)
+GhostDepiction_M812_supply_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_M812_supply_US
+    Alternatives = Alternatives_M812_supply_US
 )
 GhostDepiction_M901A1_ITW_US is GhostVehicleDepictionTemplate
 (
@@ -2161,6 +2316,11 @@ GhostDepiction_Mortier_107mm_BEL is GhostVehicleDepictionTemplate
     Selector = Selector_Mortier_107mm_BEL
     Alternatives = Alternatives_Mortier_107mm_BEL
 )
+GhostDepiction_Mortier_107mm_NG_US is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_Mortier_107mm_NG_US
+    Alternatives = Alternatives_Mortier_107mm_NG_US
+)
 GhostDepiction_Mortier_107mm_US is GhostVehicleDepictionTemplate
 (
     Selector = Selector_Mortier_107mm_US
@@ -2256,6 +2416,11 @@ GhostDepiction_Mortier_Tampella_120mm_RFA is GhostVehicleDepictionTemplate
     Selector = Selector_Mortier_Tampella_120mm_RFA
     Alternatives = Alternatives_Mortier_Tampella_120mm_RFA
 )
+GhostDepiction_OT_62_TOPAS_POL is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_OT_62_TOPAS_POL
+    Alternatives = Alternatives_OT_62_TOPAS_POL
+)
 GhostDepiction_OT_65_DDR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_OT_65_DDR
@@ -2291,6 +2456,11 @@ GhostDepiction_PT76B_tank_DDR is GhostVehicleDepictionTemplate
     Selector = Selector_PT76B_tank_DDR
     Alternatives = Alternatives_PT76B_tank_DDR
 )
+GhostDepiction_PTS_M_supply_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_PTS_M_supply_DDR
+    Alternatives = Alternatives_PTS_M_supply_DDR
+)
 GhostDepiction_RCL_L6_Wombat_UK is GhostVehicleDepictionTemplate
 (
     Selector = Selector_RCL_L6_Wombat_UK
@@ -2321,6 +2491,11 @@ GhostDepiction_SPW_152K_DDR is GhostVehicleDepictionTemplate
     Selector = Selector_SPW_152K_DDR
     Alternatives = Alternatives_SPW_152K_DDR
 )
+GhostDepiction_SVO_TCH is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_SVO_TCH
+    Alternatives = Alternatives_SVO_TCH
+)
 GhostDepiction_Saxon_CMD_UK is GhostVehicleDepictionTemplate
 (
     Selector = Selector_Saxon_CMD_UK
@@ -2340,6 +2515,11 @@ GhostDepiction_Sonderwagen_4_recon_RFA is GhostVehicleDepictionTemplate
 (
     Selector = Selector_Sonderwagen_4_recon_RFA
     Alternatives = Alternatives_Sonderwagen_4_recon_RFA
+)
+GhostDepiction_Star_266_POL is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_Star_266_POL
+    Alternatives = Alternatives_Star_266_POL
 )
 GhostDepiction_T34_85M_DDR is GhostVehicleDepictionTemplate
 (
@@ -2370,6 +2550,11 @@ GhostDepiction_T55AM2_DDR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_T55AM2_DDR
     Alternatives = Alternatives_T55AM2_DDR
+)
+GhostDepiction_T55AM_Merida_POL is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_T55AM_Merida_POL
+    Alternatives = Alternatives_T55AM_Merida_POL
 )
 GhostDepiction_T55A_CMD_DDR is GhostVehicleDepictionTemplate
 (
@@ -2831,6 +3016,11 @@ GhostDepiction_Volvo_N10_supply_BEL is GhostVehicleDepictionTemplate
     Selector = Selector_Volvo_N10_supply_BEL
     Alternatives = Alternatives_Volvo_N10_supply_BEL
 )
+GhostDepiction_W50_LA_A_25mm_DDR is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_W50_LA_A_25mm_DDR
+    Alternatives = Alternatives_W50_LA_A_25mm_DDR
+)
 GhostDepiction_W50_LA_A_DDR is GhostVehicleDepictionTemplate
 (
     Selector = Selector_W50_LA_A_DDR
@@ -2862,6 +3052,7 @@ GhostDepiction_ZSU_57_2_DDR is GhostVehicleDepictionTemplate
     Alternatives = Alternatives_ZSU_57_2_DDR
 )
 VehicleMimeticGhost is MAP[
+  ( '2K11_KRUG_DDR', GhostDepiction_2K11_KRUG_DDR ),
   ( '2K12_KUB_DDR', GhostDepiction_2K12_KUB_DDR ),
   ( '2K12_KUB_SOV', GhostDepiction_2K12_KUB_SOV ),
   ( '2S1_DDR', GhostDepiction_2S1_DDR ),
@@ -2874,6 +3065,7 @@ VehicleMimeticGhost is MAP[
   ( '2S7M_Malka_SOV', GhostDepiction_2S7M_Malka_SOV ),
   ( '2S9_Nona_SOV', GhostDepiction_2S9_Nona_SOV ),
   ( '81mm_mortar_Aero_US', GhostDepiction_81mm_mortar_Aero_US ),
+  ( '81mm_mortar_NG_US', GhostDepiction_81mm_mortar_NG_US ),
   ( '81mm_mortar_UK', GhostDepiction_81mm_mortar_UK ),
   ( '81mm_mortar_US', GhostDepiction_81mm_mortar_US ),
   ( 'AIFV_B_50_BEL', GhostDepiction_AIFV_B_50_BEL ),
@@ -2911,9 +3103,11 @@ VehicleMimeticGhost is MAP[
   ( 'AT_T12_Rapira_DDR', GhostDepiction_AT_T12_Rapira_DDR ),
   ( 'AT_T12_Rapira_SOV', GhostDepiction_AT_T12_Rapira_SOV ),
   ( 'AT_ZiS2_57mm_DDR', GhostDepiction_AT_ZiS2_57mm_DDR ),
+  ( 'AT_vz52_85mm_DDR', GhostDepiction_AT_vz52_85mm_DDR ),
   ( 'ATteam_Fagot_DDR', GhostDepiction_ATteam_Fagot_DDR ),
   ( 'ATteam_Fagot_FJ_DDR', GhostDepiction_ATteam_Fagot_FJ_DDR ),
   ( 'ATteam_Fagot_SOV', GhostDepiction_ATteam_Fagot_SOV ),
+  ( 'ATteam_ITOW_NG_US', GhostDepiction_ATteam_ITOW_NG_US ),
   ( 'ATteam_ITOW_US', GhostDepiction_ATteam_ITOW_US ),
   ( 'ATteam_KonkursM_TTsko_SOV', GhostDepiction_ATteam_KonkursM_TTsko_SOV ),
   ( 'ATteam_Konkurs_DDR', GhostDepiction_ATteam_Konkurs_DDR ),
@@ -2931,6 +3125,7 @@ VehicleMimeticGhost is MAP[
   ( 'ATteam_Milan_2_para_FR', GhostDepiction_ATteam_Milan_2_para_FR ),
   ( 'ATteam_Milan_2_para_RFA', GhostDepiction_ATteam_Milan_2_para_RFA ),
   ( 'ATteam_Milan_2_para_UK', GhostDepiction_ATteam_Milan_2_para_UK ),
+  ( 'ATteam_RCL_M40A1_NG_US', GhostDepiction_ATteam_RCL_M40A1_NG_US ),
   ( 'ATteam_RCL_M40A1_RFA', GhostDepiction_ATteam_RCL_M40A1_RFA ),
   ( 'ATteam_RCL_SPG9_DDR', GhostDepiction_ATteam_RCL_SPG9_DDR ),
   ( 'ATteam_RCL_SPG9_DShV_SOV', GhostDepiction_ATteam_RCL_SPG9_DShV_SOV ),
@@ -2975,6 +3170,7 @@ VehicleMimeticGhost is MAP[
   ( 'BMP_2_SOV', GhostDepiction_BMP_2_SOV ),
   ( 'BMP_2_reco_SOV', GhostDepiction_BMP_2_reco_SOV ),
   ( 'BMP_3_SOV', GhostDepiction_BMP_3_SOV ),
+  ( 'BRDM_1_DDR', GhostDepiction_BRDM_1_DDR ),
   ( 'BRDM_2_CMD_DDR', GhostDepiction_BRDM_2_CMD_DDR ),
   ( 'BRDM_2_CMD_SOV', GhostDepiction_BRDM_2_CMD_SOV ),
   ( 'BRDM_2_DDR', GhostDepiction_BRDM_2_DDR ),
@@ -2987,8 +3183,11 @@ VehicleMimeticGhost is MAP[
   ( 'BRDM_Strela_1_SOV', GhostDepiction_BRDM_Strela_1_SOV ),
   ( 'BRM_1_DDR', GhostDepiction_BRM_1_DDR ),
   ( 'BRM_1_SOV', GhostDepiction_BRM_1_SOV ),
+  ( 'BTR_152A_DDR', GhostDepiction_BTR_152A_DDR ),
   ( 'BTR_50_CMD_DDR', GhostDepiction_BTR_50_CMD_DDR ),
   ( 'BTR_50_DDR', GhostDepiction_BTR_50_DDR ),
+  ( 'BTR_50_MRF_DDR', GhostDepiction_BTR_50_MRF_DDR ),
+  ( 'BTR_60_CHAIKA_CMD_DDR', GhostDepiction_BTR_60_CHAIKA_CMD_DDR ),
   ( 'BTR_60_CHAIKA_CMD_SOV', GhostDepiction_BTR_60_CHAIKA_CMD_SOV ),
   ( 'BTR_60_CMD_DDR', GhostDepiction_BTR_60_CMD_DDR ),
   ( 'BTR_60_CMD_SOV', GhostDepiction_BTR_60_CMD_SOV ),
@@ -3018,6 +3217,8 @@ VehicleMimeticGhost is MAP[
   ( 'Challenger_1_Mk3_UK', GhostDepiction_Challenger_1_Mk3_UK ),
   ( 'DCA_53T2_20mm_FR', GhostDepiction_DCA_53T2_20mm_FR ),
   ( 'DCA_53T2_20mm_Para_FR', GhostDepiction_DCA_53T2_20mm_Para_FR ),
+  ( 'DCA_AZP_S60_DDR', GhostDepiction_DCA_AZP_S60_DDR ),
+  ( 'DCA_FASTA_4_DDR', GhostDepiction_DCA_FASTA_4_DDR ),
   ( 'DCA_FK20_2_20mm_RFA', GhostDepiction_DCA_FK20_2_20mm_RFA ),
   ( 'DCA_FK20_2_20mm_Zwillinge_RFA', GhostDepiction_DCA_FK20_2_20mm_Zwillinge_RFA ),
   ( 'DCA_I_Hawk_BEL', GhostDepiction_DCA_I_Hawk_BEL ),
@@ -3025,6 +3226,7 @@ VehicleMimeticGhost is MAP[
   ( 'DCA_I_Hawk_US', GhostDepiction_DCA_I_Hawk_US ),
   ( 'DCA_I_Hawk_capture_DDR', GhostDepiction_DCA_I_Hawk_capture_DDR ),
   ( 'DCA_Javelin_LML_UK', GhostDepiction_DCA_Javelin_LML_UK ),
+  ( 'DCA_KS19_100mm_DDR', GhostDepiction_DCA_KS19_100mm_DDR ),
   ( 'DCA_M167A2_Vulcan_20mm_Aero_US', GhostDepiction_DCA_M167A2_Vulcan_20mm_Aero_US ),
   ( 'DCA_M167A2_Vulcan_20mm_US', GhostDepiction_DCA_M167A2_Vulcan_20mm_US ),
   ( 'DCA_M167_Vulcan_20mm_BEL', GhostDepiction_DCA_M167_Vulcan_20mm_BEL ),
@@ -3032,6 +3234,7 @@ VehicleMimeticGhost is MAP[
   ( 'DCA_M167_Vulcan_20mm_nonPara_US', GhostDepiction_DCA_M167_Vulcan_20mm_nonPara_US ),
   ( 'DCA_Rapier_FSA_UK', GhostDepiction_DCA_Rapier_FSA_UK ),
   ( 'DCA_Rapier_UK', GhostDepiction_DCA_Rapier_UK ),
+  ( 'DCA_XMIM_115A_Roland_US', GhostDepiction_DCA_XMIM_115A_Roland_US ),
   ( 'DCA_ZPU4_DDR', GhostDepiction_DCA_ZPU4_DDR ),
   ( 'DCA_ZU_23_2_DDR', GhostDepiction_DCA_ZU_23_2_DDR ),
   ( 'DCA_ZU_23_2_SOV', GhostDepiction_DCA_ZU_23_2_SOV ),
@@ -3098,6 +3301,7 @@ VehicleMimeticGhost is MAP[
   ( 'HMGteam_M2HB_Aero_US', GhostDepiction_HMGteam_M2HB_Aero_US ),
   ( 'HMGteam_M2HB_BEL', GhostDepiction_HMGteam_M2HB_BEL ),
   ( 'HMGteam_M2HB_FR', GhostDepiction_HMGteam_M2HB_FR ),
+  ( 'HMGteam_M2HB_NG_US', GhostDepiction_HMGteam_M2HB_NG_US ),
   ( 'HMGteam_M2HB_UK', GhostDepiction_HMGteam_M2HB_UK ),
   ( 'HMGteam_M2HB_US', GhostDepiction_HMGteam_M2HB_US ),
   ( 'HMGteam_M2HB_para_FR', GhostDepiction_HMGteam_M2HB_para_FR ),
@@ -3151,6 +3355,7 @@ VehicleMimeticGhost is MAP[
   ( 'KrAZ_255B_SOV', GhostDepiction_KrAZ_255B_SOV ),
   ( 'KrAZ_255B_supply_SOV', GhostDepiction_KrAZ_255B_supply_SOV ),
   ( 'LAV_25_M1047_US_US', GhostDepiction_LAV_25_M1047_US_US ),
+  ( 'LO_1800_FASTA_4_DDR', GhostDepiction_LO_1800_FASTA_4_DDR ),
   ( 'LUAZ_967M_AGL_SOV', GhostDepiction_LUAZ_967M_AGL_SOV ),
   ( 'LUAZ_967M_Fagot_SOV', GhostDepiction_LUAZ_967M_Fagot_SOV ),
   ( 'LUAZ_967M_SOV', GhostDepiction_LUAZ_967M_SOV ),
@@ -3179,12 +3384,14 @@ VehicleMimeticGhost is MAP[
   ( 'M1025_Humvee_AGL_nonPara_US', GhostDepiction_M1025_Humvee_AGL_nonPara_US ),
   ( 'M1025_Humvee_CMD_US', GhostDepiction_M1025_Humvee_CMD_US ),
   ( 'M1025_Humvee_CMD_para_US', GhostDepiction_M1025_Humvee_CMD_para_US ),
+  ( 'M1025_Humvee_MP_US', GhostDepiction_M1025_Humvee_MP_US ),
   ( 'M1025_Humvee_TOW_US', GhostDepiction_M1025_Humvee_TOW_US ),
   ( 'M1025_Humvee_TOW_para_US', GhostDepiction_M1025_Humvee_TOW_para_US ),
   ( 'M1025_Humvee_scout_US', GhostDepiction_M1025_Humvee_scout_US ),
   ( 'M1025_Humvee_scout_tuto_US', GhostDepiction_M1025_Humvee_scout_tuto_US ),
   ( 'M1038_Humvee_US', GhostDepiction_M1038_Humvee_US ),
   ( 'M106A2_HOWZ_US', GhostDepiction_M106A2_HOWZ_US ),
+  ( 'M106A2_Howz_NG_US', GhostDepiction_M106A2_Howz_NG_US ),
   ( 'M107A2_175mm_UK', GhostDepiction_M107A2_175mm_UK ),
   ( 'M109A2_BEL', GhostDepiction_M109A2_BEL ),
   ( 'M109A2_HOWZ_US', GhostDepiction_M109A2_HOWZ_US ),
@@ -3193,6 +3400,7 @@ VehicleMimeticGhost is MAP[
   ( 'M109A3G_HOWZ_RFA', GhostDepiction_M109A3G_HOWZ_RFA ),
   ( 'M110A2_HOWZ_BEL', GhostDepiction_M110A2_HOWZ_BEL ),
   ( 'M110A2_HOWZ_US', GhostDepiction_M110A2_HOWZ_US ),
+  ( 'M110A2_Howz_NG_US', GhostDepiction_M110A2_Howz_NG_US ),
   ( 'M110A2_Howz_RFA', GhostDepiction_M110A2_Howz_RFA ),
   ( 'M110A2_Howz_UK', GhostDepiction_M110A2_Howz_UK ),
   ( 'M113A1B_BEL', GhostDepiction_M113A1B_BEL ),
@@ -3201,14 +3409,18 @@ VehicleMimeticGhost is MAP[
   ( 'M113A1G_RFA', GhostDepiction_M113A1G_RFA ),
   ( 'M113A1G_reco_RFA', GhostDepiction_M113A1G_reco_RFA ),
   ( 'M113A1G_supply_RFA', GhostDepiction_M113A1G_supply_RFA ),
+  ( 'M113A1_NG_US', GhostDepiction_M113A1_NG_US ),
   ( 'M113A1_TOW_US', GhostDepiction_M113A1_TOW_US ),
+  ( 'M113A2_TOW_US', GhostDepiction_M113A2_TOW_US ),
   ( 'M113A2_supply_US', GhostDepiction_M113A2_supply_US ),
   ( 'M113A3_US', GhostDepiction_M113A3_US ),
+  ( 'M113_ACAV_NG_US', GhostDepiction_M113_ACAV_NG_US ),
   ( 'M113_ACAV_US', GhostDepiction_M113_ACAV_US ),
   ( 'M113_Dragon_US', GhostDepiction_M113_Dragon_US ),
   ( 'M113_GreenArcher_RFA', GhostDepiction_M113_GreenArcher_RFA ),
   ( 'M113_GreenArcher_UK', GhostDepiction_M113_GreenArcher_UK ),
   ( 'M113_PzMorser_RFA', GhostDepiction_M113_PzMorser_RFA ),
+  ( 'M125_HOWZ_NG_US', GhostDepiction_M125_HOWZ_NG_US ),
   ( 'M125_HOWZ_US', GhostDepiction_M125_HOWZ_US ),
   ( 'M151A2_TOW_NG_US', GhostDepiction_M151A2_TOW_NG_US ),
   ( 'M151A2_scout_US', GhostDepiction_M151A2_scout_US ),
@@ -3246,6 +3458,7 @@ VehicleMimeticGhost is MAP[
   ( 'M35_trans_tuto_US', GhostDepiction_M35_trans_tuto_US ),
   ( 'M3A1_Bradley_CFV_US', GhostDepiction_M3A1_Bradley_CFV_US ),
   ( 'M3A2_Bradley_CFV_US', GhostDepiction_M3A2_Bradley_CFV_US ),
+  ( 'M42_Duster_US', GhostDepiction_M42_Duster_US ),
   ( 'M48A2C_RFA', GhostDepiction_M48A2C_RFA ),
   ( 'M48A2GA2_CMD_RFA', GhostDepiction_M48A2GA2_CMD_RFA ),
   ( 'M48A2GA2_RFA', GhostDepiction_M48A2GA2_RFA ),
@@ -3256,9 +3469,17 @@ VehicleMimeticGhost is MAP[
   ( 'M551A1_TTS_Sheridan_US', GhostDepiction_M551A1_TTS_Sheridan_US ),
   ( 'M577_RFA', GhostDepiction_M577_RFA ),
   ( 'M577_US', GhostDepiction_M577_US ),
+  ( 'M60A1_AVLM_US', GhostDepiction_M60A1_AVLM_US ),
+  ( 'M60A1_RISE_Passive_CMD_US', GhostDepiction_M60A1_RISE_Passive_CMD_US ),
+  ( 'M60A1_RISE_Passive_US', GhostDepiction_M60A1_RISE_Passive_US ),
+  ( 'M60A1_RISE_Passive_reco_US', GhostDepiction_M60A1_RISE_Passive_reco_US ),
   ( 'M60A3_CMD_US', GhostDepiction_M60A3_CMD_US ),
+  ( 'M60A3_ERA_Patton_US', GhostDepiction_M60A3_ERA_Patton_US ),
+  ( 'M60A3_Patton_NG_US', GhostDepiction_M60A3_Patton_NG_US ),
   ( 'M60A3_Patton_US', GhostDepiction_M60A3_Patton_US ),
+  ( 'M728_CEV_NG_US', GhostDepiction_M728_CEV_NG_US ),
   ( 'M728_CEV_US', GhostDepiction_M728_CEV_US ),
+  ( 'M812_supply_US', GhostDepiction_M812_supply_US ),
   ( 'M901A1_ITW_US', GhostDepiction_M901A1_ITW_US ),
   ( 'M901_TOW_US', GhostDepiction_M901_TOW_US ),
   ( 'M981_FISTV_US', GhostDepiction_M981_FISTV_US ),
@@ -3294,6 +3515,7 @@ VehicleMimeticGhost is MAP[
   ( 'Mortier_107mm_Aero_US', GhostDepiction_Mortier_107mm_Aero_US ),
   ( 'Mortier_107mm_Airborne_US', GhostDepiction_Mortier_107mm_Airborne_US ),
   ( 'Mortier_107mm_BEL', GhostDepiction_Mortier_107mm_BEL ),
+  ( 'Mortier_107mm_NG_US', GhostDepiction_Mortier_107mm_NG_US ),
   ( 'Mortier_107mm_US', GhostDepiction_Mortier_107mm_US ),
   ( 'Mortier_240mm_M240_Cluster_SOV', GhostDepiction_Mortier_240mm_M240_Cluster_SOV ),
   ( 'Mortier_240mm_M240_SOV', GhostDepiction_Mortier_240mm_M240_SOV ),
@@ -3313,6 +3535,7 @@ VehicleMimeticGhost is MAP[
   ( 'Mortier_Nona_K_120mm_SOV', GhostDepiction_Mortier_Nona_K_120mm_SOV ),
   ( 'Mortier_PM43_120mm_DDR', GhostDepiction_Mortier_PM43_120mm_DDR ),
   ( 'Mortier_Tampella_120mm_RFA', GhostDepiction_Mortier_Tampella_120mm_RFA ),
+  ( 'OT_62_TOPAS_POL', GhostDepiction_OT_62_TOPAS_POL ),
   ( 'OT_65_DDR', GhostDepiction_OT_65_DDR ),
   ( 'Osa_9K33M3_DDR', GhostDepiction_Osa_9K33M3_DDR ),
   ( 'Osa_9K33M3_SOV', GhostDepiction_Osa_9K33M3_SOV ),
@@ -3320,22 +3543,26 @@ VehicleMimeticGhost is MAP[
   ( 'PT76B_CMD_DDR', GhostDepiction_PT76B_CMD_DDR ),
   ( 'PT76B_DDR', GhostDepiction_PT76B_DDR ),
   ( 'PT76B_tank_DDR', GhostDepiction_PT76B_tank_DDR ),
+  ( 'PTS_M_supply_DDR', GhostDepiction_PTS_M_supply_DDR ),
   ( 'RCL_L6_Wombat_UK', GhostDepiction_RCL_L6_Wombat_UK ),
   ( 'Roland_2_FR', GhostDepiction_Roland_2_FR ),
   ( 'Roland_3_FR', GhostDepiction_Roland_3_FR ),
   ( 'Rover_101FC_UK', GhostDepiction_Rover_101FC_UK ),
   ( 'Rover_101FC_supply_UK', GhostDepiction_Rover_101FC_supply_UK ),
   ( 'SPW_152K_DDR', GhostDepiction_SPW_152K_DDR ),
+  ( 'SVO_TCH', GhostDepiction_SVO_TCH ),
   ( 'Saxon_CMD_UK', GhostDepiction_Saxon_CMD_UK ),
   ( 'Saxon_UK', GhostDepiction_Saxon_UK ),
   ( 'Sonderwagen_4_RFA', GhostDepiction_Sonderwagen_4_RFA ),
   ( 'Sonderwagen_4_recon_RFA', GhostDepiction_Sonderwagen_4_recon_RFA ),
+  ( 'Star_266_POL', GhostDepiction_Star_266_POL ),
   ( 'T34_85M_DDR', GhostDepiction_T34_85M_DDR ),
   ( 'T54B_CMD_DDR', GhostDepiction_T54B_CMD_DDR ),
   ( 'T54B_DDR', GhostDepiction_T54B_DDR ),
   ( 'T55AM2B_DDR', GhostDepiction_T55AM2B_DDR ),
   ( 'T55AM2_CMD_DDR', GhostDepiction_T55AM2_CMD_DDR ),
   ( 'T55AM2_DDR', GhostDepiction_T55AM2_DDR ),
+  ( 'T55AM_Merida_POL', GhostDepiction_T55AM_Merida_POL ),
   ( 'T55A_CMD_DDR', GhostDepiction_T55A_CMD_DDR ),
   ( 'T55A_DDR', GhostDepiction_T55A_DDR ),
   ( 'T62M1_SOV', GhostDepiction_T62M1_SOV ),
@@ -3428,6 +3655,7 @@ VehicleMimeticGhost is MAP[
   ( 'VLTT_P4_MILAN_para_FR', GhostDepiction_VLTT_P4_MILAN_para_FR ),
   ( 'VLTT_P4_PC_FR', GhostDepiction_VLTT_P4_PC_FR ),
   ( 'Volvo_N10_supply_BEL', GhostDepiction_Volvo_N10_supply_BEL ),
+  ( 'W50_LA_A_25mm_DDR', GhostDepiction_W50_LA_A_25mm_DDR ),
   ( 'W50_LA_A_DDR', GhostDepiction_W50_LA_A_DDR ),
   ( 'ZSU_23_Shilka_Afghan_SOV', GhostDepiction_ZSU_23_Shilka_Afghan_SOV ),
   ( 'ZSU_23_Shilka_DDR', GhostDepiction_ZSU_23_Shilka_DDR ),

@@ -59,7 +59,6 @@ private template FlareLabelDescriptor
     TextToken : string = "",
     IconTextureToken : string = "",
     IconSize : float2,
-    Margin : float = 3.0,
     Largeur : float = 70.0,
 ]
 is BUCKListDescriptor

@@ -901,5 +901,4 @@ IngameFeedbackMessageManagerDescriptor is TUISpecificInGameFeedbackMessageManage
     ]
 
     Minimap_TimeBetweenPings = 1
-    BitchingBetty_TimeBetweenBitching = 2
 )

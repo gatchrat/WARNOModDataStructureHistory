@@ -6,5 +6,4 @@ template ModelDescriptor
 (
     FileName = <FileName>
     TextureDirectory = <TextureDirectory>
-    UsefulnessMask = TypeMask/Common // Les TypeMask ne sont utilisés que pour les textures, pas pour les meshs.
 )

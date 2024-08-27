@@ -126,7 +126,6 @@ template WindowFrameContainer
     MargeHorizontale : int = 20.0,
     HasBackground : bool = true,
 
-    ContentExtendWeight : float = 0.0,
     ContentRelativeWidthHeight : float2 = [0.0, 0.0],
     ContentMagnifiableWidthHeight : float2 = [0.0, 0.0],
     ContentMagnifiableOffset : float2 = [0,0],
@@ -137,7 +136,6 @@ template WindowFrameContainer
     BoutonsAlignementToFather : float2 = [0.5, 1],
     BoutonsAlignementToAnchor : float2 = [0.5, 1],
     BoutonsMagnifiableOffset : float2 = [0,0],
-    AdditionalComponents = [],
 ]
 is BUCKContainerDescriptor
 (

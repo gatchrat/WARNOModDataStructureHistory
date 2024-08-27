@@ -20,7 +20,7 @@ StrategicConstantes is TStrategicTunableConstante
 
     // Zocs et fuite
     ConflictingUnitRadius = ZocRadius   //Taille de la ZOC des unités.
-    EnemiesDisableSpawnRadius = 0 * ~/ActionPointConsumptionRefs/CaseSize    //Taille du rayon qui desactive les point de renfort
+    EnemiesDisableSpawnRadius = 1 * ~/ActionPointConsumptionRefs/CaseSize    //Taille du rayon qui desactive les point de renfort
     EnemiesCaptureAirportRadius = 0 // * ~/ActionPointConsumptionRefs/CaseSize        //Taille du rayon qui capture les aéroports
     DisableGroundZocsWhenNoAP = false
     DisableMoveOrderOnDisabledZocs = false

@@ -247,6 +247,7 @@ export Descriptor_Unit_pion_BEL_14Linie is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -1439,6 +1440,7 @@ export Descriptor_Unit_pion_BEL_1DI_12Linie is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -1682,6 +1684,7 @@ export Descriptor_Unit_pion_BEL_1DI_1Ardennais is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -2046,6 +2049,7 @@ export Descriptor_Unit_pion_BEL_1DI_1Karabiniers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -2167,6 +2171,7 @@ export Descriptor_Unit_pion_BEL_1DI_1Lanciers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -2288,6 +2293,7 @@ export Descriptor_Unit_pion_BEL_1DI_2Ardennais is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -2531,6 +2537,7 @@ export Descriptor_Unit_pion_BEL_1DI_2Lanciers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -2652,6 +2659,7 @@ export Descriptor_Unit_pion_BEL_1DI_3Carabiniers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -2773,6 +2781,7 @@ export Descriptor_Unit_pion_BEL_1DI_3Lanciers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -2894,6 +2903,7 @@ export Descriptor_Unit_pion_BEL_1DI_Bevrijding is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -3129,6 +3139,7 @@ export Descriptor_Unit_pion_BEL_1Grenadiers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -3250,6 +3261,7 @@ export Descriptor_Unit_pion_BEL_1Guides is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -3371,6 +3383,7 @@ export Descriptor_Unit_pion_BEL_1Karabiniers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -3728,6 +3741,7 @@ export Descriptor_Unit_pion_BEL_2CaC is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -3849,6 +3863,7 @@ export Descriptor_Unit_pion_BEL_2Carabiniers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -3970,6 +3985,7 @@ export Descriptor_Unit_pion_BEL_2Guides is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -4091,6 +4107,7 @@ export Descriptor_Unit_pion_BEL_2Karabiniers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -4212,6 +4229,7 @@ export Descriptor_Unit_pion_BEL_3Linie is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -4454,6 +4472,7 @@ export Descriptor_Unit_pion_BEL_4Lanciers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -4575,6 +4594,7 @@ export Descriptor_Unit_pion_BEL_4Linie is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -4810,6 +4830,7 @@ export Descriptor_Unit_pion_BEL_5Linie is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -5289,6 +5310,7 @@ export Descriptor_Unit_pion_BEL_8Lanciers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -6621,6 +6643,7 @@ export Descriptor_Unit_pion_RDA_10MSD_10PzR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -6742,6 +6765,7 @@ export Descriptor_Unit_pion_RDA_10MSD_10PzR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -6863,6 +6887,7 @@ export Descriptor_Unit_pion_RDA_10MSD_10PzR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -7107,6 +7132,7 @@ export Descriptor_Unit_pion_RDA_10MSD_14MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -7228,6 +7254,7 @@ export Descriptor_Unit_pion_RDA_10MSD_14MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -7349,6 +7376,7 @@ export Descriptor_Unit_pion_RDA_10MSD_14MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -7470,6 +7498,7 @@ export Descriptor_Unit_pion_RDA_10MSD_15MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -7591,6 +7620,7 @@ export Descriptor_Unit_pion_RDA_10MSD_15MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -7712,6 +7742,7 @@ export Descriptor_Unit_pion_RDA_10MSD_15MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -7833,6 +7864,7 @@ export Descriptor_Unit_pion_RDA_10MSD_16MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -7954,6 +7986,7 @@ export Descriptor_Unit_pion_RDA_10MSD_16MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -8075,6 +8108,7 @@ export Descriptor_Unit_pion_RDA_10MSD_16MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -9040,6 +9074,7 @@ export Descriptor_Unit_pion_RDA_11MSD_11PzR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -9161,6 +9196,7 @@ export Descriptor_Unit_pion_RDA_11MSD_11PzR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -9282,6 +9318,7 @@ export Descriptor_Unit_pion_RDA_11MSD_11PzR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -9526,6 +9563,7 @@ export Descriptor_Unit_pion_RDA_11MSD_16MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -9647,6 +9685,7 @@ export Descriptor_Unit_pion_RDA_11MSD_16MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -9768,6 +9807,7 @@ export Descriptor_Unit_pion_RDA_11MSD_16MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -9889,6 +9929,7 @@ export Descriptor_Unit_pion_RDA_11MSD_17MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -10010,6 +10051,7 @@ export Descriptor_Unit_pion_RDA_11MSD_17MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -10131,6 +10173,7 @@ export Descriptor_Unit_pion_RDA_11MSD_17MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -10252,6 +10295,7 @@ export Descriptor_Unit_pion_RDA_11MSD_18MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -10373,6 +10417,7 @@ export Descriptor_Unit_pion_RDA_11MSD_18MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -10494,6 +10539,7 @@ export Descriptor_Unit_pion_RDA_11MSD_18MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -11459,6 +11505,7 @@ export Descriptor_Unit_pion_RDA_17MSD_17PzR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -11580,6 +11627,7 @@ export Descriptor_Unit_pion_RDA_17MSD_17PzR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -11701,6 +11749,7 @@ export Descriptor_Unit_pion_RDA_17MSD_17PzR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -11945,6 +11994,7 @@ export Descriptor_Unit_pion_RDA_17MSD_41MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -12066,6 +12116,7 @@ export Descriptor_Unit_pion_RDA_17MSD_41MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -12187,6 +12238,7 @@ export Descriptor_Unit_pion_RDA_17MSD_41MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -12308,6 +12360,7 @@ export Descriptor_Unit_pion_RDA_17MSD_42MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -12429,6 +12482,7 @@ export Descriptor_Unit_pion_RDA_17MSD_42MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -12550,6 +12604,7 @@ export Descriptor_Unit_pion_RDA_17MSD_42MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -12671,6 +12726,7 @@ export Descriptor_Unit_pion_RDA_17MSD_43MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -12792,6 +12848,7 @@ export Descriptor_Unit_pion_RDA_17MSD_43MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -12913,6 +12970,7 @@ export Descriptor_Unit_pion_RDA_17MSD_43MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -14979,6 +15037,7 @@ export Descriptor_Unit_pion_RDA_4MSD_22MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -15100,6 +15159,7 @@ export Descriptor_Unit_pion_RDA_4MSD_22MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -15221,6 +15281,7 @@ export Descriptor_Unit_pion_RDA_4MSD_22MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -15342,6 +15403,7 @@ export Descriptor_Unit_pion_RDA_4MSD_23MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -15463,6 +15525,7 @@ export Descriptor_Unit_pion_RDA_4MSD_23MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -15584,6 +15647,7 @@ export Descriptor_Unit_pion_RDA_4MSD_23MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -15705,6 +15769,7 @@ export Descriptor_Unit_pion_RDA_4MSD_24MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -15826,6 +15891,7 @@ export Descriptor_Unit_pion_RDA_4MSD_24MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -15947,6 +16013,7 @@ export Descriptor_Unit_pion_RDA_4MSD_24MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -16677,6 +16744,7 @@ export Descriptor_Unit_pion_RDA_4MSD_4PzR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -16798,6 +16866,7 @@ export Descriptor_Unit_pion_RDA_4MSD_4PzR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -16919,6 +16988,7 @@ export Descriptor_Unit_pion_RDA_4MSD_4PzR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -17968,6 +18038,7 @@ export Descriptor_Unit_pion_RDA_7PzD_14PzR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -18089,6 +18160,7 @@ export Descriptor_Unit_pion_RDA_7PzD_14PzR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -18331,6 +18403,7 @@ export Descriptor_Unit_pion_RDA_7PzD_15PzR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -18452,6 +18525,7 @@ export Descriptor_Unit_pion_RDA_7PzD_15PzR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -18573,6 +18647,7 @@ export Descriptor_Unit_pion_RDA_7PzD_15PzR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -18694,6 +18769,7 @@ export Descriptor_Unit_pion_RDA_7PzD_16PzR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -18815,6 +18891,7 @@ export Descriptor_Unit_pion_RDA_7PzD_16PzR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -18936,6 +19013,7 @@ export Descriptor_Unit_pion_RDA_7PzD_16PzR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -19666,6 +19744,7 @@ export Descriptor_Unit_pion_RDA_7PzD_7MSR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -19787,6 +19866,7 @@ export Descriptor_Unit_pion_RDA_7PzD_7MSR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -19908,6 +19988,7 @@ export Descriptor_Unit_pion_RDA_7PzD_7MSR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -22682,6 +22763,7 @@ export Descriptor_Unit_pion_RDA_MBIII_FJB40 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -22713,8 +22795,8 @@ export Descriptor_Unit_pion_RDA_MBIII_FJB40 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -22803,6 +22885,7 @@ export Descriptor_Unit_pion_RDA_MBIII_FJB41 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -22834,8 +22917,8 @@ export Descriptor_Unit_pion_RDA_MBIII_FJB41 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -23517,6 +23600,7 @@ export Descriptor_Unit_pion_RFA_12PzD_126Jag is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -23548,8 +23632,8 @@ export Descriptor_Unit_pion_RFA_12PzD_126Jag is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -23638,6 +23722,7 @@ export Descriptor_Unit_pion_RFA_12PzD_127Jag is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -23669,8 +23754,8 @@ export Descriptor_Unit_pion_RFA_12PzD_127Jag is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -24122,6 +24207,7 @@ export Descriptor_Unit_pion_RFA_12PzD_341MxPz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -24243,6 +24329,7 @@ export Descriptor_Unit_pion_RFA_12PzD_342PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -24364,6 +24451,7 @@ export Descriptor_Unit_pion_RFA_12PzD_343Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -24485,6 +24573,7 @@ export Descriptor_Unit_pion_RFA_12PzD_344Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -24728,6 +24817,7 @@ export Descriptor_Unit_pion_RFA_12PzD_351Jag is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -24759,8 +24849,8 @@ export Descriptor_Unit_pion_RFA_12PzD_351Jag is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -24849,6 +24939,7 @@ export Descriptor_Unit_pion_RFA_12PzD_351MxPzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -24970,6 +25061,7 @@ export Descriptor_Unit_pion_RFA_12PzD_352PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -25091,6 +25183,7 @@ export Descriptor_Unit_pion_RFA_12PzD_353PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -25212,6 +25305,7 @@ export Descriptor_Unit_pion_RFA_12PzD_354Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -25455,6 +25549,7 @@ export Descriptor_Unit_pion_RFA_12PzD_361MxPz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -25576,6 +25671,7 @@ export Descriptor_Unit_pion_RFA_12PzD_362PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -25697,6 +25793,7 @@ export Descriptor_Unit_pion_RFA_12PzD_363Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -25818,6 +25915,7 @@ export Descriptor_Unit_pion_RFA_12PzD_364Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -26517,6 +26615,7 @@ export Descriptor_Unit_pion_RFA_26AB_261 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -26548,8 +26647,8 @@ export Descriptor_Unit_pion_RFA_26AB_261 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -26638,6 +26737,7 @@ export Descriptor_Unit_pion_RFA_26AB_262 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -26669,8 +26769,8 @@ export Descriptor_Unit_pion_RFA_26AB_262 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -26759,6 +26859,7 @@ export Descriptor_Unit_pion_RFA_26AB_263 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -26790,8 +26891,8 @@ export Descriptor_Unit_pion_RFA_26AB_263 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -26880,6 +26981,7 @@ export Descriptor_Unit_pion_RFA_26AB_264 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -26911,8 +27013,8 @@ export Descriptor_Unit_pion_RFA_26AB_264 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -27822,6 +27924,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_26Jag is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -27853,8 +27956,8 @@ export Descriptor_Unit_pion_RFA_2PzGrD_26Jag is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -27943,6 +28046,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_27Jag is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -27974,8 +28078,8 @@ export Descriptor_Unit_pion_RFA_2PzGrD_27Jag is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -28427,6 +28531,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_41Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -28548,6 +28653,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_42PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -28669,6 +28775,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_43PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -28790,6 +28897,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_44Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -29033,6 +29141,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_51MxPzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -29154,6 +29263,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_52PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -29275,6 +29385,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_53PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -29396,6 +29507,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_54Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -29639,6 +29751,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_61MxPz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -29760,6 +29873,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_62PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -29881,6 +29995,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_63Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -30002,6 +30117,7 @@ export Descriptor_Unit_pion_RFA_2PzGrD_64Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -32617,6 +32733,7 @@ export Descriptor_Unit_pion_RFA_5PzD_131MxPzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -32738,6 +32855,7 @@ export Descriptor_Unit_pion_RFA_5PzD_132PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -32859,6 +32977,7 @@ export Descriptor_Unit_pion_RFA_5PzD_133PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -32980,6 +33099,7 @@ export Descriptor_Unit_pion_RFA_5PzD_134Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -33223,6 +33343,7 @@ export Descriptor_Unit_pion_RFA_5PzD_141MxPz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -33344,6 +33465,7 @@ export Descriptor_Unit_pion_RFA_5PzD_142PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -33465,6 +33587,7 @@ export Descriptor_Unit_pion_RFA_5PzD_143Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -33586,6 +33709,7 @@ export Descriptor_Unit_pion_RFA_5PzD_144Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -33829,6 +33953,7 @@ export Descriptor_Unit_pion_RFA_5PzD_151MxPz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -33950,6 +34075,7 @@ export Descriptor_Unit_pion_RFA_5PzD_152PzG is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -34071,6 +34197,7 @@ export Descriptor_Unit_pion_RFA_5PzD_153Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -34192,6 +34319,7 @@ export Descriptor_Unit_pion_RFA_5PzD_154Pz is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -34679,6 +34807,7 @@ export Descriptor_Unit_pion_RFA_5PzD_56Jag is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -34710,8 +34839,8 @@ export Descriptor_Unit_pion_RFA_5PzD_56Jag is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -34800,6 +34929,7 @@ export Descriptor_Unit_pion_RFA_5PzD_57Jag is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -34831,8 +34961,8 @@ export Descriptor_Unit_pion_RFA_5PzD_57Jag is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -38371,6 +38501,7 @@ export Descriptor_Unit_pion_RFA_TKNord_Jag631 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -38402,8 +38533,8 @@ export Descriptor_Unit_pion_RFA_TKNord_Jag631 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -38492,6 +38623,7 @@ export Descriptor_Unit_pion_RFA_TKNord_Jag632 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -38523,8 +38655,8 @@ export Descriptor_Unit_pion_RFA_TKNord_Jag632 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -38613,6 +38745,7 @@ export Descriptor_Unit_pion_RFA_TKNord_Jag731 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -38644,8 +38777,8 @@ export Descriptor_Unit_pion_RFA_TKNord_Jag731 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -38734,6 +38867,7 @@ export Descriptor_Unit_pion_RFA_TKNord_Jag732 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -38765,8 +38899,8 @@ export Descriptor_Unit_pion_RFA_TKNord_Jag732 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -38855,6 +38989,7 @@ export Descriptor_Unit_pion_RFA_TKNord_Jag733 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -38886,8 +39021,8 @@ export Descriptor_Unit_pion_RFA_TKNord_Jag733 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -38976,6 +39111,7 @@ export Descriptor_Unit_pion_RFA_TKNord_Pz633 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -42068,6 +42204,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag541 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -42099,8 +42236,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag541 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -42189,6 +42326,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag542 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -42310,6 +42448,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag641 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -42341,8 +42480,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag641 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -42431,6 +42570,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag642 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -42462,8 +42602,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag642 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -42552,6 +42692,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag711 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -42583,8 +42724,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag711 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -42673,6 +42814,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag712 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -42704,8 +42846,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag712 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -42794,6 +42936,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag713 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -42825,8 +42968,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag713 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -42915,6 +43058,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag841 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -42946,8 +43090,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag841 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -43036,6 +43180,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag842 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -43067,8 +43212,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag842 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -43157,6 +43302,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag843 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -43188,8 +43334,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag843 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -43278,6 +43424,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag941 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -43309,8 +43456,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag941 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -43399,6 +43546,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag942 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -43430,8 +43578,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag942 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -43520,6 +43668,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag943 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -43551,8 +43700,8 @@ export Descriptor_Unit_pion_RFA_TKSud_Jag943 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -43641,6 +43790,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Pz543 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -43762,6 +43912,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Pz544 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -43883,6 +44034,7 @@ export Descriptor_Unit_pion_RFA_TKSud_Pz643 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -46740,6 +46892,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_249GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -46861,6 +47014,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_249GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -46982,6 +47136,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_249GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -47103,6 +47258,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_40Tk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -47224,6 +47380,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_40Tk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -47345,6 +47502,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_40Tk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -47466,6 +47624,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_44GTk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -47587,6 +47746,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_44GTk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -47708,6 +47868,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_44GTk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -47829,6 +47990,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_7GTkD_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -47950,6 +48112,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_7GTkD_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -48071,6 +48234,7 @@ export Descriptor_Unit_pion_SOV_11GTkD_7GTkD_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -51087,6 +51251,7 @@ export Descriptor_Unit_pion_SOV_1GTA_Tauroggen is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -51118,8 +51283,8 @@ export Descriptor_Unit_pion_SOV_1GTA_Tauroggen is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -52127,6 +52292,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_20TkInde is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -52248,6 +52414,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_241GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -52369,6 +52536,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_241GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -52490,6 +52658,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_241GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -52611,6 +52780,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_29GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -52732,6 +52902,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_29GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -52853,6 +53024,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_29GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -53097,6 +53269,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_67GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -53218,6 +53391,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_67GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -53339,6 +53513,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_67GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -54069,6 +54244,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_95Tk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -54190,6 +54366,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_95Tk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -54311,6 +54488,7 @@ export Descriptor_Unit_pion_SOV_20GMRD_95Tk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -54667,6 +54845,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_243GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -54788,6 +54967,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_243GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -54909,6 +55089,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_243GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -55030,6 +55211,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_244GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -55151,6 +55333,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_244GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -55272,6 +55455,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_244GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -55516,6 +55700,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_28GTk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -55637,6 +55822,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_28GTk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -55758,6 +55944,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_28GTk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -56488,6 +56675,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_68GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -56609,6 +56797,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_68GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -56730,6 +56919,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_68GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -56965,6 +57155,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_MSBInde is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -57086,6 +57277,7 @@ export Descriptor_Unit_pion_SOV_27GMRD_TkInde is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -58126,6 +58318,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_117GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -58247,6 +58440,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_117GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -58368,6 +58562,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_117GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -58610,6 +58805,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_120GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -58731,6 +58927,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_120GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -58852,6 +59049,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_120GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -58973,6 +59171,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_15GTk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -59094,6 +59293,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_15GTk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -59215,6 +59415,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_15GTk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -59336,6 +59537,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_172GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -59457,6 +59659,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_172GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -59578,6 +59781,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_172GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -59699,6 +59903,7 @@ export Descriptor_Unit_pion_SOV_39GMRD_23TkInde is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -62871,6 +63076,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_170GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -62992,6 +63198,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_170GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -63113,6 +63320,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_170GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -63234,6 +63442,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_174GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -63355,6 +63564,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_174GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -63476,6 +63686,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_174GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -63597,6 +63808,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_241GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -63718,6 +63930,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_241GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -63839,6 +64052,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_241GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -63960,6 +64174,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_29TkInde is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -64081,6 +64296,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_51GTk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -64202,6 +64418,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_51GTk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -64323,6 +64540,7 @@ export Descriptor_Unit_pion_SOV_57GMRD_51GTk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -65412,6 +65630,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_17GTk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -65533,6 +65752,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_17GTk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -65654,6 +65874,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_17GTk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -65775,6 +65996,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_211GTk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -65896,6 +66118,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_211GTk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -66017,6 +66240,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_211GTk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -66138,6 +66362,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_247GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -66259,6 +66484,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_247GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -66380,6 +66606,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_247GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -66501,6 +66728,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_45GTk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -66622,6 +66850,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_45GTk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -66743,6 +66972,7 @@ export Descriptor_Unit_pion_SOV_79GTkD_45GTk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -67099,6 +67329,7 @@ export Descriptor_Unit_pion_SOV_8GA_119TkInde_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -67220,6 +67451,7 @@ export Descriptor_Unit_pion_SOV_8GA_119TkInde_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -67341,6 +67573,7 @@ export Descriptor_Unit_pion_SOV_8GA_119TkInde_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -69030,6 +69263,7 @@ export Descriptor_Unit_pion_SOV_8GA_35AirAsltBrig_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -69061,8 +69295,8 @@ export Descriptor_Unit_pion_SOV_8GA_35AirAsltBrig_1 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -69151,6 +69385,7 @@ export Descriptor_Unit_pion_SOV_8GA_35AirAsltBrig_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -69182,8 +69417,8 @@ export Descriptor_Unit_pion_SOV_8GA_35AirAsltBrig_2 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -69272,6 +69507,7 @@ export Descriptor_Unit_pion_SOV_8GA_35AirAsltBrig_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -69303,8 +69539,8 @@ export Descriptor_Unit_pion_SOV_8GA_35AirAsltBrig_3 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -69393,6 +69629,7 @@ export Descriptor_Unit_pion_SOV_8GA_35AirAsltBrig_4 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -70965,6 +71202,7 @@ export Descriptor_Unit_pion_SOV_8GA_900AirAsltBat is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -71922,6 +72160,7 @@ export Descriptor_Unit_pion_SOV_9TkD_1GTk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -72043,6 +72282,7 @@ export Descriptor_Unit_pion_SOV_9TkD_1GTk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -72164,6 +72404,7 @@ export Descriptor_Unit_pion_SOV_9TkD_1GTk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -72408,6 +72649,7 @@ export Descriptor_Unit_pion_SOV_9TkD_23Tk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -72529,6 +72771,7 @@ export Descriptor_Unit_pion_SOV_9TkD_23Tk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -72650,6 +72893,7 @@ export Descriptor_Unit_pion_SOV_9TkD_23Tk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -72771,6 +73015,7 @@ export Descriptor_Unit_pion_SOV_9TkD_302GMSP_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -72892,6 +73137,7 @@ export Descriptor_Unit_pion_SOV_9TkD_302GMSP_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -73013,6 +73259,7 @@ export Descriptor_Unit_pion_SOV_9TkD_302GMSP_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -73134,6 +73381,7 @@ export Descriptor_Unit_pion_SOV_9TkD_70GTk_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -73255,6 +73503,7 @@ export Descriptor_Unit_pion_SOV_9TkD_70GTk_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -73376,6 +73625,7 @@ export Descriptor_Unit_pion_SOV_9TkD_70GTk_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -74586,6 +74836,7 @@ export Descriptor_Unit_pion_UK_14_20_Hussars is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -74707,6 +74958,7 @@ export Descriptor_Unit_pion_UK_17_21_Lancers is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -76385,6 +76637,7 @@ export Descriptor_Unit_pion_UK_3RTR is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -76856,6 +77109,7 @@ export Descriptor_Unit_pion_UK_BlueRoyals is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -76977,6 +77231,7 @@ export Descriptor_Unit_pion_UK_GrenadierGds is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -77333,6 +77588,7 @@ export Descriptor_Unit_pion_UK_QLR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -77454,6 +77710,7 @@ export Descriptor_Unit_pion_UK_QOH_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -77575,6 +77832,7 @@ export Descriptor_Unit_pion_UK_RRF_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -77696,6 +77954,7 @@ export Descriptor_Unit_pion_UK_RScots_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -79249,6 +79508,7 @@ export Descriptor_Unit_pion_US_194ArmBr_10Arm_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -79370,6 +79630,7 @@ export Descriptor_Unit_pion_US_194ArmBr_10Arm_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -79491,6 +79752,7 @@ export Descriptor_Unit_pion_US_194ArmBr_15Mech_4 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -79848,6 +80110,7 @@ export Descriptor_Unit_pion_US_197ArmBr_18Mech_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -80091,6 +80354,7 @@ export Descriptor_Unit_pion_US_197ArmBr_58Mech_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -80212,6 +80476,7 @@ export Descriptor_Unit_pion_US_197ArmBr_69Arm_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -80568,6 +80833,7 @@ export Descriptor_Unit_pion_US_1AD_13Arm_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -81541,6 +81807,7 @@ export Descriptor_Unit_pion_US_1AD_35Arm_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -81662,6 +81929,7 @@ export Descriptor_Unit_pion_US_1AD_35Arm_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -81783,6 +82051,7 @@ export Descriptor_Unit_pion_US_1AD_37Arm_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -81904,6 +82173,7 @@ export Descriptor_Unit_pion_US_1AD_54Mech_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -82025,6 +82295,7 @@ export Descriptor_Unit_pion_US_1AD_6Mech_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -82146,6 +82417,7 @@ export Descriptor_Unit_pion_US_1AD_6Mech_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -82267,6 +82539,7 @@ export Descriptor_Unit_pion_US_1AD_6Mech_7 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -82388,6 +82661,7 @@ export Descriptor_Unit_pion_US_1AD_70Arm_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -82509,6 +82783,7 @@ export Descriptor_Unit_pion_US_1AD_81Arm_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -83436,6 +83711,7 @@ export Descriptor_Unit_pion_US_2ACR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -83557,6 +83833,7 @@ export Descriptor_Unit_pion_US_2ACR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -83678,6 +83955,7 @@ export Descriptor_Unit_pion_US_2ACR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -87950,6 +88228,7 @@ export Descriptor_Unit_pion_US_3ID_15Mech_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -88071,6 +88350,7 @@ export Descriptor_Unit_pion_US_3ID_30Mech_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -88192,6 +88472,7 @@ export Descriptor_Unit_pion_US_3ID_30Mech_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -88923,6 +89204,7 @@ export Descriptor_Unit_pion_US_3ID_4Cav_4 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -89044,6 +89326,7 @@ export Descriptor_Unit_pion_US_3ID_63Arm_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -89165,6 +89448,7 @@ export Descriptor_Unit_pion_US_3ID_64Arm_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -89286,6 +89570,7 @@ export Descriptor_Unit_pion_US_3ID_64Arm_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -89407,6 +89692,7 @@ export Descriptor_Unit_pion_US_3ID_68Arm_4 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -89528,6 +89814,7 @@ export Descriptor_Unit_pion_US_3ID_69Arm_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -89649,6 +89936,7 @@ export Descriptor_Unit_pion_US_3ID_7Mech_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -89770,6 +90058,7 @@ export Descriptor_Unit_pion_US_3ID_7Mech_4 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -98388,6 +98677,7 @@ export Descriptor_Unit_pion_US_82AB_325PIR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -98419,8 +98709,8 @@ export Descriptor_Unit_pion_US_82AB_325PIR_1 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -98509,6 +98799,7 @@ export Descriptor_Unit_pion_US_82AB_325PIR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -98540,8 +98831,8 @@ export Descriptor_Unit_pion_US_82AB_325PIR_2 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -98630,6 +98921,7 @@ export Descriptor_Unit_pion_US_82AB_325PIR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -98661,8 +98953,8 @@ export Descriptor_Unit_pion_US_82AB_325PIR_3 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -98751,6 +99043,7 @@ export Descriptor_Unit_pion_US_82AB_504PIR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -98782,8 +99075,8 @@ export Descriptor_Unit_pion_US_82AB_504PIR_1 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -98872,6 +99165,7 @@ export Descriptor_Unit_pion_US_82AB_504PIR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -98903,8 +99197,8 @@ export Descriptor_Unit_pion_US_82AB_504PIR_2 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -98993,6 +99287,7 @@ export Descriptor_Unit_pion_US_82AB_504PIR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -99024,8 +99319,8 @@ export Descriptor_Unit_pion_US_82AB_504PIR_3 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -99114,6 +99409,7 @@ export Descriptor_Unit_pion_US_82AB_505PIR_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -99145,8 +99441,8 @@ export Descriptor_Unit_pion_US_82AB_505PIR_1 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -99235,6 +99531,7 @@ export Descriptor_Unit_pion_US_82AB_505PIR_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -99266,8 +99563,8 @@ export Descriptor_Unit_pion_US_82AB_505PIR_2 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -99356,6 +99653,7 @@ export Descriptor_Unit_pion_US_82AB_505PIR_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -99387,8 +99685,8 @@ export Descriptor_Unit_pion_US_82AB_505PIR_3 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Infantry",
-                    "Texture_STRATEGIC_Infantry",
+                    "Texture_STRATEGIC_RTS_H_apc",
+                    "Texture_STRATEGIC_apc",
                 ]
             )
         ),
@@ -99477,6 +99775,7 @@ export Descriptor_Unit_pion_US_82AB_73Arm_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -100198,6 +100497,7 @@ export Descriptor_Unit_pion_US_8ID_13Mech_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -100685,6 +100985,7 @@ export Descriptor_Unit_pion_US_8ID_39Mech_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -101050,6 +101351,7 @@ export Descriptor_Unit_pion_US_8ID_68Arm_1 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -101171,6 +101473,7 @@ export Descriptor_Unit_pion_US_8ID_68Arm_4 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -101292,6 +101595,7 @@ export Descriptor_Unit_pion_US_8ID_68Arm_5 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -101413,6 +101717,7 @@ export Descriptor_Unit_pion_US_8ID_69Arm_2 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -101534,6 +101839,7 @@ export Descriptor_Unit_pion_US_8ID_77Arm_5 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -101655,6 +101961,7 @@ export Descriptor_Unit_pion_US_8ID_7Cav_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -101776,6 +102083,7 @@ export Descriptor_Unit_pion_US_8ID_8Mech_3 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -101897,6 +102205,7 @@ export Descriptor_Unit_pion_US_8ID_8Mech_4 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor
@@ -102018,6 +102327,7 @@ export Descriptor_Unit_pion_US_8ID_8Mech_5 is TEntityDescriptor
         (
             TagSet = [
                 "AllUnits",
+                "SM_combat_btn",
             ]
         ),
         TApparenceModelModuleDescriptor

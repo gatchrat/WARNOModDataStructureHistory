@@ -635,7 +635,6 @@ private MutliScenarioListHeaderWithFilter is BUCKListDescriptor
                 ComponentFrame = TUIFramePropertyRTTI()
                 TextColor = "Gris_QuickServeur"
                 ShowFilter_TextColor = "loadTexte"
-                TextSize = "14"
                 ToggleListButtonText = 'filter'
                 BoxMagnifiableWidthHeight = [~/HeaderWithFilterHeight, ~/HeaderWithFilterHeight]
                 MagnifiableOffsetRack = [-10.0, 50.0]

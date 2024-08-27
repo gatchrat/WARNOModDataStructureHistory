@@ -31,7 +31,7 @@ template Display2ColumnsPerte
                     ComponentDescriptor = TemplateTextLosses
                     (
                         ElementName = "OneUnitName_" + <UnitType>
-                        TextDico = ~/LocalisationConstantes/dico_unites
+                        TextDico = ~/LocalisationConstantes/dico_units
                     )
                 ),
                 BUCKListElementDescriptor
@@ -53,14 +53,11 @@ template TemplateTextLosses
 [
     ElementName : string = '',
     TextToken : string = '',
-    Alignment : int  = UIText_Left,
     IsTitre : bool = false,
     TextDico = ~/LocalisationConstantes/dico_interface_ingame,
     HorizontalFitStyle : int = ~/FitStyle/UserDefined,
     RelativeWidthHeight : float2 = [1.0, 0.0],
-]
-
- is BUCKTextDescriptor
+] is BUCKTextDescriptor
 (
     ElementName = <ElementName>
     ComponentFrame = TUIFramePropertyRTTI

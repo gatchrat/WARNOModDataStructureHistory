@@ -165,13 +165,7 @@ private ListSeparator is BUCKListElementDescriptor
 //-------------------------------------------------------------------------------------//
 // campagne stratégique
 // tuto aussi
-template ResumeCampagneType3
-[
-    BackgroundComponents = [],
-    ForegroundComponents = [],
-    ImageWidthHeight = [392.0, 280.0]
-]
-is BUCKListDescriptor
+ResumeCampagneType3 is BUCKListDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
@@ -224,7 +218,7 @@ is BUCKListElementDescriptor
                     BUCKSpecificHintableArea
                     (
                         ElementName = <ElementName> + "/Hint"
-                        DicoToken = ~/LocalisationConstantes/dico_unites
+                        DicoToken = ~/LocalisationConstantes/dico_units
                     )
                 ]
             )
@@ -239,12 +233,7 @@ is BUCKListElementDescriptor
 
 //-------------------------------------------------------------------------------------
 // affichage dans l'outgame
-template ResumeCampagneTypeHistorique
-[
-    BackgroundComponents = [],
-    ForegroundComponents = [],
-]
-is BUCKSpecificScrollingContainerDescriptor
+ResumeCampagneTypeHistorique is BUCKSpecificScrollingContainerDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (

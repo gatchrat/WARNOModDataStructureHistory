@@ -423,6 +423,21 @@ CubeAction_Capacity_electronic_warfare is TCubeActionCapacityButtonInformationsD
     Descriptor                   = $/GFX/EffectCapacity/Capacite_electronic_warfare
 )
 
+CubeAction_Capacity_eo_dazzler is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_eo_dazzler"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_eo_dazzler"
+    HoverSound                   = CubeActionButtonHoverSound_IfEnabled
+    ClickSound                   = CubeActionButtonClickSound_IfEnabled
+    ButtonTextToken              = ""
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = ""
+    HintBodyToken                = ""
+    HintExtendedToken            = ""
+    Descriptor                   = $/GFX/EffectCapacity/Capacite_eo_dazzler
+)
+
 CubeAction_Capacity_jammer is TCubeActionCapacityButtonInformationsDescriptor
 (
     CubeActionName               = "CubeAction_Capacity_jammer"

@@ -44,7 +44,7 @@ is BUCKListElementDescriptor
         TextStyle = 'Default'
         TypefaceToken = "UISecondFont"
         TextSize = '50'
-        TextDico = ~/LocalisationConstantes/dico_briefing
+        TextDico = ~/LocalisationConstantes/dico_manual
         TextColor = 'SD2_BleuVariable'
         TextToken = <TextToken>
     )
@@ -75,7 +75,7 @@ is BUCKListElementDescriptor
         TextStyle = 'Default'
         TypefaceToken = "UISecondFont"
         TextSize = '42'
-        TextDico = ~/LocalisationConstantes/dico_briefing
+        TextDico = ~/LocalisationConstantes/dico_manual
         TextColor = 'SD2_BleuVariable'
         TextToken = <TextToken>
     )
@@ -107,7 +107,7 @@ is BUCKListElementDescriptor
         TextStyle = 'Default'
         TypefaceToken = "UISecondFont"
         TextSize = '24'
-        TextDico = ~/LocalisationConstantes/dico_briefing
+        TextDico = ~/LocalisationConstantes/dico_manual
         TextColor = 'SD2_BleuVariable'
         TextToken = <TextToken>
     )
@@ -141,7 +141,7 @@ is BUCKListElementDescriptor
         TextStyle = 'Default'
         TypefaceToken = "UIMainFont"
         TextSize = '20'
-        TextDico = ~/LocalisationConstantes/dico_briefing
+        TextDico = ~/LocalisationConstantes/dico_manual
         TextColor = 'SD2_BlancPur'
         TextToken = <TextToken>
     )
@@ -360,7 +360,7 @@ is BUCKTextDescriptor
     FitStyle = ~/FitStyle/UserDefined
     TypefaceToken = "UIMainFont"
     BigLineAction = ~/BigLineAction/CutByDots
-    TextDico = ~/LocalisationConstantes/dico_briefing
+    TextDico = ~/LocalisationConstantes/dico_manual
     TextToken = <TextToken>
     TextSize = '16'
     TextColor = <TextColor>
@@ -1237,7 +1237,7 @@ is BUCKListElementDescriptor
         TypefaceToken = "Eurostyle"
         BigLineAction = ~/BigLineAction/MultiLine
         TextToken = <TextToken>
-        TextDico = ~/LocalisationConstantes/dico_briefing
+        TextDico = ~/LocalisationConstantes/dico_manual
         TextColor = (<HasBackground> ? 'Blanc' : 'MarronPanel_noir')
         TextSize = <TextSize>
 
@@ -1297,7 +1297,7 @@ template GameManualTab
             TypefaceToken = "Liberator"
             BigLineAction = ~/BigLineAction/MultiLine
             TextToken = <TextToken>
-            TextDico = ~/LocalisationConstantes/dico_briefing
+            TextDico = ~/LocalisationConstantes/dico_manual
             TextColor = "MarronPanel_noir"
             TextSize = "12"
 

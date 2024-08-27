@@ -1673,6 +1673,7 @@ export Descriptor_Unit_pion_RDA_1LVD_GROUPE is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Nationalite          = ENationalite/Axis
+            MotherCountry        = 'DDR'
             TypeUnitFormation    = 'Char'
         ),
         AirplaneFlagsModuleDescriptor,
@@ -1696,8 +1697,8 @@ export Descriptor_Unit_pion_RDA_1LVD_GROUPE is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_corps",
-                    "Texture_STRATEGIC_corps",
+                    "Texture_STRATEGIC_RTS_H_division",
+                    "Texture_STRATEGIC_division",
                 ]
             )
         ),
@@ -1772,7 +1773,7 @@ export Descriptor_Unit_pion_RDA_JBG37 is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Nationalite          = ENationalite/Axis
-            MotherCountry        = 'US'
+            MotherCountry        = 'DDR'
             TypeUnitFormation    = 'Char'
         ),
         AirplaneFlagsModuleDescriptor,
@@ -1879,7 +1880,7 @@ export Descriptor_Unit_pion_RDA_JG1 is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Nationalite          = ENationalite/Axis
-            MotherCountry        = 'US'
+            MotherCountry        = 'DDR'
             TypeUnitFormation    = 'Char'
         ),
         AirplaneFlagsModuleDescriptor,
@@ -1986,7 +1987,7 @@ export Descriptor_Unit_pion_RDA_JG3 is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Nationalite          = ENationalite/Axis
-            MotherCountry        = 'FR'
+            MotherCountry        = 'DDR'
             TypeUnitFormation    = 'Char'
         ),
         AirplaneFlagsModuleDescriptor,
@@ -2093,7 +2094,7 @@ export Descriptor_Unit_pion_RDA_JG7 is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Nationalite          = ENationalite/Axis
-            MotherCountry        = 'US'
+            MotherCountry        = 'DDR'
             TypeUnitFormation    = 'Char'
         ),
         AirplaneFlagsModuleDescriptor,
@@ -2200,7 +2201,7 @@ export Descriptor_Unit_pion_RDA_JG8 is TEntityDescriptor
         TTypeUnitModuleDescriptor
         (
             Nationalite          = ENationalite/Axis
-            MotherCountry        = 'US'
+            MotherCountry        = 'DDR'
             TypeUnitFormation    = 'Char'
         ),
         AirplaneFlagsModuleDescriptor,

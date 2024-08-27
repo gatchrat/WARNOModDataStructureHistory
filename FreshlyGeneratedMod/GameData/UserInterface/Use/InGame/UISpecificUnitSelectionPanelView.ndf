@@ -245,7 +245,7 @@ private SelectionPanel_nomsoldat is BUCKTextDescriptor
     TypefaceToken = "Eurostyle"
     BigLineAction = ~/BigLineAction/CutByDots
 
-    TextDico = ~/LocalisationConstantes/dico_unites
+    TextDico = ~/LocalisationConstantes/dico_units
 
     TextColor = "White"
     TextSize = "14"
@@ -553,7 +553,7 @@ private SelectionPanelUnitName is BUCKTextDescriptor
     TypefaceToken = "Liberator"
     BigLineAction = ~/BigLineAction/CutByDots
 
-    TextDico = ~/LocalisationConstantes/dico_unites
+    TextDico = ~/LocalisationConstantes/dico_units
 
     TextColor = "White"
     TextSize = "16"

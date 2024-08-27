@@ -399,6 +399,55 @@ private LigneAction is BUCKContainerDescriptor
 
             BUCKListElementDescriptor
             (
+                ExtendWeight = 1.0
+                ComponentDescriptor = BUCKButtonDescriptor
+                (
+                    ElementName = 'RevokeInvitationButton'
+                    ComponentFrame = TUIFramePropertyRTTI
+                    (
+                        RelativeWidthHeight = [1.0, 1.0]
+                        AlignementToAnchor = [0.0, 0.5]
+                        AlignementToFather = [0.0, 0.5]
+                    )
+
+                    HasBackground = true
+                    BackgroundBlockColorToken = 'Friend/DeclineButton'
+
+
+                    Components =
+                    [
+                        BUCKTextDescriptor
+                        (
+                            ComponentFrame = TUIFramePropertyRTTI
+                            (
+                                RelativeWidthHeight = [0.0, 1.0]
+                                AlignementToAnchor = [0.5, 0.5]
+                                AlignementToFather = [0.5, 0.5]
+                            )
+
+                             ParagraphStyle = TParagraphStyle
+                            (
+                                VerticalAlignment = ~/UIText_VerticalCenter
+                                Alignment = ~/UIText_Center
+                            )
+
+                            HorizontalFitStyle = ~/FitStyle/FitToContent
+
+                            TextStyle = 'Default'
+                            TypefaceToken = "UIMainFont"
+
+                            TextSize = "16"
+                            TextColor = 'HUBActionButton'
+
+                            TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                            TextToken = 'FR_REMOVE'
+                        )
+                    ]
+                )
+            ),
+
+            BUCKListElementDescriptor
+            (
                 ComponentDescriptor = BUCKContainerDescriptor
                 (
                     ElementName = "FriendButtonDummy"

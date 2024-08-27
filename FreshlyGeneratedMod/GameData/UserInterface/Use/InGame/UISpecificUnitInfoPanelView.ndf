@@ -38,45 +38,6 @@ is BUCKContainerDescriptor
 
     Components =
     [
-        BUCKTextDescriptor
-        (
-            ElementName = 'UnitName'
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-
-                RelativeWidthHeight =[0.0, 1.0]
-                AlignementToFather = [0.5, 0.5]
-                AlignementToAnchor = [0.5, 0.5]
-            )
-
-            ParagraphStyle = TParagraphStyle
-            (
-                Alignment = UIText_Center
-                VerticalAlignment = UIText_VerticalCenter
-                InterLine = 0
-            )
-
-            TextStyle = "Default"
-
-            HorizontalFitStyle = ~/FitStyle/FitToContent
-            VerticalFitStyle = ~/FitStyle/UserDefined
-
-            Hint = BUCKSpecificHintableArea
-            (
-                DicoToken = ~/LocalisationConstantes/dico_interface_ingame
-                HintTitleToken = "HIP_UNAMET"
-                HintBodyToken = "HIP_UNAMEB"
-                HintExtendedToken = "HIP_UNAMEE"
-            )
-
-            TypefaceToken = "UIMainFont"
-            BigLineAction = ~/BigLineAction/ResizeFont
-
-            TextDico = ~/LocalisationConstantes/dico_unites
-
-            TextColor = "MarronPanel_noir"
-            TextSize = "27"
-        ),
 
         BUCKListDescriptor
         (
@@ -88,6 +49,7 @@ is BUCKContainerDescriptor
             Axis = ~/ListAxis/Horizontal
             FirstMargin =TRTTILength( Magnifiable = 1.0 )
             InterItemMargin = TRTTILength( Magnifiable = 3.0 )
+            LastMargin = TRTTILength( Magnifiable = 20.0 )
 
             Elements =
             [
@@ -113,7 +75,7 @@ is BUCKContainerDescriptor
                         ElementName = 'UnitPrice'
                         ComponentFrame = TUIFramePropertyRTTI
                         (
-                            MagnifiableWidthHeight = [100.0, 20.0]
+                            MagnifiableWidthHeight = [0.0, 20.0]
                             AlignementToFather = [0.0, 0.5]
                             AlignementToAnchor = [0.0, 0.5]
                         )
@@ -136,7 +98,7 @@ is BUCKContainerDescriptor
                         )
 
                         VerticalFitStyle = ~/FitStyle/UserDefined
-                        HorizontalFitStyle = ~/FitStyle/UserDefined
+                        HorizontalFitStyle = ~/FitStyle/FitToContent
 
                         TypefaceToken = "Liberator"
                         BigLineAction = ~/BigLineAction/CutByDots
@@ -148,35 +110,94 @@ is BUCKContainerDescriptor
                     )
                 ),
 
-                //-------------------------------------------------------------------------------------
                 BUCKListElementDescriptor
                 (
-                    ComponentDescriptor = BUCKRackDescriptor
+                    ExtendWeight = 0.5
+                    ComponentDescriptor = BUCKContainerDescriptor
                     (
-                        ElementName = 'SpecialityTextureRack'
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            RelativeWidthHeight = [0.0, 1.0]
-                            AlignementToAnchor = [0.0, 0.5]
-                            AlignementToFather = [0.0, 0.5]
-                        )
-
-                        Axis = ~/ListAxis/Horizontal
-
-                        BladeDescriptor = BUCKTextureDescriptor
-                        (
-                            ComponentFrame = TUIFramePropertyRTTI
-                            (
-                                MagnifiableWidthHeight = [20.0, 20.0]
-                            )
-
-                            TextureFrame = TUIFramePropertyRTTI
-                            (
-                                RelativeWidthHeight = [1.0, 1.0]
-                            )
-                        )
+                        ComponentFrame = TUIFramePropertyRTTI ()
                     )
                 ),
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = BUCKTextDescriptor
+                    (
+                        ElementName = 'UnitName'
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+
+                            MagnifiableWidthHeight = [0.0, 20.0]
+
+                            AlignementToFather = [0.0, 0.5]
+                            AlignementToAnchor = [0.0, 0.5]
+                        )
+
+                        ParagraphStyle = TParagraphStyle
+                        (
+                            Alignment = UIText_Center
+                            VerticalAlignment = UIText_VerticalCenter
+                            InterLine = 0
+                        )
+
+                        TextStyle = "Default"
+
+                        HorizontalFitStyle = ~/FitStyle/FitToContent
+                        VerticalFitStyle = ~/FitStyle/UserDefined
+
+                        Hint = BUCKSpecificHintableArea
+                        (
+                            DicoToken = ~/LocalisationConstantes/dico_interface_ingame
+                            HintTitleToken = "HIP_UNAMET"
+                            HintBodyToken = "HIP_UNAMEB"
+                            HintExtendedToken = "HIP_UNAMEE"
+                        )
+
+                        TypefaceToken = "UIMainFont"
+                        BigLineAction = ~/BigLineAction/ResizeFont
+
+                        TextDico = ~/LocalisationConstantes/dico_units
+
+                        TextColor = "MarronPanel_noir"
+                        TextSize = "27"
+                    )
+                ),
+                BUCKListElementDescriptor
+                (
+                    ExtendWeight = 1.0
+                    ComponentDescriptor = BUCKContainerDescriptor
+                    (
+                        ComponentFrame = TUIFramePropertyRTTI ()
+                    )
+                ),
+                //-------------------------------------------------------------------------------------
+                // BUCKListElementDescriptor
+                // (
+                //     ComponentDescriptor = BUCKRackDescriptor
+                //     (
+                //         ElementName = 'SpecialityTextureRack'
+                //         ComponentFrame = TUIFramePropertyRTTI
+                //         (
+                //             RelativeWidthHeight = [0.0, 1.0]
+                //             AlignementToAnchor = [0.0, 0.5]
+                //             AlignementToFather = [0.0, 0.5]
+                //         )
+
+                //         Axis = ~/ListAxis/Horizontal
+
+                //         BladeDescriptor = BUCKTextureDescriptor
+                //         (
+                //             ComponentFrame = TUIFramePropertyRTTI
+                //             (
+                //                 MagnifiableWidthHeight = [20.0, 20.0]
+                //             )
+
+                //             TextureFrame = TUIFramePropertyRTTI
+                //             (
+                //                 RelativeWidthHeight = [1.0, 1.0]
+                //             )
+                //         )
+                //     )
+                // ),
             ]
         ),
     ]
@@ -342,11 +363,7 @@ private AffichageCategoryPanelInfo is BUCKContainerDescriptor
 
 //-------------------------------------------------------------------------------------
 
-private template AffichagePanelDesArmes
-[
-    Scale : float = 1.0,
-]
-is BUCKListDescriptor
+AffichagePanelDesArmes is BUCKListDescriptor
 (
     ElementName = "WeaponLinesContainer"
     ComponentFrame = TUIFramePropertyRTTI
@@ -531,9 +548,6 @@ private AffichageDuBlindage is BUCKListDescriptor
             (
                 MagnifiableWidth = 110.0
                 Magnifiable_barre = 60.0
-                AlignementToFather = [0.0 ,0.0]
-                AlignementToAnchor = [0.0, 0.0]
-                Plating = true
                 ElementName = 'PlatingFront'
                 Padding = 10.0
                 MagnifiableOffset = [0.0, -14.0]
@@ -553,9 +567,6 @@ private AffichageDuBlindage is BUCKListDescriptor
             (
                 MagnifiableWidth = 110.0
                 Magnifiable_barre = 60.0
-                AlignementToFather = [0.0, 0.0]
-                AlignementToAnchor = [0.0, 0.0]
-                Plating = true
                 ElementName = 'PlatingSides'
                 Padding = 10.0
                 MagnifiableOffset = [0.0,-14.0]
@@ -575,9 +586,6 @@ private AffichageDuBlindage is BUCKListDescriptor
             (
                 MagnifiableWidth = 110.0
                 Magnifiable_barre = 60.0
-                AlignementToFather = [0.0, 0.0]
-                AlignementToAnchor = [0.0, 0.0]
-                Plating = true
                 ElementName = 'PlatingBack'
                 Padding = 10.0
                 MagnifiableOffset = [0.0, -14.0]
@@ -597,9 +605,6 @@ private AffichageDuBlindage is BUCKListDescriptor
             (
                 MagnifiableWidth = 110.0
                 Magnifiable_barre = 60.0
-                AlignementToFather = [0.0, 0.0]
-                AlignementToAnchor = [0.0, 0.0]
-                Plating = true
                 ElementName = 'PlatingTop'
                 Padding = 10.0
                 MagnifiableOffset = [0.0, -14.0]
@@ -865,7 +870,16 @@ private template MainListePanelInfo
         BUCKListElementSpacer( Magnifiable = 5.0*<Scale>),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ~/UnitInfoPanelSpecialtiesSubPanel
+            ComponentDescriptor = BUCKContainerDescriptor
+            (
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    AlignementToAnchor = [0.5, 0.0]
+                    AlignementToFather = [0.5, 0.0]
+                    MagnifiableWidthHeight = [110*4,45]
+                )
+                Components = [~/UnitInfoPanelSpecialtiesSubPanel]
+            )
         ),
         BUCKListElementSpacer( Magnifiable = 10.0*<Scale>),
         // affichage de l'armure
@@ -899,7 +913,7 @@ private template MainListePanelInfo
         ,
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = AffichagePanelDesArmes(Scale = <Scale>)
+            ComponentDescriptor = AffichagePanelDesArmes
         ),
         // affichage des caractériques secondaires
         BUCKListElementDescriptor
@@ -932,24 +946,24 @@ private template BUCKSpecificUnitInfoPanelMainComponentDescriptor
     IsShowRoom : bool,
     Scale : float = 1.0,
 ]
-is PanelRoundedCorner
+is BUCKContainerDescriptor
 (
     ElementName = "UnitInfoPanelMainComponentDescriptor"
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [0.0, <IsShowRoom> ? 875.0 : 820]
+        MagnifiableWidthHeight = [0.0, <IsShowRoom> ? 875.0-55 : 820]
     )
 
     MagnifierMultiplication = <Scale>
     HidePointerEvents = true
 
-    Radius = 30
-    NbOfPoints = 7
-    BackgroundBlockColorToken = 'Transparent'
-    BorderLineColorToken = 'MarronPanel_noir'
-    BorderThicknessToken = '2'
-    RoundedVertexes = [false,false,true,true]
+    // Radius = 30
+    // NbOfPoints = 7
+    // BackgroundBlockColorToken = 'Transparent'
+    // BorderLineColorToken = 'Transparent'
+    // BorderThicknessToken = '2'
+    // RoundedVertexes = [false,false,true,true]
 
     FitStyle = ~/ContainerFitStyle/FitToContentHorizontally
 
@@ -961,10 +975,10 @@ is PanelRoundedCorner
             ComponentFrame = TUIFramePropertyRTTI
             (
                 RelativeWidthHeight = [1.0, 1.0]
-                MagnifiableWidthHeight = [30.0, <IsShowRoom> ? 32.0 : 29.0]
-                MagnifiableOffset = [-15.0, -5.0]
+                MagnifiableWidthHeight = [1, <IsShowRoom> ? 32.0 : 29.0]
+                MagnifiableOffset = [15, -5.0]
             )
-            TextureToken = 'UseInGame_UnitInfoPanel_fond_panel2'
+            TextureToken = 'UseInGame_UnitInfoPanel_fond_panel_light'
         ),
         BUCKListDescriptor
         (
@@ -994,51 +1008,51 @@ is PanelRoundedCorner
             ]
         ),
         // fake text 1
-        BUCKTextDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [20.0, 250.0]
-                AlignementToFather = [0.0, 0.5]
-                AlignementToAnchor = [0.0, 0.5]
-                MagnifiableOffset = [20.0,0]
-            )
+        // BUCKTextDescriptor
+        // (
+        //     ComponentFrame = TUIFramePropertyRTTI
+        //     (
+        //         MagnifiableWidthHeight = [20.0, 250.0]
+        //         AlignementToFather = [0.0, 0.5]
+        //         AlignementToAnchor = [0.0, 0.5]
+        //         MagnifiableOffset = [20.0,0]
+        //     )
 
-            ParagraphStyle = paragraphStyleTextCenter
-            TextStyle = "Default"
-            HorizontalFitStyle = ~/FitStyle/UserDefined
-            VerticalFitStyle = ~/FitStyle/UserDefined
-            TypefaceToken = "Eurostyle"
-            BigLineAction = ~/BigLineAction/MultiLine
-            TextToken = 'pi_fak1'
-            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-            TextColor = "MarronPanel_noir"
-            TextSize = "8"
-            Rotation = -90
-            IsClippable = false
-        ),
-        BUCKTextDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 0.0]
-                MagnifiableWidthHeight = [0.0, 10.0]
-                AlignementToFather = [0.5, 1.0]
-                AlignementToAnchor = [0.5, 1.0]
-                MagnifiableOffset = [3.0, -15.0]
-            )
+        //     ParagraphStyle = paragraphStyleTextCenter
+        //     TextStyle = "Default"
+        //     HorizontalFitStyle = ~/FitStyle/UserDefined
+        //     VerticalFitStyle = ~/FitStyle/UserDefined
+        //     TypefaceToken = "Eurostyle"
+        //     BigLineAction = ~/BigLineAction/MultiLine
+        //     TextToken = 'pi_fak1'
+        //     TextDico = ~/LocalisationConstantes/dico_interface_ingame
+        //     TextColor = "MarronPanel_noir"
+        //     TextSize = "8"
+        //     Rotation = -90
+        //     IsClippable = false
+        // ),
+        // BUCKTextDescriptor
+        // (
+        //     ComponentFrame = TUIFramePropertyRTTI
+        //     (
+        //         RelativeWidthHeight = [1.0, 0.0]
+        //         MagnifiableWidthHeight = [0.0, 10.0]
+        //         AlignementToFather = [0.5, 1.0]
+        //         AlignementToAnchor = [0.5, 1.0]
+        //         MagnifiableOffset = [3.0, -15.0]
+        //     )
 
-            ParagraphStyle = paragraphStyleTextCenter
-            TextStyle = "Default"
-            HorizontalFitStyle = ~/FitStyle/UserDefined
-            VerticalFitStyle = ~/FitStyle/UserDefined
-            TypefaceToken = "Eurostyle"
-            BigLineAction = ~/BigLineAction/MultiLine
-            TextToken = 'pi_fak2'
-            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-            TextColor = "MarronPanel_noir"
-            TextSize = "8"
-        ),
+        //     ParagraphStyle = paragraphStyleTextCenter
+        //     TextStyle = "Default"
+        //     HorizontalFitStyle = ~/FitStyle/UserDefined
+        //     VerticalFitStyle = ~/FitStyle/UserDefined
+        //     TypefaceToken = "Eurostyle"
+        //     BigLineAction = ~/BigLineAction/MultiLine
+        //     TextToken = 'pi_fak2'
+        //     TextDico = ~/LocalisationConstantes/dico_interface_ingame
+        //     TextColor = "MarronPanel_noir"
+        //     TextSize = "8"
+        // ),
     ]
 )
 
@@ -1065,7 +1079,7 @@ private UnitInfoPanelRoleDescriptor is BUCKListDescriptor
         BUCKSpecificHintableArea
         (
             ElementName = "RoleHint"
-            DicoToken = ~/LocalisationConstantes/dico_unites
+            DicoToken = ~/LocalisationConstantes/dico_units
         )
     ]
     Elements =
@@ -1166,7 +1180,7 @@ private UnitInfoPanelRoleDescriptor is BUCKListDescriptor
                             TypefaceToken = "Eurostyle"
                             BigLineAction = ~/BigLineAction/CutByDots
 
-                            TextDico = ~/LocalisationConstantes/dico_unites
+                            TextDico = ~/LocalisationConstantes/dico_units
 
                             TextColor = "MarronPanel_blanc"
                             TextSize = "18"
@@ -1222,7 +1236,7 @@ private UnitInfoPanelSubSpecialtiesDescriptor is BUCKListDescriptor
                     BUCKSpecificHintableArea
                     (
                         ElementName = "SubSpecialtyMainIconHint"
-                        DicoToken = ~/LocalisationConstantes/dico_unites
+                        DicoToken = ~/LocalisationConstantes/dico_units
                     )
                 ]
             )
@@ -1271,7 +1285,7 @@ private UnitInfoPanelSubSpecialtiesDescriptor is BUCKListDescriptor
                             TypefaceToken = "Liberator"
                             BigLineAction = ~/BigLineAction/CutByDots
 
-                            TextDico = ~/LocalisationConstantes/dico_unites
+                            TextDico = ~/LocalisationConstantes/dico_units
                             TextColor = "MarronPanel_blanc"
                             TextSize = "13"
                         )
@@ -1306,7 +1320,7 @@ private UnitInfoPanelSubSpecialtiesDescriptor is BUCKListDescriptor
                                     BUCKSpecificHintableArea
                                     (
                                         ElementName = "SubSpecialtyIconHint"
-                                        DicoToken = ~/LocalisationConstantes/dico_unites
+                                        DicoToken = ~/LocalisationConstantes/dico_units
                                     )
                                 ]
                             )
@@ -1435,7 +1449,7 @@ is TUISpecificUnitInfoPanelViewDescriptor
             BUCKSpecificHintableArea
             (
                 ElementName = "DivisionEmblemHint"
-                DicoToken = ~/LocalisationConstantes/dico_unites
+                DicoToken = ~/LocalisationConstantes/dico_units
             )
         ]
     )

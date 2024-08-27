@@ -7,8 +7,6 @@ template ShortcutButton
     SpotlightUniqueName : string = "",
     TextureToken : string = "",
     HintableAreaComponent : TBUCKHintableAreaDescriptor = nil,
-    RelativeWidthHeight : float2 = [1.0, 1.0],
-    MagnifiableWidthHeight : float2 = [0.0, 0.0],
     MagnifiableWidthHeightTexture : float2 = [30.0, 30.0],
     BackgroundBlockColorToken : string = "BoutonTemps",
     BorderLineColorToken : string = "CouleurBordure_boutonShortcuts",
@@ -118,8 +116,6 @@ template ShortcutButtonWithStrategicHint
     TextureColorToken : string = "CouleurTexture_boutonShortcutsStrategic",
     HintTitleToken : string = "",
     HintBodyToken : string = "",
-    RelativeWidthHeight : float2 = [1.0, 1.0],
-    MagnifiableWidthHeight : float2 = [0.0, 0.0],
     BackgroundBlockColorToken : string = "BoutonTemps",
     BorderLineColorToken : string = "CouleurBordure_boutonShortcuts",
     LeftClickSound : TSoundDescriptor = nil,
@@ -133,8 +129,6 @@ template ShortcutButtonWithStrategicHint
     UniqueName = <UniqueName>
     SpotlightUniqueName = <SpotlightUniqueName>
     TextureToken = <TextureToken>
-    RelativeWidthHeight = <RelativeWidthHeight>
-    MagnifiableWidthHeight = <MagnifiableWidthHeight>
     BackgroundBlockColorToken = <BackgroundBlockColorToken>
     BorderLineColorToken = <BorderLineColorToken>
     LeftClickSound = <LeftClickSound>
@@ -275,7 +269,6 @@ UnusedButtonTextContainer is BUCKContainerDescriptor
 
 UnusedUnitButton is ShortcutButtonWithStrategicHint
 (
-    MagnifiableWidthHeight = [32.0, 100 div 3]
     ElementName = "NextIdleUnitButton"
     UniqueName = 'StrategicHeader_BtnUnusedUnit'
     SpotlightUniqueName = 'SpotLight_UnusedUnit'
@@ -301,8 +294,6 @@ UnusedUnitContainer is BUCKContainerDescriptor
 //------------------------------------------------------------------------------
 BoutonAffichageStrategicSituation is ShortcutButtonWithStrategicHint
 (
-    MagnifiableWidthHeight = [32.0, 100 div 3]
-    RelativeWidthHeight = [0.0, 0.0]
     ElementName = 'BtnStrategicSituation'
     UniqueName = 'StrategicHeader_BtnStrategicSituation'
     SpotlightUniqueName = 'SpotLight_SituationBtn'
@@ -316,8 +307,6 @@ BoutonAffichageStrategicSituation is ShortcutButtonWithStrategicHint
 
 BoutonAffichageOrdreDeBataille is ShortcutButtonWithStrategicHint
 (
-    MagnifiableWidthHeight = [32.0, 100 div 3]
-    RelativeWidthHeight = [0.0, 0.0]
     UniqueName = 'StrategicHeader_OrganisationBtn'
     ElementName = 'BtnOrganisation'
     SpotlightUniqueName = 'SpotLight_OrganisationBtn'
@@ -332,8 +321,6 @@ BoutonAffichageOrdreDeBataille is ShortcutButtonWithStrategicHint
 
 BoutonAffichagePertes is ShortcutButtonWithStrategicHint
 (
-    MagnifiableWidthHeight = [32.0, 100 div 3]
-    RelativeWidthHeight = [0.0, 0.0]
     UniqueName = 'StrategicHeader_BtnLossesState'
     ElementName = 'BtnLossesState'
     SpotlightUniqueName = 'SpotLight_CasualtiesBtn'
@@ -348,8 +335,6 @@ BoutonAffichagePertes is ShortcutButtonWithStrategicHint
 BoutonAccelerationDuTemps is ShortcutButtonWithStrategicHint
 (
     ElementName = 'BtnGameSpeed'
-    MagnifiableWidthHeight = [32.0, 100 div 3]
-    RelativeWidthHeight = [0.0, 0.0]
     UniqueName = ''
     SpotlightUniqueName = 'SpotLight_GameSpeedBtn'
     TextureToken = "vitesse03Strat"
@@ -363,8 +348,6 @@ BoutonAccelerationDuTemps is ShortcutButtonWithStrategicHint
 BoutonChat is ShortcutButtonWithStrategicHint
 (
     ElementName = 'ChatButton'
-    MagnifiableWidthHeight = [32.0, 100 div 3]
-    RelativeWidthHeight = [0.0, 0.0]
     MagnifiableWidthHeightTexture = [52.0, 32.0]
     UniqueName = ''
     SpotlightUniqueName = 'SpotLight_GameChat'

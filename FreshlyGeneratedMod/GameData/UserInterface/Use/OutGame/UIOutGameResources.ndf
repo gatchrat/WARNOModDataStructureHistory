@@ -75,11 +75,6 @@ export OutGameResourceSpecific is TUISpecificOutGameResources
     GameFoundSound              = ~/OutgameSound_WG2_GameFound
     ProfileClickSound           = ~/OutgameSound_WG2_ProfileClick
 
-    NewContentTagsAndDisplayCount = MAP
-    [
-        ("ChallengeUpdate",     5),
-    ]
-
     ViewDescriptors = MAP
     [
         ("UIOutGameChatViewDescriptor", ~/UISpecificOutGameChatViewDescriptor),
@@ -109,8 +104,8 @@ export OutGameResourceSpecific is TUISpecificOutGameResources
         ("UISpecificChallengeViewDescriptor",             UISpecificScenarioViewDescriptor(GameType = GameChallenge)),
         ("UISpecificChallengeSubViewDescriptor",          UISpecificScenarioViewDescriptor(GameType = GameChallenge IsSubView=true ComponentContainerUniqueName="SubMenuPanelViewDescriptor")),
         ("UISpecificTutorialSubViewDescriptor",           ~/UISpecificTutorialViewDescriptor),
-        ("UISpecificSaveLoadPanelSubViewDescriptor",      UISpecificSaveLoadPanelViewDescriptor(IsSubView=true ComponentContainerUniqueName="SubMenuPanelViewDescriptor")),
-        ("UISpecificSaveLoadPanelViewDescriptor",         UISpecificSaveLoadPanelViewDescriptor(IsSubView=false)),
+        ("UISpecificSaveLoadPanelSubViewDescriptor",      UISpecificSaveLoadPanelViewDescriptor(ComponentContainerUniqueName="SubMenuPanelViewDescriptor")),
+        ("UISpecificSaveLoadPanelViewDescriptor",         UISpecificSaveLoadPanelViewDescriptor()),
         ("UISpecificOutGameMultiViewDescriptor", ~/UISpecificOutGameMultiViewDescriptor),
         ("UISpecificMultiScenarioSelectionViewDescriptor", ~/UISpecificMultiScenarioSelectionViewDescriptor),
         ("UISpecificLeaderboardViewDescriptor", UISpecificLeaderboardViewDescriptor(ComponentContainerUniqueName="MultiLeaderboardSubViewDescriptor")),

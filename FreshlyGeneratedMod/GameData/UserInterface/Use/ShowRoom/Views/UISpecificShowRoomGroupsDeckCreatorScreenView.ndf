@@ -1101,7 +1101,6 @@ UnitListAnimatedContainer is BUCKTranslationAnimatedContainerDescriptor
         AlignementToAnchor = [0.0, 1.0]
     )
 
-    UseRewind = true
     AnimationTotalDuration = 0.15
 
     FramePropertyAfterAnimation = TUIFramePropertyRTTI
@@ -1133,7 +1132,6 @@ ChallengeDescriptionContainer is BUCKTranslationAnimatedContainerDescriptor
         MagnifiableOffset = [-1600.0, 0]
     )
 
-    UseRewind = true
     AnimationTotalDuration = 0.15
 
     FramePropertyAfterAnimation = TUIFramePropertyRTTI

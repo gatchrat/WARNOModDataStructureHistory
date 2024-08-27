@@ -457,7 +457,6 @@ is TUIMouseWidgetResource
 
 template Template_HardwareMouseWidgetResource_WithTerrainFeedback
 [
-    RelativeTextPlacement = [0.5, 1.5],
     TerrainTypeToMouseCursorAnimation,
     TextSize = "MouseWidget/TextModule",
     TerrainTypeToHintContent : Map<int, THintContentHolder> = MAP[],
@@ -504,7 +503,6 @@ is TUIMouseWidgetResource
 template Template_HardwareMouseWidgetResourcePlayerMission
 [
     HardwareMouseCursorAnimation = ~/MouseCursorAnimationDefault,
-    RelativeTextPlacement = [0.5, 1.5],
     PlayerMissionType = ~/EPlayerMissionRequestType_Unknown
 ]
 is TUIMouseWidgetResource
@@ -881,14 +879,12 @@ MouseWidget_InvalidDefense is Template_HardwareMouseWidgetResource
 //--------------------------------------------------------
 MouseWidget_OrderAIAttack is Template_HardwareMouseWidgetResourcePlayerMission
 (
-    RelativeTextPlacement = [1, 1.5]
     HardwareMouseCursorAnimation = ~/Mousecurseur_ai_attack
     PlayerMissionType = ~/EPlayerMissionRequestType_Seize
 )
 
 MouseWidget_OrderAIArtilleryFocus is Template_HardwareMouseWidgetResourcePlayerMission
 (
-    RelativeTextPlacement = [1, 1.5]
     HardwareMouseCursorAnimation = ~/Mousecurseur_ai_artillery_focus
     PlayerMissionType = ~/EPlayerMissionRequestType_ManageArtillery_Focus
 )
@@ -942,7 +938,6 @@ private template TextComponentWeapon
 
 template Template_SoftwareMouseWidgetResource_Targeting
 [
-    RelativeTargetPointerPlacement  = [0.5, 0.5],
     SoftwareCursorTextureName       = "",
     HardwareMouseCursorAnimation    = ~/MouseCursorAnimationPointerSelectionRed,
 ]

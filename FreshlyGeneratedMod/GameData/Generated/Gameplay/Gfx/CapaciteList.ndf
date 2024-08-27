@@ -1206,6 +1206,49 @@ export Capacite_electronic_warfare is TCapaciteDescriptor
     ]
 
 )
+export Capacite_eo_dazzler is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{54695330-337e-4fb3-9034-0014b72c079f}
+    Name             = "eo_dazzler"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_soi
+    TargetTeamFilter     = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_soi
+    InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
+    ActionRadiusWithBoundingBox = False
+    Radius              = 1.00 * Metre
+    Range               = 1.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastTime            = 0.00
+    Cooldown            = 1.00
+    CheckVisibility     = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect         = ~/UnitEffect_eo_dazzler
+    TargetEffectDuration = -1.00
+    SelfEffectDuration   = 0.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = 1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+    ]
+    Conditions = [
+        ~/ConditionNotInMovement,
+    ]
+)
 export Capacite_jammer is TCapaciteDescriptor
 (
     DescriptorId     = GUID:{e8d88ab7-f594-4802-bc2a-b28d3c8e9f79}

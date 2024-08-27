@@ -13,33 +13,23 @@ template BUCKSpecificDropdownDescriptor
     BackgroundBlockColorToken : string = "Transparent",
 
     HasBorder : bool = true,
-    BordersToDraw : int = ~/TBorderSide/Default,
     BorderThicknessToken : string = "1",
     BorderLineColorToken : string = "menu_solo_liste_mission",
 
     HidePointerEvents : bool = false,
     PointerEventsToAllow : int = ~/EAllowablePointerEventType/None,
 
-    ComponentStateLocked : bool = true,
     IsForModale : bool = false,
 
-    FocusMapping : TEugBMutablePBaseClass = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) ),
     ItemFocusable : bool = true,
-
-    MainTextElementName : string = "",
-    ItemTextElementName : string = "",
-    ItemTextHintableAreaName : string = "",
 
     FloatingListMagnifiableWidth : float = 250.0,
     FloatingListMagnifiableHeight : float = 200.0,
     FloatingListRelativeWidth : float = 0,
     FloatingListRelativeHeight: float = 0,
 
-    ItemDescriptor : TBUCKButtonDescriptor = nil,
     ItemComponentFrame : TUIFramePropertyRTTI = TUIFramePropertyRTTI(RelativeWidthHeight = [1.0, 1.0]),
     ItemComponentBackgroundColor : string = "Blanc",
-    ItemValues : LIST<PAIR<int, string>> = [],
-    ItemsDico : string = "",
     ItemsTextSizeToken : string = "14",
     ItemsTextColorToken : string = "ButtonHUD/Text2",
     ItemComponents : LIST<TBUCKContainerDescriptor> = [],
@@ -250,7 +240,6 @@ is BUCKDropdownDescriptor
 template TScrollingDescriptor
 [
     ScrollingElementName : string = "",
-    HasScrollbars : bool = true,
     ComponentFrame : TUIFramePropertyRTTI,
     Component,
     BorderLineColorToken : string = '',

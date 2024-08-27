@@ -98,7 +98,6 @@ template ThumbnailMultiDescriptor
     TextToken : string,
     ElementName: string,
     DecalageTextureSurvol : float2 = [-15.0, 40.0],
-    IsTogglable: boolean = true,
     TextColor : string = "menu_titre_solo",
     TextSize : string = "28",
     TextureColorToken : string = '',

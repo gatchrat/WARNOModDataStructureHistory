@@ -17,9 +17,17 @@ Texture_Speciality_Icon_infantry_half is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/infantry_half.png"
 )
+Texture_Speciality_Icon_airlift is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/airlift.png"
+)
 Texture_Speciality_Icon_amphibie is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/amphibie.png"
+)
+Texture_Speciality_Icon_canBeAirlifted is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/canBeAirlifted.png"
 )
 Texture_Speciality_Icon_shock is TUIResourceTexture_Common
 (
@@ -28,6 +36,10 @@ Texture_Speciality_Icon_shock is TUIResourceTexture_Common
 Texture_Speciality_Icon_electronic_warfare is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/electronic_warfare.png"
+)
+Texture_Speciality_Icon_eo_dazzler is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/eo_dazzler.png"
 )
 Texture_Speciality_Icon_era is TUIResourceTexture_Common
 (
@@ -209,6 +221,10 @@ Texture_Speciality_Icon_transport is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/transport.png"
 )
+Texture_Speciality_Icon_uav is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/uav.png"
+)
 Texture_Speciality_Icon_veh is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/veh.png"
@@ -222,9 +238,12 @@ UnitSpecialityAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Speciality_Icon_AT", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_AT)]),
         ("Texture_Speciality_Icon_Armor_heavy", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_Armor_heavy)]),
         ("Texture_Speciality_Icon_infantry_half", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_infantry_half)]),
+        ("Texture_Speciality_Icon_airlift", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_airlift)]),
         ("Texture_Speciality_Icon_amphibie", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_amphibie)]),
+        ("Texture_Speciality_Icon_canBeAirlifted", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_canBeAirlifted)]),
         ("Texture_Speciality_Icon_shock", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_shock)]),
         ("Texture_Speciality_Icon_electronic_warfare", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_electronic_warfare)]),
+        ("Texture_Speciality_Icon_eo_dazzler", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_eo_dazzler)]),
         ("Texture_Speciality_Icon_era", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_era)]),
         ("Texture_Speciality_Icon_falseflag", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_falseflag)]),
         ("Texture_Speciality_Icon_gsr", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_gsr)]),
@@ -270,6 +289,7 @@ UnitSpecialityAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Speciality_Icon_D", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_D)]),
         ("Texture_Speciality_Icon_team", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_team)]),
         ("Texture_Speciality_Icon_transport", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_transport)]),
+        ("Texture_Speciality_Icon_uav", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_uav)]),
         ("Texture_Speciality_Icon_veh", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_veh)]),
     ]
 )

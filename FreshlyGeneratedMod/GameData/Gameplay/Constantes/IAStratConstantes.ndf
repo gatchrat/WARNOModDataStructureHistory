@@ -41,6 +41,13 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
         (EMacroActionMissionType/ProduceBuilding, ['Avion', 'InfmapCommander']),
     ]
 
+    MinUnitWeightToReserveCorridor = 15.0
+    UnitTagAndWeightToReserveCorridor = MAP
+    [
+        ( "Infanterie", 1.0 ),
+        ( "Char", 0.5 ),
+    ]
+
     //--------------- Connaissance des zones ----------------------------------------//
 
     // Si on utilise le contrôle des zones par ratios de force, c'est la valeur minimale à dépasser pour contrôler la zone
@@ -239,8 +246,6 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
 
     //Smart Order Custom Zone Filler
     ZoneFillerType = TCircleZoneFiller(Radius = 3)
-
-    MaxCustomZoneDistanceForSimilar = 830.0 * Metre
 
     DefaultInMapArtilleryAmount = 1
     DefaultOutMapArtilleryAmount = 1

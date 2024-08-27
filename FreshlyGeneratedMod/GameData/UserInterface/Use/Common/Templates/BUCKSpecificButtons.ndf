@@ -107,7 +107,6 @@ template BoutonFulda_AvecIcone
     IsFromStrategic : bool = false,
     BackgroundColor : string = "ButtonHUD/Background2",
     LineBorderColor : string = "ButtonHUD/Border",
-    BorderColor : string = "ButtonHUD/BigBorder",
     TextureToken : string,
     TextureColorToken : string = "ButtonHUD/Text2",
 
@@ -458,8 +457,6 @@ template StandardButton
 
     Components : LIST<TBUCKContainerDescriptor> = [],
 
-    AllowMultipleInputsPerFrame : bool = false,
-
     Grayed : bool = false,
     IsFocusable : bool = false,
     IsTogglable : bool = false,
@@ -568,8 +565,6 @@ template ConfirmButton
     Components : LIST<TBUCKContainerDescriptor> = [],
 
     RadioButtonManager : TBUCKRadioButtonManager = nil,
-
-    AllowMultipleInputsPerFrame : bool = false,
 
     Grayed : bool = false,
     IsFocusable : bool = false,
@@ -698,8 +693,6 @@ template CancelButton
     ButtonAlignementToFather : float2 = [0,0],
 
     Components : LIST<TBUCKContainerDescriptor> = [],
-
-    AllowMultipleInputsPerFrame : bool = false,
 
     Grayed : bool = false,
     IsFocusable : bool = false,

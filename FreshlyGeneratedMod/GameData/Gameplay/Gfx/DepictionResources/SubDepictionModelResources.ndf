@@ -724,7 +724,6 @@ export MeshDescriptor_Servant_D_Marinier_NL_LOW is ModelDescriptor
 export FuldaSoldier is TResourceMultiMaterialMesh
 (
     FileName = 'GameData:/Assets/3D/Units/US/Infanterie/Test_Soldier/Fulda_Soldier.fbx'
-    UsefulnessMask = TypeMask/Common
 )
 //--------------------------------------------------------------------------------------------------------------------
 template DriverPoseTemplate
@@ -733,7 +732,6 @@ template DriverPoseTemplate
 ] is TResourceMatrixArrayAnimation
 (
     FileName   = 'GameData:/Assets/3D/Units/Common/Driver/' + <FileName>
-    UsefulnessMask = TypeMask/Common
     PlayInLoop     = false
 )
 //--------------------------------------------------------------------------------------------------------------------
@@ -744,6 +742,11 @@ export DriverLSV is DriverPoseTemplate(FileName = 'Driver_LSV.fbx')
 export GunnerSittingDown is TResourceMatrixArrayAnimation
 (
     FileName       = 'GameData:/Assets/3D/Units/Common/sources/Anims_Gunner_FULDA/Gunner_Sitting_Down.fbx'
-    UsefulnessMask = TypeMask/Common
+    PlayInLoop     = false
+)
+
+export GunnerStandingUp is TResourceMatrixArrayAnimation
+(
+    FileName       = 'GameData:/Assets/3D/Units/Common/sources/Anims_Gunner_FULDA/Gunner_Standing_Up.fbx'
     PlayInLoop     = false
 )

@@ -3055,6 +3055,18 @@ export UnitEffect_electronic_warfare_arty is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_eo_dazzler is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{7a321bca-c294-462f-a15e-f7f43945d044}
+    NameForDebug       = 'eo_dazzler'
+    EffectsDescriptors = [
+        TUnitEffectBonusPrecisionWhenTargetedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusPrecisionWhenTargeted = -10
+        ),
+    ]
+)
 export UnitEffect_evac_avion is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{a202704a-8657-4e68-b4f6-d039ccdb2db5}

@@ -1,9 +1,0 @@
-{
-	"extensions":
-	[
-		"ndf",
-        "gds"
-	],
-    "translate_tabs_to_spaces": true,
-    "color_scheme" : "Packages/User/Monokai-ndf.tmTheme"
-}

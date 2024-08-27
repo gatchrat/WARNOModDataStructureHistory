@@ -166,8 +166,6 @@ template BUCKSimpleAnimatedContainerDescriptor
     ButtonNameForTrigger : string = "", // Doit être dans les Components du composant !
     ButtonUniqueNameForTrigger : string = "", // Permet d'accèder à un bouton en dehors du composant, ne pas utiliser en même temps que ButtonNameForTrigger
 
-    UseRewind : bool = true, // Si true, lorsque l'animation est redeclenchée apres avoir jouée, elle va rejouer à l'envers
-
     TriggerWhenSetVisible : bool = false, // ElementName d'un bouton déclenchant l'animation, il doit être dans les Components du composant !
     TriggerWhenSetInvisible : bool = false, // Declenche l'animation avant la disparition du conteneur à l'écran
 
@@ -301,8 +299,6 @@ template BUCKTranslationAnimatedContainerDescriptor
     ButtonNameForTrigger : string = "", // ElementName d'un bouton déclenchant l'animation, il doit être dans les Components du composant !
     ButtonUniqueNameForTrigger : string = "", // Permet d'accèder à un bouton en dehors du composant, ne pas utiliser en même temps que ButtonNameForTrigger
 
-    UseRewind : bool = true, // Si true, lorsque l'animation est redeclenchée apres avoir jouée, elle va rejouer à l'envers
-
     TriggerWhenSetVisible : bool = false, // Declenche l'animation lors de l'apparition du conteneur à l'écran
     TriggerWhenSetInvisible : bool = false, // Declenche l'animation avant la disparition du conteneur à l'écran
 
@@ -354,7 +350,6 @@ template BUCKTranslationAnimatedContainerDescriptor
 
     ButtonNameForTrigger = <ButtonNameForTrigger>
     ButtonUniqueNameForTrigger = <ButtonUniqueNameForTrigger>
-    UseRewind = <UseRewind>
 
     TriggerWhenSetVisible = <TriggerWhenSetVisible>
     TriggerWhenSetInvisible = <TriggerWhenSetInvisible>

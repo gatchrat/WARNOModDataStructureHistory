@@ -750,7 +750,7 @@ private SkirmishProductionMenuDivisionText is BUCKTextDescriptor
     BigLineAction = ~/BigLineAction/CutByDots
 
     TextSize = "24"
-    TextDico = ~/LocalisationConstantes/dico_unites
+    TextDico = ~/LocalisationConstantes/dico_units
     TextColor = "LighterGray"
 )
 

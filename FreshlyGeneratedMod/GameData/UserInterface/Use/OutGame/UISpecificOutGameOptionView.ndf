@@ -990,7 +990,6 @@ FondPanelNavigation is BUCKTextureDescriptor
 BUCKSpecificOutGameOptionMainComponentDescriptor is WindowFrameContainer
 (
     ElementName = "OutgameOptionMainComponent"
-    ContentExtendWeight = 1.0
     ContentRelativeWidthHeight = [1.0, 1.0]
     TitleToken =  ''
     HasBackground = false

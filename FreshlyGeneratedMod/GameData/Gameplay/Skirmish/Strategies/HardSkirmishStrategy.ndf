@@ -94,6 +94,7 @@ export Hard_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/FOB_Skirmish,
 
         ~/Attack_Objectives,
+        ~/Defense_Static_AA,
 
 
         ~/Airstrike_AA,
@@ -110,6 +111,7 @@ export Hard_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/Defense_Dynamic_AA,
 
         ~/Attack_Helo,
+        ~/Defense_Static_AA,
 
         ~/Artillery_TriggerHappy,        // Artillerie pas chère                 //  80
 
@@ -163,6 +165,7 @@ export Hard_Phase_Command is TSequenceGeneratorDescriptor
         ~/CaptureOneObjectif,
 
         ~/Attack_Objectives,
+        ~/Defense_Static_AA,
 
         ~/Airstrike_AA,
 
@@ -188,6 +191,8 @@ export Hard_Phase_Command is TSequenceGeneratorDescriptor
         ~/Defense_Objectif,
 
         ~/Attack_Helo,
+        ~/Defense_Static_AA,
+
         ~/Artillery_TriggerHappy,        // Artillerie pas chère                 //  80
 
         ~/CaptureHalfZoneObjectif_Ceil,
@@ -262,7 +267,7 @@ export Hard_Phase_LastHope is TSequenceGeneratorDescriptor
         // Défenses prioritaires
         //------------------------------
         // Statiques pour tenir le terrain
-        ~/Defense_Static_AA,
+        ~/Defense_Dynamic_AA,
         ~/Defense_Dynamic_AA,
 
         //Cet mission lance les objectifs restant

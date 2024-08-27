@@ -238,9 +238,9 @@ AnimationButtonDescriptor is BUCKButtonDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [25.0, 25.0]
-        AlignementToAnchor = [0.0, 0.0]
-        AlignementToFather = [0.0, 0.0]
-        MagnifiableOffset = [14.0, 25.0]
+        AlignementToAnchor = [0.0, 1.0]
+        AlignementToFather = [0.0, 1.0]
+        MagnifiableOffset = [46.0, -10.0]
     )
 
     IsTogglable = true

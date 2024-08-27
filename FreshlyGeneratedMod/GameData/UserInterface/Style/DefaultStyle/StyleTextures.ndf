@@ -4,17 +4,17 @@
 
 //Ex : StyleCockpitTexture_Blablabla is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleCockpit/Blablabla.png")
 
-StyleDeskTexture_CheckBox_Vide     is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_vide.png")
-StyleDeskTexture_CheckBox_Carre     is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_carre.png")
-StyleDeskTexture_CheckBox_Tick      is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_tick.png")
-StyleDeskTexture_CheckBox_Eclair    is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_eclair.png")
-StyleDeskTexture_CheckBox_DownArrow is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_DownArrow.png")
-StyleDeskTexture_CheckBox_UpArrow   is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_UpArrow.png")
-StyleDeskTexture_CheckBox_Tick_Black is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_tick_black.png")
-StyleDeskTexture_CheckBox_Point_Black is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_point_black.png")
+StyleDeskTexture_CheckBox_Vide     is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_vide.png")
+StyleDeskTexture_CheckBox_Carre     is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_carre.png")
+StyleDeskTexture_CheckBox_Tick      is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_tick.png")
+StyleDeskTexture_CheckBox_Eclair    is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_eclair.png")
+StyleDeskTexture_CheckBox_DownArrow is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_DownArrow.png")
+StyleDeskTexture_CheckBox_UpArrow   is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_UpArrow.png")
+StyleDeskTexture_CheckBox_Tick_Black is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_tick_black.png")
+StyleDeskTexture_CheckBox_Point_Black is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleDesk/CheckBox_point_black.png")
 
-StyleDeskTexture_treeview_plus is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/StyleDesk/treeview_plus.png")
-StyleDeskTexture_treeview_moins is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/StyleDesk/treeview_moins.png")
+StyleDeskTexture_treeview_plus is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleDesk/treeview_plus.png")
+StyleDeskTexture_treeview_moins is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleDesk/treeview_moins.png")
 
 StyleCockpitTexture_ScrollBarArrowLeft is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleCockpit/ScrollBarArrowLeft.png")
 StyleCockpitTexture_ScrollBarArrowRight is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/StyleCockpit/ScrollBarArrowRight.png")

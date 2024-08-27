@@ -8,5 +8,4 @@ Juncture is TBaseClass
 DefaultValues is TBaseClass
 (
     private CellSize                is 655360
-    private DatasMapDirectoryBase   is 'DatasMap:/Output/'
 )

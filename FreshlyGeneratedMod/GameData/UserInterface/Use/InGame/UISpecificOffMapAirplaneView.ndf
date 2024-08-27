@@ -12,7 +12,6 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
     HeightCoefficientToRemoveFromInteriorButtonWidth = 0.4
     MainBackgroundColorToken = 'BoutonTemps'
     BorderLineColorToken = 'BoutonTemps'
-    IsTogglable = true
 
     Components =
     [
@@ -257,7 +256,7 @@ IconeUnite is BUCKContainerDescriptor
         BUCKSpecificHintableArea
         (
             ElementName = 'UnitTextureHint'
-            DicoToken = ~/LocalisationConstantes/dico_unites
+            DicoToken = ~/LocalisationConstantes/dico_units
             HintTitleToken = "UNKNOWN"
             HintBodyToken = "UNKNOWN"
             HintExtendedToken = "UNKNOWN"

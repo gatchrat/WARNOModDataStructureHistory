@@ -1823,7 +1823,8 @@ Gfx_Chasseurs_FR is TemplateInfantryDepictionSquad
 AllWeaponAlternatives_Chasseurs_FR is [
   TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_Famas_F1 ),
   TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_AANF1 ),
-  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_LRAC_F1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_FR_F1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_LRAC_F1 ),
   TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_LRAC_F1 ),
 ]
 AllWeaponSubDepiction_Chasseurs_FR is TemplateAllSubWeaponDepiction
@@ -1842,8 +1843,13 @@ AllWeaponSubDepiction_Chasseurs_FR is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_RocketInf_LRAC_F1"]
+      FireEffectTag = ["FireEffect_Sniper_FRF1"]
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_LRAC_F1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
     ),
   ]
 )
@@ -3793,6 +3799,217 @@ TacticDepiction_Engineers_Flash_US_Ghost is TemplateInfantryDepictionFactoryGhos
 (
   Selector = InfantrySelectorTactic_00_10
   Alternatives = TacticDepiction_Engineers_Flash_US_Alternatives
+)
+// *****************************[ Engineers_Naval_CMD_DDR ]*********************************
+Gfx_Engineers_Naval_CMD_DDR is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_GER
+)
+AllWeaponAlternatives_Engineers_Naval_CMD_DDR is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPG7V ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RPG7V ),
+]
+AllWeaponSubDepiction_Engineers_Naval_CMD_DDR is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Engineers_Naval_CMD_DDR
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_KMS_72"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPG7"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Engineers_Naval_CMD_DDR is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Engineers_Naval_CMD_DDR
+)
+TacticDepiction_Engineers_Naval_CMD_DDR_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_CMD_DDR ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_CMD_DDR_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_Engineers_Naval_CMD_DDR ),
+]
+TacticDepiction_Engineers_Naval_CMD_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_Engineers_Naval_CMD_DDR_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Engineers_Naval_CMD_DDR, AllWeaponSubDepictionBackpack_Engineers_Naval_CMD_DDR]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_Engineers_Naval_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_Engineers_Naval_CMD_DDR_Alternatives
+)
+// *****************************[ Engineers_Naval_DDR ]*********************************
+Gfx_Engineers_Naval_DDR is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_GER
+)
+AllWeaponAlternatives_Engineers_Naval_DDR is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPK ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_MainNue ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_MainNue ),
+]
+AllWeaponSubDepiction_Engineers_Naval_DDR is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Engineers_Naval_DDR
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_KMS_72"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_lMG_K_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_Grenade_Satchel_Charge"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Engineers_Naval_DDR is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Engineers_Naval_DDR
+)
+TacticDepiction_Engineers_Naval_DDR_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_DDR ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_DDR_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_Engineers_Naval_DDR ),
+]
+TacticDepiction_Engineers_Naval_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_Engineers_Naval_DDR_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Engineers_Naval_DDR, AllWeaponSubDepictionBackpack_Engineers_Naval_DDR]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_Engineers_Naval_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_Engineers_Naval_DDR_Alternatives
+)
+// *****************************[ Engineers_Naval_Flam_DDR ]*********************************
+Gfx_Engineers_Naval_Flam_DDR is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_GER
+)
+AllWeaponAlternatives_Engineers_Naval_Flam_DDR is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPK ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_LPO50 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_LPO50 ),
+]
+AllWeaponSubDepiction_Engineers_Naval_Flam_DDR is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Engineers_Naval_Flam_DDR
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_KMS_72"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_lMG_K_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_flamethrower_LPO"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Engineers_Naval_Flam_DDR is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Engineers_Naval_Flam_DDR
+)
+SubDepictionFuel_Engineers_Naval_Flam_DDR is TemplateWeaponAccessorySubDepiction
+(
+  EnabledValue = 'MeshAlternative_3'
+  MeshDescriptor = $/GFX/DepictionResources/Modele_LPO50_fuel
+)
+TacticDepiction_Engineers_Naval_Flam_DDR_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_Flam_DDR ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_Flam_DDR_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_Engineers_Naval_Flam_DDR ),
+]
+TacticDepiction_Engineers_Naval_Flam_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_Engineers_Naval_Flam_DDR_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Engineers_Naval_Flam_DDR, AllWeaponSubDepictionBackpack_Engineers_Naval_Flam_DDR, SubDepictionFuel_Engineers_Naval_Flam_DDR]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_Engineers_Naval_Flam_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_Engineers_Naval_Flam_DDR_Alternatives
+)
+// *****************************[ Engineers_Naval_Scout_DDR ]*********************************
+Gfx_Engineers_Naval_Scout_DDR is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_SOVIET
+)
+AllWeaponAlternatives_Engineers_Naval_Scout_DDR is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AKs74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPK ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_MainNue ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_MainNue ),
+]
+AllWeaponSubDepiction_Engineers_Naval_Scout_DDR is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Engineers_Naval_Scout_DDR
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_Mpi_AKS_74NK"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_lMG_K_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_Grenade_Satchel_Charge"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Engineers_Naval_Scout_DDR is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Engineers_Naval_Scout_DDR
+)
+TacticDepiction_Engineers_Naval_Scout_DDR_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_Scout_DDR ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_Scout_DDR_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_Engineers_Naval_Scout_DDR ),
+]
+TacticDepiction_Engineers_Naval_Scout_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_Engineers_Naval_Scout_DDR_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Engineers_Naval_Scout_DDR, AllWeaponSubDepictionBackpack_Engineers_Naval_Scout_DDR]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('grenade', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_Engineers_Naval_Scout_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_Engineers_Naval_Scout_DDR_Alternatives
 )
 // *****************************[ Engineers_RFA ]*********************************
 Gfx_Engineers_RFA is TemplateInfantryDepictionSquad
@@ -6102,6 +6319,112 @@ TacticDepiction_HvyScout_DShV_SOV_Ghost is TemplateInfantryDepictionFactoryGhost
   Selector = InfantrySelectorTactic_02_05
   Alternatives = TacticDepiction_HvyScout_DShV_SOV_Alternatives
 )
+// *****************************[ HvyScout_NG_Dragon_US ]*********************************
+Gfx_HvyScout_NG_Dragon_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_HvyScout_NG_Dragon_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M60 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M47_DRAGON ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M47_DRAGON ),
+]
+AllWeaponSubDepiction_HvyScout_NG_Dragon_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_HvyScout_NG_Dragon_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_M60_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_M47_DRAGON"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_HvyScout_NG_Dragon_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_HvyScout_NG_Dragon_US
+)
+TacticDepiction_HvyScout_NG_Dragon_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_NG_Dragon_US ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_NG_Dragon_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_HvyScout_NG_Dragon_US ),
+]
+TacticDepiction_HvyScout_NG_Dragon_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_HvyScout_NG_Dragon_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_HvyScout_NG_Dragon_US, AllWeaponSubDepictionBackpack_HvyScout_NG_Dragon_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_HvyScout_NG_Dragon_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_HvyScout_NG_Dragon_US_Alternatives
+)
+// *****************************[ HvyScout_NG_US ]*********************************
+Gfx_HvyScout_NG_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_HvyScout_NG_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M60 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M72A4 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M72A4 ),
+]
+AllWeaponSubDepiction_HvyScout_NG_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_HvyScout_NG_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_M60_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_HvyScout_NG_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_HvyScout_NG_US
+)
+TacticDepiction_HvyScout_NG_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_NG_US ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_NG_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_HvyScout_NG_US ),
+]
+TacticDepiction_HvyScout_NG_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_HvyScout_NG_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_HvyScout_NG_US, AllWeaponSubDepictionBackpack_HvyScout_NG_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_HvyScout_NG_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_HvyScout_NG_US_Alternatives
+)
 // *****************************[ HvyScout_SOV ]*********************************
 Gfx_HvyScout_SOV is TemplateInfantryDepictionSquad
 (
@@ -6482,6 +6805,69 @@ TacticDepiction_Jager_noAT_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
   Selector = InfantrySelectorTactic_02_03
   Alternatives = TacticDepiction_Jager_noAT_RFA_Alternatives
 )
+// *****************************[ KSK18_DDR ]*********************************
+Gfx_KSK18_DDR is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_KSK18_DDR is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AKs74U ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPK ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_MainNue ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPG18 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RPG18 ),
+]
+AllWeaponSubDepiction_KSK18_DDR is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_KSK18_DDR
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_PM_MPi_AKSU_74NK"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_lMG_K_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_Grenade_Satchel_Charge"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPG18_64mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_KSK18_DDR is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_KSK18_DDR
+)
+TacticDepiction_KSK18_DDR_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR_02 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR_03 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR_04 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR_05 ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_KSK18_DDR ),
+]
+TacticDepiction_KSK18_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_01_05
+  Alternatives = TacticDepiction_KSK18_DDR_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_KSK18_DDR, AllWeaponSubDepictionBackpack_KSK18_DDR]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('smg', 'MeshAlternative_1'), ('grenade', 'MeshAlternative_3'), ('bazooka', 'MeshAlternative_4') ] )]
+)
+TacticDepiction_KSK18_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_01_05
+  Alternatives = TacticDepiction_KSK18_DDR_Alternatives
+)
 // *****************************[ KdA_CMD_DDR ]*********************************
 Gfx_KdA_CMD_DDR is TemplateInfantryDepictionSquad
 (
@@ -6665,7 +7051,7 @@ AllWeaponSubDepiction_LRRP_BEL is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      FireEffectTag = ["FireEffect_RocketInf_M72A1_LAW_66mm"]
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
     ),
   ]
@@ -6697,6 +7083,53 @@ TacticDepiction_LRRP_BEL_Ghost is TemplateInfantryDepictionFactoryGhost
 (
   Selector = InfantrySelectorTactic_00_08
   Alternatives = TacticDepiction_LRRP_BEL_Alternatives
+)
+// *****************************[ LRRP_CEWI_US ]*********************************
+Gfx_LRRP_CEWI_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_LRRP_CEWI_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A2 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M14_Sniper ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M14_Sniper ),
+]
+AllWeaponSubDepiction_LRRP_CEWI_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_LRRP_CEWI_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_Sniper_M14"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_LRRP_CEWI_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_LRRP_CEWI_US
+)
+TacticDepiction_LRRP_CEWI_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_LRRP_CEWI_US ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_LRRP_CEWI_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_LRRP_CEWI_US ),
+]
+TacticDepiction_LRRP_CEWI_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_LRRP_CEWI_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_LRRP_CEWI_US, AllWeaponSubDepictionBackpack_LRRP_CEWI_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_LRRP_CEWI_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_LRRP_CEWI_US_Alternatives
 )
 // *****************************[ LRRP_FR ]*********************************
 Gfx_LRRP_FR is TemplateInfantryDepictionSquad
@@ -6902,25 +7335,19 @@ TacticDepiction_LightRifles_CMD_US_Alternatives is [
   TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_02 ),
   TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_03 ),
   TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_04 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_05 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_06 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '07'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_07 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '08'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_08 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '09'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_09 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '10'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_10 ),
   TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_LOW ),
   TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_LightRifles_CMD_US ),
 ]
 TacticDepiction_LightRifles_CMD_US_Soldier is TemplateInfantryDepictionFactoryTactic
 (
-  Selector = InfantrySelectorTactic_00_10
+  Selector = InfantrySelectorTactic_02_04
   Alternatives = TacticDepiction_LightRifles_CMD_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_LightRifles_CMD_US, AllWeaponSubDepictionBackpack_LightRifles_CMD_US]
   Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_LightRifles_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
-  Selector = InfantrySelectorTactic_00_10
+  Selector = InfantrySelectorTactic_02_04
   Alternatives = TacticDepiction_LightRifles_CMD_US_Alternatives
 )
 // *****************************[ LightRifles_LAW_US ]*********************************
@@ -6965,24 +7392,19 @@ TacticDepiction_LightRifles_LAW_US_Alternatives is [
   TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_03 ),
   TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_04 ),
   TDepictionDescriptor( SelectorId = [LOD_High, '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_05 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_06 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '07'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_07 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '08'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_08 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '09'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_09 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '10'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_10 ),
   TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_LOW ),
   TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_LightRifles_LAW_US ),
 ]
 TacticDepiction_LightRifles_LAW_US_Soldier is TemplateInfantryDepictionFactoryTactic
 (
-  Selector = InfantrySelectorTactic_00_10
+  Selector = InfantrySelectorTactic_02_05
   Alternatives = TacticDepiction_LightRifles_LAW_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_LightRifles_LAW_US, AllWeaponSubDepictionBackpack_LightRifles_LAW_US]
   Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
 )
 TacticDepiction_LightRifles_LAW_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
-  Selector = InfantrySelectorTactic_00_10
+  Selector = InfantrySelectorTactic_02_05
   Alternatives = TacticDepiction_LightRifles_LAW_US_Alternatives
 )
 // *****************************[ LightRifles_RCL_US ]*********************************
@@ -7033,24 +7455,19 @@ TacticDepiction_LightRifles_RCL_US_Alternatives is [
   TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_03 ),
   TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_04 ),
   TDepictionDescriptor( SelectorId = [LOD_High, '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_05 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_06 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '07'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_07 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '08'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_08 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '09'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_09 ),
-  TDepictionDescriptor( SelectorId = [LOD_High, '10'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_10 ),
   TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_LOW ),
   TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_LightRifles_RCL_US ),
 ]
 TacticDepiction_LightRifles_RCL_US_Soldier is TemplateInfantryDepictionFactoryTactic
 (
-  Selector = InfantrySelectorTactic_00_10
+  Selector = InfantrySelectorTactic_02_05
   Alternatives = TacticDepiction_LightRifles_RCL_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_LightRifles_RCL_US, AllWeaponSubDepictionBackpack_LightRifles_RCL_US]
   Operators = [DepictionOperator_SkeletalAnimation2_Default()]
 )
 TacticDepiction_LightRifles_RCL_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
-  Selector = InfantrySelectorTactic_00_10
+  Selector = InfantrySelectorTactic_02_05
   Alternatives = TacticDepiction_LightRifles_RCL_US_Alternatives
 )
 // *****************************[ Luftsturmjager_CMD_DDR ]*********************************
@@ -7771,6 +8188,53 @@ TacticDepiction_MANPAD_Redeye_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
   Selector = InfantrySelectorTactic_00_06
   Alternatives = TacticDepiction_MANPAD_Redeye_RFA_Alternatives
 )
+// *****************************[ MANPAD_Redeye_US ]*********************************
+Gfx_MANPAD_Redeye_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_GER
+)
+AllWeaponAlternatives_MANPAD_Redeye_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_FIM43 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_MANPAD_FIM43 ),
+]
+AllWeaponSubDepiction_MANPAD_Redeye_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_MANPAD_Redeye_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MANPAD_FIM43"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_MANPAD_Redeye_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_MANPAD_Redeye_US
+)
+TacticDepiction_MANPAD_Redeye_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_Redeye_US ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_Redeye_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_MANPAD_Redeye_US ),
+]
+TacticDepiction_MANPAD_Redeye_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_MANPAD_Redeye_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_MANPAD_Redeye_US, AllWeaponSubDepictionBackpack_MANPAD_Redeye_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2') ] )]
+)
+TacticDepiction_MANPAD_Redeye_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_MANPAD_Redeye_US_Alternatives
+)
 // *****************************[ MANPAD_Stinger_C_Aero_US ]*********************************
 Gfx_MANPAD_Stinger_C_Aero_US is TemplateInfantryDepictionSquad
 (
@@ -8450,7 +8914,7 @@ Gfx_Mech_Rifles_AT_BEL is TemplateInfantryDepictionSquad
 )
 AllWeaponAlternatives_Mech_Rifles_AT_BEL is [
   TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_FNC ),
-  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M249 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_FALO ),
   TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_RL_83 ),
   TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RL_83 ),
 ]
@@ -8465,7 +8929,7 @@ AllWeaponSubDepiction_Mech_Rifles_AT_BEL is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_SAW_Minimi_5_56mm"]
+      FireEffectTag = ["FireEffect_SAW_FALO"]
       WeaponShootDataPropertyName = "WeaponShootData_0_2"
     ),
     DepictionOperator_WeaponInstantFireInfantry
@@ -8522,7 +8986,7 @@ AllWeaponSubDepiction_Mech_Rifles_CMD_BEL is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      FireEffectTag = ["FireEffect_RocketInf_M72A1_LAW_66mm"]
       WeaponShootDataPropertyName = "WeaponShootData_0_2"
     ),
   ]
@@ -8559,9 +9023,10 @@ Gfx_Mech_Rifles_MG_BEL is TemplateInfantryDepictionSquad
 )
 AllWeaponAlternatives_Mech_Rifles_MG_BEL is [
   TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_FNC ),
-  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M249 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_FALO ),
   TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M240B ),
-  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M240B ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_M72A4 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M72A4 ),
 ]
 AllWeaponSubDepiction_Mech_Rifles_MG_BEL is TemplateAllSubWeaponDepiction
 (
@@ -8574,13 +9039,18 @@ AllWeaponSubDepiction_Mech_Rifles_MG_BEL is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_SAW_Minimi_5_56mm"]
+      FireEffectTag = ["FireEffect_SAW_FALO"]
       WeaponShootDataPropertyName = "WeaponShootData_0_2"
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
       FireEffectTag = ["FireEffect_MMG_inf_MAG_7_62mm"]
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M72A1_LAW_66mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
     ),
   ]
 )
@@ -8603,7 +9073,7 @@ TacticDepiction_Mech_Rifles_MG_BEL_Soldier is TemplateInfantryDepictionFactoryTa
   Selector = InfantrySelectorTactic_01_06
   Alternatives = TacticDepiction_Mech_Rifles_MG_BEL_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Mech_Rifles_MG_BEL, AllWeaponSubDepictionBackpack_Mech_Rifles_MG_BEL]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_3'), ('bazooka', 'MeshAlternative_4') ] )]
 )
 TacticDepiction_Mech_Rifles_MG_BEL_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -8831,6 +9301,62 @@ TacticDepiction_MotRifles_CMD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
   Selector = InfantrySelectorTactic_02_05
   Alternatives = TacticDepiction_MotRifles_CMD_DDR_Alternatives
+)
+// *****************************[ MotRifles_CMD_POL ]*********************************
+Gfx_MotRifles_CMD_POL is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_SOVIET
+)
+AllWeaponAlternatives_MotRifles_CMD_POL is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPG7V ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_MainNue ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_MainNue ),
+]
+AllWeaponSubDepiction_MotRifles_CMD_POL is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_MotRifles_CMD_POL
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_kbk_AK"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPG76_Komar"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_Grenade_SMOKE"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_MotRifles_CMD_POL is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_MotRifles_CMD_POL
+)
+TacticDepiction_MotRifles_CMD_POL_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_POL ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_POL_02 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_POL_03 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_POL_04 ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_POL_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_MotRifles_CMD_POL ),
+]
+TacticDepiction_MotRifles_CMD_POL_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_02_04
+  Alternatives = TacticDepiction_MotRifles_CMD_POL_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_MotRifles_CMD_POL, AllWeaponSubDepictionBackpack_MotRifles_CMD_POL]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_MotRifles_CMD_POL_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_02_04
+  Alternatives = TacticDepiction_MotRifles_CMD_POL_Alternatives
 )
 // *****************************[ MotRifles_CMD_SOV ]*********************************
 Gfx_MotRifles_CMD_SOV is TemplateInfantryDepictionSquad
@@ -9330,6 +9856,61 @@ TacticDepiction_MotRifles_Metis_TTsko_SOV_Ghost is TemplateInfantryDepictionFact
   Selector = InfantrySelectorTactic_00_06
   Alternatives = TacticDepiction_MotRifles_Metis_TTsko_SOV_Alternatives
 )
+// *****************************[ MotRifles_POL ]*********************************
+Gfx_MotRifles_POL is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_SOVIET
+)
+AllWeaponAlternatives_MotRifles_POL is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_PKM ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPG7V ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RPG7V ),
+]
+AllWeaponSubDepiction_MotRifles_POL is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_MotRifles_POL
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_kbk_AK"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_PKM_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPG7"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_MotRifles_POL is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_MotRifles_POL
+)
+TacticDepiction_MotRifles_POL_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_POL ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_POL_02 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_POL_03 ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_POL_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_MotRifles_POL ),
+]
+TacticDepiction_MotRifles_POL_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_01_03
+  Alternatives = TacticDepiction_MotRifles_POL_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_MotRifles_POL, AllWeaponSubDepictionBackpack_MotRifles_POL]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_2') ] )]
+)
+TacticDepiction_MotRifles_POL_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_01_03
+  Alternatives = TacticDepiction_MotRifles_POL_Alternatives
+)
 // *****************************[ MotRifles_RPG22_SOV ]*********************************
 Gfx_MotRifles_RPG22_SOV is TemplateInfantryDepictionSquad
 (
@@ -9498,6 +10079,67 @@ TacticDepiction_MotRifles_SVD_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
   Selector = InfantrySelectorTactic_03_05
   Alternatives = TacticDepiction_MotRifles_SVD_DDR_Alternatives
+)
+// *****************************[ MotRifles_SVD_POL ]*********************************
+Gfx_MotRifles_SVD_POL is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_SOVIET
+)
+AllWeaponAlternatives_MotRifles_SVD_POL is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_PKM ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_Dragunov ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPG7V ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RPG7V ),
+]
+AllWeaponSubDepiction_MotRifles_SVD_POL is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_MotRifles_SVD_POL
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_kbk_AK"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_PKM_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_Sniper_SVD_Dragunov"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_RPG7"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_MotRifles_SVD_POL is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_MotRifles_SVD_POL
+)
+TacticDepiction_MotRifles_SVD_POL_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_SVD_POL ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_SVD_POL_02 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_SVD_POL_03 ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_SVD_POL_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_MotRifles_SVD_POL ),
+]
+TacticDepiction_MotRifles_SVD_POL_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_01_03
+  Alternatives = TacticDepiction_MotRifles_SVD_POL_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_MotRifles_SVD_POL, AllWeaponSubDepictionBackpack_MotRifles_SVD_POL]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_2') ] )]
+)
+TacticDepiction_MotRifles_SVD_POL_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_01_03
+  Alternatives = TacticDepiction_MotRifles_SVD_POL_Alternatives
 )
 // *****************************[ MotRifles_Strela_DDR ]*********************************
 Gfx_MotRifles_Strela_DDR is TemplateInfantryDepictionSquad
@@ -9672,6 +10314,462 @@ TacticDepiction_MotSchutzen_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
 (
   Selector = InfantrySelectorTactic_00_06
   Alternatives = TacticDepiction_MotSchutzen_DDR_Alternatives
+)
+// *****************************[ NatGuard_CMD_US ]*********************************
+Gfx_NatGuard_CMD_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_NatGuard_CMD_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M60 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M72A4 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M72A4 ),
+]
+AllWeaponSubDepiction_NatGuard_CMD_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_CMD_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_M60_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_NatGuard_CMD_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_CMD_US
+)
+TacticDepiction_NatGuard_CMD_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_02 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_03 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_04 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_05 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_06 ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_NatGuard_CMD_US ),
+]
+TacticDepiction_NatGuard_CMD_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_06
+  Alternatives = TacticDepiction_NatGuard_CMD_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_NatGuard_CMD_US, AllWeaponSubDepictionBackpack_NatGuard_CMD_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_NatGuard_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_06
+  Alternatives = TacticDepiction_NatGuard_CMD_US_Alternatives
+)
+// *****************************[ NatGuard_Dragon_US ]*********************************
+Gfx_NatGuard_Dragon_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_NatGuard_Dragon_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M60 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M47_DRAGON_II ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M47_DRAGON_II ),
+]
+AllWeaponSubDepiction_NatGuard_Dragon_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_Dragon_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_M60_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_M47_DRAGON_II"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_NatGuard_Dragon_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_Dragon_US
+)
+TacticDepiction_NatGuard_Dragon_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_02 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_03 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_04 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_05 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_06 ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US ),
+]
+TacticDepiction_NatGuard_Dragon_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_06
+  Alternatives = TacticDepiction_NatGuard_Dragon_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_NatGuard_Dragon_US, AllWeaponSubDepictionBackpack_NatGuard_Dragon_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_NatGuard_Dragon_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_06
+  Alternatives = TacticDepiction_NatGuard_Dragon_US_Alternatives
+)
+// *****************************[ NatGuard_Engineers_CMD_US ]*********************************
+Gfx_NatGuard_Engineers_CMD_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_NatGuard_Engineers_CMD_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M14_Sniper ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M72A4 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M72A4 ),
+]
+AllWeaponSubDepiction_NatGuard_Engineers_CMD_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_Engineers_CMD_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_Sniper_M14"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_NatGuard_Engineers_CMD_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_Engineers_CMD_US
+)
+TacticDepiction_NatGuard_Engineers_CMD_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_CMD_US ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_CMD_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_NatGuard_Engineers_CMD_US ),
+]
+TacticDepiction_NatGuard_Engineers_CMD_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_NatGuard_Engineers_CMD_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_NatGuard_Engineers_CMD_US, AllWeaponSubDepictionBackpack_NatGuard_Engineers_CMD_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_NatGuard_Engineers_CMD_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_NatGuard_Engineers_CMD_US_Alternatives
+)
+// *****************************[ NatGuard_Engineers_Flam_US ]*********************************
+Gfx_NatGuard_Engineers_Flam_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_NatGuard_Engineers_Flam_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M3_Grease_Gun ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M60 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_M2_Flamethrower ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M2_Flamethrower ),
+]
+AllWeaponSubDepiction_NatGuard_Engineers_Flam_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_Engineers_Flam_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_PM_GreaseGun"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_M60_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_flamethrower_M2"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_NatGuard_Engineers_Flam_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_Engineers_Flam_US
+)
+SubDepictionFuel_NatGuard_Engineers_Flam_US is TemplateWeaponAccessorySubDepiction
+(
+  EnabledValue = 'MeshAlternative_4'
+  MeshDescriptor = $/GFX/DepictionResources/Modele_M2_Flamethrower_fuel
+)
+TacticDepiction_NatGuard_Engineers_Flam_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_Flam_US ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_Flam_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_NatGuard_Engineers_Flam_US ),
+]
+TacticDepiction_NatGuard_Engineers_Flam_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_NatGuard_Engineers_Flam_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_NatGuard_Engineers_Flam_US, AllWeaponSubDepictionBackpack_NatGuard_Engineers_Flam_US, SubDepictionFuel_NatGuard_Engineers_Flam_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('smg', 'MeshAlternative_1'), ('mmg', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_NatGuard_Engineers_Flam_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_NatGuard_Engineers_Flam_US_Alternatives
+)
+// *****************************[ NatGuard_Engineers_M67_US ]*********************************
+Gfx_NatGuard_Engineers_M67_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_NatGuard_Engineers_M67_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M67_RCL ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M67_RCL ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M67_RCL ),
+]
+AllWeaponSubDepiction_NatGuard_Engineers_M67_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_Engineers_M67_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M67_RCL_90mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M67_RCL_90mm_HE"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_NatGuard_Engineers_M67_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_Engineers_M67_US
+)
+TacticDepiction_NatGuard_Engineers_M67_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_M67_US ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_M67_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_NatGuard_Engineers_M67_US ),
+]
+TacticDepiction_NatGuard_Engineers_M67_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_NatGuard_Engineers_M67_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_NatGuard_Engineers_M67_US, AllWeaponSubDepictionBackpack_NatGuard_Engineers_M67_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_NatGuard_Engineers_M67_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_NatGuard_Engineers_M67_US_Alternatives
+)
+// *****************************[ NatGuard_Engineers_US ]*********************************
+Gfx_NatGuard_Engineers_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_NatGuard_Engineers_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M60 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_MainNue ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_MainNue ),
+]
+AllWeaponSubDepiction_NatGuard_Engineers_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_Engineers_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_M60_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_Grenade_Satchel_Charge"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_NatGuard_Engineers_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_Engineers_US
+)
+TacticDepiction_NatGuard_Engineers_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_US ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_NatGuard_Engineers_US ),
+]
+TacticDepiction_NatGuard_Engineers_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_NatGuard_Engineers_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_NatGuard_Engineers_US, AllWeaponSubDepictionBackpack_NatGuard_Engineers_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_2'), ('grenade', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_NatGuard_Engineers_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_NatGuard_Engineers_US_Alternatives
+)
+// *****************************[ NatGuard_LAW_US ]*********************************
+Gfx_NatGuard_LAW_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_NatGuard_LAW_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M60 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M72A4 ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M72A4 ),
+]
+AllWeaponSubDepiction_NatGuard_LAW_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_LAW_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_M60_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_NatGuard_LAW_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_LAW_US
+)
+TacticDepiction_NatGuard_LAW_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_02 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_03 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_04 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_05 ),
+  TDepictionDescriptor( SelectorId = [LOD_High, '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_06 ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_NatGuard_LAW_US ),
+]
+TacticDepiction_NatGuard_LAW_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_06
+  Alternatives = TacticDepiction_NatGuard_LAW_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_NatGuard_LAW_US, AllWeaponSubDepictionBackpack_NatGuard_LAW_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_2'), ('bazooka', 'MeshAlternative_3') ] )]
+)
+TacticDepiction_NatGuard_LAW_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_06
+  Alternatives = TacticDepiction_NatGuard_LAW_US_Alternatives
+)
+// *****************************[ NatGuard_M67_US ]*********************************
+Gfx_NatGuard_M67_US is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_US
+)
+AllWeaponAlternatives_NatGuard_M67_US is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A1 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M60 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M67_RCL ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_M67_RCL ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M67_RCL ),
+]
+AllWeaponSubDepiction_NatGuard_M67_US is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_M67_US
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_M16A1"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_MMG_M60_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M67_RCL_90mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M67_RCL_90mm_HE"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_NatGuard_M67_US is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_NatGuard_M67_US
+)
+TacticDepiction_NatGuard_M67_US_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_M67_US ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_M67_US_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_NatGuard_M67_US ),
+]
+TacticDepiction_NatGuard_M67_US_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_NatGuard_M67_US_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_NatGuard_M67_US, AllWeaponSubDepictionBackpack_NatGuard_M67_US]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_2') ] )]
+)
+TacticDepiction_NatGuard_M67_US_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_NatGuard_M67_US_Alternatives
 )
 // *****************************[ Panzergrenadier_APC_RFA ]*********************************
 Gfx_Panzergrenadier_APC_RFA is TemplateInfantryDepictionSquad
@@ -10806,7 +11904,7 @@ Gfx_Reserve_BEL is TemplateInfantryDepictionSquad
 )
 AllWeaponAlternatives_Reserve_BEL is [
   TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_FNC ),
-  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M249 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_FALO ),
   TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_RL_83 ),
   TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RL_83 ),
 ]
@@ -10821,7 +11919,7 @@ AllWeaponSubDepiction_Reserve_BEL is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_SAW_Minimi_5_56mm"]
+      FireEffectTag = ["FireEffect_SAW_FALO"]
       WeaponShootDataPropertyName = "WeaponShootData_0_2"
     ),
     DepictionOperator_WeaponInstantFireInfantry
@@ -11186,7 +12284,7 @@ Gfx_Rifles_AT_BEL is TemplateInfantryDepictionSquad
 )
 AllWeaponAlternatives_Rifles_AT_BEL is [
   TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_FNC ),
-  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M249 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_FALO ),
   TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_RL_83 ),
   TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RL_83 ),
 ]
@@ -11201,7 +12299,7 @@ AllWeaponSubDepiction_Rifles_AT_BEL is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_SAW_Minimi_5_56mm"]
+      FireEffectTag = ["FireEffect_SAW_FALO"]
       WeaponShootDataPropertyName = "WeaponShootData_0_2"
     ),
     DepictionOperator_WeaponInstantFireInfantry
@@ -11405,7 +12503,7 @@ Gfx_Rifles_BEL is TemplateInfantryDepictionSquad
 )
 AllWeaponAlternatives_Rifles_BEL is [
   TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_FNC ),
-  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M249 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_FALO ),
   TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M72A4 ),
   TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M72A4 ),
 ]
@@ -11420,12 +12518,12 @@ AllWeaponSubDepiction_Rifles_BEL is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_SAW_Minimi_5_56mm"]
+      FireEffectTag = ["FireEffect_SAW_FALO"]
       WeaponShootDataPropertyName = "WeaponShootData_0_2"
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      FireEffectTag = ["FireEffect_RocketInf_M72A1_LAW_66mm"]
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
     ),
   ]
@@ -11533,7 +12631,7 @@ AllWeaponSubDepiction_Rifles_CMD_BEL is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      FireEffectTag = ["FireEffect_RocketInf_M72A1_LAW_66mm"]
       WeaponShootDataPropertyName = "WeaponShootData_0_2"
     ),
   ]
@@ -12084,7 +13182,8 @@ Gfx_Rifles_LAW_US is TemplateInfantryDepictionSquad
 AllWeaponAlternatives_Rifles_LAW_US is [
   TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A2 ),
   TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M249 ),
-  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M72A4 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M240B ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_M72A4 ),
   TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M72A4 ),
 ]
 AllWeaponSubDepiction_Rifles_LAW_US is TemplateAllSubWeaponDepiction
@@ -12103,8 +13202,13 @@ AllWeaponSubDepiction_Rifles_LAW_US is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      FireEffectTag = ["FireEffect_MMG_inf_M240B_7_62mm"]
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
     ),
   ]
 )
@@ -12127,7 +13231,7 @@ TacticDepiction_Rifles_LAW_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Selector = InfantrySelectorTactic_00_06
   Alternatives = TacticDepiction_Rifles_LAW_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_LAW_US, AllWeaponSubDepictionBackpack_Rifles_LAW_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_3'), ('bazooka', 'MeshAlternative_4') ] )]
 )
 TacticDepiction_Rifles_LAW_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -12255,7 +13359,8 @@ Gfx_Rifles_US is TemplateInfantryDepictionSquad
 AllWeaponAlternatives_Rifles_US is [
   TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_M16A2 ),
   TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_M249 ),
-  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M47_DRAGON_II ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_3'] MeshDescriptor = $/GFX/DepictionResources/Modele_M240B ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_4'] MeshDescriptor = $/GFX/DepictionResources/Modele_M47_DRAGON_II ),
   TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_M47_DRAGON_II ),
 ]
 AllWeaponSubDepiction_Rifles_US is TemplateAllSubWeaponDepiction
@@ -12274,8 +13379,13 @@ AllWeaponSubDepiction_Rifles_US is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_M47_DRAGON_II"]
+      FireEffectTag = ["FireEffect_MMG_inf_M240B_7_62mm"]
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_M47_DRAGON_II"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_4"
     ),
   ]
 )
@@ -12302,7 +13412,7 @@ TacticDepiction_Rifles_US_Soldier is TemplateInfantryDepictionFactoryTactic
   Selector = InfantrySelectorTactic_00_10
   Alternatives = TacticDepiction_Rifles_US_Alternatives
   SubDepictions = [AllWeaponSubDepiction_Rifles_US, AllWeaponSubDepictionBackpack_Rifles_US]
-  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('bazooka', 'MeshAlternative_3') ] )]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default( ConditionalTags = [ ('mmg', 'MeshAlternative_3'), ('bazooka', 'MeshAlternative_4') ] )]
 )
 TacticDepiction_Rifles_US_Ghost is TemplateInfantryDepictionFactoryGhost
 (
@@ -13363,7 +14473,7 @@ AllWeaponSubDepiction_Scout_BEL is TemplateAllSubWeaponDepiction
     ),
     DepictionOperator_WeaponInstantFireInfantry
     (
-      FireEffectTag = ["FireEffect_RocketInf_M72_LAW_66mm"]
+      FireEffectTag = ["FireEffect_RocketInf_M72A1_LAW_66mm"]
       WeaponShootDataPropertyName = "WeaponShootData_0_3"
     ),
   ]
@@ -13892,6 +15002,53 @@ TacticDepiction_Scout_RFA_Ghost is TemplateInfantryDepictionFactoryGhost
 (
   Selector = InfantrySelectorTactic_00_06
   Alternatives = TacticDepiction_Scout_RFA_Alternatives
+)
+// *****************************[ Scout_Reserve_DDR ]*********************************
+Gfx_Scout_Reserve_DDR is TemplateInfantryDepictionSquad
+(
+  SoundOperator = $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_GER
+)
+AllWeaponAlternatives_Scout_Reserve_DDR is [
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_1'] MeshDescriptor = $/GFX/DepictionResources/Modele_AK74 ),
+  TDepictionDescriptor( SelectorId = ['MeshAlternative_2'] MeshDescriptor = $/GFX/DepictionResources/Modele_RPK ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none'] ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_RPK ),
+]
+AllWeaponSubDepiction_Scout_Reserve_DDR is TemplateAllSubWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Scout_Reserve_DDR
+  Operators = [
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_FM_KMS_72"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    ),
+    DepictionOperator_WeaponInstantFireInfantry
+    (
+      FireEffectTag = ["FireEffect_SAW_lMG_K_7_62mm"]
+      WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    ),
+  ]
+)
+AllWeaponSubDepictionBackpack_Scout_Reserve_DDR is TemplateAllSubBackpackWeaponDepiction
+(
+  Alternatives = AllWeaponAlternatives_Scout_Reserve_DDR
+)
+TacticDepiction_Scout_Reserve_DDR_Alternatives is [
+  TDepictionDescriptor( SelectorId = [LOD_High, '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_Reserve_DDR ),
+  TDepictionDescriptor( SelectorId = [LOD_Low]  MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_Reserve_DDR_LOW ),
+  TMeshlessDepictionDescriptor( SelectorId = ['none']  ReferenceMeshForSkeleton = $/GFX/DepictionResources/Modele_Scout_Reserve_DDR ),
+]
+TacticDepiction_Scout_Reserve_DDR_Soldier is TemplateInfantryDepictionFactoryTactic
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_Scout_Reserve_DDR_Alternatives
+  SubDepictions = [AllWeaponSubDepiction_Scout_Reserve_DDR, AllWeaponSubDepictionBackpack_Scout_Reserve_DDR]
+  Operators = [DepictionOperator_SkeletalAnimation2_Default()]
+)
+TacticDepiction_Scout_Reserve_DDR_Ghost is TemplateInfantryDepictionFactoryGhost
+(
+  Selector = InfantrySelectorTactic_00_01
+  Alternatives = TacticDepiction_Scout_Reserve_DDR_Alternatives
 )
 // *****************************[ Scout_SOV ]*********************************
 Gfx_Scout_SOV is TemplateInfantryDepictionSquad
@@ -15882,6 +17039,7 @@ InfantrySelectorTactic_00_09 is TemplateInfantrySelectorTactic( UniqueCount = 0 
 InfantrySelectorTactic_00_10 is TemplateInfantrySelectorTactic( UniqueCount = 0 Surrogates = TacticDepiction_10_Surrogates )
 InfantrySelectorTactic_01_03 is TemplateInfantrySelectorTactic( UniqueCount = 1 Surrogates = TacticDepiction_03_Surrogates )
 InfantrySelectorTactic_01_04 is TemplateInfantrySelectorTactic( UniqueCount = 1 Surrogates = TacticDepiction_04_Surrogates )
+InfantrySelectorTactic_01_05 is TemplateInfantrySelectorTactic( UniqueCount = 1 Surrogates = TacticDepiction_05_Surrogates )
 InfantrySelectorTactic_01_06 is TemplateInfantrySelectorTactic( UniqueCount = 1 Surrogates = TacticDepiction_06_Surrogates )
 InfantrySelectorTactic_02_02 is TemplateInfantrySelectorTactic( UniqueCount = 2 Surrogates = TacticDepiction_02_Surrogates )
 InfantrySelectorTactic_02_03 is TemplateInfantrySelectorTactic( UniqueCount = 2 Surrogates = TacticDepiction_03_Surrogates )
@@ -15964,6 +17122,10 @@ InfantryMimetic is MAP[
   ( 'Engineers_Flam_TTsko_SOV', TacticDepiction_Engineers_Flam_TTsko_SOV_Soldier ),
   ( 'Engineers_Flam_VDV_SOV', TacticDepiction_Engineers_Flam_VDV_SOV_Soldier ),
   ( 'Engineers_Flash_US', TacticDepiction_Engineers_Flash_US_Soldier ),
+  ( 'Engineers_Naval_CMD_DDR', TacticDepiction_Engineers_Naval_CMD_DDR_Soldier ),
+  ( 'Engineers_Naval_DDR', TacticDepiction_Engineers_Naval_DDR_Soldier ),
+  ( 'Engineers_Naval_Flam_DDR', TacticDepiction_Engineers_Naval_Flam_DDR_Soldier ),
+  ( 'Engineers_Naval_Scout_DDR', TacticDepiction_Engineers_Naval_Scout_DDR_Soldier ),
   ( 'Engineers_RFA', TacticDepiction_Engineers_RFA_Soldier ),
   ( 'Engineers_Reserve_RFA', TacticDepiction_Engineers_Reserve_RFA_Soldier ),
   ( 'Engineers_SOV', TacticDepiction_Engineers_SOV_Soldier ),
@@ -16007,6 +17169,8 @@ InfantryMimetic is MAP[
   ( 'HeimatschutzJager_RFA', TacticDepiction_HeimatschutzJager_RFA_Soldier ),
   ( 'HvyScout_DDR', TacticDepiction_HvyScout_DDR_Soldier ),
   ( 'HvyScout_DShV_SOV', TacticDepiction_HvyScout_DShV_SOV_Soldier ),
+  ( 'HvyScout_NG_Dragon_US', TacticDepiction_HvyScout_NG_Dragon_US_Soldier ),
+  ( 'HvyScout_NG_US', TacticDepiction_HvyScout_NG_US_Soldier ),
   ( 'HvyScout_SOV', TacticDepiction_HvyScout_SOV_Soldier ),
   ( 'HvyScout_TTsko_SOV', TacticDepiction_HvyScout_TTsko_SOV_Soldier ),
   ( 'Jager_Aufk_RFA', TacticDepiction_Jager_Aufk_RFA_Soldier ),
@@ -16014,10 +17178,12 @@ InfantryMimetic is MAP[
   ( 'Jager_Carl_RFA', TacticDepiction_Jager_Carl_RFA_Soldier ),
   ( 'Jager_RFA', TacticDepiction_Jager_RFA_Soldier ),
   ( 'Jager_noAT_RFA', TacticDepiction_Jager_noAT_RFA_Soldier ),
+  ( 'KSK18_DDR', TacticDepiction_KSK18_DDR_Soldier ),
   ( 'KdA_CMD_DDR', TacticDepiction_KdA_CMD_DDR_Soldier ),
   ( 'KdA_DDR', TacticDepiction_KdA_DDR_Soldier ),
   ( 'LRRP_Aero_US', TacticDepiction_LRRP_Aero_US_Soldier ),
   ( 'LRRP_BEL', TacticDepiction_LRRP_BEL_Soldier ),
+  ( 'LRRP_CEWI_US', TacticDepiction_LRRP_CEWI_US_Soldier ),
   ( 'LRRP_FR', TacticDepiction_LRRP_FR_Soldier ),
   ( 'LRRP_UK', TacticDepiction_LRRP_UK_Soldier ),
   ( 'LRRP_US', TacticDepiction_LRRP_US_Soldier ),
@@ -16038,6 +17204,7 @@ InfantryMimetic is MAP[
   ( 'MANPAD_Mistral_FR', TacticDepiction_MANPAD_Mistral_FR_Soldier ),
   ( 'MANPAD_Mistral_para_FR', TacticDepiction_MANPAD_Mistral_para_FR_Soldier ),
   ( 'MANPAD_Redeye_RFA', TacticDepiction_MANPAD_Redeye_RFA_Soldier ),
+  ( 'MANPAD_Redeye_US', TacticDepiction_MANPAD_Redeye_US_Soldier ),
   ( 'MANPAD_Stinger_C_Aero_US', TacticDepiction_MANPAD_Stinger_C_Aero_US_Soldier ),
   ( 'MANPAD_Stinger_C_US', TacticDepiction_MANPAD_Stinger_C_US_Soldier ),
   ( 'MANPAD_Stinger_C_para_US', TacticDepiction_MANPAD_Stinger_C_para_US_Soldier ),
@@ -16059,6 +17226,7 @@ InfantryMimetic is MAP[
   ( 'MotRifles_BTR_SOV', TacticDepiction_MotRifles_BTR_SOV_Soldier ),
   ( 'MotRifles_BTR_TTsko_SOV', TacticDepiction_MotRifles_BTR_TTsko_SOV_Soldier ),
   ( 'MotRifles_CMD_DDR', TacticDepiction_MotRifles_CMD_DDR_Soldier ),
+  ( 'MotRifles_CMD_POL', TacticDepiction_MotRifles_CMD_POL_Soldier ),
   ( 'MotRifles_CMD_SOV', TacticDepiction_MotRifles_CMD_SOV_Soldier ),
   ( 'MotRifles_CMD_TTsko_SOV', TacticDepiction_MotRifles_CMD_TTsko_SOV_Soldier ),
   ( 'MotRifles_DDR', TacticDepiction_MotRifles_DDR_Soldier ),
@@ -16068,12 +17236,22 @@ InfantryMimetic is MAP[
   ( 'MotRifles_Metis_DDR', TacticDepiction_MotRifles_Metis_DDR_Soldier ),
   ( 'MotRifles_Metis_SOV', TacticDepiction_MotRifles_Metis_SOV_Soldier ),
   ( 'MotRifles_Metis_TTsko_SOV', TacticDepiction_MotRifles_Metis_TTsko_SOV_Soldier ),
+  ( 'MotRifles_POL', TacticDepiction_MotRifles_POL_Soldier ),
   ( 'MotRifles_RPG22_SOV', TacticDepiction_MotRifles_RPG22_SOV_Soldier ),
   ( 'MotRifles_SOV', TacticDepiction_MotRifles_SOV_Soldier ),
   ( 'MotRifles_SVD_DDR', TacticDepiction_MotRifles_SVD_DDR_Soldier ),
+  ( 'MotRifles_SVD_POL', TacticDepiction_MotRifles_SVD_POL_Soldier ),
   ( 'MotRifles_Strela_DDR', TacticDepiction_MotRifles_Strela_DDR_Soldier ),
   ( 'MotRifles_TTsko_SOV', TacticDepiction_MotRifles_TTsko_SOV_Soldier ),
   ( 'MotSchutzen_DDR', TacticDepiction_MotSchutzen_DDR_Soldier ),
+  ( 'NatGuard_CMD_US', TacticDepiction_NatGuard_CMD_US_Soldier ),
+  ( 'NatGuard_Dragon_US', TacticDepiction_NatGuard_Dragon_US_Soldier ),
+  ( 'NatGuard_Engineers_CMD_US', TacticDepiction_NatGuard_Engineers_CMD_US_Soldier ),
+  ( 'NatGuard_Engineers_Flam_US', TacticDepiction_NatGuard_Engineers_Flam_US_Soldier ),
+  ( 'NatGuard_Engineers_M67_US', TacticDepiction_NatGuard_Engineers_M67_US_Soldier ),
+  ( 'NatGuard_Engineers_US', TacticDepiction_NatGuard_Engineers_US_Soldier ),
+  ( 'NatGuard_LAW_US', TacticDepiction_NatGuard_LAW_US_Soldier ),
+  ( 'NatGuard_M67_US', TacticDepiction_NatGuard_M67_US_Soldier ),
   ( 'Panzergrenadier_APC_RFA', TacticDepiction_Panzergrenadier_APC_RFA_Soldier ),
   ( 'Panzergrenadier_CMD_RFA', TacticDepiction_Panzergrenadier_CMD_RFA_Soldier ),
   ( 'Panzergrenadier_IFV_RFA', TacticDepiction_Panzergrenadier_IFV_RFA_Soldier ),
@@ -16149,6 +17327,7 @@ InfantryMimetic is MAP[
   ( 'Scout_LRRP_SOV', TacticDepiction_Scout_LRRP_SOV_Soldier ),
   ( 'Scout_NG_US', TacticDepiction_Scout_NG_US_Soldier ),
   ( 'Scout_RFA', TacticDepiction_Scout_RFA_Soldier ),
+  ( 'Scout_Reserve_DDR', TacticDepiction_Scout_Reserve_DDR_Soldier ),
   ( 'Scout_SOV', TacticDepiction_Scout_SOV_Soldier ),
   ( 'Scout_SpetsnazGRU_Stinger_SOV', TacticDepiction_Scout_SpetsnazGRU_Stinger_SOV_Soldier ),
   ( 'Scout_Spetsnaz_SOV', TacticDepiction_Scout_Spetsnaz_SOV_Soldier ),
@@ -16258,6 +17437,10 @@ InfantryMimeticGhost is MAP[
   ( 'Engineers_Flam_TTsko_SOV', TacticDepiction_Engineers_Flam_TTsko_SOV_Ghost ),
   ( 'Engineers_Flam_VDV_SOV', TacticDepiction_Engineers_Flam_VDV_SOV_Ghost ),
   ( 'Engineers_Flash_US', TacticDepiction_Engineers_Flash_US_Ghost ),
+  ( 'Engineers_Naval_CMD_DDR', TacticDepiction_Engineers_Naval_CMD_DDR_Ghost ),
+  ( 'Engineers_Naval_DDR', TacticDepiction_Engineers_Naval_DDR_Ghost ),
+  ( 'Engineers_Naval_Flam_DDR', TacticDepiction_Engineers_Naval_Flam_DDR_Ghost ),
+  ( 'Engineers_Naval_Scout_DDR', TacticDepiction_Engineers_Naval_Scout_DDR_Ghost ),
   ( 'Engineers_RFA', TacticDepiction_Engineers_RFA_Ghost ),
   ( 'Engineers_Reserve_RFA', TacticDepiction_Engineers_Reserve_RFA_Ghost ),
   ( 'Engineers_SOV', TacticDepiction_Engineers_SOV_Ghost ),
@@ -16301,6 +17484,8 @@ InfantryMimeticGhost is MAP[
   ( 'HeimatschutzJager_RFA', TacticDepiction_HeimatschutzJager_RFA_Ghost ),
   ( 'HvyScout_DDR', TacticDepiction_HvyScout_DDR_Ghost ),
   ( 'HvyScout_DShV_SOV', TacticDepiction_HvyScout_DShV_SOV_Ghost ),
+  ( 'HvyScout_NG_Dragon_US', TacticDepiction_HvyScout_NG_Dragon_US_Ghost ),
+  ( 'HvyScout_NG_US', TacticDepiction_HvyScout_NG_US_Ghost ),
   ( 'HvyScout_SOV', TacticDepiction_HvyScout_SOV_Ghost ),
   ( 'HvyScout_TTsko_SOV', TacticDepiction_HvyScout_TTsko_SOV_Ghost ),
   ( 'Jager_Aufk_RFA', TacticDepiction_Jager_Aufk_RFA_Ghost ),
@@ -16308,10 +17493,12 @@ InfantryMimeticGhost is MAP[
   ( 'Jager_Carl_RFA', TacticDepiction_Jager_Carl_RFA_Ghost ),
   ( 'Jager_RFA', TacticDepiction_Jager_RFA_Ghost ),
   ( 'Jager_noAT_RFA', TacticDepiction_Jager_noAT_RFA_Ghost ),
+  ( 'KSK18_DDR', TacticDepiction_KSK18_DDR_Ghost ),
   ( 'KdA_CMD_DDR', TacticDepiction_KdA_CMD_DDR_Ghost ),
   ( 'KdA_DDR', TacticDepiction_KdA_DDR_Ghost ),
   ( 'LRRP_Aero_US', TacticDepiction_LRRP_Aero_US_Ghost ),
   ( 'LRRP_BEL', TacticDepiction_LRRP_BEL_Ghost ),
+  ( 'LRRP_CEWI_US', TacticDepiction_LRRP_CEWI_US_Ghost ),
   ( 'LRRP_FR', TacticDepiction_LRRP_FR_Ghost ),
   ( 'LRRP_UK', TacticDepiction_LRRP_UK_Ghost ),
   ( 'LRRP_US', TacticDepiction_LRRP_US_Ghost ),
@@ -16332,6 +17519,7 @@ InfantryMimeticGhost is MAP[
   ( 'MANPAD_Mistral_FR', TacticDepiction_MANPAD_Mistral_FR_Ghost ),
   ( 'MANPAD_Mistral_para_FR', TacticDepiction_MANPAD_Mistral_para_FR_Ghost ),
   ( 'MANPAD_Redeye_RFA', TacticDepiction_MANPAD_Redeye_RFA_Ghost ),
+  ( 'MANPAD_Redeye_US', TacticDepiction_MANPAD_Redeye_US_Ghost ),
   ( 'MANPAD_Stinger_C_Aero_US', TacticDepiction_MANPAD_Stinger_C_Aero_US_Ghost ),
   ( 'MANPAD_Stinger_C_US', TacticDepiction_MANPAD_Stinger_C_US_Ghost ),
   ( 'MANPAD_Stinger_C_para_US', TacticDepiction_MANPAD_Stinger_C_para_US_Ghost ),
@@ -16353,6 +17541,7 @@ InfantryMimeticGhost is MAP[
   ( 'MotRifles_BTR_SOV', TacticDepiction_MotRifles_BTR_SOV_Ghost ),
   ( 'MotRifles_BTR_TTsko_SOV', TacticDepiction_MotRifles_BTR_TTsko_SOV_Ghost ),
   ( 'MotRifles_CMD_DDR', TacticDepiction_MotRifles_CMD_DDR_Ghost ),
+  ( 'MotRifles_CMD_POL', TacticDepiction_MotRifles_CMD_POL_Ghost ),
   ( 'MotRifles_CMD_SOV', TacticDepiction_MotRifles_CMD_SOV_Ghost ),
   ( 'MotRifles_CMD_TTsko_SOV', TacticDepiction_MotRifles_CMD_TTsko_SOV_Ghost ),
   ( 'MotRifles_DDR', TacticDepiction_MotRifles_DDR_Ghost ),
@@ -16362,12 +17551,22 @@ InfantryMimeticGhost is MAP[
   ( 'MotRifles_Metis_DDR', TacticDepiction_MotRifles_Metis_DDR_Ghost ),
   ( 'MotRifles_Metis_SOV', TacticDepiction_MotRifles_Metis_SOV_Ghost ),
   ( 'MotRifles_Metis_TTsko_SOV', TacticDepiction_MotRifles_Metis_TTsko_SOV_Ghost ),
+  ( 'MotRifles_POL', TacticDepiction_MotRifles_POL_Ghost ),
   ( 'MotRifles_RPG22_SOV', TacticDepiction_MotRifles_RPG22_SOV_Ghost ),
   ( 'MotRifles_SOV', TacticDepiction_MotRifles_SOV_Ghost ),
   ( 'MotRifles_SVD_DDR', TacticDepiction_MotRifles_SVD_DDR_Ghost ),
+  ( 'MotRifles_SVD_POL', TacticDepiction_MotRifles_SVD_POL_Ghost ),
   ( 'MotRifles_Strela_DDR', TacticDepiction_MotRifles_Strela_DDR_Ghost ),
   ( 'MotRifles_TTsko_SOV', TacticDepiction_MotRifles_TTsko_SOV_Ghost ),
   ( 'MotSchutzen_DDR', TacticDepiction_MotSchutzen_DDR_Ghost ),
+  ( 'NatGuard_CMD_US', TacticDepiction_NatGuard_CMD_US_Ghost ),
+  ( 'NatGuard_Dragon_US', TacticDepiction_NatGuard_Dragon_US_Ghost ),
+  ( 'NatGuard_Engineers_CMD_US', TacticDepiction_NatGuard_Engineers_CMD_US_Ghost ),
+  ( 'NatGuard_Engineers_Flam_US', TacticDepiction_NatGuard_Engineers_Flam_US_Ghost ),
+  ( 'NatGuard_Engineers_M67_US', TacticDepiction_NatGuard_Engineers_M67_US_Ghost ),
+  ( 'NatGuard_Engineers_US', TacticDepiction_NatGuard_Engineers_US_Ghost ),
+  ( 'NatGuard_LAW_US', TacticDepiction_NatGuard_LAW_US_Ghost ),
+  ( 'NatGuard_M67_US', TacticDepiction_NatGuard_M67_US_Ghost ),
   ( 'Panzergrenadier_APC_RFA', TacticDepiction_Panzergrenadier_APC_RFA_Ghost ),
   ( 'Panzergrenadier_CMD_RFA', TacticDepiction_Panzergrenadier_CMD_RFA_Ghost ),
   ( 'Panzergrenadier_IFV_RFA', TacticDepiction_Panzergrenadier_IFV_RFA_Ghost ),
@@ -16443,6 +17642,7 @@ InfantryMimeticGhost is MAP[
   ( 'Scout_LRRP_SOV', TacticDepiction_Scout_LRRP_SOV_Ghost ),
   ( 'Scout_NG_US', TacticDepiction_Scout_NG_US_Ghost ),
   ( 'Scout_RFA', TacticDepiction_Scout_RFA_Ghost ),
+  ( 'Scout_Reserve_DDR', TacticDepiction_Scout_Reserve_DDR_Ghost ),
   ( 'Scout_SOV', TacticDepiction_Scout_SOV_Ghost ),
   ( 'Scout_SpetsnazGRU_Stinger_SOV', TacticDepiction_Scout_SpetsnazGRU_Stinger_SOV_Ghost ),
   ( 'Scout_Spetsnaz_SOV', TacticDepiction_Scout_Spetsnaz_SOV_Ghost ),
@@ -16552,6 +17752,10 @@ TransportedInfantryAlternativesCount is MAP[
   ('Engineers_Flam_TTsko_SOV', (0,6)),
   ('Engineers_Flam_VDV_SOV', (0,6)),
   ('Engineers_Flash_US', (0,10)),
+  ('Engineers_Naval_CMD_DDR', (0,1)),
+  ('Engineers_Naval_DDR', (0,1)),
+  ('Engineers_Naval_Flam_DDR', (0,1)),
+  ('Engineers_Naval_Scout_DDR', (0,1)),
   ('Engineers_RFA', (0,6)),
   ('Engineers_Reserve_RFA', (0,4)),
   ('Engineers_SOV', (0,6)),
@@ -16595,6 +17799,8 @@ TransportedInfantryAlternativesCount is MAP[
   ('HeimatschutzJager_RFA', (0,6)),
   ('HvyScout_DDR', (0,6)),
   ('HvyScout_DShV_SOV', (2,5)),
+  ('HvyScout_NG_Dragon_US', (0,1)),
+  ('HvyScout_NG_US', (0,1)),
   ('HvyScout_SOV', (0,6)),
   ('HvyScout_TTsko_SOV', (0,6)),
   ('Jager_Aufk_RFA', (0,6)),
@@ -16602,16 +17808,18 @@ TransportedInfantryAlternativesCount is MAP[
   ('Jager_Carl_RFA', (2,3)),
   ('Jager_RFA', (2,3)),
   ('Jager_noAT_RFA', (2,3)),
+  ('KSK18_DDR', (1,5)),
   ('KdA_CMD_DDR', (2,4)),
   ('KdA_DDR', (1,3)),
   ('LRRP_Aero_US', (3,5)),
   ('LRRP_BEL', (0,8)),
+  ('LRRP_CEWI_US', (0,1)),
   ('LRRP_FR', (0,4)),
   ('LRRP_UK', (0,3)),
   ('LRRP_US', (0,6)),
-  ('LightRifles_CMD_US', (0,10)),
-  ('LightRifles_LAW_US', (0,10)),
-  ('LightRifles_RCL_US', (0,10)),
+  ('LightRifles_CMD_US', (2,4)),
+  ('LightRifles_LAW_US', (2,5)),
+  ('LightRifles_RCL_US', (2,5)),
   ('Luftsturmjager_CMD_DDR', (2,4)),
   ('Luftsturmjager_DDR', (1,3)),
   ('Luftsturmjager_Metis_DDR', (1,3)),
@@ -16626,6 +17834,7 @@ TransportedInfantryAlternativesCount is MAP[
   ('MANPAD_Mistral_FR', (0,6)),
   ('MANPAD_Mistral_para_FR', (0,6)),
   ('MANPAD_Redeye_RFA', (0,6)),
+  ('MANPAD_Redeye_US', (0,1)),
   ('MANPAD_Stinger_C_Aero_US', (2,2)),
   ('MANPAD_Stinger_C_US', (0,1)),
   ('MANPAD_Stinger_C_para_US', (0,1)),
@@ -16647,6 +17856,7 @@ TransportedInfantryAlternativesCount is MAP[
   ('MotRifles_BTR_SOV', (3,5)),
   ('MotRifles_BTR_TTsko_SOV', (0,6)),
   ('MotRifles_CMD_DDR', (2,5)),
+  ('MotRifles_CMD_POL', (2,4)),
   ('MotRifles_CMD_SOV', (2,4)),
   ('MotRifles_CMD_TTsko_SOV', (2,4)),
   ('MotRifles_DDR', (2,4)),
@@ -16656,12 +17866,22 @@ TransportedInfantryAlternativesCount is MAP[
   ('MotRifles_Metis_DDR', (2,4)),
   ('MotRifles_Metis_SOV', (3,5)),
   ('MotRifles_Metis_TTsko_SOV', (0,6)),
+  ('MotRifles_POL', (1,3)),
   ('MotRifles_RPG22_SOV', (3,5)),
   ('MotRifles_SOV', (1,3)),
   ('MotRifles_SVD_DDR', (3,5)),
+  ('MotRifles_SVD_POL', (1,3)),
   ('MotRifles_Strela_DDR', (0,6)),
   ('MotRifles_TTsko_SOV', (0,6)),
   ('MotSchutzen_DDR', (0,6)),
+  ('NatGuard_CMD_US', (0,6)),
+  ('NatGuard_Dragon_US', (0,6)),
+  ('NatGuard_Engineers_CMD_US', (0,1)),
+  ('NatGuard_Engineers_Flam_US', (0,1)),
+  ('NatGuard_Engineers_M67_US', (0,1)),
+  ('NatGuard_Engineers_US', (0,1)),
+  ('NatGuard_LAW_US', (0,6)),
+  ('NatGuard_M67_US', (0,1)),
   ('Panzergrenadier_APC_RFA', (3,5)),
   ('Panzergrenadier_CMD_RFA', (3,5)),
   ('Panzergrenadier_IFV_RFA', (3,5)),
@@ -16737,6 +17957,7 @@ TransportedInfantryAlternativesCount is MAP[
   ('Scout_LRRP_SOV', (0,6)),
   ('Scout_NG_US', (0,4)),
   ('Scout_RFA', (0,6)),
+  ('Scout_Reserve_DDR', (0,1)),
   ('Scout_SOV', (0,6)),
   ('Scout_SpetsnazGRU_Stinger_SOV', (2,4)),
   ('Scout_Spetsnaz_SOV', (0,6)),
@@ -17158,6 +18379,10 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['Engineers_Flash_US', '08'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Flash_US_08 ),
   TDepictionDescriptor( SelectorId = ['Engineers_Flash_US', '09'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Flash_US_09 ),
   TDepictionDescriptor( SelectorId = ['Engineers_Flash_US', '10'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Flash_US_10 ),
+  TDepictionDescriptor( SelectorId = ['Engineers_Naval_CMD_DDR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_CMD_DDR ),
+  TDepictionDescriptor( SelectorId = ['Engineers_Naval_DDR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_DDR ),
+  TDepictionDescriptor( SelectorId = ['Engineers_Naval_Flam_DDR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_Flam_DDR ),
+  TDepictionDescriptor( SelectorId = ['Engineers_Naval_Scout_DDR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_Naval_Scout_DDR ),
   TDepictionDescriptor( SelectorId = ['Engineers_RFA', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_RFA ),
   TDepictionDescriptor( SelectorId = ['Engineers_RFA', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_RFA_02 ),
   TDepictionDescriptor( SelectorId = ['Engineers_RFA', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Engineers_RFA_03 ),
@@ -17345,6 +18570,8 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['HvyScout_DShV_SOV', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_DShV_SOV_03 ),
   TDepictionDescriptor( SelectorId = ['HvyScout_DShV_SOV', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_DShV_SOV_04 ),
   TDepictionDescriptor( SelectorId = ['HvyScout_DShV_SOV', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_DShV_SOV_05 ),
+  TDepictionDescriptor( SelectorId = ['HvyScout_NG_Dragon_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_NG_Dragon_US ),
+  TDepictionDescriptor( SelectorId = ['HvyScout_NG_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_NG_US ),
   TDepictionDescriptor( SelectorId = ['HvyScout_SOV', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_SOV ),
   TDepictionDescriptor( SelectorId = ['HvyScout_SOV', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_SOV_02 ),
   TDepictionDescriptor( SelectorId = ['HvyScout_SOV', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_HvyScout_SOV_03 ),
@@ -17373,6 +18600,11 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['Jager_noAT_RFA', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Jager_noAT_RFA ),
   TDepictionDescriptor( SelectorId = ['Jager_noAT_RFA', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Jager_noAT_RFA_02 ),
   TDepictionDescriptor( SelectorId = ['Jager_noAT_RFA', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Jager_noAT_RFA_03 ),
+  TDepictionDescriptor( SelectorId = ['KSK18_DDR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR ),
+  TDepictionDescriptor( SelectorId = ['KSK18_DDR', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR_02 ),
+  TDepictionDescriptor( SelectorId = ['KSK18_DDR', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR_03 ),
+  TDepictionDescriptor( SelectorId = ['KSK18_DDR', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR_04 ),
+  TDepictionDescriptor( SelectorId = ['KSK18_DDR', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_KSK18_DDR_05 ),
   TDepictionDescriptor( SelectorId = ['KdA_CMD_DDR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_KdA_CMD_DDR ),
   TDepictionDescriptor( SelectorId = ['KdA_CMD_DDR', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_KdA_CMD_DDR_02 ),
   TDepictionDescriptor( SelectorId = ['KdA_CMD_DDR', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_KdA_CMD_DDR_03 ),
@@ -17393,6 +18625,7 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['LRRP_BEL', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_LRRP_BEL_06 ),
   TDepictionDescriptor( SelectorId = ['LRRP_BEL', '07'] MeshDescriptor = $/GFX/DepictionResources/Modele_LRRP_BEL_07 ),
   TDepictionDescriptor( SelectorId = ['LRRP_BEL', '08'] MeshDescriptor = $/GFX/DepictionResources/Modele_LRRP_BEL_08 ),
+  TDepictionDescriptor( SelectorId = ['LRRP_CEWI_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_LRRP_CEWI_US ),
   TDepictionDescriptor( SelectorId = ['LRRP_FR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_LRRP_FR ),
   TDepictionDescriptor( SelectorId = ['LRRP_FR', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_LRRP_FR_02 ),
   TDepictionDescriptor( SelectorId = ['LRRP_FR', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_LRRP_FR_03 ),
@@ -17410,32 +18643,16 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['LightRifles_CMD_US', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_02 ),
   TDepictionDescriptor( SelectorId = ['LightRifles_CMD_US', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_03 ),
   TDepictionDescriptor( SelectorId = ['LightRifles_CMD_US', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_04 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_CMD_US', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_05 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_CMD_US', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_06 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_CMD_US', '07'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_07 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_CMD_US', '08'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_08 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_CMD_US', '09'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_09 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_CMD_US', '10'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_CMD_US_10 ),
   TDepictionDescriptor( SelectorId = ['LightRifles_LAW_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US ),
   TDepictionDescriptor( SelectorId = ['LightRifles_LAW_US', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_02 ),
   TDepictionDescriptor( SelectorId = ['LightRifles_LAW_US', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_03 ),
   TDepictionDescriptor( SelectorId = ['LightRifles_LAW_US', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_04 ),
   TDepictionDescriptor( SelectorId = ['LightRifles_LAW_US', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_05 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_LAW_US', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_06 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_LAW_US', '07'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_07 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_LAW_US', '08'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_08 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_LAW_US', '09'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_09 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_LAW_US', '10'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_LAW_US_10 ),
   TDepictionDescriptor( SelectorId = ['LightRifles_RCL_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US ),
   TDepictionDescriptor( SelectorId = ['LightRifles_RCL_US', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_02 ),
   TDepictionDescriptor( SelectorId = ['LightRifles_RCL_US', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_03 ),
   TDepictionDescriptor( SelectorId = ['LightRifles_RCL_US', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_04 ),
   TDepictionDescriptor( SelectorId = ['LightRifles_RCL_US', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_05 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_RCL_US', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_06 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_RCL_US', '07'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_07 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_RCL_US', '08'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_08 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_RCL_US', '09'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_09 ),
-  TDepictionDescriptor( SelectorId = ['LightRifles_RCL_US', '10'] MeshDescriptor = $/GFX/DepictionResources/Modele_LightRifles_RCL_US_10 ),
   TDepictionDescriptor( SelectorId = ['Luftsturmjager_CMD_DDR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Luftsturmjager_CMD_DDR ),
   TDepictionDescriptor( SelectorId = ['Luftsturmjager_CMD_DDR', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Luftsturmjager_CMD_DDR_02 ),
   TDepictionDescriptor( SelectorId = ['Luftsturmjager_CMD_DDR', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Luftsturmjager_CMD_DDR_03 ),
@@ -17498,6 +18715,7 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['MANPAD_Redeye_RFA', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_Redeye_RFA_04 ),
   TDepictionDescriptor( SelectorId = ['MANPAD_Redeye_RFA', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_Redeye_RFA_05 ),
   TDepictionDescriptor( SelectorId = ['MANPAD_Redeye_RFA', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_Redeye_RFA_06 ),
+  TDepictionDescriptor( SelectorId = ['MANPAD_Redeye_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_Redeye_US ),
   TDepictionDescriptor( SelectorId = ['MANPAD_Stinger_C_Aero_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_Stinger_C_Aero_US ),
   TDepictionDescriptor( SelectorId = ['MANPAD_Stinger_C_Aero_US', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_Stinger_C_Aero_US_02 ),
   TDepictionDescriptor( SelectorId = ['MANPAD_Stinger_C_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MANPAD_Stinger_C_US ),
@@ -17563,6 +18781,10 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['MotRifles_CMD_DDR', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_DDR_03 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_CMD_DDR', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_DDR_04 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_CMD_DDR', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_DDR_05 ),
+  TDepictionDescriptor( SelectorId = ['MotRifles_CMD_POL', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_POL ),
+  TDepictionDescriptor( SelectorId = ['MotRifles_CMD_POL', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_POL_02 ),
+  TDepictionDescriptor( SelectorId = ['MotRifles_CMD_POL', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_POL_03 ),
+  TDepictionDescriptor( SelectorId = ['MotRifles_CMD_POL', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_POL_04 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_CMD_SOV', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_SOV ),
   TDepictionDescriptor( SelectorId = ['MotRifles_CMD_SOV', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_SOV_02 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_CMD_SOV', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_CMD_SOV_03 ),
@@ -17605,6 +18827,9 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['MotRifles_Metis_TTsko_SOV', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_Metis_TTsko_SOV_04 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_Metis_TTsko_SOV', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_Metis_TTsko_SOV_05 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_Metis_TTsko_SOV', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_Metis_TTsko_SOV_06 ),
+  TDepictionDescriptor( SelectorId = ['MotRifles_POL', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_POL ),
+  TDepictionDescriptor( SelectorId = ['MotRifles_POL', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_POL_02 ),
+  TDepictionDescriptor( SelectorId = ['MotRifles_POL', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_POL_03 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_RPG22_SOV', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_RPG22_SOV ),
   TDepictionDescriptor( SelectorId = ['MotRifles_RPG22_SOV', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_RPG22_SOV_02 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_RPG22_SOV', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_RPG22_SOV_03 ),
@@ -17618,6 +18843,9 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['MotRifles_SVD_DDR', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_SVD_DDR_03 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_SVD_DDR', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_SVD_DDR_04 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_SVD_DDR', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_SVD_DDR_05 ),
+  TDepictionDescriptor( SelectorId = ['MotRifles_SVD_POL', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_SVD_POL ),
+  TDepictionDescriptor( SelectorId = ['MotRifles_SVD_POL', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_SVD_POL_02 ),
+  TDepictionDescriptor( SelectorId = ['MotRifles_SVD_POL', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_SVD_POL_03 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_Strela_DDR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_Strela_DDR ),
   TDepictionDescriptor( SelectorId = ['MotRifles_Strela_DDR', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_Strela_DDR_02 ),
   TDepictionDescriptor( SelectorId = ['MotRifles_Strela_DDR', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotRifles_Strela_DDR_03 ),
@@ -17636,6 +18864,29 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['MotSchutzen_DDR', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotSchutzen_DDR_04 ),
   TDepictionDescriptor( SelectorId = ['MotSchutzen_DDR', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotSchutzen_DDR_05 ),
   TDepictionDescriptor( SelectorId = ['MotSchutzen_DDR', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_MotSchutzen_DDR_06 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_CMD_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_CMD_US', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_02 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_CMD_US', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_03 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_CMD_US', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_04 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_CMD_US', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_05 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_CMD_US', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_CMD_US_06 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_Dragon_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_Dragon_US', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_02 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_Dragon_US', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_03 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_Dragon_US', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_04 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_Dragon_US', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_05 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_Dragon_US', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Dragon_US_06 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_Engineers_CMD_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_CMD_US ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_Engineers_Flam_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_Flam_US ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_Engineers_M67_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_M67_US ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_Engineers_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_Engineers_US ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_LAW_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_LAW_US', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_02 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_LAW_US', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_03 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_LAW_US', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_04 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_LAW_US', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_05 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_LAW_US', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_LAW_US_06 ),
+  TDepictionDescriptor( SelectorId = ['NatGuard_M67_US', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_NatGuard_M67_US ),
   TDepictionDescriptor( SelectorId = ['Panzergrenadier_APC_RFA', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Panzergrenadier_APC_RFA ),
   TDepictionDescriptor( SelectorId = ['Panzergrenadier_APC_RFA', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Panzergrenadier_APC_RFA_02 ),
   TDepictionDescriptor( SelectorId = ['Panzergrenadier_APC_RFA', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Panzergrenadier_APC_RFA_03 ),
@@ -18042,6 +19293,7 @@ TransportedInfantryAlternatives is [
   TDepictionDescriptor( SelectorId = ['Scout_RFA', '04'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_RFA_04 ),
   TDepictionDescriptor( SelectorId = ['Scout_RFA', '05'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_RFA_05 ),
   TDepictionDescriptor( SelectorId = ['Scout_RFA', '06'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_RFA_06 ),
+  TDepictionDescriptor( SelectorId = ['Scout_Reserve_DDR', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_Reserve_DDR ),
   TDepictionDescriptor( SelectorId = ['Scout_SOV', '01'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_SOV ),
   TDepictionDescriptor( SelectorId = ['Scout_SOV', '02'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_SOV_02 ),
   TDepictionDescriptor( SelectorId = ['Scout_SOV', '03'] MeshDescriptor = $/GFX/DepictionResources/Modele_Scout_SOV_03 ),

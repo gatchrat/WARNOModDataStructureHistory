@@ -107,7 +107,7 @@ private ModCenterStarRatingTexture is BUCKTextureDescriptor
     )
 )
 
-ModCenter_LineBackground is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/ModCenter/line_background.png")
+ModCenter_LineBackground is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseOutGame/ModCenter/line_background.png")
 
 private ModCenterInactiveContainerDescriptor is BUCKContainerDescriptor
 (
@@ -210,10 +210,6 @@ ModResource is TUISpecificOutGameModResource
         (
             "Interface",
             "OutgameTexture_Mod_Interface"
-        ),
-        (
-            "Meshes",
-            "OutgameTexture_Mod_Mesh"
         ),
         (
             "Sound",

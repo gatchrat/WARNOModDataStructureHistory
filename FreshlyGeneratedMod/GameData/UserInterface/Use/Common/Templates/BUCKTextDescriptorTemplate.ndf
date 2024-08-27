@@ -68,7 +68,6 @@ template BUCKTextDescriptor
     UnderlineColor : string = "",                                               // Couleur de l'underline
     UnderlineThickness : string = "",                                           // Taille de l'underline
 
-    HasAutoHint : bool = false,
     Hint : TBUCKHintableAreaDescriptor = nil,                                   // Hint du texte
 
     Rotation : int = 0,                                                         // La rotation du text en degrés

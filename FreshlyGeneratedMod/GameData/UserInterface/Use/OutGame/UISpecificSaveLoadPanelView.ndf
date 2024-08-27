@@ -1108,10 +1108,7 @@ private SaveLoadListFillButtonList is BUCKListElementDescriptor
     )
 )
 //-------------------------------------------------------------------------------------
-private template BUCKSpecificSaveLoadPanelMainComponentDescriptor
-[
-    IsSubView : bool = false,
-] is BUCKTranslationAnimatedContainerDescriptor
+BUCKSpecificSaveLoadPanelMainComponentDescriptor is BUCKTranslationAnimatedContainerDescriptor
 (
     ElementName = "SaveLoadPanelMainComponent"
 
@@ -1204,9 +1201,8 @@ private template BUCKSpecificSaveLoadPanelMainComponentDescriptor
 template UISpecificSaveLoadPanelViewDescriptor
 [
     ComponentContainerUniqueName : string = "",
-    IsSubView : bool = false,
 ] is TUISpecificSaveLoadPanelViewDescriptor
 (
-    MainComponentDescriptor = BUCKSpecificSaveLoadPanelMainComponentDescriptor(IsSubView = <IsSubView>)
+    MainComponentDescriptor = BUCKSpecificSaveLoadPanelMainComponentDescriptor
     MainComponentContainerUniqueName = <ComponentContainerUniqueName> // Permet d'indiquer l'endroit ou le composant doit s'insérer
 )

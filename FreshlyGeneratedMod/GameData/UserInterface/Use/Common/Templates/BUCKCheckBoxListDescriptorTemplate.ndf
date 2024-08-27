@@ -102,9 +102,7 @@ is BUCKListDescriptor
 private template CheckboxExcelDefinition
 [
     ElementName : string = "",
-    ToggleListButtonText : string = "",
     Margins : TRTTILength = TRTTILength(Magnifiable = 0.0),
-    IsMainCheckbox : bool = false,
     BoxMagnifiableWidthHeight : float2 = [16.0, 16.0],
     TextureToken : string = "StyleDeskTexture_CheckBox",
     TextureColorToken : string = '',
@@ -298,7 +296,6 @@ private template SeparationListElement
 
 private template CategoryComponent
 [
-    ElementName : string = "",
     CategorySeparation : int,
     CheckboxForCategory : bool,
     TextDico : string,
@@ -455,7 +452,6 @@ template BUCKCheckBoxListDescriptor
 
     TextColor : string = "ButtonSimple/TextBleuGris",
     ShowFilter_TextColor : string = "ButtonSimple/TextBleuGris",
-    TextSize : string = "15",
     BoxMagnifiableWidthHeight : float2 = [15.0, 15.0],
     TextureToken : string = "StyleDeskTexture_CheckBox",
     TextureColorToken : string = '',
@@ -532,7 +528,6 @@ is TBUCKCheckBoxListDescriptor
                 CheckboxExcelDefinition
                 (
                     ElementName = <MainButtonElementName>
-                    IsMainCheckbox = true
                     BoxMagnifiableWidthHeight = <BoxMagnifiableWidthHeight>
                     TextureToken = <TextureToken>
                     TextureColorToken = <TextureColorToken>

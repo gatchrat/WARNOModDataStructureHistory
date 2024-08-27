@@ -213,7 +213,6 @@ template HUBActionButtonResizeWithMax
     TextColor : string = "HUBActionButton",
     TextSize : string = "20",
     TextElementName : string = 'TextElement',
-    BigLineAction : int = ~/BigLineAction/CutByDots,
 
     LeftClickSound : TSoundDescriptor = nil,
 

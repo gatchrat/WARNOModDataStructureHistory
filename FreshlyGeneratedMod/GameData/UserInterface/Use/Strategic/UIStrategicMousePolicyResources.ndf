@@ -6,7 +6,6 @@ private MouseCurseur_AssaultPossible is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/OrderCursorGreen.png",
@@ -21,7 +20,6 @@ private MouseCurseur_AssaultImpossible is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/OrderCursorRed.png",
@@ -36,7 +34,6 @@ private MouseCurseur_MultiselectionStrategic is TMouseCursorAnimation
     AnimationCycleTime = 1
     TextureList = TResourceDescriptorTextureAnimation
     (
-        UsefulnessMask = TypeMask/PCInterface
         FileNameList =
         [
             "GameData:/Assets/2D/Interface/Common/Cursors/CursorDefault.png",

@@ -4,34 +4,6 @@ template TUIResourceTexture_Common
 ] is TUIResourceTexture
 (
     FileName = <FileName>
-    UsefulnessMask = TypeMask/Common
-)
-
-template TUIResourceTexture_OutGame
-[
-    FileName : string
-] is TUIResourceTexture
-(
-    FileName = <FileName>
-    UsefulnessMask = TypeMask/OutGameInterface
-)
-
-template TUIResourceTexture_InGame
-[
-    FileName : string
-] is TUIResourceTexture
-(
-    FileName = <FileName>
-    UsefulnessMask = TypeMask/InGameInterface
-)
-
-template TUIResourceTexture_Debug
-[
-    FileName : string,
-] is TUIResourceTexture
-(
-    FileName = <FileName>
-    UsefulnessMask = TypeMask/DebugScreen
 )
 
 template TUIResourceTexture_MapPack
@@ -40,5 +12,4 @@ template TUIResourceTexture_MapPack
 ] is TUIAutoRegisteredResourceTexture
 (
     FileName = <FileName>
-    UsefulnessMask = TypeMask/Common
 )

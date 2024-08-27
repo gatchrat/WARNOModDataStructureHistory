@@ -6,7 +6,6 @@ template TContainerDarkStyle
     Components : LIST<TBUCKContainerDescriptor> = [],
     ElementName : string = '',
     UniqueName : string = '',
-    FitStyle : int = ~/ContainerFitStyle/None,
     ShowLightTexture : bool = true,
     HidePointerEvents : bool = true,
     HasInternalBorders : bool = false,

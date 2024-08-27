@@ -223,8 +223,6 @@ template Display2ColumnsPertesSynthesis
     ColumnName : string,
     TextToken : string = '',
     TextureToken  : string = 'UseInGame_Transport_REGINF',
-    HintBodyToken : string = '',
-    HintExtendedToken : string = ''
 ] is PanelRoundedCorner
 (
     ComponentFrame = TUIFramePropertyRTTI
@@ -342,8 +340,6 @@ template Display3ColumnsTitrePerte
 [
     ColumnName : string,
     TextToken : string = '',
-    HintBodyToken : string = '',
-    HintExtendedToken : string = ''
 ]
  is BUCKContainerDescriptor
  (
@@ -378,7 +374,6 @@ template Display3ColumnsTitrePerte
                     (
                         ElementName = "LossesPercentage_" + <ColumnName>
                         TextToken = 'LSPERC'
-                        Alignment = UIText_Right
                         IsTitre = true
                         HorizontalFitStyle = ~/FitStyle/FitToContent
                         RelativeWidthHeight = [0.0, 0.0]
@@ -410,15 +405,15 @@ private CategoryColumnsList is BUCKListDescriptor
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = Display3ColumnsTitrePerte(ColumnName="Infantry" TextToken = 'LS_sol' HintBodyToken = "pip_solb" HintExtendedToken = "pip_sole")
+            ComponentDescriptor = Display3ColumnsTitrePerte(ColumnName="Infantry" TextToken = 'LS_sol')
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = Display3ColumnsTitrePerte(ColumnName="Cannon" TextToken = 'LS_art' HintBodyToken = "pip_artb")
+            ComponentDescriptor = Display3ColumnsTitrePerte(ColumnName="Cannon" TextToken = 'LS_art')
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = Display3ColumnsTitrePerte(ColumnName="Tank" TextToken = 'LS_tank' HintBodyToken = "pip_tanb")
+            ComponentDescriptor = Display3ColumnsTitrePerte(ColumnName="Tank" TextToken = 'LS_tank')
         ),
         BUCKListElementDescriptor
         (
@@ -456,15 +451,15 @@ private CategoryVerticalList is BUCKListDescriptor
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = Display2ColumnsPertesSynthesis(ColumnName="Infantry" TextToken = 'LS_sol' HintBodyToken = "pip_solb" HintExtendedToken = "pip_sole" )
+            ComponentDescriptor = Display2ColumnsPertesSynthesis(ColumnName="Infantry" TextToken = 'LS_sol')
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = Display2ColumnsPertesSynthesis(ColumnName="Cannon" TextToken = 'LS_art' HintBodyToken = "pip_artb" TextureToken = 'UseInGame_Transport_howitzer')
+            ComponentDescriptor = Display2ColumnsPertesSynthesis(ColumnName="Cannon" TextToken = 'LS_art'TextureToken = 'UseInGame_Transport_howitzer')
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = Display2ColumnsPertesSynthesis(ColumnName="Tank" TextToken = 'LS_tank' HintBodyToken = "pip_tanb" TextureToken = 'UseInGame_Transport_Tank')
+            ComponentDescriptor = Display2ColumnsPertesSynthesis(ColumnName="Tank" TextToken = 'LS_tank' TextureToken = 'UseInGame_Transport_Tank')
         ),
         BUCKListElementDescriptor
         (

@@ -130,15 +130,14 @@ BUCKSpecificLinkAccountMainComponentDescriptor is LoginTvContainer
                                 )
 
                                 ParagraphStyle = ~/paragraphStyleTextCenter
-                                TextStyle = "Default"
+                                TextStyle       = "Default"
+                                TypefaceToken   = "UISecondFont"
 
                                 TextColor       = "Rouge"
                                 TextSize        = "FeedbackTextInModal"
                                 TextDico        = ~/LocalisationConstantes/dico_interface_outgame
 
                                 BigLineAction = ~/BigLineAction/MultiLine
-
-                                TypefaceToken   = "Liberator"
                             ),
                         ]
                     )

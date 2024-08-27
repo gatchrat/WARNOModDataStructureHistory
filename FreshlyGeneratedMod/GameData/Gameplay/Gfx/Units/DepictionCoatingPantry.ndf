@@ -171,6 +171,46 @@ liveEditCoatingPantry is TCoatingPantry
                 ]
             )
         )),
+        ('Mi_14PL_landing_gears', TCoatingIngredientOperator
+        (
+            Descriptor = TCosmeticLandingGearOperatorDesc
+            (
+                AnimationList = [
+                    TBoneProceduralAnimation
+                    (
+                        BoneName = 'roue_avant'
+                        Axis = 1
+                        LimitValue = -120
+                        Delay = 1
+                        Duration = 2
+                    ),
+                    TBoneProceduralAnimation
+                    (
+                        BoneName = 'roue_arriere'
+                        Axis = 1
+                        LimitValue = 65
+                        Delay = 1
+                        Duration = 2
+                    ),
+                    TBoneProceduralAnimation
+                    (
+                        BoneName = 'bras_arriere'
+                        Axis = 1
+                        LimitValue = -20
+                        Delay = 1
+                        Duration = 2
+                    ),
+                    TBoneProceduralAnimation
+                    (
+                        BoneName = 'trappe'
+                        Axis = 1
+                        LimitValue = 85
+                        Delay = 1
+                        Duration = 2
+                    ),
+                ]
+            )
+        )),
         ('Ka_50_SOV_landing_gears', TCoatingIngredientOperator
         (
             Descriptor = TCosmeticLandingGearOperatorDesc

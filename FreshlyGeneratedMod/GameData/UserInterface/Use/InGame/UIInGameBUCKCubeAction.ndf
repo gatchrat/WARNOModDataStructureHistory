@@ -12,8 +12,6 @@ private CubeActionWargameSubActionPanel is 125.0
 template CubeActionButton
 [
     BigLineAction : int,
-    BackgroundColor : string = "Fulda2_BoutonCubeAction",
-    BorderColor : string = "ButtonHUD/BigBorder",
     TextColor : string = "ButtonHUD/Text2",
     TextSize : string = "18",
     HasBorder : bool = false,

@@ -461,7 +461,6 @@ PlayersTerritory is BUCKListDescriptor
             (
                 ElementName_Camp = 'Allies'
                 Camp = 'Allies'
-                TextToken_Camp = 'SSC_HALLIE'
                 BackgroundBlockColorToken = 'Noir30'
             )
         ),
@@ -471,7 +470,6 @@ PlayersTerritory is BUCKListDescriptor
             (
                 ElementName_Camp = 'Axis'
                 Camp = 'Axis'
-                TextToken_Camp = 'SSC_HAXIS'
                 BackgroundBlockColorToken = 'BlancEquipe_30'
             )
 
@@ -493,9 +491,7 @@ PlayersScore is BUCKListDescriptor
         (
             ComponentDescriptor = ScorePerSideDisplay
             (
-                ElementName_Camp = 'Allies'
                 Camp = 'Allies'
-                TextToken_Camp = 'SSC_HALLIE'
                 BackgroundBlockColorToken = 'Noir30'
             )
         ),
@@ -503,9 +499,7 @@ PlayersScore is BUCKListDescriptor
         (
             ComponentDescriptor = ScorePerSideDisplay
             (
-                ElementName_Camp = 'Axis'
                 Camp = 'Axis'
-                TextToken_Camp = 'SSC_HAXIS'
                 BackgroundBlockColorToken = 'BlancEquipe_30'
             )
         ),
@@ -517,13 +511,10 @@ PlayersScore is BUCKListDescriptor
 
 template TerritoryPerSideDisplay
 [
-
     ElementName_Camp : string,
     Camp : string,
-    TextToken_Camp : string,
     BackgroundBlockColorToken : string,
 ]
-
 is BUCKListDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
@@ -574,9 +565,7 @@ is BUCKListDescriptor
 
 template ScorePerSideDisplay
 [
-    ElementName_Camp : string,
     Camp : string,
-    TextToken_Camp : string,
     BackgroundBlockColorToken : string,
 ]
 is BUCKListDescriptor
@@ -789,7 +778,6 @@ template TemplateTextVictory
     ElementName : string = '',
     TextToken : string = '',
     IsTitre : bool = false,
-    Color : string = 'Value_5',
     BackgroundBlockColorToken : string = 'ColorCode/rouge'
 ]
 

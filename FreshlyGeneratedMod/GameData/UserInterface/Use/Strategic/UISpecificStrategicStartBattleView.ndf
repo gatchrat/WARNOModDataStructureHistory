@@ -927,7 +927,6 @@ BUCKSpecificStrategicStartBattleMainComponentDescriptor is BUCKTranslationAnimat
 
     TriggerWhenSetVisible = true
     AnimationTotalDuration = 0.10
-    UseRewind = true
 
     FramePropertyAfterAnimation = TUIFramePropertyRTTI
     (

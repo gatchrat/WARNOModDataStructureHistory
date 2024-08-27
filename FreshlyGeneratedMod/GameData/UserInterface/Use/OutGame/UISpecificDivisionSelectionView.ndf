@@ -130,7 +130,6 @@ template MultilistTitle
     TextToken : string,
     HintBodyToken : string,
     HintExtendedToken : string,
-    ShowCheckbox : bool = false,
     SortingType : int = ~/MultiListSorting/String,
     ExtendWeight : float = 0.0,
     MagnifiableWidthHeight : float2 = [70.0, 0.0],
@@ -315,7 +314,6 @@ private SpecificDivisionSelectionContent is BUCKListDescriptor
             TextColor = 'loginBlanc'
             HasBackground = true
             BackgroundBlockColorToken = 'loginBoutonBackground_vert'
-            TextSize = '24'
             MagnifiableOffsetRack = [-130.0, 35.0]
             ListData = ~/DivisionFilterList
             ItemListBackgroundBlockColorToken = 'VertLogin'

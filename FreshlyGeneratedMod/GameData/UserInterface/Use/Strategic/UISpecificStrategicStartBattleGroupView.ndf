@@ -1,10 +1,6 @@
 
 //------------------------------------------------------------------------------
-template PawnSlot
-[
-    TextColor : string = "Strategic/StartBattle/Text"
-]
-is BUCKListDescriptor
+PawnSlot is BUCKListDescriptor
 (
     ElementName = "PawnSlotContent"
 
@@ -149,7 +145,7 @@ BUCKSpecificStrategicStartBattleGroupMainComponentDescriptor is BUCKContainerDes
 
     Components =
     [
-        PawnSlot(TextColor = "GrisClair")
+        PawnSlot
     ]
 )
 

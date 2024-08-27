@@ -67,6 +67,16 @@ UnitSpecialties is TUnitSpecialtiesContainer
             )
         ),
         (
+            "_airlift",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_airlift"
+                SpecialtyHintTitleToken    = "LWBHQYSFCZ"
+                SpecialtyHintBodyToken     = "RZEPXEKHWE"
+                SpecialtyHintExtendedToken = "INBSWDRRZV"
+            )
+        ),
+        (
             "_amphibie",
             TUnitSpecialtyDescriptor
             (
@@ -74,6 +84,16 @@ UnitSpecialties is TUnitSpecialtiesContainer
                 SpecialtyHintTitleToken    = "UDXYROJWVH"
                 SpecialtyHintBodyToken     = "QIOAXNCXTO"
                 SpecialtyHintExtendedToken = "QBQLKNVKST"
+            )
+        ),
+        (
+            "_canBeAirlifted",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_canBeAirlifted"
+                SpecialtyHintTitleToken    = "DRNJAVYWZZ"
+                SpecialtyHintBodyToken     = "WFDQQPKCLN"
+                SpecialtyHintExtendedToken = "ARDXKSHFIO"
             )
         ),
         (
@@ -94,6 +114,16 @@ UnitSpecialties is TUnitSpecialtiesContainer
                 SpecialtyHintTitleToken    = "TSVZPHOVBU"
                 SpecialtyHintBodyToken     = "WNBCASMQQC"
                 SpecialtyHintExtendedToken = "GWMUGGFPRZ"
+            )
+        ),
+        (
+            "_eo_dazzler",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_eo_dazzler"
+                SpecialtyHintTitleToken    = "FWEIJWNFYV"
+                SpecialtyHintBodyToken     = "JJTHKZBDVR"
+                SpecialtyHintExtendedToken = "ABFHGHQSQY"
             )
         ),
         (
@@ -699,6 +729,16 @@ UnitSpecialties is TUnitSpecialtiesContainer
                 SpecialtyTextureName       = "Texture_Speciality_Icon_transport"
                 SpecialtyHintTitleToken    = "VZCBEYSPBA"
                 SpecialtyHintBodyToken     = "FBVQTNKGDN"
+            )
+        ),
+        (
+            "uav",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_uav"
+                SpecialtyHintTitleToken    = "KNQFXISJFI"
+                SpecialtyHintBodyToken     = "UKLNNEMOYK"
+                SpecialtyHintExtendedToken = "BWVDZIMIMQ"
             )
         ),
         (

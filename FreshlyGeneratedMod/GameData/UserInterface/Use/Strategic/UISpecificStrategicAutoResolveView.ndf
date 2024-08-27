@@ -807,7 +807,6 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
                         (
                             IsAttacker = true
                             ElementName = "AutoResolveAttackerText"
-                            TextToken = "AR_ATQ"
                             StrengthTextureToken = "UseStrategic_SelectionPanel_Attack"
                             StrengthTextToken = "AR_AVAL"
                             StrengthTextColor = "AutoResolve/ATQ"
@@ -820,7 +819,6 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
                         (
                             IsAttacker = false
                             ElementName = "AutoResolveDefenderText"
-                            TextToken = "AR_DEF"
                             StrengthTextureToken = "UseStrategic_SelectionPanel_Defense"
                             StrengthTextToken = "AR_ADEF"
                             StrengthTextColor = "AutoResolve/DEF"
@@ -1194,7 +1192,6 @@ template TitreJoueur
 [
     IsAttacker : bool,
     ElementName : string,
-    TextToken : string,
     StrengthTextureToken : string,
     StrengthTextToken : string,
     StrengthTextColor : string,

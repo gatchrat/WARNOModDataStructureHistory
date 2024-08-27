@@ -37,7 +37,6 @@ is TSequencingActionHappening
 
                 PeriodInFrames = 1
                 DurationInSec = 20
-                SkipWhenTimeServerPaused = false
             ),
             TActionCall
             (

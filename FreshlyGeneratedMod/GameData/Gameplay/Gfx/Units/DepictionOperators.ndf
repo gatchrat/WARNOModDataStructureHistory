@@ -393,6 +393,7 @@ template DepictionOperator_WeaponInstantFire
 ]
 is TCosmeticWeaponInstantFireOperatorDesc
 (
+    OperatorId = 'MissileCarriageFire'
     FireEffectTag = <FireEffectTag>
     Anchors = <Anchors>
     WeaponShootDataPropertyName = <WeaponShootDataPropertyName>
@@ -410,6 +411,7 @@ template DepictionOperator_WeaponMissileCarriageFire
 ]
 is TCosmeticWeaponMissileCarriageFireOperatorDesc
 (
+    OperatorId = 'MissileCarriageFire'
     FireEffectTag = <FireEffectTag>
     Connoisseur = <Connoisseur>
     WeaponIndex = <WeaponIndex>
@@ -427,6 +429,7 @@ template DepictionOperator_WeaponContinuousFire
 ]
 is TCosmeticWeaponContinuousFireOperatorDesc
 (
+    OperatorId = 'ContinuousFire'
     FireEffectTag = <FireEffectTag>
     Anchors = <Anchors>
     WeaponShootDataPropertyName = <WeaponShootDataPropertyName>
@@ -441,6 +444,7 @@ template DepictionOperator_WeaponInstantFireInfantry
 ]
 is TCosmeticWeaponInfantryInstantFireOperatorDesc
 (
+    OperatorId = 'InstantFire'
     FireEffectTag = <FireEffectTag>
     WeaponShootDataPropertyName = <WeaponShootDataPropertyName>
 )
@@ -466,47 +470,74 @@ DepictionOperator_Feedback_Degat_Level2 is TCosmeticDegatFXOperatorDesc( FXKey1N
 DepictionOperator_CriticalEffects is TCosmeticCriticalEffectsOperatorDescriptor()
 DepictionOperator_HelicopterLanding is TCosmeticHelicopterLandingOperatorDesc()
 
-template DepictionOperator_EjectableProps_Vehicle
-[
-    AliveEjectableList = [],
-    DeathOnlyEjectableList = []
-]
-is TCosmeticEjectablePropsOnDamageOrExplosionOperatorDesc
+DepictionOperator_EjectableProps_Vehicle is TCosmeticEjectablePropsOnDamageOrExplosionOperatorDesc
 (
     OperatorId = 'EjectableProps'
     WorldFloorProxy = $/M3D/Scene/WorldFloorForOnlyGround
-    AliveEjectableList = <AliveEjectableList>
-    DeathOnlyEjectableList = <DeathOnlyEjectableList>
+
+    AliveEjectableList =
+    [
+        ("blindage_d1", ~/EjectableSettingsLight),
+        ("blindage_d2", ~/EjectableSettingsLight),
+        ("blindage_d3", ~/EjectableSettingsLight),
+        ("blindage_d4", ~/EjectableSettingsLight),
+        ("blindage_d5", ~/EjectableSettingsLight),
+        ("blindage_g1", ~/EjectableSettingsLight),
+        ("blindage_g2", ~/EjectableSettingsLight),
+        ("blindage_g3", ~/EjectableSettingsLight),
+        ("blindage_g4", ~/EjectableSettingsLight),
+        ("blindage_g5", ~/EjectableSettingsLight),
+        ("props_1", ~/EjectableSettingsLight),
+        ("props_2", ~/EjectableSettingsLight),
+        ("props_3", ~/EjectableSettingsLight),
+        ("props_4", ~/EjectableSettingsLight),
+    ]
+    DeathOnlyEjectableList =
+    [
+        ("roue_droite_01", ~/EjectableSettingsLight),
+        ("roue_gauche_01", ~/EjectableSettingsLight),
+        ("tourelle_01", ~/EjectableSettingsHeavy),
+        ("tourelle_02", ~/EjectableSettingsLight),
+        ("tourelle_03", ~/EjectableSettingsLight),
+    ]
 
     EjectHazardAtNoDamage = 0.5 // 0.1
     AlwaysEjectFromDamageValue = 5.0
     EjectHazardForEachPropsAtDeath = 0.6 //0.8
 )
 
-template DepictionOperator_EjectableProps_Plane
-[
-    DeathOnlyEjectableList = []
-]
-is TCosmeticEjectablePropsOnDeathOperatorDesc
+DepictionOperator_EjectableProps_Plane is TCosmeticEjectablePropsOnDeathOperatorDesc
 (
     OperatorId = 'EjectableProps'
     WorldFloorProxy = $/M3D/Scene/WorldFloorForOnlyGround
-    DeathOnlyEjectableList = <DeathOnlyEjectableList>
+    DeathOnlyEjectableList =
+    [
+        ("aile_droite", ~/EjectableSettingsPlaneMedium),
+        ("aile_gauche", ~/EjectableSettingsPlaneMedium),
+        ("aileron_g", ~/EjectableSettingsPlaneLight),
+        ("elevator_g", ~/EjectableSettingsPlaneLight),
+        ("reacteur_gauche", ~/EjectableSettingsPlaneHeavy),
+        ("rudder_1", ~/EjectableSettingsPlaneLight),
+        ("rudder_2", ~/EjectableSettingsPlaneLight),
+        ("queue", ~/EjectableSettingsPlaneMedium),
+    ]
 
     EjectHazardAtNoDamage = 0.0
     AlwaysEjectFromDamageValue = 0.0
     EjectHazardForEachPropsAtDeath = 0.6
 )
 
-template DepictionOperator_EjectableProps_Helico
-[
-    DeathOnlyEjectableList = []
-]
-is TCosmeticEjectablePropsOnDeathOperatorDesc
+DepictionOperator_EjectableProps_Helico is TCosmeticEjectablePropsOnDeathOperatorDesc
 (
     OperatorId = 'EjectableProps'
     WorldFloorProxy = $/M3D/Scene/WorldFloorForOnlyGround
-    DeathOnlyEjectableList = <DeathOnlyEjectableList>
+    DeathOnlyEjectableList =
+    [
+        ("queue", ~/EjectableSettingsHelicoMedium),
+        ("reacteur_droite", ~/EjectableSettingsHelicoHeavy),
+        ("reacteur_gauche", ~/EjectableSettingsHelicoHeavy),
+        ("bloc_moteur_2", ~/EjectableSettingsHelicoLight),
+    ]
 
     EjectHazardAtNoDamage = 0.0
     AlwaysEjectFromDamageValue = 0.0
@@ -600,6 +631,17 @@ DepictionOperator_Carriable_Canon_Arms80 is template_DepictionOperator_Carriable
     ArmsSpreadAngleInDegrees = 80
     ChassisMovingAngleInDegrees = 0
     ChassisAltitudeTranslationInMeters = 0.2
+    StartingAnimationDuration = 1.4
+    StoppingAnimationDuration = 1.6
+    ArmsMovementDeltaFrames = [0.5, 0.7]
+    ChassisMovementDeltaFrames = [0.75, 1.0]
+)
+
+DepictionOperator_Carriable_Canon_Arms80_NoAltitude is template_DepictionOperator_Carriable
+(
+    ArmsSpreadAngleInDegrees = 80
+    ChassisMovingAngleInDegrees = 0
+    // ChassisAltitudeTranslationInMeters = 0.2
     StartingAnimationDuration = 1.4
     StoppingAnimationDuration = 1.6
     ArmsMovementDeltaFrames = [0.5, 0.7]

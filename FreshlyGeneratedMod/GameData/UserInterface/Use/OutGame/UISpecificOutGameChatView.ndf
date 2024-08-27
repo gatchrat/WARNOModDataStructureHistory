@@ -20,12 +20,10 @@ template ChatButton
     UniqueName : string = '',
     ElementName : string = '',
     Grayed : bool = false,
-    ButtonTextureToken : string = "",
     HintableAreaElementName : string = '',
     HintTitleToken : string = '',
     HintBodyToken : string = '',
     HintExtendedToken : string = '',
-    TextureColorToken : string = 'Blanc',
     TextToken : string,
 
     IsFocusable : bool = false,
@@ -117,7 +115,6 @@ private OutGameBUCKChatButtonList is BUCKListDescriptor
             (
                 ElementName = 'ButtonClearChat'
 
-                ButtonTextureToken = "OutgameTexture_WG2_BgOutGame_Erase_Button"
                 TextToken = 'OC_HTCLR'
                 HintTitleToken = 'OC_HTCLR'
                 HintBodyToken = 'OC_HCLR'
@@ -129,11 +126,9 @@ private OutGameBUCKChatButtonList is BUCKListDescriptor
             (
                 ElementName = 'ButtonAddFriend'
 
-                ButtonTextureToken = "OutgameTexture_WG2_BgOutGame_AddFriend_Button"
                 HintTitleToken = 'OC_HTADD'
                 HintBodyToken = 'OC_HADD'
                 TextToken = 'OC_HTADD'
-                TextureColorToken = 'Orange'
             )
         ),
         BUCKListElementDescriptor
@@ -142,10 +137,8 @@ private OutGameBUCKChatButtonList is BUCKListDescriptor
             (
                 ElementName = 'ButtonBlackList'
 
-                ButtonTextureToken = "OutgameTexture_WG2_BgOutGame_BlackList_Button"
                 HintTitleToken = 'OC_HTBL'
                 HintBodyToken = 'OC_HTTBL'
-                TextureColorToken = 'Rouge'
                 TextToken = 'OC_HTBL'
             )
         ),

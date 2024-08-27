@@ -27,23 +27,6 @@ export Challenge_CaptureOneObjectif_LowCost is Template_Capture_Command_Zone
 )
 
 //-------------------------------------------------------------------------
-export Challenge_CaptureAllZoneObjectif_SpecInf is Template_Capture_Command_Zone
-(
-    GenerationType = TGenerationType_BasedOnNumberOfObjectives
-    NumberLaunchBasedOnGenerationType = 1
-    PoolModelList = [~/Pool_Commandant_SpecInfCMD]
-    AlsoConsiderTheseDescriptorsForMaintain = [Challenge_CaptureOneZoneObjectif_SpecInf, CaptureOneObjectif, CaptureHalfZoneObjectif_Floor, CaptureHalfZoneObjectif_Ceil]
-)
-
-//-------------------------------------------------------------------------
-export Challenge_CaptureOneZoneObjectif_SpecInf is Template_Capture_Command_Zone
-(
-    GenerationType = TGenerationType_FixedSize
-    NumberLaunchBasedOnGenerationType = 1
-    PoolModelList = [~/Pool_Commandant_SpecInfCMD]
-    AlsoConsiderTheseDescriptorsForMaintain = [Challenge_CaptureAllZoneObjectif_SpecInf, CaptureOneObjectif, CaptureHalfZoneObjectif_Floor, CaptureHalfZoneObjectif_Ceil]
-)
-//-------------------------------------------------------------------------
 export Pool_Commandant_LowCost_One_Mission is TPoolModel
 (
     ModelList = [
@@ -56,24 +39,6 @@ export Pool_Commandant_LowCost_One_Mission is TPoolModel
             TagsPriority = [
                 "Vehicule_CMD",
                 "Char_CMD",
-                "InfmapCommander",
-            ]
-        ),
-    ]
-)
-
-//-------------------------------------------------------------------------
-export Pool_Commandant_SpecInfCMD is TPoolModel
-(
-    ModelList = [
-        TPoolElement(
-            DescriptorId = GUID:{5732ffc2-2652-4a81-add2-d4b744bcd89a}
-            Required = true
-            Nb = 1
-            IndexPriorityOverPrice = true
-            PriceComparisonMethod = EPriceComparatorType/Random
-            TagsPriority = [
-                "Infanterie_CMD",
                 "InfmapCommander",
             ]
         ),

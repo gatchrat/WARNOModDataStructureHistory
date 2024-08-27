@@ -374,9 +374,12 @@ BUCKSpecificLoginMainComponentDescriptor is LoginTvContainer
                         )
 
                         VerticalFitStyle = ~/FitStyle/FitToContent
+                        BigLineAction = ~/BigLineAction/MultiLine
+
+                        TextPadding = TRTTILength4(Magnifiable = [25.0, 0.0, 25.0, 0.0])
 
                         TextStyle       = "Default"
-                        TypefaceToken   = "UIMainFont"
+                        TypefaceToken   = "UISecondFont"
 
                         TextColor       = "Rouge"
                         TextSize        = "16"

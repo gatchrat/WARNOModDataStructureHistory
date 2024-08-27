@@ -1628,6 +1628,16 @@ NoTransportButtonDescriptor is BUCKButtonDescriptor
             Components =
             [
                 SmallOmbrePanel(),
+                BUCKTextureDescriptor
+                (
+                    ComponentFrame = TUIFramePropertyRTTI
+                    (
+                            MagnifiableWidthHeight = [129.0, 79.0]
+                            AlignementToAnchor = [0.5, 0.5]
+                            AlignementToFather = [0.5, 0.5]
+                        )
+                    TextureToken = 'no_transport_background'
+                ),
                 BUCKTextDescriptor
                 (
                     ElementName = "NoTransportButtonText"
@@ -1635,6 +1645,7 @@ NoTransportButtonDescriptor is BUCKButtonDescriptor
                     (
                         RelativeWidthHeight = [1.0, 0.0]
                         MagnifiableWidthHeight = [-20.0, 0.0]
+                        MagnifiableOffset = [0,28]
                         AlignementToFather = [0.5, 0.5]
                         AlignementToAnchor = [0.5, 0.5]
                     )
@@ -1648,12 +1659,12 @@ NoTransportButtonDescriptor is BUCKButtonDescriptor
 
                     TextStyle = "Default"
                     TypefaceToken = "Liberator"
-                    BigLineAction = ~/BigLineAction/MultiLine
+                    BigLineAction = ~/BigLineAction/ResizeFont
                     TextToken = "DES_DE_NOT"
                     TextDico = ~/LocalisationConstantes/dico_interface_ingame
-                    TextColor = "Blanc"
+                    TextColor = "Noir"
                     TextSize = "16"
-                ),
+                )
             ]
         )
     ]

@@ -111,7 +111,7 @@ export Defense_Static_Adaptive is Template_Defense_Corridor
 //-------------------------------------------------------------------------
 export Defense_Static_AA is Template_Defense_Corridor
 (
-    PoolModelList = [ ~/Pool_AA_Defense ]
+    PoolModelList = [ ~/Pool_AA_Defense_Static ]
     UseTaggedPool = false
 )
 //-------------------------------------------------------------------------
@@ -254,6 +254,27 @@ export Pool_AT_Defense is TPoolModel
     ]
 )
 //-------------------------------------------------------------------------
+export Pool_AA_Defense_Static is TPoolModel
+(
+    ModelList = [
+        TPoolElement(
+            DescriptorId = GUID:{92c0825b-8802-4d43-b641-3e99146bf83d}
+            Required = true
+            Nb = 2
+            IndexPriorityOverPrice = true
+            PriceComparisonMethod = EPriceComparatorType/Random
+            TagsPriority = [
+                "Infanterie_AA",
+                "Canon_AA_Standard",
+                "Canon_AA_Porte",
+                "Helo_AA",
+            ]
+            +~/ProductionFallback
+        ),
+    ]
+)
+
+//-------------------------------------------------------------------------
 export Pool_AA_Defense is TPoolModel
 (
     ModelList = [
@@ -279,7 +300,7 @@ private template Template_Capture_Command_Zone
     NumberLaunchBasedOnGenerationType:int = 0,
     AlsoConsiderTheseDescriptorsForMaintain = [],
     RoundFloor:bool = false,
-    PoolModelList = [~/Pool_Commandant],
+    PoolModelList = [~/Pool_Commandant, ~/Pool_Commandant_Tank, ~/Pool_Commandant_Helo],
 ]
 is TMacroActionDescriptor_CaptureCommandZone_Specific
 (
@@ -365,6 +386,40 @@ export Pool_Commandant is TPoolModel
         ),
     ]
 )
+//-------------------------------------------------------------------------
+export Pool_Commandant_Tank is TPoolModel
+(
+    ModelList = [
+        TPoolElement(
+            DescriptorId = GUID:{0341d04f-0388-4674-9717-e0a158d5c637}
+            Required = true
+            Nb = 1
+            IndexPriorityOverPrice = true
+            PriceComparisonMethod = EPriceComparatorType/Random
+            TagsPriority = [
+                "Char_CMD",
+                "InfmapCommander",
+            ]
+        ),
+    ]
+)
+//-------------------------------------------------------------------------
+export Pool_Commandant_Helo is TPoolModel
+(
+    ModelList = [
+        TPoolElement(
+            DescriptorId = GUID:{f4906d35-bbd0-408e-a852-4102c7f8eaed}
+            Required = true
+            Nb = 1
+            IndexPriorityOverPrice = true
+            PriceComparisonMethod = EPriceComparatorType/Random
+            TagsPriority = [
+                "Helo_CMD",
+                "InfmapCommander",
+            ]
+        ),
+    ]
+)
 
 //-------------------------------------------------------------------------
 export Pool_Commandant_One_Mission is TPoolModel
@@ -409,9 +464,9 @@ export Pool_Defense_Objectif is TPoolModel
             IndexPriorityOverPrice = true
             PriceComparisonMethod = EPriceComparatorType/Random
             TagsPriority = [
+                "Infanterie_AA",
                 "Canon_AA_Standard",
                 "Canon_AA_Porte",
-                "Helo_AA",
             ]
         ),
         TPoolElement(

@@ -345,7 +345,7 @@ PawnReinforcementButton is BUCKButtonDescriptor
             BigLineAction = ~/BigLineAction/CutByDots
 
 
-            TextDico = ~/LocalisationConstantes/dico_unites
+            TextDico = ~/LocalisationConstantes/dico_units
             TextSize = '12'
             TextColor = 'BlancEquipe'
         ),

@@ -169,6 +169,7 @@ private EffectsPacksList is TGameplayEffectsPacksList
         ~/UnitEffect_donne_capacite_commandement_3,
         ~/UnitEffect_electronic_warfare,
         ~/UnitEffect_electronic_warfare_arty,
+        ~/UnitEffect_eo_dazzler,
         ~/UnitEffect_evac_avion,
         ~/UnitEffect_jammer,
         ~/UnitEffect_military_police,

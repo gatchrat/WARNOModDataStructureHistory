@@ -95,6 +95,7 @@ export Gen_Phase_Deploiement is TSequenceGeneratorDescriptor
         // Capture de zones
         ~/Attack_Objectives,
 
+        ~/Defense_Static_AA,
         ~/Airstrike_AA,
 
         ~/Reco,            // 40 par reco
@@ -109,6 +110,7 @@ export Gen_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/Defense_Dynamic_AA,
 
         ~/Attack_Helo,
+        ~/Defense_Static_AA,
 
         ~/Artillery_TriggerHappy,        // Artillerie pas chère                 //  80
 
@@ -156,6 +158,8 @@ export Gen_Phase_Command is TSequenceGeneratorDescriptor
         ~/CaptureOneObjectif,
 
         ~/Attack_Objectives,
+
+        ~/Defense_Static_AA,
         ~/Airstrike_AA,
 
         ~/Reco,
@@ -180,6 +184,7 @@ export Gen_Phase_Command is TSequenceGeneratorDescriptor
         ~/Defense_Dynamic_AA,
 
         ~/Attack_Helo,
+        ~/Defense_Static_AA,
 
         ~/CaptureHalfZoneObjectif_Ceil,
 
@@ -240,7 +245,7 @@ export Gen_Phase_LastHope is TSequenceGeneratorDescriptor
         //------------------------------
         // Défenses prioritaires
         //------------------------------
-        ~/Defense_Static_AA,
+        ~/Defense_Dynamic_AA,
         ~/Defense_Dynamic_AA,
 
         ~/Attack_Filler,
@@ -314,10 +319,10 @@ Medium_Scaling is
     ~/Attack_Adaptive_Autogen,
     ~/Attack_Adaptive_Autogen,
     ~/Defense_Dynamic_Adaptive_Autogen,
+    ~/Defense_Static_AA_Autogen,
     ~/Defense_Dynamic_Adaptive_Autogen,
     ~/Airstrike_AA_Autogen,
     ~/Defense_Dynamic_Adaptive_Autogen,
-    ~/Defense_Static_AA_Autogen,
     ~/Defense_Dynamic_AA_Autogen,
     ~/Artillery_TriggerHappy_Autogen,
     ~/Airstrike_Offense_Autogen,

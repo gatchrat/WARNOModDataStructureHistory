@@ -5,12 +5,12 @@ export Modele_BTR_70_S5_SOV is ModelDescriptor
 
 export Modele_BTR_70_S5_SOV_MID is ModelDescriptor
 (
-    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BTR_70_S5/BTR_70_S5.fbx'
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BTR_70_S5_MID/BTR_70_S5_MID.fbx'
 )
 
 export Modele_BTR_70_S5_SOV_LOW is ModelDescriptor
 (
-    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BTR_70_S5/BTR_70_S5.fbx'
+    FileName     = 'GameData:/Assets/3D/Units/URSS/APC/BTR_70_S5_LOW/BTR_70_S5_LOW.fbx'
 )
 
 

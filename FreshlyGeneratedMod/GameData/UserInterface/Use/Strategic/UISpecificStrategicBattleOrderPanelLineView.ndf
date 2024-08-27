@@ -77,8 +77,6 @@ private template BUCKSpecificStrategicBattleOrderPanelLineMainComponentDescripto
     MagnifiableHeight : float,
     HasBackground : bool,
     BackgroundBlockColorToken : string = "SD2_Gris80",
-    CellBackgroundColor : string = "Steelman_Background_BoutonOrdreDeBataille",
-    TextColor : string,
     Components : LIST<TBUCKContainerDescriptor>,
     Grayed : bool,
     IsTogglable : bool,
@@ -143,10 +141,8 @@ template UISpecificStrategicBattleOrderPanelLineViewDescriptor
 [
     MagnifiableHeight : float,
     HasBackground : bool,
-    TextColor : string,
     BackgroundBlockColorToken : string,
     Components : LIST<TBUCKContainerDescriptor>,
-    CellBackgroundColor : string = "Steelman_Background_BoutonOrdreDeBataille",
     Grayed : bool,
     IsTogglable : bool = false,
     CannotDeselect : bool = false,
@@ -159,13 +155,11 @@ is TUISpecificStrategicBattleOrderPanelLineViewDescriptor
         MagnifiableHeight = <MagnifiableHeight>
         HasBackground = <HasBackground>
         BackgroundBlockColorToken = <BackgroundBlockColorToken>
-        TextColor = <TextColor>
         Components = <Components>
         Grayed = <Grayed>
         IsTogglable = <IsTogglable>
         CannotDeselect = <CannotDeselect>
         RadioButtonManager = <RadioButtonManager>
-        CellBackgroundColor = <CellBackgroundColor>
     )
 )
 
@@ -260,7 +254,6 @@ is UISpecificStrategicBattleOrderPanelLineViewDescriptor
 template UISpecificStrategicBattleOrderPanelDefaultLineViewDescriptor
 [
     TitleTextDico : string,
-    TextColor : string = "SD2_Blanc184"
 ]
 is UISpecificStrategicBattleOrderPanelLineViewDescriptor
 (
@@ -268,8 +261,6 @@ is UISpecificStrategicBattleOrderPanelLineViewDescriptor
     HasBackground = true
     // BackgroundBlockColorToken = "Steelman_Background_BoutonOrdreDeBataille"
     BackgroundBlockColorToken = "Steelman_Background_BoutonOrdreDeBataille"
-    CellBackgroundColor = 'Steelman_Background_BoutonOrdreDeBataille'
-    TextColor = <TextColor>
     Grayed = false
     Components =
     [
@@ -434,8 +425,6 @@ template UISpecificStrategicBattleOrderPanelCompanyLineViewDescriptor
     MagnifiableHeight = 38.0
     HasBackground = false
     BackgroundBlockColorToken = ""
-    CellBackgroundColor = 'SD2_Gris80'
-    TextColor = "SD2_BleuVariable"
     Grayed = false
     IsTogglable = true
     CannotDeselect = true

@@ -27,6 +27,10 @@ Texture_Division_Emblem_RDA_KDA_Erfurt is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RDA_KDA_Erfurt.png"
 )
+Texture_Division_Emblem_RDA_Rugen_Gruppierung is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/RDA_Rugen_Gruppierung.png"
+)
 Texture_Division_Emblem_2_PzGrenDivision_RFA is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/2_PzGrenDivision_RFA.png"
@@ -86,6 +90,10 @@ Texture_Division_Emblem_11ACR is TUIResourceTexture_Common
 Texture_Division_Emblem_24th_infantry_division is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/24th_infantry_division.png"
+)
+Texture_Division_Emblem_US_35th_infantry_division is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/US_35th_infantry_division.png"
 )
 Texture_Division_Emblem_3rd_Armored_Division is TUIResourceTexture_Common
 (
@@ -256,6 +264,7 @@ DivisionAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Division_Emblem_4_MSD_DDR", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_4_MSD_DDR)]),
         ("Texture_Division_Emblem_7_Panzerdivision_DDR", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_7_Panzerdivision_DDR)]),
         ("Texture_Division_Emblem_RDA_KDA_Erfurt", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_RDA_KDA_Erfurt)]),
+        ("Texture_Division_Emblem_RDA_Rugen_Gruppierung", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_RDA_Rugen_Gruppierung)]),
         ("Texture_Division_Emblem_2_PzGrenDivision_RFA", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_2_PzGrenDivision_RFA)]),
         ("Texture_Division_Emblem_5_Panzerdivision_RFA", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_5_Panzerdivision_RFA)]),
         ("Texture_Division_Emblem_RFA_TerrKdo_Sud", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_RFA_TerrKdo_Sud)]),
@@ -271,6 +280,7 @@ DivisionAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Division_Emblem_US_101st_Airmobile", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_US_101st_Airmobile)]),
         ("Texture_Division_Emblem_11ACR", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_11ACR)]),
         ("Texture_Division_Emblem_24th_infantry_division", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_24th_infantry_division)]),
+        ("Texture_Division_Emblem_US_35th_infantry_division", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_US_35th_infantry_division)]),
         ("Texture_Division_Emblem_3rd_Armored_Division", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_3rd_Armored_Division)]),
         ("Texture_Division_Emblem_82nd_airborne", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_82nd_airborne)]),
         ("Texture_Division_Emblem_8th_infantry_division", MAP [(~/ComponentState/Normal, ~/Texture_Division_Emblem_8th_infantry_division)]),

@@ -53,7 +53,6 @@ private PrimaryObjectiveLabel is TUIScriptedAnimatedLabelDescriptor
     (
 
         TitleTypeFace = 'Eurostyle_Heavy'
-        ContentTypeFace = 'Eurostyle'
         TitleColor = "ObjectiveLabel/Primary/Title"
         TitleSize = "20"
 
@@ -130,7 +129,6 @@ private CapturePointObjectiveLabel is TUIScriptedAnimatedLabelDescriptor
     (
 
         TitleTypeFace = 'Eurostyle_Heavy'
-        ContentTypeFace = 'Eurostyle'
         TitleColor = "ObjectiveLabel/Primary/Title"
         TitleSize = "17"
 
@@ -195,7 +193,6 @@ private template ObjectiveLabel
     TextAlignementToAnchor : float2 = [0.5, 0.0],
 
     TitleTypeFace : string = "UIMainFont",
-    ContentTypeFace : string = "Courrier",
 
     LabelMaxWidth : float = 300.0,
     LabelMinWidth : float = 0,

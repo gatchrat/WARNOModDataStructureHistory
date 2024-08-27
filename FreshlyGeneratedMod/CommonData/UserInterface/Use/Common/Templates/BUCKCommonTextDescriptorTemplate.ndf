@@ -69,7 +69,6 @@ template BUCKCommonTextDescriptor
 
     LocalRenderLayer : int = 0,                                                 // Layer local pour le composant
 
-    HasAutoHint : bool = false,
     Hint : TBUCKHintableAreaDescriptor = nil,                                   // Hint du texte
 
     Rotation : int = 0,                                                         // La rotation du text en degrés

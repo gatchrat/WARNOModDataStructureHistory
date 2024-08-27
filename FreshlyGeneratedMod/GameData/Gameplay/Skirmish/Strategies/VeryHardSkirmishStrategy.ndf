@@ -94,6 +94,7 @@ export VHard_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/FOB_Skirmish,
 
         ~/Attack_Objectives,
+        ~/Defense_Static_AA,
 
         ~/Airstrike_AA,
 
@@ -118,6 +119,7 @@ export VHard_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/Attack_Adaptive,          // ~100
         ~/Attack_Filler,            // budget 40
 
+        ~/Defense_Static_AA,
         ~/CaptureHalfZoneObjectif_Ceil,
 
         //------------------------------
@@ -164,6 +166,7 @@ export VHard_Phase_Command is TSequenceGeneratorDescriptor
         ~/CaptureOneObjectif,
 
         ~/Attack_Objectives,
+        ~/Defense_Static_AA,
 
         ~/Airstrike_AA,
 
@@ -195,6 +198,7 @@ export VHard_Phase_Command is TSequenceGeneratorDescriptor
         ~/Attack_Adaptive,
         ~/Attack_Filler,
 
+        ~/Defense_Static_AA,
         ~/CaptureHalfZoneObjectif_Ceil,
 
         ~/Airstrike_Offense,
@@ -262,7 +266,7 @@ export VHard_Phase_LastHope is TSequenceGeneratorDescriptor
         // Défenses prioritaires
         //------------------------------
         // Statiques pour tenir le terrain
-        ~/Defense_Static_AA,
+        ~/Defense_Dynamic_AA,
 
         //Cet mission lance les objectifs restant
         ~/Defense_Objectif,

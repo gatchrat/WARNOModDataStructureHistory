@@ -5,6 +5,7 @@ EStrategicBattleType_GroundAirStrategicBattle is 2
 EStrategicBattleType_AirGroundStrategicBattle is 3
 EStrategicBattleType_AerialStrategicBattle is 4
 
+private AutoresolveInfantryTagsToCheck is [ 'Steelman_infanterie_autoresolve' ]
 private AirUnitTagsToCheck is [ 'Helo', 'Avion' ]
 
 private NoRecoAdvantage is TCombatAdvantageDefinition
@@ -61,8 +62,8 @@ private NoInfantryAdvantage is TCombatAdvantageDefinition
     TextToken = 'CA_INF'
     HintToken = 'CAH_INF'
     ShowTextForAdvantageWinner = false
-    TagToCheck = [ 'Steelman_infanterie_autoresolve' ]
-    TagToCheckAgainst = [ 'Steelman_infanterie_autoresolve']
+    TagToCheck = ~/AutoresolveInfantryTagsToCheck
+    TagToCheckAgainst = ~/AutoresolveInfantryTagsToCheck
 )
 private NoSupply_Advantage is TCombatAdvantageDefinition
 (
@@ -234,6 +235,7 @@ StrategicAutoresolveConstantes is TStrategicAutoResolveConstantes
     CombatNoAntiAirAdvantageType = ~/EAutoresolveAvantage_NoAntiAirVersusAir
 
     AirUnitTags = ~/AirUnitTagsToCheck
+    InfantryUnitTags = ~/AutoresolveInfantryTagsToCheck
 
     VictoryTypeByBalanceOfPowerByTerrainType =MAP
     [

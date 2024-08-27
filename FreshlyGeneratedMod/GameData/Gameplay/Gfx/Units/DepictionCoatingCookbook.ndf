@@ -127,6 +127,18 @@ liveEditCoatingCookbook is TCoatingCookbook
                 'Ka_50_SOV_landing_gears'
             ]
         )),
+        ('Mi_14PL_recon_DDR', TCoatingRecipe
+        (
+            Ingredients = [
+                'Mi_14PL_landing_gears'
+            ]
+        )),
+        ('Mi_14PL_AT_DDR', TCoatingRecipe
+        (
+            Ingredients = [
+                'Mi_14PL_landing_gears'
+            ]
+        )),
         ('Faun_Kraka_20mm_RFA_turret1', TCoatingRecipe
         (
             Ingredients = [

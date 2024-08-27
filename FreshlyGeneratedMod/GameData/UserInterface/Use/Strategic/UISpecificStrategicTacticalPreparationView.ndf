@@ -822,7 +822,6 @@ SliderTitles is BUCKListDescriptor
                         ComponentDescriptor = TitleAndSlider
                         (
                             ElementName = "DeploymentConfig"
-                            TitleToken = "PrC_in1"
                             ValueToken = "depl_pts"
                         )
                     ),
@@ -859,7 +858,6 @@ SliderTitles is BUCKListDescriptor
                         ComponentDescriptor = TitleAndSlider
                         (
                             ElementName = "IncomeConfig"
-                            TitleToken = "PrC_in2"
                             ValueToken = "income"
                         )
                     ),
@@ -906,7 +904,6 @@ SliderTitles is BUCKListDescriptor
 template TitleAndSlider
 [
     ElementName : string,
-    TitleToken : string,
     ValueToken : string,
 ] is BUCKListDescriptor
 (

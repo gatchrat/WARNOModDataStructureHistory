@@ -98,6 +98,8 @@ export Easy_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
 
+        ~/Defense_Static_AA,
+
         // Reste du front
         ~/Defense_Static_Adaptive,          // ~100
 
@@ -152,6 +154,8 @@ export Easy_Phase_Command is TSequenceGeneratorDescriptor
 
         ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
+
+        ~/Defense_Static_AA,
 
         ~/Defense_Static_Adaptive,  // Faire du code pour adapater le budget en fonction de l'income
         ~/Defense_Static_Adaptive,

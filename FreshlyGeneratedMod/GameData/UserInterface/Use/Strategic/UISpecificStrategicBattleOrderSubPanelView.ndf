@@ -61,7 +61,7 @@ UISpecificStrategicBattleOrderSubPanelViewDescriptor is TUISpecificStrategicBatt
 (
     MainComponentDescriptor = ~/BUCKSpecificStrategicBattleOrderSubPanelMainComponentDescriptor
 
-    PawnLineViewDescriptor      = UISpecificStrategicBattleOrderPanelDefaultLineViewDescriptor( TitleTextDico = ~/LocalisationConstantes/dico_packs )
+    PawnLineViewDescriptor      = UISpecificStrategicBattleOrderPanelDefaultLineViewDescriptor( TitleTextDico = ~/LocalisationConstantes/dico_companies )
     CompanyLineViewDescriptor   = UISpecificStrategicBattleOrderPanelCompanyLineViewDescriptor( RadioButtonManager = ~/CompanyRadioButtonManager )
 
     CompanyRadioButtonManager = ~/CompanyRadioButtonManager

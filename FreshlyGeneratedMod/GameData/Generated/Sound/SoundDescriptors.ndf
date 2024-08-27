@@ -2866,6 +2866,65 @@ export SoundHappening_FULDA_203mm_Malka is TSoundHappening
 )
 
 
+export Sound_FULDA_240mm_Mortar is TSoundSet
+(
+    Items = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Mortier/M240_240mm_1.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Mortier/M240_240mm_2.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Mortier/M240_240mm_3.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Mortier/M240_240mm_4.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Mortier/M240_240mm_5.wav"
+            )
+            UseSpecialLoop = False
+        ),
+    ]
+)
+
+export SoundHappening_FULDA_240mm_Mortar is TSoundHappening
+(
+    SoundDescList = Sound_FULDA_240mm_Mortar
+    Volume = 2
+)
+
+
 export Sound_FULDA_2A38_chain_gun is TSoundSet
 (
     Items = 
@@ -3030,6 +3089,38 @@ export Sound_FULDA_2A72_chain_gun is TSoundSet
 export SoundHappening_FULDA_2A72_chain_gun is TSoundHappening
 (
     SoundDescList = Sound_FULDA_2A72_chain_gun
+    Volume = 2
+)
+
+
+export Sound_FULDA_3M8M_KRUG_Firing is TSoundSet
+(
+    Items = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Missile_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Missiles/Tir_9M38M1_BUK_1.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Missile_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Missiles/Tir_9M38M1_BUK_2.wav"
+            )
+            UseSpecialLoop = False
+        ),
+    ]
+)
+
+export SoundHappening_FULDA_3M8M_KRUG_Firing is TSoundHappening
+(
+    SoundDescList = Sound_FULDA_3M8M_KRUG_Firing
     Volume = 2
 )
 
@@ -4066,6 +4157,24 @@ export Sound_FULDA_Bofor_autocanon is TSoundSet
             TheSoundStream = TSoundStream
             (
                 FileName = "GameData:/Assets/Sons/SFX/Autocanons/Tir_40mm_autocanon_Bofor_7.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Autocanon
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Autocanons/Tir_40mm_autocanon_Bofor_8.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Tir_Autocanon
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Autocanons/Tir_40mm_autocanon_Bofor_9.wav"
             )
             UseSpecialLoop = False
         ),
@@ -15153,6 +15262,29 @@ export SoundHappening_ImpactSAM_moyen is TSoundHappening
 (
     SoundDescList = Sound_ImpactSAM_moyen
     Volume = 1
+)
+
+
+export Sound_ImpactSAM_tres_gros is TSoundSet
+(
+    Items = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SFX_SoundSettings_Impact_SAM
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sons/SFX/Impacts/Impacts_SAM_Tres_Gros_1.wav"
+            )
+            UseSpecialLoop = False
+        ),
+    ]
+)
+
+export SoundHappening_ImpactSAM_tres_gros is TSoundHappening
+(
+    SoundDescList = Sound_ImpactSAM_tres_gros
+    Volume = 4
 )
 
 

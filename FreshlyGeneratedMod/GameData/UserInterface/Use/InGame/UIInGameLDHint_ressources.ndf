@@ -55,8 +55,8 @@ unnamed TBUCKToolAdditionalTextureBank
 (
     Textures = MAP
     [
-        ("LDHint_cercle_contour",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/LDHint/cercle_contour.png' )), ] ),
-        ("LDHint_cercle_fond",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/LDHint/cercle_fond.png' )), ] ),
+        ("LDHint_cercle_contour",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseInGame/LDHint/cercle_contour.png' )), ] ),
+        ("LDHint_cercle_fond",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseInGame/LDHint/cercle_fond.png' )), ] ),
     ]
 )
 

@@ -162,13 +162,6 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
 
     BombardTargetMinimumPowerValue = 5000.0
 
-    MinUnitWeightToReserveCorridor = 15.0
-    UnitTagAndWeightToReserveCorridor = MAP
-    [
-        ( "Infanterie", 1.0 ),
-        ( "Char", 0.5 ),
-    ]
-
     //Pour comparer les points on exprime le bonus de terrain en fonction de la distance diagonale de la map.(tous deux scoré sur 1.0)
     //Pour un bonus de 0.1 on acceptera donc d'aller 10% plus loin par rapport à la diagonale de la map pour ne pas prendre un bonus
     DefenseBonusByTerrainType = MAP

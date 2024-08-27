@@ -3,8 +3,8 @@ CampaignSoloResources is TUISpecificOutGameSoloCampaignResources
 (
     ChapterDescriptions = MAP
     [
-        ("ResumeCampagneType3", ResumeCampagneType3()),
-        ("ResumeCampagneTypeHistorique", ResumeCampagneTypeHistorique()),
+        ("ResumeCampagneType3", ResumeCampagneType3),
+        ("ResumeCampagneTypeHistorique", ResumeCampagneTypeHistorique),
         ("SummaryCampaignShowroom", SummaryCampaignShowroom),
         ("ScenarioMapDescription", ScenarioMapDescription),
     ]

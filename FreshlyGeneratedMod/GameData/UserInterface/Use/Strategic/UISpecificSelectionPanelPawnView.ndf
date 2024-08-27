@@ -485,7 +485,7 @@ PawnName is BUCKListDescriptor
                 TypefaceToken = "Liberator"
                 BigLineAction = ~/BigLineAction/MultiLine
 
-                TextDico = ~/LocalisationConstantes/dico_unites
+                TextDico = ~/LocalisationConstantes/dico_units
 
                 TextColor = "SM_paleSilver"
                 TextSize = "20"
@@ -521,7 +521,7 @@ PawnName is BUCKListDescriptor
                 TypefaceToken = "Eurostyle_Italic"
                 BigLineAction = ~/BigLineAction/ResizeFont
 
-                TextDico = ~/LocalisationConstantes/dico_unites
+                TextDico = ~/LocalisationConstantes/dico_units
 
                 TextColor = "SM_paleSilver"
                 TextSize = "12"
@@ -564,8 +564,6 @@ PawnCharacteristicList is BUCKListDescriptor
             ComponentDescriptor = DisplayAttackAndDefenseValueForPawn
             (
                 ElementName = "PowerValue"
-                TextureColorTokenForIcone = "SM_paleSilver"
-                TextureToken = "UseStrategic_SelectionPanel_Attack"
                 TextColor = "BlancEquipe"
                 TextToken = "AttStre"
                 TextToken_title = "sm_piatt"
@@ -578,8 +576,6 @@ PawnCharacteristicList is BUCKListDescriptor
             ComponentDescriptor = DisplayAttackAndDefenseValueForPawn
             (
                 ElementName = "ShieldValue"
-                TextureColorTokenForIcone = "SM_paleSilver"
-                TextureToken = "UseStrategic_SelectionPanel_Defense"
                 TextColor = "BlancEquipe"
                 TextToken = "DefStre"
                 TextToken_title = "sm_pidef"
@@ -593,8 +589,6 @@ PawnCharacteristicList is BUCKListDescriptor
             ComponentDescriptor = DisplayAttackAndDefenseValueForPawn
             (
                 ElementName = "FatigueValue"
-                TextureColorTokenForIcone = "SM_paleSilver"
-                TextureToken = "UseStrategic_SelectionPanel_fatigue"
                 TextColor = "BlancEquipe"
                 TextToken = "T_SLASH2"
                 TextToken_title = "sm_pifat"
@@ -608,8 +602,6 @@ PawnCharacteristicList is BUCKListDescriptor
             ComponentDescriptor = DisplayAttackAndDefenseValueForPawn
             (
                 ElementName = "ActionPointsValue"
-                TextureColorTokenForIcone = "SM_paleSilver"
-                TextureToken = "UseStrategic_SelectionPanel_PA"
                 TextColor = "BlancEquipe"
                 TextToken = "T_SLASH2"
                 TextToken_title = "sm_piapt"
@@ -814,8 +806,6 @@ PawnUnitTypesList is BUCKContainerDescriptor
 
 template DisplayAttackAndDefenseValueForPawn
 [
-    TextureColorTokenForIcone : string,
-    TextureToken : string,
     TextColor : string,
     ElementName : string,
     TextToken : string,
@@ -823,8 +813,7 @@ template DisplayAttackAndDefenseValueForPawn
     HintExtendedToken : string = '',
     HintBodyToken : string = '',
     HintTitleToken : string = '',
-]
- is BUCKListDescriptor
+] is BUCKListDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (

@@ -1,4 +1,4 @@
-NotificationFrame_DefaultBackground is TUIResourceTexture_OutGame(FileName = "GameData:/Assets/2D/Interface/UseOutGame/fond_notification.png")
+NotificationFrame_DefaultBackground is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseOutGame/fond_notification.png")
 
 template NotificationFrame
 [

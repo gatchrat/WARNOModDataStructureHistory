@@ -7,7 +7,6 @@ template SkeletalAnimationTemplate
 ] is TResourceMatrixArrayAnimation
 (
     FileName   = <Path> + <FileName>
-    UsefulnessMask = TypeMask/Common
     PlayInLoop     = <PlayInLoop>
 )
 //--Emplacement anims servants canons tractés

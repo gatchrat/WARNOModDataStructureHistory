@@ -74,7 +74,6 @@ template boutonAvecSeparateur
     ForceEvents : boolean = false,
     TextColor : string = "Blanc_multi",
     TextSize : string = "16",
-    TextureColorToken : string = '',
     ForbiddenTags : LIST<string> = [],
     HintTitleToken : string = '',
     HintExtendedToken : string = '',

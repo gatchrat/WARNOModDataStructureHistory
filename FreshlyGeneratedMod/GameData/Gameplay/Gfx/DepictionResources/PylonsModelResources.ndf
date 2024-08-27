@@ -1,7 +1,6 @@
 template CommonMeshDesc [ ModelFile ]  is TResourceMultiMaterialMesh
 (
     FileName = <ModelFile>
-    UsefulnessMask = TypeMask/Common
 )
 
 export ModelPylon1 is CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_1.fbx' )

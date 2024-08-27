@@ -55,6 +55,7 @@ export Modele_Missile_ODAB_500PM is    ModelDescriptor( FileName = 'GameData:/As
 export Modele_Missile_Vympel_R27ER is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/SOV/Vympel_R27ER/Vympel_R27ER.fbx' )
 export Modele_Missile_MD_24F is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Roquettes/SOV/MD_24F/MD_24F.fbx' )
 export Modele_Missile_Falanga is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/SOV/9M17PV_FALANGA/9M17PV_FALANGA.fbx' )
+export Modele_Missile_3M8M is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/SOV/3M8M/3M8M.fbx' )
 
 //old
 export Modele_Missile_MK20_RockeyeII is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Bombes/Mk_20_Rockeye_II.fbx' )
@@ -103,7 +104,19 @@ export Modele_Missile_Aspide_1A is ModelDescriptor( FileName = 'GameData:/Assets
 //--emports US---------------------------------------------------------------------------------------------------
 export Modele_Missile_Hellfire is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_114_Hellfire.fbx' )
 export Modele_Missile_AGM_122_Sidearm is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_122_Sidearm.fbx' )
-export Modele_Missile_Maverick is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_65_Maverick.fbx' )
+
+//---------------MAVERICK---------------------------------------------------------------------------------------------------
+export ModelFile_Missile_Maverick is 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_65_Maverick/AGM_65_Maverick.fbx'
+export Modele_Missile_Maverick is ModelDescriptor
+(
+    FileName     = ModelFile_Missile_Maverick
+)
+export Modele_Missile_Maverick_AGM65D is ModelDescriptor
+(
+    FileName     = ModelFile_Missile_Maverick
+    TextureDirectory = 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_65D'
+)
+//--------------------------------------------------------------------------------------------------------------------------
 export Modele_Missile_Tow is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/US/BGM_71_TOW.fbx' )
 export Modele_Missile_AGM88_Harm is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_88_Harm.fbx' )
 export Modele_Missile_AIM7 is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AIM7_Sparrow.fbx' )

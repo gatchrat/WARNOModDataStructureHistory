@@ -214,7 +214,7 @@ UnitTraits is TUnitTraitsContainer
             "smoke",
             TUnitTraitDescriptor
             (
-                TraitTextureName       = "Texture_Trait_Icon_wip"
+                TraitTextureName       = "Texture_Trait_Icon_smoke"
                 TraitHintTitleToken    = "YTHWCIZAJB"
                 TraitHintBodyToken     = "TAZBZWNUJQ"
             )

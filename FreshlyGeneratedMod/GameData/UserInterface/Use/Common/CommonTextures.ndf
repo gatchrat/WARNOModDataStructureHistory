@@ -45,6 +45,7 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
 
         // division
         ("CommonTexture_division_US_1AD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/US_1AD.png"))]),
+        ("CommonTexture_division_US_2AD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/US_2AD.png"))]),
         ("CommonTexture_division_US_3AD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/3rd_Armored_Division.png"))]),
         ("CommonTexture_division_US_11ACR",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/US_11ACR.png"))]),
         ("CommonTexture_division_US_3ID",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/US_3ID.png"))]),
@@ -61,9 +62,11 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
 
         ("CommonTexture_division_NL_1D",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/NL_1D.png"))]),
         ("CommonTexture_division_NL_4D",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/NL_4D.png"))]),
+        ("CommonTexture_division_NL_KLu",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/NL_KLu.png"))]),
 
         ("CommonTexture_division_RFA_5PZ",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/5_Panzerdivision_RFA.png"))]),
         ("CommonTexture_division_RFA_2PZ",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/2_Panzerdivision_RFA.png"))]),
+        ("CommonTexture_division_RFA_3PZ",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/3_Panzerdivision_RFA.png"))]),
         ("CommonTexture_division_RFA_12PZ",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/12_Panzerdivision_RFA.png"))]),
         ("CommonTexture_division_RFA_terrkdo",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/RFA_TerrKdo_Sud.png"))]),
         ("CommonTexture_division_RFA_26llb",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/RFA_26llb.png"))]),
@@ -203,6 +206,9 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Steelman_terrain_urbain",           MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseStrategic/Icons/terrain_urbain.png' )), ] ),
         ("Steelman_terrain_foret",           MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseStrategic/Icons/TerrainForet.png' )), ] ),
 
+        ("no_transport_background",           MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/Common/UnitsIcons/no_transport.png' )), ] ),
+
+
     ]
 )
 
@@ -308,14 +314,7 @@ CommonTexture_AvatarIATexture is TUIResourceTexture_Common(FileName = "GameData:
 // proxy pour quand on a pas accès a l'image via une API externe (steam, gog ...)
 unnamed TGamerPictureFallbacks
 (
-    DefaultTextureSources = MAP[
-        ("VirtualData/GamerPicture",
-         TResourceTexturePreloadTextureData( UsefulnessMask = TypeMask/Common FileName = "GameData:/Assets/2D/Interface/Common/Avatar/Default_Avatar.png" )),
-        ("VirtualData/SteamGamerPicture",
-         TResourceTexturePreloadTextureData( UsefulnessMask = TypeMask/Common FileName = "GameData:/Assets/2D/Interface/Common/Avatar/Default_Avatar.png" )),
-        ("VirtualData/GOGGamerPicture",
-         TResourceTexturePreloadTextureData( UsefulnessMask = TypeMask/Common FileName = "GameData:/Assets/2D/Interface/Common/Avatar/Default_Avatar.png" )),
-    ]
+    DefaultAvatarTexture = TResourceTexturePreloadTextureData( FileName = "GameData:/Assets/2D/Interface/Common/Avatar/Default_Avatar.png" )
 )
 
 //Debut avatar des IA referencés uniquement dans la config des serveurs dedies et pas dans le repro principal
