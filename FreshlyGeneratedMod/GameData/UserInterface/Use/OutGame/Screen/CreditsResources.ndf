@@ -1,6 +1,6 @@
 SpecificCreditsResource is TUISpecificOutGameCreditsResource
 (
-    Credits = $/M3D/Scene/CreditsDescriptor
+    Credits = $/Credits/CreditsDescriptor
 
     ScrollStep = 100
     DelayAtBottomBeforeGoingUp = 10000

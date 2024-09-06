@@ -438,6 +438,21 @@ CubeAction_Capacity_eo_dazzler is TCubeActionCapacityButtonInformationsDescripto
     Descriptor                   = $/GFX/EffectCapacity/Capacite_eo_dazzler
 )
 
+CubeAction_Capacity_fireDirection is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_fireDirection"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_fireDirection"
+    HoverSound                   = CubeActionButtonHoverSound_IfEnabled
+    ClickSound                   = CubeActionButtonClickSound_IfEnabled
+    ButtonTextToken              = ""
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = ""
+    HintBodyToken                = ""
+    HintExtendedToken            = ""
+    Descriptor                   = $/GFX/EffectCapacity/Capacite_fireDirection
+)
+
 CubeAction_Capacity_jammer is TCubeActionCapacityButtonInformationsDescriptor
 (
     CubeActionName               = "CubeAction_Capacity_jammer"
@@ -526,6 +541,36 @@ CubeAction_Capacity_security is TCubeActionCapacityButtonInformationsDescriptor
     HintBodyToken                = ""
     HintExtendedToken            = ""
     Descriptor                   = $/GFX/EffectCapacity/Capacite_security
+)
+
+CubeAction_Capacity_sigint_close is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_sigint_close"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_sigint_close"
+    HoverSound                   = CubeActionButtonHoverSound_IfEnabled
+    ClickSound                   = CubeActionButtonClickSound_IfEnabled
+    ButtonTextToken              = ""
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = ""
+    HintBodyToken                = ""
+    HintExtendedToken            = ""
+    Descriptor                   = $/GFX/EffectCapacity/Capacite_sigint_close
+)
+
+CubeAction_Capacity_sigint_far is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_sigint_far"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_sigint_far"
+    HoverSound                   = CubeActionButtonHoverSound_IfEnabled
+    ClickSound                   = CubeActionButtonClickSound_IfEnabled
+    ButtonTextToken              = ""
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = ""
+    HintBodyToken                = ""
+    HintExtendedToken            = ""
+    Descriptor                   = $/GFX/EffectCapacity/Capacite_sigint_far
 )
 
 CubeAction_Capacity_sniper is TCubeActionCapacityButtonInformationsDescriptor

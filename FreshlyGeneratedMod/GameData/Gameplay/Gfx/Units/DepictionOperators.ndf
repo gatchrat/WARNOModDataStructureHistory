@@ -22,7 +22,7 @@ DepictionOperator_Shader_GhostTactic is TCosmeticTacticGhostColorOperatorDesc
     Blends = [1, 0.1]
 )
 DepictionOperator_Shader_TeamColor is TCosmeticTeamColorOperatorDesc()
-DepictionOperator_Shader_Exploded is TCosmeticExplodedStyleOperatorDesc( ExplodedDamageTextures = VehicleDestTextures )
+DepictionOperator_Shader_Exploded is TCosmeticExplodedStyleOperatorDesc( ExplodedDamageTextures = $/M3D/Shader/VehicleDestTextures )
 
 // ****************************************************************************************************************************************
 // *** Reset (doit être le premier Operator de toute liste qu'on souhaite réinitialiser à chaque frame) ***********************************

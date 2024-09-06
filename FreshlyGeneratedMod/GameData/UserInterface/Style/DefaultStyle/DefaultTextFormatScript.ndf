@@ -2138,6 +2138,10 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
             TemplateTFS_Division(TextureToken = "CommonTexture_division_DDR_19MSD")
         ),
         (
+            "DDR_20MSD",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_DDR_20MSD")
+        ),
+        (
             "DDR_8MSD",
             TemplateTFS_Division(TextureToken = "CommonTexture_division_DDR_8MSD")
         ),

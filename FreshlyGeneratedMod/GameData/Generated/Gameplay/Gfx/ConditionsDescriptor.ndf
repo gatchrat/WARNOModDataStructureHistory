@@ -72,6 +72,12 @@ ConditionTagNotRaisedInUnit_reserviste_immune_1 is TConditionTagNotRaisedInUnit
     Tag             = "reserviste_immune"
     Amount          = 1
 )
+ConditionTagNotRaisedInUnit_sigint_close_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{197d6af0-7b04-4960-aa5f-351ce53a8157}
+    Tag             = "sigint_close"
+    Amount          = 1
+)
 ConditionNotInMovement is TConditionNotInMovement
 (
     DescriptorId    = GUID:{959966e6-de27-4d31-b6de-4bd51244d355}

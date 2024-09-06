@@ -285,7 +285,7 @@ is TTimelyDepictionReceiverFactory
     (
         ResidentMaterialTags = [ MaterialTagMech ]
         PossibleCullingSubBBoxes = ['tourelle_01']
-        AdditionalTextures = VehicleDestTextures
+        AdditionalTextures = $/M3D/Shader/VehicleDestTextures
         CoatingName = <CoatingName>
         Scaler = CommonVehicleScaler
         Selector = <Selector>
@@ -430,7 +430,7 @@ is TSubDepiction
                 InitialPoses = TowedInitialPoses
         )
         ResidentMaterialTags = [ MaterialTagMech ]
-        AdditionalTextures = VehicleDestTextures
+        AdditionalTextures = $/M3D/Shader/VehicleDestTextures
         Selector = ~/TowedUnitSubDepictionSelector
         DepictionAlternatives = [ AlternativeTowedNone ] + <Alternatives>
 
@@ -448,7 +448,7 @@ is TSubDepiction
                 Depiction = TDepictionTemplate
                 (
                     ResidentMaterialTags = [ MaterialTagMech ]
-                    AdditionalTextures = VehicleDestTextures
+                    AdditionalTextures = $/M3D/Shader/VehicleDestTextures
                     ShadowLessInitialValue = False
                     Selector = TSubDepictionInstancedTowedMissileSelector
                     (

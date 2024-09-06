@@ -78,6 +78,7 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("CommonTexture_division_DDR_9PZD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/DDR_9PZD.png"))]),
         ("CommonTexture_division_DDR_8MSD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/DDR_8MSD.png"))]),
         ("CommonTexture_division_DDR_19MSD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/DDR_19MSD.png"))]),
+        ("CommonTexture_division_DDR_20MSD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/DDR_20MSD.png"))]),
         ("CommonTexture_division_DDR_7PZD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/DDR_7PZD.png"))]),
         ("CommonTexture_division_DDR_Luft",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/DDR_Luft.png"))]),
 

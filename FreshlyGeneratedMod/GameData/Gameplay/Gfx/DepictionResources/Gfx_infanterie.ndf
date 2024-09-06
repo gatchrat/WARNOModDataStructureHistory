@@ -426,12 +426,10 @@ export Modele_Scout_SpetsnazGRU_Stinger_SOV_04 is ModelDescriptor( FileName = SO
 export Modele_Scout_SpetsnazGRU_Stinger_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
 
 //Scout_LRRP_SOV
-export Modele_Scout_LRRP_SOV is ModelDescriptor( FileName = SOV_MotoStrelki_1 )
-export Modele_Scout_LRRP_SOV_02 is ModelDescriptor( FileName = SOV_MotoStrelki_2_TTsko )
+export Modele_Scout_LRRP_SOV is ModelDescriptor( FileName = SOV_MotoStrelki_Sniper )
+export Modele_Scout_LRRP_SOV_02 is ModelDescriptor( FileName = SOV_MotoStrelki_2 )
 export Modele_Scout_LRRP_SOV_03 is ModelDescriptor( FileName = SOV_MotoStrelki_NCO )
-export Modele_Scout_LRRP_SOV_04 is ModelDescriptor( FileName = SOV_MotoStrelki_Officer )
-export Modele_Scout_LRRP_SOV_05 is ModelDescriptor( FileName = SOV_MotoStrelki_Sniper )
-export Modele_Scout_LRRP_SOV_06 is ModelDescriptor( FileName = SOV_MotoStrelki_spe )
+export Modele_Scout_LRRP_SOV_04 is ModelDescriptor( FileName = SOV_MotoStrelki_spe )
 export Modele_Scout_LRRP_SOV_LOW is ModelDescriptor( FileName = SOV_MotoStrelki_1_LOW )
 
 //Scout_TTsko_SOV
@@ -443,13 +441,18 @@ export Modele_Scout_TTsko_SOV_05 is ModelDescriptor( FileName = SOV_MotoStrelki_
 export Modele_Scout_TTsko_SOV_06 is ModelDescriptor( FileName = SOV_MotoStrelki_1_TTsko )
 export Modele_Scout_TTsko_SOV_LOW is ModelDescriptor( FileName = SOV_MotoStrelki_1_TTsko_LOW )
 
+//Scout_SIGINT_SOV
+export Modele_Scout_SIGINT_SOV is ModelDescriptor( FileName = SOV_MotoStrelki_Sniper )
+export Modele_Scout_SIGINT_SOV_02 is ModelDescriptor( FileName = SOV_MotoStrelki_2 )
+export Modele_Scout_SIGINT_SOV_03 is ModelDescriptor( FileName = SOV_MotoStrelki_NCO )
+export Modele_Scout_SIGINT_SOV_04 is ModelDescriptor( FileName = SOV_MotoStrelki_spe )
+export Modele_Scout_SIGINT_SOV_LOW is ModelDescriptor( FileName = SOV_MotoStrelki_1_LOW )
+
 //Scout_SOV
-export Modele_Scout_SOV is ModelDescriptor( FileName = SOV_MotoStrelki_1 )
+export Modele_Scout_SOV is ModelDescriptor( FileName = SOV_MotoStrelki_Sniper )
 export Modele_Scout_SOV_02 is ModelDescriptor( FileName = SOV_MotoStrelki_2 )
 export Modele_Scout_SOV_03 is ModelDescriptor( FileName = SOV_MotoStrelki_NCO )
-export Modele_Scout_SOV_04 is ModelDescriptor( FileName = SOV_MotoStrelki_Officer )
-export Modele_Scout_SOV_05 is ModelDescriptor( FileName = SOV_MotoStrelki_Sniper )
-export Modele_Scout_SOV_06 is ModelDescriptor( FileName = SOV_MotoStrelki_spe )
+export Modele_Scout_SOV_04 is ModelDescriptor( FileName = SOV_MotoStrelki_spe )
 export Modele_Scout_SOV_LOW is ModelDescriptor( FileName = SOV_MotoStrelki_1_LOW )
 
 //MotoStrelki_SOV
@@ -2371,9 +2374,59 @@ export Modele_Volkspolizei_DDR_LOW is ModelDescriptor( FileName = DDR_Grenzer_LO
 //
 //------------------------------------------------------------------------------
 
+TCH_MP is 'GameData:/Assets/3D/Units/TCH/Infanterie/MP/MP.fbx'
+TCH_MP_LOW is 'GameData:/Assets/3D/Units/TCH/Infanterie/MP/MP.fbx'
+
+TCH_AA_vz60 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/AA_vz60.fbx'
+TCH_Gunner_vz60 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Gunner_vz60.fbx'
+TCH_NCO_vz60 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/NCO_vz60.fbx'
+TCH_Officer_vz60 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Officer_vz60.fbx'
+TCH_Soldier_vz60_1 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Soldier_vz60_1.fbx'
+TCH_Soldier_vz60_2 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Soldier_vz60_2.fbx'
+TCH_Soldier_vz60_LOW is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Soldier_vz60_1.fbx'
+
+TCH_AA_vz85 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz85/AA_vz85.fbx'
+TCH_NCO_vz85 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz85/NCO_vz85.fbx'
+TCH_Officer_vz85 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz85/Officer_vz85.fbx'
+TCH_Soldier_vz85_1 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz85/Soldier_vz85_1.fbx'
+TCH_Soldier_vz85_2 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz85/Soldier_vz85_2.fbx'
+TCH_Soldier_vz85_LOW is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz85/Soldier_vz85_1.fbx'
+
+TCH_AA_Vysadkar is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/AA_Vysadkar.fbx'
+TCH_NCO_Vysadkar is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/NCO_Vysadkar.fbx'
+TCH_Officer_Vysadkar is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/Officer_Vysadkar.fbx'
+TCH_Vysadkar_1 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/Vysadkar_1.fbx'
+TCH_Vysadkar_2 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/Vysadkar_2.fbx'
+TCH_Vysadkar_LOW is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/Soldier_vz85_1.fbx'
+
+//------------------------------------------------------------------------------
+
 //MP_TCH
-export Modele_MP_TCH is ModelDescriptor( FileName = US_GI_1 )
-export Modele_MP_TCH_LOW is ModelDescriptor( FileName = US_GI_1_LOW )
+export Modele_MP_TCH is ModelDescriptor( FileName = TCH_MP )
+export Modele_MP_TCH_LOW is ModelDescriptor( FileName = TCH_MP_LOW )
+
+//MANPAD_Strela_2M_TCH
+export Modele_MANPAD_Strela_2M_TCH is ModelDescriptor( FileName = TCH_AA_vz85 )
+export Modele_MANPAD_Strela_2M_TCH_02 is ModelDescriptor( FileName = TCH_Soldier_vz85_1 )
+export Modele_MANPAD_Strela_2M_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Reserve_TCH
+export Modele_Reserve_TCH is ModelDescriptor( FileName = TCH_NCO_vz60 )
+export Modele_Reserve_TCH_02 is ModelDescriptor( FileName = TCH_Gunner_vz60 )
+export Modele_Reserve_TCH_03 is ModelDescriptor( FileName = TCH_Soldier_vz60_2 )
+export Modele_Reserve_TCH_04 is ModelDescriptor( FileName = TCH_Soldier_vz60_1 )
+export Modele_Reserve_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz60_LOW )
+//Vysadkari_TCH
+export Modele_Vysadkari_TCH is ModelDescriptor( FileName = TCH_NCO_Vysadkar )
+export Modele_Vysadkari_TCH_02 is ModelDescriptor( FileName = TCH_Vysadkar_1 )
+export Modele_Vysadkari_TCH_03 is ModelDescriptor( FileName = TCH_Vysadkar_2 )
+export Modele_Vysadkari_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//MotRifles_TCH
+export Modele_MotRifles_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_MotRifles_TCH_02 is ModelDescriptor( FileName = TCH_Soldier_vz85_1 )
+export Modele_MotRifles_TCH_03 is ModelDescriptor( FileName = TCH_Soldier_vz85_2 )
+export Modele_MotRifles_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
 
 
 
@@ -3084,18 +3137,28 @@ export Modele_Rifles_APILAS_FR_04 is ModelDescriptor( FileName = FR_Chasseur_2 )
 export Modele_Rifles_APILAS_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
 
 //Gendarmerie_Mobile_CMD_FR
-export Modele_Gendarmerie_Mobile_CMD_FR is ModelDescriptor( FileName = FR_Gendarme_2 )
+export Modele_Gendarmerie_Mobile_CMD_FR is ModelDescriptor( FileName = FR_Gendarme_NCO )
+export Modele_Gendarmerie_Mobile_CMD_FR_02 is ModelDescriptor( FileName = FR_Gendarme_NCO )
+export Modele_Gendarmerie_Mobile_CMD_FR_03 is ModelDescriptor( FileName = FR_Gendarme_2 )
+export Modele_Gendarmerie_Mobile_CMD_FR_04 is ModelDescriptor( FileName = FR_Chasseur_1 )
 export Modele_Gendarmerie_Mobile_CMD_FR_LOW is ModelDescriptor( FileName = FR_Gendarme_LOW )
 
+//Gendarmerie_Air_FR
+export Modele_Gendarmerie_Air_FR is ModelDescriptor( FileName = FR_Gendarme_NCO )
+export Modele_Gendarmerie_Air_FR_02 is ModelDescriptor( FileName = FR_Gendarme_2 )
+export Modele_Gendarmerie_Air_FR_03 is ModelDescriptor( FileName = FR_Chasseur_1 )
+export Modele_Gendarmerie_Air_FR_LOW is ModelDescriptor( FileName = FR_Gendarme_LOW )
+
 //Gendarmerie_Mobile_FR
-export Modele_Gendarmerie_Mobile_FR is ModelDescriptor( FileName = FR_Gendarme_2 )
+export Modele_Gendarmerie_Mobile_FR is ModelDescriptor( FileName = FR_Gendarme_NCO )
+export Modele_Gendarmerie_Mobile_FR_02 is ModelDescriptor( FileName = FR_Gendarme_2 )
+export Modele_Gendarmerie_Mobile_FR_03 is ModelDescriptor( FileName = FR_Chasseur_1 )
 export Modele_Gendarmerie_Mobile_FR_LOW is ModelDescriptor( FileName = FR_Gendarme_LOW )
 
 //Gendarmerie_FR
-export Modele_Gendarmerie_FR is ModelDescriptor( FileName = FR_Gendarme_2 )
+export Modele_Gendarmerie_FR is ModelDescriptor( FileName = FR_Gendarme_NCO )
 export Modele_Gendarmerie_FR_02 is ModelDescriptor( FileName = FR_Gendarme_2 )
-export Modele_Gendarmerie_FR_03 is ModelDescriptor( FileName = FR_Gendarme_NCO )
-export Modele_Gendarmerie_FR_04 is ModelDescriptor( FileName = FR_Chasseur_1 )
+export Modele_Gendarmerie_FR_03 is ModelDescriptor( FileName = FR_Chasseur_1 )
 export Modele_Gendarmerie_FR_LOW is ModelDescriptor( FileName = FR_Gendarme_LOW )
 
 //Rifles_Aero_FR

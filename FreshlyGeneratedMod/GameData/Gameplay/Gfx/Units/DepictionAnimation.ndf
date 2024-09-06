@@ -101,7 +101,6 @@ template DepictionOperator_SkeletalAnimation2_Default [ConditionalTags = [] ] is
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [$/GFX/DepictionResources/FusilierIdleSMG, $/GFX/DepictionResources/FusilierIdleSMG2] IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['smg', 'stand']),
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [$/GFX/DepictionResources/FusilierIdleGrenade] IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) Tags = ['grenade', 'stand']),
         TAnimationWithTags( Animation = TAlternativeBipedAnimation( Resources = [$/GFX/DepictionResources/FusilierMortBalle, $/GFX/DepictionResources/FusilierMortBalle2, $/GFX/DepictionResources/FusilierMortBalle3, $/GFX/DepictionResources/FusilierMortBalle4, $/GFX/DepictionResources/FusilierMortBalle5] IsLegCycle = false InTransition = 2.0 OutTransition = 1.0) Tags = ['dead', 'stand']),
-        // TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = $/GFX/DepictionResources/FusilierMortBalle IsLegCycle = false InTransition = 2.0 OutTransition = 1.0) Tags = ['dead', 'stand']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = $/GFX/DepictionResources/FusilierAiming IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['aiming']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = $/GFX/DepictionResources/FusilierBazookaTransition1 IsLegCycle = false InTransition = 0.5 OutTransition = 0.5) TorsoOnly = true Tags = ['swapping']),
         TAnimationWithTags( Animation = TSimpleBipedAnimation( Resource = $/GFX/DepictionResources/FusilierFire IsLegCycle = false InTransition = 0.0 OutTransition = 0.5) TorsoOnly = true PlayTillEnd = true Tags = ['aiming', 'shoot']),
@@ -119,17 +118,16 @@ template DepictionOperator_SkeletalAnimation2_Default [ConditionalTags = [] ] is
 
     UpperBodyBones = UpperBodyBoneList
 
-    DebugAnimations = [$/GFX/DepictionResources/FusilierAiming,$/GFX/DepictionResources/FusilierAimingFlamer, $/GFX/DepictionResources/FusilierAimingMMG, $/GFX/DepictionResources/FusilierAimingSMG,
-     $/GFX/DepictionResources/FusilierBazookaTir, $/GFX/DepictionResources/FusilierBazookaTransition1, $/GFX/DepictionResources/FusilierBazookaTransition2, $/GFX/DepictionResources/FusilierBazookaVise,
-     $/GFX/DepictionResources/FusilierArriere, $/GFX/DepictionResources/FusilierDroite, $/GFX/DepictionResources/FusilierGauche,$/GFX/DepictionResources/FusilierCrawl, $/GFX/DepictionResources/FusilierCrouch, $/GFX/DepictionResources/FusilierCrouch2,
-     $/GFX/DepictionResources/FusilierDeroute, $/GFX/DepictionResources/FusilierDeroute2, $/GFX/DepictionResources/FusilierDeroute3, $/GFX/DepictionResources/FusilierEau, $/GFX/DepictionResources/FusilierFire,
-     $/GFX/DepictionResources/FusilierFireFlamer, $/GFX/DepictionResources/FusilierFireMMG, $/GFX/DepictionResources/FusilierFireSMG, $/GFX/DepictionResources/FusilierGetUp,
-     $/GFX/DepictionResources/FusilierHit, $/GFX/DepictionResources/FusilierHitDos, $/GFX/DepictionResources/FusilierHitExplosion, $/GFX/DepictionResources/FusilierIdle,
-     $/GFX/DepictionResources/FusilierIdleMMG, $/GFX/DepictionResources/FusilierIdleMMG2, $/GFX/DepictionResources/FusilierIdleSMG, $/GFX/DepictionResources/FusilierIdleSMG2, $/GFX/DepictionResources/FusilierIdleSpecial, $/GFX/DepictionResources/FusilierIdle2,
-     $/GFX/DepictionResources/FusilierKneel, $/GFX/DepictionResources/FusilierLookAround, $/GFX/DepictionResources/FusilierMarche, $/GFX/DepictionResources/FusilierMortBalle, $/GFX/DepictionResources/FusilierMortBalle2, $/GFX/DepictionResources/FusilierMortBalle3, $/GFX/DepictionResources/FusilierMortBalle4, $/GFX/DepictionResources/FusilierMortBalle5, $/GFX/DepictionResources/FusilierMortBalleDos, $/GFX/DepictionResources/FusilierMortBalleViolente,
-     $/GFX/DepictionResources/FusilierMortExplosion, $/GFX/DepictionResources/FusilierMortExplosionDos, $/GFX/DepictionResources/FusilierReload, $/GFX/DepictionResources/FusilierRun, $/GFX/DepictionResources/FusilierRunAim, $/GFX/DepictionResources/FusilierRunMMG, $/GFX/DepictionResources/FusilierRunSMG, $/GFX/DepictionResources/FusilierRun2, $/GFX/DepictionResources/FusilierRun3,
-     $/GFX/DepictionResources/FusilierStandPinned, $/GFX/DepictionResources/FusilierStandPinned2, $/GFX/DepictionResources/FusilierStandVise, $/GFX/DepictionResources/FusilierStart, $/GFX/DepictionResources/FusilierSteelman, $/GFX/DepictionResources/FusilierStop, $/GFX/DepictionResources/FusilierTir, $/GFX/DepictionResources/FusilierTransport,
-     $/GFX/DepictionResources/UnarmedCapture]
+    DebugAnimations = [$/GFX/DepictionResources/FusilierAiming, $/GFX/DepictionResources/FusilierAimingMMG, $/GFX/DepictionResources/FusilierAimingSMG,
+     $/GFX/DepictionResources/FusilierBazookaTir, $/GFX/DepictionResources/FusilierBazookaTransition1, $/GFX/DepictionResources/FusilierBazookaVise,
+     $/GFX/DepictionResources/FusilierArriere, $/GFX/DepictionResources/FusilierDroite, $/GFX/DepictionResources/FusilierGauche, $/GFX/DepictionResources/FusilierCrouch, $/GFX/DepictionResources/FusilierCrouch2,
+     $/GFX/DepictionResources/FusilierFire,
+     $/GFX/DepictionResources/FusilierFireMMG, $/GFX/DepictionResources/FusilierFireSMG,
+     $/GFX/DepictionResources/FusilierHit, $/GFX/DepictionResources/FusilierHitExplosion, $/GFX/DepictionResources/FusilierIdle,
+     $/GFX/DepictionResources/FusilierIdleMMG, $/GFX/DepictionResources/FusilierIdleMMG2, $/GFX/DepictionResources/FusilierIdleSMG, $/GFX/DepictionResources/FusilierIdleSMG2, $/GFX/DepictionResources/FusilierIdle2,
+     $/GFX/DepictionResources/FusilierMarche, $/GFX/DepictionResources/FusilierMortBalle, $/GFX/DepictionResources/FusilierMortBalle2, $/GFX/DepictionResources/FusilierMortBalle3, $/GFX/DepictionResources/FusilierMortBalle4, $/GFX/DepictionResources/FusilierMortBalle5,
+     $/GFX/DepictionResources/FusilierRun, $/GFX/DepictionResources/FusilierRunSMG, $/GFX/DepictionResources/FusilierRun2, $/GFX/DepictionResources/FusilierRun3,
+     ]
 )
 
 DepictionOperator_FreezeAnimation_Ghost is TCosmeticFreezeSkeletalAnimationOperatorDesc(Animation = $/GFX/DepictionResources/FusilierIdle)

@@ -8343,6 +8343,16 @@ SubGenerators_Mirage_5_F_nplm_FR is TStaticMissileCarriageSubDepictionGenerator
             MissileCount = 4
             WeaponIndex = 2
         ),
+        TStaticMissileCarriageSubDepictionMissileInfo
+        (
+            Depiction = TemplateDepictionStaticMissilesAirUnit
+            (
+                PhysicalProperty = "Tourelle3_MissileCount"
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Matra_R550_Magic_II
+            )
+            MissileCount = 2
+            WeaponIndex = 3
+        ),
     ]
     Pylons = ~/DepictionPylonSet_Airplane_FR
     ReferenceMesh = $/GFX/DepictionResources/Modele_Mirage_5_F_nplm_FR
@@ -8360,6 +8370,15 @@ SubGenerators_Showroom_Mirage_5_F_nplm_FR is TStaticMissileCarriageSubDepictionG
             )
             MissileCount = 4
             WeaponIndex = 2
+        ),
+        TStaticMissileCarriageSubDepictionMissileInfo
+        (
+            Depiction = TemplateDepictionMissileShowroom
+            (
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Matra_R550_Magic_II
+            )
+            MissileCount = 2
+            WeaponIndex = 3
         ),
     ]
     Pylons = ~/DepictionPylonSet_Airplane_FR_Showroom

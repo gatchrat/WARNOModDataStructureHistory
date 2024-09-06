@@ -9843,15 +9843,15 @@ export Descriptor_ShowRoomUnit_Engineers_AT_BEL is TEntityDescriptor
         TInfantrySquadWeaponAssignmentModuleDescriptor
         (
             InitialSoldiersToTurretIndexMap = MAP[
-                (0,[0,]),
-                (1,[0,]),
-                (2,[0,]),
-                (3,[0,]),
-                (4,[0,]),
-                (5,[0,]),
+                (0,[1,]),
+                (1,[1,]),
+                (2,[1,]),
+                (3,[1,]),
+                (4,[1,]),
+                (5,[1,]),
                 (6,[0,]),
                 (7,[0,]),
-                (8,[0,1,]),
+                (8,[0,2,]),
             ]
         ),
         ~/LinkTeamModuleDescriptor,
@@ -19239,12 +19239,12 @@ export Descriptor_ShowRoomUnit_LRRP_BEL is TEntityDescriptor
         TInfantrySquadWeaponAssignmentModuleDescriptor
         (
             InitialSoldiersToTurretIndexMap = MAP[
-                (0,[1,]),
-                (1,[0,]),
+                (0,[2,]),
+                (1,[1,]),
                 (2,[0,]),
                 (3,[0,]),
                 (4,[0,]),
-                (5,[0,2,]),
+                (5,[0,3,]),
             ]
         ),
         ~/LinkTeamModuleDescriptor,
@@ -27247,7 +27247,7 @@ export Descriptor_ShowRoomUnit_Mech_Rifles_CMD_BEL is TEntityDescriptor
                 (1,[0,]),
                 (2,[0,]),
                 (3,[0,]),
-                (4,[0,]),
+                (4,[0,2,]),
                 (5,[0,1,]),
             ]
         ),
@@ -32542,7 +32542,7 @@ export Descriptor_ShowRoomUnit_Rifles_CMD_BEL is TEntityDescriptor
                 (2,[0,]),
                 (3,[0,]),
                 (4,[0,]),
-                (5,[0,]),
+                (5,[0,2,]),
                 (6,[0,1,]),
             ]
         ),

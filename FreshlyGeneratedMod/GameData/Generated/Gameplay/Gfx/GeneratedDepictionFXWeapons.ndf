@@ -9248,6 +9248,38 @@ FXWeapon_Mortier_81mm_61C_SMOKE is FiringAndProjectile
     ]
 )
 
+FXWeapon_Mortier_81mm_MO81_61C_towed is FiringAndProjectile
+(
+    Happenings = [
+        FXFiring_4( Action = $/GFX/GameFx/fx_tir_mortier_107mm ),
+        TRandomHappening
+        (
+            Alternatives =
+            [
+                FXProjectile_5( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_1 ),
+                FXProjectile_5( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_2 ),
+                FXProjectile_5( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_3 ),
+            ]
+        ),
+    ]
+)
+
+FXWeapon_Mortier_81mm_MO81_61C_towed_SMOKE is FiringAndProjectile
+(
+    Happenings = [
+        FXFiring_4( Action = $/GFX/GameFx/fx_tir_mortier_107mm ),
+        TRandomHappening
+        (
+            Alternatives =
+            [
+                FXProjectile_5( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_1 ),
+                FXProjectile_5( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_2 ),
+                FXProjectile_5( Action = $/GFX/GameFx/fx_traine_obus_mortier_107mm_3 ),
+            ]
+        ),
+    ]
+)
+
 FXWeapon_Mortier_81mm_SMOKE is FiringAndProjectile
 (
     Happenings = [

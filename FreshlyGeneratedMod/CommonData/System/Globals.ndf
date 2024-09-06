@@ -98,6 +98,9 @@ SDMask_SquashOrDestroy      is SDMask_Squash+SDMask_Destroy
 
 
 //-----------------------------------------------------------------------------
+MapCellSize                 is 655360
+
+//-----------------------------------------------------------------------------
 // primitive type (Synchronisé avec Core3D/Primitives.h)
 
 PrimitiveType_POINTLIST     is 1
@@ -174,7 +177,7 @@ WindowMode is TBaseClass
 )
 
 //-----------------------------------------------------------------------------
-// doit matcher avec Core3D/RenderState.h
+// doit matcher avec Core3D/SamplerState.h
 WrapMode is TBaseClass
 (
     Clamp  is 0
@@ -183,7 +186,7 @@ WrapMode is TBaseClass
 )
 
 //-----------------------------------------------------------------------------
-// doit matcher avec Core3D/RenderState.h
+// doit matcher avec Core3D/SamplerState.h
 FilterMode is TBaseClass
 (
     Point       is 0
@@ -192,19 +195,11 @@ FilterMode is TBaseClass
 )
 
 //-----------------------------------------------------------------------------
-// doit matcher avec Core3D/RenderState.h
+// doit matcher avec Core3D/SamplerState.h
 ComparisonFunc is TBaseClass
 (
     None       is 0
     LessEqual  is 1
-)
-
-//-----------------------------------------------------------------------------
-// doit matcher avec Core3D/RenderState.h
-StencilPass is TBaseClass
-(
-    Keep    is 0
-    Replace is 1
 )
 
 //-----------------------------------------------------------------------------
@@ -293,15 +288,17 @@ ShaderVertexFetchMode is TBaseClass
 //-----------------------------------------------------------------------------
 //  RenderType
 //-----------------------------------------------------------------------------
-RenderType_Undefined                 is 0
-RenderType_Forward                   is 1
-RenderType_GBuffer                   is 2
-RenderType_DepthShadow               is 3
-RenderType_ScreenSpeed               is 4
-RenderType_ImposterWorld             is 5
-RenderType_ImposterWorld_DepthShadow is 6
-RenderType_BakingHeightmap           is 7
-
+// doit matcher avec l'enum TShaderVertexFetchMode de Core3D/RenderType.h
+RenderType is TBaseClass
+(
+    Forward                   is 0
+    GBuffer                   is 1
+    DepthShadow               is 2
+    ScreenSpeed               is 3
+    ImposterWorld             is 4
+    ImposterWorld_DepthShadow is 5
+    BakingHeightmap           is 6
+)
 //-----------------------------------------------------------------------------
 // Commande name
 

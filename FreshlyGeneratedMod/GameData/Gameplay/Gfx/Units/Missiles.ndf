@@ -22,7 +22,7 @@ is TTimelyDepictionReceiverFactory
     DepictionTemplate = TDepictionTemplate
     (
         ResidentMaterialTags = [ MaterialTagMech ]
-        AdditionalTextures = VehicleDestTextures
+        AdditionalTextures = $/M3D/Shader/VehicleDestTextures
         Selector = TConstantAlternativeSelector(Key = [LOD_High])
         DepictionAlternatives = [
             DepictionDescriptor_LOD_High( MeshDescriptor = <ProjectileModelResource> ),

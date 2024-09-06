@@ -2469,12 +2469,6 @@ Descriptor_StrategicPack_Iltis_trans_RFA_Scout_RFA_0 is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Scout_RFA
 )
 
-Descriptor_StrategicPack_Iltis_trans_RFA_Feldgendarmerie_RFA_0 is DeckPackDescriptor
-(
-    Transport = $/GFX/Unit/Descriptor_Unit_Iltis_trans_RFA
-    Unit = $/GFX/Unit/Descriptor_Unit_Feldgendarmerie_RFA
-)
-
 Descriptor_StrategicPack_KanJagdPanzer_RFA_0 is DeckPackDescriptor
 (
     Unit = $/GFX/Unit/Descriptor_Unit_KanJagdPanzer_RFA
@@ -2507,6 +2501,12 @@ Descriptor_StrategicPack_Unimog_trans_RFA_Engineers_AT_RFA_0 is DeckPackDescript
 (
     Transport = $/GFX/Unit/Descriptor_Unit_Unimog_trans_RFA
     Unit = $/GFX/Unit/Descriptor_Unit_Engineers_AT_RFA
+)
+
+Descriptor_StrategicPack_Iltis_trans_RFA_Feldgendarmerie_RFA_0 is DeckPackDescriptor
+(
+    Transport = $/GFX/Unit/Descriptor_Unit_Iltis_trans_RFA
+    Unit = $/GFX/Unit/Descriptor_Unit_Feldgendarmerie_RFA
 )
 
 Descriptor_StrategicPack_M48A2GA2_RFA_0 is DeckPackDescriptor

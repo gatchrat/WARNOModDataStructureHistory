@@ -1249,6 +1249,48 @@ export Capacite_eo_dazzler is TCapaciteDescriptor
         ~/ConditionNotInMovement,
     ]
 )
+export Capacite_fireDirection is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{d5e050b2-5ce4-46fe-9642-6ba1b55f56ef}
+    Name             = "fireDirection"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_unite
+    TargetTeamFilter     = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_circulaire
+    InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
+    ActionRadiusWithBoundingBox = False
+    Radius              = 1415.00 * Metre
+    Range               = 1415.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastTime            = 0.00
+    Cooldown            = 1.00
+    CheckVisibility     = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = False
+    TargetEffect         = ~/UnitEffect_fireDirection
+    TargetEffectDuration = -1.00
+    SelfEffectDuration   = 0.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = -1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = False
+    TargetInSelf           = False
+    TargetMySelf           = False
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_soloselected | ~/CapaciteFeedbackActivationMask_allied
+    DisplayRangeColor      = RGBA[248,248,248,200]
+    DisplayRangeThickness  = 0.40
+    Price = MAP[]
+    TagsCiblePossible = [
+        "Artillerie",
+    ]
+
+)
 export Capacite_jammer is TCapaciteDescriptor
 (
     DescriptorId     = GUID:{e8d88ab7-f594-4802-bc2a-b28d3c8e9f79}
@@ -1505,6 +1547,96 @@ export Capacite_security is TCapaciteDescriptor
     ]
     Conditions = [
         ~/ConditionNotInMovement,
+    ]
+)
+export Capacite_sigint_close is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{d0116721-a8a9-4943-a9c8-929671d551fd}
+    Name             = "sigint_close"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_unite
+    TargetTeamFilter     = ~/CapaciteTargetFilter_ennemi
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_circulaire
+    InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
+    ActionRadiusWithBoundingBox = False
+    Radius              = 5000.00 * Metre
+    Range               = 5000.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastTime            = 0.00
+    Cooldown            = 1.00
+    CheckVisibility     = False
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = False
+    TargetEffect         = ~/UnitEffect_Placebo
+    TargetEffectDuration = -1.00
+    SelfEffect       = ~/UnitEffect_sigint_close
+    SelfEffectDuration   = -1.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = -1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_allied
+    DisplayRangeColor      = RGBA[10,240,199,100]
+    DisplayRangeThickness  = 0.20
+    Price = MAP[]
+    TagsCiblePossible = [
+        "GroundUnits",
+        "Helo",
+    ]
+
+)
+export Capacite_sigint_far is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{4da4c11e-18aa-4ba7-8d78-2fdf564a9022}
+    Name             = "sigint_far"
+    NameToken        = "None"
+    CumulEffect          = ~/CapaciteCumulEffect_jamais
+    Declenchement        = ~/CapaciteDeclenchementType_automatique
+    TypeCible            = ~/CapaciteTypeCible_unite
+    TargetTeamFilter     = ~/CapaciteTargetFilter_ennemi
+    InfluenceMapAlliance = ~/AllianceRelation/vide
+    TargetWoundedFilter  = ~/CapaciteWoundedFilterType_tout
+    AreaShape            = ~/CapaciteAreaShape_circulaire
+    InfluenceMapType     = ~/CapaciteInfluenceMapType_zones
+    ActionRadiusWithBoundingBox = False
+    Radius              = 10000.00 * Metre
+    Range               = 10000.00 * Metre
+    AutomaticOrderRange = 0.00 * Metre
+    CastTime            = 0.00
+    Cooldown            = 1.00
+    CheckVisibility     = False
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = False
+    TargetEffect         = ~/UnitEffect_Placebo
+    TargetEffectDuration = -1.00
+    SelfEffect       = ~/UnitEffect_sigint_far
+    SelfEffectDuration   = -1.00
+    MinVirtualUnits         = 1
+    OrderMustSpreadTargets = False
+    MaxTargetNb            = -1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_selected | ~/CapaciteFeedbackActivationMask_allied
+    DisplayRangeColor      = RGBA[248,248,248,200]
+    DisplayRangeThickness  = 0.40
+    Price = MAP[]
+    TagsCiblePossible = [
+        "GroundUnits",
+        "Helo",
+    ]
+    Conditions = [
+        ~/ConditionTagNotRaisedInUnit_sigint_close_1,
     ]
 )
 export Capacite_sniper is TCapaciteDescriptor

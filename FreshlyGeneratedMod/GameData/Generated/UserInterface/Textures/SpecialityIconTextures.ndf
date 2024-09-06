@@ -49,6 +49,10 @@ Texture_Speciality_Icon_falseflag is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/falseflag.png"
 )
+Texture_Speciality_Icon_fireDirection is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/fireDirection.png"
+)
 Texture_Speciality_Icon_gsr is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/gsr.png"
@@ -96,6 +100,10 @@ Texture_Speciality_Icon_security is TUIResourceTexture_Common
 Texture_Speciality_Icon_sf is TUIResourceTexture_Common
 (
     FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/sf.png"
+)
+Texture_Speciality_Icon_singint is TUIResourceTexture_Common
+(
+    FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/singint.png"
 )
 Texture_Speciality_Icon_smoke_launcher is TUIResourceTexture_Common
 (
@@ -246,6 +254,7 @@ UnitSpecialityAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Speciality_Icon_eo_dazzler", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_eo_dazzler)]),
         ("Texture_Speciality_Icon_era", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_era)]),
         ("Texture_Speciality_Icon_falseflag", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_falseflag)]),
+        ("Texture_Speciality_Icon_fireDirection", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_fireDirection)]),
         ("Texture_Speciality_Icon_gsr", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_gsr)]),
         ("Texture_Speciality_Icon_ifv_2", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_ifv_2)]),
         ("Texture_Speciality_Icon_jammer", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_jammer)]),
@@ -258,6 +267,7 @@ UnitSpecialityAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Speciality_Icon_resolute", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_resolute)]),
         ("Texture_Speciality_Icon_security", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_security)]),
         ("Texture_Speciality_Icon_sf", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_sf)]),
+        ("Texture_Speciality_Icon_singint", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_singint)]),
         ("Texture_Speciality_Icon_smoke_launcher", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_smoke_launcher)]),
         ("Texture_Speciality_Icon_sniper", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_sniper)]),
         ("Texture_Speciality_Icon_transport1", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_transport1)]),

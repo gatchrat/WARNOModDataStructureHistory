@@ -6,6 +6,7 @@ template TemplateClusterLoadNDF
     Files     = [] ,
     BaseName  : string       = '',
     NameSpace : string       = '',
+    Optional  : bool = false,
     Moddable  : bool = false,
     FillResourceList : bool    = false,
     UsingNamespaces = [],
@@ -23,6 +24,7 @@ template TemplateClusterLoadNDF
         FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
         BaseName = <BaseName>
         NameSpace =<NameSpace>
+        Optional = <Optional>
         Moddable = <Moddable>
         UsingNamespaces = <UsingNamespaces>
     )
@@ -274,7 +276,6 @@ template TemplateClusterLoadForNoEditor
     BaseName  : string       = '',
     NameSpace : string       = '',
     FillResourceList : bool    = false,
-    Optional = false,
 ] is TClusterInitialisation_EditorDependent
 (
     SubClusterModeNoEditor = TClusterNdfTransaction
@@ -289,7 +290,6 @@ template TemplateClusterLoadForNoEditor
             )
             ]
             FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
-            Optional = <Optional>
             BaseName = <BaseName>
             NameSpace =<NameSpace>
         )

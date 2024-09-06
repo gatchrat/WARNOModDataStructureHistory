@@ -3075,6 +3075,22 @@ export UnitEffect_evac_avion is TEffectsPackDescriptor
         TEvacAirplaneEffectDescriptor(),
     ]
 )
+export UnitEffect_fireDirection is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{5b21c121-a627-4c15-9406-d82e53dee6b4}
+    NameForDebug       = 'fireDirection'
+    EffectsDescriptors = [
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 0.50
+        ),
+        TUnitEffectShowLabelIconDescriptor
+        (
+            TextureToken         = "icone_fireDirection"
+        ),
+    ]
+)
 export UnitEffect_jammer is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{29d337e7-9faf-40e4-838c-73aa99954944}
@@ -3189,6 +3205,34 @@ export UnitEffect_security is TEffectsPackDescriptor
         TUnitEffectShowLabelIconDescriptor
         (
             TextureToken         = "icone_security"
+        ),
+    ]
+)
+export UnitEffect_sigint_close is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{ba449531-00da-441d-b398-2ffc8257d451}
+    NameForDebug       = 'sigint_close'
+    EffectsDescriptors = [
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "sigint_close",
+            ]
+        ),
+        TUnitEffectShowLabelIconDescriptor
+        (
+            TextureToken         = "icone_sigint_close"
+        ),
+    ]
+)
+export UnitEffect_sigint_far is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{10c4c1c6-f2d4-4e92-81d3-a22a348371a9}
+    NameForDebug       = 'sigint_far'
+    EffectsDescriptors = [
+        TUnitEffectShowLabelIconDescriptor
+        (
+            TextureToken         = "icone_sigint_far"
         ),
     ]
 )

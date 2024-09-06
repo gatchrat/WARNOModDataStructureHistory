@@ -11624,7 +11624,7 @@ MissileCarriage_Mirage_5_F_clu_FR_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// Mirage_5_F_nplm_FR : ['Bomb Bidons Speciaux Napalm x4']
+// Mirage_5_F_nplm_FR : ['Bomb Bidons Speciaux Napalm x4'] ['AA R550 Magic II']
 MissileCarriage_Mirage_5_F_nplm_FR is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Mirage_5_F_nplm_FR
@@ -11637,6 +11637,12 @@ MissileCarriage_Mirage_5_F_nplm_FR is TMissileCarriageConnoisseur
             MissileType = eAGM
             MountingType = eMountingBomb
             WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAAM
+            WeaponIndex = 3
         ),
     ]
 )
@@ -11652,6 +11658,12 @@ MissileCarriage_Mirage_5_F_nplm_FR_Showroom is TMissileCarriageConnoisseur
             MissileType = eAGM
             MountingType = eMountingBomb
             WeaponIndex = 2
+        ),
+        TMissileCarriageWeaponInfo
+        (
+            Count = 2
+            MissileType = eAAM
+            WeaponIndex = 3
         ),
     ]
 )

@@ -58,7 +58,7 @@ template TemplateDepictionMissile
 is TDepictionTemplate
 (
     ResidentMaterialTags = [ MaterialTagMech ]
-    AdditionalTextures = VehicleDestTextures
+    AdditionalTextures = $/M3D/Shader/VehicleDestTextures
     ShadowLessInitialValue = <ShadowLessInitialValue>
     Selector = <Selector>
     DepictionAlternatives = [

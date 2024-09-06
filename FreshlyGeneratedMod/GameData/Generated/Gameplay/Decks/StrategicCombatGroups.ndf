@@ -54239,18 +54239,10 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag631_SK_631__Jager is TDeckCombatGroupD
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "MARPMZWOUO"
-            PackIndexUnitNumberList =
-            [
-                (54,6),
-            ]
-        ),
-        TDeckSmartGroupDescriptor
-        (
             Name = "JIHDVDWLOE"
             PackIndexUnitNumberList =
             [
-                (60,10),
+                (54,10),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -54258,7 +54250,7 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag631_SK_631__Jager is TDeckCombatGroupD
             Name = "JPIPWSPQNV"
             PackIndexUnitNumberList =
             [
-                (70,7),
+                (64,7),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -54266,7 +54258,7 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag631_SK_631__Jager is TDeckCombatGroupD
             Name = "CKAPFWUVDZ"
             PackIndexUnitNumberList =
             [
-                (77,12),
+                (71,12),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -54274,7 +54266,7 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag631_SK_631__Jager is TDeckCombatGroupD
             Name = "OGYTRPXYOX"
             PackIndexUnitNumberList =
             [
-                (89,6),
+                (83,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -54282,9 +54274,9 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag631_SK_631__Jager is TDeckCombatGroupD
             Name = "YUMOJZFCQY"
             PackIndexUnitNumberList =
             [
-                (95,1),
-                (96,1),
-                (97,1),
+                (89,1),
+                (90,1),
+                (91,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -54293,8 +54285,9 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag631_SK_631__Jager is TDeckCombatGroupD
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (98,4),
-                (102,4),
+                (92,4),
+                (96,4),
+                (100,6),
             ]
         ),
     ]
@@ -54454,18 +54447,10 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag632_SK_632__Jager is TDeckCombatGroupD
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "AUQSDTCDTZ"
-            PackIndexUnitNumberList =
-            [
-                (54,6),
-            ]
-        ),
-        TDeckSmartGroupDescriptor
-        (
             Name = "OMWMFEXCDR"
             PackIndexUnitNumberList =
             [
-                (60,10),
+                (54,10),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -54473,7 +54458,7 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag632_SK_632__Jager is TDeckCombatGroupD
             Name = "OPGKGZNMRK"
             PackIndexUnitNumberList =
             [
-                (70,7),
+                (64,7),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -54481,7 +54466,7 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag632_SK_632__Jager is TDeckCombatGroupD
             Name = "VZZCJVDUME"
             PackIndexUnitNumberList =
             [
-                (77,12),
+                (71,12),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -54489,7 +54474,7 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag632_SK_632__Jager is TDeckCombatGroupD
             Name = "RLLTXSJBIX"
             PackIndexUnitNumberList =
             [
-                (89,6),
+                (83,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -54497,9 +54482,9 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag632_SK_632__Jager is TDeckCombatGroupD
             Name = "WTANHHQMFR"
             PackIndexUnitNumberList =
             [
-                (95,1),
-                (96,1),
-                (97,1),
+                (89,1),
+                (90,1),
+                (91,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -54508,8 +54493,9 @@ Descriptor_CombatGroup_pion_RFA_TKNord_Jag632_SK_632__Jager is TDeckCombatGroupD
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (98,4),
-                (102,4),
+                (92,4),
+                (96,4),
+                (100,6),
             ]
         ),
     ]
@@ -58444,18 +58430,10 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag541_SK_541__Jager is TDeckCombatGroupDe
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "ZTPBUGJUXO"
-            PackIndexUnitNumberList =
-            [
-                (74,6),
-            ]
-        ),
-        TDeckSmartGroupDescriptor
-        (
             Name = "EHFLKHNINV"
             PackIndexUnitNumberList =
             [
-                (80,9),
+                (74,9),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -58463,7 +58441,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag541_SK_541__Jager is TDeckCombatGroupDe
             Name = "CSIQEZOPNV"
             PackIndexUnitNumberList =
             [
-                (89,7),
+                (83,7),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -58471,7 +58449,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag541_SK_541__Jager is TDeckCombatGroupDe
             Name = "CRZZFDSKKL"
             PackIndexUnitNumberList =
             [
-                (96,12),
+                (90,12),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -58479,7 +58457,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag541_SK_541__Jager is TDeckCombatGroupDe
             Name = "TITROSMLGO"
             PackIndexUnitNumberList =
             [
-                (108,6),
+                (102,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -58487,9 +58465,9 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag541_SK_541__Jager is TDeckCombatGroupDe
             Name = "MWJSCBUHBX"
             PackIndexUnitNumberList =
             [
-                (114,1),
-                (115,1),
-                (116,1),
+                (108,1),
+                (109,1),
+                (110,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -58498,8 +58476,9 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag541_SK_541__Jager is TDeckCombatGroupDe
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (117,4),
-                (121,4),
+                (111,4),
+                (115,4),
+                (119,6),
             ]
         ),
     ]
@@ -58703,18 +58682,10 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag542_SK_542__Jager is TDeckCombatGroupDe
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "ZTPBUGJUXO"
-            PackIndexUnitNumberList =
-            [
-                (64,6),
-            ]
-        ),
-        TDeckSmartGroupDescriptor
-        (
             Name = "EHFLKHNINV"
             PackIndexUnitNumberList =
             [
-                (70,9),
+                (64,9),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -58722,7 +58693,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag542_SK_542__Jager is TDeckCombatGroupDe
             Name = "CSIQEZOPNV"
             PackIndexUnitNumberList =
             [
-                (79,7),
+                (73,7),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -58730,7 +58701,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag542_SK_542__Jager is TDeckCombatGroupDe
             Name = "CRZZFDSKKL"
             PackIndexUnitNumberList =
             [
-                (86,12),
+                (80,12),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -58738,7 +58709,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag542_SK_542__Jager is TDeckCombatGroupDe
             Name = "TITROSMLGO"
             PackIndexUnitNumberList =
             [
-                (98,6),
+                (92,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -58746,9 +58717,9 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag542_SK_542__Jager is TDeckCombatGroupDe
             Name = "MWJSCBUHBX"
             PackIndexUnitNumberList =
             [
-                (104,1),
-                (105,1),
-                (106,1),
+                (98,1),
+                (99,1),
+                (100,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -58757,8 +58728,9 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag542_SK_542__Jager is TDeckCombatGroupDe
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (107,4),
-                (111,4),
+                (101,4),
+                (105,4),
+                (109,6),
             ]
         ),
     ]
@@ -59003,18 +58975,10 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag641_SK_641__Jager is TDeckCombatGroupDe
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "ZTPBUGJUXO"
-            PackIndexUnitNumberList =
-            [
-                (74,6),
-            ]
-        ),
-        TDeckSmartGroupDescriptor
-        (
             Name = "EHFLKHNINV"
             PackIndexUnitNumberList =
             [
-                (80,10),
+                (74,10),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -59022,7 +58986,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag641_SK_641__Jager is TDeckCombatGroupDe
             Name = "CSIQEZOPNV"
             PackIndexUnitNumberList =
             [
-                (90,7),
+                (84,7),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -59030,7 +58994,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag641_SK_641__Jager is TDeckCombatGroupDe
             Name = "CRZZFDSKKL"
             PackIndexUnitNumberList =
             [
-                (97,12),
+                (91,12),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -59038,7 +59002,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag641_SK_641__Jager is TDeckCombatGroupDe
             Name = "TITROSMLGO"
             PackIndexUnitNumberList =
             [
-                (109,6),
+                (103,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -59046,9 +59010,9 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag641_SK_641__Jager is TDeckCombatGroupDe
             Name = "MWJSCBUHBX"
             PackIndexUnitNumberList =
             [
-                (115,1),
-                (116,1),
-                (117,1),
+                (109,1),
+                (110,1),
+                (111,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -59057,8 +59021,9 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag641_SK_641__Jager is TDeckCombatGroupDe
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (118,4),
-                (122,4),
+                (112,4),
+                (116,4),
+                (120,6),
             ]
         ),
     ]
@@ -59303,18 +59268,10 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag642_SK_642__Jager is TDeckCombatGroupDe
         ),
         TDeckSmartGroupDescriptor
         (
-            Name = "ZTPBUGJUXO"
-            PackIndexUnitNumberList =
-            [
-                (74,6),
-            ]
-        ),
-        TDeckSmartGroupDescriptor
-        (
             Name = "EHFLKHNINV"
             PackIndexUnitNumberList =
             [
-                (80,10),
+                (74,10),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -59322,7 +59279,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag642_SK_642__Jager is TDeckCombatGroupDe
             Name = "CSIQEZOPNV"
             PackIndexUnitNumberList =
             [
-                (90,7),
+                (84,7),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -59330,7 +59287,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag642_SK_642__Jager is TDeckCombatGroupDe
             Name = "CRZZFDSKKL"
             PackIndexUnitNumberList =
             [
-                (97,12),
+                (91,12),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -59338,7 +59295,7 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag642_SK_642__Jager is TDeckCombatGroupDe
             Name = "TITROSMLGO"
             PackIndexUnitNumberList =
             [
-                (109,6),
+                (103,6),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -59346,9 +59303,9 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag642_SK_642__Jager is TDeckCombatGroupDe
             Name = "MWJSCBUHBX"
             PackIndexUnitNumberList =
             [
-                (115,1),
-                (116,1),
-                (117,1),
+                (109,1),
+                (110,1),
+                (111,1),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -59357,8 +59314,9 @@ Descriptor_CombatGroup_pion_RFA_TKSud_Jag642_SK_642__Jager is TDeckCombatGroupDe
             IsHQ = True
             PackIndexUnitNumberList =
             [
-                (118,4),
-                (122,4),
+                (112,4),
+                (116,4),
+                (120,6),
             ]
         ),
     ]
@@ -82867,6 +82825,7 @@ Descriptor_CombatGroup_pion_SOV_294ORAP_II__294_y_ORAP is TDeckCombatGroupDescri
             PackIndexUnitNumberList =
             [
                 (6,2),
+                (8,2),
             ]
         ),
     ]
@@ -82882,7 +82841,7 @@ Descriptor_CombatGroup_pion_SOV_294ORAP_I__294_y_ORAP is TDeckCombatGroupDescrip
             Name = "RAXOOHABIW"
             PackIndexUnitNumberList =
             [
-                (8,2),
+                (10,2),
             ]
         ),
         TDeckSmartGroupDescriptor
@@ -82890,7 +82849,8 @@ Descriptor_CombatGroup_pion_SOV_294ORAP_I__294_y_ORAP is TDeckCombatGroupDescrip
             Name = "OSJMHBATBG"
             PackIndexUnitNumberList =
             [
-                (10,2),
+                (12,2),
+                (14,2),
             ]
         ),
     ]

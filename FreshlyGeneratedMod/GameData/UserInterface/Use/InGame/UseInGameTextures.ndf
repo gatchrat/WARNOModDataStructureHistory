@@ -203,6 +203,9 @@ UseInGame_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("icone_reserviste",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/reserviste.png' )), ] ),
         ("icone_sniper",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/sniper.png' )), ] ),
         ("icone_sniper_off",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/sniper_off.png' )), ] ),
+        ("icone_sigint_close",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/sigint_close.png' )), ] ),
+        ("icone_sigint_far",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/sigint_far.png' )), ] ),
+        ("icone_fireDirection",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/firedirection.png' )), ] ),
 
         ("icone_panne",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/UseInGame/Icones/panne.png' )), ] ),
 
