@@ -15,10 +15,6 @@ template BUCKZoomableContentDescriptor
 
     GridAlign : bool = false,
 
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
-
     ChildFitToContent : bool = false,
 
     HasBackground : bool = false,
@@ -52,10 +48,6 @@ is TBUCKZoomableContentDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = ~/ContainerFitStyle/None
     ChildFitToContent = <ChildFitToContent>
@@ -99,10 +91,6 @@ template BUCKNonZoomableContentDescriptor
 
     GridAlign : bool = false,
 
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
-
     ChildFitToContent : bool = false,
 
     HasBackground : bool = false,
@@ -136,10 +124,6 @@ is TBUCKNonZoomableContentDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = ~/ContainerFitStyle/None
     ChildFitToContent = <ChildFitToContent>
@@ -183,10 +167,6 @@ template BUCKZoomableContainerDescriptor
 
     GridAlign : bool = false,
 
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
-
     ChildFitToContent : bool = false,
 
     HasBackground : bool = false,
@@ -226,10 +206,6 @@ is TBUCKZoomableContainerDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = ~/ContainerFitStyle/None
     ChildFitToContent = <ChildFitToContent>

@@ -412,10 +412,6 @@ template BUCKCheckBoxListDescriptor
 
     GridAlign : bool = false,
 
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
-
     FitStyle : int = ~/ContainerFitStyle/FitToContent,
     ChildFitToContent : bool = false,
 
@@ -482,10 +478,6 @@ is TBUCKCheckBoxListDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = <FitStyle>
     ChildFitToContent = <ChildFitToContent>

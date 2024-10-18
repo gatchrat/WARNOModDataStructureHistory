@@ -469,6 +469,8 @@ DepictionOperator_Feedback_Degat_Level1 is TCosmeticDegatFXOperatorDesc( FXKey1N
 DepictionOperator_Feedback_Degat_Level2 is TCosmeticDegatFXOperatorDesc( FXKey1Name = 'Stress_' FXKey2Name = 'fumee_noire' FXBoxCount = 2 Scale = 1 DamageRatioOverride = 0.75)
 DepictionOperator_CriticalEffects is TCosmeticCriticalEffectsOperatorDescriptor()
 DepictionOperator_HelicopterLanding is TCosmeticHelicopterLandingOperatorDesc()
+DepictionOperator_SoundProbe is TCosmeticSoundProbeOperatorDesc()
+DepictionOperator_AlwaysAliveSoundProbe is TCosmeticSoundProbeOperatorDesc(AlwaysAlive = true)
 
 DepictionOperator_EjectableProps_Vehicle is TCosmeticEjectablePropsOnDamageOrExplosionOperatorDesc
 (

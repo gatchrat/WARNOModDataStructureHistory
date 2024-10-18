@@ -48,8 +48,8 @@ export colonelArtilleryCounterBatteryDescriptor is TMacroActionDescriptor_Artill
     ParametresDeMission =
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
-        TArtilleryPositionningSettingHolder(ArtilleryPositionOffset = 10000 * Metre),
-        TMacroActionProductionSettingHolder(PoolModelList = [] DistanceToOptimumStartDuringDeployment = 3000*Metre),
+        TArtilleryPositionningSettingHolder(ArtilleryPositionOffsetGRU = 3534),
+        TMacroActionProductionSettingHolder(PoolModelList = [] DistanceToOptimumStartDuringDeploymentGRU = 1060),
         TMacroActionLifetimeSettingHolder(MaintainForever = true), //IMPORTANT
         TArtilleryPlayerMissionSettingHolder(
             AuthorizedTargetTags = ["Artillerie_MLRS", "Artillerie_Longue_Portee", "Artillerie_Courte_Portee"] TargetFilter = ETargetFilter_HasShot MaxDurationForTargetValidity = 60 MinDurationForTargetValidity = 2),
@@ -63,8 +63,8 @@ export colonelArtilleryDescriptor is TMacroActionDescriptor_Artillery_PlayerMiss
     ParametresDeMission =
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
-        TArtilleryPositionningSettingHolder(ArtilleryPositionOffset = 10000 * Metre),
-        TMacroActionProductionSettingHolder(PoolModelList = [] DistanceToOptimumStartDuringDeployment = 3000*Metre),
+        TArtilleryPositionningSettingHolder(ArtilleryPositionOffsetGRU = 3534),
+        TMacroActionProductionSettingHolder(PoolModelList = [] DistanceToOptimumStartDuringDeploymentGRU = 1060),
         TMacroActionLifetimeSettingHolder(MaintainForever = true), //IMPORTANT
         TArtilleryPlayerMissionSettingHolder(AuthorizedTargetTags = ["AllUnits"] TargetFilter = ETargetFilter_UnitSeen MinDurationForTargetValidity = 5),
         TArtilleryStrikeSettingHolder(SupportStrikeRatio = 0.3 DelaytBetweenTargetDeathAndNewStrike = 3),
@@ -296,7 +296,7 @@ export PlayerMissionDescriptorList is TPlayerMissionConstantesDescriptor
         ),
     ]
 
-    MaxCustomZoneDistanceForSimilar = 830.0 * Metre
+    MaxCustomZoneDistanceForSimilarGRU = 293
 )
 ///////////////////////////////////////////////////////////////////////////////////////////
 // FEEDBACK

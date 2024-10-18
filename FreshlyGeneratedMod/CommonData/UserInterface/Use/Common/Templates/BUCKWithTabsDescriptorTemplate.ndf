@@ -14,10 +14,6 @@ template BUCKOneTabDescriptor
 
     GridAlign : bool = false,
 
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
-
     FitStyle : int = ~/ContainerFitStyle/None,
     ChildFitToContent : bool = false,
 
@@ -76,10 +72,6 @@ is TBUCKOneTabDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = <FitStyle>
     ChildFitToContent = <ChildFitToContent>
@@ -146,10 +138,6 @@ template BUCKWithTabsDescriptor
 
     GridAlign : bool = false,
 
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
-
     FitStyle : int = ~/ContainerFitStyle/None,
     ChildFitToContent : bool = false,
 
@@ -175,7 +163,7 @@ template BUCKWithTabsDescriptor
     CanReselectTabs : bool = false,                                                   // Permet de déclencher les events OnTabSelected lorsqu'on re-sélectionne l'onglet actuel
     CannotDeselectTabs : bool = true,                                                 // Permet d'empêcher la déselection des tabs (Vrai par défaut)
 
-    InterMarginBetwwenTabsAndContent : TRTTILength = TRTTILength(),                   // Défini l'écartement entre les tabs et le contenu
+    InterMarginBetweenTabsAndContent : TRTTILength = TRTTILength(),                   // Défini l'écartement entre les tabs et le contenu
     TabsAndContent : LIST<PAIR<TBUCKOneTabDescriptor,TBUCKContainerDescriptor>> = [], // Liste de PAIR des onglets->contenu associé
 
     TabsListBackgroundColorToken : string = "",                                       // Donne un background a la ligne des tabs
@@ -201,10 +189,6 @@ is TBUCKWithTabsDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = <FitStyle>
     ChildFitToContent = <ChildFitToContent>
@@ -244,7 +228,7 @@ is TBUCKWithTabsDescriptor
                 RelativeWidthHeight = (<Axis> == ~/ListAxis/Horizontal ? [1.0, 0.0] : [0.0, 1.0])
             )
 
-            InterItemMargin = <InterMarginBetwwenTabsAndContent>
+            InterItemMargin = <InterMarginBetweenTabsAndContent>
 
             Axis = (<Axis> == ~/ListAxis/Horizontal ? ~/ListAxis/Vertical : ~/ListAxis/Horizontal)
 

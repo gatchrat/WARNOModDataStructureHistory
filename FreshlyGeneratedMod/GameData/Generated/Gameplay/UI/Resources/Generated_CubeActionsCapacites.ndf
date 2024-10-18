@@ -346,22 +346,6 @@ CubeAction_Capacity_Regen_suppress_xp_3 is TCubeActionCapacityButtonInformations
     Descriptor                   = $/GFX/EffectCapacity/Capacite_Regen_suppress_xp_3
 )
 
-CubeAction_Capacity_Suicide_SurCetteCibleEnnemie is TCubeActionCapacityButtonInformationsDescriptor
-(
-    CubeActionName               = "CubeAction_Capacity_Suicide_SurCetteCibleEnnemie"
-    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
-    BackgroundTexture            = "Texture_Button_Capacity_Suicide_SurCetteCibleEnnemie"
-    HoverSound                   = CubeActionButtonHoverSound_IfEnabled
-    ClickSound                   = CubeActionButtonClickSound_IfEnabled
-    ButtonTextToken              = "ht_kamikaz"
-    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
-    HintTitleToken               = "ht_kamikaz"
-    HintBodyToken                = "hd_kamikaz"
-    HintExtendedToken            = ""
-    Descriptor                   = $/GFX/EffectCapacity/Capacite_Suicide_SurCetteCibleEnnemie
-    Mapping                      = $/KeyboardOption/Mapping_Movedie
-)
-
 CubeAction_Capacity_Suicide_SurCettePosition is TCubeActionCapacityButtonInformationsDescriptor
 (
     CubeActionName               = "CubeAction_Capacity_Suicide_SurCettePosition"

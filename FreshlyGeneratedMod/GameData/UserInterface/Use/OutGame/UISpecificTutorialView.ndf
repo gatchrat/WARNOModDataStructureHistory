@@ -719,7 +719,8 @@ BUCKSpecificTutorialMainComponentDescriptor is WindowFrame
             )
 
             TriggerWhenSetVisible = true
-            AnimationTotalDuration = 0.15
+            AnimationTotalDuration = 0.3
+            AnimationModificator = ~/AnimModificator/SquareDecelerate
 
             FramePropertyAfterAnimation = TUIFramePropertyRTTI
             (

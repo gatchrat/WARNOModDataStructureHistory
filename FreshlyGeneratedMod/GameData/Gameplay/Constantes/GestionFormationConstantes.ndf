@@ -73,7 +73,7 @@ export FormationConstantes is TFormationConstantes
     UnitFormationDescriptor = FormationResource
     UnitDeploymentFormationDescriptor = DeploymentFormationResource
 
-    DistanceMaintienClicPourDeplacementGhost = 1 * Metre
+    DistanceMaintienClicPourDeplacementGhostGRU = 1
 
     // -----------------------------------------------------------------------
     // Réglage de la distance max. de snap des destinations lors du mouvement.
@@ -83,5 +83,5 @@ export FormationConstantes is TFormationConstantes
     // Les croix blanches sont les positions considérées et la croix verte est la position choisie parmi celles-ci.
     // Les distances sont en mètre RTS
 
-    SnapToFavorableTerrainRadius = 100 * Metre
+    SnapToFavorableTerrainRadiusGRU = 35
 )

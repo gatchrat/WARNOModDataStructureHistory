@@ -177,6 +177,7 @@ Base_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Trait_Icon_remote",                          MAP [(~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/Common/traits/remote.png' )), ] ),
         ("Texture_Trait_Icon_tandem",                          MAP [(~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/Common/traits/tandem.png' )), ] ),
         ("Texture_Trait_Icon_OTA",                          MAP [(~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/Common/traits/OTA.png' )), ] ),
+        ("Texture_Trait_Icon_thermobaric",                          MAP [(~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/Common/traits/thermobaric.png' )), ] ),
 
         ("Texture_TraitUni_Icon_half",                          MAP [(~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/Common/traits/half.png' )), ] ),
         ("Texture_TraitUni_Icon_para",                          MAP [(~/ComponentState/Normal, TUIResourceTexture_Common( FileName='GameData:/Assets/2D/Interface/Common/traits/para.png' )), ] ),

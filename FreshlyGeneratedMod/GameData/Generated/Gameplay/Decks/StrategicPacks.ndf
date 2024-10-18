@@ -4034,6 +4034,18 @@ Descriptor_StrategicPack_MiG_23P_SOV_2 is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_MiG_23P_SOV
 )
 
+Descriptor_StrategicPack_MiG_25RBF_SOV_2 is DeckPackDescriptor
+(
+    Xp = 2
+    Unit = $/GFX/Unit/Descriptor_Unit_MiG_25RBF_SOV
+)
+
+Descriptor_StrategicPack_MiG_25BM_SOV_2 is DeckPackDescriptor
+(
+    Xp = 2
+    Unit = $/GFX/Unit/Descriptor_Unit_MiG_25BM_SOV
+)
+
 Descriptor_StrategicPack_T80BV_Beast_SOV_1 is DeckPackDescriptor
 (
     Xp = 1
@@ -4422,18 +4434,6 @@ Descriptor_StrategicPack_TOS1_Buratino_SOV_1 is DeckPackDescriptor
 (
     Xp = 1
     Unit = $/GFX/Unit/Descriptor_Unit_TOS1_Buratino_SOV
-)
-
-Descriptor_StrategicPack_MiG_25BM_SOV_2 is DeckPackDescriptor
-(
-    Xp = 2
-    Unit = $/GFX/Unit/Descriptor_Unit_MiG_25BM_SOV
-)
-
-Descriptor_StrategicPack_MiG_25RBF_SOV_2 is DeckPackDescriptor
-(
-    Xp = 2
-    Unit = $/GFX/Unit/Descriptor_Unit_MiG_25RBF_SOV
 )
 
 Descriptor_StrategicPack_BMP_2_SOV_MotRifles_CMD_SOV_1 is DeckPackDescriptor

@@ -6,26 +6,26 @@ export DepictionOperator_TurretSound_ST_AMX_10RC is TCosmeticTurretSoundOperator
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_AMX_10RC.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_AMX_10RC.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_AMX10RC.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_AMX10RC.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_AMX10RC.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_AMX10RC.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -35,26 +35,26 @@ export DepictionOperator_TurretSound_ST_AMX_AuF1 is TCosmeticTurretSoundOperator
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_AMX_AuF1.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_AMX_AuF1.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_MLRS.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_MLRS.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_MLRS.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_MLRS.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -64,18 +64,18 @@ export DepictionOperator_TurretSound_ST_Artillerie_US is TCosmeticTurretSoundOpe
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_Artillerie.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_Artillerie.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_Artillerie.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_Artillerie.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -85,26 +85,26 @@ export DepictionOperator_TurretSound_ST_BMP is TCosmeticTurretSoundOperatorDesc
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_BMP.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_BMP.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_BMP.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_BMP.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_BMP.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_BMP.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -114,26 +114,26 @@ export DepictionOperator_TurretSound_ST_BUK_SOVIET is TCosmeticTurretSoundOperat
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_BUK_SOVIET.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_BUK_SOVIET.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_BUK_SOVIET.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_BUK_SOVIET.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_BUK_SOVIET.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_BUK_SOVIET.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -143,26 +143,26 @@ export DepictionOperator_TurretSound_ST_Bradley is TCosmeticTurretSoundOperatorD
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_Bradley.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_Bradley.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_Bradley.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_Bradley.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_Bradley.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_Bradley.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -172,26 +172,26 @@ export DepictionOperator_TurretSound_ST_Challenger is TCosmeticTurretSoundOperat
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_Challenger.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_Challenger.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_Challenger.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_Challenger.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_Challenger.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_Challenger.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -201,26 +201,26 @@ export DepictionOperator_TurretSound_ST_LARS is TCosmeticTurretSoundOperatorDesc
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_LARS.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_LARS.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_LARS.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_LARS.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_LARS.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_LARS.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -230,26 +230,26 @@ export DepictionOperator_TurretSound_ST_Leopard is TCosmeticTurretSoundOperatorD
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_Leopard.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_Leopard.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_Leopard.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_Leopard.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_Leopard.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_Leopard.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -259,26 +259,26 @@ export DepictionOperator_TurretSound_ST_Luchs is TCosmeticTurretSoundOperatorDes
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_Luchs.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_Luchs.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_Luchs.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_Luchs.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_Luchs.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_Luchs.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -288,26 +288,26 @@ export DepictionOperator_TurretSound_ST_M1 is TCosmeticTurretSoundOperatorDesc
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_M1_Abrams.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_M1_Abrams.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_M1_Abrams.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_M1_Abrams.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_M1_Abrams.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_M1_Abrams.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -317,18 +317,18 @@ export DepictionOperator_TurretSound_ST_M60_Patton is TCosmeticTurretSoundOperat
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_M60_Patton.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_M60_Patton.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_M60.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_M60.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -338,26 +338,26 @@ export DepictionOperator_TurretSound_ST_MLRS_US is TCosmeticTurretSoundOperatorD
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_MLRS.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_MLRS.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_MLRS.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_MLRS.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_MLRS.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_MLRS.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -367,26 +367,26 @@ export DepictionOperator_TurretSound_ST_SAM_SOVIET is TCosmeticTurretSoundOperat
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_SAM_SOVIET.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_SAM_SOVIET.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_SAM_SOVIET.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_SAM_SOVIET.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_SAM_SOVIET.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_SAM_SOVIET.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -396,26 +396,26 @@ export DepictionOperator_TurretSound_ST_SAM_US is TCosmeticTurretSoundOperatorDe
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_SAM_US.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_SAM_US.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_SAM_US.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_SAM_US.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_SAM_US.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_SAM_US.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -425,26 +425,26 @@ export DepictionOperator_TurretSound_ST_T64_T72_T80 is TCosmeticTurretSoundOpera
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_T64_T72_T80.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_T64_T72_T80.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_T80.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_T80.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_T80.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_T80.wav"
         )
     )
     TurretAxisName = "tourelle1"
@@ -454,32 +454,27 @@ export DepictionOperator_TurretSound_ST_TOS is TCosmeticTurretSoundOperatorDesc
     OperatorId = "turretSound"
     RotateSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_TOS.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_TOS.wav"
         )
     )
     StartSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_START_T80.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_START_T80.wav"
         )
     )
     StopSound = TSoundDescriptor
     (
-        SoundSettings = $/SoundSettings/SFX_SoundSettings_Tourelles
+        SoundSettings = $/SoundSettings/SoundSettings_Tourelles
         TheSoundStream = TSoundStream
         (
-            FileName = "GameData:/Assets/Sons/SFX/Tourelles/Tourelle_Rotation_STOP_T80.wav"
+            FileName = "GameData:/Assets/Sounds/SFX/Tourelles/Tourelle_Rotation_STOP_T80.wav"
         )
     )
-    TurretAxisName = "tourelle1"
-)
-export DepictionOperator_TurretSound_ST_Tourelle is TCosmeticTurretSoundOperatorDesc
-(
-    OperatorId = "turretSound"
     TurretAxisName = "tourelle1"
 )

@@ -220,6 +220,15 @@ UnitTraits is TUnitTraitsContainer
             )
         ),
         (
+            "thermobaric",
+            TUnitTraitDescriptor
+            (
+                TraitTextureName       = "Texture_Trait_Icon_thermobaric"
+                TraitHintTitleToken    = "PESOLAOLMA"
+                TraitHintBodyToken     = "YUBPNRZZTE"
+            )
+        ),
+        (
             "tripod",
             TUnitTraitDescriptor
             (

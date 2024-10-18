@@ -443,6 +443,7 @@ private PrivacyPoliciesScrollingDescriptor is BUCKContainerDescriptor
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     RelativeWidthHeight = [1.0, 0.0]
+                    MagnifiableWidthHeight = [ -15.0, 0.0 ]
                 )
 
                 Axis = ~/ListAxis/Vertical
@@ -801,6 +802,7 @@ ConfigPanelTabsComponent is BUCKContainerDescriptor
                 MagnifiableWidthHeight = [1161,692-25]
                 MagnifiableOffset = [638,275-13+26]
             )
+            InterMarginBetweenTabsAndContent = TRTTILength(Magnifiable = 40.0)
 
             TabsAndContent =
             [

@@ -140,6 +140,7 @@ template BUCKSpecific_Fulda_WithTabsComponentDescriptor
     HasBackground : bool = false,
     BackgroundBlockColorToken : string = "",
     HidePointerEvents : bool = false,
+    InterMarginBetweenTabsAndContent : TRTTILength = TRTTILength(Magnifiable = 0.0),
 
     FitStyle : int = ~/ContainerFitStyle/None,
     TabsAndContent : LIST<PAIR<TBUCKOneTabDescriptor, TBUCKContainerDescriptor>> = [],
@@ -160,7 +161,7 @@ is BUCKWithTabsDescriptor
     BackgroundBlockColorToken = <BackgroundBlockColorToken>
 
     HidePointerEvents = <HidePointerEvents>
-    InterMarginBetwwenTabsAndContent = TRTTILength(Magnifiable = 51.0)
+    InterMarginBetweenTabsAndContent = <InterMarginBetweenTabsAndContent>
     FitStyle = <FitStyle>
 
     TabsAndContent = <TabsAndContent>

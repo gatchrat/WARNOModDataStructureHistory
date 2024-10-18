@@ -29,10 +29,6 @@ template BUCKContainerDescriptor
 
     GridAlign : bool = false,                                           // Clampe la box du composant au pixel le plus proche (enlève les décimales à la placement box)
 
-    IsDroppable : bool = false,                                         // Rends le composant réactif au Drag and Drop
-    BorderForDropLineColor : string = "",                               // Token de couleur pour le bord du composant lorsqu'on peut dropper dessus
-    BorderForDropLineThicknessToken : string = "",                      // Token de taille pour le bord du composant lorsqu'on peut dropper dessus
-
     FitStyle : int = ~/ContainerFitStyle/None,                          // Permet d'adapter la taille du composant a son fils (s'il est seul) ou à celui désigné par ChildFitToContent
     ChildFitToContent : bool = false,                                   // Permet de désigner le fils auquel s'adapter pour le FitStyle
 
@@ -69,10 +65,6 @@ is TBUCKContainerDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = <FitStyle>
     ChildFitToContent = <ChildFitToContent>

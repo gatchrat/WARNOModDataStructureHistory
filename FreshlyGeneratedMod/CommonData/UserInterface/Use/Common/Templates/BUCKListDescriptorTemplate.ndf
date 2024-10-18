@@ -47,10 +47,6 @@ is TBUCKListElementDescriptor
 
     GridAlign = false
 
-    IsDroppable = false
-    BorderForDropLineColor = ""
-    BorderForDropLineThicknessToken = ""
-
     FitStyle = ~/ContainerFitStyle/None
     ChildFitToContent = false
 
@@ -100,10 +96,6 @@ template BUCKListDescriptor
     HidePointerEvents : bool = false,
 
     GridAlign : bool = false,
-
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
 
     FitStyle : int = ~/ContainerFitStyle/None,
     ChildFitToContent : bool = false,
@@ -156,10 +148,6 @@ is TBUCKListDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = <FitStyle>
     ChildFitToContent = <ChildFitToContent>

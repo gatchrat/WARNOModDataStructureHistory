@@ -17,12 +17,12 @@ is TMacroActionDescriptor_Artillery_Specific
     ParametresDeMission =
     [
         <GenerationSettingHolder>,
-        TArtilleryPositionningSettingHolder(SupportPointSafetyMargin = 1 ArtilleryPositionOffset = 12500 * Metre ArtilleryUpdateOffset = 3750 * Metre),
+        TArtilleryPositionningSettingHolder(SupportPointSafetyMargin = 1 ArtilleryPositionOffsetGRU = 4417 ArtilleryUpdateOffsetGRU = 1325),
         TArtilleryThreatPerSplashSettingHolder(MinimumThreatPerSplashForKill = 30 MinimumThreatPerSplashForSupport = 20 ),
         TArtilleryThreatPerSplashSettingHolder(DifficultyList = [IADifficulty/TresDifficile] MinimumThreatPerSplashForKill = 20 MinimumThreatPerSplashForSupport = 10),
         TArtilleryMoveOutThreatSettingHolder(ThreatThresholdValue = 10 MoveOutThreatProbability = 0.1),
         TArtilleryMoveOutThreatSettingHolder(DifficultyList = [IADifficulty/TresDifficile] ThreatThresholdValue = 10 MoveOutThreatProbability = 1),
-        TMacroActionProductionSettingHolder(PoolModelList = <PoolModelList> DistanceToOptimumStartDuringDeployment = 3000*Metre),
+        TMacroActionProductionSettingHolder(PoolModelList = <PoolModelList> DistanceToOptimumStartDuringDeploymentGRU = 1060),
         TArtilleryStrikeSettingHolder(
             SupportStrikeRatio = 0.5
             ArtilleryStrikeThreatBonusPerTags =
@@ -62,10 +62,10 @@ export Artillery_Sniper is TMacroActionDescriptor_Artillery_Specific
     ParametresDeMission =
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
-        TArtilleryPositionningSettingHolder(SupportPointSafetyMargin = 1 ArtilleryPositionOffset = 6000 * Metre ArtilleryUpdateOffset = 0 * Metre),
+        TArtilleryPositionningSettingHolder(SupportPointSafetyMargin = 1 ArtilleryPositionOffsetGRU = 2120 ArtilleryUpdateOffsetGRU = 0),
         TArtilleryThreatPerSplashSettingHolder(MinimumThreatPerSplashForKill = 50 MinimumThreatPerSplashForSupport = 75),
         TArtilleryMoveOutThreatSettingHolder(ThreatThresholdValue = 10 MoveOutThreatProbability = 0.03 ), // 50% à 17s
-        TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [~/Pool_Artillery_Sniper] DistanceToOptimumStartDuringDeployment = 3000*Metre),
+        TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [~/Pool_Artillery_Sniper] DistanceToOptimumStartDuringDeploymentGRU = 1060),
         TArtilleryStrikeSettingHolder(
             ArtilleryStrikeThreatBonusPerTags =
             [
@@ -101,7 +101,7 @@ export Artillery_Support is TMacroActionDescriptor_Artillery_Specific
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
         TCoordinationSettingHolder(CoordinationType = ESupportingStatus/IsSupport),
-        TArtilleryPositionningSettingHolder(SupportPointSafetyMargin = 1 ArtilleryPositionOffset = 10000 * Metre ArtilleryUpdateOffset = 3750 * Metre),
+        TArtilleryPositionningSettingHolder(SupportPointSafetyMargin = 1 ArtilleryPositionOffsetGRU = 3534 ArtilleryUpdateOffsetGRU = 1325),
         TArtilleryThreatPerSplashSettingHolder(MinimumThreatPerSplashForKill = 20  MinimumThreatPerSplashForSupport = 15 ),
                 TArtilleryThreatPerSplashSettingHolder(DifficultyList = [IADifficulty/TresDifficile] MinimumThreatPerSplashForKill = 15 MinimumThreatPerSplashForSupport = 10),
         TArtilleryMoveOutThreatSettingHolder(ThreatThresholdValue = 10 MoveOutThreatProbability = 0.1),
@@ -122,7 +122,7 @@ export Artillery_Support is TMacroActionDescriptor_Artillery_Specific
             ]
         ),
 
-        TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Artillery_Support] DistanceToOptimumStartDuringDeployment = 3000*Metre),
+        TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Artillery_Support] DistanceToOptimumStartDuringDeploymentGRU = 1060),
     ]
 )
 //-------------------------------------------------------------------------
@@ -135,12 +135,12 @@ is TMacroActionDescriptor_Artillery_Specific
     ParametresDeMission =
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
-        TArtilleryPositionningSettingHolder(SupportPointSafetyMargin = 1 ArtilleryPositionOffset = 6000 * Metre ArtilleryUpdateOffset = 0 * Metre),
+        TArtilleryPositionningSettingHolder(SupportPointSafetyMargin = 1 ArtilleryPositionOffsetGRU = 2120 ArtilleryUpdateOffsetGRU = 0),
         TArtilleryThreatPerSplashSettingHolder(MinimumThreatPerSplashForKill = 55 MinimumThreatPerSplashForSupport = 999),
         TArtilleryMoveOutThreatSettingHolder(ThreatThresholdValue = 10 MoveOutThreatProbability = 0.1),
         TArtilleryMoveOutThreatSettingHolder(DifficultyList = [IADifficulty/TresDifficile] ThreatThresholdValue = 10 MoveOutThreatProbability = 1),
 
-        TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Artillery_Expensive] ProdProperties = [TProdProperty_LaunchAsSoonAsPossible]DistanceToOptimumStartDuringDeployment = 3000*Metre),
+        TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Artillery_Expensive] ProdProperties = [TProdProperty_LaunchAsSoonAsPossible]DistanceToOptimumStartDuringDeploymentGRU = 1060),
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
 
         TArtilleryStrikeSettingHolder(

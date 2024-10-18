@@ -59,7 +59,9 @@ template AnimationPanelUnitInfos
     FramePropertyBeforeAnimation = <FramePropertyBeforeAnimation>
 
     TriggerWhenSetVisible = true
-    AnimationTotalDuration = 0.10
+    AnimationTotalDuration = 0.25
+    AnimationModificator = ~/AnimModificator/CubicStep
+    AnimationModificatorParameters = [0.0, 1.0]
 
     FramePropertyAfterAnimation = <FramePropertyAfterAnimation>
 

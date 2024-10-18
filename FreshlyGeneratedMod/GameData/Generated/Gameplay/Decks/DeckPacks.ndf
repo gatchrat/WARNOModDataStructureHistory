@@ -1398,9 +1398,9 @@ Descriptor_Deck_Pack_Engineers_Flam_DDR_BTR_70_DDR_0 is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_Engineers_Flam_DDR
 )
 
-Descriptor_Deck_Pack_Engineers_Flam_RFA_TPZ_Fuchs_MILAN_RFA_0 is DeckPackDescriptor
+Descriptor_Deck_Pack_Engineers_Flam_RFA_TPZ_Fuchs_1_RFA_0 is DeckPackDescriptor
 (
-    Transport = $/GFX/Unit/Descriptor_Unit_TPZ_Fuchs_MILAN_RFA
+    Transport = $/GFX/Unit/Descriptor_Unit_TPZ_Fuchs_1_RFA
     Unit = $/GFX/Unit/Descriptor_Unit_Engineers_Flam_RFA
 )
 

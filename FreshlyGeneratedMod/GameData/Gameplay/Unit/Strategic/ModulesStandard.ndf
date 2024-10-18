@@ -26,7 +26,6 @@ PawnPositionModuleDescriptor is TPositionModuleDescriptor
 
 StrategicStateEngineModuleDescriptor is TStateEngineUnitModuleDescriptor
 (
-    StateEngineUpdateMode = WorldControllerAccess_InWorld
 )
 
 StrategicIdleStatusModuleDescriptor is TStrategicIdleStatusModuleDescriptor

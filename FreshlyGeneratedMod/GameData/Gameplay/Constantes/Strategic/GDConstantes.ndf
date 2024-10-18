@@ -1,4 +1,4 @@
-ZocRadius is 1.9 * 500 * Metre
+ZocRadiusGRU is 1.9 * ~/ActionPointConsumptionRefs/CaseSizeGRU
 
 StrategicConstantes is TStrategicTunableConstante
 (
@@ -6,7 +6,7 @@ StrategicConstantes is TStrategicTunableConstante
 
     PawnSpeedModifier = 5.0
     MovementSmoothingMaxAngle = 45. // entre 10° (si vraiment besoin de moins, venir en discuter avec un dev) et 180° (équivaut à "pas d'angle max")
-    MaxSubMovementLength = 1 * ~/ActionPointConsumptionRefs/CaseSize
+    MaxSubMovementLengthGRU = 1 * ~/ActionPointConsumptionRefs/CaseSizeGRU
 
     FatigueLossOnNextTurn = ~/StrategicFatigueLossOnNextTurn
     EmptyActionPointsOnMaxFatigueRout = ~/StrategicEmptyActionPointsOnMaxFatigueRout
@@ -18,10 +18,30 @@ StrategicConstantes is TStrategicTunableConstante
     NbActionPointsNeededToFight = 4 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
     NbActionPointsNeededToFightForAirplane = 4 //Nombre de PA nécessaire pour participer à une bataille une fois sur place
 
+    // Nombre d'AP à garder après un déplacement pour les briques de Move&Attack/defend et pour l'IA
+    NbApToKeepAfterMoveWithTargetForBattleRoleGRU = MAP
+    [
+        (EStrategicBattleRole/GroundSupport,
+            [
+                (3, 707),
+            ]
+        ),
+        (EStrategicBattleRole/Fighter,
+            [
+                (4, 530),
+            ]
+        ),
+        (EStrategicBattleRole/AuxiliarySupport,
+            [
+                (4, 707),
+            ]
+        )
+    ]
+
     // Zocs et fuite
-    ConflictingUnitRadius = ZocRadius   //Taille de la ZOC des unités.
-    EnemiesDisableSpawnRadius = 1 * ~/ActionPointConsumptionRefs/CaseSize    //Taille du rayon qui desactive les point de renfort
-    EnemiesCaptureAirportRadius = 0 // * ~/ActionPointConsumptionRefs/CaseSize        //Taille du rayon qui capture les aéroports
+    ConflictingUnitRadiusGRU = ZocRadiusGRU   //Taille de la ZOC des unités.
+    EnemiesDisableSpawnRadiusGRU = 1 * ~/ActionPointConsumptionRefs/CaseSizeGRU    //Taille du rayon qui desactive les point de renfort
+    EnemiesCaptureAirportRadiusGRU = 0 //Taille du rayon qui capture les aéroports
     DisableGroundZocsWhenNoAP = false
     DisableMoveOrderOnDisabledZocs = false
     FleeToAlliesIfPossible = true
@@ -31,7 +51,7 @@ StrategicConstantes is TStrategicTunableConstante
 
     //----------
     // Airports
-    AirportSlotsRadius = 200 * Metre // Le rayon de base autour de l'aéroport sur lequel se placent les avions
+    AirportSlotsRadiusGRU = 71 // Le rayon de base autour de l'aéroport sur lequel se placent les avions
     NumberOfAerialUnitsPerRadius = 4 // Le nombre d'avions par rayon
     AlignAirplaneInAirportOnGrid = true
 
@@ -57,7 +77,7 @@ StrategicConstantes is TStrategicTunableConstante
     TextFeedbackDurationMin = 4
     TextFeedbackDurationMax = 4
 
-    UnitsToKilometersMultiplier = 0.000004 * Metre //000008
+    UnitsToKilometersMultiplierGRU = 0.000001413
 
     ShowDeathTextFeedback = false
 
@@ -72,7 +92,7 @@ StrategicConstantes is TStrategicTunableConstante
 
     SteelmanCombatFX = $/GFX/GameFx/FX_Steelman_Combat_Binder
     SteelmanFxDuration = 1
-    SteelmanCombatSound = $/VFX_Bank/SFX_Steelman_Combat_Sound
+    SteelmanCombatSound = $/SoundDescriptors/Sound_Steelman_NATO_Combat
     SteelmanAirCombatFX = $/GFX/GameFx/FX_Steelman_Combat_Interception_Binder
     SteelmanAirCombatFxDuration = 2.5 // seconds
     SteelmanAirCombatSound = $/VFX_Bank/SFX_Steelman_Combat_Air_Air_Sound
@@ -146,9 +166,9 @@ StrategicConstantes is TStrategicTunableConstante
     ]
 
     // Production des renforts
-    ReinforcementSnapCursorRadius = 1200 * Metre
-    ReinforcementSpawnNoAlliesRadius = 0.5 * ~/ActionPointConsumptionRefs/CaseSize //Impossible de spawn dans la case d'un allié
-    ReinforcementSpawnNoEnemiesRadius = ZocRadius + 500 * Metre //Impossible de spawn dans la ZoC d'un ennemi + 1 case
+    ReinforcementSnapCursorRadiusGRU = 424
+    ReinforcementSpawnNoAlliesRadiusGRU = 0.5 * ~/ActionPointConsumptionRefs/CaseSizeGRU //Impossible de spawn dans la case d'un allié
+    ReinforcementSpawnNoEnemiesRadiusGRU = ZocRadiusGRU + 177 //Impossible de spawn dans la ZoC d'un ennemi + 1 case
     ReinforcementSpawnStandardForbiddenTerrainMask = ~/ETerrainType/EauPeuProfonde
     ReinforcementSpawnAirborneForbiddenTerrainMask = ~/ETerrainType/EauPeuProfonde // Modifier PLACE_AIRB dans INTERFACE_INGAME.csv si la règle change
 

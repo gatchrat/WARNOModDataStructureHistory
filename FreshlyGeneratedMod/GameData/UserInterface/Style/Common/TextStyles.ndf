@@ -311,3 +311,12 @@ TextStyle_EGWin2 is TTextStyle
     TextThickness = 0.38
     FontSize = 1
 )
+
+TextStyleUpperCase is TTextStyle
+(
+    ColorBottom = [  0,  0,  0,  0]
+    ColorUp     = [  0,  0,  0,  0]
+    ColorStroke = [  0,  0,  0,  0]
+    FontSize = 1.0
+    UpperCase = true
+)

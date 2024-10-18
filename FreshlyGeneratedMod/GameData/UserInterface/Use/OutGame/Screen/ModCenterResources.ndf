@@ -212,16 +212,16 @@ ModResource is TUISpecificOutGameModResource
             "OutgameTexture_Mod_Interface"
         ),
         (
+            "Maps",
+            "OutgameTexture_Mod_Maps"
+        ),
+        (
+            "Scenarios",
+            "OutgameTexture_Mod_Scenarios"
+        ),
+        (
             "Sound",
             "OutgameTexture_Mod_Mesh"
-        ),
-        (
-            "LobbyConfig",
-            "OutgameTexture_Mod_Gameplay"
-        ),
-        (
-            "DLC",
-            "OutgameTexture_Mod_Gameplay"
         ),
     ]
 

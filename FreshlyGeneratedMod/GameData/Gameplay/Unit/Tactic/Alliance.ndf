@@ -9,7 +9,7 @@ export Tactic_AllianceUnitDescriptor is TEntityDescriptor
         TAllianceDescriptionModuleDescriptor
         (
         ),
-        TAllianceGameRulesModuleDescriptor
+        TAllianceScoreModuleDescriptor
         (
         ),
         TAllianceRelationsModuleDescriptor

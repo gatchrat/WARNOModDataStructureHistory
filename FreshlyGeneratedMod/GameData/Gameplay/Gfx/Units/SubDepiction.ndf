@@ -275,6 +275,24 @@ template SubDepiction_GunnerStandingUpRight [ MeshDescriptorHigh, MeshDescriptor
     Animation = $/GFX/DepictionResources/GunnerStandingUp
 )
 
+template SubDepiction_GunnerSittingDown_6U6IdleOnlyLeft [ MeshDescriptorHigh, MeshDescriptorLow ] is SubDepiction_GunnerTemplate
+(
+    Anchor = 'tireur_g'
+    MeshDescriptorHigh = <MeshDescriptorHigh>
+    MeshDescriptorLow  = <MeshDescriptorLow>
+    Selector = HumanVisibleWhenDeployedSelector
+    Animation = $/GFX/DepictionResources/GunnerSittingDown_6U6
+)
+
+template SubDepiction_GunnerSittingDown_6U6Left [ MeshDescriptorHigh, MeshDescriptorLow ] is SubDepiction_GunnerTemplate
+(
+    Anchor = 'tireur_g'
+    MeshDescriptorHigh = <MeshDescriptorHigh>
+    MeshDescriptorLow  = <MeshDescriptorLow>
+    Selector = HumanVisibleWhenAliveSelector
+    Animation = $/GFX/DepictionResources/GunnerSittingDown_6U6
+)
+
 template ShowroomSubDepiction_Template
 [
     Anchor,
@@ -349,3 +367,11 @@ template ShowroomSubDepiction_GunnerStandingUpRight [ MeshDescriptor ] is Showro
     MeshDescriptor = <MeshDescriptor>
     Animation = $/GFX/DepictionResources/GunnerStandingUp
 )
+
+template ShowroomSubDepiction_GunnerSittingDown_6U6_Left [ MeshDescriptor ] is ShowroomSubDepiction_Template
+(
+    Anchor = 'tireur_g'
+    MeshDescriptor = <MeshDescriptor>
+    Animation = $/GFX/DepictionResources/GunnerSittingDown_6U6
+)
+

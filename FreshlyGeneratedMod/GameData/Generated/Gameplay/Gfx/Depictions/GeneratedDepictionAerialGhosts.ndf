@@ -761,11 +761,6 @@ GhostDepiction_MiG_23MF_DDR is GhostAerialDepictionTemplate
     Alternatives = Alternatives_MiG_23MF_DDR
     Selector = SpecificAirplaneDepictionSelector
 )
-GhostDepiction_MiG_23MF_SOV is GhostAerialDepictionTemplate
-(
-    Alternatives = Alternatives_MiG_23MF_SOV
-    Selector = SpecificAirplaneDepictionSelector
-)
 GhostDepiction_MiG_23MLD_SOV is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_MiG_23MLD_SOV
@@ -909,11 +904,6 @@ GhostDepiction_Mi_24P_AA_SOV is GhostAerialDepictionTemplate
 GhostDepiction_Mi_24P_SOV is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Mi_24P_SOV
-    Selector = SpecificHelicoDepictionSelector
-)
-GhostDepiction_Mi_24P_TCH is GhostAerialDepictionTemplate
-(
-    Alternatives = Alternatives_Mi_24P_TCH
     Selector = SpecificHelicoDepictionSelector
 )
 GhostDepiction_Mi_24P_s8_AT2_DDR is GhostAerialDepictionTemplate
@@ -1609,7 +1599,6 @@ AerialMimeticGhost is MAP[
   ( 'MiG_23BN_nplm_DDR', GhostDepiction_MiG_23BN_nplm_DDR ),
   ( 'MiG_23MF_AA_DDR', GhostDepiction_MiG_23MF_AA_DDR ),
   ( 'MiG_23MF_DDR', GhostDepiction_MiG_23MF_DDR ),
-  ( 'MiG_23MF_SOV', GhostDepiction_MiG_23MF_SOV ),
   ( 'MiG_23MLD_SOV', GhostDepiction_MiG_23MLD_SOV ),
   ( 'MiG_23ML_DDR', GhostDepiction_MiG_23ML_DDR ),
   ( 'MiG_23ML_SOV', GhostDepiction_MiG_23ML_SOV ),
@@ -1639,7 +1628,6 @@ AerialMimeticGhost is MAP[
   ( 'Mi_24K_reco_SOV', GhostDepiction_Mi_24K_reco_SOV ),
   ( 'Mi_24P_AA_SOV', GhostDepiction_Mi_24P_AA_SOV ),
   ( 'Mi_24P_SOV', GhostDepiction_Mi_24P_SOV ),
-  ( 'Mi_24P_TCH', GhostDepiction_Mi_24P_TCH ),
   ( 'Mi_24P_s8_AT2_DDR', GhostDepiction_Mi_24P_s8_AT2_DDR ),
   ( 'Mi_24P_s8_AT_DDR', GhostDepiction_Mi_24P_s8_AT_DDR ),
   ( 'Mi_24VP_SOV', GhostDepiction_Mi_24VP_SOV ),

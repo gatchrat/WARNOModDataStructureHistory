@@ -12,8 +12,8 @@ template InterfaceSound
 CubeActionButtonHasClickSound is true
 CubeActionButtonHasHoverSound is false
 
-CubeActionButtonClickSound is InterfaceSound( FileName = "GameData:/Assets/Sons/Hud/ClicBoutonCube.wav" )
-CubeActionButtonHoverSound is InterfaceSound( FileName = "GameData:/Assets/Sons/Hud/SurvolBoutonCube.wav" )
+CubeActionButtonClickSound is InterfaceSound( FileName = "GameData:/Assets/Sounds/Hud/ClicBoutonCube.wav" )
+CubeActionButtonHoverSound is InterfaceSound( FileName = "GameData:/Assets/Sounds/Hud/SurvolBoutonCube.wav" )
 
 export CubeActionButtonHoverSound_IfEnabled is TEugBPBaseClass(Value = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil)
 export CubeActionButtonClickSound_IfEnabled is TEugBPBaseClass(Value = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil)

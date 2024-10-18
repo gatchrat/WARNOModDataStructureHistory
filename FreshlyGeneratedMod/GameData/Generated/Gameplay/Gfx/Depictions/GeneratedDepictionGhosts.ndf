@@ -1561,6 +1561,11 @@ GhostDepiction_LandRover_UK is GhostVehicleDepictionTemplate
     Selector = Selector_LandRover_UK
     Alternatives = Alternatives_LandRover_UK
 )
+GhostDepiction_LandRover_WOMBAT_Gurkhas_UK is GhostVehicleDepictionTemplate
+(
+    Selector = Selector_LandRover_WOMBAT_Gurkhas_UK
+    Alternatives = Alternatives_LandRover_WOMBAT_Gurkhas_UK
+)
 GhostDepiction_LandRover_WOMBAT_UK is GhostVehicleDepictionTemplate
 (
     Selector = Selector_LandRover_WOMBAT_UK
@@ -3364,6 +3369,7 @@ VehicleMimeticGhost is MAP[
   ( 'LandRover_MILAN_Para_UK', GhostDepiction_LandRover_MILAN_Para_UK ),
   ( 'LandRover_MILAN_UK', GhostDepiction_LandRover_MILAN_UK ),
   ( 'LandRover_UK', GhostDepiction_LandRover_UK ),
+  ( 'LandRover_WOMBAT_Gurkhas_UK', GhostDepiction_LandRover_WOMBAT_Gurkhas_UK ),
   ( 'LandRover_WOMBAT_UK', GhostDepiction_LandRover_WOMBAT_UK ),
   ( 'Lars_2_RFA', GhostDepiction_Lars_2_RFA ),
   ( 'Leopard_1A1_CMD_RFA', GhostDepiction_Leopard_1A1_CMD_RFA ),

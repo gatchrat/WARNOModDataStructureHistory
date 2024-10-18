@@ -3490,6 +3490,15 @@ HumanSubDepictions_LandRover_UK is
     ),
 ]
 HumanSubDepictionsShowroom_LandRover_UK is []
+HumanSubDepictions_LandRover_WOMBAT_Gurkhas_UK is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_UK
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_UK_LOW
+    ),
+]
+HumanSubDepictionsShowroom_LandRover_WOMBAT_Gurkhas_UK is []
 HumanSubDepictions_LandRover_WOMBAT_UK is 
 [
     SubDepiction_Driver
@@ -4313,24 +4322,24 @@ HumanSubDepictions_Mortier_Nona_K_120mm_SOV is
 [
     SubDepiction_ATGMServantLeft
     (
-        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV
-        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV_LOW
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_VDV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_VDV_LOW
     ),
     SubDepiction_ATGMServantRight
     (
-        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV
-        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV_LOW
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV_LOW
     ),
 ]
 HumanSubDepictionsShowroom_Mortier_Nona_K_120mm_SOV is 
 [
     ShowroomSubDepiction_ATGMServantLeft
     (
-        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_VDV
     ),
     ShowroomSubDepiction_ATGMServantRight
     (
-        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV
     ),
 ]
 HumanSubDepictions_Mortier_PM43_120mm_DDR is 
@@ -5199,6 +5208,7 @@ TransportedServantAlternativesCount is MAP[
     ("LandRover_MILAN_Para_UK", (1,1)),
     ("LandRover_MILAN_UK", (1,1)),
     ("LandRover_UK", (1,1)),
+    ("LandRover_WOMBAT_Gurkhas_UK", (1,1)),
     ("LandRover_WOMBAT_UK", (1,1)),
     ("Lars_2_RFA", (1,1)),
     ("M1025_Humvee_AGL_US", (1,1)),
@@ -5622,6 +5632,7 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_Para_UK SelectorId = [ "LandRover_MILAN_Para_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_UK SelectorId = [ "LandRover_MILAN_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_UK SelectorId = [ "LandRover_UK", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_UK SelectorId = [ "LandRover_WOMBAT_Gurkhas_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_UK SelectorId = [ "LandRover_WOMBAT_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_RFA SelectorId = [ "Lars_2_RFA", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_US SelectorId = [ "M1025_Humvee_AGL_US", "01" ] ),
@@ -5701,8 +5712,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "Mortier_MORT61_120mm_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR SelectorId = [ "Mortier_MORT61_120mm_para_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "Mortier_MORT61_120mm_para_FR", "02" ] ),
-    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV SelectorId = [ "Mortier_Nona_K_120mm_SOV", "01" ] ),
-    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV SelectorId = [ "Mortier_Nona_K_120mm_SOV", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_VDV SelectorId = [ "Mortier_Nona_K_120mm_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV SelectorId = [ "Mortier_Nona_K_120mm_SOV", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_DDR SelectorId = [ "Mortier_PM43_120mm_DDR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_DDR SelectorId = [ "Mortier_PM43_120mm_DDR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_RFA SelectorId = [ "Mortier_Tampella_120mm_RFA", "01" ] ),

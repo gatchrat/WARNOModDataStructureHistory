@@ -363,7 +363,7 @@ private EndgameTabButtons is BUCKListDescriptor
                 ElementName = "RematchButton"
                 TextToken = "BTN_NEXT"
                 BackgroundBlockColorToken = "loginBoutonBackground_highlightedCyan"
-                TextStyle = "TextStyleEcranMoniteur_cyan_greyable"
+                TextStyle = "TextStyleEcranMoniteur_cyan"
                 TextColorToken = "loginBlanc"
                 BorderLineColorToken = "Cyan"
             )
@@ -375,7 +375,7 @@ private EndgameTabButtons is BUCKListDescriptor
                 ElementName = "RestartButton"
                 TextToken = "AB_RESTART"
                 BackgroundBlockColorToken = "loginBoutonBackground_highlightedCyan"
-                TextStyle = "TextStyleEcranMoniteur_cyan_greyable"
+                TextStyle = "TextStyleEcranMoniteur_cyan"
                 TextColorToken = "loginBlanc"
                 BorderLineColorToken = "Cyan"
             )
@@ -387,7 +387,7 @@ private EndgameTabButtons is BUCKListDescriptor
                 ElementName = "SaveReplayButton"
                 TextToken = "AB_SAVER"
                 BackgroundBlockColorToken = "loginBoutonBackground_highlightedCyan"
-                TextStyle = "TextStyleEcranMoniteur_cyan_greyable"
+                TextStyle = "TextStyleEcranMoniteur_cyan"
                 TextColorToken = "loginBlanc"
                 BorderLineColorToken = "Cyan"
             )
@@ -402,7 +402,7 @@ private EndgameTabButtons is BUCKListDescriptor
                 TextToken = "AB_QUITGAM"
                 Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ESCAPE ) )
                 BackgroundBlockColorToken = "loginBoutonBackground_highlightedCyan"
-                TextStyle = "TextStyleEcranMoniteur_cyan_greyable"
+                TextStyle = "TextStyleEcranMoniteur_cyan"
                 TextColorToken = "loginBlanc"
                 BorderLineColorToken = "Cyan"
             )

@@ -875,6 +875,7 @@ private SaveLoadTabsComponent is BUCKSpecific_Fulda_WithTabsComponentDescriptor
     )
 
     ShowTabsFirst = true
+    InterMarginBetweenTabsAndContent = TRTTILength(Magnifiable = 51.0)
 
     TabsAndContent =
     [
@@ -1120,7 +1121,9 @@ BUCKSpecificSaveLoadPanelMainComponentDescriptor is BUCKTranslationAnimatedConta
     )
 
     TriggerWhenSetVisible = true
-    AnimationTotalDuration = 0.25
+    AnimationTotalDuration = 0.35
+    AnimationModificator = ~/AnimModificator/CubicStep
+    AnimationModificatorParameters = [0.0, 1.0]
     HidePointerEvents = true
 
     FramePropertyAfterAnimation = TUIFramePropertyRTTI

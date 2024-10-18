@@ -487,7 +487,6 @@ export TransactionGenerated is TNDFTransactionFileList
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Helico/Mi_24D_s8_AT_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Helico/Mi_24K_reco_SOV.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Helico/Mi_24P_SOV.ndf',
-        'GameData:/Gameplay/Gfx/DepictionResources/TCH/Helico/Mi_24P_TCH.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Helico/Mi_24P_s8_AT2_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/DDR/Helico/Mi_24P_s8_AT_DDR.ndf',
         'GameData:/Gameplay/Gfx/DepictionResources/SOV/Helico/Mi_24VP_SOV.ndf',

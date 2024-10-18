@@ -1,9 +1,9 @@
-export SpecificDefaultSupplyRange is 1250.0 * Metre //250m in game //utilisé par le halo également
+export SpecificDefaultSupplyRangeGRU is 442 //utilisé par le halo également
 export StandardSupply is TSupplyDescriptor
 (
     // Rayon par défaut de la zone de ravitaillement, cette valeur est utilisée si
     // aucun rayon n'est défini dans l'ODS
-    DefaultSupplyRange = SpecificDefaultSupplyRange
+    DefaultSupplyRangeGRU = SpecificDefaultSupplyRangeGRU
 
     // Tous les ravitaillement sont découpé en deux variables
     // 1 -> SupplyBySecond => Nombre de point de la ressource concerné ravitaillé par seconde

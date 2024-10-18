@@ -92,7 +92,6 @@ is TMacroActionDescriptor_CorridorDynamicDefense_Specific
     ParametresDeMission =
     [
         TGenerationSettingHolder(GenerationType = TGenerationType_BasedOnNumberOfCorridors NumberLaunchBasedOnGenerationType = <NumberLaunchBasedOnGenerationType> AlsoConsiderTheseDescriptorsForMaintain = []),
-        TDefensePositionSettingHolder(IgnoreEnemyDirectionForDefensePosition = true),
         TMacroActionProductionSettingHolder(PoolModelList = [~/Pool_Reco_Skirmish]),
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
         TDefenseBehaviorSettingHolder(
@@ -103,8 +102,8 @@ is TMacroActionDescriptor_CorridorDynamicDefense_Specific
                     (EDefensePointScoringFeature/AltitudeCoeff, 0.0),                       // Bonus dépendant de l'altitude min et max sur la carte et appliqué sur toute la carte
 
                     (EDefensePointScoringFeature/DistanceBonus, 1.0),                       // | Entre 0 et DistanceMargin => Bonus de DistanceBonus
-                    (EDefensePointScoringFeature/DistanceMargin, 500.0 * Metre),            // | Entre DistanceMargin et DistanceDecayLength => Diminution progressive du bonus jusqu'à 0
-                    (EDefensePointScoringFeature/DistanceDecayLength, 1000.0 * Metre),      // | Après DistanceDecayLength => Malus progressif
+                    (EDefensePointScoringFeature/DistanceMarginGRU, 177),                   // | Entre DistanceMargin et DistanceDecayLength => Diminution progressive du bonus jusqu'à 0
+                    (EDefensePointScoringFeature/DistanceDecayLengthGRU, 353),              // | Après DistanceDecayLength => Malus progressif
                     (EDefensePointScoringFeature/DistanceDecayCoeff, 1.0),
 
                     (EDefensePointScoringFeature/DistrictCoeff, 1.0),                       // | Bonus appliqués en fonction de la présence d'un quartier ou d'un terrain

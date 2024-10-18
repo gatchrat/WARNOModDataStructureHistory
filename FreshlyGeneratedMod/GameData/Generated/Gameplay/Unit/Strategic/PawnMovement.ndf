@@ -3,7 +3,7 @@
 
 export StrategicMovementDescriptor_aerial is TStrategicMovementModuleDescriptor
 (
-    MaxSpeed = 5000.0 * Metre
+    MaxSpeed = 1767.0
     NormalTerrainAPConsumptionModifier = 1.0
     SpeedReducerTerrainAPConsumptionModifier = 2.0
     RoadAPConsumptionModifier = 0.8
@@ -11,7 +11,7 @@ export StrategicMovementDescriptor_aerial is TStrategicMovementModuleDescriptor
 )
 export StrategicMovementDescriptor_company is TStrategicMovementModuleDescriptor
 (
-    MaxSpeed = 1000.0 * Metre
+    MaxSpeed = 353.0
     NormalTerrainAPConsumptionModifier = 0.8
     SpeedReducerTerrainAPConsumptionModifier = 2.5
     RoadAPConsumptionModifier = 0.6
@@ -19,7 +19,7 @@ export StrategicMovementDescriptor_company is TStrategicMovementModuleDescriptor
 )
 export StrategicMovementDescriptor_default is TStrategicMovementModuleDescriptor
 (
-    MaxSpeed = 1600.0 * Metre
+    MaxSpeed = 565.0
     NormalTerrainAPConsumptionModifier = 0.8
     SpeedReducerTerrainAPConsumptionModifier = 2.5
     RoadAPConsumptionModifier = 0.6
@@ -27,7 +27,7 @@ export StrategicMovementDescriptor_default is TStrategicMovementModuleDescriptor
 )
 export StrategicMovementDescriptor_helico is TStrategicMovementModuleDescriptor
 (
-    MaxSpeed = 500.0 * Metre
+    MaxSpeed = 177.0
     NormalTerrainAPConsumptionModifier = 1.0
     SpeedReducerTerrainAPConsumptionModifier = 1.0
     RoadAPConsumptionModifier = 1.0
@@ -35,7 +35,7 @@ export StrategicMovementDescriptor_helico is TStrategicMovementModuleDescriptor
 )
 export StrategicMovementDescriptor_howitzer is TStrategicMovementModuleDescriptor
 (
-    MaxSpeed = 1200.0 * Metre
+    MaxSpeed = 424.0
     NormalTerrainAPConsumptionModifier = 2.0
     SpeedReducerTerrainAPConsumptionModifier = 4.0
     RoadAPConsumptionModifier = 1.0
@@ -43,7 +43,7 @@ export StrategicMovementDescriptor_howitzer is TStrategicMovementModuleDescripto
 )
 export StrategicMovementDescriptor_mecanized is TStrategicMovementModuleDescriptor
 (
-    MaxSpeed = 500.0 * Metre
+    MaxSpeed = 177.0
     NormalTerrainAPConsumptionModifier = 2.0
     SpeedReducerTerrainAPConsumptionModifier = 4.0
     RoadAPConsumptionModifier = 1.0
@@ -51,7 +51,7 @@ export StrategicMovementDescriptor_mecanized is TStrategicMovementModuleDescript
 )
 export StrategicMovementDescriptor_onFoot is TStrategicMovementModuleDescriptor
 (
-    MaxSpeed = 1600.0 * Metre
+    MaxSpeed = 565.0
     NormalTerrainAPConsumptionModifier = 1.2
     SpeedReducerTerrainAPConsumptionModifier = 1.8
     RoadAPConsumptionModifier = 1.0

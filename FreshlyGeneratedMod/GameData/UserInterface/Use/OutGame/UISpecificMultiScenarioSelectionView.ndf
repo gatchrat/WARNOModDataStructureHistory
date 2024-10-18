@@ -124,7 +124,6 @@ private MultiScenarioSelectionSelectButton is ConfirmButton
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
     ButtonMagnifiableWidthHeight = [175.0, 35.0]
     TextTypefaceToken = "Liberator"
-    // TextStyle = "TextStyleEcranMoniteur_cyan"
     TextColorToken = "tampon_vert"
     BorderLineColorToken = "tampon_vert"
     HasBackground = false
@@ -1022,11 +1021,12 @@ private BUCKSpecificMultiScenarioSelectionMainComponentDescriptor is BUCKTransla
     (
         RelativeWidthHeight = [1.0, 1.0]
         AlignementToAnchor = [0.5, 0.0]
-        AlignementToFather = [0.5, 0.8]
+        AlignementToFather = [0.5, 1.0]
     )
 
     TriggerWhenSetVisible = true
-    AnimationTotalDuration = 0.15
+    AnimationTotalDuration = 0.4
+    AnimationModificator = ~/AnimModificator/SquareDecelerate
 
     FramePropertyAfterAnimation = TUIFramePropertyRTTI
     (

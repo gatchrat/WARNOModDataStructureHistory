@@ -2394,18 +2394,6 @@ SubGenerators_Showroom_Mi_24P_SOV is TStaticMissileCarriageSubDepictionGenerator
     Pylons = ~/DepictionPylonSet_Helico_SOV_Showroom
     ReferenceMesh = $/GFX/DepictionResources/Modele_Mi_24P_SOV
 )
-SubGenerators_Mi_24P_TCH is TStaticMissileCarriageSubDepictionGenerator
-(
-    MissileCarriageConnoisseur = MissileCarriage_Mi_24P_TCH
-    Pylons = ~/DepictionPylonSet_Helico_SOV
-    ReferenceMesh = $/GFX/DepictionResources/Modele_Mi_24P_TCH
-)
-SubGenerators_Showroom_Mi_24P_TCH is TStaticMissileCarriageSubDepictionGenerator
-(
-    MissileCarriageConnoisseur = MissileCarriage_Mi_24P_TCH_Showroom
-    Pylons = ~/DepictionPylonSet_Helico_SOV_Showroom
-    ReferenceMesh = $/GFX/DepictionResources/Modele_Mi_24P_TCH
-)
 SubGenerators_Mi_24P_s8_AT2_DDR is TStaticMissileCarriageSubDepictionGenerator
 (
     MissileCarriageConnoisseur = MissileCarriage_Mi_24P_s8_AT2_DDR
@@ -4085,7 +4073,7 @@ SubGenerators_F16A_AA_BEL is TStaticMissileCarriageSubDepictionGenerator
             Depiction = TemplateDepictionStaticMissilesAirUnit
             (
                 PhysicalProperty = "Tourelle2_MissileCount"
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             )
             MissileCount = 3
             WeaponIndex = 2
@@ -4095,7 +4083,7 @@ SubGenerators_F16A_AA_BEL is TStaticMissileCarriageSubDepictionGenerator
             Depiction = TemplateDepictionStaticMissilesAirUnit
             (
                 PhysicalProperty = "Tourelle3_MissileCount"
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             )
             MissileCount = 3
             WeaponIndex = 3
@@ -4113,7 +4101,7 @@ SubGenerators_Showroom_F16A_AA_BEL is TStaticMissileCarriageSubDepictionGenerato
         (
             Depiction = TemplateDepictionMissileShowroom
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             )
             MissileCount = 3
             WeaponIndex = 2
@@ -4122,7 +4110,7 @@ SubGenerators_Showroom_F16A_AA_BEL is TStaticMissileCarriageSubDepictionGenerato
         (
             Depiction = TemplateDepictionMissileShowroom
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             )
             MissileCount = 3
             WeaponIndex = 3
@@ -7020,43 +7008,6 @@ SubGenerators_Showroom_MiG_23MF_DDR is TStaticMissileCarriageSubDepictionGenerat
     Pylons = ~/DepictionPylonSet_Airplane_SOV_Showroom
     ReferenceMesh = $/GFX/DepictionResources/Modele_MiG_23MF_DDR
 )
-SubGenerators_MiG_23MF_SOV is TStaticMissileCarriageSubDepictionGenerator
-(
-    MissileCarriageConnoisseur = MissileCarriage_MiG_23MF_SOV
-    Missiles = 
-    [
-        TStaticMissileCarriageSubDepictionMissileInfo
-        (
-            Depiction = TemplateDepictionStaticMissilesAirUnit
-            (
-                PhysicalProperty = "Tourelle2_MissileCount"
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_FAB_500
-            )
-            MissileCount = 6
-            WeaponIndex = 2
-        ),
-    ]
-    Pylons = ~/DepictionPylonSet_Airplane_SOV
-    ReferenceMesh = $/GFX/DepictionResources/Modele_MiG_23MF_SOV
-)
-SubGenerators_Showroom_MiG_23MF_SOV is TStaticMissileCarriageSubDepictionGenerator
-(
-    MissileCarriageConnoisseur = MissileCarriage_MiG_23MF_SOV_Showroom
-    Missiles = 
-    [
-        TStaticMissileCarriageSubDepictionMissileInfo
-        (
-            Depiction = TemplateDepictionMissileShowroom
-            (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_FAB_500
-            )
-            MissileCount = 6
-            WeaponIndex = 2
-        ),
-    ]
-    Pylons = ~/DepictionPylonSet_Airplane_SOV_Showroom
-    ReferenceMesh = $/GFX/DepictionResources/Modele_MiG_23MF_SOV
-)
 SubGenerators_MiG_23MLD_SOV is TStaticMissileCarriageSubDepictionGenerator
 (
     MissileCarriageConnoisseur = MissileCarriage_MiG_23MLD_SOV
@@ -8019,7 +7970,7 @@ SubGenerators_Mirage_5_BA_BEL is TStaticMissileCarriageSubDepictionGenerator
             Depiction = TemplateDepictionStaticMissilesAirUnit
             (
                 PhysicalProperty = "Tourelle3_MissileCount"
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             )
             MissileCount = 2
             WeaponIndex = 3
@@ -8046,7 +7997,7 @@ SubGenerators_Showroom_Mirage_5_BA_BEL is TStaticMissileCarriageSubDepictionGene
         (
             Depiction = TemplateDepictionMissileShowroom
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             )
             MissileCount = 2
             WeaponIndex = 3
@@ -8075,7 +8026,7 @@ SubGenerators_Mirage_5_BA_CLU_BEL is TStaticMissileCarriageSubDepictionGenerator
             Depiction = TemplateDepictionStaticMissilesAirUnit
             (
                 PhysicalProperty = "Tourelle3_MissileCount"
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             )
             MissileCount = 2
             WeaponIndex = 3
@@ -8102,7 +8053,7 @@ SubGenerators_Showroom_Mirage_5_BA_CLU_BEL is TStaticMissileCarriageSubDepiction
         (
             Depiction = TemplateDepictionMissileShowroom
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             )
             MissileCount = 2
             WeaponIndex = 3
@@ -8121,9 +8072,9 @@ SubGenerators_Mirage_5_BA_MIRSIP_BEL is TStaticMissileCarriageSubDepictionGenera
             Depiction = TemplateDepictionStaticMissilesAirUnit
             (
                 PhysicalProperty = "Tourelle2_MissileCount"
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Mk_83
             )
-            MissileCount = 2
+            MissileCount = 4
             WeaponIndex = 2
         ),
         TStaticMissileCarriageSubDepictionMissileInfo
@@ -8149,9 +8100,9 @@ SubGenerators_Showroom_Mirage_5_BA_MIRSIP_BEL is TStaticMissileCarriageSubDepict
         (
             Depiction = TemplateDepictionMissileShowroom
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_Mk_83
             )
-            MissileCount = 2
+            MissileCount = 4
             WeaponIndex = 2
         ),
         TStaticMissileCarriageSubDepictionMissileInfo
@@ -8187,7 +8138,7 @@ SubGenerators_Mirage_5_BA_NPLM_BEL is TStaticMissileCarriageSubDepictionGenerato
             Depiction = TemplateDepictionStaticMissilesAirUnit
             (
                 PhysicalProperty = "Tourelle3_MissileCount"
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             )
             MissileCount = 2
             WeaponIndex = 3
@@ -8214,7 +8165,7 @@ SubGenerators_Showroom_Mirage_5_BA_NPLM_BEL is TStaticMissileCarriageSubDepictio
         (
             Depiction = TemplateDepictionMissileShowroom
             (
-                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_SideWinder
+                ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_AIM_9J_SideWinder
             )
             MissileCount = 2
             WeaponIndex = 3

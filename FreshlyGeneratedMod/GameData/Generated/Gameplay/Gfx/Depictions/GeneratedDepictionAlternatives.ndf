@@ -1561,6 +1561,11 @@ Alternatives_LandRover_UK is [
     DepictionDescriptor_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_LandRover_UK_MID ),
     DepictionDescriptor_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_LandRover_UK_LOW ),
 ]
+Alternatives_LandRover_WOMBAT_Gurkhas_UK is [
+    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_LandRover_WOMBAT_Gurkhas_UK ),
+    DepictionDescriptor_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_LandRover_WOMBAT_Gurkhas_UK_MID ),
+    DepictionDescriptor_LOD_Low( MeshDescriptor = $/GFX/DepictionResources/Modele_LandRover_WOMBAT_Gurkhas_UK_LOW ),
+]
 Alternatives_LandRover_WOMBAT_UK is [
     DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_LandRover_WOMBAT_UK ),
     DepictionDescriptor_LOD_Mid( MeshDescriptor = $/GFX/DepictionResources/Modele_LandRover_WOMBAT_UK_MID ),

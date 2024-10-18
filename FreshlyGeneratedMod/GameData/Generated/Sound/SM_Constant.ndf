@@ -1,44 +1,6 @@
 // Ne pas éditer, ce fichier est généré par ConstantMovementSoundFileWriter
 
 
-export DepictionOperator_MovementSound_SM_Avion_Moteur_Reaction is TCosmeticConstantMovementSoundOperatorDesc
-(
-    FadeInDuration = 0.5
-    MaxVolume = 0.5
-    MaxVolumeSpeed = 80
-    MinVolume = 0.1
-    OperatorId = "constantSound"
-    Sounds = 
-    [
-        TSoundDescriptor
-        (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
-            TheSoundStream = TSoundStream
-            (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/F15_Engine.wav"
-            )
-        ),
-    ]
-)
-export DepictionOperator_MovementSound_SM_Jeep is TCosmeticConstantMovementSoundOperatorDesc
-(
-    FadeInDuration = 0.5
-    MaxVolume = 0.5
-    MaxVolumeSpeed = 80
-    MinVolume = 0.1
-    OperatorId = "constantSound"
-    Sounds = 
-    [
-        TSoundDescriptor
-        (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings
-            TheSoundStream = TSoundStream
-            (
-                FileName = "GameData:/Assets/Sons/SFX/Moteurs/UAZ_Wheeled_vehicle_Loop.wav"
-            )
-        ),
-    ]
-)
 export DepictionOperator_MovementSound_SM_SD_avion_A10 is TCosmeticConstantMovementSoundOperatorDesc
 (
     FadeInDuration = 0.5
@@ -50,10 +12,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_A10 is TCosmeticConstantMovem
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/A10_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/A10_Engine.wav"
             )
         ),
     ]
@@ -69,10 +31,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_Albatros is TCosmeticConstant
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Albatros_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Albatros_Engine.wav"
             )
         ),
     ]
@@ -88,10 +50,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_AlphaJet is TCosmeticConstant
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/AlphaJet_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/AlphaJet_Engine.wav"
             )
         ),
     ]
@@ -107,10 +69,29 @@ export DepictionOperator_MovementSound_SM_SD_avion_Aquila_MQM_105 is TCosmeticCo
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/MQM_105_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/MQM_105_Engine.wav"
+            )
+        ),
+    ]
+)
+export DepictionOperator_MovementSound_SM_SD_avion_Crusader is TCosmeticConstantMovementSoundOperatorDesc
+(
+    FadeInDuration = 0.5
+    MaxVolume = 1
+    MaxVolumeSpeed = 80
+    MinVolume = 0.1
+    OperatorId = "constantSound"
+    Sounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Crusader_Engine.wav"
             )
         ),
     ]
@@ -126,10 +107,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_Dragonfly is TCosmeticConstan
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Dragonfly_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Dragonfly_Engine.wav"
             )
         ),
     ]
@@ -145,10 +126,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_F104 is TCosmeticConstantMove
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/F104_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/F104_Engine.wav"
             )
         ),
     ]
@@ -164,10 +145,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_Mirage2000 is TCosmeticConsta
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Mirage2000_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Mirage2000_Engine.wav"
             )
         ),
     ]
@@ -183,10 +164,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_MirageF1 is TCosmeticConstant
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/MirageIII_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/MirageIII_Engine.wav"
             )
         ),
     ]
@@ -202,10 +183,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_MirageIII is TCosmeticConstan
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/MirageIII_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/MirageIII_Engine.wav"
             )
         ),
     ]
@@ -221,10 +202,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_MirageIV is TCosmeticConstant
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/MirageIV_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/MirageIV_Engine.wav"
             )
         ),
     ]
@@ -240,10 +221,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_Pchela_1T is TCosmeticConstan
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/MQM_105_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/MQM_105_Engine.wav"
             )
         ),
     ]
@@ -259,10 +240,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_SU25 is TCosmeticConstantMove
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/SU25_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/SU25_Engine.wav"
             )
         ),
     ]
@@ -278,10 +259,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_Super_Etendard is TCosmeticCo
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Super_Etendard_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Super_Etendard_Engine.wav"
             )
         ),
     ]
@@ -297,10 +278,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_bombardier is TCosmeticConsta
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/A10_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/A10_Engine.wav"
             )
         ),
     ]
@@ -316,10 +297,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_bombardier_Buccaneer is TCosm
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Buccaneer_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Buccaneer_Engine.wav"
             )
         ),
     ]
@@ -335,10 +316,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_bombardier_F111 is TCosmeticC
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/F111_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/F111_Engine.wav"
             )
         ),
     ]
@@ -354,10 +335,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_bombardier_G91 is TCosmeticCo
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/G91_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/G91_Engine.wav"
             )
         ),
     ]
@@ -373,10 +354,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_bombardier_Harrier is TCosmet
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Harrier_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Harrier_Engine.wav"
             )
         ),
     ]
@@ -392,10 +373,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar is TCosmeti
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Jaguar_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Jaguar_Engine.wav"
             )
         ),
     ]
@@ -411,10 +392,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22 is TCosmeticC
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Su22_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Su22_Engine.wav"
             )
         ),
     ]
@@ -430,10 +411,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU24 is TCosmeticC
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Su24_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Su24_Engine.wav"
             )
         ),
     ]
@@ -449,29 +430,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_bombardier_Tornado is TCosmet
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Tornado_Engine.wav"
-            )
-        ),
-    ]
-)
-export DepictionOperator_MovementSound_SM_SD_avion_chasseur is TCosmeticConstantMovementSoundOperatorDesc
-(
-    FadeInDuration = 0.5
-    MaxVolume = 1
-    MaxVolumeSpeed = 80
-    MinVolume = 0.1
-    OperatorId = "constantSound"
-    Sounds = 
-    [
-        TSoundDescriptor
-        (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
-            TheSoundStream = TSoundStream
-            (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/F15_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Tornado_Engine.wav"
             )
         ),
     ]
@@ -487,10 +449,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_intercepteur_MiG31 is TCosmet
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/MiG29_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/MiG29_Engine.wav"
             )
         ),
     ]
@@ -506,10 +468,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_multirole_F117 is TCosmeticCo
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/F117_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/F117_Engine.wav"
             )
         ),
     ]
@@ -525,10 +487,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_multirole_F15 is TCosmeticCon
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/F15_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/F15_Engine.wav"
             )
         ),
     ]
@@ -544,10 +506,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_multirole_F16 is TCosmeticCon
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/F16_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/F16_Engine.wav"
             )
         ),
     ]
@@ -563,10 +525,29 @@ export DepictionOperator_MovementSound_SM_SD_avion_multirole_F4 is TCosmeticCons
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/F4_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/F4_Engine.wav"
+            )
+        ),
+    ]
+)
+export DepictionOperator_MovementSound_SM_SD_avion_multirole_F5 is TCosmeticConstantMovementSoundOperatorDesc
+(
+    FadeInDuration = 0.5
+    MaxVolume = 1
+    MaxVolumeSpeed = 80
+    MinVolume = 0.1
+    OperatorId = "constantSound"
+    Sounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/F5_Engine.wav"
             )
         ),
     ]
@@ -582,10 +563,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG17 is TCosmeticC
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Mig17_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Mig17_Engine.wav"
             )
         ),
     ]
@@ -601,10 +582,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG21 is TCosmeticC
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/MiG21_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/MiG21_Engine.wav"
             )
         ),
     ]
@@ -620,10 +601,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23 is TCosmeticC
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/MiG23_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/MiG23_Engine.wav"
             )
         ),
     ]
@@ -639,10 +620,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG29 is TCosmeticC
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/MiG29_Engine.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/MiG29_Engine.wav"
             )
         ),
     ]
@@ -658,48 +639,10 @@ export DepictionOperator_MovementSound_SM_SD_avion_multirole_Su27 is TCosmeticCo
     [
         TSoundDescriptor
         (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/Su27_Engine.wav"
-            )
-        ),
-    ]
-)
-export DepictionOperator_MovementSound_SM_SD_avion_reco is TCosmeticConstantMovementSoundOperatorDesc
-(
-    FadeInDuration = 0.5
-    MaxVolume = 1
-    MaxVolumeSpeed = 80
-    MinVolume = 0.1
-    OperatorId = "constantSound"
-    Sounds = 
-    [
-        TSoundDescriptor
-        (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings_Moteur_Avion
-            TheSoundStream = TSoundStream
-            (
-                FileName = "GameData:/Assets/Sons/SFX/Avions/SU25_Engine.wav"
-            )
-        ),
-    ]
-)
-export DepictionOperator_MovementSound_SM_VehiculeRoueMoyen is TCosmeticConstantMovementSoundOperatorDesc
-(
-    FadeInDuration = 0.5
-    MaxVolume = 0.5
-    MaxVolumeSpeed = 80
-    MinVolume = 0.1
-    OperatorId = "constantSound"
-    Sounds = 
-    [
-        TSoundDescriptor
-        (
-            SoundSettings = $/SoundSettings/SFX_SoundSettings
-            TheSoundStream = TSoundStream
-            (
-                FileName = "GameData:/Assets/Sons/SFX/Moteurs/UAZ_Wheeled_vehicle_Loop.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Su27_Engine.wav"
             )
         ),
     ]

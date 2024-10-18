@@ -29,10 +29,6 @@ template BUCKAnimatedContainerDescriptor
 
     GridAlign : bool = false,
 
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
-
     FitStyle : int = ~/ContainerFitStyle/None,
     ChildFitToContent : bool = false,
 
@@ -78,10 +74,6 @@ is TBUCKAnimatedContainerDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = <FitStyle>
     ChildFitToContent = <ChildFitToContent>
@@ -136,10 +128,6 @@ template BUCKSimpleAnimatedContainerDescriptor
 
     GridAlign : bool = false,
 
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
-
     FitStyle : int = ~/ContainerFitStyle/None,
     ChildFitToContent : bool = false,
 
@@ -187,10 +175,6 @@ template BUCKSimpleAnimatedContainerDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = <FitStyle>
     ChildFitToContent = <ChildFitToContent>
@@ -269,10 +253,6 @@ template BUCKTranslationAnimatedContainerDescriptor
 
     GridAlign : bool = false,
 
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
-
     FitStyle : int = ~/ContainerFitStyle/None,
     ChildFitToContent : bool = false,
 
@@ -303,6 +283,8 @@ template BUCKTranslationAnimatedContainerDescriptor
     TriggerWhenSetInvisible : bool = false, // Declenche l'animation avant la disparition du conteneur à l'écran
 
     AnimationTotalDuration : float, // Duree de l'animation
+    AnimationModificator : int = ~/AnimModificator/None,
+    AnimationModificatorParameters : List<float> = [],
 
     FramePropertyAfterAnimation : TUIFramePropertyRTTI, // Position finale du conteneur a la fin de l'animation
 
@@ -321,10 +303,6 @@ template BUCKTranslationAnimatedContainerDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = <FitStyle>
     ChildFitToContent = <ChildFitToContent>
@@ -360,12 +338,21 @@ template BUCKTranslationAnimatedContainerDescriptor
     (
         Duration = <AnimationTotalDuration>
         StartTime = 0.0
-        Modificator = 0
-        ModificatorParameters = []
+        Modificator = <AnimationModificator>
+        ModificatorParameters = <AnimationModificatorParameters>
+
+        // Some animations end at the start position
+        FinalFramePropertyIsInitialFrameProperty is (
+            <AnimationModificator> == ~/AnimModificator/LinearRect
+            | <AnimationModificator> == ~/AnimModificator/CubicRect
+            | <AnimationModificator> == ~/AnimModificator/ParabolicArch
+            | <AnimationModificator> == ~/AnimModificator/SquareTooth
+            | <AnimationModificator> == ~/AnimModificator/InvMaxed
+            ) ? true : false
 
         InitialFrameProperty = <FramePropertyBeforeAnimation>
         FinalFrameProperty = <FramePropertyAfterAnimation>
-        ForcedFinalFrameProperty = <FramePropertyAfterAnimation>
+        ForcedFinalFrameProperty = FinalFramePropertyIsInitialFrameProperty ? <FramePropertyBeforeAnimation> : <FramePropertyAfterAnimation>
     )
 )
 

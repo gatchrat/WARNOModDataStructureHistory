@@ -92,24 +92,6 @@ public orderEvaluatorCollectionTactic is TOrderEvaluatorCollectionDescriptor(
             IgnoreDirectOrder = false
         ),
 
-        TOrderEvaluatorUseCapacite(
-            OrderToken = "UseCapacite"
-            IgnoreDefaultOrder = false
-            IgnoreDirectOrder = false
-            CapaciteDescriptor = $/GFX/EffectCapacity/Capacite_Suicide_SurCetteCibleEnnemie
-            FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
-            MouseWidgetSelector = "MouseWidgetSelector_Explode"
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "UseCapacite"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-            CapaciteDescriptor = $/GFX/EffectCapacity/Capacite_Suicide_SurCetteCibleEnnemie
-            MouseWidgetSelector = "MouseWidgetSelector_MoveAndExplode"
-            IsTargetAuthorized = false
-        ),
-
         TOrderEvaluatorAny(
             OrderToken = "AIAttack"
             IgnoreDefaultOrder = true

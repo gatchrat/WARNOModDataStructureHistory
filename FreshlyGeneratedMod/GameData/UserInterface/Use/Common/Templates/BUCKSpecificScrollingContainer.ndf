@@ -6,9 +6,6 @@ template BUCKSpecificScrollingContainerDescriptor
     ComponentFrame : TUIFramePropertyRTTI = TUIFramePropertyRTTI(RelativeWidthHeight = [1.0, 1.0]),
 
     FitStyle : int = ~/ContainerFitStyle/None,
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
 
     HidePointerEvents : bool = false,
 
@@ -64,10 +61,6 @@ is BUCKScrollingContainerDescriptor
 
     HasBackground = <HasBackground>
     BackgroundBlockColorToken = <BackgroundBlockColorToken>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     ScrollStepSize = <ScrollStepSize>
 

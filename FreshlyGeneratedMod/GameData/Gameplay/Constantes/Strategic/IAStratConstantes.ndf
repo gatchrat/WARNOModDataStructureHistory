@@ -5,38 +5,18 @@ StrategicIAStratConstantes is TIAStratStrategicConstantesDescriptor
     NbAirplanesToKeepBeforeUsingAirDeny = 3
     NbAirplanesToKeepBeforeUsingBombard = 1
 
-    DistanceMaxToAssignPawnToExistingGroup = 1500.0 * Metre
-    DistanceMaxForPawnToBeAvailableForCurrentObjective = 1500.0 * Metre
+    DistanceMaxToAssignPawnToExistingGroupGRU = 530
+    DistanceMaxForPawnToBeAvailableForCurrentObjectiveGRU = 530
 
     MaxCellsDistanceFromFrontlineAllowedOutOfSupply = 3.0
 
-    MaxFatigueToBeSelectedForStrategicBattle = 3 // indique le max de PA que peut avoir un pion pour participer à un combat mais aussi pour reculer le temps de récupérer sa fatigue.
+    MaxFatigueToBeSelectedForStrategicBattle = 4 // indique le max de PA que peut avoir un pion pour participer à un combat mais aussi pour reculer le temps de récupérer sa fatigue.
 
     AttackAndDefensePowerRatioForAttackersToMoveBack = 0.5
 
     // Par defaut, tous les Fighter et AuxiliarySupport se placent au plus près de l'ennemi
     PawnWithTagToPlaceFarthestFromEnemy = [
         "AntiAir",
-    ]
-
-    NbApToKeepAfterMoveWithTargetForBattleRole = MAP
-    [
-        (EStrategicBattleRole/GroundSupport,
-            [
-                (3, 2000 * Metre),
-            ]
-        ),
-        (EStrategicBattleRole/Fighter,
-            [
-                (4, 1500 * Metre),
-                // (1, 2000 * Metre),
-            ]
-        ),
-        (EStrategicBattleRole/AuxiliarySupport,
-            [
-                (4, 2000 * Metre),
-            ]
-        )
     ]
 
     StartBattleDescriptorByType = MAP

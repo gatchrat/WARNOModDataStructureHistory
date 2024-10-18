@@ -1,7 +1,7 @@
 // Autres paramètres avions : DEMANDER AUX DEVS AVANT DE MODIFIER //
 MaxPitchSpeed is 30 // degrés/seconde
-MaxAltitude is (10000 * Metre)
-MinAltitudeForRoll is (2000 * Metre)
+MaxAltitudeGRU is 3534
+MinAltitudeForRollGRU is 707
 MinRollSpeedForRoll is 65 // degrés/seconde
 
 //Paramètrage visuels des avions
@@ -46,8 +46,8 @@ DogfightAttackStrategyDescriptor is TDogfightAttackStrategyDescriptor
 
 StukaNosediveAttackStrategyDescriptor is TStukaNosediveAttackStrategyDescriptor
 (
-    DistanceNosedive = 1350 * Metre
-    WaypointDistanceFromTarget = 800 * Metre
+    DistanceNosediveGRU = 477
+    WaypointDistanceFromTargetGRU = 283
     AgilityMultiplicator = 2.5
 )
 

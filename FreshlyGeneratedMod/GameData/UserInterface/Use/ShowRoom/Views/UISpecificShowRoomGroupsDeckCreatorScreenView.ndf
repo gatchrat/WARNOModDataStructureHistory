@@ -1101,7 +1101,9 @@ UnitListAnimatedContainer is BUCKTranslationAnimatedContainerDescriptor
         AlignementToAnchor = [0.0, 1.0]
     )
 
-    AnimationTotalDuration = 0.15
+    AnimationTotalDuration = 0.35
+    AnimationModificator = ~/AnimModificator/CubicStep
+    AnimationModificatorParameters = [0.0, 1.0]
 
     FramePropertyAfterAnimation = TUIFramePropertyRTTI
     (

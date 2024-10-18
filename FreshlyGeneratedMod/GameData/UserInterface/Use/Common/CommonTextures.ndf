@@ -59,6 +59,8 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("CommonTexture_division_BEL_1corps",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/BEL_1_corps.png"))]),
         ("CommonTexture_division_UK_3armoured",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/UK_3armoured.png"))]),
         ("CommonTexture_division_UK_1AD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/UK_1AD.png"))]),
+        ("CommonTexture_division_UK_2ID",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/UK_2ID.png"))]),
+        ("CommonTexture_division_UK_4AD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/UK_4th_Armoured.png"))]),
 
         ("CommonTexture_division_NL_1D",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/NL_1D.png"))]),
         ("CommonTexture_division_NL_4D",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/NL_4D.png"))]),
@@ -68,6 +70,7 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("CommonTexture_division_RFA_2PZ",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/2_Panzerdivision_RFA.png"))]),
         ("CommonTexture_division_RFA_3PZ",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/3_Panzerdivision_RFA.png"))]),
         ("CommonTexture_division_RFA_12PZ",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/12_Panzerdivision_RFA.png"))]),
+        ("CommonTexture_division_RFA_1PZ",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/1_Panzerdivision_RFA.png"))]),
         ("CommonTexture_division_RFA_terrkdo",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/RFA_TerrKdo_Sud.png"))]),
         ("CommonTexture_division_RFA_26llb",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/RFA_26llb.png"))]),
         ("CommonTexture_division_RFA_2Luft",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/RFA_2Luft.png"))]),
@@ -82,6 +85,7 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("CommonTexture_division_DDR_7PZD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/DDR_7PZD.png"))]),
         ("CommonTexture_division_DDR_Luft",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/DDR_Luft.png"))]),
 
+
         ("CommonTexture_division_SOV_57_GVMSD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/Blazon57th_gtd.png"))]),
         ("CommonTexture_division_SOV_39_GVMSD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/SOV_39_GVMSD.png"))]),
         ("CommonTexture_division_SOV_27_GVMSD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/SOV_27_GVMSD.png"))]),
@@ -95,6 +99,9 @@ CommonTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("CommonTexture_division_SOV_9_TD",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/SOV_9_TD.png"))]),
         ("CommonTexture_division_SOV_default",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/SOV_default.png"))]),
         ("CommonTexture_division_SOV_guard",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Divisions/SOV_guard.png"))]),
+        ("CommonTexture_division_SOV_9_TDs",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/SOV_9TD.png"))]),
+
+        ("CommonTexture_division_BEL_1_Corps",  MAP [(~/ComponentState/Normal, TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseOutGame/Division/Emblem/BEL_1_Corps.png"))]),
 
 
         // fulda

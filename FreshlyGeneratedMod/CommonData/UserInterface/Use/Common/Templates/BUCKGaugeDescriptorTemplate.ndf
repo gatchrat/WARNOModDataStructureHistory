@@ -14,10 +14,6 @@ template BUCKGaugeValueDescriptor
 
     GridAlign : bool = false,
 
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
-
     FitStyle : int = ~/ContainerFitStyle/None,
     ChildFitToContent : bool = false,
 
@@ -59,10 +55,6 @@ is TBUCKGaugeValueDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = <FitStyle>
     ChildFitToContent = <ChildFitToContent>
@@ -108,10 +100,6 @@ template BUCKGaugeDescriptor
     HidePointerEvents : bool = false,
 
     GridAlign : bool = false,
-
-    IsDroppable : bool = false,
-    BorderForDropLineColor : string = "",
-    BorderForDropLineThicknessToken : string = "",
 
     FitStyle : int = ~/ContainerFitStyle/None,
     ChildFitToContent : bool = false,
@@ -169,10 +157,6 @@ is TBUCKGaugeDescriptor
     HidePointerEvents = <HidePointerEvents>
 
     GridAlign = <GridAlign>
-
-    IsDroppable = <IsDroppable>
-    BorderForDropLineColor = <BorderForDropLineColor>
-    BorderForDropLineThicknessToken = <BorderForDropLineThicknessToken>
 
     FitStyle = <FitStyle>
     ChildFitToContent = <ChildFitToContent>

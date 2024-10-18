@@ -652,6 +652,8 @@ template PawnLabelViewDescriptor
         "UseStrategic_Labels_Fatigue_3",
         "UseStrategic_Labels_Fatigue_4",
         "UseStrategic_Labels_Fatigue_5",
+        "UseStrategic_Labels_Fatigue_6",
+        "UseStrategic_Labels_Fatigue_7",
         "UseStrategic_Labels_Fatigue_0",
     ]
 

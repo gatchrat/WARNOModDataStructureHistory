@@ -1,10 +1,11 @@
-// A faire correspondre avec l'enum dans InterfaceSpecific/UISpecificInGameSpeed.h
+// A faire correspondre avec l'enum dans InterfaceSpecific/UISpecificInGameHUDTimePanelView.h
 
-GameSpeed_BulletTime   is 0
-GameSpeed_Slow         is 1
-GameSpeed_Normal       is 2
-GameSpeed_Fast         is 3
-GameSpeed_VeryFast     is 4
+GameSpeed_Pause        is 0
+GameSpeed_BulletTime   is 1
+GameSpeed_Slow         is 2
+GameSpeed_Normal       is 3
+GameSpeed_Fast         is 4
+GameSpeed_VeryFast     is 5
 
 private GameSpeedPanelButtonWidth is 24
 private GameSpeedPanelButtonHeight is 24
@@ -146,6 +147,7 @@ private TimePanelSpeedButtons is BUCKListDescriptor
 
     Elements =
     [
+        // Bouton Pause
         BUCKListElementDescriptor
         (
             ComponentDescriptor = HUDButton
@@ -161,7 +163,7 @@ private TimePanelSpeedButtons is BUCKListDescriptor
                 HasBackground = false
                 BackgroundColorToken = "BoutonTimePanel"
 
-                Mapping = $/KeyboardOption/Mapping_SwitchBulletTime
+                Mapping = $/KeyboardOption/Mapping_SwitchPause
                 IsTogglable = true
                 CannotDeselect = false
                 RadioButtonManager = ~/ButtonManager
@@ -180,8 +182,27 @@ private TimePanelSpeedButtons is BUCKListDescriptor
             )
         ),
 
-         // Bouton décélérer
-         BUCKListElementDescriptor
+        // Bouton caché pour la vitesse bullet time
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKButtonDescriptor
+            (
+                ElementName = "SpeedBulletTimeButton"
+
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    MagnifiableWidthHeight = [0, 0]
+                )
+
+                Mapping = $/KeyboardOption/Mapping_SetBulletTimeSpeed
+                IsTogglable = true
+                CannotDeselect = false
+                RadioButtonManager = ~/ButtonManager
+            )
+        ),
+
+        // Bouton décélérer
+        BUCKListElementDescriptor
         (
             ComponentDescriptor = HUDButton
             (
@@ -208,7 +229,7 @@ private TimePanelSpeedButtons is BUCKListDescriptor
             )
         ),
 
-         // Bouton lecture
+        // Bouton lecture
         BUCKListElementDescriptor
         (
             ComponentDescriptor = HUDButton
@@ -244,7 +265,7 @@ private TimePanelSpeedButtons is BUCKListDescriptor
             )
         ),
 
-        // Boutons accélérer
+        // Bouton accélérer
         BUCKListElementDescriptor
         (
             ComponentDescriptor = HUDButton
@@ -279,6 +300,7 @@ private TimePanelSpeedButtons is BUCKListDescriptor
             )
         ),
 
+        // Bouton forte accélération
         BUCKListElementDescriptor
         (
             ComponentDescriptor = HUDButton
@@ -322,6 +344,11 @@ UISpecificInGameHUDTimePanelViewDescriptor is TUISpecificInGameHUDTimePanelViewD
 (
     GameSpeedInfos =
     [
+        //GameSpeed_Pause
+        TUIGameSpeedDescriptor(
+            GameSpeedValue = 0.0
+            GameSpeedToken = "GS_PAUSE"
+        ),
         //GameSpeed_BulletTime
         TUIGameSpeedDescriptor(
             GameSpeedValue = 0.001

@@ -32,25 +32,26 @@ DefaultStyleGuide is TUIStyleGuide
         ("ActionPointBLUFOR",                                       MAP [ ( ~/ComponentState/Normal, TextStyleDefault ), ]),
         ("ActionPointREDFORCantAttack",                             MAP [ ( ~/ComponentState/Normal, TextStylePointActionREDFORCantAttack ), ]),
         ("ActionPointBLUFORCantAttack",                             MAP [ ( ~/ComponentState/Normal, TextStylePointActionBLUFORCantAttack ), ]),
-        ("Default",                                             MAP [ ( ~/ComponentState/Normal, TextStyleDefault ), ]),
-        ("LabelUnitNameStroke",                                             MAP [ ( ~/ComponentState/Normal, TextStyleStrokeLabelUnit ), ]),
-        ("DefaultWithStroke",                                   MAP [ ( ~/ComponentState/Normal, TextStyleWithStroke ), ]),
-        ("DefaultWithStroke_labelVille",                                   MAP [ ( ~/ComponentState/Normal, TextStyleDefaultWithStroke_labelVille ), ]),
-        ("TitreChallenge_strokeBig",                                   MAP [ ( ~/ComponentState/Normal, TitreChallenge_strokeBig ), ]),
-        ("TextStyleEcranMoniteur",                                   MAP [ ( ~/ComponentState/Normal, TextStyleEcranMoniteur ), ]),
-        ("TextStyleEcranMoniteur_cyan",                                   MAP [ ( ~/ComponentState/Normal, TextStyleEcranMoniteur_cyan ), ]),
-        ("TextStyleEcranMoniteur_jaune",                                   MAP [ ( ~/ComponentState/Normal, TextStyleEcranMoniteur_jaune ), ]),
-        ("TextStyleEcranMoniteur_solo",                                   MAP [ ( ~/ComponentState/Normal, TextStyleEcranMoniteur_solo ), ]),
-        ("TextStyleFeedbackLabel",                                   MAP [ ( ~/ComponentState/Normal, ~/TextStyleFeedbackLabel ), ]),
-        ("TextStyleEcranMoniteur_cyan_greyable",                MAP [ ( ~/ComponentState/Normal, TextStyleEcranMoniteur_cyan ),
-                                                                      ( ~/ComponentState/Grayed, TextStyleDefault ),
-                                                                    ]),
+        ("Default",                                                 MAP [ ( ~/ComponentState/Normal, TextStyleDefault ), ]),
+        ("LabelUnitNameStroke",                                     MAP [ ( ~/ComponentState/Normal, TextStyleStrokeLabelUnit ), ]),
+        ("DefaultWithStroke",                                       MAP [ ( ~/ComponentState/Normal, TextStyleWithStroke ), ]),
+        ("DefaultWithStroke_labelVille",                            MAP [ ( ~/ComponentState/Normal, TextStyleDefaultWithStroke_labelVille ), ]),
+        ("TitreChallenge_strokeBig",                                MAP [ ( ~/ComponentState/Normal, TitreChallenge_strokeBig ), ]),
+        ("TextStyleEcranMoniteur",                                  MAP [ ( ~/ComponentState/Normal, TextStyleEcranMoniteur ),
+                                                                          ( ~/ComponentState/Grayed, TextStyleDefault ) ]),
+        ("TextStyleEcranMoniteur_cyan",                             MAP [
+                                                                            ( ~/ComponentState/Normal, TextStyleEcranMoniteur_cyan ),
+                                                                            ( ~/ComponentState/Grayed, TextStyleDefault )
+                                                                        ]),
+        ("TextStyleEcranMoniteur_jaune",                            MAP [ ( ~/ComponentState/Normal, TextStyleEcranMoniteur_jaune ), ]),
+        ("TextStyleEcranMoniteur_solo",                             MAP [ ( ~/ComponentState/Normal, TextStyleEcranMoniteur_solo ), ]),
+        ("TextStyleFeedbackLabel",                                  MAP [ ( ~/ComponentState/Normal, ~/TextStyleFeedbackLabel ), ]),
 
         //InGame
         ("ChatLogMessage",                                      MAP [ ( ~/ComponentState/Normal, TextStyleStroke0806 ), ]),
         ("FactoryName",                                         MAP [ ( ~/ComponentState/Normal, TextStyleFactoryName ), ]),
         ("UnlockingPhase",                                      MAP [ ( ~/ComponentState/Normal, TextStyleUnlockingPhase ), ]),
-        ("Engagement",                                      MAP [ ( ~/ComponentState/Normal, TextStyleEngagement ), ]),
+        ("Engagement",                                          MAP [ ( ~/ComponentState/Normal, TextStyleEngagement ), ]),
 
         ("PlayerName",                                          MAP [ ( ~/ComponentState/Normal, TextStyleStroke080604 ), ]),
         ("NbUnits",                                             MAP [ ( ~/ComponentState/Normal, TextStyleStroke080604 ), ]),
@@ -68,8 +69,9 @@ DefaultStyleGuide is TUIStyleGuide
                                                                 ]),
 
         ("AutoKick",                                            MAP [ ( ~/ComponentState/Normal, TextStyleStroke0806 ), ]),
-        ("EGWin",                                            MAP [ ( ~/ComponentState/Normal, TextStyle_EGWin ), ]),
-        ("EGWin2",                                            MAP [ ( ~/ComponentState/Normal, TextStyle_EGWin2 ), ]),
+        ("EGWin",                                               MAP [ ( ~/ComponentState/Normal, TextStyle_EGWin ), ]),
+        ("EGWin2",                                              MAP [ ( ~/ComponentState/Normal, TextStyle_EGWin2 ), ]),
+        ("UpperCase",                                           MAP [ ( ~/ComponentState/Normal, TextStyleUpperCase), ]),
     ]
 
     Typeface = MAP [
@@ -2581,6 +2583,8 @@ DefaultStyleGuide is TUIStyleGuide
         ("division_NL_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [250,129,0,255] ) ),]),
         ("division_NL_2",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [250,157,58,255] ) ),]),
 
+        ("division_POL_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [213,19,58,255] ) ),]),
+
         ("division_SOV_1",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [134,37,4,180] ) ), ]),
         ("division_SOV_2",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [116,90,35,180] ) ), ]),
         ("division_SOV_3",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [201,59,12,180] ) ), ]),
@@ -2780,6 +2784,7 @@ DefaultStyleGuide is TUIStyleGuide
                                             ( ~/ComponentState/Normal,      TColorRTTI( Color = [158,155,162,255] ) ),
                                            ]),
         ("VertLogin",                  MAP [
+                                            ( ~/ComponentState/Grayed,      TColorRTTI( Color = [80, 80, 80,160] ) ),
                                             ( ~/ComponentState/Normal,      TColorRTTI( Color = [124,210,150,180] ) ),
                                             ( ~/ComponentState/Highlighted, TColorRTTI( Color = [124,210,150,240] ) ),
                                            ]),

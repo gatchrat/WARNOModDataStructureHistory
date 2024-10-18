@@ -734,8 +734,7 @@ ELevelLaunch is TBaseClass
     Scripted is 2
     Skirmish is 3
     Load    is 4
-    Replay  is 5
-    TestSuite  is 6
+    TestSuite  is 5
 )
 
 //-----------------------------------------------------------------------------

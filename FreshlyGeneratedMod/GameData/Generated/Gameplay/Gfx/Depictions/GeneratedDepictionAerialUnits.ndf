@@ -12,6 +12,7 @@ Gfx_A109BA_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Agusta_A109,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -131,6 +132,7 @@ Gfx_A10_Thunderbolt_II_ATGM_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_A10,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_A10_Thunderbolt_II_ATGM_US_Weapon1,
             Op_A10_Thunderbolt_II_ATGM_US_Weapon2,
@@ -230,6 +232,7 @@ Gfx_A10_Thunderbolt_II_Rkt_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_A10,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_A10_Thunderbolt_II_Rkt_US_Weapon1,
             Op_A10_Thunderbolt_II_Rkt_US_Weapon2,
@@ -328,6 +331,7 @@ Gfx_A10_Thunderbolt_II_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_A10,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_A10_Thunderbolt_II_US_Weapon1,
             Op_A10_Thunderbolt_II_US_Weapon2,
@@ -415,6 +419,7 @@ Gfx_A37B_Dragonfly_HE_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_Dragonfly,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_A37B_Dragonfly_HE_US_Weapon1,
             Op_A37B_Dragonfly_HE_US_Weapon2,
@@ -489,6 +494,7 @@ Gfx_A37B_Dragonfly_NPLM_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_Dragonfly,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_A37B_Dragonfly_NPLM_US_Weapon1,
             Op_A37B_Dragonfly_NPLM_US_Weapon2,
@@ -574,6 +580,7 @@ Gfx_A37B_Dragonfly_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_Dragonfly,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_A37B_Dragonfly_US_Weapon1,
             Op_A37B_Dragonfly_US_Weapon2,
@@ -669,6 +676,7 @@ Gfx_AH1E_Cobra_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_petit,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH1E_Cobra_US_Weapon1,
             Op_AH1E_Cobra_US_Weapon2,
@@ -798,6 +806,7 @@ Gfx_AH1F_ATAS_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_petit,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH1F_ATAS_US_Weapon1,
             Op_AH1F_ATAS_US_Weapon2,
@@ -927,6 +936,7 @@ Gfx_AH1F_CNITE_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_petit,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH1F_CNITE_US_Weapon1,
             Op_AH1F_CNITE_US_Weapon2,
@@ -1058,6 +1068,7 @@ Gfx_AH1F_Cobra_NG_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_petit,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH1F_Cobra_NG_US_Weapon1,
             Op_AH1F_Cobra_NG_US_Weapon2,
@@ -1187,6 +1198,7 @@ Gfx_AH1F_Cobra_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_petit,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH1F_Cobra_US_Weapon1,
             Op_AH1F_Cobra_US_Weapon2,
@@ -1316,6 +1328,7 @@ Gfx_AH1F_HeavyHog_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_petit,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH1F_HeavyHog_US_Weapon1,
             Op_AH1F_HeavyHog_US_Weapon2,
@@ -1445,6 +1458,7 @@ Gfx_AH1S_Cobra_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_petit,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH1S_Cobra_US_Weapon1,
             Op_AH1S_Cobra_US_Weapon2,
@@ -1578,6 +1592,7 @@ Gfx_AH64_Apache_ATAS_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Apache,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH64_Apache_ATAS_US_Weapon1,
             Op_AH64_Apache_ATAS_US_Weapon2,
@@ -1712,6 +1727,7 @@ Gfx_AH64_Apache_NG_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Apache,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH64_Apache_NG_US_Weapon1,
             Op_AH64_Apache_NG_US_Weapon2,
@@ -1846,6 +1862,7 @@ Gfx_AH64_Apache_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Apache,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH64_Apache_US_Weapon1,
             Op_AH64_Apache_US_Weapon2,
@@ -1969,6 +1986,7 @@ Gfx_AH64_Apache_emp1_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Apache,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH64_Apache_emp1_US_Weapon1,
             Op_AH64_Apache_emp1_US_Weapon2,
@@ -2101,6 +2119,7 @@ Gfx_AH64_Apache_emp2_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Apache,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_AH64_Apache_emp2_US_Weapon1,
             Op_AH64_Apache_emp2_US_Weapon2,
@@ -2210,6 +2229,7 @@ Gfx_AH6C_Little_Bird_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_LittleBird,
+            DepictionOperator_SoundProbe,
             Op_AH6C_Little_Bird_US_Weapon1,
             Op_AH6C_Little_Bird_US_Weapon2,
             DepictionOperator_CriticalEffects,
@@ -2322,6 +2342,7 @@ Gfx_AH6G_Little_Bird_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_LittleBird,
+            DepictionOperator_SoundProbe,
             Op_AH6G_Little_Bird_US_Weapon1,
             Op_AH6G_Little_Bird_US_Weapon2,
             Op_AH6G_Little_Bird_US_Weapon3,
@@ -2402,6 +2423,7 @@ Gfx_Alouette_III_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Alouette,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -2475,6 +2497,7 @@ Gfx_Alouette_III_reco_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Alouette,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -2548,6 +2571,7 @@ Gfx_Alouette_II_CMD_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Alouette,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -2621,6 +2645,7 @@ Gfx_Alouette_II_reco_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Alouette,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -2694,6 +2719,7 @@ Gfx_Alouette_II_reco_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Alouette,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -2790,6 +2816,7 @@ Gfx_Alpha_Jet_A_clu_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_AlphaJet,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Alpha_Jet_A_clu_RFA_Weapon1,
             Op_Alpha_Jet_A_clu_RFA_Weapon2,
@@ -2862,6 +2889,7 @@ Gfx_Alpha_Jet_A_he_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_AlphaJet,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Alpha_Jet_A_he_RFA_Weapon1,
             Op_Alpha_Jet_A_he_RFA_Weapon2,
@@ -2945,6 +2973,7 @@ Gfx_Alpha_Jet_A_nplm_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_AlphaJet,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Alpha_Jet_A_nplm_RFA_Weapon1,
             Op_Alpha_Jet_A_nplm_RFA_Weapon2,
@@ -3032,6 +3061,7 @@ Gfx_Alpha_Jet_A_rkt_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_AlphaJet,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Alpha_Jet_A_rkt_RFA_Weapon1,
             Op_Alpha_Jet_A_rkt_RFA_Weapon2,
@@ -3095,6 +3125,7 @@ Gfx_Alpha_Jet_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_AlphaJet,
+            DepictionOperator_SoundProbe,
             Op_Alpha_Jet_BEL_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -3153,6 +3184,7 @@ Gfx_Alpha_Jet_HE2_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_AlphaJet,
+            DepictionOperator_SoundProbe,
             Op_Alpha_Jet_HE2_BEL_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -3199,6 +3231,7 @@ Gfx_Bo_105_CMD_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BO105,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -3283,6 +3316,7 @@ Gfx_Bo_105_PAH_1A1_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BO105,
+            DepictionOperator_SoundProbe,
             Op_Bo_105_PAH_1A1_RFA_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -3369,6 +3403,7 @@ Gfx_Bo_105_PAH_1_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BO105,
+            DepictionOperator_SoundProbe,
             Op_Bo_105_PAH_1_RFA_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -3444,6 +3479,7 @@ Gfx_Bo_105_reco_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BO105,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -3516,6 +3552,7 @@ Gfx_Bo_105_trans_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BO105,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -3601,6 +3638,7 @@ Gfx_Buccaneer_S2B_ATGM_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Buccaneer,
+            DepictionOperator_SoundProbe,
             Op_Buccaneer_S2B_ATGM_UK_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -3660,6 +3698,7 @@ Gfx_Buccaneer_S2B_GBU_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Buccaneer,
+            DepictionOperator_SoundProbe,
             Op_Buccaneer_S2B_GBU_UK_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -3729,6 +3768,7 @@ Gfx_Buccaneer_S2B_HE_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Buccaneer,
+            DepictionOperator_SoundProbe,
             Op_Buccaneer_S2B_HE_UK_Weapon2,
             Op_Buccaneer_S2B_HE_UK_Weapon3,
             DepictionOperator_CriticalEffects,
@@ -3800,6 +3840,7 @@ Gfx_Buccaneer_S2B_SEAD_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Buccaneer,
+            DepictionOperator_SoundProbe,
             Op_Buccaneer_S2B_SEAD_UK_Weapon2,
             Op_Buccaneer_S2B_SEAD_UK_Weapon3,
             DepictionOperator_CriticalEffects,
@@ -3848,6 +3889,7 @@ Gfx_CH47D_Chinook_supply_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Chinook,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -3923,6 +3965,7 @@ Gfx_CH47_Chinook_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Chinook,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -3998,6 +4041,7 @@ Gfx_CH47_Chinook_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Chinook,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -4073,6 +4117,7 @@ Gfx_CH47_Super_Chinook_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Chinook,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -4148,6 +4193,7 @@ Gfx_CH53G_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_CH53,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -4223,6 +4269,7 @@ Gfx_CH53G_trans_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_CH53,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -4299,6 +4346,7 @@ Gfx_EF111_Raven_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_F111,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
             DepictionOperator_Airplane,
@@ -4341,6 +4389,7 @@ Gfx_EH60A_EW_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BlackHawk,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -4439,6 +4488,7 @@ Gfx_F104G_Starfighter_AT_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_F104,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F104G_Starfighter_AT_RFA_Weapon1,
             Op_F104G_Starfighter_AT_RFA_Weapon2,
@@ -4510,6 +4560,7 @@ Gfx_F104G_Starfighter_HE_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_F104,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F104G_Starfighter_HE_RFA_Weapon1,
             Op_F104G_Starfighter_HE_RFA_Weapon2,
@@ -4581,6 +4632,7 @@ Gfx_F104G_Starfighter_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_F104,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F104G_Starfighter_RFA_Weapon1,
             Op_F104G_Starfighter_RFA_Weapon2,
@@ -4641,6 +4693,7 @@ Gfx_F111E_Aardvark_CBU_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_F111,
+            DepictionOperator_SoundProbe,
             Op_F111E_Aardvark_CBU_US_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -4699,6 +4752,7 @@ Gfx_F111E_Aardvark_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_F111,
+            DepictionOperator_SoundProbe,
             Op_F111E_Aardvark_US_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -4757,6 +4811,7 @@ Gfx_F111E_Aardvark_napalm_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_F111,
+            DepictionOperator_SoundProbe,
             Op_F111E_Aardvark_napalm_US_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -4815,6 +4870,7 @@ Gfx_F111F_Aardvark_CBU_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_F111,
+            DepictionOperator_SoundProbe,
             Op_F111F_Aardvark_CBU_US_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -4874,6 +4930,7 @@ Gfx_F111F_Aardvark_LGB2_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_F111,
+            DepictionOperator_SoundProbe,
             Op_F111F_Aardvark_LGB2_US_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -4933,6 +4990,7 @@ Gfx_F111F_Aardvark_LGB_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_F111,
+            DepictionOperator_SoundProbe,
             Op_F111F_Aardvark_LGB_US_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -4991,6 +5049,7 @@ Gfx_F111F_Aardvark_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_F111,
+            DepictionOperator_SoundProbe,
             Op_F111F_Aardvark_US_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -5049,6 +5108,7 @@ Gfx_F111F_Aardvark_napalm_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_F111,
+            DepictionOperator_SoundProbe,
             Op_F111F_Aardvark_napalm_US_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -5107,6 +5167,7 @@ Gfx_F117_Nighthawk_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F117,
+            DepictionOperator_SoundProbe,
             Op_F117_Nighthawk_US_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -5184,6 +5245,7 @@ Gfx_F15C_Eagle_AA2_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F15,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F15C_Eagle_AA2_US_Weapon1,
             Op_F15C_Eagle_AA2_US_Weapon2,
@@ -5268,6 +5330,7 @@ Gfx_F15C_Eagle_AA_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F15,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F15C_Eagle_AA_US_Weapon1,
             Op_F15C_Eagle_AA_US_Weapon2,
@@ -5353,6 +5416,7 @@ Gfx_F15E_StrikeEagle_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F15,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F15E_StrikeEagle_US_Weapon1,
             Op_F15E_StrikeEagle_US_Weapon2,
@@ -5438,6 +5502,7 @@ Gfx_F16A_AA_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16A_AA_BEL_Weapon1,
             Op_F16A_AA_BEL_Weapon2,
@@ -5521,6 +5586,7 @@ Gfx_F16A_CBU_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16A_CBU_BEL_Weapon1,
             Op_F16A_CBU_BEL_Weapon2,
@@ -5605,6 +5671,7 @@ Gfx_F16C_LGB_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16C_LGB_US_Weapon1,
             Op_F16C_LGB_US_Weapon2,
@@ -5688,6 +5755,7 @@ Gfx_F16E_AA2_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16E_AA2_US_Weapon1,
             Op_F16E_AA2_US_Weapon2,
@@ -5771,6 +5839,7 @@ Gfx_F16E_AA_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16E_AA_US_Weapon1,
             Op_F16E_AA_US_Weapon2,
@@ -5855,6 +5924,7 @@ Gfx_F16E_AGM_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16E_AGM_US_Weapon1,
             Op_F16E_AGM_US_Weapon2,
@@ -5938,6 +6008,7 @@ Gfx_F16E_CBU_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16E_CBU_US_Weapon1,
             Op_F16E_CBU_US_Weapon2,
@@ -6021,6 +6092,7 @@ Gfx_F16E_HE_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16E_HE_US_Weapon1,
             Op_F16E_HE_US_Weapon2,
@@ -6104,6 +6176,7 @@ Gfx_F16E_SEAD_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16E_SEAD_US_Weapon1,
             Op_F16E_SEAD_US_Weapon2,
@@ -6187,6 +6260,7 @@ Gfx_F16E_TER_HE_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16E_TER_HE_US_Weapon1,
             Op_F16E_TER_HE_US_Weapon2,
@@ -6270,6 +6344,7 @@ Gfx_F16E_napalm_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F16,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F16E_napalm_US_Weapon1,
             Op_F16E_napalm_US_Weapon2,
@@ -6353,6 +6428,7 @@ Gfx_F4E_Phantom_II_AA_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F4E_Phantom_II_AA_US_Weapon1,
             Op_F4E_Phantom_II_AA_US_Weapon2,
@@ -6427,6 +6503,7 @@ Gfx_F4E_Phantom_II_AT_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F4E_Phantom_II_AT_US_Weapon1,
             Op_F4E_Phantom_II_AT_US_Weapon2,
@@ -6509,6 +6586,7 @@ Gfx_F4E_Phantom_II_CBU_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F4E_Phantom_II_CBU_US_Weapon1,
             Op_F4E_Phantom_II_CBU_US_Weapon2,
@@ -6593,6 +6671,7 @@ Gfx_F4E_Phantom_II_HE_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F4E_Phantom_II_HE_US_Weapon1,
             Op_F4E_Phantom_II_HE_US_Weapon2,
@@ -6677,6 +6756,7 @@ Gfx_F4E_Phantom_II_napalm_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F4E_Phantom_II_napalm_US_Weapon1,
             Op_F4E_Phantom_II_napalm_US_Weapon2,
@@ -6761,6 +6841,7 @@ Gfx_F4F_Phantom_II_AA_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F4F_Phantom_II_AA_RFA_Weapon1,
             Op_F4F_Phantom_II_AA_RFA_Weapon2,
@@ -6835,6 +6916,7 @@ Gfx_F4F_Phantom_II_AT_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F4F_Phantom_II_AT_RFA_Weapon1,
             Op_F4F_Phantom_II_AT_RFA_Weapon2,
@@ -6917,6 +6999,7 @@ Gfx_F4F_Phantom_II_HE1_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F4F_Phantom_II_HE1_RFA_Weapon1,
             Op_F4F_Phantom_II_HE1_RFA_Weapon2,
@@ -7001,6 +7084,7 @@ Gfx_F4F_Phantom_II_HE2_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F4F_Phantom_II_HE2_RFA_Weapon1,
             Op_F4F_Phantom_II_HE2_RFA_Weapon2,
@@ -7085,6 +7169,7 @@ Gfx_F4F_Phantom_II_RKT2_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_F4F_Phantom_II_RKT2_RFA_Weapon1,
             Op_F4F_Phantom_II_RKT2_RFA_Weapon2,
@@ -7158,6 +7243,7 @@ Gfx_F4_Phantom_AA_F3_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             Op_F4_Phantom_AA_F3_UK_Weapon2,
             Op_F4_Phantom_AA_F3_UK_Weapon3,
             DepictionOperator_CriticalEffects,
@@ -7228,6 +7314,7 @@ Gfx_F4_Wild_Weasel_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_F4,
+            DepictionOperator_SoundProbe,
             Op_F4_Wild_Weasel_US_Weapon2,
             Op_F4_Wild_Weasel_US_Weapon3,
             DepictionOperator_CriticalEffects,
@@ -7299,6 +7386,7 @@ Gfx_G91_R3_Gina_HE_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_G91,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_G91_R3_Gina_HE_RFA_Weapon1,
             Op_G91_R3_Gina_HE_RFA_Weapon2,
@@ -7382,6 +7470,7 @@ Gfx_G91_R3_Gina_NPL_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_G91,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_G91_R3_Gina_NPL_RFA_Weapon1,
             Op_G91_R3_Gina_NPL_RFA_Weapon2,
@@ -7468,6 +7557,7 @@ Gfx_G91_R3_Gina_RKT_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_G91,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_G91_R3_Gina_RKT_RFA_Weapon1,
             Op_G91_R3_Gina_RKT_RFA_Weapon2,
@@ -7544,6 +7634,7 @@ Gfx_Gazelle_20mm_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             Op_Gazelle_20mm_FR_Weapon1,
             Op_Gazelle_20mm_FR_Weapon2,
             DepictionOperator_CriticalEffects,
@@ -7649,6 +7740,7 @@ Gfx_Gazelle_20mm_reco_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             Op_Gazelle_20mm_reco_FR_Weapon1,
             Op_Gazelle_20mm_reco_FR_Weapon2,
             DepictionOperator_CriticalEffects,
@@ -7727,6 +7819,7 @@ Gfx_Gazelle_CMD_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -7811,6 +7904,7 @@ Gfx_Gazelle_HOT_2_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             Op_Gazelle_HOT_2_FR_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -7898,6 +7992,7 @@ Gfx_Gazelle_HOT_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             Op_Gazelle_HOT_FR_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -7985,6 +8080,7 @@ Gfx_Gazelle_Mistral_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             Op_Gazelle_Mistral_FR_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -8072,6 +8168,7 @@ Gfx_Gazelle_SNEB_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             Op_Gazelle_SNEB_UK_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -8159,6 +8256,7 @@ Gfx_Gazelle_SNEB_reco_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             Op_Gazelle_SNEB_reco_UK_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -8234,6 +8332,7 @@ Gfx_Gazelle_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -8307,6 +8406,7 @@ Gfx_Gazelle_reco_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -8380,6 +8480,7 @@ Gfx_Gazelle_trans_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -8487,6 +8588,7 @@ Gfx_Harrier_CLU_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Harrier,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Harrier_CLU_UK_Weapon1,
             Op_Harrier_CLU_UK_Weapon2,
@@ -8560,6 +8662,7 @@ Gfx_Harrier_GR5_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Harrier,
+            DepictionOperator_SoundProbe,
             Op_Harrier_GR5_UK_Weapon2,
             Op_Harrier_GR5_UK_Weapon3,
             DepictionOperator_CriticalEffects,
@@ -8641,6 +8744,7 @@ Gfx_Harrier_HE1_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Harrier,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Harrier_HE1_UK_Weapon1,
             Op_Harrier_HE1_UK_Weapon2,
@@ -8714,6 +8818,7 @@ Gfx_Harrier_HE2_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Harrier,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Harrier_HE2_UK_Weapon1,
             Op_Harrier_HE2_UK_Weapon2,
@@ -8797,6 +8902,7 @@ Gfx_Harrier_RKT1_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Harrier,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Harrier_RKT1_UK_Weapon1,
             Op_Harrier_RKT1_UK_Weapon2,
@@ -8883,6 +8989,7 @@ Gfx_Harrier_RKT2_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Harrier,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Harrier_RKT2_UK_Weapon1,
             Op_Harrier_RKT2_UK_Weapon2,
@@ -8956,6 +9063,7 @@ Gfx_Harrier_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Harrier,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Harrier_UK_Weapon1,
             Op_Harrier_UK_Weapon2,
@@ -9027,6 +9135,7 @@ Gfx_Jaguar_ATGM_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_ATGM_FR_Weapon1,
             Op_Jaguar_ATGM_FR_Weapon2,
@@ -9109,6 +9218,7 @@ Gfx_Jaguar_CLU_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_CLU_UK_Weapon1,
             Op_Jaguar_CLU_UK_Weapon2,
@@ -9193,6 +9303,7 @@ Gfx_Jaguar_HE1_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_HE1_UK_Weapon1,
             Op_Jaguar_HE1_UK_Weapon2,
@@ -9277,6 +9388,7 @@ Gfx_Jaguar_HE2_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_HE2_UK_Weapon1,
             Op_Jaguar_HE2_UK_Weapon2,
@@ -9361,6 +9473,7 @@ Gfx_Jaguar_HE_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_HE_FR_Weapon1,
             Op_Jaguar_HE_FR_Weapon2,
@@ -9447,6 +9560,7 @@ Gfx_Jaguar_RKT_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_RKT_FR_Weapon1,
             Op_Jaguar_RKT_FR_Weapon2,
@@ -9532,6 +9646,7 @@ Gfx_Jaguar_RKT_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_RKT_UK_Weapon1,
             Op_Jaguar_RKT_UK_Weapon2,
@@ -9616,6 +9731,7 @@ Gfx_Jaguar_SEAD2_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_SEAD2_FR_Weapon1,
             Op_Jaguar_SEAD2_FR_Weapon2,
@@ -9689,6 +9805,7 @@ Gfx_Jaguar_SEAD_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_SEAD_FR_Weapon1,
             Op_Jaguar_SEAD_FR_Weapon2,
@@ -9771,6 +9888,7 @@ Gfx_Jaguar_clu_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_clu_FR_Weapon1,
             Op_Jaguar_clu_FR_Weapon2,
@@ -9855,6 +9973,7 @@ Gfx_Jaguar_nplm_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Jaguar,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Jaguar_nplm_FR_Weapon1,
             Op_Jaguar_nplm_FR_Weapon2,
@@ -9954,6 +10073,7 @@ Gfx_Ka_50_AA_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_KA50,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Ka_50_AA_SOV_Weapon1,
             Op_Ka_50_AA_SOV_Weapon2,
@@ -10087,6 +10207,7 @@ Gfx_Ka_50_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_KA50,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Ka_50_SOV_Weapon1,
             Op_Ka_50_SOV_Weapon2,
@@ -10195,6 +10316,7 @@ Gfx_L39ZO_CLU_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_Albatros,
+            DepictionOperator_SoundProbe,
             Op_L39ZO_CLU_DDR_Weapon2,
             Op_L39ZO_CLU_DDR_Weapon3,
             DepictionOperator_CriticalEffects,
@@ -10268,6 +10390,7 @@ Gfx_L39ZO_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_Albatros,
+            DepictionOperator_SoundProbe,
             Op_L39ZO_DDR_Weapon2,
             Op_L39ZO_DDR_Weapon3,
             DepictionOperator_CriticalEffects,
@@ -10328,6 +10451,7 @@ Gfx_L39ZO_HE1_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_Albatros,
+            DepictionOperator_SoundProbe,
             Op_L39ZO_HE1_DDR_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -10386,6 +10510,7 @@ Gfx_L39ZO_HE1_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_Albatros,
+            DepictionOperator_SoundProbe,
             Op_L39ZO_HE1_SOV_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -10444,6 +10569,7 @@ Gfx_L39ZO_NPLM_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_AlphaJet,
+            DepictionOperator_SoundProbe,
             Op_L39ZO_NPLM_SOV_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -10501,6 +10627,7 @@ Gfx_Lynx_AH_Mk1_LBH_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Lynx,
+            DepictionOperator_SoundProbe,
             Op_Lynx_AH_Mk1_LBH_UK_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -10587,6 +10714,7 @@ Gfx_Lynx_AH_Mk1_TOW_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Lynx,
+            DepictionOperator_SoundProbe,
             Op_Lynx_AH_Mk1_TOW_UK_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -10673,6 +10801,7 @@ Gfx_Lynx_AH_Mk1_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Lynx,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -10791,6 +10920,7 @@ Gfx_Lynx_AH_Mk7_I_TOW2_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Lynx,
+            DepictionOperator_SoundProbe,
             Op_Lynx_AH_Mk7_I_TOW2_UK_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -10878,6 +11008,7 @@ Gfx_Lynx_AH_Mk7_I_TOW_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Lynx,
+            DepictionOperator_SoundProbe,
             Op_Lynx_AH_Mk7_I_TOW_UK_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -10964,6 +11095,7 @@ Gfx_Lynx_AH_Mk7_SNEB_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Gazelle,
+            DepictionOperator_SoundProbe,
             Op_Lynx_AH_Mk7_SNEB_UK_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -11053,6 +11185,7 @@ Gfx_MH47D_Super_Chinook_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Chinook,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MH47D_Super_Chinook_US_Weapon1,
             DepictionOperator_CriticalEffects,
@@ -11179,6 +11312,7 @@ Gfx_MH_60A_DAP_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BlackHawk,
+            DepictionOperator_SoundProbe,
             Op_MH_60A_DAP_US_Weapon1,
             Op_MH_60A_DAP_US_Weapon2,
             Op_MH_60A_DAP_US_Weapon3,
@@ -11298,6 +11432,7 @@ Gfx_MiG_17PF_POL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_17PF_POL_Weapon1,
             Op_MiG_17PF_POL_Weapon2,
@@ -11368,6 +11503,7 @@ Gfx_MiG_21PFM_AA_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG21,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_21PFM_AA_DDR_Weapon1,
             Op_MiG_21PFM_AA_DDR_Weapon2,
@@ -11451,6 +11587,7 @@ Gfx_MiG_21PFM_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG21,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_21PFM_DDR_Weapon1,
             Op_MiG_21PFM_DDR_Weapon2,
@@ -11534,6 +11671,7 @@ Gfx_MiG_21bis_AA2_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG21,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_21bis_AA2_DDR_Weapon1,
             Op_MiG_21bis_AA2_DDR_Weapon2,
@@ -11617,6 +11755,7 @@ Gfx_MiG_21bis_AA3_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG21,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_21bis_AA3_DDR_Weapon1,
             Op_MiG_21bis_AA3_DDR_Weapon2,
@@ -11700,6 +11839,7 @@ Gfx_MiG_21bis_CLU_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG21,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_21bis_CLU_DDR_Weapon1,
             Op_MiG_21bis_CLU_DDR_Weapon2,
@@ -11772,6 +11912,7 @@ Gfx_MiG_21bis_HE_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG21,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_21bis_HE_DDR_Weapon1,
             Op_MiG_21bis_HE_DDR_Weapon2,
@@ -11853,6 +11994,7 @@ Gfx_MiG_21bis_NPLM_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG21,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_21bis_NPLM_DDR_Weapon1,
             Op_MiG_21bis_NPLM_DDR_Weapon2,
@@ -11930,6 +12072,7 @@ Gfx_MiG_21bis_RKT2_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG21,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_21bis_RKT2_DDR_Weapon1,
             Op_MiG_21bis_RKT2_DDR_Weapon2,
@@ -12019,6 +12162,7 @@ Gfx_MiG_23BN_AT2_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23BN_AT2_DDR_Weapon1,
             Op_MiG_23BN_AT2_DDR_Weapon2,
@@ -12092,6 +12236,7 @@ Gfx_MiG_23BN_AT_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23BN_AT_DDR_Weapon1,
             Op_MiG_23BN_AT_DDR_Weapon2,
@@ -12163,6 +12308,7 @@ Gfx_MiG_23BN_CLU_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23BN_CLU_DDR_Weapon1,
             Op_MiG_23BN_CLU_DDR_Weapon2,
@@ -12234,6 +12380,7 @@ Gfx_MiG_23BN_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23BN_DDR_Weapon1,
             Op_MiG_23BN_DDR_Weapon2,
@@ -12319,6 +12466,7 @@ Gfx_MiG_23BN_KMGU_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23BN_KMGU_DDR_Weapon1,
             Op_MiG_23BN_KMGU_DDR_Weapon2,
@@ -12407,6 +12555,7 @@ Gfx_MiG_23BN_RKT_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23BN_RKT_DDR_Weapon1,
             Op_MiG_23BN_RKT_DDR_Weapon2,
@@ -12487,6 +12636,7 @@ Gfx_MiG_23BN_nplm_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23BN_nplm_DDR_Weapon1,
             Op_MiG_23BN_nplm_DDR_Weapon2,
@@ -12569,6 +12719,7 @@ Gfx_MiG_23MF_AA_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23MF_AA_DDR_Weapon1,
             Op_MiG_23MF_AA_DDR_Weapon2,
@@ -12641,6 +12792,7 @@ Gfx_MiG_23MF_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23MF_DDR_Weapon1,
             Op_MiG_23MF_DDR_Weapon2,
@@ -12677,76 +12829,6 @@ Gfx_MiG_23MF_DDR_Autogen is TacticAerialDepictionTemplate
         ]        
 
         SubDepictionGenerators = [ SubGenerators_MiG_23MF_DDR ]
-)
-// Dépiction de l'unité MiG_23MF_SOV
-Op_MiG_23MF_SOV_Weapon1 is DepictionOperator_WeaponContinuousFire
-(
-    Anchors = 
-    [
-        "fx_tourelle1_tir_01",
-    ]
-    FireEffectTag = "weapon_effet_tag1"
-    NbFX = 1
-    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
-    WeaponShootDataPropertyName = "WeaponShootData_0_1"
-)
-Op_MiG_23MF_SOV_Weapon2 is DepictionOperator_WeaponMissileCarriageFire
-(
-    Connoisseur = MissileCarriage_MiG_23MF_SOV
-    FireEffectTag = "weapon_effet_tag2"
-    NbProj = 1
-    WeaponIndex = 2
-    WeaponShootDataPropertyName = 
-    [
-        "WeaponShootData_0_2",
-    ]
-)
-Gfx_MiG_23MF_SOV_Autogen is TacticAerialDepictionTemplate
-(
-    Deviator = DepictionDeviator_Airplane
-    AdditionalTextures = $/M3D/Shader/AirplaneDestTextures
-    Selector = SpecificAirplaneDepictionSelector
-    CoatingName = 'MiG_23MF_SOV'
-    Alternatives = Alternatives_MiG_23MF_SOV
-
-    Operators = 
-        [
-            $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
-            DepictionOperator_Turret_1_Aim,
-            Op_MiG_23MF_SOV_Weapon1,
-            Op_MiG_23MF_SOV_Weapon2,
-            DepictionOperator_CriticalEffects,
-            DepictionOperator_AirplaneParts,
-            DepictionOperator_Airplane,
-            DepictionOperator_AirplaneShadow,
-            DepictionOperator_Feedback_Degat_Level1,
-            DepictionOperator_Feedback_Degat_Level2,
-            DepictionOperator_Heat,
-            DepictionOperator_EjectableProps_Plane,
-            DepictionOperator_Flares,
-        ]
-        Actions = MAP[
-                    ( [ "weapon_effet_tag1" ], Weapon_GatlingAir_GSh_23_23mm ),
-                    ( [ "weapon_effet_tag2" ], Weapon_Bomb_FAB_500kg_x6 ),
-                ]
-                + DepictionAction_Stress_And_Wrecked_Avion
-                + DepictionAction_CriticalFX_Airplane
-                + DepictionAction_MovementFX_SingleReactorAirplane
-
-        SubDepictions = 
-
-        [
-            TSubDepiction
-            (
-                Anchors = 
-                [
-                    "pilot",
-                ]
-                Depiction = Pilot_Pilote_DDR
-            ),
-        ]        
-
-        SubDepictionGenerators = [ SubGenerators_MiG_23MF_SOV ]
 )
 // Dépiction de l'unité MiG_23MLD_SOV
 Op_MiG_23MLD_SOV_Weapon1 is DepictionOperator_WeaponContinuousFire
@@ -12793,6 +12875,7 @@ Gfx_MiG_23MLD_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23MLD_SOV_Weapon1,
             Op_MiG_23MLD_SOV_Weapon2,
@@ -12876,6 +12959,7 @@ Gfx_MiG_23ML_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23ML_DDR_Weapon1,
             Op_MiG_23ML_DDR_Weapon2,
@@ -12948,6 +13032,7 @@ Gfx_MiG_23ML_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23ML_SOV_Weapon1,
             Op_MiG_23ML_SOV_Weapon2,
@@ -13028,6 +13113,7 @@ Gfx_MiG_23P_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_23P_SOV_Weapon1,
             Op_MiG_23P_SOV_Weapon2,
@@ -13089,6 +13175,7 @@ Gfx_MiG_25BM_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_intercepteur_MiG31,
+            DepictionOperator_SoundProbe,
             Op_MiG_25BM_SOV_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -13144,6 +13231,7 @@ Gfx_MiG_25RBF_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_intercepteur_MiG31,
+            DepictionOperator_SoundProbe,
             Op_MiG_25RBF_SOV_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -13234,6 +13322,7 @@ Gfx_MiG_27K_AT1_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_27K_AT1_SOV_Weapon1,
             Op_MiG_27K_AT1_SOV_Weapon2,
@@ -13333,6 +13422,7 @@ Gfx_MiG_27K_AT2_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_27K_AT2_SOV_Weapon1,
             Op_MiG_27K_AT2_SOV_Weapon2,
@@ -13432,6 +13522,7 @@ Gfx_MiG_27K_LGB_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_27K_LGB_SOV_Weapon1,
             Op_MiG_27K_LGB_SOV_Weapon2,
@@ -13519,6 +13610,7 @@ Gfx_MiG_27M_CLU_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_27M_CLU_SOV_Weapon1,
             Op_MiG_27M_CLU_SOV_Weapon2,
@@ -13605,6 +13697,7 @@ Gfx_MiG_27M_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_27M_SOV_Weapon1,
             Op_MiG_27M_SOV_Weapon2,
@@ -13690,6 +13783,7 @@ Gfx_MiG_27M_bombe_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_27M_bombe_SOV_Weapon1,
             Op_MiG_27M_bombe_SOV_Weapon2,
@@ -13775,6 +13869,7 @@ Gfx_MiG_27M_napalm_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_27M_napalm_SOV_Weapon1,
             Op_MiG_27M_napalm_SOV_Weapon2,
@@ -13871,6 +13966,7 @@ Gfx_MiG_27M_rkt_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_27M_rkt_SOV_Weapon1,
             Op_MiG_27M_rkt_SOV_Weapon2,
@@ -13958,6 +14054,7 @@ Gfx_MiG_27M_sead_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG23,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_27M_sead_SOV_Weapon1,
             Op_MiG_27M_sead_SOV_Weapon2,
@@ -14043,6 +14140,7 @@ Gfx_MiG_29_AA2_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG29,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_29_AA2_SOV_Weapon1,
             Op_MiG_29_AA2_SOV_Weapon2,
@@ -14126,6 +14224,7 @@ Gfx_MiG_29_AA3_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG29,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_29_AA3_SOV_Weapon1,
             Op_MiG_29_AA3_SOV_Weapon2,
@@ -14209,6 +14308,7 @@ Gfx_MiG_29_AA_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG29,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_29_AA_DDR_Weapon1,
             Op_MiG_29_AA_DDR_Weapon2,
@@ -14292,6 +14392,7 @@ Gfx_MiG_29_AA_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_MiG29,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_29_AA_SOV_Weapon1,
             Op_MiG_29_AA_SOV_Weapon2,
@@ -14364,6 +14465,7 @@ Gfx_MiG_31M_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_intercepteur_MiG31,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_MiG_31M_SOV_Weapon1,
             Op_MiG_31M_SOV_Weapon2,
@@ -14423,6 +14525,7 @@ Gfx_Mi_14PL_AT_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_14PL_AT_DDR_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -14501,6 +14604,7 @@ Gfx_Mi_14PL_recon_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -14608,6 +14712,7 @@ Gfx_Mi_24D_AA_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24D_AA_DDR_Weapon1,
             Op_Mi_24D_AA_DDR_Weapon2,
@@ -14713,6 +14818,7 @@ Gfx_Mi_24D_Desant_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24D_Desant_SOV_Weapon1,
             Op_Mi_24D_Desant_SOV_Weapon2,
@@ -14827,6 +14933,7 @@ Gfx_Mi_24D_s5_AT_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24D_s5_AT_DDR_Weapon1,
             Op_Mi_24D_s5_AT_DDR_Weapon2,
@@ -14943,6 +15050,7 @@ Gfx_Mi_24D_s8_AT_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24D_s8_AT_DDR_Weapon1,
             Op_Mi_24D_s8_AT_DDR_Weapon2,
@@ -15076,6 +15184,7 @@ Gfx_Mi_24K_reco_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24K_reco_SOV_Weapon1,
             Op_Mi_24K_reco_SOV_Weapon4,
@@ -15275,6 +15384,7 @@ Gfx_Mi_24P_AA_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24P_AA_SOV_Weapon1,
             Op_Mi_24P_AA_SOV_Weapon2,
@@ -15411,6 +15521,7 @@ Gfx_Mi_24P_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24P_SOV_Weapon1,
             Op_Mi_24P_SOV_Weapon2,
@@ -15486,142 +15597,6 @@ Gfx_Mi_24P_SOV_Autogen is TacticAerialDepictionTemplate
 
         SubDepictionGenerators = [ SubGenerators_Mi_24P_SOV ]
 )
-// Dépiction de l'unité Mi_24P_TCH
-Op_Mi_24P_TCH_Weapon1 is DepictionOperator_WeaponInstantFire
-(
-    Anchors = 
-    [
-        "fx_tourelle1_tir_01",
-        "fx_tourelle1_tir_02",
-    ]
-    FireEffectTag = "weapon_effet_tag1"
-    NbProj = 1
-    WeaponShootDataPropertyName = 
-    [
-        "WeaponShootData_0_1",
-    ]
-)
-Op_Mi_24P_TCH_Weapon2 is DepictionOperator_WeaponInstantFire
-(
-    Anchors = 
-    [
-        "fx_tourelle1_tir_01",
-        "fx_tourelle1_tir_02",
-    ]
-    FireEffectTag = "weapon_effet_tag2"
-    NbProj = 1
-    WeaponShootDataPropertyName = 
-    [
-        "WeaponShootData_0_2",
-    ]
-)
-Op_Mi_24P_TCH_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
-(
-    Connoisseur = MissileCarriage_Mi_24P_TCH
-    FireEffectTag = "weapon_effet_tag3"
-    NbProj = 1
-    WeaponIndex = 3
-    WeaponShootDataPropertyName = 
-    [
-        "WeaponShootData_0_3",
-    ]
-)
-Op_Mi_24P_TCH_Weapon4 is DepictionOperator_WeaponMissileCarriageFire
-(
-    Connoisseur = MissileCarriage_Mi_24P_TCH
-    FireEffectTag = "weapon_effet_tag4"
-    NbProj = 1
-    WeaponIndex = 2
-    WeaponShootDataPropertyName = 
-    [
-        "WeaponShootData_0_4",
-    ]
-)
-Gfx_Mi_24P_TCH_Autogen is TacticAerialDepictionTemplate
-(
-    AdditionalTextures = $/M3D/Shader/HelicoDestTextures
-    Selector = SpecificHelicoDepictionSelector
-    CoatingName = 'Mi_24P_TCH'
-    Alternatives = Alternatives_Mi_24P_TCH
-
-    Operators = 
-        [
-            $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
-            DepictionOperator_Turret_1_Aim,
-            Op_Mi_24P_TCH_Weapon1,
-            Op_Mi_24P_TCH_Weapon2,
-            Op_Mi_24P_TCH_Weapon3,
-            Op_Mi_24P_TCH_Weapon4,
-            DepictionOperator_CriticalEffects,
-            DepictionOperator_HelicopterLanding,
-            DepictionOperator_GroundPuff_Helico,
-            DepictionOperator_ShadowPointCloudProvider,
-            DepictionOperator_Rotors
-            (
-                HelixList = 
-                [
-                    THelix
-                    (
-                        BladeCount = 5
-                        BladesBoneName = "helice_ls_1"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_1",
-                        ]
-                        Clockwise = False
-                        HelixBoneName = "bloc_moteur_1"
-                        RotationAxis = 2
-                        RotationSpeed = 242
-                    ),
-                    THelix
-                    (
-                        BladeCount = 3
-                        BladesBoneName = "helice_ls_2"
-                        BlurActionId = 
-                        [
-                            "FX_Helice_2",
-                        ]
-                        Clockwise = False
-                        HelixBoneName = "bloc_moteur_2"
-                        RotationAxis = 1
-                        RotationSpeed = 242
-                    ),
-                ]
-            ),
-            DepictionOperator_Feedback_Degat_Level1,
-            DepictionOperator_Feedback_Degat_Level2,
-            DepictionOperator_Heat,
-            DepictionOperator_EjectableProps_Helico,
-            DepictionOperator_Flares,
-        ]
-        Actions = MAP[
-                    ( [ "weapon_effet_tag1" ], Weapon_AutoCanon_AP_30mm_Bitube_Gsh30k ),
-                    ( [ "weapon_effet_tag2" ], Weapon_AutoCanon_HE_30mm_Bitube_Gsh30k ),
-                    ( [ "weapon_effet_tag3" ], Weapon_AGM_9M114M_KokonM_x4 ),
-                    ( [ "weapon_effet_tag4" ], Weapon_RocketAir_B8_80mm_x10 ),
-                ]
-                + DepictionAction_Stress_And_Wrecked_Helicopter
-                + MAP [ (['FX_Helice_1'], Template_DepictionAction_Rotor( PaleLength = 1800 PaleCount = 5 RotationAxis = float3[0, 0, 1] SousMobile = "bloc_moteur_1" ))]
-                + MAP [ (['FX_Helice_2'], Template_DepictionAction_Rotor( PaleLength = 450 PaleCount = 3 RotationAxis = float3[0, 1, 0] SousMobile = "bloc_moteur_2" ))]
-                + DepictionAction_CriticalFX_Helicopter
-                + DepictionAction_Flare_Simple
-
-        SubDepictions = 
-
-        [
-            TSubDepiction
-            (
-                Anchors = 
-                [
-                    "pilot",
-                    "pilot2",
-                ]
-                Depiction = Pilot_Pilote_Helico_SOV
-            ),
-        ]        
-
-        SubDepictionGenerators = [ SubGenerators_Mi_24P_TCH ]
-)
 // Dépiction de l'unité Mi_24P_s8_AT2_DDR
 Op_Mi_24P_s8_AT2_DDR_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -15683,6 +15658,7 @@ Gfx_Mi_24P_s8_AT2_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24P_s8_AT2_DDR_Weapon1,
             Op_Mi_24P_s8_AT2_DDR_Weapon2,
@@ -15819,6 +15795,7 @@ Gfx_Mi_24P_s8_AT_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24P_s8_AT_DDR_Weapon1,
             Op_Mi_24P_s8_AT_DDR_Weapon2,
@@ -15955,6 +15932,7 @@ Gfx_Mi_24VP_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24VP_SOV_Weapon1,
             Op_Mi_24VP_SOV_Weapon2,
@@ -16074,6 +16052,7 @@ Gfx_Mi_24V_AA_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24V_AA_SOV_Weapon1,
             Op_Mi_24V_AA_SOV_Weapon2,
@@ -16190,6 +16169,7 @@ Gfx_Mi_24V_AT_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24V_AT_SOV_Weapon1,
             Op_Mi_24V_AT_SOV_Weapon2,
@@ -16306,6 +16286,7 @@ Gfx_Mi_24V_RKT_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24V_RKT_SOV_Weapon1,
             Op_Mi_24V_RKT_SOV_Weapon2,
@@ -16422,6 +16403,7 @@ Gfx_Mi_24V_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Hind,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_24V_SOV_Weapon1,
             Op_Mi_24V_SOV_Weapon2,
@@ -16505,6 +16487,7 @@ Gfx_Mi_26_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi26,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -16580,6 +16563,7 @@ Gfx_Mi_2_CMD_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi2,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -16668,6 +16652,7 @@ Gfx_Mi_2_gunship_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi2,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_2_gunship_DDR_Weapon1,
             DepictionOperator_CriticalEffects,
@@ -16744,6 +16729,7 @@ Gfx_Mi_2_reco_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi2,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -16817,6 +16803,7 @@ Gfx_Mi_2_reco_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi2,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -16928,6 +16915,7 @@ Gfx_Mi_2_rocket_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi2,
+            DepictionOperator_SoundProbe,
             Op_Mi_2_rocket_DDR_Weapon1,
             Op_Mi_2_rocket_DDR_Weapon2,
             Op_Mi_2_rocket_DDR_Weapon3,
@@ -17007,6 +16995,7 @@ Gfx_Mi_2_trans_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi2,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -17081,6 +17070,7 @@ Gfx_Mi_2_trans_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi2,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -17155,6 +17145,7 @@ Gfx_Mi_6_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi26,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -17230,6 +17221,7 @@ Gfx_Mi_8K_CMD_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -17305,6 +17297,7 @@ Gfx_Mi_8MTPI_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -17402,6 +17395,7 @@ Gfx_Mi_8MTV_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8MTV_SOV_Weapon1,
             Op_Mi_8MTV_SOV_Weapon2,
             DepictionOperator_CriticalEffects,
@@ -17483,6 +17477,7 @@ Gfx_Mi_8PPA_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -17558,6 +17553,7 @@ Gfx_Mi_8R_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -17665,6 +17661,7 @@ Gfx_Mi_8TB_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_8TB_DDR_Weapon1,
             Op_Mi_8TB_DDR_Weapon2,
@@ -17781,6 +17778,7 @@ Gfx_Mi_8TB_reco_Marine_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mi_8TB_reco_Marine_DDR_Weapon1,
             Op_Mi_8TB_reco_Marine_DDR_Weapon2,
@@ -17896,6 +17894,7 @@ Gfx_Mi_8TV_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8TV_DDR_Weapon1,
             Op_Mi_8TV_DDR_Weapon2,
             Op_Mi_8TV_DDR_Weapon3,
@@ -18013,6 +18012,7 @@ Gfx_Mi_8TV_Gunship_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8TV_Gunship_SOV_Weapon1,
             Op_Mi_8TV_Gunship_SOV_Weapon2,
             Op_Mi_8TV_Gunship_SOV_Weapon3,
@@ -18136,6 +18136,7 @@ Gfx_Mi_8TV_PodGatling_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8TV_PodGatling_DDR_Weapon3,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -18381,6 +18382,7 @@ Gfx_Mi_8TV_PodGatling_PodAGL_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8TV_PodGatling_PodAGL_SOV_Weapon3,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -18612,6 +18614,7 @@ Gfx_Mi_8TV_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8TV_SOV_Weapon1,
             Op_Mi_8TV_SOV_Weapon2,
             DepictionOperator_CriticalEffects,
@@ -18730,6 +18733,7 @@ Gfx_Mi_8TV_UPK_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8TV_UPK_DDR_Weapon4,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -18877,6 +18881,7 @@ Gfx_Mi_8TV_non_arme_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -18983,6 +18988,7 @@ Gfx_Mi_8TV_s57_16_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8TV_s57_16_SOV_Weapon1,
             Op_Mi_8TV_s57_16_SOV_Weapon2,
             Op_Mi_8TV_s57_16_SOV_Weapon3,
@@ -19097,6 +19103,7 @@ Gfx_Mi_8TV_s57_32_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8TV_s57_32_DDR_Weapon1,
             Op_Mi_8TV_s57_32_DDR_Weapon2,
             Op_Mi_8TV_s57_32_DDR_Weapon3,
@@ -19211,6 +19218,7 @@ Gfx_Mi_8TV_s57_32_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8TV_s57_32_SOV_Weapon1,
             Op_Mi_8TV_s57_32_SOV_Weapon2,
             Op_Mi_8TV_s57_32_SOV_Weapon3,
@@ -19314,6 +19322,7 @@ Gfx_Mi_8TV_s80_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8TV_s80_SOV_Weapon1,
             Op_Mi_8TV_s80_SOV_Weapon2,
             DepictionOperator_CriticalEffects,
@@ -19393,6 +19402,7 @@ Gfx_Mi_8TZ_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -19488,6 +19498,7 @@ Gfx_Mi_8T_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             Op_Mi_8T_DDR_Weapon1,
             Op_Mi_8T_DDR_Weapon2,
             DepictionOperator_CriticalEffects,
@@ -19567,6 +19578,7 @@ Gfx_Mi_8T_non_arme_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -19640,6 +19652,7 @@ Gfx_Mi_8_supply_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -19713,6 +19726,7 @@ Gfx_Mi_9_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Mi17,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -19823,6 +19837,7 @@ Gfx_Mirage_2000_C_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_Mirage2000,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_2000_C_FR_Weapon1,
             Op_Mirage_2000_C_FR_Weapon2,
@@ -19908,6 +19923,7 @@ Gfx_Mirage_5_BA_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIII,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_5_BA_BEL_Weapon1,
             Op_Mirage_5_BA_BEL_Weapon2,
@@ -19993,6 +20009,7 @@ Gfx_Mirage_5_BA_CLU_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIII,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_5_BA_CLU_BEL_Weapon1,
             Op_Mirage_5_BA_CLU_BEL_Weapon2,
@@ -20078,6 +20095,7 @@ Gfx_Mirage_5_BA_MIRSIP_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIII,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_5_BA_MIRSIP_BEL_Weapon1,
             Op_Mirage_5_BA_MIRSIP_BEL_Weapon2,
@@ -20094,7 +20112,7 @@ Gfx_Mirage_5_BA_MIRSIP_BEL_Autogen is TacticAerialDepictionTemplate
         ]
         Actions = MAP[
                     ( [ "weapon_effet_tag1" ], Weapon_GatlingAir_DEFA_30mm_x2 ),
-                    ( [ "weapon_effet_tag2" ], Weapon_AA_AIM9M_Sidewinder ),
+                    ( [ "weapon_effet_tag2" ], Weapon_Bomb_Mk83_450kg_x4 ),
                     ( [ "weapon_effet_tag3" ], Weapon_AA_AIM9M_Sidewinder ),
                 ]
                 + DepictionAction_Stress_And_Wrecked_Avion
@@ -20163,6 +20181,7 @@ Gfx_Mirage_5_BA_NPLM_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIII,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_5_BA_NPLM_BEL_Weapon1,
             Op_Mirage_5_BA_NPLM_BEL_Weapon2,
@@ -20248,6 +20267,7 @@ Gfx_Mirage_5_BA_RKT_BEL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIII,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_5_BA_RKT_BEL_Weapon1,
             Op_Mirage_5_BA_RKT_BEL_Weapon2,
@@ -20333,6 +20353,7 @@ Gfx_Mirage_5_F_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIII,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_5_F_FR_Weapon1,
             Op_Mirage_5_F_FR_Weapon2,
@@ -20407,6 +20428,7 @@ Gfx_Mirage_5_F_clu_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIII,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_5_F_clu_FR_Weapon1,
             Op_Mirage_5_F_clu_FR_Weapon2,
@@ -20490,6 +20512,7 @@ Gfx_Mirage_5_F_nplm_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIII,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_5_F_nplm_FR_Weapon1,
             Op_Mirage_5_F_nplm_FR_Weapon2,
@@ -20576,6 +20599,7 @@ Gfx_Mirage_F1_CT_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageF1,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_F1_CT_FR_Weapon1,
             Op_Mirage_F1_CT_FR_Weapon2,
@@ -20661,6 +20685,7 @@ Gfx_Mirage_F1_C_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageF1,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_F1_C_FR_Weapon1,
             Op_Mirage_F1_C_FR_Weapon2,
@@ -20746,6 +20771,7 @@ Gfx_Mirage_III_E_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIII,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Mirage_III_E_FR_Weapon1,
             Op_Mirage_III_E_FR_Weapon2,
@@ -20808,6 +20834,7 @@ Gfx_Mirage_IV_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIV,
+            DepictionOperator_SoundProbe,
             Op_Mirage_IV_FR_Weapon2,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
@@ -20876,6 +20903,7 @@ Gfx_Mirage_IV_SEAD_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_MirageIV,
+            DepictionOperator_SoundProbe,
             Op_Mirage_IV_SEAD_FR_Weapon2,
             Op_Mirage_IV_SEAD_FR_Weapon3,
             DepictionOperator_CriticalEffects,
@@ -20923,6 +20951,7 @@ Gfx_OH58A_reco_NG_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Kiowa,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -20997,6 +21026,7 @@ Gfx_OH58C_CMD_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Kiowa,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -21082,6 +21112,7 @@ Gfx_OH58C_Scout_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Kiowa,
+            DepictionOperator_SoundProbe,
             Op_OH58C_Scout_US_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -21169,6 +21200,7 @@ Gfx_OH58D_Combat_Scout_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Kiowa,
+            DepictionOperator_SoundProbe,
             Op_OH58D_Combat_Scout_US_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -21257,6 +21289,7 @@ Gfx_OH58D_Kiowa_Warrior_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Kiowa,
+            DepictionOperator_SoundProbe,
             Op_OH58D_Kiowa_Warrior_US_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -21346,6 +21379,7 @@ Gfx_OH58_CS_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Kiowa,
+            DepictionOperator_SoundProbe,
             Op_OH58_CS_US_Weapon1,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
@@ -21422,6 +21456,7 @@ Gfx_Puma_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Puma,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -21495,6 +21530,7 @@ Gfx_Puma_HET_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BlackHawk,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -21570,6 +21606,7 @@ Gfx_Puma_PC_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Puma,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -21671,6 +21708,7 @@ Gfx_Puma_Pirate_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Puma,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Puma_Pirate_FR_Weapon1,
             Op_Puma_Pirate_FR_Weapon2,
@@ -21751,6 +21789,7 @@ Gfx_Puma_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Puma,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -21860,6 +21899,7 @@ Gfx_Su_17M4_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_17M4_SOV_Weapon1,
             Op_Su_17M4_SOV_Weapon2,
@@ -21934,6 +21974,7 @@ Gfx_Su_17_cluster_POL_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_17_cluster_POL_Weapon1,
             Op_Su_17_cluster_POL_Weapon2,
@@ -22017,6 +22058,7 @@ Gfx_Su_22_AT2_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_22_AT2_DDR_Weapon1,
             Op_Su_22_AT2_DDR_Weapon2,
@@ -22103,6 +22145,7 @@ Gfx_Su_22_AT_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_22_AT_DDR_Weapon1,
             Op_Su_22_AT_DDR_Weapon2,
@@ -22189,6 +22232,7 @@ Gfx_Su_22_AT_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_22_AT_SOV_Weapon1,
             Op_Su_22_AT_SOV_Weapon2,
@@ -22274,6 +22318,7 @@ Gfx_Su_22_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_22_DDR_Weapon1,
             Op_Su_22_DDR_Weapon2,
@@ -22359,6 +22404,7 @@ Gfx_Su_22_HE2_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_22_HE2_DDR_Weapon1,
             Op_Su_22_HE2_DDR_Weapon2,
@@ -22438,6 +22484,7 @@ Gfx_Su_22_RKT_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_22_RKT_DDR_Weapon1,
             Op_Su_22_RKT_DDR_Weapon2,
@@ -22528,6 +22575,7 @@ Gfx_Su_22_SEAD_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_22_SEAD_DDR_Weapon1,
             Op_Su_22_SEAD_DDR_Weapon2,
@@ -22627,6 +22675,7 @@ Gfx_Su_22_UPK_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_22_UPK_DDR_Weapon1,
             Op_Su_22_UPK_DDR_Weapon4,
@@ -22780,6 +22829,7 @@ Gfx_Su_22_clu_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_22_clu_DDR_Weapon1,
             Op_Su_22_clu_DDR_Weapon2,
@@ -22865,6 +22915,7 @@ Gfx_Su_22_nplm_DDR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU22,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_22_nplm_DDR_Weapon1,
             Op_Su_22_nplm_DDR_Weapon2,
@@ -22905,17 +22956,6 @@ Gfx_Su_22_nplm_DDR_Autogen is TacticAerialDepictionTemplate
         SubDepictionGenerators = [ SubGenerators_Su_22_nplm_DDR ]
 )
 // Dépiction de l'unité Su_24MP_EW_SOV
-Op_Su_24MP_EW_SOV_Weapon1 is DepictionOperator_WeaponContinuousFire
-(
-    Anchors = 
-    [
-        "fx_tourelle1_tir_01",
-    ]
-    FireEffectTag = "weapon_effet_tag1"
-    NbFX = 1
-    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
-    WeaponShootDataPropertyName = "WeaponShootData_0_1"
-)
 Gfx_Su_24MP_EW_SOV_Autogen is TacticAerialDepictionTemplate
 (
     Deviator = DepictionDeviator_Airplane
@@ -22927,8 +22967,7 @@ Gfx_Su_24MP_EW_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU24,
-            DepictionOperator_Turret_1_Aim,
-            Op_Su_24MP_EW_SOV_Weapon1,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_AirplaneParts,
             DepictionOperator_Airplane,
@@ -22939,7 +22978,6 @@ Gfx_Su_24MP_EW_SOV_Autogen is TacticAerialDepictionTemplate
             DepictionOperator_Flares,
         ]
         Actions = MAP[
-                    ( [ "weapon_effet_tag1" ], Weapon_GatlingAir_Gsh_23_6_23mm ),
                 ]
                 + DepictionAction_Stress_And_Wrecked_Avion
                 + DepictionAction_CriticalFX_Airplane
@@ -22994,6 +23032,7 @@ Gfx_Su_24MP_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU24,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_24MP_SOV_Weapon1,
             Op_Su_24MP_SOV_Weapon2,
@@ -23066,6 +23105,7 @@ Gfx_Su_24M_LGB_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU24,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_24M_LGB_SOV_Weapon1,
             Op_Su_24M_LGB_SOV_Weapon2,
@@ -23137,6 +23177,7 @@ Gfx_Su_24M_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU24,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_24M_SOV_Weapon1,
             Op_Su_24M_SOV_Weapon2,
@@ -23208,6 +23249,7 @@ Gfx_Su_24M_clu2_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU24,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_24M_clu2_SOV_Weapon1,
             Op_Su_24M_clu2_SOV_Weapon2,
@@ -23279,6 +23321,7 @@ Gfx_Su_24M_clu_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU24,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_24M_clu_SOV_Weapon1,
             Op_Su_24M_clu_SOV_Weapon2,
@@ -23350,6 +23393,7 @@ Gfx_Su_24M_nplm_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_SU24,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_24M_nplm_SOV_Weapon1,
             Op_Su_24M_nplm_SOV_Weapon2,
@@ -23444,6 +23488,7 @@ Gfx_Su_25T_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_SU25,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_25T_SOV_Weapon1,
             Op_Su_25T_SOV_Weapon2,
@@ -23540,6 +23585,7 @@ Gfx_Su_25_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_SU25,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_25_SOV_Weapon1,
             Op_Su_25_SOV_Weapon2,
@@ -23636,6 +23682,7 @@ Gfx_Su_25_clu_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_SU25,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_25_clu_SOV_Weapon1,
             Op_Su_25_clu_SOV_Weapon2,
@@ -23732,6 +23779,7 @@ Gfx_Su_25_he_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_SU25,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_25_he_SOV_Weapon1,
             Op_Su_25_he_SOV_Weapon2,
@@ -23828,6 +23876,7 @@ Gfx_Su_25_nplm_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_SU25,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_25_nplm_SOV_Weapon1,
             Op_Su_25_nplm_SOV_Weapon2,
@@ -23926,6 +23975,7 @@ Gfx_Su_25_rkt_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_SU25,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_25_rkt_SOV_Weapon1,
             Op_Su_25_rkt_SOV_Weapon2,
@@ -24011,6 +24061,7 @@ Gfx_Su_27S_SOV_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_multirole_Su27,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Su_27S_SOV_Weapon1,
             Op_Su_27S_SOV_Weapon3,
@@ -24060,6 +24111,7 @@ Gfx_Super_Puma_FR_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Puma,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -24167,6 +24219,7 @@ Gfx_Tornado_ADV_HE_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Tornado,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Tornado_ADV_HE_UK_Weapon1,
             Op_Tornado_ADV_HE_UK_Weapon2,
@@ -24252,6 +24305,7 @@ Gfx_Tornado_ADV_SEAD_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Tornado,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Tornado_ADV_SEAD_UK_Weapon1,
             Op_Tornado_ADV_SEAD_UK_Weapon2,
@@ -24337,6 +24391,7 @@ Gfx_Tornado_ADV_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Tornado,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Tornado_ADV_UK_Weapon1,
             Op_Tornado_ADV_UK_Weapon2,
@@ -24422,6 +24477,7 @@ Gfx_Tornado_ADV_clu_UK_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Tornado,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Tornado_ADV_clu_UK_Weapon1,
             Op_Tornado_ADV_clu_UK_Weapon2,
@@ -24509,6 +24565,7 @@ Gfx_Tornado_IDS_AT1_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Tornado,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Tornado_IDS_AT1_RFA_Weapon1,
             Op_Tornado_IDS_AT1_RFA_Weapon2,
@@ -24595,6 +24652,7 @@ Gfx_Tornado_IDS_CLUS_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Tornado,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Tornado_IDS_CLUS_RFA_Weapon1,
             Op_Tornado_IDS_CLUS_RFA_Weapon2,
@@ -24681,6 +24739,7 @@ Gfx_Tornado_IDS_HE1_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Tornado,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Tornado_IDS_HE1_RFA_Weapon1,
             Op_Tornado_IDS_HE1_RFA_Weapon2,
@@ -24769,6 +24828,7 @@ Gfx_Tornado_IDS_MW1_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_SD_avion_bombardier_Tornado,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_Tornado_IDS_MW1_RFA_Weapon1,
             Op_Tornado_IDS_MW1_RFA_Weapon2,
@@ -24820,6 +24880,7 @@ Gfx_UH1A_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Huey,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -24915,6 +24976,7 @@ Gfx_UH1D_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Huey,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             DepictionOperator_Turret_2_Aim,
             Op_UH1D_RFA_Weapon1,
@@ -24994,6 +25056,7 @@ Gfx_UH1D_Supply_RFA_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Huey,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -25089,6 +25152,7 @@ Gfx_UH1H_Huey_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Huey,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             DepictionOperator_Turret_2_Aim,
             Op_UH1H_Huey_US_Weapon1,
@@ -25168,6 +25232,7 @@ Gfx_UH1H_supply_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Huey,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,
@@ -25277,6 +25342,7 @@ Gfx_UH1M_gunship_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_Huey,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             Op_UH1M_gunship_US_Weapon1,
             Op_UH1M_gunship_US_Weapon2,
@@ -25382,6 +25448,7 @@ Gfx_UH60A_Black_Hawk_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BlackHawk,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             DepictionOperator_Turret_2_Aim,
             Op_UH60A_Black_Hawk_US_Weapon1,
@@ -25485,6 +25552,7 @@ Gfx_UH60A_CO_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BlackHawk,
+            DepictionOperator_SoundProbe,
             DepictionOperator_Turret_1_Aim,
             DepictionOperator_Turret_2_Aim,
             Op_UH60A_CO_US_Weapon1,
@@ -25567,6 +25635,7 @@ Gfx_UH60A_Supply_US_Autogen is TacticAerialDepictionTemplate
     Operators = 
         [
             $/GFX/Sound/DepictionOperator_MovementSound_SM_Helico_BlackHawk,
+            DepictionOperator_SoundProbe,
             DepictionOperator_CriticalEffects,
             DepictionOperator_HelicopterLanding,
             DepictionOperator_GroundPuff_Helico,

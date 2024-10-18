@@ -35,22 +35,22 @@ export SoldierSquadDataDescriptor is TSoldierSquadDataDescriptor
 
 export SoldierColumnDescriptor is TColumnFormationDescriptor
 (
-    FrontWedgeDistanceFromLeader = 20 * Metre // 50 * Metre
-    BackWedgeDistanceFromLeader = 20* Metre // 40* Metre
-    InterSoldierDistance = 19.9 * Metre // 35 * Metre
+    FrontWedgeDistanceFromLeaderGRU = 7
+    BackWedgeDistanceFromLeaderGRU = 7
+    InterSoldierDistanceGRU = 7
     WedgesAngle = 10 // 20
 )
 
 export SoldierLineDescriptor is TLineFormationDescriptor
 (
-    InterSoldierDistance = 19.9 * Metre // 35 * Metre
+    InterSoldierDistanceGRU = 7
 )
 
 
 export SoldierSquadMovementDataDescriptor is TSoldierSquadMovementDataDescriptor
 (
      // Distance min entre deux soldats, utilise pour les collisions
-    NoiseMax      = 19.9 * Metre // 150, Avant fix homothetie : 300
+    NoiseMaxGRU      = 7
 
     // Acceleration max des soldats. En unité IG, parce que honêtement pourquoi pas. J'ai testé entre 2000 et 10000, et 5000 est un bon compromis.
     SoldierMaxAcceleration = 5000

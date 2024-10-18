@@ -68,10 +68,13 @@ export EasyBTDef_Deploiement is TSequenceGeneratorDescriptor
     NbMacroActionAllowedToProduceSimultaneous = 4
     GeneratorList =
     [
+
         // Capture de zones
         ~/CaptureAllZoneObjectif,
 
         ~/Support_Transports,
+
+        ~/FOB_Skirmish,
 
         ~/Defense_Static_ATGM_BKT,
         ~/Defense_Static_ATGM_Reco_BKT,

@@ -1,4 +1,4 @@
-DefaultTransportLoadRadius                       is 221 * Metre // Metre
+DefaultTransportLoadRadius                       is 78 // GRU
 
 WreckUnloadDamageBonus_Default_Physical          is 20
 WreckUnloadDamageBonus_Default_Suppress          is 0

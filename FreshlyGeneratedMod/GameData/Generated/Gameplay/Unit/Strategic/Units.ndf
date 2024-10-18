@@ -34351,8 +34351,8 @@ export Descriptor_Unit_pion_RFA_5PzD_154Pz is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Armor",
-                    "Texture_STRATEGIC_Armor",
+                    "Texture_STRATEGIC_RTS_H_Armor_heavy",
+                    "Texture_STRATEGIC_Armor_heavy",
                 ]
             )
         ),
@@ -57309,8 +57309,8 @@ export Descriptor_Unit_pion_SOV_27GMRD_TkInde is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Armor",
-                    "Texture_STRATEGIC_Armor",
+                    "Texture_STRATEGIC_RTS_H_Armor_heavy",
+                    "Texture_STRATEGIC_Armor_heavy",
                 ]
             )
         ),
@@ -80508,8 +80508,8 @@ export Descriptor_Unit_pion_US_197ArmBr_69Arm_2 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Armor",
-                    "Texture_STRATEGIC_Armor",
+                    "Texture_STRATEGIC_RTS_H_Armor_heavy",
+                    "Texture_STRATEGIC_Armor_heavy",
                 ]
             )
         ),
@@ -101749,8 +101749,8 @@ export Descriptor_Unit_pion_US_8ID_69Arm_2 is TEntityDescriptor
                 Alterator = $/GUIOption/StrategicIconType
                 Values =
                 [
-                    "Texture_STRATEGIC_RTS_H_Armor",
-                    "Texture_STRATEGIC_Armor",
+                    "Texture_STRATEGIC_RTS_H_Armor_heavy",
+                    "Texture_STRATEGIC_Armor_heavy",
                 ]
             )
         ),

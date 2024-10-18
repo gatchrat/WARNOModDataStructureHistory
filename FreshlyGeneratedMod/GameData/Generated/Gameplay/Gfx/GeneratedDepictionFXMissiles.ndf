@@ -23,6 +23,8 @@ FXWeapon_AA_R27T_Vympel is FXWeapon_0
 FXWeapon_AA_R33_Vympel is FXWeapon_0
 FXWeapon_AA_R37_Vympel is FXWeapon_0
 FXWeapon_AA_R3R is FXWeapon_1
+FXWeapon_AA_R40RD1 is FXWeapon_0
+FXWeapon_AA_R40TD1 is FXWeapon_0
 FXWeapon_AA_R550_Magic is FXWeapon_1
 FXWeapon_AA_R550_Magic_II is FXWeapon_1
 FXWeapon_AA_R60_Vympel is FXWeapon_1
@@ -37,6 +39,8 @@ FXWeapon_AGM_9K121_Vikhr is FXWeapon_2
 FXWeapon_AGM_9K121_Vikhr_x12 is FXWeapon_2
 FXWeapon_AGM_9K121_Vikhr_x16 is FXWeapon_2
 FXWeapon_AGM_9K121_Vikhr_x16_avion is FXWeapon_2
+FXWeapon_AGM_9M114M_Ataka_x4 is FXWeapon_3
+FXWeapon_AGM_9M114M_Ataka_x8 is FXWeapon_3
 FXWeapon_AGM_9M114M_KokonM is FXWeapon_3
 FXWeapon_AGM_9M114M_KokonM_x16 is FXWeapon_3
 FXWeapon_AGM_9M114M_KokonM_x2 is FXWeapon_3
@@ -88,6 +92,7 @@ FXWeapon_AGM_Kh29L is FXWeapon_6
 FXWeapon_AGM_Kh29T is FXWeapon_6
 FXWeapon_AGM_Kh31P is FXWeapon_6
 FXWeapon_AGM_Kh58U is FXWeapon_6
+FXWeapon_AGM_SS11_x2 is FXWeapon_3
 FXWeapon_AGM_SS11_x4 is FXWeapon_3
 FXWeapon_ATGM_9K111_Fagot is FXWeapon_4
 FXWeapon_ATGM_9K111M_Fagot_M is FXWeapon_4
@@ -99,6 +104,7 @@ FXWeapon_ATGM_9M113_KonkursM is FXWeapon_4
 FXWeapon_ATGM_9M113_KonkursM_late is FXWeapon_4
 FXWeapon_ATGM_9M113_KonkursM_late_x5 is FXWeapon_4
 FXWeapon_ATGM_9M114_Shturm_MTLB is FXWeapon_4
+FXWeapon_ATGM_9M114M_Ataka is FXWeapon_4
 FXWeapon_ATGM_9M114M_KokonM is FXWeapon_4
 FXWeapon_ATGM_9M117_Bastion is FXWeapon_7
 FXWeapon_ATGM_9M117M_Arkan is FXWeapon_7
@@ -165,6 +171,7 @@ FXWeapon_FakeRoquette_S_24_helo is FXWeapon_10
 FXWeapon_Javelin is FXWeapon_10
 FXWeapon_Javelin_LML is FXWeapon_10
 FXWeapon_M47_DRAGON is FXWeapon_8
+FXWeapon_M47_DRAGON_Bipied is FXWeapon_8
 FXWeapon_M47_DRAGON_II is FXWeapon_4
 FXWeapon_MANPAD_Blowpipe is FXWeapon_10
 FXWeapon_MANPAD_FIM43 is FXWeapon_10
@@ -193,13 +200,15 @@ FXWeapon_SAM_FIM92C is FXWeapon_10
 FXWeapon_SAM_I_Hawk is FXWeapon_11
 FXWeapon_SAM_I_Hawk_x3 is FXWeapon_13
 FXWeapon_SAM_Igla is FXWeapon_10
-FXWeapon_SAM_Igla1M is FXWeapon_10
+FXWeapon_SAM_IglaN is FXWeapon_10
+FXWeapon_SAM_IglaN_1M is FXWeapon_10
 FXWeapon_SAM_IglaV is FXWeapon_10
 FXWeapon_SAM_IglaV_x4 is FXWeapon_10
 FXWeapon_SAM_MIM72A is FXWeapon_11
 FXWeapon_SAM_MIM72F is FXWeapon_11
 FXWeapon_SAM_MIM72G is FXWeapon_11
 FXWeapon_SAM_Mistral is FXWeapon_10
+FXWeapon_SAM_R440_x4 is FXWeapon_11
 FXWeapon_SAM_RAPIER is FXWeapon_11
 FXWeapon_SAM_RAPIER_DARKFIRE_x6 is FXWeapon_11
 FXWeapon_SAM_RAPIER_FSA_x4 is FXWeapon_11
@@ -218,6 +227,7 @@ FXWeapon_SAM_Strela10M3_x4 is FXWeapon_10
 FXWeapon_SAM_Strela2_x12 is FXWeapon_10
 FXWeapon_SAM_Strela2_x2 is FXWeapon_10
 FXWeapon_SAM_Strela2_x4 is FXWeapon_10
+FXWeapon_SAM_Strela2M_x2 is FXWeapon_10
 FXWeapon_0 is FXMissileFiring( Action = $/GFX/GameFx/fx_tir_missile_AA_gros )
 FXWeapon_1 is FXMissileFiring( Action = $/GFX/GameFx/fx_tir_missile_AA_moyen )
 FXWeapon_2 is FXMissileFiring( Action = $/GFX/GameFx/fx_tir_missile_AGM_generation3 )

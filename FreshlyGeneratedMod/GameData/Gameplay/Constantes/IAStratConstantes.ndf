@@ -20,8 +20,8 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     CanSelectTransportUnits = false
     ForceSelectCurrentTransporter = true
     NbMacroActionAllowedToProduceSimultaneous = 3
-    RayonDOccupationDansLaGeoDbProdution_ValeurMin = 50 * Metre
-    RayonDOccupationDansLaGeoDbProdution_ValeurMax = 100 * Metre
+    RayonDOccupationDansLaGeoDbProdution_ValeurMinGRU = 18
+    RayonDOccupationDansLaGeoDbProdution_ValeurMaxGRU = 35
     ForbiddenTagsByMission = MAP
     [
         (EMacroActionMissionType/Attack, ['Avion', 'InfmapCommander']),
@@ -57,8 +57,8 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     CommandZoneWeight = ~/CommandZoneCustomWeighForIAStrat // Numero donné aux zones générées automatiquement autours des zones objectif.
 
     //--------------- Transport ----------------------------------------//
-    MinDistanceToRequireTransport = 10000 * Metre //un peu plus de 3.5KM in game (conversion MetreRTS)
-    MaxDistanceToAcceptTransportRequest = 30000 * Metre //un peu plus de 10KM in game (conversion MetreRTS)
+    MinDistanceToRequireTransportGRU = 3534 //un peu plus de 3.5KM in game
+    MaxDistanceToAcceptTransportRequestGRU = 10601 //un peu plus de 10KM in game
     ForbidToLoadNewUnits = false // Ce paramètre a true empêche de charger une unité qu'on ne transporte pas à la base (applicable aux transports qui spawnent préchargés)
 
     //--------------- Lancement de l'IA et choix de couloir ----------------------------------//
@@ -85,11 +85,11 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     ArtilleryStrikeThreatLifeTime = 60
 
     //--------------- Mission de defense ! ----------------------------------------//
-    DistanceToSeekDistrictForUnitInDefense = 4000 * Metre
-    DistanceToSeekDefenseUnitForUnitInDefense = 4000 * Metre
-    DistanceToSeekForestForUnitInDefense = 4000 * Metre
-    DistanceToSeekPolygonCenterForUnitInDefense = 2000 * Metre
-    //DistanceToRetreatForFlee = 500 * Metre
+    DistanceToSeekDistrictForUnitInDefenseGRU = 1413
+    DistanceToSeekDefenseUnitForUnitInDefenseGRU = 1413
+    DistanceToSeekForestForUnitInDefenseGRU = 1413
+    DistanceToSeekPolygonCenterForUnitInDefenseGRU = 707
+
     //TimeToWaitAfterFleeToGoBackToOriginalPositionInSeconds = 15
     //UnitTagForHQ_UsedInDefenseMissionOnly contient une liste de tags permettant de trouver une liste d'unites ennemies. On cherchera l'unite ennemie la plus proche de la zone
     //a defendre pour trouver sur quel point de defense se placer quand on n'a pas d'ennemi a proximité
@@ -124,8 +124,8 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
             (EDefensePointScoringFeature/AltitudeCoeff, 0.0),                       // Bonus dépendant de l'altitude min et max sur la carte et appliqué sur toute la carte
 
             (EDefensePointScoringFeature/DistanceBonus, 1.0),                       // | Entre 0 et DistanceMargin => Bonus de DistanceBonus
-            (EDefensePointScoringFeature/DistanceMargin, 0.0 * Metre),              // | Entre DistanceMargin et DistanceDecayLength => Diminution progressive du bonus jusqu'à 0
-            (EDefensePointScoringFeature/DistanceDecayLength, 10000.0 * Metre),     // | Après DistanceDecayLength => Malus progressif
+            (EDefensePointScoringFeature/DistanceMarginGRU, 0.0),                   // | Entre DistanceMargin et DistanceDecayLength => Diminution progressive du bonus jusqu'à 0
+            (EDefensePointScoringFeature/DistanceDecayLengthGRU, 3534.0),           // | Après DistanceDecayLength => Malus progressif
             (EDefensePointScoringFeature/DistanceDecayCoeff, 1.0),
 
             (EDefensePointScoringFeature/DistrictCoeff, 1.0),                       // | Bonus appliqués en fonction de la présence d'un quartier ou d'un terrain
@@ -145,8 +145,8 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
             TDefensePointScoringFeature(
                 DefensePointScoringValue = MAP [
                     (EDefensePointScoringFeature/DistanceBonus, 1.0),
-                    (EDefensePointScoringFeature/DistanceMargin, 5000.0 * Metre),
-                    (EDefensePointScoringFeature/DistanceDecayLength, 5000.0 * Metre),
+                    (EDefensePointScoringFeature/DistanceMarginGRU, 1767),
+                    (EDefensePointScoringFeature/DistanceDecayLengthGRU, 1767),
                     (EDefensePointScoringFeature/DistanceDecayCoeff, 1.0),
                     (EDefensePointScoringFeature/DistrictCoeff, 0.0),
                     (EDefensePointScoringFeature/ForetDenseCoeff, 1.0),
@@ -158,8 +158,8 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
             TDefensePointScoringFeature(
                 DefensePointScoringValue = MAP [
                     (EDefensePointScoringFeature/DistanceBonus, 1.0),
-                    (EDefensePointScoringFeature/DistanceMargin, 7000.0 * Metre),
-                    (EDefensePointScoringFeature/DistanceDecayLength, 5000.0 * Metre),
+                    (EDefensePointScoringFeature/DistanceMarginGRU, 2473),
+                    (EDefensePointScoringFeature/DistanceDecayLengthGRU, 1767),
                     (EDefensePointScoringFeature/DistanceDecayCoeff, 1.0),
                     (EDefensePointScoringFeature/DistrictCoeff, -1.0),
                     (EDefensePointScoringFeature/ForetDenseCoeff, 1.0),
@@ -173,8 +173,8 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
                 DefensePointScoringValue = MAP [
                     (EDefensePointScoringFeature/AltitudeCoeff, 2.0),
                     (EDefensePointScoringFeature/DistanceBonus, 1.0),
-                    (EDefensePointScoringFeature/DistanceMargin, 7000.0 * Metre),
-                    (EDefensePointScoringFeature/DistanceDecayLength, 5000.0 * Metre),
+                    (EDefensePointScoringFeature/DistanceMarginGRU, 2473),
+                    (EDefensePointScoringFeature/DistanceDecayLengthGRU, 1767),
                     (EDefensePointScoringFeature/DistanceDecayCoeff, 1.0),
                     (EDefensePointScoringFeature/DistrictCoeff, 0.0),
                     (EDefensePointScoringFeature/ForetDenseCoeff, 1.0),
@@ -185,8 +185,8 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
             TDefensePointScoringFeature(
                 DefensePointScoringValue = MAP [
                     (EDefensePointScoringFeature/DistanceBonus, 1.0),
-                    (EDefensePointScoringFeature/DistanceMargin, 7000.0 * Metre),
-                    (EDefensePointScoringFeature/DistanceDecayLength, 5000.0 * Metre),
+                    (EDefensePointScoringFeature/DistanceMarginGRU, 2473),
+                    (EDefensePointScoringFeature/DistanceDecayLengthGRU, 1767),
                     (EDefensePointScoringFeature/DistanceDecayCoeff, 1.0),
                     (EDefensePointScoringFeature/DistrictCoeff, -1.0),
                     (EDefensePointScoringFeature/ForetDenseCoeff, 1.0),
@@ -227,7 +227,7 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     //---------------------------------------------------------------------------------//
     //---------------------------------------------------------------------------------//
 
-    DistanceToRetreatForFlee = 2000 * Metre
+    DistanceToRetreatForFleeGRU = 707
     TimeToWaitAfterFleeToGoBackToOriginalPositionInSeconds = 7.5
     TimeSinceLastShotReceivedForFlee = 5
 
@@ -264,8 +264,8 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     ]
 
     IAStratPathCostCacheFilePath = "CurrentScenarioData:/IAStratZone/ZonePathCache.ndfbin"
-    IAStratDistanceFromNotDefendedCommandZone = 4000 * Metre //Un peu plus que la taille de 1 zone IAStrat
-    HysteresisDistanceForCommandUnitAlreadyAssignToCommandZone = 1500 * Metre
+    IAStratDistanceFromNotDefendedCommandZoneGRU = 1413 //Un peu plus que la taille de 1 zone IAStrat
+    HysteresisDistanceForCommandUnitAlreadyAssignToCommandZoneGRU = 530
 
     //first moveOutRatio / second CaptureRatio
     CapturableCommandZoneMoveOutAndCapturePowerRatioForAIDifficulty = MAP
@@ -302,8 +302,8 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     ]
 
     ProductionCapturableRadiusCheckMultiplier = 3.0
-    SupplyMinDistanceCheck = 1000 * Metre
-    SupplyDistanceToStop = 250 * Metre
+    SupplyMinDistanceCheckGRU = 353
+    SupplyDistanceToStopGRU = 88
 
     IAStratPathCacheCostPathfindType = ~/IAStratPathCacheCostConstante/IAStratPathCacheCostPathfindType
 
@@ -321,7 +321,7 @@ UnitPowerInformation is TUnitPowerInformationConstante
     UnitPowerTerrainCoeff = 1.0
     UnitPowerBuildingMultiplier = 0.01
     UnitPowerUnarmedOrPinnedMultiplier = 0.1
-    DefaultDistanceToConsiderOtherUnitsPower = 2000 * Metre // Les missions d'attaque prendront en compte ce rayon pour calculer leurs ratios
+    DefaultDistanceToConsiderOtherUnitsPowerGRU = 707 // Les missions d'attaque prendront en compte ce rayon pour calculer leurs ratios
 )
 
 RoEConstantes is TRoEConstantes
@@ -361,7 +361,7 @@ AirstrikeConstantes is TIAStratAirstrikeConstantes
     ]
     TargetPowerForOpportunisticSingleTargetAirStrike = 70
     TargetPowerForOpportunisticTargetInGroupAirStrike = 60
-    RadiusForOpportunisticTargetInGroupAirStrike = 600 * Metre //120m in game
+    RadiusForOpportunisticTargetInGroupAirStrikeGRU = 212 //120m in game
     MinNbrOfTargetsForOpportunisticTargetInGroupAirStrike = 2
 
     // Les avions avec des limitations sur leurs cibles sont renseignés ici. Ceux qui n'en ont pas non.
@@ -388,7 +388,7 @@ AirstrikeConstantes is TIAStratAirstrikeConstantes
 
 ArtilleryStrikeConstantes is TIAStratArtilleryStrikeConstantes
 (
-    ArtilleryStrikeSupportOffset = 1000 * Metre // Les artilleries sur carte lançant un tir Smoke en soutien viseront à cette distance derrière l'ennemi
+    ArtilleryStrikeSupportOffsetGRU = 353 // Les artilleries sur carte lançant un tir Smoke en soutien viseront à cette distance derrière l'ennemi
     ArtilleryStrikeThreatBonusPerTags =  // Multiplicateur appliqué lors du calcul de la menace d'unité. On applique le premier bonus qui match les tags de notre unité (1 par défaut)
     [
         (["Canon_AT"], 1.5),
@@ -476,29 +476,26 @@ export DefaultWargameTransport is
 FakeGunThreatDescriptor is TFakeGunThreatDescriptor
 (
     FakeThreatLifeTime = 90
-    DistanceFromStart = 2000.0 * Metre
+    DistanceFromStartGRU = 707
     StepSize = 1000.0
     DecalageAltitude = 300.0
-    VisionRange = 10000.0 * Metre
+    VisionRangeGRU = 3534
     OwnerRatioForFakeGunThreat = 0.9
     GunList = [
         TFakeGunDescriptor(
-
-            CurrentRange = 5000.0 * Metre
+            CurrentRangeGRU = 1767
             TirIndirect = false
             TypeArme = TDamageTypeRTTI(Family=DamageFamily_balle Index=1)
             ColPlan = ~/ECollisionPlane/Ground
             ),
         TFakeGunDescriptor(
-
-            CurrentRange = 5000.0 * Metre
+            CurrentRangeGRU = 1767
             TirIndirect = false
             TypeArme = TDamageTypeRTTI(Family=DamageFamily_he Index=1)
             ColPlan = ~/ECollisionPlane/Ground
             ),
         TFakeGunDescriptor(
-
-            CurrentRange = 5000.0 * Metre
+            CurrentRangeGRU = 1767
             TirIndirect = false
             TypeArme = TDamageTypeRTTI(Family=DamageFamily_ap Index=10)
             ColPlan = ~/ECollisionPlane/Ground

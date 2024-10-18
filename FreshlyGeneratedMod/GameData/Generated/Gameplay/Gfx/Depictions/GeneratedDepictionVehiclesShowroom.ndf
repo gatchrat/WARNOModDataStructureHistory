@@ -1972,6 +1972,12 @@ Gfx_LandRover_UK_Showroom_Autogen is ShowroomVehicleDepictionTemplate
     Selector = Selector_LandRover_UK
     SubDepictions = HumanSubDepictionsShowroom_LandRover_UK
 )
+Gfx_LandRover_WOMBAT_Gurkhas_UK_Showroom_Autogen is ShowroomVehicleDepictionTemplate
+(
+    Alternatives = Alternatives_LandRover_WOMBAT_Gurkhas_UK
+    Selector = Selector_LandRover_WOMBAT_Gurkhas_UK
+    SubDepictions = HumanSubDepictionsShowroom_LandRover_WOMBAT_Gurkhas_UK
+)
 Gfx_LandRover_WOMBAT_UK_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 (
     Alternatives = Alternatives_LandRover_WOMBAT_UK
@@ -2906,7 +2912,7 @@ Gfx_M60A1_AVLM_US_Showroom_Autogen is ShowroomVehicleDepictionTemplate
 
     SubDepictionGenerators = [ ShowroomRocketSubDepictionTemplate(
             UnitMeshDescriptor = $/GFX/DepictionResources/Modele_M60A1_AVLM_US
-            RocketMeshDescriptor = $/GFX/DepictionResources/Modele_Missile_PW_LWD
+            RocketMeshDescriptor = $/GFX/DepictionResources/Modele_Missile_MK22_Mod_2_Rocket
             RocketCount = 2
         ) ]
 )

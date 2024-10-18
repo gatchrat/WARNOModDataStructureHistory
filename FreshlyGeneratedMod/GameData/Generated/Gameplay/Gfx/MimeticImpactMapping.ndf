@@ -543,6 +543,15 @@ FxImpactSolBombGBU12_ is TRandomHappening
         ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_GBU12_3 ),
     ]
 )
+FxImpactSolBombKAB1500_ is TRandomHappening
+(
+    Alternatives = [
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_KAB1500_1 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_KAB1500_2 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_KAB1500_3 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_KAB1500_4 ),
+    ]
+)
 FxImpactSolBombM117_ is TRandomHappening
 (
     Alternatives = [
@@ -605,6 +614,19 @@ FxImpactSolBombMk84_ is TRandomHappening
         ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_Mk84_6 ),
         ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_Mk84_7 ),
         ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_Mk84_8 ),
+    ]
+)
+FxImpactSolBombODAB_ is TRandomHappening
+(
+    Alternatives = [
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_ODAB_1 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_ODAB_2 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_ODAB_3 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_ODAB_4 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_ODAB_5 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_ODAB_6 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_ODAB_7 ),
+        ImpactWrapper( Action = $/GFX/GameFx/fx_impact_sol_Bomb_ODAB_8 ),
     ]
 )
 FxImpactSolBombletNoAirBurstMW1_ is TRandomHappening
@@ -974,13 +996,13 @@ AllImpactHappenings is MAP[
       ( EImpactSurface/Ricochet , TCompositeHappening( SubHappenings = [ FxRebondObusGros, $/GFX/Sound/SoundHappening_ImpactObus_grosVehicule ] ) ),
     ])),
   ([ 'ArtillerieM185155MmNUKE' ], TImpactHappening( Happenings = MAP[
-      ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ FxImpactSolTacticalNuke, $/GFX/Sound/SoundHappening_ImpactArtillerie_NukelSol ] ) ),
-      ( EImpactSurface/Water , TCompositeHappening( SubHappenings = [ FxImpactSolTacticalNuke, $/GFX/Sound/SoundHappening_ImpactArtillerie_NukelSol ] ) ),
+      ( EImpactSurface/Ground , FxImpactSolTacticalNuke ),
+      ( EImpactSurface/Water , FxImpactSolTacticalNuke ),
       ( EImpactSurface/Air , FxImpactSolTacticalNuke ),
-      ( EImpactSurface/Wall , TCompositeHappening( SubHappenings = [ FxImpactSolTacticalNuke, $/GFX/Sound/SoundHappening_ImpactArtillerie_NukelSol ] ) ),
-      ( EImpactSurface/Vehicle , TCompositeHappening( SubHappenings = [ FxImpactSolTacticalNuke, $/GFX/Sound/SoundHappening_ImpactArtillerie_NukelSol ] ) ),
-      ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ FxImpactSolTacticalNuke, $/GFX/Sound/SoundHappening_ImpactArtillerie_NukelSol ] ) ),
-      ( EImpactSurface/Missile , $/GFX/Sound/SoundHappening_ImpactArtillerie_NukelSol ),
+      ( EImpactSurface/Wall , FxImpactSolTacticalNuke ),
+      ( EImpactSurface/Vehicle , FxImpactSolTacticalNuke ),
+      ( EImpactSurface/FlyingVehicle , FxImpactSolTacticalNuke ),
+      ( EImpactSurface/Missile , nil ),
       ( EImpactSurface/Ricochet , nil ),
     ])),
   ([ 'ArtillerieM185155MmSmoke' ], TImpactHappening( Happenings = MAP[
@@ -1121,6 +1143,16 @@ AllImpactHappenings is MAP[
       ( EImpactSurface/Vehicle , TCompositeHappening( SubHappenings = [ FxImpactSolBombMk83_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ] ) ),
       ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ FxImpactSolBombMk83_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ] ) ),
       ( EImpactSurface/Missile , $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ),
+      ( EImpactSurface/Ricochet , nil ),
+    ])),
+  ([ 'BombeODAB' ], TImpactHappening( Happenings = MAP[
+      ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ FxImpactSolBombODAB_, $/GFX/Sound/SoundHappening_ImpactRoquettes_Buratino_lourdeSol ] ) ),
+      ( EImpactSurface/Water , TCompositeHappening( SubHappenings = [ FxImpactEauHeTresgros2, $/GFX/Sound/SoundHappening_Impact_HE_Gros_Eau ] ) ),
+      ( EImpactSurface/Air , FxImpactSolBombODAB_ ),
+      ( EImpactSurface/Wall , TCompositeHappening( SubHappenings = [ FxImpactSolBombODAB_, $/GFX/Sound/SoundHappening_ImpactRoquettes_Buratino_lourdeSol ] ) ),
+      ( EImpactSurface/Vehicle , TCompositeHappening( SubHappenings = [ FxImpactSolBombODAB_, $/GFX/Sound/SoundHappening_ImpactRoquettes_Buratino_lourdeSol ] ) ),
+      ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ FxImpactSolBombODAB_, $/GFX/Sound/SoundHappening_ImpactRoquettes_Buratino_lourdeSol ] ) ),
+      ( EImpactSurface/Missile , $/GFX/Sound/SoundHappening_ImpactRoquettes_Buratino_lourdeSol ),
       ( EImpactSurface/Ricochet , nil ),
     ])),
   ([ 'BombletsMW1' ], TImpactHappening( Happenings = MAP[
@@ -1934,12 +1966,12 @@ AllImpactHappenings is MAP[
       ( EImpactSurface/Ricochet , nil ),
     ])),
   ([ 'MissileBombeGBU1500Kg' ], TImpactHappening( Happenings = MAP[
-      ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ FxImpactSolBombMk84_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ] ) ),
+      ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ FxImpactSolBombKAB1500_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ] ) ),
       ( EImpactSurface/Water , TCompositeHappening( SubHappenings = [ FxImpactEauHeTresgros2, $/GFX/Sound/SoundHappening_Impact_HE_Gros_Eau ] ) ),
-      ( EImpactSurface/Air , FxImpactSolBombMk84_ ),
-      ( EImpactSurface/Wall , TCompositeHappening( SubHappenings = [ FxImpactSolBombMk84_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ] ) ),
-      ( EImpactSurface/Vehicle , TCompositeHappening( SubHappenings = [ FxImpactSolBombMk84_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ] ) ),
-      ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ FxImpactSolBombMk84_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ] ) ),
+      ( EImpactSurface/Air , FxImpactSolBombKAB1500_ ),
+      ( EImpactSurface/Wall , TCompositeHappening( SubHappenings = [ FxImpactSolBombKAB1500_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ] ) ),
+      ( EImpactSurface/Vehicle , TCompositeHappening( SubHappenings = [ FxImpactSolBombKAB1500_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ] ) ),
+      ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ FxImpactSolBombKAB1500_, $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ] ) ),
       ( EImpactSurface/Missile , $/GFX/Sound/SoundHappening_FULDA_Bombe_Mk84_sol ),
       ( EImpactSurface/Ricochet , nil ),
     ])),

@@ -164,21 +164,24 @@ ModalPriority is TBaseClass
 )
 
 //Maintenir synchro aveec UIAnimFactor.h
+// Note : in the explanations of the modificators, the times '0', '1', 't0', 't1' etc. are relatives to the animation duration and have to be within [0.0, 1.0]
+// Note : if there are 2 parameters, the animation is at its start position at t0, and end position at t1.
+// Note : when rewinding, the animation is reversed. Hence, an animation which is faster at the beginning, will be faster at the end when rewinding.
 AnimModificator is TBaseClass
 (
-    None                    is 0
-    CubicBezier             is 1
-    LinearStep              is 2
-    CubicStep               is 3
-    LinearRect              is 4
-    CubicRect               is 5
-    NSawTooth               is 6
-    SquareAccelerate        is 7
-    SquareDecelerate        is 8
-    QuadraDecelerate        is 9
-    ParabolicArch           is 10
-    SquareTooth             is 11
-    InvMaxed                is 12
+    None                    is 0        // Linear translation between 0 and 1.
+    CubicBezier             is 1        // Need 4 ModificatorParameters t0 to t3. Bezier animation using the 4 parameters.
+    LinearStep              is 2        // Need 2 ModificatorParameters t0 and t1. No animation between 0 and t0, linear in [t0, t1] and nothing after t1
+    CubicStep               is 3        // Need 2 ModificatorParameters t0 and t1. No animation between 0 and t0, cubic in [t0, t1] and nothing after t1
+    LinearRect              is 4        // Need 4 ModificatorParameters t0 to t3. Linear in each segment. Between t1 and t2, the animation is at its final position, and at t3 at its beginning
+    CubicRect               is 5        // Need 4 ModificatorParameters t0 to t3. Cubic in each segment. Between t1 and t2, the animation is at its final position, and at t3 at its beginning
+    NSawTooth               is 6        // Need 1 ModificatorParameter N. The animation will be played N times (each one being N times shorter that the requested total duration)
+    SquareAccelerate        is 7        // No parameter
+    SquareDecelerate        is 8        // No parameter
+    QuadraDecelerate        is 9        // No parameter
+    ParabolicArch           is 10       // No parameter
+    SquareTooth             is 11       // No parameter
+    InvMaxed                is 12       // Need 1 ModificatorParameter f. No idea what this is supposed to do
 )
 
 //Maintenir synchro avec UIGenericTextureComponent.h

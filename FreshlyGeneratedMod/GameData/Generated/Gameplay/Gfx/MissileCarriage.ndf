@@ -5724,49 +5724,6 @@ MissileCarriage_Mi_24P_SOV_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// Mi_24P_TCH : ['RocketAir B8 80mm x10'] ['AGM 9M114M KokonM x4']
-MissileCarriage_Mi_24P_TCH is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_TCH
-    PylonSet = ~/DepictionPylonSet_Helico_SOV
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 80
-            MissileType = eAGM
-            MountingType = eMountingPod
-            WeaponIndex = 2
-        ),
-        TMissileCarriageWeaponInfo
-        (
-            Count = 4
-            MissileType = eAGM
-            WeaponIndex = 3
-        ),
-    ]
-)
-MissileCarriage_Mi_24P_TCH_Showroom is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_TCH
-    PylonSet = ~/DepictionPylonSet_Helico_SOV_Showroom
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 80
-            MissileType = eAGM
-            MountingType = eMountingPod
-            WeaponIndex = 2
-        ),
-        TMissileCarriageWeaponInfo
-        (
-            Count = 4
-            MissileType = eAGM
-            WeaponIndex = 3
-        ),
-    ]
-)
 // Mi_24P_s8_AT2_DDR : ['RocketAir B8 80mm x10'] ['AGM 9M114M KokonM x8']
 MissileCarriage_Mi_24P_s8_AT2_DDR is TMissileCarriageConnoisseur
 (
@@ -10537,37 +10494,6 @@ MissileCarriage_MiG_23MF_DDR_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// MiG_23MF_SOV : ['Bomb FAB 500kg x6']
-MissileCarriage_MiG_23MF_SOV is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_23MF_SOV
-    PylonSet = ~/DepictionPylonSet_Airplane_SOV
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 6
-            MissileType = eAGM
-            MountingType = eMountingBomb
-            WeaponIndex = 2
-        ),
-    ]
-)
-MissileCarriage_MiG_23MF_SOV_Showroom is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_23MF_SOV
-    PylonSet = ~/DepictionPylonSet_Airplane_SOV_Showroom
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 6
-            MissileType = eAGM
-            MountingType = eMountingBomb
-            WeaponIndex = 2
-        ),
-    ]
-)
 // MiG_23MLD_SOV : ['AA R24MR Vympel'] ['AA R73 Vympel']
 MissileCarriage_MiG_23MLD_SOV is TMissileCarriageConnoisseur
 (
@@ -11421,7 +11347,7 @@ MissileCarriage_Mirage_5_BA_CLU_BEL_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
-// Mirage_5_BA_MIRSIP_BEL : ['AA AIM9M Sidewinder'] ['AA AIM9M Sidewinder']
+// Mirage_5_BA_MIRSIP_BEL : ['Bomb Mk83 450kg x4'] ['AA AIM9M Sidewinder']
 MissileCarriage_Mirage_5_BA_MIRSIP_BEL is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Mirage_5_BA_MIRSIP_BEL
@@ -11430,8 +11356,9 @@ MissileCarriage_Mirage_5_BA_MIRSIP_BEL is TMissileCarriageConnoisseur
     [
         TMissileCarriageWeaponInfo
         (
-            Count = 2
-            MissileType = eAAM
+            Count = 4
+            MissileType = eAGM
+            MountingType = eMountingBomb
             WeaponIndex = 2
         ),
         TMissileCarriageWeaponInfo
@@ -11450,8 +11377,9 @@ MissileCarriage_Mirage_5_BA_MIRSIP_BEL_Showroom is TMissileCarriageConnoisseur
     [
         TMissileCarriageWeaponInfo
         (
-            Count = 2
-            MissileType = eAAM
+            Count = 4
+            MissileType = eAGM
+            MountingType = eMountingBomb
             WeaponIndex = 2
         ),
         TMissileCarriageWeaponInfo

@@ -6,7 +6,7 @@ export CubeAction_Strategic_Fortify is Template_CubeActionOrderButtonInformation
     OrderToken = 'Fortify'
     ValidationTargetToken = 'HNT_WARN'
 
-    LeftClickSound = InterfaceSound( FileName = "GameData:/Assets/Sons/Hud/digin.wav")
+    LeftClickSound = InterfaceSound( FileName = "GameData:/Assets/Sounds/Hud/digin.wav")
 
     ButtonTextToken         = 'ORD_FORTI'
     HintTitleToken          = 'HNT_FORTI'
@@ -27,7 +27,7 @@ export CubeAction_Strategic_FortifyAntiAir is Template_CubeActionOrderButtonInfo
     OrderToken = 'FortifyAntiAir'
     ValidationTargetToken = 'HNT_WARN'
 
-    LeftClickSound = InterfaceSound( FileName = "GameData:/Assets/Sons/SFX/Steelman/SFX_Steelman_SAM_Radar_1.wav")
+    LeftClickSound = InterfaceSound( FileName = "GameData:/Assets/Sounds/SFX/Steelman/Steelman_SAM_Radar_1.wav")
 
     ButtonTextToken         = 'ORD_FORAA'
     HintTitleToken          = 'HNT_FORAA'

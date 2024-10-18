@@ -683,7 +683,6 @@ ListeDesUnitesDuDeck is BUCKListDescriptor
     FirstMargin = TRTTILength(Magnifiable = 2 * MargePanneaux)
 
     MagnifierMultiplication = 1
-    IsDroppable = true
 
     // => FreeCaseDescriptor()
 
@@ -703,6 +702,14 @@ ListeDesUnitesDuDeck is BUCKListDescriptor
                 AlignementToFather = [0.0, 0.5]
             )
         ),
+        BUCKDroppableContainerDescriptor
+        (
+            ElementName = "UnitDeckListDroppable"
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
+        )
     ]
 
     BackgroundComponents =

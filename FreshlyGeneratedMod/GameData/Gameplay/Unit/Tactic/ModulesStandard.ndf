@@ -2,11 +2,10 @@ InfluencePositionModuleDescriptor is TInfluencePositionModuleDescriptor()
 InfluenceDataModuleDescriptor is TInfluenceDataModuleDescriptor()
 EffectApplierModuleDescriptor is TEffectApplierModuleDescriptor()
 OrderDisplayModuleDescriptor is TOrderDisplayModuleDescriptor()
-InflammableModuleDescriptorUnit  is TInflammableModuleDescriptor()
 
 CapturableModuleDescriptor is TCapturableModuleDescriptor
 (
-    RadiusCapture            =  1000.0 * Metre //2000.0 * Metre
+    RadiusCaptureGRU            =  353
 )
 
 GroupableUnitModuleSelector is TModuleSelector
@@ -42,10 +41,10 @@ BuildingOrderConfigModuleDescriptor is TOrderableModuleDescriptor
 
 template AirplaneMovementDescriptor
 [
-    Altitude,
-    AltitudeMin,
+    AltitudeGRU,
+    AltitudeMinGRU,
     SpeedInKmph,
-    AgilityRadius,
+    AgilityRadiusGRU,
     PitchAngle,
     RollAngle,
     RollSpeed,
@@ -56,13 +55,13 @@ template AirplaneMovementDescriptor
 (
     Default        = TAirplaneMovementModuleDescriptor
     (
-        Altitude = <Altitude>
-        AltitudeMax = ~/MaxAltitude
-        AltitudeMin = <AltitudeMin>
-        AltitudeMinForRoll = ~/MinAltitudeForRoll
+        AltitudeGRU = <AltitudeGRU>
+        AltitudeMaxGRU = ~/MaxAltitudeGRU
+        AltitudeMinGRU = <AltitudeMinGRU>
+        AltitudeMinForRollGRU = ~/MinAltitudeForRollGRU
         MinRollSpeedForRoll = ~/MinRollSpeedForRoll
         SpeedInKmph = <SpeedInKmph>
-        AgilityRadius = <AgilityRadius>
+        AgilityRadiusGRU = <AgilityRadiusGRU>
         PitchAngle = <PitchAngle>
         PitchSpeed = ~/MaxPitchSpeed
         RollAngle = <RollAngle>
@@ -150,66 +149,55 @@ HeliApparenceModuleDescriptor is TModuleSelector
 
 UnitStateEngineCompanyModuleDescriptor is TStateEngineCompanyModuleDescriptor
 (
-    StateEngineUpdateMode = WorldControllerAccess_InWorld
 )
 UnitStateEngineModuleDescriptor is TStateEngineUnitModuleDescriptor
 (
-    StateEngineUpdateMode = WorldControllerAccess_InWorld
-)
-
-AirplaneStateEngineCompanyModuleDescriptor is TStateEngineCompanyModuleDescriptor
-(
-    StateEngineUpdateMode = WorldControllerAccess_InOutWorld
-)
-AirplaneStateEngineModuleDescriptor is TStateEngineUnitModuleDescriptor
-(
-    StateEngineUpdateMode = WorldControllerAccess_InOutWorld
 )
 
 template AirplanePositionModuleDescriptor [
-    LowAltitudeFlyingAltitude
+    LowAltitudeFlyingAltitudeGRU
 ] is TPositionModuleDescriptor
 (
     InGeoDb                    = True
     ClampInWorld               = False
     ClampOutMap                = True
-    LowAltitudeFlyingAltitude  = <LowAltitudeFlyingAltitude>
+    LowAltitudeFlyingAltitudeGRU  = <LowAltitudeFlyingAltitudeGRU>
 )
 
 
 template AirplaneCadavrePositionModuleDescriptor [
-    LowAltitudeFlyingAltitude
+    LowAltitudeFlyingAltitudeGRU
 ] is TPositionModuleDescriptor
 (
     InGeoDb                    = False
     ClampInWorld               = False
     ClampOutMap                = True
-    LowAltitudeFlyingAltitude  = <LowAltitudeFlyingAltitude>
+    LowAltitudeFlyingAltitudeGRU  = <LowAltitudeFlyingAltitudeGRU>
 )
 
 template HelicopterPositionModuleDescriptor [
-    LowAltitudeFlyingAltitude,
-    NearGroundFlyingAltitude
+    LowAltitudeFlyingAltitudeGRU,
+    NearGroundFlyingAltitudeGRU
 ] is TPositionModuleDescriptor
 (
     InGeoDb                    = True
     ClampInWorld               = True
     ClampOutMap                = False
-    LowAltitudeFlyingAltitude  = <LowAltitudeFlyingAltitude>
-    NearGroundFlyingAltitude   = <NearGroundFlyingAltitude>
+    LowAltitudeFlyingAltitudeGRU  = <LowAltitudeFlyingAltitudeGRU>
+    NearGroundFlyingAltitudeGRU   = <NearGroundFlyingAltitudeGRU>
 )
 
 
 template HelicopterCadavrePositionModuleDescriptor [
-    LowAltitudeFlyingAltitude,
-    NearGroundFlyingAltitude
+    LowAltitudeFlyingAltitudeGRU,
+    NearGroundFlyingAltitudeGRU
 ] is TPositionModuleDescriptor
 (
     InGeoDb                    = False
     ClampInWorld               = True
     ClampOutMap                = False
-    LowAltitudeFlyingAltitude  = <LowAltitudeFlyingAltitude>
-    NearGroundFlyingAltitude   = <NearGroundFlyingAltitude>
+    LowAltitudeFlyingAltitudeGRU  = <LowAltitudeFlyingAltitudeGRU>
+    NearGroundFlyingAltitudeGRU   = <NearGroundFlyingAltitudeGRU>
 )
 
 UnitPositionModuleDescriptor is TPositionModuleDescriptor

@@ -683,7 +683,9 @@ BUCKSpecificOutGameLobbyMainComponentDescriptor is  BUCKContainerDescriptor
             )
 
             TriggerWhenSetVisible = true
-            AnimationTotalDuration = 0.15
+            AnimationTotalDuration = 0.2
+            AnimationModificator = ~/AnimModificator/CubicStep
+            AnimationModificatorParameters = [0.0, 1.0]
 
             FramePropertyAfterAnimation = TUIFramePropertyRTTI
             (

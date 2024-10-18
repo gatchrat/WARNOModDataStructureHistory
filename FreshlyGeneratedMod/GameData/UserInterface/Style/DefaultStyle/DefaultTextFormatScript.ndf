@@ -2066,6 +2066,14 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
             TemplateTFS_Division(TextureToken = "CommonTexture_division_UK_1AD")
         ),
         (
+            "UK_2ID",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_UK_2ID")
+        ),
+        (
+            "UK_4AD",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_UK_4AD")
+        ),
+        (
             "BEL_16mec",
             TemplateTFS_Division(TextureToken = "CommonTexture_division_BEL_16mec")
         ),
@@ -2096,6 +2104,10 @@ DefaultTextFormatScript is TTextFormatScriptRTTI
         (
             "RFA_12PZ",
             TemplateTFS_Division(TextureToken = "CommonTexture_division_RFA_12PZ")
+        ),
+        (
+            "RFA_1PZ",
+            TemplateTFS_Division(TextureToken = "CommonTexture_division_RFA_1PZ")
         ),
         (
             "RFA_terrkdo",

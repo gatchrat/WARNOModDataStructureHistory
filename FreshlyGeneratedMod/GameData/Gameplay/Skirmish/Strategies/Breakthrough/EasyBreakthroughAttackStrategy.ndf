@@ -68,7 +68,6 @@ export EasyBTAtk_PhaseDeploiement is TSequenceGeneratorDescriptor
     NbMacroActionAllowedToProduceSimultaneous = 4
     GeneratorList =
     [
-
         // Capture de zones
         ~/CaptureAllZoneObjectif,
 
@@ -76,6 +75,8 @@ export EasyBTAtk_PhaseDeploiement is TSequenceGeneratorDescriptor
         // Support & Supply
         //------------------------------
         ~/Support_Transports,
+
+        ~/FOB_Skirmish,
 
         ~/Supply_Skirmish_WithAllied_OnePerCorridor,
 

@@ -257,6 +257,14 @@ Weapon_AutoCanon_HE_25mm_KBA is TCompositeHappening
         $/GFX/Sound/SFXWeapon_AutoCanon_HE_25mm_KBA,
     ]
 )
+Weapon_MMG_FN_MAG_7_62mm is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_MMG_FN_MAG_7_62mm,
+        $/GFX/Sound/SFXWeapon_MMG_FN_MAG_7_62mm,
+    ]
+)
 Weapon_ATGM_MILAN is TCompositeHappening
 (
     SubHappenings = 
@@ -1153,14 +1161,6 @@ Weapon_ATGM_Swingfire_x5 is TCompositeHappening
         $/GFX/Sound/SFXWeapon_ATGM_Swingfire_x5,
     ]
 )
-Weapon_MMG_FN_MAG_7_62mm is TCompositeHappening
-(
-    SubHappenings = 
-    [
-        FXWeapon_MMG_FN_MAG_7_62mm,
-        $/GFX/Sound/SFXWeapon_MMG_FN_MAG_7_62mm,
-    ]
-)
 Weapon_MMG_L37A2_7_62mm is TCompositeHappening
 (
     SubHappenings = 
@@ -1193,12 +1193,12 @@ Weapon_ATGM_MILAN_2_x2 is TCompositeHappening
         $/GFX/Sound/SFXWeapon_ATGM_MILAN_2_x2,
     ]
 )
-Weapon_Canon_HE_165mm_AVRE is TCompositeHappening
+Weapon_Canon_HE_165mm_AVRE_L9A1 is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Canon_HE_165mm_AVRE,
-        $/GFX/Sound/SFXWeapon_Canon_HE_165mm_AVRE,
+        FXWeapon_Canon_HE_165mm_AVRE_L9A1,
+        $/GFX/Sound/SFXWeapon_Canon_HE_165mm_AVRE_L9A1,
     ]
 )
 Weapon_Canon_AP_120_mm_L11A5_Mk10 is TCompositeHappening
@@ -1633,20 +1633,20 @@ Weapon_ATGM_HOT1 is TCompositeHappening
         $/GFX/Sound/SFXWeapon_ATGM_HOT1,
     ]
 )
-Weapon_Canon_AP_90mm_KanJPz is TCompositeHappening
+Weapon_Canon_AP_90mm_KanJPz_late is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Canon_AP_90mm_KanJPz,
-        $/GFX/Sound/SFXWeapon_Canon_AP_90mm_KanJPz,
+        FXWeapon_Canon_AP_90mm_KanJPz_late,
+        $/GFX/Sound/SFXWeapon_Canon_AP_90mm_KanJPz_late,
     ]
 )
-Weapon_Canon_HE_90mm_M48_KanJPz is TCompositeHappening
+Weapon_Canon_HE_90mm_M48_KanJPz_late is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Canon_HE_90mm_M48_KanJPz,
-        $/GFX/Sound/SFXWeapon_Canon_HE_90mm_M48_KanJPz,
+        FXWeapon_Canon_HE_90mm_M48_KanJPz_late,
+        $/GFX/Sound/SFXWeapon_Canon_HE_90mm_M48_KanJPz_late,
     ]
 )
 Weapon_AutoCanon_AP_25mm_M242_Bushmaster_Late is TCompositeHappening
@@ -2169,6 +2169,14 @@ Weapon_Canon_HE_105mm_M68_late is TCompositeHappening
         $/GFX/Sound/SFXWeapon_Canon_HE_105mm_M68_late,
     ]
 )
+Weapon_Canon_HE_165mm_AVRE is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_Canon_HE_165mm_AVRE,
+        $/GFX/Sound/SFXWeapon_Canon_HE_165mm_AVRE,
+    ]
+)
 Weapon_SAM_FIM92_Stinger_x8 is TCompositeHappening
 (
     SubHappenings = 
@@ -2335,6 +2343,22 @@ Weapon_Mortier_2S12_120mm_SMOKE is TCompositeHappening
     [
         FXWeapon_Mortier_2S12_120mm_SMOKE,
         $/GFX/Sound/SFXWeapon_Mortier_2S12_120mm_SMOKE,
+    ]
+)
+Weapon_Mortier_M1_81mm_towed is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_Mortier_M1_81mm_towed,
+        $/GFX/Sound/SFXWeapon_Mortier_M1_81mm_towed,
+    ]
+)
+Weapon_Mortier_M1_81mm_towed_SMOKE is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_Mortier_M1_81mm_towed_SMOKE,
+        $/GFX/Sound/SFXWeapon_Mortier_M1_81mm_towed_SMOKE,
     ]
 )
 Weapon_Mortier_M43_82mm_TOWED is TCompositeHappening
@@ -3699,7 +3723,14 @@ Weapon_GatlingAir_DEFA_30mm_x2 is TCompositeHappening
         $/GFX/Sound/SFXWeapon_GatlingAir_DEFA_30mm_x2,
     ]
 )
-Weapon_GatlingAir_ADEN_Mk4_30mm_x2 is FXWeapon_GatlingAir_ADEN_Mk4_30mm_x2
+Weapon_GatlingAir_ADEN_Mk4_30mm_x2 is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_GatlingAir_ADEN_Mk4_30mm_x2,
+        $/GFX/Sound/SFXWeapon_GatlingAir_ADEN_Mk4_30mm_x2,
+    ]
+)
 Weapon_Bomb_BL755_cluster_264kg_x2 is TCompositeHappening
 (
     SubHappenings = 

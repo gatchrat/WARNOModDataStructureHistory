@@ -1459,33 +1459,24 @@ InfantryWeapon_M47_DRAGON is TIntroduceMobileHappening
     )
 )
 
-InfantryWeapon_flamethrower_LFP54 is TIntroduceMobileHappening
+InfantryWeapon_RocketInf_HAFLA is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
     (
         SubHappenings = 
         [
+            fx_tir_LAW_2,
             TRandomHappening
             (
                 Alternatives = 
                 [
-                    fx_depart_tir_lance_flammes_1_2,
-                    fx_depart_tir_lance_flammes_2_2,
-                    fx_depart_tir_lance_flammes_3_2,
+                    fx_traine_LAW_1_2_False_00_00,
+                    fx_traine_LAW_2_2_False_00_00,
+                    fx_traine_LAW_3_2_False_00_00,
+                    fx_traine_LAW_4_2_False_00_00,
                 ]
             ),
-            TRandomHappening
-            (
-                Alternatives = 
-                [
-                    fx_tir_lance_flammes_1_2_False_00_00,
-                    fx_tir_lance_flammes_2_2_False_00_00,
-                    fx_tir_lance_flammes_3_2_False_00_00,
-                    fx_tir_lance_flammes_4_2_False_00_00,
-                    fx_tir_lance_flammes_5_2_False_00_00,
-                ]
-            ),
-            $/GFX/Sound/SFXWeapon_flamethrower_LFP54,
+            $/GFX/Sound/SFXWeapon_RocketInf_HAFLA,
         ]
     )
 )
@@ -1930,6 +1921,11 @@ InfantryWeapon_PM_MAT_49 is TIntroduceMobileHappening
             $/GFX/Sound/SFXWeapon_PM_MAT_49,
         ]
     )
+)
+
+InfantryWeapon_Grenade_SMOKE is TIntroduceMobileHappening
+(
+    Happening = fx_traine_grenade_AN_M16_2_False_00_00
 )
 
 InfantryWeapon_RocketInf_APILAS is TIntroduceMobileHappening
@@ -2405,11 +2401,6 @@ InfantryWeapon_SAW_FALO is TIntroduceMobileHappening
     )
 )
 
-InfantryWeapon_Grenade_SMOKE is TIntroduceMobileHappening
-(
-    Happening = fx_traine_grenade_AN_M16_2_False_00_00
-)
-
 InfantryWeapon_FM_kbk_AK is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
@@ -2573,6 +2564,37 @@ InfantryWeapon_flamethrower_M2 is TIntroduceMobileHappening
     )
 )
 
+InfantryWeapon_flamethrower_LFP54 is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_depart_tir_lance_flammes_1_2,
+                    fx_depart_tir_lance_flammes_2_2,
+                    fx_depart_tir_lance_flammes_3_2,
+                ]
+            ),
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_tir_lance_flammes_1_2_False_00_00,
+                    fx_tir_lance_flammes_2_2_False_00_00,
+                    fx_tir_lance_flammes_3_2_False_00_00,
+                    fx_tir_lance_flammes_4_2_False_00_00,
+                    fx_tir_lance_flammes_5_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_flamethrower_LFP54,
+        ]
+    )
+)
+
 InfantryWeapon_FM_MAS_56 is TIntroduceMobileHappening
 (
     Happening = TCompositeHappening
@@ -2643,6 +2665,28 @@ InfantryWeapon_MMG_inf_AA52_7_5mm is TIntroduceMobileHappening
                 ]
             ),
             $/GFX/Sound/SFXWeapon_MMG_inf_AA52_7_5mm,
+        ]
+    )
+)
+
+InfantryWeapon_RocketInf_LRAC_73 is TIntroduceMobileHappening
+(
+    Happening = TCompositeHappening
+    (
+        SubHappenings = 
+        [
+            fx_tir_LAW_2,
+            TRandomHappening
+            (
+                Alternatives = 
+                [
+                    fx_traine_LAW_1_2_False_00_00,
+                    fx_traine_LAW_2_2_False_00_00,
+                    fx_traine_LAW_3_2_False_00_00,
+                    fx_traine_LAW_4_2_False_00_00,
+                ]
+            ),
+            $/GFX/Sound/SFXWeapon_RocketInf_LRAC_73,
         ]
     )
 )
@@ -3501,8 +3545,10 @@ InfantryHappenings is MAP[
   ( ['FireEffect_RocketInf_Armbrust'], InfantryWeapon_RocketInf_Armbrust ),
   ( ['FireEffect_RocketInf_Blindicide_RL_83'], InfantryWeapon_RocketInf_Blindicide_RL_83 ),
   ( ['FireEffect_RocketInf_Carl_Gustav'], InfantryWeapon_RocketInf_Carl_Gustav ),
+  ( ['FireEffect_RocketInf_HAFLA'], InfantryWeapon_RocketInf_HAFLA ),
   ( ['FireEffect_RocketInf_Handflammpatrone'], InfantryWeapon_RocketInf_Handflammpatrone ),
   ( ['FireEffect_RocketInf_LAW_80'], InfantryWeapon_RocketInf_LAW_80 ),
+  ( ['FireEffect_RocketInf_LRAC_73'], InfantryWeapon_RocketInf_LRAC_73 ),
   ( ['FireEffect_RocketInf_LRAC_F1'], InfantryWeapon_RocketInf_LRAC_F1 ),
   ( ['FireEffect_RocketInf_M202_Flash_66mm'], InfantryWeapon_RocketInf_M202_Flash_66mm ),
   ( ['FireEffect_RocketInf_M67_RCL_90mm'], InfantryWeapon_RocketInf_M67_RCL_90mm ),

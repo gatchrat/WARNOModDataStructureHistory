@@ -750,3 +750,9 @@ export GunnerStandingUp is TResourceMatrixArrayAnimation
     FileName       = 'GameData:/Assets/3D/Units/Common/sources/Anims_Gunner_FULDA/Gunner_Standing_Up.fbx'
     PlayInLoop     = false
 )
+
+export GunnerSittingDown_6U6 is TResourceMatrixArrayAnimation
+(
+    FileName       = 'GameData:/Assets/3D/Units/Common/sources/Anims_Gunner_FULDA/Gunner_Sitting_Down_6U6.fbx'
+    PlayInLoop     = false
+)

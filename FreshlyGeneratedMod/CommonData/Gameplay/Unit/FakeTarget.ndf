@@ -39,7 +39,6 @@ Tactic_Descriptor_Unit_FakeTarget is TEntityDescriptor
         ),
         TCameraShowroomModuleDescriptor
         (
-            Token = 'Vehicle'
             SpawnType = EShowroomSpawnType/Vehicle
         ),
     ]

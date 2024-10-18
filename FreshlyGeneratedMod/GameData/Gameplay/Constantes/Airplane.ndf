@@ -1,7 +1,7 @@
 export AirplaneConstantesWargame is TAirplaneConstantesModernWarfareDescriptor
 (
-    // Valeurs en metres
-    EvacuationAltitude  = (10000 * Metre) //15000
+    // Valeurs en GRU
+    EvacuationAltitudeGRU  = 3534
 
     TempsEntreDeuxDecollagesEnSecondes = 0.6
 

@@ -6,6 +6,7 @@ private template MissionDescriptionText
     TextToken : string = "",
     TextColor : string = 'Noir_noHL',
     TextSize = "13",
+    TextStyle : string = "Default",
     TypefaceToken = "Courrier",
     Alignment = UIText_Left,
     MagnifiableWidthHeight : float2 = [0.0, 0.0],
@@ -34,7 +35,7 @@ is BUCKTextDescriptor
         InterLine         = 0.4
     )
 
-    TextStyle = "Default"
+    TextStyle = <TextStyle>
     TypefaceToken = <TypefaceToken>
 
     TextPadding = <TextPadding>
@@ -276,6 +277,7 @@ ResumeCampagneTypeHistorique is BUCKSpecificScrollingContainerDescriptor
                         TypefaceToken = "Eurostyle"
                         TextColor = "Noir"
                         TextSize = "20"
+                        TextStyle = "UpperCase"
                     )
                 ),
                 // BUCKListElementSpacer(Magnifiable = 20.0),
@@ -305,6 +307,7 @@ ResumeCampagneTypeHistorique is BUCKSpecificScrollingContainerDescriptor
                         Alignment = UIText_Left
                         TypefaceToken = "Eurostyle"
                         TextSize = '14'
+
                     )
                 ),
 

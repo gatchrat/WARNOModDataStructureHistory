@@ -378,7 +378,7 @@ export Descriptor_Deck_RFA_5_Panzer_multi is TDeckDescriptor
         ~/Descriptor_Deck_Pack_Panzergrenadier_IFV_RFA_Marder_1A2_MILAN_RFA_1,
         ~/Descriptor_Deck_Pack_Panzergrenadier_IFV_RFA_Marder_1A2_MILAN_RFA_1,
         ~/Descriptor_Deck_Pack_ATteam_Milan_2_RFA_Marder_1A2_MILAN_RFA_0,
-        ~/Descriptor_Deck_Pack_Engineers_Flam_RFA_TPZ_Fuchs_MILAN_RFA_0,
+        ~/Descriptor_Deck_Pack_Engineers_Flam_RFA_TPZ_Fuchs_1_RFA_0,
         ~/Descriptor_Deck_Pack_Lars_2_RFA_0,
         ~/Descriptor_Deck_Pack_M270_MLRS_RFA_0,
         ~/Descriptor_Deck_Pack_M109A3G_HOWZ_RFA_0,

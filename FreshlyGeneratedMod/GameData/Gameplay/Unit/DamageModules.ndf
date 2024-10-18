@@ -104,7 +104,7 @@ Helico_SuppressDamagesRegenRatioList is
 Helico_StunDamagesRegen is 1
 
 // Dégâts de "stun" que l'unité doit atteindre pour être stunned (dégâts augmentant avec les dégâts de suppressions et regénérés avec StunDamagesRegen)
-Helico_MaxStunDamages is 300
+Helico_MaxStunDamages is 450
 
 Helico_MaxSuppressionDamages is 500
 

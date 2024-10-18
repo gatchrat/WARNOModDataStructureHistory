@@ -18,6 +18,8 @@ UseStrategic_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("UseStrategic_Labels_Fatigue_3",                             MAP [(~/ComponentState/Normal, ~/UseStrategic_Labels_Fatigue_3)] ),
         ("UseStrategic_Labels_Fatigue_4",                             MAP [(~/ComponentState/Normal, ~/UseStrategic_Labels_Fatigue_4)] ),
         ("UseStrategic_Labels_Fatigue_5",                             MAP [(~/ComponentState/Normal, ~/UseStrategic_Labels_Fatigue_5)] ),
+        ("UseStrategic_Labels_Fatigue_6",                             MAP [(~/ComponentState/Normal, ~/UseStrategic_Labels_Fatigue_6)] ),
+        ("UseStrategic_Labels_Fatigue_7",                             MAP [(~/ComponentState/Normal, ~/UseStrategic_Labels_Fatigue_7)] ),
 
         ("UseStrategic_Labels_FortificationAntiAirEnCours",          MAP [(~/ComponentState/Normal, ~/UseStrategic_Labels_FortificationAntiAirEnCours)] ),
         ("UseStrategic_Labels_FortificationAntiAir",                 MAP [(~/ComponentState/Normal, ~/UseStrategic_Labels_FortificationAntiAir)] ),
@@ -123,6 +125,8 @@ UseStrategic_Labels_Fatigue_2                            is TUIResourceTexture_C
 UseStrategic_Labels_Fatigue_3                            is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/Fatigue_3.png")
 UseStrategic_Labels_Fatigue_4                            is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/Fatigue_4.png")
 UseStrategic_Labels_Fatigue_5                            is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/Fatigue_5.png")
+UseStrategic_Labels_Fatigue_6                            is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/Fatigue_6.png")
+UseStrategic_Labels_Fatigue_7                            is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/Fatigue_7.png")
 
 
 UseStrategic_Labels_FortificationAntiAirEnCours          is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/UseStrategic/Icons/DCAModeEnCours.png")

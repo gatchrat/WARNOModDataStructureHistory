@@ -206,7 +206,7 @@ template TemplateInfantryDepictionSquad
     DepictionAlternatives = [
       DepictionDescriptor_LOD_High(MeshDescriptor = $/GFX/DepictionResources/Rien),
     ]
-    Operators = [ <SoundOperator> ]
+    Operators = [ <SoundOperator>, DepictionOperator_AlwaysAliveSoundProbe ]
   )
 )
 

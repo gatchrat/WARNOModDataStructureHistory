@@ -81,8 +81,7 @@ export Modele_Missile_Bomb_Matra_250Kg is    ModelDescriptor( FileName = 'GameDa
 export Modele_Missile_Bomb_Matra_400Kg is    ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Bombes/FR/Bomb_Matra_400Kg.fbx' )
 export Modele_Missile_SS_11 is    ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/FR/SS_11/SS_11.fbx' )
 export Modele_Missile_PW_LWD is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Roquettes/SOV/PW_LWD/PW_LWD_cable.fbx')
-
-// export Modele_Missile_68mm_Rocket is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Roquettes/68mm_Rocket.fbx' )
+export Modele_Missile_R440 is    ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/FR/R440/R440.fbx' )
 
 //--emports UK-----------------------------------------------------------------------------------------------
 
@@ -104,6 +103,7 @@ export Modele_Missile_Aspide_1A is ModelDescriptor( FileName = 'GameData:/Assets
 //--emports US---------------------------------------------------------------------------------------------------
 export Modele_Missile_Hellfire is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_114_Hellfire.fbx' )
 export Modele_Missile_AGM_122_Sidearm is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_122_Sidearm.fbx' )
+export Modele_Missile_MK22_Mod_2_Rocket is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Roquettes/US/MK22_Mod_2_ROCKET/MK22_Mod_2_ROCKET.fbx' )
 
 //---------------MAVERICK---------------------------------------------------------------------------------------------------
 export ModelFile_Missile_Maverick is 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_65_Maverick/AGM_65_Maverick.fbx'

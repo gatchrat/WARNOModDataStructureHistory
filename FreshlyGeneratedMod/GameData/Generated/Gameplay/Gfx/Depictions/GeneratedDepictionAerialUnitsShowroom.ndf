@@ -2635,21 +2635,6 @@ Gfx_MiG_23MF_DDR_Showroom_Autogen is ShowroomAerialDepictionTemplate
         ),
     ]
 )
-Gfx_MiG_23MF_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_23MF_SOV
-    SubDepictionGenerators = 
-    [
-        SubGenerators_Showroom_MiG_23MF_SOV,
-    ]
-    SubDepictions = 
-    [
-        ShowroomLandingGear
-        (
-            MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_23MF_SOV_train
-        ),
-    ]
-)
 Gfx_MiG_23MLD_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_23MLD_SOV
@@ -3195,30 +3180,6 @@ Gfx_Mi_24P_SOV_Showroom_Autogen is ShowroomAerialDepictionTemplate
     SubDepictionGenerators = 
     [
         SubGenerators_Showroom_Mi_24P_SOV,
-    ]
-)
-Gfx_Mi_24P_TCH_Showroom_Autogen is ShowroomAerialDepictionTemplate
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_24P_TCH
-    Operators = 
-    [
-        DepictionOperator_Reset_Generic,
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_1"
-            RotationAxis = float3[0, 0, 1]
-            RotationInDegree = -30
-        ),
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_2"
-            RotationAxis = float3[0, 1, 0]
-            RotationInDegree = -30
-        ),
-    ]
-    SubDepictionGenerators = 
-    [
-        SubGenerators_Showroom_Mi_24P_TCH,
     ]
 )
 Gfx_Mi_24P_s8_AT2_DDR_Showroom_Autogen is ShowroomAerialDepictionTemplate

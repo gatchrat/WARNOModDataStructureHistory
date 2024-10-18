@@ -179,7 +179,6 @@ private DeckListPanelCreateButton is ConfirmButton
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
     ButtonMagnifiableWidthHeight = [175.0, 34.0]
     TextTypefaceToken = "Liberator"
-    //TextStyle = 'TextStyleEcranMoniteur_cyan'
     TextColorToken = 'blanc_contour'
     BorderLineColorToken = 'boutonFiltre'
     HasBackground = true
@@ -1030,7 +1029,9 @@ DeckOverview is BUCKTranslationAnimatedContainerDescriptor
         MagnifiableOffset = [-50.0, 0.0]
     )
 
-    AnimationTotalDuration = 0.15
+    AnimationTotalDuration = 0.3
+    AnimationModificator = ~/AnimModificator/CubicStep
+    AnimationModificatorParameters = [0.0, 1.0]
 
     HasBackground = true
     BackgroundBlockColorToken = "Blanc220"
@@ -1558,7 +1559,9 @@ is BUCKTranslationAnimatedContainerDescriptor
     )
 
     TriggerWhenSetVisible = true
-    AnimationTotalDuration = 0.10
+    AnimationTotalDuration = 0.3
+    AnimationModificator = ~/AnimModificator/CubicStep
+    AnimationModificatorParameters = [0.0, 1.0]
 
     FramePropertyAfterAnimation = TUIFramePropertyRTTI
     (

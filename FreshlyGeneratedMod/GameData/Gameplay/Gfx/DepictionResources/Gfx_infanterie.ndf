@@ -140,6 +140,16 @@ export Modele_RL_100   is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units
 export Modele_FAL_sniper   is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Armes/BEL/FAL_sniper/FAL_sniper.fbx' )
 
 //------------------------------------------------------------------------------
+//------------------------------------ARMES TCH----------------------------------
+//------------------------------------------------------------------------------
+export Modele_RPG_75   is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Armes/TCH/RPG_75/RPG_75.fbx' )
+export Modele_T21_Tarasnice   is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Armes/TCH/T21_Tarasnice/T21_Tarasnice.fbx' )
+export Modele_UK_vz_59   is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Armes/TCH/UK_vz_59/UK_vz_59.fbx' )
+export Modele_UK_vz_59L   is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Armes/TCH/UK_vz_59L/UK_vz_59L.fbx' )
+export Modele_Vz_58_rifle   is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Armes/TCH/Vz_58_rifle/Vz_58_rifle.fbx' )
+export Modele_Vz_58V_rifle   is ModelDescriptor( FileName = 'GameData:/Assets/3D/Units/Ammo/Armes/TCH/Vz_58V_rifle/Vz_58V_rifle.fbx' )
+
+//------------------------------------------------------------------------------
 //-----------------------------------SOLDATS SOV--------------------------------
 //------------------------------------------------------------------------------
 SOV_MotoStrelki_1 is 'GameData:/Assets/3D/Units/URSS/Infanterie/MotoStrelki/MotoStrelki_1.fbx'
@@ -410,10 +420,10 @@ export Modele_MotRifles_SOV_03 is ModelDescriptor( FileName = SOV_MotoStrelki_1 
 export Modele_MotRifles_SOV_LOW is ModelDescriptor( FileName = SOV_MotoStrelki_1_LOW )
 
 //Scout_Spetsnaz_SOV
-export Modele_Scout_Spetsnaz_SOV is ModelDescriptor( FileName = SOV_MotoStrelki_1_TTsko )
+export Modele_Scout_Spetsnaz_SOV is ModelDescriptor( FileName = SOV_MotoStrelki_Officer )
 export Modele_Scout_Spetsnaz_SOV_02 is ModelDescriptor( FileName = SOV_VDV_Sniper )
 export Modele_Scout_Spetsnaz_SOV_03 is ModelDescriptor( FileName = SOV_MotoStrelki_Sniper )
-export Modele_Scout_Spetsnaz_SOV_04 is ModelDescriptor( FileName = SOV_MotoStrelki_Officer )
+export Modele_Scout_Spetsnaz_SOV_04 is ModelDescriptor( FileName = SOV_MotoStrelki_1_TTsko )
 export Modele_Scout_Spetsnaz_SOV_05 is ModelDescriptor( FileName = SOV_MotoStrelki_Sniper )
 export Modele_Scout_Spetsnaz_SOV_06 is ModelDescriptor( FileName = SOV_MotoStrelki_2_TTsko )
 export Modele_Scout_Spetsnaz_SOV_LOW is ModelDescriptor( FileName = SOV_MotoStrelki_1_TTsko_LOW )
@@ -424,6 +434,50 @@ export Modele_Scout_SpetsnazGRU_Stinger_SOV_02 is ModelDescriptor( FileName = SO
 export Modele_Scout_SpetsnazGRU_Stinger_SOV_03 is ModelDescriptor( FileName = SOV_VDV_1 )
 export Modele_Scout_SpetsnazGRU_Stinger_SOV_04 is ModelDescriptor( FileName = SOV_VDV_2 )
 export Modele_Scout_SpetsnazGRU_Stinger_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
+
+//Scout_Spetsnaz_VDV_SOV
+export Modele_Scout_Spetsnaz_VDV_SOV is ModelDescriptor( FileName = SOV_VDV_NCO )
+export Modele_Scout_Spetsnaz_VDV_SOV_02 is ModelDescriptor( FileName = SOV_VDV_Sniper )
+export Modele_Scout_Spetsnaz_VDV_SOV_03 is ModelDescriptor( FileName = SOV_VDV_1 )
+export Modele_Scout_Spetsnaz_VDV_SOV_04 is ModelDescriptor( FileName = SOV_VDV_2 )
+export Modele_Scout_Spetsnaz_VDV_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
+
+//Sniper_Spetsnaz_SOV
+export Modele_Sniper_Spetsnaz_SOV is ModelDescriptor( FileName = SOV_VDV_NCO )
+export Modele_Sniper_Spetsnaz_SOV_02 is ModelDescriptor( FileName = SOV_VDV_Sniper )
+export Modele_Sniper_Spetsnaz_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
+
+//Spetsnaz_CMD_SOV
+export Modele_Spetsnaz_CMD_SOV is ModelDescriptor( FileName = SOV_VDV_Officer )
+export Modele_Spetsnaz_CMD_SOV_02 is ModelDescriptor( FileName = SOV_VDV_NCO )
+export Modele_Spetsnaz_CMD_SOV_03 is ModelDescriptor( FileName = SOV_VDV_1 )
+export Modele_Spetsnaz_CMD_SOV_04 is ModelDescriptor( FileName = SOV_VDV_2 )
+export Modele_Spetsnaz_CMD_SOV_05 is ModelDescriptor( FileName = SOV_VDV_spe )
+export Modele_Spetsnaz_CMD_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
+
+//Spetsnaz_FireSupport_SOV
+export Modele_Spetsnaz_FireSupport_SOV is ModelDescriptor( FileName = SOV_VDV_NCO )
+export Modele_Spetsnaz_FireSupport_SOV_02 is ModelDescriptor( FileName = SOV_VDV_2 )
+export Modele_Spetsnaz_FireSupport_SOV_03 is ModelDescriptor( FileName = SOV_VDV_1 )
+export Modele_Spetsnaz_FireSupport_SOV_04 is ModelDescriptor( FileName = SOV_VDV_Sniper )
+export Modele_Spetsnaz_FireSupport_SOV_05 is ModelDescriptor( FileName = SOV_VDV_spe )
+export Modele_Spetsnaz_FireSupport_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
+
+//Spetsnaz_Vympel_SOV
+export Modele_Spetsnaz_Vympel_SOV is ModelDescriptor( FileName = SOV_VDV_NCO )
+export Modele_Spetsnaz_Vympel_SOV_02 is ModelDescriptor( FileName = SOV_VDV_2 )
+export Modele_Spetsnaz_Vympel_SOV_03 is ModelDescriptor( FileName = SOV_VDV_1 )
+export Modele_Spetsnaz_Vympel_SOV_04 is ModelDescriptor( FileName = SOV_VDV_Sniper )
+export Modele_Spetsnaz_Vympel_SOV_05 is ModelDescriptor( FileName = SOV_VDV_spe )
+export Modele_Spetsnaz_Vympel_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
+
+//Spetsnaz_SOV
+export Modele_Spetsnaz_SOV is ModelDescriptor( FileName = SOV_VDV_NCO )
+export Modele_Spetsnaz_SOV_02 is ModelDescriptor( FileName = SOV_VDV_2 )
+export Modele_Spetsnaz_SOV_03 is ModelDescriptor( FileName = SOV_VDV_1 )
+export Modele_Spetsnaz_SOV_04 is ModelDescriptor( FileName = SOV_VDV_Sniper )
+export Modele_Spetsnaz_SOV_05 is ModelDescriptor( FileName = SOV_VDV_spe )
+export Modele_Spetsnaz_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
 
 //Scout_LRRP_SOV
 export Modele_Scout_LRRP_SOV is ModelDescriptor( FileName = SOV_MotoStrelki_Sniper )
@@ -491,33 +545,6 @@ export Modele_MotRifles_CMD_SOV_02 is ModelDescriptor( FileName = SOV_MotoStrelk
 export Modele_MotRifles_CMD_SOV_03 is ModelDescriptor( FileName = SOV_MotoStrelki_1 )
 export Modele_MotRifles_CMD_SOV_04 is ModelDescriptor( FileName = SOV_MotoStrelki_2 )
 export Modele_MotRifles_CMD_SOV_LOW is ModelDescriptor( FileName = SOV_MotoStrelki_1_LOW )
-
-//Spetsnaz_CMD_SOV
-export Modele_Spetsnaz_CMD_SOV is ModelDescriptor( FileName = SOV_VDV_1 )
-export Modele_Spetsnaz_CMD_SOV_02 is ModelDescriptor( FileName = SOV_VDV_2 )
-export Modele_Spetsnaz_CMD_SOV_03 is ModelDescriptor( FileName = SOV_VDV_NCO )
-export Modele_Spetsnaz_CMD_SOV_04 is ModelDescriptor( FileName = SOV_VDV_Officer )
-export Modele_Spetsnaz_CMD_SOV_05 is ModelDescriptor( FileName = SOV_VDV_Sniper )
-export Modele_Spetsnaz_CMD_SOV_06 is ModelDescriptor( FileName = SOV_VDV_spe )
-export Modele_Spetsnaz_CMD_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
-
-//Spetsnaz_FireSupport_SOV
-export Modele_Spetsnaz_FireSupport_SOV is ModelDescriptor( FileName = SOV_VDV_1 )
-export Modele_Spetsnaz_FireSupport_SOV_02 is ModelDescriptor( FileName = SOV_VDV_2 )
-export Modele_Spetsnaz_FireSupport_SOV_03 is ModelDescriptor( FileName = SOV_VDV_NCO )
-export Modele_Spetsnaz_FireSupport_SOV_04 is ModelDescriptor( FileName = SOV_VDV_Officer )
-export Modele_Spetsnaz_FireSupport_SOV_05 is ModelDescriptor( FileName = SOV_VDV_Sniper )
-export Modele_Spetsnaz_FireSupport_SOV_06 is ModelDescriptor( FileName = SOV_VDV_spe )
-export Modele_Spetsnaz_FireSupport_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
-
-//Spetsnaz_SOV
-export Modele_Spetsnaz_SOV is ModelDescriptor( FileName = SOV_VDV_1 )
-export Modele_Spetsnaz_SOV_02 is ModelDescriptor( FileName = SOV_VDV_2 )
-export Modele_Spetsnaz_SOV_03 is ModelDescriptor( FileName = SOV_VDV_NCO )
-export Modele_Spetsnaz_SOV_04 is ModelDescriptor( FileName = SOV_VDV_Officer )
-export Modele_Spetsnaz_SOV_05 is ModelDescriptor( FileName = SOV_VDV_Sniper )
-export Modele_Spetsnaz_SOV_06 is ModelDescriptor( FileName = SOV_VDV_spe )
-export Modele_Spetsnaz_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
 
 //DShV_CMD_SOV
 export Modele_DShV_CMD_SOV is ModelDescriptor( FileName = SOV_VDV_Officer )
@@ -713,13 +740,20 @@ export Modele_Moto_Scout_SOV_05 is ModelDescriptor( FileName = SOV_MotoStrelki_S
 export Modele_Moto_Scout_SOV_06 is ModelDescriptor( FileName = SOV_MotoStrelki_spe )
 export Modele_Moto_Scout_SOV_LOW is ModelDescriptor( FileName = SOV_MotoStrelki_1_LOW )
 
+//VDV_Combine_SOV
+export Modele_VDV_Combine_SOV is ModelDescriptor( FileName = SOV_VDV_NCO )
+export Modele_VDV_Combine_SOV_02 is ModelDescriptor( FileName = SOV_VDV_2 )
+export Modele_VDV_Combine_SOV_03 is ModelDescriptor( FileName = SOV_VDV_1 )
+export Modele_VDV_Combine_SOV_04 is ModelDescriptor( FileName = SOV_VDV_Sniper )
+export Modele_VDV_Combine_SOV_05 is ModelDescriptor( FileName = SOV_VDV_spe )
+export Modele_VDV_Combine_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
+
 //VDV_Mech_SOV
-export Modele_VDV_Mech_SOV is ModelDescriptor( FileName = SOV_VDV_1 )
+export Modele_VDV_Mech_SOV is ModelDescriptor( FileName = SOV_VDV_NCO )
 export Modele_VDV_Mech_SOV_02 is ModelDescriptor( FileName = SOV_VDV_2 )
-export Modele_VDV_Mech_SOV_03 is ModelDescriptor( FileName = SOV_VDV_NCO )
-export Modele_VDV_Mech_SOV_04 is ModelDescriptor( FileName = SOV_VDV_Officer )
-export Modele_VDV_Mech_SOV_05 is ModelDescriptor( FileName = SOV_VDV_Sniper )
-export Modele_VDV_Mech_SOV_06 is ModelDescriptor( FileName = SOV_VDV_spe )
+export Modele_VDV_Mech_SOV_03 is ModelDescriptor( FileName = SOV_VDV_1 )
+export Modele_VDV_Mech_SOV_04 is ModelDescriptor( FileName = SOV_VDV_Sniper )
+export Modele_VDV_Mech_SOV_05 is ModelDescriptor( FileName = SOV_VDV_spe )
 export Modele_VDV_Mech_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
 
 //HvyScout_TTsko_SOV
@@ -1219,10 +1253,20 @@ export Modele_GreenBerets_ODA_US_04 is ModelDescriptor( FileName = US_Rangers_1 
 export Modele_GreenBerets_ODA_US_05 is ModelDescriptor( FileName = US_GI_Sniper )
 export Modele_GreenBerets_ODA_US_LOW is ModelDescriptor( FileName = US_GB_1_LOW )
 
+//GreenBerets_Demo_US
+export Modele_GreenBerets_Demo_US is ModelDescriptor( FileName = US_GB_NCO )
+export Modele_GreenBerets_Demo_US_02 is ModelDescriptor( FileName = US_GB_NCO )
+export Modele_GreenBerets_Demo_US_03 is ModelDescriptor( FileName = US_GB_1 )
+export Modele_GreenBerets_Demo_US_04 is ModelDescriptor( FileName = US_Rangers_1 )
+export Modele_GreenBerets_Demo_US_05 is ModelDescriptor( FileName = US_GI_Sniper )
+export Modele_GreenBerets_Demo_US_LOW is ModelDescriptor( FileName = US_GB_1_LOW )
+
 //GreenBerets_US
 export Modele_GreenBerets_US is ModelDescriptor( FileName = US_GB_NCO )
 export Modele_GreenBerets_US_02 is ModelDescriptor( FileName = US_GB_NCO )
 export Modele_GreenBerets_US_03 is ModelDescriptor( FileName = US_GB_1 )
+export Modele_GreenBerets_US_04 is ModelDescriptor( FileName = US_Rangers_1 )
+export Modele_GreenBerets_US_05 is ModelDescriptor( FileName = US_GI_Sniper )
 export Modele_GreenBerets_US_LOW is ModelDescriptor( FileName = US_GB_1_LOW )
 
 //LRRP_FOLT_US
@@ -1781,6 +1825,10 @@ export Modele_Groupe_AT_Marines_NL_03 is ModelDescriptor( FileName = NL_Marinier
 export Modele_Groupe_AT_Marines_NL_04 is ModelDescriptor( FileName = NL_Marinier_1 )
 export Modele_Groupe_AT_Marines_NL_LOW is ModelDescriptor( FileName = NL_Marinier_1_LOW )
 
+//Marines_Dragon_NL
+export Modele_Marines_Dragon_NL is ModelDescriptor( FileName = NL_Marinier_NCO )
+export Modele_Marines_Dragon_NL_LOW is ModelDescriptor( FileName = NL_Marinier_1_LOW )
+
 //Marines_NL
 export Modele_Marines_NL is ModelDescriptor( FileName = NL_Marinier_NCO )
 export Modele_Marines_NL_02 is ModelDescriptor( FileName = NL_Marinier_spe )
@@ -1822,6 +1870,10 @@ export Modele_Commando_NL is ModelDescriptor( FileName = NL_Commando_NCO )
 export Modele_Commando_NL_02 is ModelDescriptor( FileName = NL_Commando_1 )
 export Modele_Commando_NL_03 is ModelDescriptor( FileName = NL_Commando_2 )
 export Modele_Commando_NL_LOW is ModelDescriptor( FileName = NL_Commando_1_LOW )
+
+//Marine_SF_NL
+export Modele_Marine_SF_NL is ModelDescriptor( FileName = NL_Commando_NCO )
+export Modele_Marine_SF_NL_LOW is ModelDescriptor( FileName = NL_Commando_1_LOW )
 
 //LRRP_NL
 export Modele_LRRP_NL is ModelDescriptor( FileName = NL_Commando_NCO )
@@ -2410,12 +2462,18 @@ export Modele_MANPAD_Strela_2M_TCH is ModelDescriptor( FileName = TCH_AA_vz85 )
 export Modele_MANPAD_Strela_2M_TCH_02 is ModelDescriptor( FileName = TCH_Soldier_vz85_1 )
 export Modele_MANPAD_Strela_2M_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
 
+//MANPAD_Igla_TCH
+export Modele_MANPAD_Igla_TCH is ModelDescriptor( FileName = TCH_AA_vz85 )
+export Modele_MANPAD_Igla_TCH_02 is ModelDescriptor( FileName = TCH_Soldier_vz85_1 )
+export Modele_MANPAD_Igla_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
 //Reserve_TCH
 export Modele_Reserve_TCH is ModelDescriptor( FileName = TCH_NCO_vz60 )
 export Modele_Reserve_TCH_02 is ModelDescriptor( FileName = TCH_Gunner_vz60 )
 export Modele_Reserve_TCH_03 is ModelDescriptor( FileName = TCH_Soldier_vz60_2 )
 export Modele_Reserve_TCH_04 is ModelDescriptor( FileName = TCH_Soldier_vz60_1 )
 export Modele_Reserve_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz60_LOW )
+
 //Vysadkari_TCH
 export Modele_Vysadkari_TCH is ModelDescriptor( FileName = TCH_NCO_Vysadkar )
 export Modele_Vysadkari_TCH_02 is ModelDescriptor( FileName = TCH_Vysadkar_1 )
@@ -2427,7 +2485,6 @@ export Modele_MotRifles_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
 export Modele_MotRifles_TCH_02 is ModelDescriptor( FileName = TCH_Soldier_vz85_1 )
 export Modele_MotRifles_TCH_03 is ModelDescriptor( FileName = TCH_Soldier_vz85_2 )
 export Modele_MotRifles_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
-
 
 
 //------------------------------------------------------------------------------
@@ -2822,6 +2879,18 @@ CRAP_3 is 'GameData:/Assets/3D/Units/FR/Infanterie/CRAP/CRAP_3.fbx'
 CRAP_NCO is 'GameData:/Assets/3D/Units/FR/Infanterie/CRAP/CRAP_NCO.fbx'
 CRAP_1_LOW is 'GameData:/Assets/3D/Units/FR/Infanterie/CRAP/CRAP_1_LOW.fbx'
 
+FR_RIMa_1 is 'GameData:/Assets/3D/Units/FR/Infanterie/Chasseurs/RIMa_1.fbx'
+FR_RIMa_NCO is 'GameData:/Assets/3D/Units/FR/Infanterie/Chasseurs/RIMa_NCO.fbx'
+
+FR_Reserviste_1 is 'GameData:/Assets/3D/Units/FR/Infanterie/Reserviste/Reserviste_1.fbx'
+FR_Reserviste_2 is 'GameData:/Assets/3D/Units/FR/Infanterie/Reserviste/Reserviste_2.fbx'
+
+FR_Commando_Air_1 is 'GameData:/Assets/3D/Units/FR/Infanterie/Commando_Air/Commando_Air_1.fbx'
+FR_Commando_Air_2 is 'GameData:/Assets/3D/Units/FR/Infanterie/Commando_Air/Commando_Air_2.fbx'
+FR_Commando_Air_NCO is 'GameData:/Assets/3D/Units/FR/Infanterie/Commando_Air/Commando_Air_NCO.fbx'
+
+FR_Gendarme_Air_1 is 'GameData:/Assets/3D/Units/FR/Infanterie/Gendarmerie_Air/Gendarme_Air_1.fbx'
+FR_Gendarme_Air_Officier is 'GameData:/Assets/3D/Units/FR/Infanterie/Gendarmerie_Air/Gendarme_Air_Officier.fbx'
 
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Alpins/Alpin_NCO.fbx'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Chasseurs/Chasseur_1.fbx'
@@ -2839,7 +2908,51 @@ CRAP_1_LOW is 'GameData:/Assets/3D/Units/FR/Infanterie/CRAP/CRAP_1_LOW.fbx'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Paras/Para_spe.fbx'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Alpins/Alpin_NCO.fbx'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/RCAM/RCAM.fbx'
+// 'GameData:/Assets/3D/Units/FR/Infanterie/Chasseurs/RIMa_1.fbx'
+// 'GameData:/Assets/3D/Units/FR/Infanterie/Chasseurs/RIMa_NCO.fbx'
+// 'GameData:/Assets/3D/Units/FR/Infanterie/Reserviste/Reserviste_1.fbx'
+// 'GameData:/Assets/3D/Units/FR/Infanterie/Reserviste/Reserviste_2.fbx'
+// 'GameData:/Assets/3D/Units/FR/Infanterie/Commando_Air/Commando_Air_1.fbx'
+// 'GameData:/Assets/3D/Units/FR/Infanterie/Commando_Air/Commando_Air_2.fbx'
+// 'GameData:/Assets/3D/Units/FR/Infanterie/Commando_Air/Commando_Air_NCO.fbx'
+// 'GameData:/Assets/3D/Units/FR/Infanterie/Gendarmerie_Air/Gendarme_Air_1.fbx'
+// 'GameData:/Assets/3D/Units/FR/Infanterie/Gendarmerie_Air/Gendarme_Air_Officier.fbx'
+
 //------------------------------------------------------------------------------
+//Scout_RIMa_FR
+export Modele_Scout_RIMa_FR is ModelDescriptor( FileName = FR_RIMa_NCO )
+export Modele_Scout_RIMa_FR_02 is ModelDescriptor( FileName = FR_Chasseur_spe )
+export Modele_Scout_RIMa_FR_03 is ModelDescriptor( FileName = FR_RIMa_1 )
+export Modele_Scout_RIMa_FR_04 is ModelDescriptor( FileName = FR_Chasseur_Sniper )
+export Modele_Scout_RIMa_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
+
+//Sniper_RIMa_FR
+export Modele_Sniper_RIMa_FR is ModelDescriptor( FileName = FR_RIMa_NCO )
+export Modele_Sniper_RIMa_FR_02 is ModelDescriptor( FileName = FR_RIMa_1 )
+export Modele_Sniper_RIMa_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
+
+//Rifles_RIMa_APILAS_FR
+export Modele_Rifles_RIMa_APILAS_FR is ModelDescriptor( FileName = FR_RIMa_NCO )
+export Modele_Rifles_RIMa_APILAS_FR_02 is ModelDescriptor( FileName = FR_Chasseur_spe )
+export Modele_Rifles_RIMa_APILAS_FR_03 is ModelDescriptor( FileName = FR_RIMa_1 )
+export Modele_Rifles_RIMa_APILAS_FR_04 is ModelDescriptor( FileName = FR_Chasseur_Sniper )
+export Modele_Rifles_RIMa_APILAS_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
+
+//Rifles_RIMa_CMD_FR
+export Modele_Rifles_RIMa_CMD_FR is ModelDescriptor( FileName = FR_Chasseur_Officer )
+export Modele_Rifles_RIMa_CMD_FR_02 is ModelDescriptor( FileName = FR_RIMa_NCO )
+export Modele_Rifles_RIMa_CMD_FR_03 is ModelDescriptor( FileName = FR_RIMa_1 )
+export Modele_Rifles_RIMa_CMD_FR_04 is ModelDescriptor( FileName = FR_Chasseur_Sniper )
+export Modele_Rifles_RIMa_CMD_FR_05 is ModelDescriptor( FileName = FR_Chasseur_spe )
+export Modele_Rifles_RIMa_CMD_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
+
+//Rifles_RIMa_FR
+export Modele_Rifles_RIMa_FR is ModelDescriptor( FileName = FR_RIMa_NCO )
+export Modele_Rifles_RIMa_FR_02 is ModelDescriptor( FileName = FR_Chasseur_spe )
+export Modele_Rifles_RIMa_FR_03 is ModelDescriptor( FileName = FR_RIMa_1 )
+export Modele_Rifles_RIMa_FR_04 is ModelDescriptor( FileName = FR_Chasseur_Sniper )
+export Modele_Rifles_RIMa_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
+
 //Sniper_Hubert_FR
 export Modele_Sniper_Hubert_FR is ModelDescriptor( FileName = CRAP_2 )
 export Modele_Sniper_Hubert_FR_LOW is ModelDescriptor( FileName = CRAP_1_LOW )
@@ -2878,21 +2991,31 @@ export Modele_Groupe_AT_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
 //Reserviste_CMD_FR
 export Modele_Reserviste_CMD_FR is ModelDescriptor( FileName = FR_Chasseur_NCO )
 export Modele_Reserviste_CMD_FR_02 is ModelDescriptor( FileName = FR_Chasseur_Officer )
-export Modele_Reserviste_CMD_FR_03 is ModelDescriptor( FileName = FR_Chasseur_1 )
-export Modele_Reserviste_CMD_FR_04 is ModelDescriptor( FileName = FR_Chasseur_2 )
+export Modele_Reserviste_CMD_FR_03 is ModelDescriptor( FileName = FR_Reserviste_1 )
+export Modele_Reserviste_CMD_FR_04 is ModelDescriptor( FileName = FR_Chasseur_spe )
 export Modele_Reserviste_CMD_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
 
 //Scout_Reserviste_FR
-export Modele_Scout_Reserviste_FR is ModelDescriptor( FileName = FR_Chasseur_1 )
+export Modele_Scout_Reserviste_FR is ModelDescriptor( FileName = FR_Chasseur_NCO )
+export Modele_Scout_Reserviste_FR_02 is ModelDescriptor( FileName = FR_Reserviste_1 )
+export Modele_Scout_Reserviste_FR_03 is ModelDescriptor( FileName = FR_Reserviste_2 )
+export Modele_Scout_Reserviste_FR_04 is ModelDescriptor( FileName = FR_Chasseur_spe )
 export Modele_Scout_Reserviste_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
 
+//Reserviste_FAMAS_FR
+export Modele_Reserviste_FAMAS_FR is ModelDescriptor( FileName = FR_Chasseur_NCO )
+export Modele_Reserviste_FAMAS_FR_02 is ModelDescriptor( FileName = FR_Reserviste_2 )
+export Modele_Reserviste_FAMAS_FR_03 is ModelDescriptor( FileName = FR_Chasseur_2 )
+export Modele_Reserviste_FAMAS_FR_04 is ModelDescriptor( FileName = FR_Chasseur_1 )
+export Modele_Reserviste_FAMAS_FR_05 is ModelDescriptor( FileName = FR_Reserviste_1 )
+export Modele_Reserviste_FAMAS_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
+
 //Reserviste_FR
-export Modele_Reserviste_FR is ModelDescriptor( FileName = FR_Chasseur_1 )
-export Modele_Reserviste_FR_02 is ModelDescriptor( FileName = FR_Chasseur_2 )
-export Modele_Reserviste_FR_03 is ModelDescriptor( FileName = FR_Chasseur_NCO )
-export Modele_Reserviste_FR_04 is ModelDescriptor( FileName = FR_Chasseur_Sniper )
-export Modele_Reserviste_FR_05 is ModelDescriptor( FileName = FR_Chasseur_spe )
-export Modele_Reserviste_FR_06 is ModelDescriptor( FileName = FR_Chasseur_2 )
+export Modele_Reserviste_FR is ModelDescriptor( FileName = FR_Chasseur_NCO )
+export Modele_Reserviste_FR_02 is ModelDescriptor( FileName = FR_Reserviste_2 )
+export Modele_Reserviste_FR_03 is ModelDescriptor( FileName = FR_Reserviste_1 )
+export Modele_Reserviste_FR_04 is ModelDescriptor( FileName = FR_Chasseur_1 )
+export Modele_Reserviste_FR_05 is ModelDescriptor( FileName = FR_Chasseur_2 )
 export Modele_Reserviste_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
 
 //Sapeurs_CMD_FR
@@ -2969,12 +3092,9 @@ export Modele_Commandos_FR_06 is ModelDescriptor( FileName = FR_Para_spe )
 export Modele_Commandos_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
 
 //Commandos_Air_FR
-export Modele_Commandos_Air_FR is ModelDescriptor( FileName = FR_Para_NCO )
-export Modele_Commandos_Air_FR_02 is ModelDescriptor( FileName = CRAP_1 )
-export Modele_Commandos_Air_FR_03 is ModelDescriptor( FileName = CRAP_2 )
-export Modele_Commandos_Air_FR_04 is ModelDescriptor( FileName = FR_Chasseur_Sniper )
-export Modele_Commandos_Air_FR_05 is ModelDescriptor( FileName = FR_Para_spe )
-export Modele_Commandos_Air_FR_06 is ModelDescriptor( FileName = CRAP_3 )
+export Modele_Commandos_Air_FR is ModelDescriptor( FileName = FR_Commando_Air_NCO )
+export Modele_Commandos_Air_FR_02 is ModelDescriptor( FileName = FR_Commando_Air_1 )
+export Modele_Commandos_Air_FR_03 is ModelDescriptor( FileName = FR_Commando_Air_2 )
 export Modele_Commandos_Air_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
 
 //Escorte_FR
@@ -3076,11 +3196,6 @@ export Modele_Sniper_Fern_RFA is ModelDescriptor( FileName = RFA_Fernspaher_1 )
 export Modele_Sniper_Fern_RFA_02 is ModelDescriptor( FileName = RFA_Fernspaher_2 )
 export Modele_Sniper_Fern_RFA_LOW is ModelDescriptor( FileName = FR_Para_LOW )
 
-//Sniper_Spetsnaz_SOV
-export Modele_Sniper_Spetsnaz_SOV is ModelDescriptor( FileName = SOV_VDV_NCO )
-export Modele_Sniper_Spetsnaz_SOV_02 is ModelDescriptor( FileName = SOV_VDV_Sniper )
-export Modele_Sniper_Spetsnaz_SOV_LOW is ModelDescriptor( FileName = SOV_VDV_1_LOW )
-
 //Sniper_M82_US
 export Modele_Sniper_M82_US is ModelDescriptor( FileName = UK_Ghillie )
 export Modele_Sniper_M82_US_LOW is ModelDescriptor( FileName = UK_Ghillie_LOW )
@@ -3144,8 +3259,8 @@ export Modele_Gendarmerie_Mobile_CMD_FR_04 is ModelDescriptor( FileName = FR_Cha
 export Modele_Gendarmerie_Mobile_CMD_FR_LOW is ModelDescriptor( FileName = FR_Gendarme_LOW )
 
 //Gendarmerie_Air_FR
-export Modele_Gendarmerie_Air_FR is ModelDescriptor( FileName = FR_Gendarme_NCO )
-export Modele_Gendarmerie_Air_FR_02 is ModelDescriptor( FileName = FR_Gendarme_2 )
+export Modele_Gendarmerie_Air_FR is ModelDescriptor( FileName = FR_Gendarme_Air_Officier )
+export Modele_Gendarmerie_Air_FR_02 is ModelDescriptor( FileName = FR_Gendarme_Air_1 )
 export Modele_Gendarmerie_Air_FR_03 is ModelDescriptor( FileName = FR_Chasseur_1 )
 export Modele_Gendarmerie_Air_FR_LOW is ModelDescriptor( FileName = FR_Gendarme_LOW )
 
@@ -3189,18 +3304,6 @@ export Modele_Rifles_Legion_CMD_FR_LOW is ModelDescriptor( FileName = FR_Chasseu
 //Rifles_Legion_FR
 export Modele_Rifles_Legion_FR is ModelDescriptor( FileName = FR_Chasseur_1 )
 export Modele_Rifles_Legion_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
-
-//Rifles_RIMa_APILAS_FR
-export Modele_Rifles_RIMa_APILAS_FR is ModelDescriptor( FileName = FR_Chasseur_1 )
-export Modele_Rifles_RIMa_APILAS_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
-
-//Rifles_RIMa_CMD_FR
-export Modele_Rifles_RIMa_CMD_FR is ModelDescriptor( FileName = FR_Chasseur_1 )
-export Modele_Rifles_RIMa_CMD_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
-
-//Rifles_RIMa_FR
-export Modele_Rifles_RIMa_FR is ModelDescriptor( FileName = FR_Chasseur_1 )
-export Modele_Rifles_RIMa_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
 
 //Rifles_Alpin_FR
 export Modele_Rifles_Alpin_FR is ModelDescriptor( FileName = FR_Alpin_NCO )
@@ -3262,6 +3365,7 @@ UK_Para_NCO is 'GameData:/Assets/3D/Units/UK/Infanterie/Paratroopers/Para_NCO.fb
 UK_Para_Officer is 'GameData:/Assets/3D/Units/UK/Infanterie/Paratroopers/Para_Officer.fbx'
 UK_Para_spe is 'GameData:/Assets/3D/Units/UK/Infanterie/Paratroopers/Para_spe.fbx'
 UK_Para_1_LOW is 'GameData:/Assets/3D/Units/UK/Infanterie/Paratroopers/Para_1_LOW.fbx'
+UK_Para_Pathfinder is 'GameData:/Assets/3D/Units/UK/Infanterie/Rifleman/Para_Pathfinder.fbx'
 
 UK_Rifleman_1 is 'GameData:/Assets/3D/Units/UK/Infanterie/Rifleman/Rifleman_1.fbx'
 UK_Rifleman_2 is 'GameData:/Assets/3D/Units/UK/Infanterie/Rifleman/Rifleman_2.fbx'
@@ -3292,6 +3396,14 @@ UK_Gurkhas_2 is 'GameData:/Assets/3D/Units/UK/Infanterie/Gurkhas/Gurkhas_2.fbx'
 UK_Gurkhas_sniper is 'GameData:/Assets/3D/Units/UK/Infanterie/Gurkhas/Gurkhas_sniper.fbx'
 UK_Gurkhas_spe is 'GameData:/Assets/3D/Units/UK/Infanterie/Gurkhas/Gurkhas_spe.fbx'
 UK_Gurkhas_1_LOW is 'GameData:/Assets/3D/Units/UK/Infanterie/Gurkhas/Gurkhas_1_LOW.fbx'
+
+//Pathfinders_UK
+export Modele_Pathfinders_UK is ModelDescriptor( FileName = UK_Para_2 )
+export Modele_Pathfinders_UK_02 is ModelDescriptor( FileName = UK_Para_spe )
+export Modele_Pathfinders_UK_03 is ModelDescriptor( FileName = UK_Para_Pathfinder )
+export Modele_Pathfinders_UK_04 is ModelDescriptor( FileName = UK_Para_1 )
+export Modele_Pathfinders_UK_05 is ModelDescriptor( FileName = UK_Para_2 )
+export Modele_Pathfinders_UK_LOW is ModelDescriptor( FileName = UK_Para_1_LOW )
 
 //AT_Group_Gurkhas_UK
 export Modele_AT_Group_Gurkhas_UK is ModelDescriptor( FileName = UK_Gurkhas_spe )
@@ -3498,28 +3610,26 @@ export Modele_Scout_Para_UK_05 is ModelDescriptor( FileName = UK_Para_Officer )
 export Modele_Scout_Para_UK_06 is ModelDescriptor( FileName = UK_Para_spe )
 export Modele_Scout_Para_UK_LOW is ModelDescriptor( FileName = UK_Para_1_LOW )
 
-//Pathfinders_UK
-export Modele_Pathfinders_UK is ModelDescriptor( FileName = UK_Para_1 )
-export Modele_Pathfinders_UK_02 is ModelDescriptor( FileName = UK_Para_NCO )
-export Modele_Pathfinders_UK_03 is ModelDescriptor( FileName = UK_Para_2 )
-export Modele_Pathfinders_UK_04 is ModelDescriptor( FileName = UK_Para_2 )
-export Modele_Pathfinders_UK_05 is ModelDescriptor( FileName = UK_Para_Officer )
-export Modele_Pathfinders_UK_06 is ModelDescriptor( FileName = UK_Para_spe )
-export Modele_Pathfinders_UK_LOW is ModelDescriptor( FileName = UK_Para_1_LOW )
-
 //LRRP_UK
 export Modele_LRRP_UK is ModelDescriptor( FileName = UK_SAS_1 )
 export Modele_LRRP_UK_02 is ModelDescriptor( FileName = UK_SAS_2 )
 export Modele_LRRP_UK_03 is  ModelDescriptor( FileName = UK_SAS_NCO )
 export Modele_LRRP_UK_LOW is ModelDescriptor( FileName = UK_SAS_1_LOW )
 
+//Scout_Motorized_UK
+export Modele_Scout_Motorized_UK is ModelDescriptor( FileName = UK_Rifleman_NCO )
+export Modele_Scout_Motorized_UK_02 is ModelDescriptor( FileName = UK_Rifleman_2 )
+export Modele_Scout_Motorized_UK_03 is ModelDescriptor( FileName = UK_Rifleman_NCO )
+export Modele_Scout_Motorized_UK_04 is ModelDescriptor( FileName = UK_Rifleman_1 )
+export Modele_Scout_Motorized_UK_05 is ModelDescriptor( FileName = UK_Rifleman_spe )
+export Modele_Scout_Motorized_UK_LOW is ModelDescriptor( FileName = UK_Rifleman_1_LOW )
+
 //Scout_UK
-export Modele_Scout_UK is ModelDescriptor( FileName = UK_Rifleman_1 )
+export Modele_Scout_UK is ModelDescriptor( FileName = UK_Rifleman_NCO )
 export Modele_Scout_UK_02 is ModelDescriptor( FileName = UK_Rifleman_2 )
 export Modele_Scout_UK_03 is ModelDescriptor( FileName = UK_Rifleman_NCO )
-export Modele_Scout_UK_04 is ModelDescriptor( FileName = UK_Rifleman_Officer )
-export Modele_Scout_UK_05 is ModelDescriptor( FileName = UK_Rifleman_Sniper )
-export Modele_Scout_UK_06 is ModelDescriptor( FileName = UK_Rifleman_spe )
+export Modele_Scout_UK_04 is ModelDescriptor( FileName = UK_Rifleman_1 )
+export Modele_Scout_UK_05 is ModelDescriptor( FileName = UK_Rifleman_spe )
 export Modele_Scout_UK_LOW is ModelDescriptor( FileName = UK_Rifleman_1_LOW )
 
 

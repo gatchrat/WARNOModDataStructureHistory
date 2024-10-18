@@ -46,7 +46,13 @@ export Strategic_TeamUnitDescriptor is TEntityDescriptor
         TTeamForAIModuleDescriptor
         (
         ),
-        TTeamGameRulesModuleDescriptor
+        TTeamDefeatModuleDescriptor
+        (
+        ),
+        TTeamScoreModuleDescriptor
+        (
+        ),
+        TTeamInitialCurrencyModuleDescriptor
         (
         ),
         TFumigeneModuleDescriptor

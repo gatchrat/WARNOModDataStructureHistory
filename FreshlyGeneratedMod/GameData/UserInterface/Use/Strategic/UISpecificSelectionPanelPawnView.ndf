@@ -203,7 +203,6 @@ template CombatGroupsTabsMainContainer
     LastMargin = TRTTILength(Magnifiable = 10.0)
 
     ElementName = "CombatGroupsTabsMainContainer"
-    IsDroppable = true
 
     Elements =
     [
@@ -249,7 +248,17 @@ template CombatGroupsTabsMainContainer
         ),
     ]
 
-    ForegroundComponents = (<HasSpotlight> ? [~/SpotLight_PawnInfoPanel] : [])
+    ForegroundComponents = (<HasSpotlight> ? [~/SpotLight_PawnInfoPanel] : []) +
+    [
+        BUCKDroppableContainerDescriptor
+        (
+            ElementName = "CombatGroupsTabsMainContainerDroppable"
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
+        )
+    ]
 )
 
 //-------------------------------------------------------------------------------------

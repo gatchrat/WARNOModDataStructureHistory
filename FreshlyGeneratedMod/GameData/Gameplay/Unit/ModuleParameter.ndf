@@ -82,7 +82,6 @@ Parameter_ZoneNameTag is 79
 Parameter_GroupPool is 80
 Parameter_ObjectiveId is 81
 Parameter_ForceOnGround is 82
-Parameter_Flying is 83
 Namespace_AirplaneModule is 2
 Namespace_AllianceModuleNamespace is 3
 Namespace_ConstructionModule is 4
@@ -95,13 +94,13 @@ Namespace_StorageModule is 10
 Namespace_TeamModuleNamespace is 11
 Namespace_UnitsInFormationModule is 12
 Namespace_LinkToFormationModule is 13
-Parameter_ObjectivesListManagementType is 84
-Parameter_TeamAllianceStyle is 85
-Parameter_AirplaneLocation is 86
-Parameter_OriginalHP is 87
-Parameter_ShootingPointList is 88
-Parameter_ShootingPointDirectionList is 89
-Parameter_GlobalBoxesForDamages is 90
-Parameter_GlobalBoundings is 91
-Parameter_DynamicTerrainZones is 92
+Parameter_ObjectivesListManagementType is 83
+Parameter_TeamAllianceStyle is 84
+Parameter_AirplaneLocation is 85
+Parameter_OriginalHP is 86
+Parameter_ShootingPointList is 87
+Parameter_ShootingPointDirectionList is 88
+Parameter_GlobalBoxesForDamages is 89
+Parameter_GlobalBoundings is 90
+Parameter_DynamicTerrainZones is 91
 

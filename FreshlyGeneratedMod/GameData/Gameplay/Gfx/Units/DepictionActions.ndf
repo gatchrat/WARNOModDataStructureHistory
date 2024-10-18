@@ -69,7 +69,7 @@ SoundHappening_UnitOnFire is TIntroduceMobileHappening
         TSimultaneousActionForActionCallTemplate
         (
             Mobile = TMobileSoundSlotFactory()
-            Actions = [ TActionDescriptorAudio( SoundDescriptorList = $/GFX/Sound/Sound_Incendie ) ]
+            Actions = [ TActionDescriptorAudio( SoundSet = $/GFX/Sound/Sound_Incendie ) ]
         )
     )
 )
