@@ -1,5 +1,5 @@
 
 CommonLabelResource is TUICommonLabelResource
 (
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
 )

@@ -244,50 +244,6 @@ TextStylePointAction is TTextStyle
     FontSize = 1
 )
 
-TextStylePointActionREDFOR is TTextStyle
-(
-    ColorBottom = [  180, 25, 25, 255]
-    ColorUp     = [ 255, 100, 100, 255]
-    ColorStroke = [  0,   0,   0, 255]
-    Stroke = true
-    StrokeSize = 1
-    StrokeHardness = 0.96
-    TextThickness = 0.21
-    FontSize = 1
-)
-
-TextStylePointActionBLUFOR is TTextStyle
-(
-    ColorBottom = [ 25, 25, 180, 255]
-    ColorUp     = [ 100, 100, 255, 255]
-    ColorStroke = [  0,   0,   0, 255]
-    Stroke = true
-    StrokeSize = 1
-    StrokeHardness = 0.96
-    TextThickness = 0.21
-    FontSize = 1
-)
-
-TextStylePointActionREDFORCantAttack is TTextStyle
-(
-    ColorBottom = [ 255, 128, 128, 128]
-    ColorUp     = [ 255, 128, 128, 128]
-    ColorStroke = [  0,   0,   0, 0]
-    Stroke = false
-    FontSize = 1
-)
-
-
-TextStylePointActionBLUFORCantAttack is TTextStyle
-(
-    ColorBottom = [ 128, 125, 255, 128]
-    ColorUp     = [ 128, 125, 255, 128]
-    ColorStroke = [  0,   0,   0, 0]
-    Stroke = false
-    FontSize = 1
-)
-
-
 TextStyle_EGWin is TTextStyle
 (
     ColorBottom = [  200,   200,   200, 255]

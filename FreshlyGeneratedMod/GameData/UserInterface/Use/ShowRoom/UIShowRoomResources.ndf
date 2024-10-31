@@ -19,10 +19,7 @@ ShowRoomResource is TUISpecificShowRoomResources
     OutGameResourcesHandler     = $/UI/ResourcesHandler/OutGameResourcesHandler
     MousePointerMaskLayer       = $/UserInterface/UILayer_ShowRoomMousePointerMask
 
-    MainStyleGuides             =
-    [
-        ~/DefaultStyleGuide,
-    ]
+    MainStyleGuide              = ~/DefaultStyleGuide
 
     ViewDescriptors = MAP
     [

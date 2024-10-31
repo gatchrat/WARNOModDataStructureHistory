@@ -62,7 +62,7 @@ BUCKSpecificHUDMultiSelectionPanelMainComponentDescriptor is BUCKContainerDescri
                 AlignementToAnchor = [1.0, 0.0]
             )
             ScrollBarBackgroundToken = "H2_bleu_2"
-            ScrollBarElevatorBackgroundToken = "BoutonTemps"
+            ScrollBarElevatorBackgroundToken = "BoutonTemps_Background"
 
             Components =
             [

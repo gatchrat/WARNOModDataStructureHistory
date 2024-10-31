@@ -42,7 +42,7 @@ export CommonVehicleScaler is TCameraScaler
     ScaleFactor = PixelConstantValuesSpecific/DefaultFactor
     ScaleMax = PixelConstantValuesSpecific/DefaultScaleMax
     ScaleMinReferenceAltitude = PixelConstantValuesSpecific/DefaultMinReferenceAltitude
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
     ScaleOption = $/GUIOption/UnitScalingEnabled
 )
 
@@ -51,7 +51,7 @@ export CommonInfantryScaler is TCameraScaler
     ScaleFactor = PixelConstantValuesSpecific/InfantryFactor
     ScaleMax = PixelConstantValuesSpecific/InfantryScaleMax
     ScaleMinReferenceAltitude = PixelConstantValuesSpecific/InfantryMinReferenceAltitude
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
     ScaleOption = $/GUIOption/UnitScalingEnabled
 )
 

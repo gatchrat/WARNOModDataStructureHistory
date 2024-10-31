@@ -1131,6 +1131,13 @@ UISpecificOutGameGameRoomListViewDescriptor is TUISpecificOutGameGameRoomListVie
     ModaleAskPassword = ~/ModaleAskPasswordWindowFrame
 
     ChallengeModeComponent = GameModeDecorationComponent( TextureToken = "" ) //La texture et les hints seront settes via le code
+    StrategicModeComponent = GameModeDecorationComponent
+    (
+        TextureToken = "OutgameTexture_StrategicModeTexture"
+        HintTitle = "GRL_STRAT"
+        HintBody = "GRL_STRAB"
+        HintExtended = "GRL_STRAE"
+    )
 
     NbPlayersWarning = ~/NbPlayersWarning
     NbPlayersAlert = ~/NbPlayersAlert

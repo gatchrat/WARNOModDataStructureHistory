@@ -6,9 +6,7 @@ UIInGameResource is TUISpecificInGameResources
     UILayerLDHint               = $/UserInterface/UILayer_2DInterfaceLDHint
     CommonResources             = ~/UICommonResource
 
-    MainStyleGuides             = [
-        ~/DefaultStyleGuide,
-    ]
+    MainStyleGuide              = ~/DefaultStyleGuide
 
     UnitReticleDescriptor = ~/UISpecificUnitLabelReticleDescriptor
     LabelRackForAggregationDescriptor = ~/UISpecificInGameLabelRackForAggregation

@@ -28,4 +28,5 @@ ReinforcementResource is TReinforcementResource
 (
     LandReinforcementArrowDescriptor = ~/LandReinforcementArrowDescriptor
     AerialReinforcementArrowDescriptor = ~/AerialReinforcementArrowDescriptor
+    DefaultReinforcementColor = RGBA[255,255,255,255]
 )

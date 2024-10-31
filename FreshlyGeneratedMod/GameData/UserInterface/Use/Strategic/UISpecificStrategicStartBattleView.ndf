@@ -1335,7 +1335,7 @@ private boutonClose is BUCKButtonDescriptor
 
             HasBorder = true
             BorderThicknessToken = '1'
-            BorderLineColorToken = 'BoutonTemps'
+            BorderLineColorToken = 'BoutonTemps_Line'
         )
     ]
 )

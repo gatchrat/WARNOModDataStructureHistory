@@ -2,7 +2,7 @@
 
 UISpecificOutmapFeedbackResources is TUISpecificOutmapFeedbackResources
 (
-    Camera                          = $/M3D/Camera/CameraPrincipale
+    Camera                          = $/M3D/Misc/CameraPrincipale
 
     // ATTENTION: Si des ajustables ont ete sauvegardes, les reglages suivants qui ont ete
     // enregistres ne seront pas pris en compte

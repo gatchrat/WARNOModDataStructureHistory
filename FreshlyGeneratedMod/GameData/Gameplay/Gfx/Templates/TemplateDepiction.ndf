@@ -471,14 +471,16 @@ template RocketSubDepictionTemplateCommon
     WeaponIndex,
     PhysicalProperty,
     RocketDepiction,
-    StartGroupIndex
+    AirStartGroupIndex = 0,
+    GroundStartGroupIndex = 0,
 ] is TRocketSubDepictionGenerator
 (
     MissileCarriageConnoisseur = TMissileCarriageConnoisseur
     (
         MeshDescriptor = <UnitMeshDescriptor>
         PylonSet = ~/DepictionPylonSet_ATGM
-        StartGroupIndex = <StartGroupIndex>
+        AirStartGroupIndex = <AirStartGroupIndex>
+        GroundStartGroupIndex = <GroundStartGroupIndex>
         WeaponInfos =
         [
             TMissileCarriageWeaponInfo
@@ -510,7 +512,8 @@ template RocketSubDepictionTemplate
     RocketCount,
     WeaponIndex,
     PhysicalProperty,
-    StartGroupIndex = 0
+    AirStartGroupIndex = 0,
+    GroundStartGroupIndex = 0,
 ] is RocketSubDepictionTemplateCommon
 (
     UnitMeshDescriptor = <UnitMeshDescriptor>
@@ -518,7 +521,8 @@ template RocketSubDepictionTemplate
     RocketCount = <RocketCount>
     WeaponIndex = <WeaponIndex>
     PhysicalProperty = <PhysicalProperty>
-    StartGroupIndex = <StartGroupIndex>
+    AirStartGroupIndex = <AirStartGroupIndex>
+    GroundStartGroupIndex = <GroundStartGroupIndex>
     RocketDepiction = TemplateDepictionStaticRocketsGroundUnit
     (
         PhysicalProperty = <PhysicalProperty>
@@ -534,7 +538,8 @@ template RocketAirplaneSubDepictionTemplate
     RocketCount,
     WeaponIndex,
     PhysicalProperty,
-    StartGroupIndex = 0
+    AirStartGroupIndex = 0,
+    GroundStartGroupIndex = 0
 ] is RocketSubDepictionTemplateCommon
 (
     UnitMeshDescriptor = <UnitMeshDescriptor>
@@ -542,7 +547,8 @@ template RocketAirplaneSubDepictionTemplate
     RocketCount = <RocketCount>
     WeaponIndex = <WeaponIndex>
     PhysicalProperty = <PhysicalProperty>
-    StartGroupIndex = <StartGroupIndex>
+    AirStartGroupIndex = <AirStartGroupIndex>
+    GroundStartGroupIndex = <GroundStartGroupIndex>
     RocketDepiction = TemplateDepictionStaticRocketsAirUnit
     (
         PhysicalProperty = <PhysicalProperty>
@@ -557,14 +563,16 @@ template ShowroomRocketSubDepictionTemplate
     RocketMeshDescriptor,
     RocketCount,
     WeaponIndex = 1,
-    StartGroupIndex = 0
+    AirStartGroupIndex = 0,
+    GroundStartGroupIndex = 0,
 ] is TStaticMissileCarriageSubDepictionGenerator
 (
     MissileCarriageConnoisseur = TMissileCarriageConnoisseur
     (
         MeshDescriptor = <UnitMeshDescriptor>
         PylonSet = ~/DepictionPylonSet_ATGM
-        StartGroupIndex = <StartGroupIndex>
+        AirStartGroupIndex = <AirStartGroupIndex>
+        GroundStartGroupIndex = <GroundStartGroupIndex>
         WeaponInfos =
         [
             TMissileCarriageWeaponInfo

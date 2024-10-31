@@ -1,7 +1,7 @@
 
 UIOrderDisplayResources is TTacticOrderDisplayResources
 (
-    Camera                      = $/M3D/Camera/CameraPrincipale
+    Camera                      = $/M3D/Misc/CameraPrincipale
     OrderDisplayUserInputLayer  = $/M3D/Input/UserInputLayerHandler/InputLayer_OrderDisplay
     OrderDisplayDrawer          = ~/OrderDisplayDrawer
     AlwaysShowOrderButtonAlsoShowsSmartOrders = true

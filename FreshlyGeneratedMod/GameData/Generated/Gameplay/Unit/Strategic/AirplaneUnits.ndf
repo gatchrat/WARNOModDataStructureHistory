@@ -66,15 +66,6 @@ export Descriptor_Unit_pion_BEL_10Wing_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -173,15 +164,6 @@ export Descriptor_Unit_pion_BEL_11Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -280,15 +262,6 @@ export Descriptor_Unit_pion_BEL_1Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -379,15 +352,6 @@ export Descriptor_Unit_pion_BEL_1Wing_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -486,15 +450,6 @@ export Descriptor_Unit_pion_BEL_23Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -593,15 +548,6 @@ export Descriptor_Unit_pion_BEL_2Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -692,15 +638,6 @@ export Descriptor_Unit_pion_BEL_2Wing_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -799,15 +736,6 @@ export Descriptor_Unit_pion_BEL_31Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -906,15 +834,6 @@ export Descriptor_Unit_pion_BEL_349Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -1013,15 +932,6 @@ export Descriptor_Unit_pion_BEL_350Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -1112,15 +1022,6 @@ export Descriptor_Unit_pion_BEL_3Wing_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -1219,15 +1120,6 @@ export Descriptor_Unit_pion_BEL_42Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -1326,15 +1218,6 @@ export Descriptor_Unit_pion_BEL_7Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -1433,15 +1316,6 @@ export Descriptor_Unit_pion_BEL_8Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -1532,15 +1406,6 @@ export Descriptor_Unit_pion_BEL_9Wing_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -1631,15 +1496,6 @@ export Descriptor_Unit_pion_BEL_BAF_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -1731,15 +1587,6 @@ export Descriptor_Unit_pion_RDA_1LVD_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -1838,15 +1685,6 @@ export Descriptor_Unit_pion_RDA_JBG37 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -1945,15 +1783,6 @@ export Descriptor_Unit_pion_RDA_JG1 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -2052,15 +1881,6 @@ export Descriptor_Unit_pion_RDA_JG3 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -2159,15 +1979,6 @@ export Descriptor_Unit_pion_RDA_JG7 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -2266,15 +2077,6 @@ export Descriptor_Unit_pion_RDA_JG8 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -2365,15 +2167,6 @@ export Descriptor_Unit_pion_RFA_2LwDiv_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -2472,15 +2265,6 @@ export Descriptor_Unit_pion_RFA_JBG33 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -2579,15 +2363,6 @@ export Descriptor_Unit_pion_RFA_JBG33_2 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -2686,15 +2461,6 @@ export Descriptor_Unit_pion_RFA_JBG35 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -2793,15 +2559,6 @@ export Descriptor_Unit_pion_RFA_JBG35_2 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -2900,15 +2657,6 @@ export Descriptor_Unit_pion_RFA_JG74 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -3007,15 +2755,6 @@ export Descriptor_Unit_pion_RFA_JG74_2 is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -3106,15 +2845,6 @@ export Descriptor_Unit_pion_SOV_105ADIB_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -3213,15 +2943,6 @@ export Descriptor_Unit_pion_SOV_11ORAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -3312,15 +3033,6 @@ export Descriptor_Unit_pion_SOV_125ADIB_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -3411,15 +3123,6 @@ export Descriptor_Unit_pion_SOV_126IAD_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -3510,15 +3213,6 @@ export Descriptor_Unit_pion_SOV_16GvIAD_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -3609,15 +3303,6 @@ export Descriptor_Unit_pion_SOV_16VA_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -3716,15 +3401,6 @@ export Descriptor_Unit_pion_SOV_19GAPIB is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -3823,15 +3499,6 @@ export Descriptor_Unit_pion_SOV_20GAPIB is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -3930,15 +3597,6 @@ export Descriptor_Unit_pion_SOV_294ORAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -4037,15 +3695,6 @@ export Descriptor_Unit_pion_SOV_296APIB is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -4144,15 +3793,6 @@ export Descriptor_Unit_pion_SOV_31IGAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -4251,15 +3891,6 @@ export Descriptor_Unit_pion_SOV_33IAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -4358,15 +3989,6 @@ export Descriptor_Unit_pion_SOV_357OCHAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -4465,15 +4087,6 @@ export Descriptor_Unit_pion_SOV_35IAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -4572,15 +4185,6 @@ export Descriptor_Unit_pion_SOV_368OCHAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -4679,15 +4283,6 @@ export Descriptor_Unit_pion_SOV_559APIB is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -4778,15 +4373,6 @@ export Descriptor_Unit_pion_SOV_6GvIAD_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -4885,15 +4471,6 @@ export Descriptor_Unit_pion_SOV_730APIB is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -4992,15 +4569,6 @@ export Descriptor_Unit_pion_SOV_73IAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -5099,15 +4667,6 @@ export Descriptor_Unit_pion_SOV_773IAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -5206,15 +4765,6 @@ export Descriptor_Unit_pion_SOV_787IAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -5313,15 +4863,6 @@ export Descriptor_Unit_pion_SOV_833IAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -5420,15 +4961,6 @@ export Descriptor_Unit_pion_SOV_85IGAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -5527,15 +5059,6 @@ export Descriptor_Unit_pion_SOV_911APIB is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -5634,15 +5157,6 @@ export Descriptor_Unit_pion_SOV_931ORAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -5741,15 +5255,6 @@ export Descriptor_Unit_pion_SOV_968IAP is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -5848,15 +5353,6 @@ export Descriptor_Unit_pion_UK_12Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -5955,15 +5451,6 @@ export Descriptor_Unit_pion_UK_16_20Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -6062,15 +5549,6 @@ export Descriptor_Unit_pion_UK_17_31Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -6169,15 +5647,6 @@ export Descriptor_Unit_pion_UK_19_92Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -6268,15 +5737,6 @@ export Descriptor_Unit_pion_UK_2ATAF_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -6375,15 +5835,6 @@ export Descriptor_Unit_pion_UK_2_15Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -6482,15 +5933,6 @@ export Descriptor_Unit_pion_UK_3_4Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -6589,15 +6031,6 @@ export Descriptor_Unit_pion_UK_9_14Sq is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -6688,15 +6121,6 @@ export Descriptor_Unit_pion_UK_RAFG_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -6787,15 +6211,6 @@ export Descriptor_Unit_pion_UK_RAF_Bruggen_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -6886,15 +6301,6 @@ export Descriptor_Unit_pion_UK_RAF_Gutersloh_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -6985,15 +6391,6 @@ export Descriptor_Unit_pion_UK_RAF_Laarbruch_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -7084,15 +6481,6 @@ export Descriptor_Unit_pion_UK_RAF_Wildenrath_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -7191,15 +6579,6 @@ export Descriptor_Unit_pion_US_10TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -7290,15 +6669,6 @@ export Descriptor_Unit_pion_US_10TFW_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -7389,15 +6759,6 @@ export Descriptor_Unit_pion_US_17AF_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -7488,15 +6849,6 @@ export Descriptor_Unit_pion_US_20TFW_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -7595,15 +6947,6 @@ export Descriptor_Unit_pion_US_22TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -7702,15 +7045,6 @@ export Descriptor_Unit_pion_US_23TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -7809,15 +7143,6 @@ export Descriptor_Unit_pion_US_313TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -7916,15 +7241,6 @@ export Descriptor_Unit_pion_US_32TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -8015,15 +7331,6 @@ export Descriptor_Unit_pion_US_36TFW_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -8114,15 +7421,6 @@ export Descriptor_Unit_pion_US_3AF_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -8221,15 +7519,6 @@ export Descriptor_Unit_pion_US_4450TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -8328,15 +7617,6 @@ export Descriptor_Unit_pion_US_480TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -8427,15 +7707,6 @@ export Descriptor_Unit_pion_US_48TFW_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -8534,15 +7805,6 @@ export Descriptor_Unit_pion_US_492TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -8641,15 +7903,6 @@ export Descriptor_Unit_pion_US_493TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -8748,15 +8001,6 @@ export Descriptor_Unit_pion_US_494TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -8855,15 +8099,6 @@ export Descriptor_Unit_pion_US_495TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -8962,15 +8197,6 @@ export Descriptor_Unit_pion_US_496TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -9061,15 +8287,6 @@ export Descriptor_Unit_pion_US_4ATAF_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -9168,15 +8385,6 @@ export Descriptor_Unit_pion_US_509TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -9267,15 +8475,6 @@ export Descriptor_Unit_pion_US_50TFW_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -9374,15 +8573,6 @@ export Descriptor_Unit_pion_US_510TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -9481,15 +8671,6 @@ export Descriptor_Unit_pion_US_511TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -9588,15 +8769,6 @@ export Descriptor_Unit_pion_US_512TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -9695,15 +8867,6 @@ export Descriptor_Unit_pion_US_525TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -9802,15 +8965,6 @@ export Descriptor_Unit_pion_US_526TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -9909,15 +9063,6 @@ export Descriptor_Unit_pion_US_527Aggress is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -10008,15 +9153,6 @@ export Descriptor_Unit_pion_US_52TFW_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -10115,15 +9251,6 @@ export Descriptor_Unit_pion_US_53TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -10222,15 +9349,6 @@ export Descriptor_Unit_pion_US_55TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -10329,15 +9447,6 @@ export Descriptor_Unit_pion_US_77TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -10436,15 +9545,6 @@ export Descriptor_Unit_pion_US_78TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -10543,15 +9643,6 @@ export Descriptor_Unit_pion_US_79TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -10650,15 +9741,6 @@ export Descriptor_Unit_pion_US_81TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -10757,15 +9839,6 @@ export Descriptor_Unit_pion_US_81TFW is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -10856,15 +9929,6 @@ export Descriptor_Unit_pion_US_81TFW_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -10955,15 +10019,6 @@ export Descriptor_Unit_pion_US_86TFW_GROUPE is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -11062,15 +10117,6 @@ export Descriptor_Unit_pion_US_91TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -11169,15 +10215,6 @@ export Descriptor_Unit_pion_US_92TFS is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -11275,15 +10312,6 @@ export Descriptor_Unit_test_avion_alex is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor
@@ -11381,15 +10409,6 @@ export Descriptor_Unit_test_avion_cas is TEntityDescriptor
                 IdentifyBaseProbability     = 0.0
                 TimeBetweenEachIdentifyRoll = 0.0
                 VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
-                DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-                (
-                    MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-                    MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-                    Exposant                                 = DefaultExposant
-                    MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-                    MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-                    ExposantEnMouvement                      = DefaultExposantEnMouvement
-                )
             )
         ),
         TActionPointsModuleDescriptor

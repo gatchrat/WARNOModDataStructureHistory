@@ -84,21 +84,6 @@ GameModeResources is TUIOutGameGameModeResources
             GameRoomListFilterName = 'GRL_CONQ'
         ),
 
-        //EDeploymentMode/Strategic,
-        TUIGameModeResource
-        (
-            Name = 'new_AG'
-            HintBody = 'HGM_STR'
-            GameRoomListIconComponent = GameModeDecorationComponent
-            (
-                TextureToken = "OutgameTexture_StrategicModeTexture"
-                HintTitle = "GRL_STRAT"
-                HintBody = "GRL_STRAB"
-                HintExtended = "GRL_STRAE"
-            )
-            GameRoomListFilterName = 'GRL_STRA'
-        ),
-
         //EDeploymentMode/Breakthrough,
         TUIGameModeResource
         (

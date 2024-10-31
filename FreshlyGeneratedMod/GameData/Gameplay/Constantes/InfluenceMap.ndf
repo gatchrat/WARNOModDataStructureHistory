@@ -1,62 +1,28 @@
-//---------------------------------------------------------------------------------------//
-//---------------------------------------------------------------------------------------//
-//-----------------------------TACTIC----------------------------------------------------//
-//---------------------------------------------------------------------------------------//
-//---------------------------------------------------------------------------------------//
-
-export InfluenceMapCstTactic is TInfluenceMapConstantesDescriptor
-(
-    InfluenceMapName = "Influence Map Tactic"
-
-    TailleDeCaseGRU = 177 // Attention impacte lourdement sur les performances
-
-    DefaultDecay = 0.001
-    DefaultMomentum = 0.3
-    MinValueInfluenceForOwnership = 0.4
-
-    UseMinValueForEmptyOwnerCell = true
-
-    ManageInfluencePoints = true
-
-    SmoothDistance  = 20000.0
-    EmptyCellDefaultOffset = -0.2
-)
-//---------------------------------------------------------------------------------------//
 export influenceMapsTactic is TInfluenceMapDescriptors
 (
-    DecayActifUniquementEnPhaseDeCommandement = true
-    InfluenceMapDescriptor = nil
-    ZoneInfluenceMapDescriptor = InfluenceMapCstTactic
+    ZoneInfluenceMapDescriptor = TInfluenceMapConstantesDescriptor
+    (
+        TailleDeCaseGRU = 177 // Attention impacte lourdement sur les performances
+
+        DefaultDecay = 0.001
+        DefaultMomentum = 0.3
+        MinValueInfluenceForOwnership = 0.4
+
+        UseMinValueForEmptyOwnerCell = true
+    )
 )
 
-//---------------------------------------------------------------------------------------//
-//---------------------------------------------------------------------------------------//
-//-----------------------------STRATEGIC-------------------------------------------------//
-//---------------------------------------------------------------------------------------//
-//---------------------------------------------------------------------------------------//
-
-export InfluenceMapCstStrategic is TInfluenceMapConstantesDescriptor
-(
-    InfluenceMapName = "Influence Map Strategic"
-
-    TailleDeCaseGRU = 71
-
-    // pour plus d'info --> https://confluence.eugennet.com/pages/viewpage.action?pageId=29364229
-    DefaultDecay = 0.2
-    DefaultMomentum = 0.9
-    MinValueInfluenceForOwnership = 0.3
-
-    UseMinValueForEmptyOwnerCell = false
-
-    ManageInfluencePoints = true
-
-    SmoothDistance  = 20000.0
-    EmptyCellDefaultOffset = -0.2
-)
-//---------------------------------------------------------------------------------------//
 export influenceMapsStrategic is TInfluenceMapDescriptors
 (
-    DecayActifUniquementEnPhaseDeCommandement = true
-    InfluenceMapDescriptor = InfluenceMapCstStrategic
-    ZoneInfluenceMapDescriptor = nil
+    InfluenceMapDescriptor = TInfluenceMapConstantesDescriptor
+    (
+        TailleDeCaseGRU = 71
+
+        // pour plus d'info --> https://confluence.eugennet.com/pages/viewpage.action?pageId=29364229
+        DefaultDecay = 0.2
+        DefaultMomentum = 0.9
+        MinValueInfluenceForOwnership = 0.3
+
+        UseMinValueForEmptyOwnerCell = false
+    )
 )

@@ -90,6 +90,26 @@ Texture_RTS_H_RECO_veh is TUIResourceTexture_Common
     FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/RECO_veh.png'
 )
 
+Texture_CMD_tank is TUIResourceTexture_Common
+(
+    FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/CMD_tank.png'
+)
+
+Texture_RTS_H_CMD_tank is TUIResourceTexture_Common
+(
+    FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/CMD_tank.png'
+)
+
+Texture_Armor is TUIResourceTexture_Common
+(
+    FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/Armor.png'
+)
+
+Texture_RTS_H_Armor is TUIResourceTexture_Common
+(
+    FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Armor.png'
+)
+
 Texture_AT_veh is TUIResourceTexture_Common
 (
     FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/AT_veh.png'
@@ -110,16 +130,6 @@ Texture_RTS_H_reco is TUIResourceTexture_Common
     FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/reco.png'
 )
 
-Texture_Armor is TUIResourceTexture_Common
-(
-    FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/Armor.png'
-)
-
-Texture_RTS_H_Armor is TUIResourceTexture_Common
-(
-    FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Armor.png'
-)
-
 Texture_AA_veh is TUIResourceTexture_Common
 (
     FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/AA_veh.png'
@@ -128,16 +138,6 @@ Texture_AA_veh is TUIResourceTexture_Common
 Texture_RTS_H_AA_veh is TUIResourceTexture_Common
 (
     FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA_veh.png'
-)
-
-Texture_CMD_tank is TUIResourceTexture_Common
-(
-    FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/CMD_tank.png'
-)
-
-Texture_RTS_H_CMD_tank is TUIResourceTexture_Common
-(
-    FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/CMD_tank.png'
 )
 
 Texture_RTS_H_ATGun is TUIResourceTexture_Common
@@ -390,6 +390,16 @@ Texture_RTS_H_AA_air is TUIResourceTexture_Common
     FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/AA_air.png'
 )
 
+Texture_uav is TUIResourceTexture_Common
+(
+    FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/uav.png'
+)
+
+Texture_RTS_H_uav is TUIResourceTexture_Common
+(
+    FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/uav.png'
+)
+
 Texture_fob is TUIResourceTexture_Common
 (
     FileName      = 'GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/fob.png'
@@ -423,16 +433,16 @@ NATORTSAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_RTS_H_CMD_veh", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_CMD_veh)]),
         ("Texture_RECO_veh", MAP [(~/ComponentState/Normal, ~/Texture_RECO_veh)]),
         ("Texture_RTS_H_RECO_veh", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_RECO_veh)]),
+        ("Texture_CMD_tank", MAP [(~/ComponentState/Normal, ~/Texture_CMD_tank)]),
+        ("Texture_RTS_H_CMD_tank", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_CMD_tank)]),
+        ("Texture_Armor", MAP [(~/ComponentState/Normal, ~/Texture_Armor)]),
+        ("Texture_RTS_H_Armor", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_Armor)]),
         ("Texture_AT_veh", MAP [(~/ComponentState/Normal, ~/Texture_AT_veh)]),
         ("Texture_RTS_H_AT_veh", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_AT_veh)]),
         ("Texture_reco", MAP [(~/ComponentState/Normal, ~/Texture_reco)]),
         ("Texture_RTS_H_reco", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_reco)]),
-        ("Texture_Armor", MAP [(~/ComponentState/Normal, ~/Texture_Armor)]),
-        ("Texture_RTS_H_Armor", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_Armor)]),
         ("Texture_AA_veh", MAP [(~/ComponentState/Normal, ~/Texture_AA_veh)]),
         ("Texture_RTS_H_AA_veh", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_AA_veh)]),
-        ("Texture_CMD_tank", MAP [(~/ComponentState/Normal, ~/Texture_CMD_tank)]),
-        ("Texture_RTS_H_CMD_tank", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_CMD_tank)]),
         ("Texture_RTS_H_ATGun", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_ATGun)]),
         ("Texture_Infantry", MAP [(~/ComponentState/Normal, ~/Texture_Infantry)]),
         ("Texture_RTS_H_Infantry", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_Infantry)]),
@@ -483,6 +493,8 @@ NATORTSAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_RTS_H_SEAD_air", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_SEAD_air)]),
         ("Texture_AA_air", MAP [(~/ComponentState/Normal, ~/Texture_AA_air)]),
         ("Texture_RTS_H_AA_air", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_AA_air)]),
+        ("Texture_uav", MAP [(~/ComponentState/Normal, ~/Texture_uav)]),
+        ("Texture_RTS_H_uav", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_uav)]),
         ("Texture_fob", MAP [(~/ComponentState/Normal, ~/Texture_fob)]),
         ("Texture_RTS_H_fob", MAP [(~/ComponentState/Normal, ~/Texture_RTS_H_fob)]),
     ]

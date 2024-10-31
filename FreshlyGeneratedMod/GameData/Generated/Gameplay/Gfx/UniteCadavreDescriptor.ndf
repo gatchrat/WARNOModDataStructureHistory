@@ -829,6 +829,43 @@ Descriptor_UnitCadavre_AML_60_Gendarmerie_FR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_AML_90_CMD_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{b655bdbe-52c9-4f30-af64-5bb3f7fc53ea}
+    ClassNameForDebug  = 'Unit_CadavreAML_90_CMD_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Command
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_forte
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_AML_90_CMD_FR/WeaponManager,
+                ~/Descriptor_Unit_AML_90_CMD_FR/ApparenceModel,
+                ~/Descriptor_Unit_AML_90_CMD_FR/LandMovement,
+                ~/Descriptor_Unit_AML_90_CMD_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_AML_90_CMD_FR/WeaponManager,
+        ~/Descriptor_Unit_AML_90_CMD_FR/ApparenceModel,
+        ~/Descriptor_Unit_AML_90_CMD_FR/LandMovement,
+        ~/Descriptor_Unit_AML_90_CMD_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_AML_90_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{d181fef2-65d9-4bc1-b56e-309bdbe07299}
@@ -862,6 +899,43 @@ Descriptor_UnitCadavre_AML_90_FR is TEntityDescriptor
         ~/Descriptor_Unit_AML_90_FR/ApparenceModel,
         ~/Descriptor_Unit_AML_90_FR/LandMovement,
         ~/Descriptor_Unit_AML_90_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_AML_90_Reserve_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{a6d7ca54-2971-4999-b86d-5c01663821ee}
+    ClassNameForDebug  = 'Unit_CadavreAML_90_Reserve_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_forte
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_AML_90_Reserve_FR/WeaponManager,
+                ~/Descriptor_Unit_AML_90_Reserve_FR/ApparenceModel,
+                ~/Descriptor_Unit_AML_90_Reserve_FR/LandMovement,
+                ~/Descriptor_Unit_AML_90_Reserve_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_AML_90_Reserve_FR/WeaponManager,
+        ~/Descriptor_Unit_AML_90_Reserve_FR/ApparenceModel,
+        ~/Descriptor_Unit_AML_90_Reserve_FR/LandMovement,
+        ~/Descriptor_Unit_AML_90_Reserve_FR/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -2844,6 +2918,43 @@ Descriptor_UnitCadavre_ATteam_Milan_2_para_UK is TEntityDescriptor
         ~/Descriptor_Unit_ATteam_Milan_2_para_UK/LandMovement,
         ~/Descriptor_Unit_ATteam_Milan_2_para_UK/GenericMovement,
         ~/Descriptor_Unit_ATteam_Milan_2_para_UK/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_ATteam_RCL_M40A1_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{b33d6075-2b99-4125-a330-1a8bd0ae5082}
+    ClassNameForDebug  = 'Unit_CadavreATteam_RCL_M40A1_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf2
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_ATteam_RCL_M40A1_FR/WeaponManager,
+                ~/Descriptor_Unit_ATteam_RCL_M40A1_FR/ApparenceModel,
+                ~/Descriptor_Unit_ATteam_RCL_M40A1_FR/LandMovement,
+                ~/Descriptor_Unit_ATteam_RCL_M40A1_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_ATteam_RCL_M40A1_FR/WeaponManager,
+        ~/Descriptor_Unit_ATteam_RCL_M40A1_FR/ApparenceModel,
+        ~/Descriptor_Unit_ATteam_RCL_M40A1_FR/LandMovement,
+        ~/Descriptor_Unit_ATteam_RCL_M40A1_FR/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -4997,6 +5108,84 @@ Descriptor_UnitCadavre_BMD_2_SOV is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_BMD_3_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{c5321409-8c2e-41dc-9add-66a209181a38}
+    ClassNameForDebug  = 'Unit_CadavreBMD_3_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_forte
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_BMD_3_SOV/WeaponManager,
+                ~/Descriptor_Unit_BMD_3_SOV/ApparenceModel,
+                ~/Descriptor_Unit_BMD_3_SOV/LandMovement,
+                ~/Descriptor_Unit_BMD_3_SOV/GenericMovement,
+                ~/Descriptor_Unit_BMD_3_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_BMD_3_SOV/WeaponManager,
+        ~/Descriptor_Unit_BMD_3_SOV/ApparenceModel,
+        ~/Descriptor_Unit_BMD_3_SOV/LandMovement,
+        ~/Descriptor_Unit_BMD_3_SOV/GenericMovement,
+        ~/Descriptor_Unit_BMD_3_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_BMD_3_reco_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{a0940511-5d91-44df-bf71-5d45dbe33df7}
+    ClassNameForDebug  = 'Unit_CadavreBMD_3_reco_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_BMD_3_reco_SOV/WeaponManager,
+                ~/Descriptor_Unit_BMD_3_reco_SOV/ApparenceModel,
+                ~/Descriptor_Unit_BMD_3_reco_SOV/LandMovement,
+                ~/Descriptor_Unit_BMD_3_reco_SOV/GenericMovement,
+                ~/Descriptor_Unit_BMD_3_reco_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_BMD_3_reco_SOV/WeaponManager,
+        ~/Descriptor_Unit_BMD_3_reco_SOV/ApparenceModel,
+        ~/Descriptor_Unit_BMD_3_reco_SOV/LandMovement,
+        ~/Descriptor_Unit_BMD_3_reco_SOV/GenericMovement,
+        ~/Descriptor_Unit_BMD_3_reco_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_BMP_1PG_SOV is TEntityDescriptor
 (
     DescriptorId       = GUID:{374abe07-76b9-4cae-8891-d163f396e036}
@@ -7023,6 +7212,45 @@ Descriptor_UnitCadavre_BTR_D_SOV is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_BTR_D_reco_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{d2fca3ce-f393-4468-be2a-693a2e59a7dc}
+    ClassNameForDebug  = 'Unit_CadavreBTR_D_reco_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_BTR_D_reco_SOV/WeaponManager,
+                ~/Descriptor_Unit_BTR_D_reco_SOV/ApparenceModel,
+                ~/Descriptor_Unit_BTR_D_reco_SOV/LandMovement,
+                ~/Descriptor_Unit_BTR_D_reco_SOV/GenericMovement,
+                ~/Descriptor_Unit_BTR_D_reco_SOV/Transporter,
+            ]
+        ),
+        ~/Descriptor_Unit_BTR_D_reco_SOV/WeaponManager,
+        ~/Descriptor_Unit_BTR_D_reco_SOV/ApparenceModel,
+        ~/Descriptor_Unit_BTR_D_reco_SOV/LandMovement,
+        ~/Descriptor_Unit_BTR_D_reco_SOV/GenericMovement,
+        ~/Descriptor_Unit_BTR_D_reco_SOV/Transporter,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_BTR_ZD_Skrezhet_SOV is TEntityDescriptor
 (
     DescriptorId       = GUID:{ffddf726-5bcb-4eba-9c76-2ac03a9db58a}
@@ -7428,6 +7656,41 @@ Descriptor_UnitCadavre_Chasseurs_FR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Commandos_Air_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{fb8258c0-63f2-4efa-bd85-6fcf7aa0548f}
+    ClassNameForDebug  = 'Unit_CadavreCommandos_Air_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Commandos_Air_FR/GroupeCombat,
+                ~/Descriptor_Unit_Commandos_Air_FR/LandMovement,
+                ~/Descriptor_Unit_Commandos_Air_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Commandos_Air_FR/GroupeCombat,
+        ~/Descriptor_Unit_Commandos_Air_FR/LandMovement,
+        ~/Descriptor_Unit_Commandos_Air_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Commandos_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{5429ca21-0bed-45c3-a05d-98c3157043cf}
@@ -7459,6 +7722,45 @@ Descriptor_UnitCadavre_Commandos_FR is TEntityDescriptor
         ~/Descriptor_Unit_Commandos_FR/GroupeCombat,
         ~/Descriptor_Unit_Commandos_FR/LandMovement,
         ~/Descriptor_Unit_Commandos_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Crotale_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{6b9e05dc-4814-4e0d-a1e0-5a9a7b091caa}
+    ClassNameForDebug  = 'Unit_CadavreCrotale_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_CanonAA
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Crotale_FR/WeaponManager,
+                ~/Descriptor_Unit_Crotale_FR/ApparenceModel,
+                ~/Descriptor_Unit_Crotale_FR/LandMovement,
+                ~/Descriptor_Unit_Crotale_FR/GenericMovement,
+                ~/Descriptor_Unit_Crotale_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Crotale_FR/WeaponManager,
+        ~/Descriptor_Unit_Crotale_FR/ApparenceModel,
+        ~/Descriptor_Unit_Crotale_FR/LandMovement,
+        ~/Descriptor_Unit_Crotale_FR/GenericMovement,
+        ~/Descriptor_Unit_Crotale_FR/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -7537,6 +7839,43 @@ Descriptor_UnitCadavre_DCA_53T2_20mm_Para_FR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_DCA_76T2_20mm_CPA_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{827f70bd-4891-40ce-81a4-feae4c05f8c9}
+    ClassNameForDebug  = 'Unit_CadavreDCA_76T2_20mm_CPA_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_CanonAA
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_DCA_76T2_20mm_CPA_FR/WeaponManager,
+                ~/Descriptor_Unit_DCA_76T2_20mm_CPA_FR/ApparenceModel,
+                ~/Descriptor_Unit_DCA_76T2_20mm_CPA_FR/LandMovement,
+                ~/Descriptor_Unit_DCA_76T2_20mm_CPA_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_DCA_76T2_20mm_CPA_FR/WeaponManager,
+        ~/Descriptor_Unit_DCA_76T2_20mm_CPA_FR/ApparenceModel,
+        ~/Descriptor_Unit_DCA_76T2_20mm_CPA_FR/LandMovement,
+        ~/Descriptor_Unit_DCA_76T2_20mm_CPA_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_DCA_AZP_S60_DDR is TEntityDescriptor
 (
     DescriptorId       = GUID:{41408684-4705-4dd4-a819-72cf3d7c5ffa}
@@ -7570,6 +7909,43 @@ Descriptor_UnitCadavre_DCA_AZP_S60_DDR is TEntityDescriptor
         ~/Descriptor_Unit_DCA_AZP_S60_DDR/ApparenceModel,
         ~/Descriptor_Unit_DCA_AZP_S60_DDR/LandMovement,
         ~/Descriptor_Unit_DCA_AZP_S60_DDR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_DCA_Bofors_L60_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{271bc119-af84-4c1a-a3ee-266641a8d8d6}
+    ClassNameForDebug  = 'Unit_CadavreDCA_Bofors_L60_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_CanonAA
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_DCA_Bofors_L60_FR/WeaponManager,
+                ~/Descriptor_Unit_DCA_Bofors_L60_FR/ApparenceModel,
+                ~/Descriptor_Unit_DCA_Bofors_L60_FR/LandMovement,
+                ~/Descriptor_Unit_DCA_Bofors_L60_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_DCA_Bofors_L60_FR/WeaponManager,
+        ~/Descriptor_Unit_DCA_Bofors_L60_FR/ApparenceModel,
+        ~/Descriptor_Unit_DCA_Bofors_L60_FR/LandMovement,
+        ~/Descriptor_Unit_DCA_Bofors_L60_FR/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -8645,6 +9021,43 @@ Descriptor_UnitCadavre_DeltaForce_US is TEntityDescriptor
         ~/Descriptor_Unit_DeltaForce_US/GroupeCombat,
         ~/Descriptor_Unit_DeltaForce_US/LandMovement,
         ~/Descriptor_Unit_DeltaForce_US/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_EBR_90mm_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{65d3baa2-8292-4b4f-8cc1-22d08792460c}
+    ClassNameForDebug  = 'Unit_CadavreEBR_90mm_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_EBR_90mm_FR/WeaponManager,
+                ~/Descriptor_Unit_EBR_90mm_FR/ApparenceModel,
+                ~/Descriptor_Unit_EBR_90mm_FR/LandMovement,
+                ~/Descriptor_Unit_EBR_90mm_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_EBR_90mm_FR/WeaponManager,
+        ~/Descriptor_Unit_EBR_90mm_FR/ApparenceModel,
+        ~/Descriptor_Unit_EBR_90mm_FR/LandMovement,
+        ~/Descriptor_Unit_EBR_90mm_FR/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -12407,6 +12820,41 @@ Descriptor_UnitCadavre_Gama_Goat_trans_US is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Gendarmerie_Air_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{cb81b518-8636-4ffb-9190-fb39efab1348}
+    ClassNameForDebug  = 'Unit_CadavreGendarmerie_Air_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Gendarmerie_Air_FR/GroupeCombat,
+                ~/Descriptor_Unit_Gendarmerie_Air_FR/LandMovement,
+                ~/Descriptor_Unit_Gendarmerie_Air_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Gendarmerie_Air_FR/GroupeCombat,
+        ~/Descriptor_Unit_Gendarmerie_Air_FR/LandMovement,
+        ~/Descriptor_Unit_Gendarmerie_Air_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Gendarmerie_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{e431215b-a07e-4f14-9738-63ccd4537d30}
@@ -13043,6 +13491,43 @@ Descriptor_UnitCadavre_HMGteam_AANF1_FR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_HMGteam_AANF1_Reserve_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{541cef12-d6ef-4ce0-a394-577f191072f7}
+    ClassNameForDebug  = 'Unit_CadavreHMGteam_AANF1_Reserve_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_HMGteam_AANF1_Reserve_FR/WeaponManager,
+                ~/Descriptor_Unit_HMGteam_AANF1_Reserve_FR/ApparenceModel,
+                ~/Descriptor_Unit_HMGteam_AANF1_Reserve_FR/LandMovement,
+                ~/Descriptor_Unit_HMGteam_AANF1_Reserve_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_HMGteam_AANF1_Reserve_FR/WeaponManager,
+        ~/Descriptor_Unit_HMGteam_AANF1_Reserve_FR/ApparenceModel,
+        ~/Descriptor_Unit_HMGteam_AANF1_Reserve_FR/LandMovement,
+        ~/Descriptor_Unit_HMGteam_AANF1_Reserve_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_HMGteam_AANF1_para_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{d7388d42-e085-4969-980b-d1895d4de4d5}
@@ -13446,6 +13931,43 @@ Descriptor_UnitCadavre_HMGteam_M2HB_NG_US is TEntityDescriptor
         ~/Descriptor_Unit_HMGteam_M2HB_NG_US/ApparenceModel,
         ~/Descriptor_Unit_HMGteam_M2HB_NG_US/LandMovement,
         ~/Descriptor_Unit_HMGteam_M2HB_NG_US/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_HMGteam_M2HB_RIMa_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{13906e22-84aa-451f-af6f-5047a654a24f}
+    ClassNameForDebug  = 'Unit_CadavreHMGteam_M2HB_RIMa_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_HMGteam_M2HB_RIMa_FR/WeaponManager,
+                ~/Descriptor_Unit_HMGteam_M2HB_RIMa_FR/ApparenceModel,
+                ~/Descriptor_Unit_HMGteam_M2HB_RIMa_FR/LandMovement,
+                ~/Descriptor_Unit_HMGteam_M2HB_RIMa_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_HMGteam_M2HB_RIMa_FR/WeaponManager,
+        ~/Descriptor_Unit_HMGteam_M2HB_RIMa_FR/ApparenceModel,
+        ~/Descriptor_Unit_HMGteam_M2HB_RIMa_FR/LandMovement,
+        ~/Descriptor_Unit_HMGteam_M2HB_RIMa_FR/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -13890,6 +14412,43 @@ Descriptor_UnitCadavre_HMGteam_Mk19_AB_US is TEntityDescriptor
         ~/Descriptor_Unit_HMGteam_Mk19_AB_US/ApparenceModel,
         ~/Descriptor_Unit_HMGteam_Mk19_AB_US/LandMovement,
         ~/Descriptor_Unit_HMGteam_Mk19_AB_US/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_HMGteam_NSV_6U6_VDV_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{5128b3f5-b226-49de-91d6-bd1f52ef24c9}
+    ClassNameForDebug  = 'Unit_CadavreHMGteam_NSV_6U6_VDV_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf2
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_HMGteam_NSV_6U6_VDV_SOV/WeaponManager,
+                ~/Descriptor_Unit_HMGteam_NSV_6U6_VDV_SOV/ApparenceModel,
+                ~/Descriptor_Unit_HMGteam_NSV_6U6_VDV_SOV/LandMovement,
+                ~/Descriptor_Unit_HMGteam_NSV_6U6_VDV_SOV/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_HMGteam_NSV_6U6_VDV_SOV/WeaponManager,
+        ~/Descriptor_Unit_HMGteam_NSV_6U6_VDV_SOV/ApparenceModel,
+        ~/Descriptor_Unit_HMGteam_NSV_6U6_VDV_SOV/LandMovement,
+        ~/Descriptor_Unit_HMGteam_NSV_6U6_VDV_SOV/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -16228,6 +16787,115 @@ Descriptor_UnitCadavre_LUAZ_967M_AGL_SOV is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_LUAZ_967M_AGL_VDV_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{83f751e5-0c4a-46fb-98a8-0f38cd02d4fe}
+    ClassNameForDebug  = 'Unit_CadavreLUAZ_967M_AGL_VDV_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_LUAZ_967M_AGL_VDV_SOV/WeaponManager,
+                ~/Descriptor_Unit_LUAZ_967M_AGL_VDV_SOV/ApparenceModel,
+                ~/Descriptor_Unit_LUAZ_967M_AGL_VDV_SOV/LandMovement,
+                ~/Descriptor_Unit_LUAZ_967M_AGL_VDV_SOV/GenericMovement,
+                ~/Descriptor_Unit_LUAZ_967M_AGL_VDV_SOV/Transporter,
+            ]
+        ),
+        ~/Descriptor_Unit_LUAZ_967M_AGL_VDV_SOV/WeaponManager,
+        ~/Descriptor_Unit_LUAZ_967M_AGL_VDV_SOV/ApparenceModel,
+        ~/Descriptor_Unit_LUAZ_967M_AGL_VDV_SOV/LandMovement,
+        ~/Descriptor_Unit_LUAZ_967M_AGL_VDV_SOV/GenericMovement,
+        ~/Descriptor_Unit_LUAZ_967M_AGL_VDV_SOV/Transporter,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_LUAZ_967M_CMD_VDV_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{6bd1c04f-94f6-4df1-90e9-83dd8db7168c}
+    ClassNameForDebug  = 'Unit_CadavreLUAZ_967M_CMD_VDV_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Command
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_LUAZ_967M_CMD_VDV_SOV/ApparenceModel,
+                ~/Descriptor_Unit_LUAZ_967M_CMD_VDV_SOV/LandMovement,
+                ~/Descriptor_Unit_LUAZ_967M_CMD_VDV_SOV/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_LUAZ_967M_CMD_VDV_SOV/ApparenceModel,
+        ~/Descriptor_Unit_LUAZ_967M_CMD_VDV_SOV/LandMovement,
+        ~/Descriptor_Unit_LUAZ_967M_CMD_VDV_SOV/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_LUAZ_967M_FAO_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{78ce8cd8-0eee-4c73-ac1f-d2b9b7b3107a}
+    ClassNameForDebug  = 'Unit_CadavreLUAZ_967M_FAO_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Command
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_LUAZ_967M_FAO_SOV/ApparenceModel,
+                ~/Descriptor_Unit_LUAZ_967M_FAO_SOV/LandMovement,
+                ~/Descriptor_Unit_LUAZ_967M_FAO_SOV/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_LUAZ_967M_FAO_SOV/ApparenceModel,
+        ~/Descriptor_Unit_LUAZ_967M_FAO_SOV/LandMovement,
+        ~/Descriptor_Unit_LUAZ_967M_FAO_SOV/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_LUAZ_967M_Fagot_SOV is TEntityDescriptor
 (
     DescriptorId       = GUID:{11486ba3-a730-452d-b4b7-4ad3d6c15988}
@@ -16263,6 +16931,45 @@ Descriptor_UnitCadavre_LUAZ_967M_Fagot_SOV is TEntityDescriptor
         ~/Descriptor_Unit_LUAZ_967M_Fagot_SOV/LandMovement,
         ~/Descriptor_Unit_LUAZ_967M_Fagot_SOV/GenericMovement,
         ~/Descriptor_Unit_LUAZ_967M_Fagot_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_LUAZ_967M_Fagot_VDV_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{1db58942-e8a9-41b7-9ba4-e50cee0fab8b}
+    ClassNameForDebug  = 'Unit_CadavreLUAZ_967M_Fagot_VDV_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_TankDestroyer
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_LUAZ_967M_Fagot_VDV_SOV/WeaponManager,
+                ~/Descriptor_Unit_LUAZ_967M_Fagot_VDV_SOV/ApparenceModel,
+                ~/Descriptor_Unit_LUAZ_967M_Fagot_VDV_SOV/LandMovement,
+                ~/Descriptor_Unit_LUAZ_967M_Fagot_VDV_SOV/GenericMovement,
+                ~/Descriptor_Unit_LUAZ_967M_Fagot_VDV_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_LUAZ_967M_Fagot_VDV_SOV/WeaponManager,
+        ~/Descriptor_Unit_LUAZ_967M_Fagot_VDV_SOV/ApparenceModel,
+        ~/Descriptor_Unit_LUAZ_967M_Fagot_VDV_SOV/LandMovement,
+        ~/Descriptor_Unit_LUAZ_967M_Fagot_VDV_SOV/GenericMovement,
+        ~/Descriptor_Unit_LUAZ_967M_Fagot_VDV_SOV/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -16337,6 +17044,115 @@ Descriptor_UnitCadavre_LUAZ_967M_SPG9_SOV is TEntityDescriptor
         ~/Descriptor_Unit_LUAZ_967M_SPG9_SOV/ApparenceModel,
         ~/Descriptor_Unit_LUAZ_967M_SPG9_SOV/LandMovement,
         ~/Descriptor_Unit_LUAZ_967M_SPG9_SOV/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_LUAZ_967M_SPG9_VDV_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{1851a0a8-48d7-4e3e-8eb0-59d57ee4e8ae}
+    ClassNameForDebug  = 'Unit_CadavreLUAZ_967M_SPG9_VDV_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Vehicle
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_LUAZ_967M_SPG9_VDV_SOV/WeaponManager,
+                ~/Descriptor_Unit_LUAZ_967M_SPG9_VDV_SOV/ApparenceModel,
+                ~/Descriptor_Unit_LUAZ_967M_SPG9_VDV_SOV/LandMovement,
+                ~/Descriptor_Unit_LUAZ_967M_SPG9_VDV_SOV/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_LUAZ_967M_SPG9_VDV_SOV/WeaponManager,
+        ~/Descriptor_Unit_LUAZ_967M_SPG9_VDV_SOV/ApparenceModel,
+        ~/Descriptor_Unit_LUAZ_967M_SPG9_VDV_SOV/LandMovement,
+        ~/Descriptor_Unit_LUAZ_967M_SPG9_VDV_SOV/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_LUAZ_967M_VDV_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{0ee2da95-fd96-4306-8155-98acbf37fce2}
+    ClassNameForDebug  = 'Unit_CadavreLUAZ_967M_VDV_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_LUAZ_967M_VDV_SOV/ApparenceModel,
+                ~/Descriptor_Unit_LUAZ_967M_VDV_SOV/LandMovement,
+                ~/Descriptor_Unit_LUAZ_967M_VDV_SOV/GenericMovement,
+                ~/Descriptor_Unit_LUAZ_967M_VDV_SOV/Transporter,
+            ]
+        ),
+        ~/Descriptor_Unit_LUAZ_967M_VDV_SOV/ApparenceModel,
+        ~/Descriptor_Unit_LUAZ_967M_VDV_SOV/LandMovement,
+        ~/Descriptor_Unit_LUAZ_967M_VDV_SOV/GenericMovement,
+        ~/Descriptor_Unit_LUAZ_967M_VDV_SOV/Transporter,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_LUAZ_967M_supply_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{fef5ad92-2888-432a-8c2c-8c04948bcd5e}
+    ClassNameForDebug  = 'Unit_CadavreLUAZ_967M_supply_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Logistic
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_ravitaillement
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_LUAZ_967M_supply_SOV/ApparenceModel,
+                ~/Descriptor_Unit_LUAZ_967M_supply_SOV/LandMovement,
+                ~/Descriptor_Unit_LUAZ_967M_supply_SOV/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_LUAZ_967M_supply_SOV/ApparenceModel,
+        ~/Descriptor_Unit_LUAZ_967M_supply_SOV/LandMovement,
+        ~/Descriptor_Unit_LUAZ_967M_supply_SOV/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -17184,6 +18000,47 @@ Descriptor_UnitCadavre_LightRifles_RCL_US is TEntityDescriptor
         ~/Descriptor_Unit_LightRifles_RCL_US/GroupeCombat,
         ~/Descriptor_Unit_LightRifles_RCL_US/LandMovement,
         ~/Descriptor_Unit_LightRifles_RCL_US/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_LuAZ_967M_AA_VDV_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{f6ee26cb-2830-4c06-a1f9-b874d8750841}
+    ClassNameForDebug  = 'Unit_CadavreLuAZ_967M_AA_VDV_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_forte
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/WeaponManager,
+                ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/ApparenceModel,
+                ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/LandMovement,
+                ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/GenericMovement,
+                ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/Transporter,
+                ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/WeaponManager,
+        ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/ApparenceModel,
+        ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/LandMovement,
+        ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/GenericMovement,
+        ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/Transporter,
+        ~/Descriptor_Unit_LuAZ_967M_AA_VDV_SOV/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -19547,6 +20404,156 @@ Descriptor_UnitCadavre_M1_Abrams_US is TEntityDescriptor
         ~/Descriptor_Unit_M1_Abrams_US/ApparenceModel,
         ~/Descriptor_Unit_M1_Abrams_US/LandMovement,
         ~/Descriptor_Unit_M1_Abrams_US/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_M201_CMD_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{4d21aabe-3634-4a3c-997c-b4d3526aec37}
+    ClassNameForDebug  = 'Unit_CadavreM201_CMD_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Command
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_M201_CMD_FR/ApparenceModel,
+                ~/Descriptor_Unit_M201_CMD_FR/LandMovement,
+                ~/Descriptor_Unit_M201_CMD_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_M201_CMD_FR/ApparenceModel,
+        ~/Descriptor_Unit_M201_CMD_FR/LandMovement,
+        ~/Descriptor_Unit_M201_CMD_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_M201_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{5d626d3d-44f4-40ed-8701-77ef757febdd}
+    ClassNameForDebug  = 'Unit_CadavreM201_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_M201_FR/ApparenceModel,
+                ~/Descriptor_Unit_M201_FR/LandMovement,
+                ~/Descriptor_Unit_M201_FR/GenericMovement,
+                ~/Descriptor_Unit_M201_FR/Transporter,
+            ]
+        ),
+        ~/Descriptor_Unit_M201_FR/ApparenceModel,
+        ~/Descriptor_Unit_M201_FR/LandMovement,
+        ~/Descriptor_Unit_M201_FR/GenericMovement,
+        ~/Descriptor_Unit_M201_FR/Transporter,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_M201_MG_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{9097e510-4d55-4cef-8da0-fb7641bd96f2}
+    ClassNameForDebug  = 'Unit_CadavreM201_MG_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_M201_MG_FR/WeaponManager,
+                ~/Descriptor_Unit_M201_MG_FR/ApparenceModel,
+                ~/Descriptor_Unit_M201_MG_FR/LandMovement,
+                ~/Descriptor_Unit_M201_MG_FR/GenericMovement,
+                ~/Descriptor_Unit_M201_MG_FR/Transporter,
+            ]
+        ),
+        ~/Descriptor_Unit_M201_MG_FR/WeaponManager,
+        ~/Descriptor_Unit_M201_MG_FR/ApparenceModel,
+        ~/Descriptor_Unit_M201_MG_FR/LandMovement,
+        ~/Descriptor_Unit_M201_MG_FR/GenericMovement,
+        ~/Descriptor_Unit_M201_MG_FR/Transporter,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_M201_MILAN_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{b3303c39-0037-411b-bff1-b473f9736aa7}
+    ClassNameForDebug  = 'Unit_CadavreM201_MILAN_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_TankDestroyer
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_M201_MILAN_FR/WeaponManager,
+                ~/Descriptor_Unit_M201_MILAN_FR/ApparenceModel,
+                ~/Descriptor_Unit_M201_MILAN_FR/LandMovement,
+                ~/Descriptor_Unit_M201_MILAN_FR/GenericMovement,
+                ~/Descriptor_Unit_M201_MILAN_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_M201_MILAN_FR/WeaponManager,
+        ~/Descriptor_Unit_M201_MILAN_FR/ApparenceModel,
+        ~/Descriptor_Unit_M201_MILAN_FR/LandMovement,
+        ~/Descriptor_Unit_M201_MILAN_FR/GenericMovement,
+        ~/Descriptor_Unit_M201_MILAN_FR/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -23654,6 +24661,43 @@ Descriptor_UnitCadavre_Mortier_2B14_82mm_SOV is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Mortier_2B14_82mm_VDV_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{309e0def-64fd-4df5-b6c7-f18291053ec2}
+    ClassNameForDebug  = 'Unit_CadavreMortier_2B14_82mm_VDV_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Mortier_2B14_82mm_VDV_SOV/WeaponManager,
+                ~/Descriptor_Unit_Mortier_2B14_82mm_VDV_SOV/ApparenceModel,
+                ~/Descriptor_Unit_Mortier_2B14_82mm_VDV_SOV/LandMovement,
+                ~/Descriptor_Unit_Mortier_2B14_82mm_VDV_SOV/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Mortier_2B14_82mm_VDV_SOV/WeaponManager,
+        ~/Descriptor_Unit_Mortier_2B14_82mm_VDV_SOV/ApparenceModel,
+        ~/Descriptor_Unit_Mortier_2B14_82mm_VDV_SOV/LandMovement,
+        ~/Descriptor_Unit_Mortier_2B14_82mm_VDV_SOV/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Mortier_2B9_Vasilek_SOV is TEntityDescriptor
 (
     DescriptorId       = GUID:{dd5b492d-2d5b-45a0-8b7c-739393e2d986}
@@ -23909,6 +24953,43 @@ Descriptor_UnitCadavre_Mortier_81mm_BEL is TEntityDescriptor
         ~/Descriptor_Unit_Mortier_81mm_BEL/ApparenceModel,
         ~/Descriptor_Unit_Mortier_81mm_BEL/LandMovement,
         ~/Descriptor_Unit_Mortier_81mm_BEL/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Mortier_81mm_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{0dde4d55-4f58-489c-9495-5f0934ca6259}
+    ClassNameForDebug  = 'Unit_CadavreMortier_81mm_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Mortier_81mm_FR/WeaponManager,
+                ~/Descriptor_Unit_Mortier_81mm_FR/ApparenceModel,
+                ~/Descriptor_Unit_Mortier_81mm_FR/LandMovement,
+                ~/Descriptor_Unit_Mortier_81mm_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Mortier_81mm_FR/WeaponManager,
+        ~/Descriptor_Unit_Mortier_81mm_FR/ApparenceModel,
+        ~/Descriptor_Unit_Mortier_81mm_FR/LandMovement,
+        ~/Descriptor_Unit_Mortier_81mm_FR/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -25298,6 +26379,43 @@ Descriptor_UnitCadavre_OT_65_DDR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Obusier_155mm_mle1950_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{0456989e-7ad3-429d-84e6-b4589f35a32a}
+    ClassNameForDebug  = 'Unit_CadavreObusier_155mm_mle1950_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_ArtShell
+            TypeUnitFormation                = 'Artillerie'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_forte
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Obusier_155mm_mle1950_FR/WeaponManager,
+                ~/Descriptor_Unit_Obusier_155mm_mle1950_FR/ApparenceModel,
+                ~/Descriptor_Unit_Obusier_155mm_mle1950_FR/LandMovement,
+                ~/Descriptor_Unit_Obusier_155mm_mle1950_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Obusier_155mm_mle1950_FR/WeaponManager,
+        ~/Descriptor_Unit_Obusier_155mm_mle1950_FR/ApparenceModel,
+        ~/Descriptor_Unit_Obusier_155mm_mle1950_FR/LandMovement,
+        ~/Descriptor_Unit_Obusier_155mm_mle1950_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Osa_9K33M3_DDR is TEntityDescriptor
 (
     DescriptorId       = GUID:{1553d245-f649-4baa-b897-d4f7dc033cc1}
@@ -26473,6 +27591,41 @@ Descriptor_UnitCadavre_Reserve_Polizei_RFA is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Reserviste_CMD_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{233a88e4-230e-4c35-ac98-09f84231aafd}
+    ClassNameForDebug  = 'Unit_CadavreReserviste_CMD_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Command
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Reserviste_CMD_FR/GroupeCombat,
+                ~/Descriptor_Unit_Reserviste_CMD_FR/LandMovement,
+                ~/Descriptor_Unit_Reserviste_CMD_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Reserviste_CMD_FR/GroupeCombat,
+        ~/Descriptor_Unit_Reserviste_CMD_FR/LandMovement,
+        ~/Descriptor_Unit_Reserviste_CMD_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Reserviste_FAMAS_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{f07c628a-999a-4c79-bd08-9fa29c650ce6}
@@ -27204,6 +28357,111 @@ Descriptor_UnitCadavre_Rifles_RAF_UK is TEntityDescriptor
         ~/Descriptor_Unit_Rifles_RAF_UK/GroupeCombat,
         ~/Descriptor_Unit_Rifles_RAF_UK/LandMovement,
         ~/Descriptor_Unit_Rifles_RAF_UK/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Rifles_RIMa_APILAS_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{e113e237-d23a-4676-965b-7b5bd9f3e36b}
+    ClassNameForDebug  = 'Unit_CadavreRifles_RIMa_APILAS_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Rifles_RIMa_APILAS_FR/GroupeCombat,
+                ~/Descriptor_Unit_Rifles_RIMa_APILAS_FR/LandMovement,
+                ~/Descriptor_Unit_Rifles_RIMa_APILAS_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Rifles_RIMa_APILAS_FR/GroupeCombat,
+        ~/Descriptor_Unit_Rifles_RIMa_APILAS_FR/LandMovement,
+        ~/Descriptor_Unit_Rifles_RIMa_APILAS_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Rifles_RIMa_CMD_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{454f499a-54e0-467f-9e33-c97140a0ded2}
+    ClassNameForDebug  = 'Unit_CadavreRifles_RIMa_CMD_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Command
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Rifles_RIMa_CMD_FR/GroupeCombat,
+                ~/Descriptor_Unit_Rifles_RIMa_CMD_FR/LandMovement,
+                ~/Descriptor_Unit_Rifles_RIMa_CMD_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Rifles_RIMa_CMD_FR/GroupeCombat,
+        ~/Descriptor_Unit_Rifles_RIMa_CMD_FR/LandMovement,
+        ~/Descriptor_Unit_Rifles_RIMa_CMD_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Rifles_RIMa_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{12ac972f-918e-4503-abe5-c3393574459b}
+    ClassNameForDebug  = 'Unit_CadavreRifles_RIMa_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Rifles_RIMa_FR/GroupeCombat,
+                ~/Descriptor_Unit_Rifles_RIMa_FR/LandMovement,
+                ~/Descriptor_Unit_Rifles_RIMa_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Rifles_RIMa_FR/GroupeCombat,
+        ~/Descriptor_Unit_Rifles_RIMa_FR/LandMovement,
+        ~/Descriptor_Unit_Rifles_RIMa_FR/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -28560,6 +29818,41 @@ Descriptor_UnitCadavre_Scout_RFA is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Scout_RIMa_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{8e24c564-5d29-4e29-90ab-73babfd3b5ba}
+    ClassNameForDebug  = 'Unit_CadavreScout_RIMa_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Scout_RIMa_FR/GroupeCombat,
+                ~/Descriptor_Unit_Scout_RIMa_FR/LandMovement,
+                ~/Descriptor_Unit_Scout_RIMa_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Scout_RIMa_FR/GroupeCombat,
+        ~/Descriptor_Unit_Scout_RIMa_FR/LandMovement,
+        ~/Descriptor_Unit_Scout_RIMa_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Scout_Reserve_DDR is TEntityDescriptor
 (
     DescriptorId       = GUID:{446a6f05-d6fb-4e21-bb82-1890a90a8d3c}
@@ -28591,6 +29884,76 @@ Descriptor_UnitCadavre_Scout_Reserve_DDR is TEntityDescriptor
         ~/Descriptor_Unit_Scout_Reserve_DDR/GroupeCombat,
         ~/Descriptor_Unit_Scout_Reserve_DDR/LandMovement,
         ~/Descriptor_Unit_Scout_Reserve_DDR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Scout_Reserviste_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{bff98da2-c415-4d76-9f00-663c2fd72a99}
+    ClassNameForDebug  = 'Unit_CadavreScout_Reserviste_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Scout_Reserviste_FR/GroupeCombat,
+                ~/Descriptor_Unit_Scout_Reserviste_FR/LandMovement,
+                ~/Descriptor_Unit_Scout_Reserviste_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Scout_Reserviste_FR/GroupeCombat,
+        ~/Descriptor_Unit_Scout_Reserviste_FR/LandMovement,
+        ~/Descriptor_Unit_Scout_Reserviste_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Scout_SIGINT_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{2bdb26cb-d3fd-41d5-9010-ff135449de5d}
+    ClassNameForDebug  = 'Unit_CadavreScout_SIGINT_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Scout_SIGINT_SOV/GroupeCombat,
+                ~/Descriptor_Unit_Scout_SIGINT_SOV/LandMovement,
+                ~/Descriptor_Unit_Scout_SIGINT_SOV/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Scout_SIGINT_SOV/GroupeCombat,
+        ~/Descriptor_Unit_Scout_SIGINT_SOV/LandMovement,
+        ~/Descriptor_Unit_Scout_SIGINT_SOV/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -29225,6 +30588,41 @@ Descriptor_UnitCadavre_Sniper_Fern_RFA is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Sniper_RIMa_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{6ba0686e-49d3-4adc-982b-9162bb769f3e}
+    ClassNameForDebug  = 'Unit_CadavreSniper_RIMa_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'Reconnaissance'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Sniper_RIMa_FR/GroupeCombat,
+                ~/Descriptor_Unit_Sniper_RIMa_FR/LandMovement,
+                ~/Descriptor_Unit_Sniper_RIMa_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Sniper_RIMa_FR/GroupeCombat,
+        ~/Descriptor_Unit_Sniper_RIMa_FR/LandMovement,
+        ~/Descriptor_Unit_Sniper_RIMa_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Sniper_Spetsnaz_SOV is TEntityDescriptor
 (
     DescriptorId       = GUID:{9bb1bbe8-a8a6-40ae-aa1d-9731ca2023b9}
@@ -29505,6 +30903,41 @@ Descriptor_UnitCadavre_Spetsnaz_SOV is TEntityDescriptor
         ~/Descriptor_Unit_Spetsnaz_SOV/GroupeCombat,
         ~/Descriptor_Unit_Spetsnaz_SOV/LandMovement,
         ~/Descriptor_Unit_Spetsnaz_SOV/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Spetsnaz_Vympel_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{5dbba7b3-a59e-49a6-8784-da6078ee19cb}
+    ClassNameForDebug  = 'Unit_CadavreSpetsnaz_Vympel_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Engineer
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Spetsnaz_Vympel_SOV/GroupeCombat,
+                ~/Descriptor_Unit_Spetsnaz_Vympel_SOV/LandMovement,
+                ~/Descriptor_Unit_Spetsnaz_Vympel_SOV/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Spetsnaz_Vympel_SOV/GroupeCombat,
+        ~/Descriptor_Unit_Spetsnaz_Vympel_SOV/LandMovement,
+        ~/Descriptor_Unit_Spetsnaz_Vympel_SOV/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -31087,6 +32520,78 @@ Descriptor_UnitCadavre_TPZ_Fuchs_RASIT_RFA is TEntityDescriptor
         ~/Descriptor_Unit_TPZ_Fuchs_RASIT_RFA/ApparenceModel,
         ~/Descriptor_Unit_TPZ_Fuchs_RASIT_RFA/LandMovement,
         ~/Descriptor_Unit_TPZ_Fuchs_RASIT_RFA/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_TRM_10000_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{a2b77f51-33e1-45ad-a11d-d9d0bbe7b8e2}
+    ClassNameForDebug  = 'Unit_CadavreTRM_10000_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_TRM_10000_FR/ApparenceModel,
+                ~/Descriptor_Unit_TRM_10000_FR/LandMovement,
+                ~/Descriptor_Unit_TRM_10000_FR/GenericMovement,
+                ~/Descriptor_Unit_TRM_10000_FR/Transporter,
+            ]
+        ),
+        ~/Descriptor_Unit_TRM_10000_FR/ApparenceModel,
+        ~/Descriptor_Unit_TRM_10000_FR/LandMovement,
+        ~/Descriptor_Unit_TRM_10000_FR/GenericMovement,
+        ~/Descriptor_Unit_TRM_10000_FR/Transporter,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_TRM_10000_supply_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{8418c95f-d1c1-4d41-bf86-1bfaa977e743}
+    ClassNameForDebug  = 'Unit_CadavreTRM_10000_supply_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Logistic
+            TypeUnitFormation                = 'Supply'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_ravitaillement
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_TRM_10000_supply_FR/ApparenceModel,
+                ~/Descriptor_Unit_TRM_10000_supply_FR/LandMovement,
+                ~/Descriptor_Unit_TRM_10000_supply_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_TRM_10000_supply_FR/ApparenceModel,
+        ~/Descriptor_Unit_TRM_10000_supply_FR/LandMovement,
+        ~/Descriptor_Unit_TRM_10000_supply_FR/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -32723,6 +34228,45 @@ Descriptor_UnitCadavre_VAB_RASIT_FR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_VAB_Reserve_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{78667d2e-519a-4e16-8a80-2aa6d0bb91d6}
+    ClassNameForDebug  = 'Unit_CadavreVAB_Reserve_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Transport
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_faible
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_VAB_Reserve_FR/WeaponManager,
+                ~/Descriptor_Unit_VAB_Reserve_FR/ApparenceModel,
+                ~/Descriptor_Unit_VAB_Reserve_FR/LandMovement,
+                ~/Descriptor_Unit_VAB_Reserve_FR/GenericMovement,
+                ~/Descriptor_Unit_VAB_Reserve_FR/Transporter,
+            ]
+        ),
+        ~/Descriptor_Unit_VAB_Reserve_FR/WeaponManager,
+        ~/Descriptor_Unit_VAB_Reserve_FR/ApparenceModel,
+        ~/Descriptor_Unit_VAB_Reserve_FR/LandMovement,
+        ~/Descriptor_Unit_VAB_Reserve_FR/GenericMovement,
+        ~/Descriptor_Unit_VAB_Reserve_FR/Transporter,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_VAB_T20_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{74af34cf-7a45-43c1-a8fe-f662cd161dfd}
@@ -32945,6 +34489,41 @@ Descriptor_UnitCadavre_VDV_CMD_SOV is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_VDV_Combine_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{7c6c8d01-6c84-4c9e-b158-f3b9bd27769a}
+    ClassNameForDebug  = 'Unit_CadavreVDV_Combine_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_Inf
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsInfanterie = True
+            CadavreDuration = ~/CadavreDuration_Infanterie
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_infanterie
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_VDV_Combine_SOV/GroupeCombat,
+                ~/Descriptor_Unit_VDV_Combine_SOV/LandMovement,
+                ~/Descriptor_Unit_VDV_Combine_SOV/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_VDV_Combine_SOV/GroupeCombat,
+        ~/Descriptor_Unit_VDV_Combine_SOV/LandMovement,
+        ~/Descriptor_Unit_VDV_Combine_SOV/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_VDV_HMG_SOV is TEntityDescriptor
 (
     DescriptorId       = GUID:{52e5bbad-6049-42e9-b99f-92524c46d5ad}
@@ -33081,6 +34660,45 @@ Descriptor_UnitCadavre_VDV_SOV is TEntityDescriptor
         ~/Descriptor_Unit_VDV_SOV/GroupeCombat,
         ~/Descriptor_Unit_VDV_SOV/LandMovement,
         ~/Descriptor_Unit_VDV_SOV/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_VIB_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{70f4ac9d-725d-4b54-8c24-9ab622f2d707}
+    ClassNameForDebug  = 'Unit_CadavreVIB_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Tank
+            TypeUnitFormation                = 'Char'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        ~/UnitCadavrePositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsVehicule = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Unite_forte
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_VIB_FR/WeaponManager,
+                ~/Descriptor_Unit_VIB_FR/ApparenceModel,
+                ~/Descriptor_Unit_VIB_FR/LandMovement,
+                ~/Descriptor_Unit_VIB_FR/GenericMovement,
+                ~/Descriptor_Unit_VIB_FR/Transporter,
+            ]
+        ),
+        ~/Descriptor_Unit_VIB_FR/WeaponManager,
+        ~/Descriptor_Unit_VIB_FR/ApparenceModel,
+        ~/Descriptor_Unit_VIB_FR/LandMovement,
+        ~/Descriptor_Unit_VIB_FR/GenericMovement,
+        ~/Descriptor_Unit_VIB_FR/Transporter,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -34719,6 +36337,51 @@ Descriptor_UnitCadavre_Alouette_III_FR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Alouette_III_SS11_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{24628344-4b8c-4436-a883-03e2e8a39ff8}
+    ClassNameForDebug  = 'Unit_CadavreAlouette_III_SS11_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        HelicopterCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 106
+            NearGroundFlyingAltitudeGRU   = 22
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsHelico = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Helico_Ultra_Leger
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Alouette_III_SS11_FR/WeaponManager,
+                ~/Descriptor_Unit_Alouette_III_SS11_FR/ApparenceModel,
+                ~/Descriptor_Unit_Alouette_III_SS11_FR/HelicopterMovement,
+                ~/Descriptor_Unit_Alouette_III_SS11_FR/HeliApparence,
+                ~/Descriptor_Unit_Alouette_III_SS11_FR/GenericMovement,
+                ~/Descriptor_Unit_Alouette_III_SS11_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Alouette_III_SS11_FR/WeaponManager,
+        ~/Descriptor_Unit_Alouette_III_SS11_FR/ApparenceModel,
+        ~/Descriptor_Unit_Alouette_III_SS11_FR/HelicopterMovement,
+        ~/Descriptor_Unit_Alouette_III_SS11_FR/HeliApparence,
+        ~/Descriptor_Unit_Alouette_III_SS11_FR/GenericMovement,
+        ~/Descriptor_Unit_Alouette_III_SS11_FR/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Alouette_III_reco_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{71c13228-da19-4e17-94da-41a4d24df885}
@@ -34756,6 +36419,49 @@ Descriptor_UnitCadavre_Alouette_III_reco_FR is TEntityDescriptor
         ~/Descriptor_Unit_Alouette_III_reco_FR/HelicopterMovement,
         ~/Descriptor_Unit_Alouette_III_reco_FR/HeliApparence,
         ~/Descriptor_Unit_Alouette_III_reco_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Alouette_II_CMD_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{4073d2e9-59c7-4a23-bcdc-79034a7c4c32}
+    ClassNameForDebug  = 'Unit_CadavreAlouette_II_CMD_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        HelicopterCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 106
+            NearGroundFlyingAltitudeGRU   = 22
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsHelico = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Helico_Leger
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Alouette_II_CMD_FR/ApparenceModel,
+                ~/Descriptor_Unit_Alouette_II_CMD_FR/HelicopterMovement,
+                ~/Descriptor_Unit_Alouette_II_CMD_FR/HeliApparence,
+                ~/Descriptor_Unit_Alouette_II_CMD_FR/GenericMovement,
+                ~/Descriptor_Unit_Alouette_II_CMD_FR/Transporter,
+            ]
+        ),
+        ~/Descriptor_Unit_Alouette_II_CMD_FR/ApparenceModel,
+        ~/Descriptor_Unit_Alouette_II_CMD_FR/HelicopterMovement,
+        ~/Descriptor_Unit_Alouette_II_CMD_FR/HeliApparence,
+        ~/Descriptor_Unit_Alouette_II_CMD_FR/GenericMovement,
+        ~/Descriptor_Unit_Alouette_II_CMD_FR/Transporter,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -34879,6 +36585,49 @@ Descriptor_UnitCadavre_Alouette_II_reco_RFA is TEntityDescriptor
         ~/Descriptor_Unit_Alouette_II_reco_RFA/HelicopterMovement,
         ~/Descriptor_Unit_Alouette_II_reco_RFA/HeliApparence,
         ~/Descriptor_Unit_Alouette_II_reco_RFA/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Alouette_II_trans_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{ea700dd4-113b-4dd8-849e-7556a7d31037}
+    ClassNameForDebug  = 'Unit_CadavreAlouette_II_trans_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        HelicopterCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 106
+            NearGroundFlyingAltitudeGRU   = 22
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsHelico = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Helico_Leger
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Alouette_II_trans_FR/ApparenceModel,
+                ~/Descriptor_Unit_Alouette_II_trans_FR/HelicopterMovement,
+                ~/Descriptor_Unit_Alouette_II_trans_FR/HeliApparence,
+                ~/Descriptor_Unit_Alouette_II_trans_FR/GenericMovement,
+                ~/Descriptor_Unit_Alouette_II_trans_FR/Transporter,
+            ]
+        ),
+        ~/Descriptor_Unit_Alouette_II_trans_FR/ApparenceModel,
+        ~/Descriptor_Unit_Alouette_II_trans_FR/HelicopterMovement,
+        ~/Descriptor_Unit_Alouette_II_trans_FR/HeliApparence,
+        ~/Descriptor_Unit_Alouette_II_trans_FR/GenericMovement,
+        ~/Descriptor_Unit_Alouette_II_trans_FR/Transporter,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -35387,6 +37136,90 @@ Descriptor_UnitCadavre_EH60A_EW_US is TEntityDescriptor
         ~/Descriptor_Unit_EH60A_EW_US/HelicopterMovement,
         ~/Descriptor_Unit_EH60A_EW_US/HeliApparence,
         ~/Descriptor_Unit_EH60A_EW_US/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Ecureuil_20mm_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{11de1f24-bebf-404d-b0a6-659827bb379e}
+    ClassNameForDebug  = 'Unit_CadavreEcureuil_20mm_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_HeliAttack
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        HelicopterCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 106
+            NearGroundFlyingAltitudeGRU   = 17
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsHelico = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Helico_Ultra_Leger
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Ecureuil_20mm_FR/WeaponManager,
+                ~/Descriptor_Unit_Ecureuil_20mm_FR/ApparenceModel,
+                ~/Descriptor_Unit_Ecureuil_20mm_FR/HelicopterMovement,
+                ~/Descriptor_Unit_Ecureuil_20mm_FR/HeliApparence,
+                ~/Descriptor_Unit_Ecureuil_20mm_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Ecureuil_20mm_FR/WeaponManager,
+        ~/Descriptor_Unit_Ecureuil_20mm_FR/ApparenceModel,
+        ~/Descriptor_Unit_Ecureuil_20mm_FR/HelicopterMovement,
+        ~/Descriptor_Unit_Ecureuil_20mm_FR/HeliApparence,
+        ~/Descriptor_Unit_Ecureuil_20mm_FR/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Ecureuil_reco_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{dce4f72c-bb2a-4389-b6b0-76da693e4c4b}
+    ClassNameForDebug  = 'Unit_CadavreEcureuil_reco_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        HelicopterCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 106
+            NearGroundFlyingAltitudeGRU   = 17
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsHelico = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Helico_Ultra_Leger
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Ecureuil_reco_FR/ApparenceModel,
+                ~/Descriptor_Unit_Ecureuil_reco_FR/HelicopterMovement,
+                ~/Descriptor_Unit_Ecureuil_reco_FR/HeliApparence,
+                ~/Descriptor_Unit_Ecureuil_reco_FR/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Ecureuil_reco_FR/ApparenceModel,
+        ~/Descriptor_Unit_Ecureuil_reco_FR/HelicopterMovement,
+        ~/Descriptor_Unit_Ecureuil_reco_FR/HeliApparence,
+        ~/Descriptor_Unit_Ecureuil_reco_FR/GenericMovement,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -39790,6 +41623,90 @@ Descriptor_UnitCadavre_Alpha_Jet_BEL is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Alpha_Jet_E_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{db31f228-a3a7-44c2-8aef-397517e57ff3}
+    ClassNameForDebug  = 'Unit_CadavreAlpha_Jet_E_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Alpha_Jet_E_FR/WeaponManager,
+                ~/Descriptor_Unit_Alpha_Jet_E_FR/ApparenceModel,
+                ~/Descriptor_Unit_Alpha_Jet_E_FR/AirplaneMovement,
+                ~/Descriptor_Unit_Alpha_Jet_E_FR/GenericMovement,
+                ~/Descriptor_Unit_Alpha_Jet_E_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Alpha_Jet_E_FR/WeaponManager,
+        ~/Descriptor_Unit_Alpha_Jet_E_FR/ApparenceModel,
+        ~/Descriptor_Unit_Alpha_Jet_E_FR/AirplaneMovement,
+        ~/Descriptor_Unit_Alpha_Jet_E_FR/GenericMovement,
+        ~/Descriptor_Unit_Alpha_Jet_E_FR/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Alpha_Jet_E_NPLM_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{d4be1afe-063a-49dd-83d3-e6ddc87ea391}
+    ClassNameForDebug  = 'Unit_CadavreAlpha_Jet_E_NPLM_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Alpha_Jet_E_NPLM_FR/WeaponManager,
+                ~/Descriptor_Unit_Alpha_Jet_E_NPLM_FR/ApparenceModel,
+                ~/Descriptor_Unit_Alpha_Jet_E_NPLM_FR/AirplaneMovement,
+                ~/Descriptor_Unit_Alpha_Jet_E_NPLM_FR/GenericMovement,
+                ~/Descriptor_Unit_Alpha_Jet_E_NPLM_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Alpha_Jet_E_NPLM_FR/WeaponManager,
+        ~/Descriptor_Unit_Alpha_Jet_E_NPLM_FR/ApparenceModel,
+        ~/Descriptor_Unit_Alpha_Jet_E_NPLM_FR/AirplaneMovement,
+        ~/Descriptor_Unit_Alpha_Jet_E_NPLM_FR/GenericMovement,
+        ~/Descriptor_Unit_Alpha_Jet_E_NPLM_FR/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Alpha_Jet_HE2_BEL is TEntityDescriptor
 (
     DescriptorId       = GUID:{e3d130c0-719a-44ab-99d3-96f06d9d210a}
@@ -39996,6 +41913,90 @@ Descriptor_UnitCadavre_Buccaneer_S2B_SEAD_UK is TEntityDescriptor
         ~/Descriptor_Unit_Buccaneer_S2B_SEAD_UK/AirplaneMovement,
         ~/Descriptor_Unit_Buccaneer_S2B_SEAD_UK/GenericMovement,
         ~/Descriptor_Unit_Buccaneer_S2B_SEAD_UK/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_CM170_Magister_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{9f36496d-2c97-4013-bc6f-d36e1f07a6f9}
+    ClassNameForDebug  = 'Unit_CadavreCM170_Magister_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_Reco
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_CM170_Magister_FR/WeaponManager,
+                ~/Descriptor_Unit_CM170_Magister_FR/ApparenceModel,
+                ~/Descriptor_Unit_CM170_Magister_FR/AirplaneMovement,
+                ~/Descriptor_Unit_CM170_Magister_FR/GenericMovement,
+                ~/Descriptor_Unit_CM170_Magister_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_CM170_Magister_FR/WeaponManager,
+        ~/Descriptor_Unit_CM170_Magister_FR/ApparenceModel,
+        ~/Descriptor_Unit_CM170_Magister_FR/AirplaneMovement,
+        ~/Descriptor_Unit_CM170_Magister_FR/GenericMovement,
+        ~/Descriptor_Unit_CM170_Magister_FR/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_CM170_Magister_SS11_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{e15b90dd-75f5-4723-9937-bc0c734623dd}
+    ClassNameForDebug  = 'Unit_CadavreCM170_Magister_SS11_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_CM170_Magister_SS11_FR/WeaponManager,
+                ~/Descriptor_Unit_CM170_Magister_SS11_FR/ApparenceModel,
+                ~/Descriptor_Unit_CM170_Magister_SS11_FR/AirplaneMovement,
+                ~/Descriptor_Unit_CM170_Magister_SS11_FR/GenericMovement,
+                ~/Descriptor_Unit_CM170_Magister_SS11_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_CM170_Magister_SS11_FR/WeaponManager,
+        ~/Descriptor_Unit_CM170_Magister_SS11_FR/ApparenceModel,
+        ~/Descriptor_Unit_CM170_Magister_SS11_FR/AirplaneMovement,
+        ~/Descriptor_Unit_CM170_Magister_SS11_FR/GenericMovement,
+        ~/Descriptor_Unit_CM170_Magister_SS11_FR/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -41630,6 +43631,90 @@ Descriptor_UnitCadavre_F4_Wild_Weasel_US is TEntityDescriptor
         ~/Descriptor_Unit_F4_Wild_Weasel_US/AirplaneMovement,
         ~/Descriptor_Unit_F4_Wild_Weasel_US/GenericMovement,
         ~/Descriptor_Unit_F4_Wild_Weasel_US/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_F8P_Crusader_AA2_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{6168889c-8290-4faa-a4d1-427e511abfcf}
+    ClassNameForDebug  = 'Unit_CadavreF8P_Crusader_AA2_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_F8P_Crusader_AA2_FR/WeaponManager,
+                ~/Descriptor_Unit_F8P_Crusader_AA2_FR/ApparenceModel,
+                ~/Descriptor_Unit_F8P_Crusader_AA2_FR/AirplaneMovement,
+                ~/Descriptor_Unit_F8P_Crusader_AA2_FR/GenericMovement,
+                ~/Descriptor_Unit_F8P_Crusader_AA2_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_F8P_Crusader_AA2_FR/WeaponManager,
+        ~/Descriptor_Unit_F8P_Crusader_AA2_FR/ApparenceModel,
+        ~/Descriptor_Unit_F8P_Crusader_AA2_FR/AirplaneMovement,
+        ~/Descriptor_Unit_F8P_Crusader_AA2_FR/GenericMovement,
+        ~/Descriptor_Unit_F8P_Crusader_AA2_FR/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_F8P_Crusader_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{a0d6294f-77eb-4491-ad74-d45ad70fed29}
+    ClassNameForDebug  = 'Unit_CadavreF8P_Crusader_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_F8P_Crusader_FR/WeaponManager,
+                ~/Descriptor_Unit_F8P_Crusader_FR/ApparenceModel,
+                ~/Descriptor_Unit_F8P_Crusader_FR/AirplaneMovement,
+                ~/Descriptor_Unit_F8P_Crusader_FR/GenericMovement,
+                ~/Descriptor_Unit_F8P_Crusader_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_F8P_Crusader_FR/WeaponManager,
+        ~/Descriptor_Unit_F8P_Crusader_FR/ApparenceModel,
+        ~/Descriptor_Unit_F8P_Crusader_FR/AirplaneMovement,
+        ~/Descriptor_Unit_F8P_Crusader_FR/GenericMovement,
+        ~/Descriptor_Unit_F8P_Crusader_FR/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -44320,6 +46405,90 @@ Descriptor_UnitCadavre_MiG_31M_SOV is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_MiG_31_AA1_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{842218f4-a4f3-489d-aeb3-b42998e29b72}
+    ClassNameForDebug  = 'Unit_CadavreMiG_31_AA1_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_AirSup
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 1236
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_MiG_31_AA1_SOV/WeaponManager,
+                ~/Descriptor_Unit_MiG_31_AA1_SOV/ApparenceModel,
+                ~/Descriptor_Unit_MiG_31_AA1_SOV/AirplaneMovement,
+                ~/Descriptor_Unit_MiG_31_AA1_SOV/GenericMovement,
+                ~/Descriptor_Unit_MiG_31_AA1_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_MiG_31_AA1_SOV/WeaponManager,
+        ~/Descriptor_Unit_MiG_31_AA1_SOV/ApparenceModel,
+        ~/Descriptor_Unit_MiG_31_AA1_SOV/AirplaneMovement,
+        ~/Descriptor_Unit_MiG_31_AA1_SOV/GenericMovement,
+        ~/Descriptor_Unit_MiG_31_AA1_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_MiG_31_AA2_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{96835a38-f0ef-4a61-aaa5-ddfbab23c9e9}
+    ClassNameForDebug  = 'Unit_CadavreMiG_31_AA2_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_AirSup
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 1236
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_MiG_31_AA2_SOV/WeaponManager,
+                ~/Descriptor_Unit_MiG_31_AA2_SOV/ApparenceModel,
+                ~/Descriptor_Unit_MiG_31_AA2_SOV/AirplaneMovement,
+                ~/Descriptor_Unit_MiG_31_AA2_SOV/GenericMovement,
+                ~/Descriptor_Unit_MiG_31_AA2_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_MiG_31_AA2_SOV/WeaponManager,
+        ~/Descriptor_Unit_MiG_31_AA2_SOV/ApparenceModel,
+        ~/Descriptor_Unit_MiG_31_AA2_SOV/AirplaneMovement,
+        ~/Descriptor_Unit_MiG_31_AA2_SOV/GenericMovement,
+        ~/Descriptor_Unit_MiG_31_AA2_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Mirage_2000_C_FR is TEntityDescriptor
 (
     DescriptorId       = GUID:{85e6c6ee-ebc8-40c5-b840-50794576beab}
@@ -44908,6 +47077,44 @@ Descriptor_UnitCadavre_Mirage_IV_SEAD_FR is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Pchela_1T_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{ccf2bebb-5cea-47da-850c-ef03bb59bd5f}
+    ClassNameForDebug  = 'Unit_CadavrePchela_1T_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Pchela_1T_SOV/ApparenceModel,
+                ~/Descriptor_Unit_Pchela_1T_SOV/AirplaneMovement,
+                ~/Descriptor_Unit_Pchela_1T_SOV/GenericMovement,
+            ]
+        ),
+        ~/Descriptor_Unit_Pchela_1T_SOV/ApparenceModel,
+        ~/Descriptor_Unit_Pchela_1T_SOV/AirplaneMovement,
+        ~/Descriptor_Unit_Pchela_1T_SOV/GenericMovement,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Su_17M4_SOV is TEntityDescriptor
 (
     DescriptorId       = GUID:{83cb4dad-f727-4a29-9d64-aecdba66aa34}
@@ -45448,6 +47655,48 @@ Descriptor_UnitCadavre_Su_24MP_EW_SOV is TEntityDescriptor
         ~/DebugModuleDescriptor,
     ]
 )
+Descriptor_UnitCadavre_Su_24MP_SEAD2_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{5d3f6238-ed53-41f5-a918-7149b20c6852}
+    ClassNameForDebug  = 'Unit_CadavreSu_24MP_SEAD2_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Su_24MP_SEAD2_SOV/WeaponManager,
+                ~/Descriptor_Unit_Su_24MP_SEAD2_SOV/ApparenceModel,
+                ~/Descriptor_Unit_Su_24MP_SEAD2_SOV/AirplaneMovement,
+                ~/Descriptor_Unit_Su_24MP_SEAD2_SOV/GenericMovement,
+                ~/Descriptor_Unit_Su_24MP_SEAD2_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Su_24MP_SEAD2_SOV/WeaponManager,
+        ~/Descriptor_Unit_Su_24MP_SEAD2_SOV/ApparenceModel,
+        ~/Descriptor_Unit_Su_24MP_SEAD2_SOV/AirplaneMovement,
+        ~/Descriptor_Unit_Su_24MP_SEAD2_SOV/GenericMovement,
+        ~/Descriptor_Unit_Su_24MP_SEAD2_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
 Descriptor_UnitCadavre_Su_24MP_SOV is TEntityDescriptor
 (
     DescriptorId       = GUID:{f84a344a-38fe-40d4-878b-906a018cb208}
@@ -45486,6 +47735,132 @@ Descriptor_UnitCadavre_Su_24MP_SOV is TEntityDescriptor
         ~/Descriptor_Unit_Su_24MP_SOV/AirplaneMovement,
         ~/Descriptor_Unit_Su_24MP_SOV/GenericMovement,
         ~/Descriptor_Unit_Su_24MP_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Su_24M_AT1_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{0efaf32b-d5ba-4290-b13b-3dacbc11d00c}
+    ClassNameForDebug  = 'Unit_CadavreSu_24M_AT1_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Su_24M_AT1_SOV/WeaponManager,
+                ~/Descriptor_Unit_Su_24M_AT1_SOV/ApparenceModel,
+                ~/Descriptor_Unit_Su_24M_AT1_SOV/AirplaneMovement,
+                ~/Descriptor_Unit_Su_24M_AT1_SOV/GenericMovement,
+                ~/Descriptor_Unit_Su_24M_AT1_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Su_24M_AT1_SOV/WeaponManager,
+        ~/Descriptor_Unit_Su_24M_AT1_SOV/ApparenceModel,
+        ~/Descriptor_Unit_Su_24M_AT1_SOV/AirplaneMovement,
+        ~/Descriptor_Unit_Su_24M_AT1_SOV/GenericMovement,
+        ~/Descriptor_Unit_Su_24M_AT1_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Su_24M_AT2_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{4495b103-e538-4feb-ac75-2eec57c60ad5}
+    ClassNameForDebug  = 'Unit_CadavreSu_24M_AT2_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Su_24M_AT2_SOV/WeaponManager,
+                ~/Descriptor_Unit_Su_24M_AT2_SOV/ApparenceModel,
+                ~/Descriptor_Unit_Su_24M_AT2_SOV/AirplaneMovement,
+                ~/Descriptor_Unit_Su_24M_AT2_SOV/GenericMovement,
+                ~/Descriptor_Unit_Su_24M_AT2_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Su_24M_AT2_SOV/WeaponManager,
+        ~/Descriptor_Unit_Su_24M_AT2_SOV/ApparenceModel,
+        ~/Descriptor_Unit_Su_24M_AT2_SOV/AirplaneMovement,
+        ~/Descriptor_Unit_Su_24M_AT2_SOV/GenericMovement,
+        ~/Descriptor_Unit_Su_24M_AT2_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Su_24M_LGB2_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{9bdd6a40-5e32-4f3c-940c-f28b53c32e73}
+    ClassNameForDebug  = 'Unit_CadavreSu_24M_LGB2_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Su_24M_LGB2_SOV/WeaponManager,
+                ~/Descriptor_Unit_Su_24M_LGB2_SOV/ApparenceModel,
+                ~/Descriptor_Unit_Su_24M_LGB2_SOV/AirplaneMovement,
+                ~/Descriptor_Unit_Su_24M_LGB2_SOV/GenericMovement,
+                ~/Descriptor_Unit_Su_24M_LGB2_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Su_24M_LGB2_SOV/WeaponManager,
+        ~/Descriptor_Unit_Su_24M_LGB2_SOV/ApparenceModel,
+        ~/Descriptor_Unit_Su_24M_LGB2_SOV/AirplaneMovement,
+        ~/Descriptor_Unit_Su_24M_LGB2_SOV/GenericMovement,
+        ~/Descriptor_Unit_Su_24M_LGB2_SOV/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -45696,6 +48071,48 @@ Descriptor_UnitCadavre_Su_24M_nplm_SOV is TEntityDescriptor
         ~/Descriptor_Unit_Su_24M_nplm_SOV/AirplaneMovement,
         ~/Descriptor_Unit_Su_24M_nplm_SOV/GenericMovement,
         ~/Descriptor_Unit_Su_24M_nplm_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Su_24M_thermo_SOV is TEntityDescriptor
+(
+    DescriptorId       = GUID:{e7dd945d-339d-4016-a417-5f2971996c0b}
+    ClassNameForDebug  = 'Unit_CadavreSu_24M_thermo_SOV'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Axis
+            MotherCountry                    = 'SOV'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Su_24M_thermo_SOV/WeaponManager,
+                ~/Descriptor_Unit_Su_24M_thermo_SOV/ApparenceModel,
+                ~/Descriptor_Unit_Su_24M_thermo_SOV/AirplaneMovement,
+                ~/Descriptor_Unit_Su_24M_thermo_SOV/GenericMovement,
+                ~/Descriptor_Unit_Su_24M_thermo_SOV/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Su_24M_thermo_SOV/WeaponManager,
+        ~/Descriptor_Unit_Su_24M_thermo_SOV/ApparenceModel,
+        ~/Descriptor_Unit_Su_24M_thermo_SOV/AirplaneMovement,
+        ~/Descriptor_Unit_Su_24M_thermo_SOV/GenericMovement,
+        ~/Descriptor_Unit_Su_24M_thermo_SOV/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]
@@ -45990,6 +48407,174 @@ Descriptor_UnitCadavre_Su_27S_SOV is TEntityDescriptor
         ~/Descriptor_Unit_Su_27S_SOV/AirplaneMovement,
         ~/Descriptor_Unit_Su_27S_SOV/GenericMovement,
         ~/Descriptor_Unit_Su_27S_SOV/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Super_Etendard_AT_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{539d5874-e44f-4124-9af1-a067d7d12802}
+    ClassNameForDebug  = 'Unit_CadavreSuper_Etendard_AT_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Super_Etendard_AT_FR/WeaponManager,
+                ~/Descriptor_Unit_Super_Etendard_AT_FR/ApparenceModel,
+                ~/Descriptor_Unit_Super_Etendard_AT_FR/AirplaneMovement,
+                ~/Descriptor_Unit_Super_Etendard_AT_FR/GenericMovement,
+                ~/Descriptor_Unit_Super_Etendard_AT_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Super_Etendard_AT_FR/WeaponManager,
+        ~/Descriptor_Unit_Super_Etendard_AT_FR/ApparenceModel,
+        ~/Descriptor_Unit_Super_Etendard_AT_FR/AirplaneMovement,
+        ~/Descriptor_Unit_Super_Etendard_AT_FR/GenericMovement,
+        ~/Descriptor_Unit_Super_Etendard_AT_FR/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Super_Etendard_CLU_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{86236552-dd71-49a0-a18e-a4e222eb044a}
+    ClassNameForDebug  = 'Unit_CadavreSuper_Etendard_CLU_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Super_Etendard_CLU_FR/WeaponManager,
+                ~/Descriptor_Unit_Super_Etendard_CLU_FR/ApparenceModel,
+                ~/Descriptor_Unit_Super_Etendard_CLU_FR/AirplaneMovement,
+                ~/Descriptor_Unit_Super_Etendard_CLU_FR/GenericMovement,
+                ~/Descriptor_Unit_Super_Etendard_CLU_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Super_Etendard_CLU_FR/WeaponManager,
+        ~/Descriptor_Unit_Super_Etendard_CLU_FR/ApparenceModel,
+        ~/Descriptor_Unit_Super_Etendard_CLU_FR/AirplaneMovement,
+        ~/Descriptor_Unit_Super_Etendard_CLU_FR/GenericMovement,
+        ~/Descriptor_Unit_Super_Etendard_CLU_FR/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Super_Etendard_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{bd27a7c8-5da8-44ef-9822-82440828a610}
+    ClassNameForDebug  = 'Unit_CadavreSuper_Etendard_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Super_Etendard_FR/WeaponManager,
+                ~/Descriptor_Unit_Super_Etendard_FR/ApparenceModel,
+                ~/Descriptor_Unit_Super_Etendard_FR/AirplaneMovement,
+                ~/Descriptor_Unit_Super_Etendard_FR/GenericMovement,
+                ~/Descriptor_Unit_Super_Etendard_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Super_Etendard_FR/WeaponManager,
+        ~/Descriptor_Unit_Super_Etendard_FR/ApparenceModel,
+        ~/Descriptor_Unit_Super_Etendard_FR/AirplaneMovement,
+        ~/Descriptor_Unit_Super_Etendard_FR/GenericMovement,
+        ~/Descriptor_Unit_Super_Etendard_FR/MissileCarriage,
+        ~/PackSignauxModuleDescriptor,
+        ~/DebugModuleDescriptor,
+    ]
+)
+Descriptor_UnitCadavre_Super_Etendard_HE_FR is TEntityDescriptor
+(
+    DescriptorId       = GUID:{63460d7c-b5fc-492c-9b7c-12b1e44199ee}
+    ClassNameForDebug  = 'Unit_CadavreSuper_Etendard_HE_FR'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Nationalite                      = ENationalite/Allied
+            MotherCountry                    = 'FR'
+            AcknowUnitType                   = ~/TAcknowUnitType_GroundAtk
+            TypeUnitFormation                = 'None'
+        ),
+        ~/EmptyTagsModuleDescriptor,
+        ~/CadavreFlagsModuleDescriptor,
+        AirplaneCadavrePositionModuleDescriptor
+        (
+            LowAltitudeFlyingAltitudeGRU  = 706
+        ),
+        ~/LinkTeamModuleDescriptor,
+        UnitCadavreModuleDescriptor
+        (
+            KillAsAirplane = True
+            CadavreDuration = ~/CadavreDurationApresFeu
+            DeathExplosionAmmo = $/GFX/Weapon/Ammo_Mort_Avion_UltraLourd
+            ModuleDescriptorsToSteal =
+            [
+                ~/Descriptor_Unit_Super_Etendard_HE_FR/WeaponManager,
+                ~/Descriptor_Unit_Super_Etendard_HE_FR/ApparenceModel,
+                ~/Descriptor_Unit_Super_Etendard_HE_FR/AirplaneMovement,
+                ~/Descriptor_Unit_Super_Etendard_HE_FR/GenericMovement,
+                ~/Descriptor_Unit_Super_Etendard_HE_FR/MissileCarriage,
+            ]
+        ),
+        ~/Descriptor_Unit_Super_Etendard_HE_FR/WeaponManager,
+        ~/Descriptor_Unit_Super_Etendard_HE_FR/ApparenceModel,
+        ~/Descriptor_Unit_Super_Etendard_HE_FR/AirplaneMovement,
+        ~/Descriptor_Unit_Super_Etendard_HE_FR/GenericMovement,
+        ~/Descriptor_Unit_Super_Etendard_HE_FR/MissileCarriage,
         ~/PackSignauxModuleDescriptor,
         ~/DebugModuleDescriptor,
     ]

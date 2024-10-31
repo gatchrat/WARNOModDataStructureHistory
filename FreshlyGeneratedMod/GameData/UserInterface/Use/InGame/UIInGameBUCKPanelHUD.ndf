@@ -29,10 +29,6 @@ template GenericPanelHUD [
     ContentMagnifiableLeftRightMargins : float = 0.0,
     ContentMagnifiableTopBottomMargins : float = 0.0,
     ContentBackgroundBlockColorToken : string = '0',
-    ContentHasGradient : boolean = true,
-    ContentBackgroundGradientBlockColor0 : string = "0",
-    ContentBackgroundGradientBlockColor1 : string = "1",
-    ContentGradientMagnifiableHeight : float = 0.0,
     ContentComponents : LIST<TBUCKContainerDescriptor>,
     HasBackground,
 
@@ -98,17 +94,13 @@ is BUCKContainerDescriptor
                     (
                         HasBackground = <HasBackground>
                         UniqueName = <ContentUniqueName>
-                        HasGradient = <ContentHasGradient>
                         Components = <ContentComponents>
                         Height = <ContentHeight>
                         Width = <PanelMagnifiableWidth>
                         RelativeWidth = <PanelRelativeWidth>
-                        GradientMagnifiableHeight = <ContentGradientMagnifiableHeight>
                         TopBottomMargin = <ContentMagnifiableTopBottomMargins>
                         LeftRightMargin = <ContentMagnifiableLeftRightMargins>
                         BackgroundBlockColorToken = <ContentBackgroundBlockColorToken>
-                        BackgroundGradientBlockColor0 = <ContentBackgroundGradientBlockColor0>
-                        BackgroundGradientBlockColor1 = <ContentBackgroundGradientBlockColor1>
                         LastExtendedWeight = <LastExtendedWeight>
                     )
                     ExtendWeight = 1
@@ -197,27 +189,7 @@ is BUCKContainerDescriptor
     )
 )
 
-// Descripteur du gradient
-template GenericPanelHUD_GradientComponent [
-    ColorGradientTop : string = "0",
-    ColorGradientBottom : string = "1",
-    VerticalPercentageHeight : float,
-]
-is BUCKGradientDescriptor
-(
-    ComponentFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1,1] )
-
-    RelativeTransition0 = 1 - <VerticalPercentageHeight>
-    RelativeTransition1 = 1
-    RelativeTransition2 = 1
-    RelativeTransition3 = 1
-
-    BlockColorGradient0 = <ColorGradientTop>
-    BlockColorGradient1 = <ColorGradientBottom>
-    Vertical = true
-)
-
-NoGradientComponent_PanelHUD is BUCKContainerDescriptor
+Component_PanelHUD is BUCKContainerDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1,1] )
 )
@@ -225,17 +197,13 @@ NoGradientComponent_PanelHUD is BUCKContainerDescriptor
 // Descipteur du block de contenu du Panel
 template GenericPanelHUD_BlockContent [
     UniqueName : string = '',
-    HasGradient : boolean = true,
     Components : LIST<TBUCKContainerDescriptor>,
     Height : float,
     Width : float,
     RelativeWidth : float,
-    GradientMagnifiableHeight : float,
     TopBottomMargin : float = 0,
     LeftRightMargin : float = 0,
     BackgroundBlockColorToken : string = '0',
-    BackgroundGradientBlockColor0 : string = "0",
-    BackgroundGradientBlockColor1 : string = "1",
     LastExtendedWeight : boolean = false,
     HasBackground : boolean = true,
 ]
@@ -250,16 +218,8 @@ is BUCKContainerDescriptor
     HasBackground = <HasBackground>
     BackgroundBlockColorToken = <BackgroundBlockColorToken>
 
-    Components =
-        ( <HasGradient> ? [
-            GenericPanelHUD_GradientComponent
-            (
-                ColorGradientTop = <BackgroundGradientBlockColor0>
-                ColorGradientBottom = <BackgroundGradientBlockColor1>
-                VerticalPercentageHeight = <GradientMagnifiableHeight> div <Height>
-            )
-        ] : [ NoGradientComponent_PanelHUD ] ) +
-        [
+    Components = [
+        ~/Component_PanelHUD,
         BUCKContainerDescriptor
         (
             ComponentFrame = TUIFramePropertyRTTI
@@ -271,7 +231,7 @@ is BUCKContainerDescriptor
             )
             Components = <Components>
         )
-        ]
+    ]
 
     HidePointerEvents = true
 )

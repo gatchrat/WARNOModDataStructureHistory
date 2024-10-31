@@ -4,7 +4,7 @@
 
 // Maintains
 //-------------------------------------------------------------------------
-export Maintain_AirStrike is TMacroActionDescriptor_AirStrike_Specific
+export Maintain_AirStrike is TMacroActionDescriptor_AirStrike_Common
 (
     ParametresDeMission =
     [
@@ -22,7 +22,7 @@ private template Template_Airstrike
     AnnulerSupportSiAttaqueEchoue = false,
     AdditionnalParameter = []
 ]
-is TMacroActionDescriptor_AirStrike_Specific
+is TMacroActionDescriptor_AirStrike_Common
 (
     ParametresDeMission =
     [

@@ -23,9 +23,7 @@ export OutGameResourceSpecific is TUISpecificOutGameResources
     CommonResources             = ~/UICommonResource
     OptionManager               = $/GameOptionsInterface/GameOptionsInterfaceWrapper
 
-    MainStyleGuides             = [
-        ~/DefaultStyleGuide,
-    ]
+    MainStyleGuide              = ~/DefaultStyleGuide
 
     HUBContainerResource       = ~/outGameHUBContainerResource
     ActionScreensContainerResource = ~/outGameActionScreensContainerResource
@@ -69,6 +67,8 @@ export OutGameResourceSpecific is TUISpecificOutGameResources
     CombatRuleResources         = ~/CombatRuleResources
 
     CutSceneResources           = ~/outGameCutSceneResources
+
+    HintManagementProperties    = ~/HintManagementProperties
 
     //Sounds
     CountDownSound              = ~/OutgameSound_WG2_CountDownSound

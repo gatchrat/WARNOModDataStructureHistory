@@ -7,9 +7,7 @@ StrategicResource is TUISpecificStrategicResources
     UILayerLDHint               = $/UserInterface/UILayer_2DInterfaceLDHint
     CommonResources             = ~/UICommonResource
 
-    MainStyleGuides             = [
-        ~/DefaultStyleGuide,
-    ]
+    MainStyleGuide              = ~/DefaultStyleGuide
 
     ViewDescriptors = MAP
     [
@@ -353,7 +351,7 @@ private StrategicMainContainerResource is TUICommonMainContainerResource
 
 private StrategicOrderDisplayResources is TStrategicOrderDisplayResources
 (
-    Camera                      = $/M3D/Camera/CameraPrincipale
+    Camera                      = $/M3D/Misc/CameraPrincipale
     OrderDisplayUserInputLayer  = $/M3D/Input/UserInputLayerHandler/InputLayer_OrderDisplay
     OrderDisplayDrawer          = ~/StrategicOrderDisplayDrawer
 

@@ -9,7 +9,6 @@ private DefaultCommonTextStyle is TTextStyle
 
 CommonStyleGuide is TUIStyleGuide
 (
-    CommonResource = ~/UICommonResource
     Typeface = MAP [
         ("UIMainFont", $/M3D/Typefaces/Typeface_Debug),
     ]
@@ -18,23 +17,10 @@ CommonStyleGuide is TUIStyleGuide
         ("Default",                                     MAP [ ( ~/ComponentState/Normal, DefaultCommonTextStyle ), ]),
     ]
 
-    //TextSizes
-    TextSizesMap = MAP[
-        ("Editor/Button/Standard",                      MAP [ ( ~/ComponentState/Normal,    TFloatRTTI ( Value = Petit4 )), ]),
-    ]
-
     //LineSizes
     LineSizesMap = MAP[
         ("1",                                           MAP [ ( ~/ComponentState/Normal,     TFloatRTTI ( Value = 1 ) ), ]),
         ("Editor/Button/Border",                        MAP [ ( ~/ComponentState/Normal,    TFloatRTTI ( Value = LigneTresFine )), ]),
-    ]
-
-    //LineHeight
-    LineHeightsMap = MAP[
-    ]
-
-    //MagnifiableMargins
-    MagnifiableMarginsMap = MAP [
     ]
 
 //Colors
@@ -63,37 +49,5 @@ CommonStyleGuide is TUIStyleGuide
 
     //TextColors
     TextColorsMap = MAP [
-        ("Editor/Button/Standard",                      MAP [
-                                                            ( ~/ComponentState/Grayed,      TColorRTTI ( Color = Common_GrisMoyen ) ),
-                                                            ( ~/ComponentState/Normal,      TColorRTTI ( Color = Common_White ) ),
-                                                            ( ~/ComponentState/Highlighted, TColorRTTI ( Color = Common_White ) ),
-                                                            ( ~/ComponentState/Clicked,     TColorRTTI ( Color = Common_White ) ),
-                                                        ]),
     ]
-
-    // Proprietes de hint
-    HintManagementProperties = nil
-    HintableAreaDescriptor = nil
-
-    // TFS
-    TextFormatScript        = TTextFormatScriptRTTI
-    (
-        Commands = MAP
-        [
-            (
-                "default",
-                TTFSCommand_StyleChange
-                (
-                    Style = TTextStyle
-                    (
-                        FontSize    = 1.0
-                        ColorBottom = [  0,  0,  0,  0]
-                        ColorUp     = [  0,  0,  0,  0]
-                        ColorStroke = [  0,  0,  0,  0]
-                        Stroke = false
-                    )
-                )
-            ),
-        ]
-    )
 )

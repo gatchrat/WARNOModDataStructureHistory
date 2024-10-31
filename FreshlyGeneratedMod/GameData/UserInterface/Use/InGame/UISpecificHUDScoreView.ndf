@@ -497,8 +497,8 @@ BUCKSpecificHUDScorePlayerOneLine is BUCKListDescriptor
                     PanelRoundedCorner
                     (
                         Radius = 3
-                        BackgroundBlockColorToken = "BoutonTemps"
-                        BorderLineColorToken = "BoutonTemps"
+                        BackgroundBlockColorToken = "BoutonTemps_Background"
+                        BorderLineColorToken = "BoutonTemps_Line"
                     ),
                     BUCKTextureDescriptor
                     (
@@ -697,7 +697,7 @@ private PlayerScorePanelButton is BUCKContainerDescriptor
                     [
                         PanelRoundedCorner
                         (
-                            BackgroundBlockColorToken = "BoutonTemps"
+                            BackgroundBlockColorToken = "BoutonTemps_Background"
                             BorderLineColorToken = "CouleurBordure_boutonShortcuts"
                         )
                     ]

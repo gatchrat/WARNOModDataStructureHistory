@@ -17,7 +17,7 @@ template template_UnitLevelBuildViewDescriptor
 (
     SymbolDatabaseProxy = $/M3D/Scene/LevelBuildSymbolDatabaseProxy
     StateDatabaseProxy  = $/M3D/Scene/LevelBuildStateGeoDatabaseProxy
-    Camera              = $/M3D/Camera/CameraPrincipale
+    Camera              = $/M3D/Misc/CameraPrincipale
     WorldFloorProxy     = $/M3D/Scene/WorldFloorForOnlyGround
 
     MaskDestroyed = SDMask_Destroy

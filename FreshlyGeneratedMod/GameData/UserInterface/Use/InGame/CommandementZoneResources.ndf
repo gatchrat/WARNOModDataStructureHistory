@@ -1,6 +1,6 @@
 CommandementZoneResources is TCommandementZoneResources
 (
-    Camera          = $/M3D/Camera/CameraPrincipale
+    Camera          = $/M3D/Misc/CameraPrincipale
     WorldFloorProxy = $/M3D/Scene/WorldFloorForIAProxy
 
     LabelPositionOffset = [0,-11000]

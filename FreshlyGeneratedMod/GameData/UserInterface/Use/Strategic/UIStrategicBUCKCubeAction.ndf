@@ -40,7 +40,7 @@ StrategicCubeAction is GenericPanelHUD
     ContentMagnifiableLeftRightMargins = CubeActionStrategicButtonSpacing[0]
     ContentMagnifiableTopBottomMargins = CubeActionStrategicButtonSpacing[1]
     HasBackground = false
-    ContentHasGradient = false
+    ContentBackgroundBlockColorToken =  ""
     ContentComponents =
     [
         StrategicCubeActionButtonContainer( UniqueName=BUCKIdentifiers/IngameCubeActionButtonContainer1 Coords=[0,0] ),

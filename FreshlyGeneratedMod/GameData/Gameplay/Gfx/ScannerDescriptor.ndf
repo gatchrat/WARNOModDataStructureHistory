@@ -3,15 +3,6 @@ export ScannerModuleDescriptor is TReverseScannerWithIdentificationDescriptor
     VisibilityRollRule = TModernWarfareVisibilityRollRule
     (
         VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
-        DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
-        (
-            MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
-            MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
-            Exposant                                 = DefaultExposant
-            MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
-            MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
-            ExposantEnMouvement                      = DefaultExposantEnMouvement
-        )
     )
 )
 

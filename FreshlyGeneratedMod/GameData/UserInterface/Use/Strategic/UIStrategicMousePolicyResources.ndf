@@ -351,7 +351,7 @@ StrategicMouseWidgetSelector_Default is TUIStrategicMouseWidgetSelectorDefault
 private StrategicMousePolicyManagerResources is TUIStrategicMousePolicyManagerResources
 (
     KeyBoardPresetUpdater   = $/KeyboardPreset/KeyboardPresetUpdater
-    Camera                  = $/M3D/Camera/CameraPrincipale
+    Camera                  = $/M3D/Misc/CameraPrincipale
     World3D                 = $/M3D/Scene/DefaultWorld
     Scene3D                 = $/M3D/Scene/Scene_2D_Interface
 

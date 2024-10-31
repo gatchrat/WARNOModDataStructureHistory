@@ -225,6 +225,8 @@ ServeurNombreDeJoueurs is BUCKListDescriptor
                     (
                         ComponentDescriptor = BUCKTextDescriptor
                         (
+                            ElementName = "PlayerMaxNumber"
+
                             ParagraphStyle = TParagraphStyle
                             (
                                 Alignment = UIText_Center
@@ -237,8 +239,6 @@ ServeurNombreDeJoueurs is BUCKListDescriptor
 
                             TextDico = ~/LocalisationConstantes/dico_interface_outgame
                             TypefaceToken = "UIMainFont"
-
-                            TextToken = "QCK_nbMax"
 
                             TextStyle = "MouseWidget/TextModule"
                             TextColor = "Gris_QuickServeur"
@@ -331,6 +331,14 @@ UISpecificMultiLobbyShortcutsViewDescriptor is TUISpecificMultiLobbyShortcutsVie
 
     LobbysToDisplay =
     [
+        TLobbyNDFDescriptor
+        (
+            NameToDisplay = "QCK_3V3T"
+            NumberOfPlayers = 6
+            InitMoney       = 1000
+            UseAutofill     = false
+            CombatRule      = ~/CombatRule/Conquest
+        ),
         TLobbyNDFDescriptor
         (
             NameToDisplay   = "QCK_10V10"

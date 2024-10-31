@@ -100,7 +100,7 @@ InGameGabaritResources is TUICommonGabaritResources
 (
     World3D = $/M3D/Scene/DefaultWorld
     Scene3D = $/M3D/Scene/Scene_2D_Interface
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
     AreaOfEffectRangeGabarit     = ~/TacticalFeedbackAreaOfEffectRangeGabaritResource
     AreaOfEffectRadiusGabarit    = ~/TacticalFeedbackAreaOfEffectRadiusGabaritResource
     SplashGabarit                = ~/TacticalFeedbackSplashGabaritResource

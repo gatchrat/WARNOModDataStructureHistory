@@ -400,7 +400,7 @@ OnTargetUnitDestroyed_ShowScoreOnDeadUnit is TUIFeedbackDispatchedMessageDescrip
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -652,7 +652,7 @@ OnAutomaticBehavior is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -697,7 +697,7 @@ OnUnitSold is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -742,7 +742,7 @@ OnGainXpLevel is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -786,7 +786,7 @@ OnIFV is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (

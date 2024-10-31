@@ -354,25 +354,6 @@ MouseWidgetSelector_Reverse is Template_MouseWidgetSelector_SimpleCursorWithTerr
 
 //--------------------------------------------------------
 
-MouseWidgetSelector_MoveAndAttack is TUIMouseWidgetSelector_MoveAndAttack
-(
-    MouseWidgetList = MAP
-    [
-        (Cursor_Default          , ~/MouseWidget_OrderMoveAndAttack),
-        (Cursor_SelectNeutralLand, ~/MouseWidget_OrderMoveAndAttack_WithTerrainFeedback),
-        (Cursor_None             , ~/MouseWidget_Blank),
-    ]
-
-    TextColorMap = MAP
-    [
-        (TextStyle_Invalid      , "WidgetSelector/Invalid"),
-    ]
-
-    MouseWidgetSelectorAttack = ~/MouseWidgetSelector_Attack
-)
-
-//--------------------------------------------------------
-
 MouseWidgetSelector_UnloadAtPosition is Template_MouseWidgetSelector_SimpleCursorWithTerrainFeedback
 (
     DefaultCursorWidget = ~/MouseWidget_OrderUnloadAtPosition
@@ -554,7 +535,6 @@ TerrainTypeToText is MAP
         (
             TitleToken = "foret"
             BodyToken = "foretB"
-            //ExtendedToken = "terr_aute" //TERR_02E"
         )
     ),
 
@@ -590,7 +570,6 @@ TerrainTypeToText is MAP
         (
             TitleToken = "rocher"
             BodyToken = "rocherB"
-            //ExtendedToken = "terr_roue"
         )
     ),
     (
@@ -598,8 +577,6 @@ TerrainTypeToText is MAP
         THintContentHolder
         (
             TitleToken = "TERR_05T"
-            //BodyToken = "TERR_05B"
-            //ExtendedToken = "TERR_05E"
         )
     ),
     (
@@ -608,7 +585,6 @@ TerrainTypeToText is MAP
         (
             TitleToken = "ruin"
             BodyToken = "ruinB"
-            //ExtendedToken = "terr_roue"
         )
     ),
 
@@ -783,39 +759,6 @@ MouseWidget_OrderReverse_WithTerrainFeedback is Template_HardwareMouseWidgetReso
         (ETerrainType/PetitBatiment,    ~/Mousecurseur_curseur_retour_coverh),
         (ETerrainType/Batiment,         ~/Mousecurseur_curseur_retour_coverh),
         (ETerrainType/Ruin,             ~/Mousecurseur_curseur_retour_coverh),
-    ]
-
-    StillTimeBeforeHintAppearance = 0.5
-    TerrainTypeToHintContent = TerrainTypeToText
-)
-
-//--------------------------------------------------------
-
-MouseWidget_OrderMoveAndAttack is Template_HardwareMouseWidgetResource
-(
-    RelativeTextPlacement = [1, 1.5]
-    HardwareMouseCursorAnimation = ~/Mousecurseur_mouvement_attaque
-)
-
-//--------------------------------------------------------
-
-MouseWidget_OrderMoveAndAttack_WithTerrainFeedback is Template_HardwareMouseWidgetResource_WithTerrainFeedback
-(
-    TerrainTypeToMouseCursorAnimation = MAP
-    [
-        (ETerrainType/Default,          ~/Mousecurseur_mouvement_attaque),
-        (ETerrainType/EauPeuProfonde,   ~/Mousecurseur_mouvement_attaque),
-        (ETerrainType/EauProfonde,      ~/Mousecurseur_mouvement_attaque),
-        (ETerrainType/Bloqueur,         ~/Mousecurseur_mouvement_attaque),
-        (ETerrainType/BloqueConstruction, ~/Mousecurseur_mouvement_attaque),
-        (ETerrainType/ForetLegere,      ~/Mousecurseur_mouvement_attaque_coverl),
-        (ETerrainType/ForetDense,       ~/Mousecurseur_mouvement_attaque_coverl),
-        (ETerrainType/LightSmoke,       ~/Mousecurseur_mouvement_attaque_coverl),
-        (ETerrainType/MediumSmoke,      ~/Mousecurseur_mouvement_attaque_coverl),
-        (ETerrainType/HeavySmoke,       ~/Mousecurseur_mouvement_attaque_coverh),
-        (ETerrainType/PetitBatiment,    ~/Mousecurseur_mouvement_attaque_coverh),
-        (ETerrainType/Batiment,         ~/Mousecurseur_mouvement_attaque_coverh),
-        (ETerrainType/Ruin,             ~/Mousecurseur_mouvement_attaque_coverh),
     ]
 
     StillTimeBeforeHintAppearance = 0.5
@@ -1103,7 +1046,7 @@ MouseWidget_Inefficient is Template_SoftwareMouseWidgetResource_Targeting
 
 private PathAndArrowSizeMultiplierHelper is TPathAndArrowSizeMultiplierHelper
 (
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
     LineSizeMultiplierParam = $/M3D/Shader/LineSizeMultiplierParamVector
 )
 
@@ -1142,7 +1085,7 @@ private SpawnUnitArrowDescriptor is TUIPathDescriptor
 InGameMousePolicyManagerResources is TUISpecificMousePolicyManagerResources
 (
     KeyBoardPresetUpdater   = $/KeyboardPreset/KeyboardPresetUpdater
-    Camera                  = $/M3D/Camera/CameraPrincipale
+    Camera                  = $/M3D/Misc/CameraPrincipale
     World3D                 = $/M3D/Scene/DefaultWorld
     Scene3D                 = $/M3D/Scene/Scene_2D_Interface
 

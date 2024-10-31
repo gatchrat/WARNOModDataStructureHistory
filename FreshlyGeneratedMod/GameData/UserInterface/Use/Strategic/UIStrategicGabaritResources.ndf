@@ -95,27 +95,16 @@ StrategicFeedbackDispersionGabaritResource is TStrategicFeedbackUICommonGabaritD
 )
 
 //-------------------------------------------------------------------------------------
-template StrategicFeedbackUICommonZoCDefinition
-[
-    ColorToken : string,
-    Thickness : float = 800.0
-]
-is TUICommonZoCDefinition
-(
-    ColorToken = <ColorToken>
-    Thickness = <Thickness>
-)
 
-//-------------------------------------------------------------------------------------
-
-FeedbackDisabledNoGoZoneResource is StrategicFeedbackUICommonZoCDefinition
+FeedbackDisabledNoGoZoneResource is TUICommonZoCDefinition
 (
     ColorToken = 'DisabledNoGoZone'
+    Thickness = 2000
 )
 
 //-------------------------------------------------------------------------------------
 
-FeedbackAirNoGoZoneResource is StrategicFeedbackUICommonZoCDefinition
+FeedbackAirNoGoZoneResource is TUICommonZoCDefinition
 (
     ColorToken = 'AirNoGoZone'
     Thickness = 2000
@@ -123,15 +112,7 @@ FeedbackAirNoGoZoneResource is StrategicFeedbackUICommonZoCDefinition
 
 //-------------------------------------------------------------------------------------
 
-FeedbackRecoZoneResource is StrategicFeedbackUICommonZoCDefinition
-(
-    ColorToken = 'RecoZone'
-    Thickness = 1100
-)
-
-//-------------------------------------------------------------------------------------
-
-FeedbackGroundSupportResource is StrategicFeedbackUICommonZoCDefinition
+FeedbackGroundSupportResource is TUICommonZoCDefinition
 (
     ColorToken = 'GroundSupportZone'
     Thickness = 1800
@@ -143,7 +124,7 @@ StrategicGabaritResources is TUICommonGabaritResources
 (
     World3D = $/M3D/Scene/DefaultWorld
     Scene3D = $/M3D/Scene/Scene_2D_Interface
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
     AreaOfEffectRangeGabarit     = ~/StrategicFeedbackAreaOfEffectRangeGabaritResource
     AreaOfEffectRadiusGabarit    = ~/StrategicFeedbackAreaOfEffectRadiusGabaritResource
     SplashGabarit                = ~/StrategicFeedbackSplashGabaritResource
@@ -157,7 +138,6 @@ StrategicZoCResources is TUICommonZoCResources
 (
     DisabledNoGoZone = ~/FeedbackDisabledNoGoZoneResource
     AirNoGoZone = ~/FeedbackAirNoGoZoneResource
-    RecoZone = ~/FeedbackRecoZoneResource
     GroundSupportZone = ~/FeedbackGroundSupportResource
     WorldFloorProxy = $/M3D/Scene/WorldFloorOutMapProxy
 )

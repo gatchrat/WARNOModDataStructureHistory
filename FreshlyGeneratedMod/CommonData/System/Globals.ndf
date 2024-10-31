@@ -411,14 +411,12 @@ CaseQueryExtent is TBaseClass // extent des cases de TDecorsHabilleurCase
 )
 
 LayerSettings_Visible                   is 0x01
-LayerSettings_Editable                  is 0x02
 LayerSettings_VisibilityLocked          is 0x04
-LayerSettings_EditabilityLocked         is 0x08
 
-MaskedEditorFeedbackLayerSettings   is LayerSettings_EditabilityLocked
-EditorFeedbackLayerSettings         is LayerSettings_Visible | LayerSettings_Editable | LayerSettings_EditabilityLocked
-EditableEditorFeedbackLayerSettings is LayerSettings_Visible | LayerSettings_Editable
-RenderLayerSettings                 is LayerSettings_Visible | LayerSettings_EditabilityLocked
+MaskedEditorFeedbackLayerSettings   is 0
+EditorFeedbackLayerSettings         is LayerSettings_Visible
+EditableEditorFeedbackLayerSettings is LayerSettings_Visible
+RenderLayerSettings                 is LayerSettings_Visible
 
 // /!\ Doit rester synchronisé avec l'enum dans UserInputKeyCode.h
 UserInputKeyboard is TBaseClass // namespace

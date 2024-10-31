@@ -50,7 +50,7 @@ is TTextRenderTypeParameters
 //*****************************************************************************
 export SelectionRenderToolBox is TDynamicRenderToolBox
 (
-    MainCamera = $/M3D/Camera/CameraPrincipale
+    MainCamera = $/M3D/Misc/CameraPrincipale
     Scene2D   = $/M3D/Scene/Scene_2D_Interface
     WorldFloorProxy = $/M3D/Scene/WorldFloorForIAProxy
     CalqueText   = $/M3D/Scene/Scene_2D_Interface/Calque_Selection_Line

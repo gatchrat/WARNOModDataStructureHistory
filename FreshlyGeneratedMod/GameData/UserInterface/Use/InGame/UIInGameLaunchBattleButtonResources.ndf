@@ -38,7 +38,7 @@ DeploymentPhasePanel is BUCKContainerDescriptor
             )
 
             HasBorder = true
-            BorderLineColorToken = 'BoutonTemps'
+            BorderLineColorToken = 'BoutonTemps_Line'
             BorderThicknessToken = '3'
         ),
         BUCKTextDescriptor
@@ -62,7 +62,7 @@ DeploymentPhasePanel is BUCKContainerDescriptor
             TextSize = "28"
 
             HasBackground = true
-            BackgroundBlockColorToken = 'BoutonTemps'
+            BackgroundBlockColorToken = 'BoutonTemps_Background'
 
             ParagraphStyle = TParagraphStyle
             (
@@ -71,7 +71,7 @@ DeploymentPhasePanel is BUCKContainerDescriptor
             )
 
             HasBorder = true
-            BorderLineColorToken = 'BoutonTemps'
+            BorderLineColorToken = 'BoutonTemps_Line'
             BorderThicknessToken = '3'
             BordersToDraw = ~/TBorderSide/Bottom
         ),

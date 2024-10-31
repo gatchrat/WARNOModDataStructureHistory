@@ -53,7 +53,7 @@ is  TUIScriptedAnimatedLabelDescriptor
     LabelTransformation = TLabelTransformPreTranslateFaceCamFakePerspective
     (
         ScalePerAltitudeConstReso = 0.6
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
         Scene2D = $/M3D/Scene/Scene_2D_Interface
         ConstnessFactor = 0.6
     )
@@ -206,7 +206,7 @@ is  TUIScriptedAnimatedLabelDescriptor
     LabelTransformation = TLabelTransformPreTranslateFaceCamFakePerspective
     (
         ScalePerAltitudeConstReso = 0.6
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
         Scene2D = $/M3D/Scene/Scene_2D_Interface
         ConstnessFactor = 0.6
     )
@@ -381,7 +381,7 @@ is TUIScriptedAnimatedLabelDescriptor
     LabelTransformation = TLabelTransformPreTranslateFaceCamFakePerspective
     (
         ScalePerAltitudeConstReso = 0.6
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
         Scene2D = $/M3D/Scene/Scene_2D_Interface
         ConstnessFactor = 0.6
     )

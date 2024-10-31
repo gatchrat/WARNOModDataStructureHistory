@@ -120,7 +120,7 @@ is TMacroActionDescriptor_CorridorAttack_Specific
 
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = <RatioMinimumPourAttaquer> RatioPourAttaquerPerduAChaqueTick = 0.00084), // Perte de 0.1 de ratio toutes les 2 minutes
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
-        TCorridorPlacementSettingHolder(StayInCorridorIfp = true MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
+        TCorridorPlacementSettingHolder(MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
     ]
     +
     <AdditionnalParameter>
@@ -156,7 +156,7 @@ export Attack_Filler is TMacroActionDescriptor_CorridorAttack_Specific
         TGenerationSettingHolder(GenerationType = TGenerationType_BasedOnNumberOfCorridors NumberLaunchBasedOnGenerationType = 1 ConsiderOnlyAssignedCorridors = true),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [~/Pool_Attack_Filler] LaunchASAP_RatioMin = 0.01),
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 1.75),
-        TCorridorPlacementSettingHolder(StayInCorridorIfp = true MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
+        TCorridorPlacementSettingHolder(MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
     ]
 )
 //-------------------------------------------------------------------------
@@ -195,7 +195,7 @@ is TMacroActionDescriptor_CorridorAttack_Specific
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = <RatioMinimumPourAttaquer> RatioPourAttaquerPerduAChaqueTick = 0.001),
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
         TAntiStackingSettingHolder(),
-        TCorridorPlacementSettingHolder(StayInCorridorIfp = true MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
+        TCorridorPlacementSettingHolder(MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
     ]
     +
     <AdditionnalParameter>
@@ -229,7 +229,7 @@ is TMacroActionDescriptor_CorridorAttack_Specific
         LaunchASAP_RatioMin = 0.01 DisableReinforcement = true),
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = <RatioMinimumPourAttaquer>),
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
-        TCorridorPlacementSettingHolder(StayInCorridorIfp = true MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
+        TCorridorPlacementSettingHolder(MargeDeRegroupementDepuisLaLigneDeFront = 1 ActiveComportementEnBoutDeCouloir = true),
     ]
     +
     <AdditionnalParameter>

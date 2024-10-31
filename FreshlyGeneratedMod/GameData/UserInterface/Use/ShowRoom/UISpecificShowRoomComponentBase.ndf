@@ -173,10 +173,8 @@ template UnitInfoPanelUnitAndAdditionalUnitContainer
 
     FitStyle = ~/ContainerFitStyle/FitToContentHorizontally
 
-    Components =
+    Components = (<HasTransportPanel> ?
     [
-        (<HasTransportPanel>
-        ?
         BUCKContainerDescriptor
         (
             ElementName = "Sub" + <ListElementName>
@@ -186,9 +184,8 @@ template UnitInfoPanelUnitAndAdditionalUnitContainer
             )
             FitStyle = ~/ContainerFitStyle/FitToContent
         )
-        : BUCKContainerDescriptor( ComponentFrame = TUIFramePropertyRTTI() )
-        )
-        ,
+    ] : [])
+    + [
         BUCKContainerDescriptor
         (
             ElementName = <ListElementName>

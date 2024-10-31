@@ -621,11 +621,11 @@ UnitAmountButton is BUCKButtonDescriptor
     RadioButtonManager = ~/UnitAmountButtonRadioManager
 
     HasBorder = true
-    BorderLineColorToken = "BoutonTemps"
+    BorderLineColorToken = "BoutonTemps_Line"
     BorderThicknessToken = "1"
 
     HasBackground = true
-    BackgroundBlockColorToken = "BoutonTemps"
+    BackgroundBlockColorToken = "BoutonTemps_Background"
 
     LeftClickSound = ~/SoundEvent_CombatGroupUnitAmount
 

@@ -84,8 +84,8 @@ template SmartGroupActionButton
         MagnifiableWidthHeight = [75.0, 25.0]
     ),
     TextToken : string,
-    ReinforceBackgroundBlockColorToken : string = "BoutonTemps",
-    ReinforceBorderLineColorToken : string = "BoutonTemps",
+    ReinforceBackgroundBlockColorToken : string = "BoutonTemps_Background",
+    ReinforceBorderLineColorToken : string = "BoutonTemps_Line",
     IsTogglable : bool,
     HasHintableArea : bool,
     IsClippable : bool = true,

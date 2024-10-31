@@ -471,7 +471,7 @@ private NombreSecteur is BUCKListDescriptor
                 HasBackground = false
                 HasBorder = true
                 BorderThicknessToken = '1'
-                BorderLineColorToken = "BoutonTemps"
+                BorderLineColorToken = "BoutonTemps_Line"
                 BordersToDraw = ~/TBorderSide/All
 
                 DurationForGaugeFullChange = 1
@@ -833,7 +833,7 @@ SkirmishProductionMenuPawnButton is BUCKButtonDescriptor
         (
             Radius = 3
             BackgroundBlockColorToken = "BoutonTemps_pawn"
-            BorderLineColorToken = "BoutonTemps"
+            BorderLineColorToken = "BoutonTemps_Line"
             RoundedVertexes = [true, false, false, true]
         ),
         BUCKListDescriptor

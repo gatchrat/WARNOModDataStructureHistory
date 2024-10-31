@@ -11,7 +11,6 @@ template InterfaceSound
 // SOUNDS DATABASE
 
 ButtonClickSound is InterfaceSound( FileName = "GameData:/Assets/Sounds/Hud/mouse.wav" )
-BeepClickSound is InterfaceSound( FileName = "GameData:/Assets/Sounds/Hud/beep.wav" )
 ClickSound_folder is InterfaceSound( FileName = "GameData:/Assets/Sounds/OutGame/folder.wav" )
 ClickSound_page is InterfaceSound( FileName = "GameData:/Assets/Sounds/OutGame/folder2.wav" )
 ClickSound_folder3 is InterfaceSound( FileName = "GameData:/Assets/Sounds/OutGame/folder3.wav" )
@@ -176,7 +175,7 @@ SoundEvent_SteelmanTacticCloseMap           is NoSound
 
 //=======================================================================================================================
 
-UICommonResource is TUISpecificResource
+UICommonResource is TUICommonResources
 (
     DistortTextureDrawer            = $/UserInterface/UIDistortTextureDrawer
 
@@ -186,7 +185,4 @@ UICommonResource is TUISpecificResource
     VideoDrawer                     = $/UserInterface/UIVideoDrawer
 
     TextureDrawer                   = "ColorMultiply"
-
-    ButtonClickSound                = ~/ButtonClickSound
-    BeepClickSound                  = ~/BeepClickSound
 )

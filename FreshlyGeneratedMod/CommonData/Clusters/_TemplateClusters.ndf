@@ -4,30 +4,28 @@
 template TemplateClusterLoadNDF
 [
     Files     = [] ,
+    Directories = [],
+    UsingNamespaces = [],
     BaseName  : string       = '',
     NameSpace : string       = '',
     Optional  : bool = false,
     Moddable  : bool = false,
     FillResourceList : bool    = false,
-    UsingNamespaces = [],
-] is TClusterNdfTransaction
+    GenerateCRC  : bool = false,
+] is TClusterNdfTransactions
 (
-    NdfTransaction = TNDFTransaction
+    Transactions = [TNDFTransaction
     (
-        FileList =
-        [
-        TNDFTransactionFileList
-        (
-            Files = <Files>
-        )
-        ]
-        FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
+        Files = <Files>
+        Directories = <Directories>
+        FillResourceList = <FillResourceList>
         BaseName = <BaseName>
         NameSpace =<NameSpace>
         Optional = <Optional>
         Moddable = <Moddable>
         UsingNamespaces = <UsingNamespaces>
-    )
+        GenerateCRC = <GenerateCRC>
+    )]
 )
 //-----------------------------------------------------------------------------
 template TemplateClusterWithNDFLoadedSubCluster
@@ -37,44 +35,16 @@ template TemplateClusterWithNDFLoadedSubCluster
     BaseName  : string       = '',
     NameSpace : string       = '',
     FillResourceList : bool    = false,
-    UsingNamespaces = [],
-    GenerateCRC   = false
 ] is TClusterWithNDFLoadedSubCluster
 (
     SubClusterName = <SubClusterName>
-    NdfTransaction = TNDFTransaction
+    Transactions = [TNDFTransaction
     (
         BaseName        = <BaseName>
         NameSpace       = <NameSpace>
-        FillResourceListOutputFileName  = <FillResourceList>?(<BaseName> + '.ndfbin'):''
+        FillResourceList = <FillResourceList>
         FileList         = [TNDFTransactionFileList(Files = <Files>)]
-        UsingNamespaces  = <UsingNamespaces>
-        GenerateCRC   = <GenerateCRC>
-    )
-)
-//-----------------------------------------------------------------------------
-template TemplateClusterNDFTransaction_FileList_ReloadableForUI
-[
-    FileList     = [] ,
-    BaseName  : string       = '',
-    NameSpace : string       = '',
-    Moddable  : bool         = false,
-    FillResourceList : bool    = false,
-    UsingNamespaces = [],
-    GenerateCRC   = false
-] is TClusterNDFTransaction_Reloadable
-(
-    NdfTransaction = TNDFTransaction
-    (
-        BaseName        = <BaseName>
-        NameSpace       = <NameSpace>
-        Moddable        = <Moddable>
-        FillResourceListOutputFileName  = <FillResourceList>?(<BaseName> + '.ndfbin'):''
-        FileList         = <FileList>
-        UsingNamespaces  = <UsingNamespaces>
-        GenerateCRC   = <GenerateCRC>
-    )
-    ReloadType = EReloadableType/UI
+    )]
 )
 //-----------------------------------------------------------------------------
 template TemplateClusterWithNDFLoadedSubCluster_ReloadableForGameplay
@@ -85,21 +55,17 @@ template TemplateClusterWithNDFLoadedSubCluster_ReloadableForGameplay
     NameSpace : string       = '',
     Moddable  : bool         = false,
     FillResourceList : bool    = false,
-    UsingNamespaces = [],
-    GenerateCRC   = false
 ] is TClusterWithNDFLoadedSubCluster_Reloadable
 (
     SubClusterName = <SubClusterName>
-    NdfTransaction = TNDFTransaction
+    Transactions = [TNDFTransaction
     (
         BaseName        = <BaseName>
         NameSpace       = <NameSpace>
         Moddable        = <Moddable>
-        FillResourceListOutputFileName  = <FillResourceList>?(<BaseName> + '.ndfbin'):''
+        FillResourceList = <FillResourceList>
         FileList        = [TNDFTransactionFileList(Files = <Files>)]
-        UsingNamespaces  = <UsingNamespaces>
-        GenerateCRC   = <GenerateCRC>
-    )
+    )]
     ReloadType = EReloadableType/Gameplay
 )
 //-----------------------------------------------------------------------------
@@ -110,11 +76,9 @@ template TemplateClusterLoadDirectoryNDF
     NameSpace : string         = '',
     Recursive : bool           = true,
     FillResourceList : bool    = false,
-    UsingNamespaces = [],
-    GenerateCRC   = false
-] is TClusterNdfTransaction
+] is TClusterNdfTransactions
 (
-    NdfTransaction = TNDFTransaction
+    Transactions = [TNDFTransaction
     (
         FileList =
         [
@@ -126,94 +90,8 @@ template TemplateClusterLoadDirectoryNDF
         ]
         BaseName = <BaseName>
         NameSpace =<NameSpace>
-        UsingNamespaces = <UsingNamespaces>
-        FillResourceListOutputFileName = <FillResourceList>?(<BaseName> + '.ndfbin'):''
-        GenerateCRC   = <GenerateCRC>
-    )
-)
-//-----------------------------------------------------------------------------
-template TemplateClusterLoadDirectoryNDF_And_Files
-[
-    Directory   : string       = '' ,
-    Files     : list<string>   = [] ,
-    BaseName  : string         = '',
-    NameSpace : string         = '',
-    Moddable  : bool           = false,
-    FillResourceList : bool    = false,
-    UsingNamespaces = [],
-    Optional = false,
-    DebugInfo = false,
-    GenerateCRC   = false
-] is TClusterNdfTransaction
-(
-    NdfTransaction = TNDFTransaction
-    (
-        FileList =
-        [
-        TNDFTransactionDirectory
-        (
-            Directory = <Directory>
-            Recursive = false
-        ),
-        TNDFTransactionFileList
-        (
-            Files = <Files>
-        ),
-        ]
-        FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
-        BaseName = <BaseName>
-        NameSpace =<NameSpace>
-        Moddable = <Moddable>
-        UsingNamespaces = <UsingNamespaces>
-        Optional = <Optional>
-        DebugInfo = <DebugInfo>
-        GenerateCRC   = <GenerateCRC>
-    )
-)
-//-----------------------------------------------------------------------------
-template TemplateClusterLoadNDF_FileList
-[
-    FileList    : list<TNDFAbstractTransactionFileList>  = [] ,
-    BaseName    : string         = '',
-    NameSpace   : string         = '',
-    Moddable    : bool           = false,
-    FillResourceList : bool      = false,
-    UsingNamespaces              = [],
-] is TClusterNdfTransaction
-(
-    NdfTransaction = TNDFTransaction
-    (
-        FileList = <FileList>
-        FillResourceListOutputFileName = <FillResourceList>?(<BaseName> + '.ndfbin'):''
-        BaseName = <BaseName>
-        NameSpace =<NameSpace>
-        Moddable = <Moddable>
-        UsingNamespaces = <UsingNamespaces>
-    )
-)
-//-----------------------------------------------------------------------------
-template TemplateClusterLoadNDFForIA
-[
-    NameSpace                  : string = '',
-    Moddable                   : bool   = false,
-    FillResourceList           : bool   = false,
-    UsingNamespaces                     = [],
-    FileList                            = [],
-    GenerateCRC                         = true
-] is TClusterNdfTransaction
-(
-    NdfTransaction = TNDFTransaction
-    (
-        NameSpace                  = <NameSpace>
-        BaseName                   = <NameSpace>
-        Moddable                   = <Moddable>
-        UsingNamespaces            = <UsingNamespaces>
-        FileList                   = <FileList>
-        FillResourceListOutputFileName = <FillResourceList> ? ( <NameSpace> + '.ndfbin') : ''
-        StripPrivateRootObjects    = True
-        GenerateCRC                = <GenerateCRC>
-        DebugInfo                  = True
-    )
+        FillResourceList = <FillResourceList>
+    )]
 )
 //-----------------------------------------------------------------------------
 //*****************************************************************************
@@ -225,19 +103,15 @@ template TemplateClusterLoadNDFForNoFinal
     BaseName  : string       = '',
     NameSpace : string       = '',
     FillResourceList : bool    = false,
-    UsingNamespaces = [],
-    StripPrivateRootObjects = false,
 ] is TClusterNdfTransactionCompilationDependent
 (
-    NdfTransaction = TNDFTransaction
+    Transactions = [TNDFTransaction
     (
         FileList = <FileList>
         BaseName = "NotFinal/" + <BaseName>
         NameSpace =<NameSpace>
-        UsingNamespaces = <UsingNamespaces>
-        FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
-        StripPrivateRootObjects = <StripPrivateRootObjects>
-    )
+        FillResourceList = <FillResourceList>
+    )]
 )
 //-----------------------------------------------------------------------------
 //*****************************************************************************
@@ -248,12 +122,11 @@ template TemplateClusterLoadNDFForEditor
     BaseName  : string,
     NameSpace : string,
     FillResourceList : bool    = false,
-    UsingNamespaces = [],
 ] is TClusterInitialisation_EditorDependent
 (
-    SubClusterModeEditor = TClusterNdfTransaction
+    SubClusterModeEditor = TClusterNdfTransactions
     (
-        NdfTransaction = TNDFTransaction
+        Transactions = [TNDFTransaction
         (
             FileList =
             [
@@ -264,9 +137,8 @@ template TemplateClusterLoadNDFForEditor
             ]
             BaseName = "Editor/" + <BaseName>
             NameSpace =<NameSpace>
-            UsingNamespaces = <UsingNamespaces>
-            FillResourceListOutputFileName = <FillResourceList>?("Editor/" + <BaseName> + '.ndfbin'):''
-        )
+            FillResourceList = <FillResourceList>
+        )]
     )
 )
 //-----------------------------------------------------------------------------
@@ -278,9 +150,9 @@ template TemplateClusterLoadForNoEditor
     FillResourceList : bool    = false,
 ] is TClusterInitialisation_EditorDependent
 (
-    SubClusterModeNoEditor = TClusterNdfTransaction
+    SubClusterModeNoEditor = TClusterNdfTransactions
     (
-        NdfTransaction = TNDFTransaction
+        Transactions = [TNDFTransaction
         (
             FileList =
             [
@@ -289,10 +161,10 @@ template TemplateClusterLoadForNoEditor
                 Files = <Files>
             )
             ]
-            FillResourceListOutputFileName = <FillResourceList> ? (<BaseName> + '.ndfbin') : ''
+            FillResourceList = <FillResourceList>
             BaseName = <BaseName>
             NameSpace =<NameSpace>
-        )
+        )]
     )
 )
 //-----------------------------------------------------------------------------

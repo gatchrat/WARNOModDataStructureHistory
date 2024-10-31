@@ -2474,11 +2474,75 @@ export Modele_Reserve_TCH_03 is ModelDescriptor( FileName = TCH_Soldier_vz60_2 )
 export Modele_Reserve_TCH_04 is ModelDescriptor( FileName = TCH_Soldier_vz60_1 )
 export Modele_Reserve_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz60_LOW )
 
+//Vysadkari_CMD_TCH
+export Modele_Vysadkari_CMD_TCH is ModelDescriptor( FileName = TCH_NCO_Vysadkar )
+export Modele_Vysadkari_CMD_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
 //Vysadkari_TCH
 export Modele_Vysadkari_TCH is ModelDescriptor( FileName = TCH_NCO_Vysadkar )
 export Modele_Vysadkari_TCH_02 is ModelDescriptor( FileName = TCH_Vysadkar_1 )
 export Modele_Vysadkari_TCH_03 is ModelDescriptor( FileName = TCH_Vysadkar_2 )
 export Modele_Vysadkari_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Engineers_CMD_TCH
+export Modele_Engineers_CMD_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Engineers_CMD_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Engineers_Flam_TCH
+export Modele_Engineers_Flam_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Engineers_Flam_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Engineers_Scout_TCH
+export Modele_Engineers_Scout_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Engineers_Scout_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Engineers_TCH
+export Modele_Engineers_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Engineers_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Groupe_AT_TCH
+export Modele_Groupe_AT_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Groupe_AT_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//HvyScout_TCH
+export Modele_HvyScout_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_HvyScout_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//MotRifles_CMD_TCH
+export Modele_MotRifles_CMD_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_MotRifles_CMD_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Rifles_CMD_TCH
+export Modele_Rifles_CMD_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Rifles_CMD_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Rifles_HMG_TCH
+export Modele_Rifles_HMG_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Rifles_HMG_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Rifles_TCH
+export Modele_Rifles_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Rifles_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Scout_LRRP_TCH
+export Modele_Scout_LRRP_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Scout_LRRP_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Scout_SF_TCH
+export Modele_Scout_SF_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Scout_SF_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Scout_SIGINT_TCH
+export Modele_Scout_SIGINT_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Scout_SIGINT_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Scout_TCH
+export Modele_Scout_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Scout_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
+
+//Sniper_TCH
+export Modele_Sniper_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
+export Modele_Sniper_TCH_LOW is ModelDescriptor( FileName = TCH_Soldier_vz85_LOW )
 
 //MotRifles_TCH
 export Modele_MotRifles_TCH is ModelDescriptor( FileName = TCH_NCO_vz85 )
@@ -2962,9 +3026,13 @@ export Modele_SAS_Sniper_FR is ModelDescriptor( FileName = CRAP_2 )
 export Modele_SAS_Sniper_FR_02 is ModelDescriptor( FileName = CRAP_3 )
 export Modele_SAS_Sniper_FR_LOW is ModelDescriptor( FileName = CRAP_1_LOW )
 
-//LRRP_Para_FR
-export Modele_LRRP_Para_FR is ModelDescriptor( FileName = CRAP_1 )
-export Modele_LRRP_Para_FR_LOW is ModelDescriptor( FileName = CRAP_1_LOW )
+//Commandos_CRAP_Para_FR
+export Modele_Commandos_CRAP_Para_FR is ModelDescriptor( FileName = CRAP_NCO )
+export Modele_Commandos_CRAP_Para_FR_02 is ModelDescriptor( FileName = CRAP_1 )
+export Modele_Commandos_CRAP_Para_FR_03 is ModelDescriptor( FileName = FR_Chasseur_Sniper )
+export Modele_Commandos_CRAP_Para_FR_04 is ModelDescriptor( FileName = CRAP_3 )
+export Modele_Commandos_CRAP_Para_FR_LOW is ModelDescriptor( FileName = CRAP_1_LOW )
+
 
 //LRRP_FR
 export Modele_LRRP_FR is ModelDescriptor( FileName = CRAP_1 )
@@ -3079,8 +3147,11 @@ export Modele_Scout_FR_04 is ModelDescriptor( FileName = FR_Chasseur_spe )
 export Modele_Scout_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
 
 //Commandos_Legion_FR
-export Modele_Commandos_Legion_FR is ModelDescriptor( FileName = FR_Chasseur_1 )
-export Modele_Commandos_Legion_FR_LOW is ModelDescriptor( FileName = FR_Chasseur_LOW )
+export Modele_Commandos_Legion_FR is ModelDescriptor( FileName = CRAP_NCO )
+export Modele_Commandos_Legion_FR_02 is ModelDescriptor( FileName = CRAP_2 )
+export Modele_Commandos_Legion_FR_03 is ModelDescriptor( FileName = CRAP_3 )
+export Modele_Commandos_Legion_FR_04 is ModelDescriptor( FileName = FR_Legion_1 )
+export Modele_Commandos_Legion_FR_LOW is ModelDescriptor( FileName = CRAP_1_LOW )
 
 //Commandos_FR
 export Modele_Commandos_FR is ModelDescriptor( FileName = FR_Chasseur_1 )

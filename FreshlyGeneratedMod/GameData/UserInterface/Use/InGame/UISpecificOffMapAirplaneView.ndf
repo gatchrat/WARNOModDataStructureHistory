@@ -10,8 +10,8 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
 
     ButtonWidthHeight = ~/OffMapAirplaneComponentDimension
     HeightCoefficientToRemoveFromInteriorButtonWidth = 0.4
-    MainBackgroundColorToken = 'BoutonTemps'
-    BorderLineColorToken = 'BoutonTemps'
+    MainBackgroundColorToken = 'BoutonTemps_Background'
+    BorderLineColorToken = 'BoutonTemps_Line'
 
     Components =
     [
@@ -23,9 +23,9 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
             ButtonAlignementToFather = [0.0, 0.5]
             ButtonAlignementToAnchor = [0.0, 0.5]
 
-            BorderLineColorToken = "BoutonTemps"
-            BigBorderBackgroundColorToken = "BoutonTemps"
-            BackgroundBlockColorToken  = "BoutonTemps"
+            BorderLineColorToken = "BoutonTemps_Line"
+            BigBorderBackgroundColorToken = "BoutonTemps_Background"
+            BackgroundBlockColorToken  = "BoutonTemps_Background"
             TextColorToken = "ButtonHUD/Text2"
 
             IsTogglable = true
@@ -69,7 +69,7 @@ BUCKSpecificOffMapAirplaneMainComponentDescriptor is BUCKSpecificOffMapButton
                         AlignementToFather = [0.5, 0.5]
                         AlignementToAnchor = [0.5, 0.5]
                     )
-                    TextureColorToken = 'BoutonTemps'
+                    TextureColorToken = 'BoutonTemps_Text'
                 ),
 
                 BUCKSpecificHintableArea

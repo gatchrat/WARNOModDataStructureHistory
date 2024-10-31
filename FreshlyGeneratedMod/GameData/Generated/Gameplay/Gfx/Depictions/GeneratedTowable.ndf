@@ -31,9 +31,15 @@ SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
         TDepictionDescriptor(SelectorId = [LOD_High, 'Bofors_40mm_capture_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_Bofors_40mm_capture_DDR ),
         TDepictionDescriptor(SelectorId = [LOD_Mid, 'Bofors_40mm_capture_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_Bofors_40mm_capture_DDR_MID ),
         TDepictionDescriptor(SelectorId = [LOD_Low, 'Bofors_40mm_capture_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_Bofors_40mm_capture_DDR_LOW ),
+        TDepictionDescriptor(SelectorId = [LOD_High, 'DCA_76T2_20mm_CPA_FR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_76T2_20mm_CPA_FR ),
+        TDepictionDescriptor(SelectorId = [LOD_Mid, 'DCA_76T2_20mm_CPA_FR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_76T2_20mm_CPA_FR_MID ),
+        TDepictionDescriptor(SelectorId = [LOD_Low, 'DCA_76T2_20mm_CPA_FR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_76T2_20mm_CPA_FR_LOW ),
         TDepictionDescriptor(SelectorId = [LOD_High, 'DCA_AZP_S60_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_AZP_S60_DDR ),
         TDepictionDescriptor(SelectorId = [LOD_Mid, 'DCA_AZP_S60_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_AZP_S60_DDR_MID ),
         TDepictionDescriptor(SelectorId = [LOD_Low, 'DCA_AZP_S60_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_AZP_S60_DDR_LOW ),
+        TDepictionDescriptor(SelectorId = [LOD_High, 'DCA_Bofors_L60_FR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_Bofors_L60_FR ),
+        TDepictionDescriptor(SelectorId = [LOD_Mid, 'DCA_Bofors_L60_FR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_Bofors_L60_FR_MID ),
+        TDepictionDescriptor(SelectorId = [LOD_Low, 'DCA_Bofors_L60_FR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_Bofors_L60_FR_LOW ),
         TDepictionDescriptor(SelectorId = [LOD_High, 'DCA_FASTA_4_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_FASTA_4_DDR ),
         TDepictionDescriptor(SelectorId = [LOD_Mid, 'DCA_FASTA_4_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_FASTA_4_DDR_MID ),
         TDepictionDescriptor(SelectorId = [LOD_Low, 'DCA_FASTA_4_DDR'] MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_FASTA_4_DDR_LOW ),
@@ -148,6 +154,9 @@ SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
         TDepictionDescriptor(SelectorId = [LOD_High, 'Mortier_2B9_Vasilek_nonPara_SOV'] MeshDescriptor = $/GFX/DepictionResources/Modele_Mortier_2B9_Vasilek_nonPara_SOV ),
         TDepictionDescriptor(SelectorId = [LOD_Mid, 'Mortier_2B9_Vasilek_nonPara_SOV'] MeshDescriptor = $/GFX/DepictionResources/Modele_Mortier_2B9_Vasilek_nonPara_SOV_MID ),
         TDepictionDescriptor(SelectorId = [LOD_Low, 'Mortier_2B9_Vasilek_nonPara_SOV'] MeshDescriptor = $/GFX/DepictionResources/Modele_Mortier_2B9_Vasilek_nonPara_SOV_LOW ),
+        TDepictionDescriptor(SelectorId = [LOD_High, 'Obusier_155mm_mle1950_FR'] MeshDescriptor = $/GFX/DepictionResources/Modele_Obusier_155mm_mle1950_FR ),
+        TDepictionDescriptor(SelectorId = [LOD_Mid, 'Obusier_155mm_mle1950_FR'] MeshDescriptor = $/GFX/DepictionResources/Modele_Obusier_155mm_mle1950_FR_MID ),
+        TDepictionDescriptor(SelectorId = [LOD_Low, 'Obusier_155mm_mle1950_FR'] MeshDescriptor = $/GFX/DepictionResources/Modele_Obusier_155mm_mle1950_FR_LOW ),
     ]
     InitialPoses = MAP[
         ('AT_2A45_SprutB_SOV', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_AT_2A45_SprutB_SOV Angle = 0.6981317007977318 )),
@@ -159,7 +168,9 @@ SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
         ('AT_vz52_85mm_DDR', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_AT_vz52_85mm_DDR Angle = 0.5235987755982988 )),
         ('Bofors_40mm_RFA', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_Bofors_40mm_RFA Angle = 0.0 )),
         ('Bofors_40mm_capture_DDR', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_Bofors_40mm_capture_DDR Angle = 0.0 )),
+        ('DCA_76T2_20mm_CPA_FR', TInitialPoseAnimation( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_76T2_20mm_CPA_FR Animation = $/GFX/DepictionResources/DeployAnimation_DCA_76T2_20mm_CPA_FR )),
         ('DCA_AZP_S60_DDR', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_AZP_S60_DDR Angle = 1.3962634015954636 )),
+        ('DCA_Bofors_L60_FR', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_Bofors_L60_FR Angle = 1.3962634015954636 )),
         ('DCA_FASTA_4_DDR', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_FASTA_4_DDR Angle = 0.0 )),
         ('DCA_FK20_2_20mm_RFA', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_FK20_2_20mm_RFA Angle = 0.0 )),
         ('DCA_FK20_2_20mm_Zwillinge_RFA', TInitialPoseAnimation( MeshDescriptor = $/GFX/DepictionResources/Modele_DCA_FK20_2_20mm_Zwillinge_RFA Animation = $/GFX/DepictionResources/DeployAnimation_DCA_FK20_2_20mm_Zwillinge_RFA )),
@@ -198,6 +209,7 @@ SubDepictionTowedUnit is TacticTowedSubDepictionTemplate
         ('Howz_ZiS3_76mm_DDR', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_Howz_ZiS3_76mm_DDR Angle = 0.3490658503988659 )),
         ('Mortier_2B9_Vasilek_SOV', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_Mortier_2B9_Vasilek_SOV Angle = 0.5235987755982988 )),
         ('Mortier_2B9_Vasilek_nonPara_SOV', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_Mortier_2B9_Vasilek_nonPara_SOV Angle = 0.5235987755982988 )),
+        ('Obusier_155mm_mle1950_FR', TInitialPoseAngle( MeshDescriptor = $/GFX/DepictionResources/Modele_Obusier_155mm_mle1950_FR Angle = 0.3490658503988659 )),
     ]
     MissileAlternatives = []                        + MissileAlternatives_DCA_I_Hawk_BEL
                         + MissileAlternatives_DCA_I_Hawk_RFA

@@ -227,8 +227,8 @@ private UnitLabelUnitBUCKComponentDescriptorForMultiSelection is BUCKLocalLayerC
                             BackgroundLocalRenderLayer = 1
                             BorderLocalRenderLayer = 1
                             Radius = 3
-                            BackgroundBlockColorToken = 'BoutonTemps'
-                            BorderLineColorToken = 'BoutonTemps'
+                            BackgroundBlockColorToken = 'BoutonTemps_Background'
+                            BorderLineColorToken = 'BoutonTemps_Line'
                         ),
                     ]
                 ),

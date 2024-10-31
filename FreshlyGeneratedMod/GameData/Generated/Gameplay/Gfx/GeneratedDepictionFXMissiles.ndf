@@ -115,6 +115,7 @@ FXWeapon_ATGM_9M14_MalyutkaP is FXWeapon_8
 FXWeapon_ATGM_9M14_MalyutkaP_x4 is FXWeapon_8
 FXWeapon_ATGM_9M14_MalyutkaP_x6 is FXWeapon_8
 FXWeapon_ATGM_9k111M_Faktoriya is FXWeapon_4
+FXWeapon_ATGM_ADATS is FXWeapon_4
 FXWeapon_ATGM_BGM71_TOW is FXWeapon_4
 FXWeapon_ATGM_BGM71_TOW_x2 is FXWeapon_4
 FXWeapon_ATGM_BGM71_TOW_x4 is FXWeapon_4
@@ -189,6 +190,7 @@ FXWeapon_SAM_9M336_x3 is FXWeapon_13
 FXWeapon_SAM_9M33M2_x6 is FXWeapon_11
 FXWeapon_SAM_9M38M1_x4 is FXWeapon_13
 FXWeapon_SAM_9M8M3_x2 is FXWeapon_14
+FXWeapon_SAM_ADATS is FXWeapon_11
 FXWeapon_SAM_Aspide_1A_x4 is FXWeapon_11
 FXWeapon_SAM_FASTA_Strela2M_x4 is FXWeapon_10
 FXWeapon_SAM_FASTA_Strela2M_x4_TOWED is FXWeapon_10

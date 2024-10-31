@@ -1417,6 +1417,65 @@ export DepictionOperator_MovementSound_SM_Chieftain is TCosmeticDriveMovementSou
     ]
     VolumeIdleStop = 0.8
 )
+export DepictionOperator_MovementSound_SM_EBR is TCosmeticDriveMovementSoundOperatorDesc
+(
+    IdleDuration = 10
+    IdleFadeInDuration = 0.5
+    IdleFadeOutDuration = 2
+    IdleSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Idle/EBR_Wheeled_vehicle_LoopIdle.wav"
+            )
+        ),
+    ]
+    MaxVolume = 1
+    MaxVolumeSpeed = 80
+    MinVolume = 0.5
+    OperatorId = "driveSound"
+    RunFadeInDuration = 1
+    RunFadeOutDuration = 2
+    RunOutPitchToGo = 0
+    RunOutPitchVelocity = 0.4
+    RunSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/EBR_Wheeled_vehicle_Loop.wav"
+            )
+        ),
+    ]
+    StartSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/EBR_Wheeled_vehicle_Start_Engine.wav"
+            )
+        ),
+    ]
+    StopSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/EBR_Wheeled_vehicle_Stop.wav"
+            )
+        ),
+    ]
+    VolumeIdleStop = 0.8
+)
 export DepictionOperator_MovementSound_SM_FV_432 is TCosmeticDriveMovementSoundOperatorDesc
 (
     IdleDuration = 10

@@ -6,12 +6,12 @@ StrategicLabelsOnMapResources is TUICommonGameplayLabelOnMapResources
     (
         PreTranslation = [0,0,4200]
         ScalePerAltitudeConstReso = 1.5
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
         Scene2D = $/M3D/Scene/Scene_2D_Interface
         ConstnessFactor = 0.6
     )
 
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
     WorldFloorProxy = $/M3D/Scene/WorldFloorForIAProxy
 
     Labels = MAP

@@ -28,8 +28,8 @@ private DissimulationButton is TBUCKButtonDescriptor
             )
 
             Radius = 3
-            BackgroundBlockColorToken = "BoutonTemps"
-            BorderLineColorToken = "BoutonTemps"
+            BackgroundBlockColorToken = "BoutonTemps_Background"
+            BorderLineColorToken = "BoutonTemps_Line"
         ),
 
         BUCKListDescriptor

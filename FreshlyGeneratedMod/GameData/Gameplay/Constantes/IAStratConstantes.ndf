@@ -32,12 +32,12 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
         (EMacroActionMissionType/AirStrike, ['InfmapCommander']),
         (EMacroActionMissionType/AirReco, ['InfmapCommander']),
 
-        (EMacroActionMissionType/CorridorArtillery, ['Avion','InfmapCommander']),
+        (EMacroActionMissionType/CorridorArtillery, ['Avion']),
         (EMacroActionMissionType/CorridorAttack, ['Avion','InfmapCommander']),
         (EMacroActionMissionType/CorridorDefense, ['Avion','InfmapCommander']),
         (EMacroActionMissionType/CorridorDynamicDefense, ['Avion','InfmapCommander']),
         (EMacroActionMissionType/ObjectiveAttack, ['Avion','InfmapCommander']),
-        (EMacroActionMissionType/CaptureCommandZone, ['Avion']), //Ne surtout pas ajouter InfmapCommander
+        (EMacroActionMissionType/CaptureCommandZone, ['Avion', 'Artillerie_CMD']), //Ne surtout pas ajouter InfmapCommander
         (EMacroActionMissionType/ProduceBuilding, ['Avion', 'InfmapCommander']),
     ]
 

@@ -37,7 +37,7 @@ export Attack_Corridor_OnlyTestAuto is TMacroActionDescriptor_CorridorAttack_Spe
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [Pool_Corridor_Attack_TestAuto] LaunchASAP_RatioMin = 0.01 DisableReinforcement = true),
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 1.2 RatioPourAttaquerPerduAChaqueTick = 0.00084),
-        TCorridorPlacementSettingHolder(StayInCorridorIfp = true),
+        TCorridorPlacementSettingHolder(),
         TForcedPlacementSettingHolder(ForcedCorridor = [2]), // On force le couloirs pour ne pas dépendre du déterminisme
     ]
 )
@@ -50,7 +50,7 @@ export Attack_Corridor_MiddleCommandZone_OnlyTestAuto is TMacroActionDescriptor_
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
         TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [Pool_Corridor_Attack_TestAuto] LaunchASAP_RatioMin = 0.01 DisableReinforcement = true),
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = 1.2 RatioPourAttaquerPerduAChaqueTick = 0.00084),
-        TCorridorPlacementSettingHolder(StayInCorridorIfp = true),
+        TCorridorPlacementSettingHolder(),
         TForcedPlacementSettingHolder(ForcedCorridor = [5]), // On force le couloirs pour ne pas dépendre du déterminisme
     ]
 )
@@ -242,7 +242,7 @@ private template Template_Airstrike_TestAuto
     TypesDeRequetesAcceptees = ~/EAirStrikeRequestType/All,
     PoolModel = ~/Pool_Airstrike_AA_TestAuto
 ]
-is TMacroActionDescriptor_AirStrike_Specific
+is TMacroActionDescriptor_AirStrike_Common
 (
     ParametresDeMission =
     [

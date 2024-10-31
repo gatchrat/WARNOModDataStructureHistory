@@ -91,7 +91,7 @@ UIDebugConsoleResources is TUIDebugConsoleResources
     StyleGuide = ~/CommonStyleGuide
 
     UserInputBinder = $/GameOptionsInterface/UserInputBinder
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
     World3D = $/M3D/Scene/DefaultWorld
     Scene3D = $/M3D/Scene/Scene_2D_Interface
 )

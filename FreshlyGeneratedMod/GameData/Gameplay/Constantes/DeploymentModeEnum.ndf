@@ -4,6 +4,5 @@ EDeploymentMode is TBaseClass
 (
     NotSpecified            is 0
     Skirmish                is 1
-    Strategic               is 2
-    Breakthrough            is 3
+    Breakthrough            is 2
 )

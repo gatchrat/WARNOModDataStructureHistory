@@ -101,7 +101,7 @@ StrategicOnAPLost is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -148,7 +148,7 @@ StrategicOnAPGained is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -199,7 +199,7 @@ template StrategicOnPawnDeath
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -247,7 +247,7 @@ StrategicOnPawnIntercepted is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -294,7 +294,7 @@ StrategicOnAttackLoss is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -341,7 +341,7 @@ StrategicOnDefenseLoss is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (
@@ -388,7 +388,7 @@ StrategicOrderCancelled is TUIFeedbackDispatchedMessageDescriptor
 
     LabelDescriptor = TFeedback2DLabelDescriptor(
         UILayer = $/UserInterface/UILayer_Labels
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
 
         ComponentDescriptor = BUCKTextDescriptor
         (

@@ -29,7 +29,7 @@ is TSequencingActionHappening
         [
             TActionDescriptorScaleMobile_PixelConstant
             (
-                Camera = $/M3D/Camera/CameraPrincipale
+                Camera = $/M3D/Misc/CameraPrincipale
                 ScaleFactor = ~/PixelConstantValuesSpecific/ImpactFactor
                 ScaleMinReferenceAltitude = ~/PixelConstantValuesSpecific/ImpactMinReferenceAltitude
                 ScaleMax = ~/PixelConstantValuesSpecific/ImpactScaleMax

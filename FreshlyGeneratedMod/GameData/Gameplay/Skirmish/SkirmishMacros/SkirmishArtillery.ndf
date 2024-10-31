@@ -238,6 +238,16 @@ export Pool_Artillery_Expensive is TPoolModel
             "Artillerie_Observateur",
         ]
     ),
+    TPoolElement(
+        DescriptorId = GUID:{74be5bbc-e474-4f56-acdd-87dc448b5971}
+        Required = false
+        Nb = 1
+        IndexPriorityOverPrice = false
+        PriceComparisonMethod = EPriceComparatorType/Random
+        TagsPriority = [
+            "Artillerie_CMD",
+        ]
+    ),
     ]
 )
 //-------------------------------------------------------------------------

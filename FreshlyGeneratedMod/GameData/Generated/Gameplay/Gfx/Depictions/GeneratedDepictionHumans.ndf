@@ -769,6 +769,30 @@ HumanSubDepictionsShowroom_ATteam_Milan_2_para_UK is
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_UK
     ),
 ]
+HumanSubDepictions_ATteam_RCL_M40A1_FR is 
+[
+    SubDepiction_ATGMServantLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR_LOW
+    ),
+    SubDepiction_ATGMServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_ATteam_RCL_M40A1_FR is 
+[
+    ShowroomSubDepiction_ATGMServantLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+    ),
+    ShowroomSubDepiction_ATGMServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+    ),
+]
 HumanSubDepictions_ATteam_RCL_M40A1_NG_US is 
 [
     SubDepiction_ATGMServantLeft
@@ -1336,6 +1360,35 @@ HumanSubDepictionsShowroom_DCA_53T2_20mm_Para_FR is
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_NCO_D_FR
     ),
 ]
+HumanSubDepictions_DCA_76T2_20mm_CPA_FR is 
+[
+    SubDepiction_ServantWalkOnlyLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR_LOW
+    ),
+    SubDepiction_GunnerIdleOnlyLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR_LOW
+    ),
+    SubDepiction_ServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_DCA_76T2_20mm_CPA_FR is 
+[
+    ShowroomSubDepiction_GunnerLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+    ),
+    ShowroomSubDepiction_ServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+    ),
+]
 HumanSubDepictions_DCA_AZP_S60_DDR is 
 [
     SubDepiction_ServantWalkOnlyLeft
@@ -1368,6 +1421,40 @@ HumanSubDepictionsShowroom_DCA_AZP_S60_DDR is
     ShowroomSubDepiction_GunnerRight
     (
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_DDR
+    ),
+]
+HumanSubDepictions_DCA_Bofors_L60_FR is 
+[
+    SubDepiction_ServantWalkOnlyLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR_LOW
+    ),
+    SubDepiction_GunnerIdleOnlyLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR_LOW
+    ),
+    SubDepiction_ServantWalkOnlyRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR_LOW
+    ),
+    SubDepiction_GunnerIdleOnlyRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_DCA_Bofors_L60_FR is 
+[
+    ShowroomSubDepiction_GunnerLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+    ),
+    ShowroomSubDepiction_GunnerRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
     ),
 ]
 HumanSubDepictions_DCA_FASTA_4_DDR is 
@@ -2152,6 +2239,30 @@ HumanSubDepictionsShowroom_HMGteam_AANF1_FR is
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
     ),
 ]
+HumanSubDepictions_HMGteam_AANF1_Reserve_FR is 
+[
+    SubDepiction_ATGMServantLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR_LOW
+    ),
+    SubDepiction_ATGMServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_HMGteam_AANF1_Reserve_FR is 
+[
+    ShowroomSubDepiction_ATGMServantLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+    ),
+    ShowroomSubDepiction_ATGMServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+    ),
+]
 HumanSubDepictions_HMGteam_AANF1_para_FR is 
 [
     SubDepiction_ATGMServantLeft
@@ -2414,6 +2525,30 @@ HumanSubDepictionsShowroom_HMGteam_M2HB_NG_US is
     ShowroomSubDepiction_ATGMServantRight
     (
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_US
+    ),
+]
+HumanSubDepictions_HMGteam_M2HB_RIMa_FR is 
+[
+    SubDepiction_ATGMServantLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR_LOW
+    ),
+    SubDepiction_ATGMServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_HMGteam_M2HB_RIMa_FR is 
+[
+    ShowroomSubDepiction_ATGMServantLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+    ),
+    ShowroomSubDepiction_ATGMServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
     ),
 ]
 HumanSubDepictions_HMGteam_M2HB_UK is 
@@ -2702,6 +2837,35 @@ HumanSubDepictionsShowroom_HMGteam_Mk19_AB_US is
     ShowroomSubDepiction_ATGMServantRight
     (
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Airborne_D_US
+    ),
+]
+HumanSubDepictions_HMGteam_NSV_6U6_VDV_SOV is 
+[
+    SubDepiction_ServantWalkOnlyLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_G_VDV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_G_VDV_LOW
+    ),
+    SubDepiction_GunnerSittingDown_6U6IdleOnlyLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_G_VDV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_G_VDV_LOW
+    ),
+    SubDepiction_ServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Officer_D_VDV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_Officer_D_VDV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_HMGteam_NSV_6U6_VDV_SOV is 
+[
+    ShowroomSubDepiction_GunnerSittingDown_6U6_Left
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_G_VDV
+    ),
+    ShowroomSubDepiction_ServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Officer_D_VDV
     ),
 ]
 HumanSubDepictions_HMGteam_NSV_DDR is 
@@ -3427,6 +3591,33 @@ HumanSubDepictions_LUAZ_967M_AGL_SOV is
     ),
 ]
 HumanSubDepictionsShowroom_LUAZ_967M_AGL_SOV is []
+HumanSubDepictions_LUAZ_967M_AGL_VDV_SOV is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_LUAZ_967M_AGL_VDV_SOV is []
+HumanSubDepictions_LUAZ_967M_CMD_VDV_SOV is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_LUAZ_967M_CMD_VDV_SOV is []
+HumanSubDepictions_LUAZ_967M_FAO_SOV is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_LUAZ_967M_FAO_SOV is []
 HumanSubDepictions_LUAZ_967M_Fagot_SOV is 
 [
     SubDepiction_Driver
@@ -3436,6 +3627,15 @@ HumanSubDepictions_LUAZ_967M_Fagot_SOV is
     ),
 ]
 HumanSubDepictionsShowroom_LUAZ_967M_Fagot_SOV is []
+HumanSubDepictions_LUAZ_967M_Fagot_VDV_SOV is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_LUAZ_967M_Fagot_VDV_SOV is []
 HumanSubDepictions_LUAZ_967M_SOV is 
 [
     SubDepiction_Driver
@@ -3454,6 +3654,33 @@ HumanSubDepictions_LUAZ_967M_SPG9_SOV is
     ),
 ]
 HumanSubDepictionsShowroom_LUAZ_967M_SPG9_SOV is []
+HumanSubDepictions_LUAZ_967M_SPG9_VDV_SOV is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_LUAZ_967M_SPG9_VDV_SOV is []
+HumanSubDepictions_LUAZ_967M_VDV_SOV is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_LUAZ_967M_VDV_SOV is []
+HumanSubDepictions_LUAZ_967M_supply_SOV is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_LUAZ_967M_supply_SOV is []
 HumanSubDepictions_LandRover_CMD_UK is 
 [
     SubDepiction_Driver
@@ -3517,6 +3744,15 @@ HumanSubDepictions_Lars_2_RFA is
     ),
 ]
 HumanSubDepictionsShowroom_Lars_2_RFA is []
+HumanSubDepictions_LuAZ_967M_AA_VDV_SOV is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_LuAZ_967M_AA_VDV_SOV is []
 HumanSubDepictions_M1025_Humvee_AGL_US is 
 [
     SubDepiction_Driver
@@ -3652,6 +3888,42 @@ HumanSubDepictions_M151_MUTT_trans_US is
     ),
 ]
 HumanSubDepictionsShowroom_M151_MUTT_trans_US is []
+HumanSubDepictions_M201_CMD_FR is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_M201_CMD_FR is []
+HumanSubDepictions_M201_FR is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_M201_FR is []
+HumanSubDepictions_M201_MG_FR is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_M201_MG_FR is []
+HumanSubDepictions_M201_MILAN_FR is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_M201_MILAN_FR is []
 HumanSubDepictions_M274_Mule_ITOW_US is 
 [
     SubDepiction_Driver
@@ -3833,8 +4105,8 @@ HumanSubDepictions_MAN_Z311_Mi50_BEL is
     ),
     SubDepiction_GunnerRight
     (
-        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_spe_D_US
-        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_spe_D_US_LOW
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_BEL
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_BEL_LOW
     ),
 ]
 HumanSubDepictionsShowroom_MAN_Z311_Mi50_BEL is []
@@ -4054,6 +4326,30 @@ HumanSubDepictionsShowroom_Mortier_2B14_82mm_SOV is
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV
     ),
 ]
+HumanSubDepictions_Mortier_2B14_82mm_VDV_SOV is 
+[
+    SubDepiction_ServantLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_VDV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_VDV_LOW
+    ),
+    SubDepiction_ATGMServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV_LOW
+    ),
+]
+HumanSubDepictionsShowroom_Mortier_2B14_82mm_VDV_SOV is 
+[
+    ShowroomSubDepiction_ServantLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_VDV
+    ),
+    ShowroomSubDepiction_ATGMServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV
+    ),
+]
 HumanSubDepictions_Mortier_2B9_Vasilek_SOV is 
 [
     SubDepiction_ATGMServantLeft
@@ -4220,6 +4516,30 @@ HumanSubDepictionsShowroom_Mortier_81mm_BEL is
     ShowroomSubDepiction_ServantRight
     (
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_BEL
+    ),
+]
+HumanSubDepictions_Mortier_81mm_FR is 
+[
+    SubDepiction_ServantLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR_LOW
+    ),
+    SubDepiction_ServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_Mortier_81mm_FR is 
+[
+    ShowroomSubDepiction_ServantLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+    ),
+    ShowroomSubDepiction_ServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
     ),
 ]
 HumanSubDepictions_Mortier_M43_82mm_DDR is 
@@ -4390,6 +4710,30 @@ HumanSubDepictionsShowroom_Mortier_Tampella_120mm_RFA is
         MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_RFA
     ),
 ]
+HumanSubDepictions_Obusier_155mm_mle1950_FR is 
+[
+    SubDepiction_ATGMServantLeft
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR_LOW
+    ),
+    SubDepiction_ATGMServantRight
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_Obusier_155mm_mle1950_FR is 
+[
+    ShowroomSubDepiction_ATGMServantLeft
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR
+    ),
+    ShowroomSubDepiction_ATGMServantRight
+    (
+        MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR
+    ),
+]
 HumanSubDepictions_PTS_M_supply_DDR is 
 [
     SubDepiction_Driver
@@ -4522,6 +4866,24 @@ HumanSubDepictions_TPZ_Fuchs_RASIT_RFA is
     ),
 ]
 HumanSubDepictionsShowroom_TPZ_Fuchs_RASIT_RFA is []
+HumanSubDepictions_TRM_10000_FR is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_TRM_10000_FR is []
+HumanSubDepictions_TRM_10000_supply_FR is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_TRM_10000_supply_FR is []
 HumanSubDepictions_TRM_2000_20mm_FR is 
 [
     SubDepiction_Driver
@@ -4866,6 +5228,15 @@ HumanSubDepictions_VAB_RASIT_FR is
     ),
 ]
 HumanSubDepictionsShowroom_VAB_RASIT_FR is []
+HumanSubDepictions_VAB_Reserve_FR is 
+[
+    SubDepiction_Driver
+    (
+        MeshDescriptorHigh = $/GFX/DepictionResources/MeshDescriptor_Driver_FR
+        MeshDescriptorLow = $/GFX/DepictionResources/MeshDescriptor_Driver_FR_LOW
+    ),
+]
+HumanSubDepictionsShowroom_VAB_Reserve_FR is []
 HumanSubDepictions_VBL_MILAN_FR is 
 [
     SubDepiction_Driver
@@ -5076,6 +5447,7 @@ TransportedServantAlternativesCount is MAP[
     ("ATteam_Milan_2_para_FR", (2,2)),
     ("ATteam_Milan_2_para_RFA", (2,2)),
     ("ATteam_Milan_2_para_UK", (2,2)),
+    ("ATteam_RCL_M40A1_FR", (2,2)),
     ("ATteam_RCL_M40A1_NG_US", (2,2)),
     ("ATteam_RCL_M40A1_RFA", (2,2)),
     ("ATteam_RCL_SPG9_DDR", (2,2)),
@@ -5104,7 +5476,9 @@ TransportedServantAlternativesCount is MAP[
     ("Bofors_40mm_capture_DDR", (2,2)),
     ("DCA_53T2_20mm_FR", (2,2)),
     ("DCA_53T2_20mm_Para_FR", (2,2)),
+    ("DCA_76T2_20mm_CPA_FR", (2,2)),
     ("DCA_AZP_S60_DDR", (2,2)),
+    ("DCA_Bofors_L60_FR", (2,2)),
     ("DCA_FASTA_4_DDR", (2,2)),
     ("DCA_FK20_2_20mm_RFA", (2,2)),
     ("DCA_FK20_2_20mm_Zwillinge_RFA", (2,2)),
@@ -5141,6 +5515,7 @@ TransportedServantAlternativesCount is MAP[
     ("Gama_Goat_trans_US", (1,1)),
     ("HEMTT_US", (1,1)),
     ("HMGteam_AANF1_FR", (2,2)),
+    ("HMGteam_AANF1_Reserve_FR", (2,2)),
     ("HMGteam_AANF1_para_FR", (2,2)),
     ("HMGteam_AGS17_DDR", (2,2)),
     ("HMGteam_AGS17_DShV_SOV", (2,2)),
@@ -5152,6 +5527,7 @@ TransportedServantAlternativesCount is MAP[
     ("HMGteam_M2HB_BEL", (2,2)),
     ("HMGteam_M2HB_FR", (2,2)),
     ("HMGteam_M2HB_NG_US", (2,2)),
+    ("HMGteam_M2HB_RIMa_FR", (2,2)),
     ("HMGteam_M2HB_UK", (2,2)),
     ("HMGteam_M2HB_US", (2,2)),
     ("HMGteam_M2HB_para_FR", (2,2)),
@@ -5164,6 +5540,7 @@ TransportedServantAlternativesCount is MAP[
     ("HMGteam_MG3_FJ_RFA", (2,2)),
     ("HMGteam_MG3_RFA", (2,2)),
     ("HMGteam_Mk19_AB_US", (2,2)),
+    ("HMGteam_NSV_6U6_VDV_SOV", (2,2)),
     ("HMGteam_NSV_DDR", (2,2)),
     ("HMGteam_NSV_DShV_SOV", (2,2)),
     ("HMGteam_NSV_SOV", (2,2)),
@@ -5201,9 +5578,16 @@ TransportedServantAlternativesCount is MAP[
     ("KrAZ_255B_supply_SOV", (1,1)),
     ("LO_1800_FASTA_4_DDR", (1,1)),
     ("LUAZ_967M_AGL_SOV", (1,1)),
+    ("LUAZ_967M_AGL_VDV_SOV", (1,1)),
+    ("LUAZ_967M_CMD_VDV_SOV", (1,1)),
+    ("LUAZ_967M_FAO_SOV", (1,1)),
     ("LUAZ_967M_Fagot_SOV", (1,1)),
+    ("LUAZ_967M_Fagot_VDV_SOV", (1,1)),
     ("LUAZ_967M_SOV", (1,1)),
     ("LUAZ_967M_SPG9_SOV", (1,1)),
+    ("LUAZ_967M_SPG9_VDV_SOV", (1,1)),
+    ("LUAZ_967M_VDV_SOV", (1,1)),
+    ("LUAZ_967M_supply_SOV", (1,1)),
     ("LandRover_CMD_UK", (1,1)),
     ("LandRover_MILAN_Para_UK", (1,1)),
     ("LandRover_MILAN_UK", (1,1)),
@@ -5211,6 +5595,7 @@ TransportedServantAlternativesCount is MAP[
     ("LandRover_WOMBAT_Gurkhas_UK", (1,1)),
     ("LandRover_WOMBAT_UK", (1,1)),
     ("Lars_2_RFA", (1,1)),
+    ("LuAZ_967M_AA_VDV_SOV", (1,1)),
     ("M1025_Humvee_AGL_US", (1,1)),
     ("M1025_Humvee_AGL_nonPara_US", (1,1)),
     ("M1025_Humvee_CMD_US", (1,1)),
@@ -5226,6 +5611,10 @@ TransportedServantAlternativesCount is MAP[
     ("M151_MUTT_CMD_US", (1,1)),
     ("M151_MUTT_trans_DDR", (1,1)),
     ("M151_MUTT_trans_US", (1,1)),
+    ("M201_CMD_FR", (1,1)),
+    ("M201_FR", (1,1)),
+    ("M201_MG_FR", (1,1)),
+    ("M201_MILAN_FR", (1,1)),
     ("M274_Mule_ITOW_US", (1,1)),
     ("M274_Mule_M2HB_US", (1,1)),
     ("M274_Mule_RCL_US", (1,1)),
@@ -5254,6 +5643,7 @@ TransportedServantAlternativesCount is MAP[
     ("Mortier_240mm_M240_SOV", (2,2)),
     ("Mortier_2B14_82mm_DShV_SOV", (2,2)),
     ("Mortier_2B14_82mm_SOV", (2,2)),
+    ("Mortier_2B14_82mm_VDV_SOV", (2,2)),
     ("Mortier_2B9_Vasilek_SOV", (2,2)),
     ("Mortier_2B9_Vasilek_nonPara_SOV", (2,2)),
     ("Mortier_2S12_120mm_DShV_SOV", (2,2)),
@@ -5261,6 +5651,7 @@ TransportedServantAlternativesCount is MAP[
     ("Mortier_2S12_120mm_TTsko_SOV", (2,2)),
     ("Mortier_2S12_120mm_VDV_SOV", (2,2)),
     ("Mortier_81mm_BEL", (2,2)),
+    ("Mortier_81mm_FR", (2,2)),
     ("Mortier_M43_82mm_DDR", (2,2)),
     ("Mortier_M43_82mm_FJ_DDR", (2,2)),
     ("Mortier_MORT61_120mm_FR", (2,2)),
@@ -5268,6 +5659,7 @@ TransportedServantAlternativesCount is MAP[
     ("Mortier_Nona_K_120mm_SOV", (2,2)),
     ("Mortier_PM43_120mm_DDR", (2,2)),
     ("Mortier_Tampella_120mm_RFA", (2,2)),
+    ("Obusier_155mm_mle1950_FR", (2,2)),
     ("PTS_M_supply_DDR", (1,1)),
     ("RCL_L6_Wombat_UK", (2,2)),
     ("Rover_101FC_UK", (1,1)),
@@ -5281,6 +5673,8 @@ TransportedServantAlternativesCount is MAP[
     ("TPZ_Fuchs_CMD_RFA", (1,1)),
     ("TPZ_Fuchs_MILAN_RFA", (1,1)),
     ("TPZ_Fuchs_RASIT_RFA", (1,1)),
+    ("TRM_10000_FR", (1,1)),
+    ("TRM_10000_supply_FR", (1,1)),
     ("TRM_2000_20mm_FR", (2,2)),
     ("TRM_2000_FR", (1,1)),
     ("TRM_2000_supply_FR", (1,1)),
@@ -5317,6 +5711,7 @@ TransportedServantAlternativesCount is MAP[
     ("VAB_MILAN_FR", (1,1)),
     ("VAB_Mortar_81_FR", (1,1)),
     ("VAB_RASIT_FR", (1,1)),
+    ("VAB_Reserve_FR", (1,1)),
     ("VBL_MILAN_FR", (1,1)),
     ("VBL_PC_FR", (1,1)),
     ("VBL_Reco_FR", (1,1)),
@@ -5403,6 +5798,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Fallschirm_D_RFA SelectorId = [ "ATteam_Milan_2_para_RFA", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_UK SelectorId = [ "ATteam_Milan_2_para_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_UK SelectorId = [ "ATteam_Milan_2_para_UK", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR SelectorId = [ "ATteam_RCL_M40A1_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "ATteam_RCL_M40A1_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_US SelectorId = [ "ATteam_RCL_M40A1_NG_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_US SelectorId = [ "ATteam_RCL_M40A1_NG_US", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_RFA SelectorId = [ "ATteam_RCL_M40A1_RFA", "01" ] ),
@@ -5452,8 +5849,12 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "DCA_53T2_20mm_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_Sep_G_FR SelectorId = [ "DCA_53T2_20mm_Para_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_NCO_D_FR SelectorId = [ "DCA_53T2_20mm_Para_FR", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR SelectorId = [ "DCA_76T2_20mm_CPA_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "DCA_76T2_20mm_CPA_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_DDR SelectorId = [ "DCA_AZP_S60_DDR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_DDR SelectorId = [ "DCA_AZP_S60_DDR", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR SelectorId = [ "DCA_Bofors_L60_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "DCA_Bofors_L60_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_DDR SelectorId = [ "DCA_FASTA_4_DDR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_DDR SelectorId = [ "DCA_FASTA_4_DDR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_RFA SelectorId = [ "DCA_FK20_2_20mm_RFA", "01" ] ),
@@ -5516,6 +5917,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_US SelectorId = [ "HEMTT_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR SelectorId = [ "HMGteam_AANF1_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "HMGteam_AANF1_FR", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR SelectorId = [ "HMGteam_AANF1_Reserve_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "HMGteam_AANF1_Reserve_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_Sep_G_FR SelectorId = [ "HMGteam_AANF1_para_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Para_NCO_D_FR SelectorId = [ "HMGteam_AANF1_para_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_DDR SelectorId = [ "HMGteam_AGS17_DDR", "01" ] ),
@@ -5538,6 +5941,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "HMGteam_M2HB_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_US SelectorId = [ "HMGteam_M2HB_NG_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_US SelectorId = [ "HMGteam_M2HB_NG_US", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR SelectorId = [ "HMGteam_M2HB_RIMa_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "HMGteam_M2HB_RIMa_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_UK SelectorId = [ "HMGteam_M2HB_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_UK SelectorId = [ "HMGteam_M2HB_UK", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_US SelectorId = [ "HMGteam_M2HB_US", "01" ] ),
@@ -5562,6 +5967,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_RFA SelectorId = [ "HMGteam_MG3_RFA", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Airborne_G_US SelectorId = [ "HMGteam_Mk19_AB_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Airborne_D_US SelectorId = [ "HMGteam_Mk19_AB_US", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_G_VDV SelectorId = [ "HMGteam_NSV_6U6_VDV_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Officer_D_VDV SelectorId = [ "HMGteam_NSV_6U6_VDV_SOV", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_DDR SelectorId = [ "HMGteam_NSV_DDR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_DDR SelectorId = [ "HMGteam_NSV_DDR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_G_VDV SelectorId = [ "HMGteam_NSV_DShV_SOV", "01" ] ),
@@ -5625,9 +6032,16 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_SOV SelectorId = [ "KrAZ_255B_supply_SOV", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_DDR SelectorId = [ "LO_1800_FASTA_4_DDR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_AGL_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_AGL_VDV_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_CMD_VDV_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_FAO_SOV", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_Fagot_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_Fagot_VDV_SOV", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_SOV", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_SPG9_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_SPG9_VDV_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_VDV_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LUAZ_967M_supply_SOV", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_UK SelectorId = [ "LandRover_CMD_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_Para_UK SelectorId = [ "LandRover_MILAN_Para_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_UK SelectorId = [ "LandRover_MILAN_UK", "01" ] ),
@@ -5635,6 +6049,7 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_UK SelectorId = [ "LandRover_WOMBAT_Gurkhas_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_UK SelectorId = [ "LandRover_WOMBAT_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_RFA SelectorId = [ "Lars_2_RFA", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_VdV_SOV SelectorId = [ "LuAZ_967M_AA_VDV_SOV", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_US SelectorId = [ "M1025_Humvee_AGL_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_US SelectorId = [ "M1025_Humvee_AGL_nonPara_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_US SelectorId = [ "M1025_Humvee_CMD_US", "01" ] ),
@@ -5650,6 +6065,10 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_US SelectorId = [ "M151_MUTT_CMD_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_US SelectorId = [ "M151_MUTT_trans_DDR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_US SelectorId = [ "M151_MUTT_trans_US", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "M201_CMD_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "M201_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "M201_MG_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "M201_MILAN_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Airborne_G_US SelectorId = [ "M274_Mule_ITOW_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Airborne_G_US SelectorId = [ "M274_Mule_M2HB_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Airborne_G_US SelectorId = [ "M274_Mule_RCL_US", "01" ] ),
@@ -5671,7 +6090,7 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_RFA SelectorId = [ "MAN_Kat_6x6_trans_RFA", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_BEL SelectorId = [ "MAN_Z311_BEL", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_BEL SelectorId = [ "MAN_Z311_Mi50_BEL", "01" ] ),
-    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_GI_spe_D_US SelectorId = [ "MAN_Z311_Mi50_BEL", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_BEL SelectorId = [ "MAN_Z311_Mi50_BEL", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Airborne_G_US SelectorId = [ "Mortier_107mm_Aero_US", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Airborne_D_US SelectorId = [ "Mortier_107mm_Aero_US", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Airborne_G_US SelectorId = [ "Mortier_107mm_Airborne_US", "01" ] ),
@@ -5690,6 +6109,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV SelectorId = [ "Mortier_2B14_82mm_DShV_SOV", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_SOV SelectorId = [ "Mortier_2B14_82mm_SOV", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_SOV SelectorId = [ "Mortier_2B14_82mm_SOV", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_VDV SelectorId = [ "Mortier_2B14_82mm_VDV_SOV", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV SelectorId = [ "Mortier_2B14_82mm_VDV_SOV", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_VDV SelectorId = [ "Mortier_2B9_Vasilek_SOV", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV SelectorId = [ "Mortier_2B9_Vasilek_SOV", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_MotoStrelki_spe_G_SOV SelectorId = [ "Mortier_2B9_Vasilek_nonPara_SOV", "01" ] ),
@@ -5704,6 +6125,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_Spe_D_VDV SelectorId = [ "Mortier_2S12_120mm_VDV_SOV", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_BEL SelectorId = [ "Mortier_81mm_BEL", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_BEL SelectorId = [ "Mortier_81mm_BEL", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR SelectorId = [ "Mortier_81mm_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "Mortier_81mm_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_DDR SelectorId = [ "Mortier_M43_82mm_DDR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_DDR SelectorId = [ "Mortier_M43_82mm_DDR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FJ_DDR SelectorId = [ "Mortier_M43_82mm_FJ_DDR", "01" ] ),
@@ -5718,6 +6141,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_DDR SelectorId = [ "Mortier_PM43_120mm_DDR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_RFA SelectorId = [ "Mortier_Tampella_120mm_RFA", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_RFA SelectorId = [ "Mortier_Tampella_120mm_RFA", "02" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_FR SelectorId = [ "Obusier_155mm_mle1950_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "Obusier_155mm_mle1950_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_DDR SelectorId = [ "PTS_M_supply_DDR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_G_UK SelectorId = [ "RCL_L6_Wombat_UK", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_UK SelectorId = [ "RCL_L6_Wombat_UK", "02" ] ),
@@ -5732,6 +6157,8 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_RFA SelectorId = [ "TPZ_Fuchs_CMD_RFA", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_RFA SelectorId = [ "TPZ_Fuchs_MILAN_RFA", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_RFA SelectorId = [ "TPZ_Fuchs_RASIT_RFA", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "TRM_10000_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "TRM_10000_supply_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "TRM_2000_20mm_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Servant_D_FR SelectorId = [ "TRM_2000_20mm_FR", "02" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "TRM_2000_FR", "01" ] ),
@@ -5772,6 +6199,7 @@ TransportedServantAlternatives is
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "VAB_MILAN_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "VAB_Mortar_81_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "VAB_RASIT_FR", "01" ] ),
+    TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "VAB_Reserve_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "VBL_MILAN_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "VBL_PC_FR", "01" ] ),
     TDepictionDescriptor( MeshDescriptor = $/GFX/DepictionResources/MeshDescriptor_Driver_FR SelectorId = [ "VBL_Reco_FR", "01" ] ),

@@ -15,8 +15,8 @@ template CubeActionButton
     TextColor : string = "ButtonHUD/Text2",
     TextSize : string = "18",
     HasBorder : bool = false,
-    BackgroundBlockColorToken : string = "BoutonTemps",
-    BorderLineColorToken : string = "BoutonTemps",
+    BackgroundBlockColorToken : string = "BoutonTemps_Background",
+    BorderLineColorToken : string = "BoutonTemps_Line",
     RoundedVertexes : LIST< bool > = [true, true, true, true], // le 1er est en bas à gauche
 
     HintableAreaComponent : TBUCKHintableAreaDescriptor = BUCKSpecificHintableArea
@@ -139,8 +139,8 @@ template CubeActionToggleButton
                 AlignementToAnchor = [0.5, 0.5]
             )
             Radius = 3
-            BackgroundBlockColorToken = "BoutonTemps"
-            BorderLineColorToken = "BoutonTemps"
+            BackgroundBlockColorToken = "BoutonTemps_Background"
+            BorderLineColorToken = "BoutonTemps_Line"
         ),
 
         BUCKTextDescriptor

@@ -100,6 +100,7 @@ PylonSet_DefaultPodAirplane is TDepictionPylonSet
 (
     Pylons = [
         PylonDepictionAirplane( ModelResource = $/GFX/DepictionResources/PodModelPylon4 ),
+        PylonDepictionAirplane( ModelResource = $/GFX/DepictionResources/PodModelPylon6 ),
         PylonDepictionAirplane( ModelResource = $/GFX/DepictionResources/PodModelPylon7 ),
         PylonDepictionAirplane( ModelResource = $/GFX/DepictionResources/PodModelPylon19 ),
     ]
@@ -131,6 +132,7 @@ PylonSet_DefaultPodShowroom is TDepictionPylonSet
 (
     Pylons = [
         PylonDepictionShowroom( ModelResource = $/GFX/DepictionResources/PodModelPylon4 ),
+        PylonDepictionShowroom( ModelResource = $/GFX/DepictionResources/PodModelPylon6 ),
         PylonDepictionShowroom( ModelResource = $/GFX/DepictionResources/PodModelPylon7 ),
         PylonDepictionShowroom( ModelResource = $/GFX/DepictionResources/PodModelPylon19 ),
     ]

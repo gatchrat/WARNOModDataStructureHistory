@@ -129,7 +129,7 @@ FeedbackLineOfSightResource is TFeedbackLineOfSightResource
     UserInputLayer = $/M3D/Input/UserInputLayerHandler/InputLayer_LineOfSight
     DisplayLineOfSightMapping = $/KeyboardOption/Mapping_LineOfSight
     Descriptor = FeedbackLineOfSightDescriptor
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
     World3D = $/M3D/Scene/DefaultWorld
     RenderLayer = TRenderLayerSelector(RenderLayerName = "Calque_3DLineOfSight")
     WorldFloorTerrainHeightProxy = $/M3D/Scene/WorldFloorTerrainHeightProxy

@@ -16,7 +16,7 @@ export MaterialTagGhost is 'GhostTag'
 export SpecificPylonDepictionSelector is TDepictionPylonSelector
 (
     HighLimitInMeter = LodHighNoneLimit_Pylon
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
 )
 
 export SpecificVehicleDepictionSelector is TLodSelector
@@ -49,7 +49,7 @@ export SpecificFlyingScaler is TCameraScaler
     ScaleFactor = PixelConstantValuesSpecific/AirplaneFactor
     ScaleMax = PixelConstantValuesSpecific/AirplaneScaleMax
     ScaleMinReferenceAltitude = PixelConstantValuesSpecific/AirplaneMinReferenceAltitude
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
     ScaleOption = $/GUIOption/UnitScalingEnabled
 )
 

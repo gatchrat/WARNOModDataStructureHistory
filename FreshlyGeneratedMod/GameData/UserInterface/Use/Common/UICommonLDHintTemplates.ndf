@@ -25,7 +25,7 @@ template LDHintStandardComponent
     HasButtons : bool = false,
     BorderLineColorToken : string = 'H2_bleu_2',
     BackgroundBlockColorToken : string = 'H2_bleu_2',
-    TextColor : string = "BoutonTemps",
+    TextColor : string = "BoutonTemps_Text",
     TextSize : string = "30",
     DimensionPourTexte : int = 750,
     TextureMagnifiableWidthHeight : float2 = [150,150],

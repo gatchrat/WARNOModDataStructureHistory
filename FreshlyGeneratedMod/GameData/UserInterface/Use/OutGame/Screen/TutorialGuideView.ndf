@@ -561,19 +561,19 @@ GameManualContainerWithTabs is BUCKSpecificWithTabsComponentDescriptor
     TabsAndContent =
     [
         (
-            GameManualTab ( ElementName = "TabIntro" TextToken = '' ComponentFrame = TUIFramePropertyRTTI ( MagnifiableWidthHeight = [50.0, 1.0]) BackgroundBlockColorToken = "BoutonTemps"),
+            GameManualTab ( ElementName = "TabIntro" TextToken = '' ComponentFrame = TUIFramePropertyRTTI ( MagnifiableWidthHeight = [50.0, 1.0]) BackgroundBlockColorToken = "BoutonTemps_Background"),
             PageDeGarde
         ),
         (
-            GameManualTab ( ElementName = "TabControls" TextToken = 'fm2_titre' BackgroundBlockColorToken = "BoutonTemps"),
+            GameManualTab ( ElementName = "TabControls" TextToken = 'fm2_titre' BackgroundBlockColorToken = "BoutonTemps_Background"),
             PageSelection2
         ),
         (
-            GameManualTab ( ElementName = "TabVision" TextToken = 'fm3_titre' BackgroundBlockColorToken = "BoutonTemps"),
+            GameManualTab ( ElementName = "TabVision" TextToken = 'fm3_titre' BackgroundBlockColorToken = "BoutonTemps_Background"),
             PageVision
         ),
         (
-            GameManualTab ( ElementName = "TabStress" TextToken = 'g080_T1' BackgroundBlockColorToken = "BoutonTemps"),
+            GameManualTab ( ElementName = "TabStress" TextToken = 'g080_T1' BackgroundBlockColorToken = "BoutonTemps_Background"),
             PageMorale
         ),
         (

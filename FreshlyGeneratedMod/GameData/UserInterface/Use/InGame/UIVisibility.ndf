@@ -26,6 +26,6 @@ AllInGameRanges is TVisibilityRangeContainer
 InGameVisibilityHelper is TSimpleHelperVisibility
 (
     RangeList = ~/AllInGameRanges
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
     WorldFloorProxy = $/M3D/Scene/WorldFloorForIAProxy
 )

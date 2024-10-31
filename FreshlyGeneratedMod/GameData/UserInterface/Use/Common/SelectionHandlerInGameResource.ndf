@@ -6,7 +6,7 @@ SelectionResources is TSelectionHandlerInGameResources
     UserInputLayer                            = $/M3D/Input/UserInputLayerHandler/InputLayer_SelectionInGame
     UserInputLayer_SquareSelection            = $/M3D/Input/UserInputLayerHandler/InputLayer_SquareSelection
 
-    Camera                                    = $/M3D/Camera/CameraPrincipale
+    Camera                                    = $/M3D/Misc/CameraPrincipale
     World                                     = $/M3D/Scene/DefaultWorld
 
     DebugSelection                            = false // Debug de sélection (affichage des BBox des unites)

@@ -161,7 +161,7 @@ UISpecificStrategicSpawnPointViewDescriptor is TUISpecificStrategicSpawnPointVie
     LabelsTransformation = TLabelTransformPreTranslateFaceCamFakePerspective
     (
         ScalePerAltitudeConstReso = 1.5
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
         Scene2D = $/M3D/Scene/Scene_2D_Interface
         ConstnessFactor = 0.6
     )

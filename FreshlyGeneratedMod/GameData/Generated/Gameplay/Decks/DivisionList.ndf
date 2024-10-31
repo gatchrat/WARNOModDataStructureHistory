@@ -15,6 +15,7 @@ private DivisionList is TDeckDivisionList
         ~/Descriptor_Deck_Division_US_82nd_Airborne_multi,
         ~/Descriptor_Deck_Division_SOV_56_AirAslt_Brig_multi,
         ~/Descriptor_Deck_Division_US_101st_Airmobile_multi,
+        ~/Descriptor_Deck_Division_SOV_76_VDV_multi,
         ~/Descriptor_Deck_Division_US_11ACR_multi,
         ~/Descriptor_Deck_Division_RFA_2_PzGrenadier_multi,
         ~/Descriptor_Deck_Division_SOV_119IndTkBrig_multi,
@@ -31,6 +32,7 @@ private DivisionList is TDeckDivisionList
         ~/Descriptor_Deck_Division_RDA_KdA_Bezirk_Erfurt_multi,
         ~/Descriptor_Deck_Division_FR_5e_Blindee_multi,
         ~/Descriptor_Deck_Division_FR_11e_Para_multi,
+        ~/Descriptor_Deck_Division_FR_152e_Infanterie_multi,
 
         ~/Descriptor_Deck_Division_BEL_10PtserBrig_solo,
         ~/Descriptor_Deck_Division_BEL_10Wing_solo,

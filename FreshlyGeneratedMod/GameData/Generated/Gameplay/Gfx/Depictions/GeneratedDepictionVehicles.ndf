@@ -1173,6 +1173,73 @@ Gfx_AML_60_Gendarmerie_FR_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_MovementFX_Wheeled
             + DepictionAction_CriticalFX_Tank
 )
+// Dépiction de l'unité AML_90_CMD_FR
+DepictionOperator_AML_90_CMD_FR_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_AML_90_CMD_FR_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+DepictionOperator_AML_90_CMD_FR_Weapon3 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_3"
+    NbFX = 1
+)
+DepictionOperator_AML_90_CMD_FR_Weapon5 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
+    NbProj = 4
+)
+Gfx_AML_90_CMD_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'AML_90_CMD_FR'
+    Selector = Selector_AML_90_CMD_FR
+    Alternatives = Alternatives_AML_90_CMD_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_AML,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_AutoCanon,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_BUK_SOVIET,
+        DepictionOperator_Turret_1_HydraulicRecoil_AutoCannon,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_AML_90_CMD_FR_Weapon1,
+        DepictionOperator_AML_90_CMD_FR_Weapon2,
+        DepictionOperator_AML_90_CMD_FR_Weapon3,
+        DepictionOperator_AML_90_CMD_FR_Weapon5,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_90_mm_GIAT_F1 ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_90_mm_GIAT_F1 ),
+                ( [ "weapon_effet_tag3" ], Weapon_MMG_AANF1_7_62mm ),
+                ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+)
 // Dépiction de l'unité AML_90_FR
 DepictionOperator_AML_90_FR_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -1227,6 +1294,73 @@ Gfx_AML_90_FR_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_AML_90_FR_Weapon2,
         DepictionOperator_AML_90_FR_Weapon3,
         DepictionOperator_AML_90_FR_Weapon5,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_90_mm_GIAT_F1 ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_90_mm_GIAT_F1 ),
+                ( [ "weapon_effet_tag3" ], Weapon_MMG_AANF1_7_62mm ),
+                ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+)
+// Dépiction de l'unité AML_90_Reserve_FR
+DepictionOperator_AML_90_Reserve_FR_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_AML_90_Reserve_FR_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+DepictionOperator_AML_90_Reserve_FR_Weapon3 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_3"
+    NbFX = 1
+)
+DepictionOperator_AML_90_Reserve_FR_Weapon5 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
+    NbProj = 4
+)
+Gfx_AML_90_Reserve_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'AML_90_Reserve_FR'
+    Selector = Selector_AML_90_Reserve_FR
+    Alternatives = Alternatives_AML_90_Reserve_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_AML,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_AutoCanon,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_BUK_SOVIET,
+        DepictionOperator_Turret_1_HydraulicRecoil_AutoCannon,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_AML_90_Reserve_FR_Weapon1,
+        DepictionOperator_AML_90_Reserve_FR_Weapon2,
+        DepictionOperator_AML_90_Reserve_FR_Weapon3,
+        DepictionOperator_AML_90_Reserve_FR_Weapon5,
         DepictionOperator_EjectableProps_Vehicle,
     ]
 
@@ -3709,6 +3843,50 @@ Gfx_ATteam_Milan_2_para_UK_Autogen is TacticVehicleDepictionTemplate
     SubDepictions = [
     ] + HumanSubDepictions_ATteam_Milan_2_para_UK
 )
+// Dépiction de l'unité ATteam_RCL_M40A1_FR
+DepictionOperator_ATteam_RCL_M40A1_FR_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_ATteam_RCL_M40A1_FR_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+Gfx_ATteam_RCL_M40A1_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'ATteam_RCL_M40A1_FR'
+    Selector = Selector_ATteam_RCL_M40A1_FR
+    Alternatives = Alternatives_ATteam_RCL_M40A1_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_FR,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_ATteam_RCL_M40A1_FR_Weapon1,
+        DepictionOperator_ATteam_RCL_M40A1_FR_Weapon2,
+        DepictionOperator_Carriable_ATGM,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_RocketInf_M40A1_RCL_106mm_TOWED ),
+                ( [ "weapon_effet_tag2" ], Weapon_RocketInf_M40A1_RCL_106mm_HE_TOWED ),
+            ]
+            + DepictionAction_CriticalFX_ATGM
+
+    SubDepictions = [
+    ] + HumanSubDepictions_ATteam_RCL_M40A1_FR
+)
 // Dépiction de l'unité ATteam_RCL_M40A1_NG_US
 DepictionOperator_ATteam_RCL_M40A1_NG_US_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -5060,6 +5238,186 @@ Gfx_BMD_2_SOV_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_BMD_2_SOV) ]
 )
+// Dépiction de l'unité BMD_3_SOV
+DepictionOperator_BMD_3_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_BMD_3_SOV_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+DepictionOperator_BMD_3_SOV_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Connoisseur = MissileCarriage_BMD_3_SOV
+    WeaponIndex = 2
+    WeaponShootDataPropertyName = ["WeaponShootData_0_3", ]
+    NbProj = 1
+)
+DepictionOperator_BMD_3_SOV_Weapon4 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle3_tir_01", "fx_tourelle3_tir_02"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 2
+)
+DepictionOperator_BMD_3_SOV_Weapon5 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_5", ]
+    NbProj = 1
+)
+DepictionOperator_BMD_3_SOV_Weapon6 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag6"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
+    NbProj = 4
+)
+Gfx_BMD_3_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'BMD_3_SOV'
+    Selector = Selector_BMD_3_SOV
+    Alternatives = Alternatives_BMD_3_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_BMD,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_SmallTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_BMP,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_3_Aim,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_BMD_3_SOV_Weapon1,
+        DepictionOperator_BMD_3_SOV_Weapon2,
+        DepictionOperator_BMD_3_SOV_Weapon3,
+        DepictionOperator_BMD_3_SOV_Weapon4,
+        DepictionOperator_BMD_3_SOV_Weapon5,
+        DepictionOperator_BMD_3_SOV_Weapon6,
+        DepictionOperator_Heat,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_AutoCanon_AP_30mm_24A2_BMP2 ),
+                ( [ "weapon_effet_tag2" ], Weapon_AutoCanon_HE_30mm_24A2_BMP2 ),
+                ( [ "weapon_effet_tag3" ], Weapon_ATGM_9M113_KonkursM_late ),
+                ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm_x2 ),
+                ( [ "weapon_effet_tag5" ], Weapon_Lance_grenade_AGS17 ),
+                ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+)
+// Dépiction de l'unité BMD_3_reco_SOV
+DepictionOperator_BMD_3_reco_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_BMD_3_reco_SOV_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+DepictionOperator_BMD_3_reco_SOV_Weapon3 is DepictionOperator_WeaponMissileCarriageFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Connoisseur = MissileCarriage_BMD_3_reco_SOV
+    WeaponIndex = 2
+    WeaponShootDataPropertyName = ["WeaponShootData_0_3", ]
+    NbProj = 1
+)
+DepictionOperator_BMD_3_reco_SOV_Weapon4 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag4"
+    Anchors = ["fx_tourelle3_tir_01", "fx_tourelle3_tir_02"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_4"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
+    NbFX = 2
+)
+DepictionOperator_BMD_3_reco_SOV_Weapon5 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_5", ]
+    NbProj = 1
+)
+DepictionOperator_BMD_3_reco_SOV_Weapon6 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag6"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
+    NbProj = 4
+)
+Gfx_BMD_3_reco_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'BMD_3_reco_SOV'
+    Selector = Selector_BMD_3_reco_SOV
+    Alternatives = Alternatives_BMD_3_reco_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_BMD,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_SmallTank,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_BMP,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_3_Aim,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_BMD_3_reco_SOV_Weapon1,
+        DepictionOperator_BMD_3_reco_SOV_Weapon2,
+        DepictionOperator_BMD_3_reco_SOV_Weapon3,
+        DepictionOperator_BMD_3_reco_SOV_Weapon4,
+        DepictionOperator_BMD_3_reco_SOV_Weapon5,
+        DepictionOperator_BMD_3_reco_SOV_Weapon6,
+        DepictionOperator_Heat,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_AutoCanon_AP_30mm_24A2_BMP2 ),
+                ( [ "weapon_effet_tag2" ], Weapon_AutoCanon_HE_30mm_24A2_BMP2 ),
+                ( [ "weapon_effet_tag3" ], Weapon_ATGM_9M113_KonkursM_late ),
+                ( [ "weapon_effet_tag4" ], Weapon_MMG_PKT_7_62mm_x2 ),
+                ( [ "weapon_effet_tag5" ], Weapon_Lance_grenade_AGS17 ),
+                ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+)
 // Dépiction de l'unité BMP_1PG_SOV
 DepictionOperator_BMP_1PG_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -5086,9 +5444,17 @@ DepictionOperator_BMP_1PG_SOV_Weapon3 is DepictionOperator_WeaponMissileCarriage
 DepictionOperator_BMP_1PG_SOV_Weapon4 is DepictionOperator_WeaponInstantFire
 (
     FireEffectTag = "weapon_effet_tag4"
-    Anchors = ["fx_tourelle4_tir_01"]
+    Anchors = ["fx_tourelle3_tir_01"]
     WeaponShootDataPropertyName = ["WeaponShootData_0_4", ]
     NbProj = 1
+)
+DepictionOperator_BMP_1PG_SOV_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
 )
 Gfx_BMP_1PG_SOV_Autogen is TacticVehicleDepictionTemplate
 (
@@ -5108,11 +5474,13 @@ Gfx_BMP_1PG_SOV_Autogen is TacticVehicleDepictionTemplate
         $/GFX/Sound/DepictionOperator_TurretSound_ST_BMP,
         DepictionOperator_Turret_1_HydraulicRecoil,
         DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_3_Aim,
         DepictionOperator_Turret_4_Aim,
         DepictionOperator_BMP_1PG_SOV_Weapon1,
         DepictionOperator_BMP_1PG_SOV_Weapon2,
         DepictionOperator_BMP_1PG_SOV_Weapon3,
         DepictionOperator_BMP_1PG_SOV_Weapon4,
+        DepictionOperator_BMP_1PG_SOV_Weapon5,
         DepictionOperator_Heat,
         DepictionOperator_MovementFX_Amphibious,
         DepictionOperator_EjectableProps_Vehicle,
@@ -5123,6 +5491,7 @@ Gfx_BMP_1PG_SOV_Autogen is TacticVehicleDepictionTemplate
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_73_mm_2A28_Grom ),
                 ( [ "weapon_effet_tag3" ], Weapon_ATGM_9K111M_Fagot_M ),
                 ( [ "weapon_effet_tag4" ], Weapon_Lance_grenade_AGS17 ),
+                ( [ "weapon_effet_tag5" ], Weapon_MMG_PKT_7_62mm ),
             ]
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked
@@ -8093,6 +8462,77 @@ Gfx_BTR_D_SOV_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_BTR_D_SOV) ]
 )
+// Dépiction de l'unité BTR_D_reco_SOV
+DepictionOperator_BTR_D_reco_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_BTR_D_reco_SOV_Weapon2 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle2_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_2"
+    NbFX = 1
+)
+DepictionOperator_BTR_D_reco_SOV_Weapon3 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Anchors = ["fx_tourelle3_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_3"
+    NbFX = 1
+)
+DepictionOperator_BTR_D_reco_SOV_Weapon5 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
+    NbProj = 4
+)
+Gfx_BTR_D_reco_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'BTR_D_reco_SOV'
+    Selector = Selector_BTR_D_reco_SOV
+    Alternatives = Alternatives_BTR_D_reco_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_BMD,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_NoCanonRecoil,
+        DepictionOperator_Propulsion_ContinuousTrack,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_3_Aim,
+        DepictionOperator_BTR_D_reco_SOV_Weapon1,
+        DepictionOperator_BTR_D_reco_SOV_Weapon2,
+        DepictionOperator_BTR_D_reco_SOV_Weapon3,
+        DepictionOperator_BTR_D_reco_SOV_Weapon5,
+        DepictionOperator_Heat,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Lance_grenade_AGS17 ),
+                ( [ "weapon_effet_tag2" ], Weapon_MMG_PKT_7_62mm ),
+                ( [ "weapon_effet_tag3" ], Weapon_MMG_PKT_7_62mm ),
+                ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Tracked
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_BTR_D_reco_SOV) ]
+)
 // Dépiction de l'unité BTR_ZD_Skrezhet_SOV
 DepictionOperator_BTR_ZD_Skrezhet_SOV_Weapon1 is DepictionOperator_WeaponContinuousFire
 (
@@ -8533,6 +8973,44 @@ Gfx_Challenger_1_Mk3_UK_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
 )
+// Dépiction de l'unité Crotale_FR
+DepictionOperator_Crotale_FR_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Connoisseur = MissileCarriage_Crotale_FR
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+Gfx_Crotale_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'Crotale_FR'
+    Selector = Selector_Crotale_FR
+    Alternatives = Alternatives_Crotale_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_AML,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_AutoCanon,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_SAM_US,
+        DepictionOperator_Turret_1_HydraulicRecoil_AutoCannon,
+        DepictionOperator_Crotale_FR_Weapon1,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_SAM_R440_x4 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+)
 // Dépiction de l'unité DCA_53T2_20mm_FR
 DepictionOperator_DCA_53T2_20mm_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
 (
@@ -8605,6 +9083,44 @@ Gfx_DCA_53T2_20mm_Para_FR_Autogen is TacticVehicleDepictionTemplate
     SubDepictions = [
     ] + HumanSubDepictions_DCA_53T2_20mm_Para_FR
 )
+// Dépiction de l'unité DCA_76T2_20mm_CPA_FR
+DepictionOperator_DCA_76T2_20mm_CPA_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01", "fx_tourelle1_tir_02"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 2
+)
+Gfx_DCA_76T2_20mm_CPA_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'DCA_76T2_20mm_CPA_FR'
+    Selector = Selector_DCA_76T2_20mm_CPA_FR
+    Alternatives = Alternatives_DCA_76T2_20mm_CPA_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_FR,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_LARS,
+        DepictionOperator_Turret_1_HydraulicRecoil_AutoCannon,
+        DepictionOperator_DCA_76T2_20mm_CPA_FR_Weapon1,
+        $/GFX/DepictionResources/DepictionOperator_Deployable_DCA_76T2_20mm_CPA_FR,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_DCA_2_canon_76T2_20mm ),
+            ]
+            + DepictionAction_CriticalFX_Towed
+
+    SubDepictions = [
+    ] + HumanSubDepictions_DCA_76T2_20mm_CPA_FR
+)
 // Dépiction de l'unité DCA_AZP_S60_DDR
 DepictionOperator_DCA_AZP_S60_DDR_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -8643,6 +9159,45 @@ Gfx_DCA_AZP_S60_DDR_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictions = [
     ] + HumanSubDepictions_DCA_AZP_S60_DDR
+)
+// Dépiction de l'unité DCA_Bofors_L60_FR
+DepictionOperator_DCA_Bofors_L60_FR_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+Gfx_DCA_Bofors_L60_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'DCA_Bofors_L60_FR'
+    Selector = Selector_DCA_Bofors_L60_FR
+    Alternatives = Alternatives_DCA_Bofors_L60_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_FR,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_LARS,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_DCA_Bofors_L60_FR_Weapon1,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon_Arms80,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_DCA_1_canon_Bofors_40mm_L60 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+    ] + HumanSubDepictions_DCA_Bofors_L60_FR
 )
 // Dépiction de l'unité DCA_FASTA_4_DDR
 DepictionOperator_DCA_FASTA_4_DDR_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
@@ -9480,6 +10035,73 @@ Gfx_DCA_ZU_23_2_TTsko_SOV_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictions = [
     ] + HumanSubDepictions_DCA_ZU_23_2_TTsko_SOV
+)
+// Dépiction de l'unité EBR_90mm_FR
+DepictionOperator_EBR_90mm_FR_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_EBR_90mm_FR_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+DepictionOperator_EBR_90mm_FR_Weapon3 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag3"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_3"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_3"
+    NbFX = 1
+)
+DepictionOperator_EBR_90mm_FR_Weapon5 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
+    NbProj = 4
+)
+Gfx_EBR_90mm_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'EBR_90mm_FR'
+    Selector = Selector_EBR_90mm_FR
+    Alternatives = Alternatives_EBR_90mm_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_EBR,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_SmallTank,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_AMX_10RC,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_EBR_90mm_FR_Weapon1,
+        DepictionOperator_EBR_90mm_FR_Weapon2,
+        DepictionOperator_EBR_90mm_FR_Weapon3,
+        DepictionOperator_EBR_90mm_FR_Weapon5,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_90mm_CN90_F2 ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_90mm_CN90_F2 ),
+                ( [ "weapon_effet_tag3" ], Weapon_MMG_AA52_7_5mm ),
+                ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
 )
 // Dépiction de l'unité ERC_90_Sagaie_CMD_FR
 DepictionOperator_ERC_90_Sagaie_CMD_FR_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -12296,6 +12918,42 @@ Gfx_HMGteam_AANF1_FR_Autogen is TacticVehicleDepictionTemplate
     SubDepictions = [
     ] + HumanSubDepictions_HMGteam_AANF1_FR
 )
+// Dépiction de l'unité HMGteam_AANF1_Reserve_FR
+DepictionOperator_HMGteam_AANF1_Reserve_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 1
+)
+Gfx_HMGteam_AANF1_Reserve_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'HMGteam_AANF1_Reserve_FR'
+    Selector = Selector_HMGteam_AANF1_Reserve_FR
+    Alternatives = Alternatives_HMGteam_AANF1_Reserve_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_FR,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_HMGteam_AANF1_Reserve_FR_Weapon1,
+        DepictionOperator_Carriable_ATGM,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_MMG_team_7_62mm_AANF1 ),
+            ]
+            + DepictionAction_CriticalFX_ATGM
+
+    SubDepictions = [
+    ] + HumanSubDepictions_HMGteam_AANF1_Reserve_FR
+)
 // Dépiction de l'unité HMGteam_AANF1_para_FR
 DepictionOperator_HMGteam_AANF1_para_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
 (
@@ -12686,6 +13344,42 @@ Gfx_HMGteam_M2HB_NG_US_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictions = [
     ] + HumanSubDepictions_HMGteam_M2HB_NG_US
+)
+// Dépiction de l'unité HMGteam_M2HB_RIMa_FR
+DepictionOperator_HMGteam_M2HB_RIMa_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 1
+)
+Gfx_HMGteam_M2HB_RIMa_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'HMGteam_M2HB_RIMa_FR'
+    Selector = Selector_HMGteam_M2HB_RIMa_FR
+    Alternatives = Alternatives_HMGteam_M2HB_RIMa_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_FR,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_HMGteam_M2HB_RIMa_FR_Weapon1,
+        DepictionOperator_Carriable_ATGM,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_HMG_team_12_7_mm_M2HB ),
+            ]
+            + DepictionAction_CriticalFX_ATGM
+
+    SubDepictions = [
+    ] + HumanSubDepictions_HMGteam_M2HB_RIMa_FR
 )
 // Dépiction de l'unité HMGteam_M2HB_UK
 DepictionOperator_HMGteam_M2HB_UK_Weapon1 is DepictionOperator_WeaponContinuousFire
@@ -13117,6 +13811,42 @@ Gfx_HMGteam_Mk19_AB_US_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictions = [
     ] + HumanSubDepictions_HMGteam_Mk19_AB_US
+)
+// Dépiction de l'unité HMGteam_NSV_6U6_VDV_SOV
+DepictionOperator_HMGteam_NSV_6U6_VDV_SOV_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 1
+)
+Gfx_HMGteam_NSV_6U6_VDV_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'HMGteam_NSV_6U6_VDV_SOV'
+    Selector = Selector_HMGteam_NSV_6U6_VDV_SOV
+    Alternatives = Alternatives_HMGteam_NSV_6U6_VDV_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_HMGteam_NSV_6U6_VDV_SOV_Weapon1,
+        DepictionOperator_Carriable_ATGM,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_HMG_team_12_7_mm_NSV_6U6 ),
+            ]
+            + DepictionAction_CriticalFX_ATGM
+
+    SubDepictions = [
+    ] + HumanSubDepictions_HMGteam_NSV_6U6_VDV_SOV
 )
 // Dépiction de l'unité HMGteam_NSV_DDR
 DepictionOperator_HMGteam_NSV_DDR_Weapon1 is DepictionOperator_WeaponContinuousFire
@@ -14851,8 +15581,8 @@ Gfx_KanJagdPanzer_RFA_Autogen is TacticVehicleDepictionTemplate
     ]
 
     Actions = MAP[
-                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_90mm_KanJPz_late ),
-                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_90mm_M48_KanJPz_late ),
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_90mm_KanJPz ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_90mm_M48_KanJPz ),
                 ( [ "weapon_effet_tag4" ], Weapon_MMG_FN_MAG_7_62mm ),
                 ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
@@ -15081,6 +15811,106 @@ Gfx_LUAZ_967M_AGL_SOV_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_LUAZ_967M_AGL_SOV) ]
 )
+// Dépiction de l'unité LUAZ_967M_AGL_VDV_SOV
+DepictionOperator_LUAZ_967M_AGL_VDV_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+Gfx_LUAZ_967M_AGL_VDV_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'LUAZ_967M_AGL_VDV_SOV'
+    Selector = Selector_LUAZ_967M_AGL_VDV_SOV
+    Alternatives = Alternatives_LUAZ_967M_AGL_VDV_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Luaz,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_AutoCanon,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil_AutoCannon,
+        DepictionOperator_LUAZ_967M_AGL_VDV_SOV_Weapon1,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Lance_grenade_AGS17 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictions = [
+    ] + HumanSubDepictions_LUAZ_967M_AGL_VDV_SOV
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_LUAZ_967M_AGL_VDV_SOV) ]
+)
+// Dépiction de l'unité LUAZ_967M_CMD_VDV_SOV
+Gfx_LUAZ_967M_CMD_VDV_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'LUAZ_967M_CMD_VDV_SOV'
+    Selector = Selector_LUAZ_967M_CMD_VDV_SOV
+    Alternatives = Alternatives_LUAZ_967M_CMD_VDV_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Luaz,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictions = [
+    ] + HumanSubDepictions_LUAZ_967M_CMD_VDV_SOV
+)
+// Dépiction de l'unité LUAZ_967M_FAO_SOV
+Gfx_LUAZ_967M_FAO_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'LUAZ_967M_FAO_SOV'
+    Selector = Selector_LUAZ_967M_FAO_SOV
+    Alternatives = Alternatives_LUAZ_967M_FAO_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Luaz,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictions = [
+    ] + HumanSubDepictions_LUAZ_967M_FAO_SOV
+)
 // Dépiction de l'unité LUAZ_967M_Fagot_SOV
 DepictionOperator_LUAZ_967M_Fagot_SOV_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
 (
@@ -15120,6 +15950,46 @@ Gfx_LUAZ_967M_Fagot_SOV_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictions = [
     ] + HumanSubDepictions_LUAZ_967M_Fagot_SOV
+)
+// Dépiction de l'unité LUAZ_967M_Fagot_VDV_SOV
+DepictionOperator_LUAZ_967M_Fagot_VDV_SOV_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Connoisseur = MissileCarriage_LUAZ_967M_Fagot_VDV_SOV
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+Gfx_LUAZ_967M_Fagot_VDV_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'LUAZ_967M_Fagot_VDV_SOV'
+    Selector = Selector_LUAZ_967M_Fagot_VDV_SOV
+    Alternatives = Alternatives_LUAZ_967M_Fagot_VDV_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Luaz,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_LUAZ_967M_Fagot_VDV_SOV_Weapon1,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_ATGM_9K111M_Fagot_M ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictions = [
+    ] + HumanSubDepictions_LUAZ_967M_Fagot_VDV_SOV
 )
 // Dépiction de l'unité LUAZ_967M_SOV
 Gfx_LUAZ_967M_SOV_Autogen is TacticVehicleDepictionTemplate
@@ -15201,6 +16071,116 @@ Gfx_LUAZ_967M_SPG9_SOV_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictions = [
     ] + HumanSubDepictions_LUAZ_967M_SPG9_SOV
+)
+// Dépiction de l'unité LUAZ_967M_SPG9_VDV_SOV
+DepictionOperator_LUAZ_967M_SPG9_VDV_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_LUAZ_967M_SPG9_VDV_SOV_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+Gfx_LUAZ_967M_SPG9_VDV_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'LUAZ_967M_SPG9_VDV_SOV'
+    Selector = Selector_LUAZ_967M_SPG9_VDV_SOV
+    Alternatives = Alternatives_LUAZ_967M_SPG9_VDV_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Luaz,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_LUAZ_967M_SPG9_VDV_SOV_Weapon1,
+        DepictionOperator_LUAZ_967M_SPG9_VDV_SOV_Weapon2,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Canon_HEAT_73_mm_SPG9 ),
+                ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_73_mm_SPG9 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictions = [
+    ] + HumanSubDepictions_LUAZ_967M_SPG9_VDV_SOV
+)
+// Dépiction de l'unité LUAZ_967M_VDV_SOV
+Gfx_LUAZ_967M_VDV_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'LUAZ_967M_VDV_SOV'
+    Selector = Selector_LUAZ_967M_VDV_SOV
+    Alternatives = Alternatives_LUAZ_967M_VDV_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Luaz,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictions = [
+        SubDepictionTowedUnit,
+    ] + HumanSubDepictions_LUAZ_967M_VDV_SOV
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_LUAZ_967M_VDV_SOV) ]
+)
+// Dépiction de l'unité LUAZ_967M_supply_SOV
+Gfx_LUAZ_967M_supply_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'LUAZ_967M_supply_SOV'
+    Selector = Selector_LUAZ_967M_supply_SOV
+    Alternatives = Alternatives_LUAZ_967M_supply_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Luaz,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictions = [
+    ] + HumanSubDepictions_LUAZ_967M_supply_SOV
 )
 // Dépiction de l'unité LandRover_CMD_UK
 Gfx_LandRover_CMD_UK_Autogen is TacticVehicleDepictionTemplate
@@ -16707,6 +17687,48 @@ Gfx_Leopard_2A4_RFA_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
+)
+// Dépiction de l'unité LuAZ_967M_AA_VDV_SOV
+DepictionOperator_LuAZ_967M_AA_VDV_SOV_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Connoisseur = MissileCarriage_LuAZ_967M_AA_VDV_SOV
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+Gfx_LuAZ_967M_AA_VDV_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'LuAZ_967M_AA_VDV_SOV'
+    Selector = Selector_LuAZ_967M_AA_VDV_SOV
+    Alternatives = Alternatives_LuAZ_967M_AA_VDV_SOV
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Luaz,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_LuAZ_967M_AA_VDV_SOV_Weapon1,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_SAM_Igla ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictions = [
+    ] + HumanSubDepictions_LuAZ_967M_AA_VDV_SOV
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_LuAZ_967M_AA_VDV_SOV) ]
 )
 // Dépiction de l'unité Luchs_A1_RFA
 DepictionOperator_Luchs_A1_RFA_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -18423,6 +19445,7 @@ Gfx_M113A1_TOW_US_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_MovementFX_Standard,
         DepictionOperator_Turret_1_Aim,
         DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_2_Aim,
         DepictionOperator_M113A1_TOW_US_Weapon1,
         DepictionOperator_M113A1_TOW_US_Weapon2,
         DepictionOperator_M113A1_TOW_US_Weapon6,
@@ -18479,6 +19502,7 @@ Gfx_M113A2_TOW_US_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_MovementFX_Standard,
         DepictionOperator_Turret_1_Aim,
         DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_2_Aim,
         DepictionOperator_M113A2_TOW_US_Weapon1,
         DepictionOperator_M113A2_TOW_US_Weapon2,
         DepictionOperator_M113A2_TOW_US_Weapon6,
@@ -20306,6 +21330,147 @@ Gfx_M1_Abrams_US_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_MovementFX_Tracked
             + DepictionAction_CriticalFX_Tank
 )
+// Dépiction de l'unité M201_CMD_FR
+Gfx_M201_CMD_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'M201_CMD_FR'
+    Selector = Selector_M201_CMD_FR
+    Alternatives = Alternatives_M201_CMD_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Mutt_M151,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_NoCanonRecoil,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+    ] + HumanSubDepictions_M201_CMD_FR
+)
+// Dépiction de l'unité M201_FR
+Gfx_M201_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'M201_FR'
+    Selector = Selector_M201_FR
+    Alternatives = Alternatives_M201_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Mutt_M151,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_NoCanonRecoil,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+        SubDepictionTowedUnit,
+    ] + HumanSubDepictions_M201_FR
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_M201_FR) ]
+)
+// Dépiction de l'unité M201_MG_FR
+DepictionOperator_M201_MG_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 1
+)
+Gfx_M201_MG_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'M201_MG_FR'
+    Selector = Selector_M201_MG_FR
+    Alternatives = Alternatives_M201_MG_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Mutt_M151,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_NoCanonRecoil,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_M201_MG_FR_Weapon1,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_MMG_AA52_7_5mm ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+    ] + HumanSubDepictions_M201_MG_FR
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_M201_MG_FR) ]
+)
+// Dépiction de l'unité M201_MILAN_FR
+DepictionOperator_M201_MILAN_FR_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Connoisseur = MissileCarriage_M201_MILAN_FR
+    WeaponIndex = 1
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+Gfx_M201_MILAN_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'M201_MILAN_FR'
+    Selector = Selector_M201_MILAN_FR
+    Alternatives = Alternatives_M201_MILAN_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Mutt_M151,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_M201_MILAN_FR_Weapon1,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_ATGM_MILAN ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+    ] + HumanSubDepictions_M201_MILAN_FR
+)
 // Dépiction de l'unité M270_MLRS_RFA
 DepictionOperator_M270_MLRS_RFA_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -21720,6 +22885,14 @@ DepictionOperator_M551A1_TTS_Sheridan_CMD_US_Weapon4 is DepictionOperator_Weapon
     WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
     NbFX = 1
 )
+DepictionOperator_M551A1_TTS_Sheridan_CMD_US_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
 DepictionOperator_M551A1_TTS_Sheridan_CMD_US_Weapon6 is DepictionOperator_WeaponInstantFire
 (
     FireEffectTag = "weapon_effet_tag6"
@@ -21746,10 +22919,13 @@ Gfx_M551A1_TTS_Sheridan_CMD_US_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_Turret_1_HydraulicRecoil,
         DepictionOperator_Turret_2_Aim,
         DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
         DepictionOperator_M551A1_TTS_Sheridan_CMD_US_Weapon1,
         DepictionOperator_M551A1_TTS_Sheridan_CMD_US_Weapon2,
         DepictionOperator_M551A1_TTS_Sheridan_CMD_US_Weapon3,
         DepictionOperator_M551A1_TTS_Sheridan_CMD_US_Weapon4,
+        DepictionOperator_M551A1_TTS_Sheridan_CMD_US_Weapon5,
         DepictionOperator_M551A1_TTS_Sheridan_CMD_US_Weapon6,
         DepictionOperator_MovementFX_Amphibious,
         DepictionOperator_EjectableProps_Vehicle,
@@ -21760,6 +22936,7 @@ Gfx_M551A1_TTS_Sheridan_CMD_US_Autogen is TacticVehicleDepictionTemplate
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_152mm_Sheridan ),
                 ( [ "weapon_effet_tag3" ], Weapon_ATGM_MGM551C_Shillelagh ),
                 ( [ "weapon_effet_tag4" ], Weapon_HMG_12_7_mm_M2HB ),
+                ( [ "weapon_effet_tag5" ], Weapon_MMG_M240_7_62mm ),
                 ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
             + DepictionAction_Stress_And_Wrecked
@@ -21798,6 +22975,14 @@ DepictionOperator_M551A1_TTS_Sheridan_US_Weapon4 is DepictionOperator_WeaponCont
     WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_4"
     NbFX = 1
 )
+DepictionOperator_M551A1_TTS_Sheridan_US_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
 DepictionOperator_M551A1_TTS_Sheridan_US_Weapon6 is DepictionOperator_WeaponInstantFire
 (
     FireEffectTag = "weapon_effet_tag6"
@@ -21824,10 +23009,13 @@ Gfx_M551A1_TTS_Sheridan_US_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_Turret_1_HydraulicRecoil,
         DepictionOperator_Turret_2_Aim,
         DepictionOperator_Turret_2_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
         DepictionOperator_M551A1_TTS_Sheridan_US_Weapon1,
         DepictionOperator_M551A1_TTS_Sheridan_US_Weapon2,
         DepictionOperator_M551A1_TTS_Sheridan_US_Weapon3,
         DepictionOperator_M551A1_TTS_Sheridan_US_Weapon4,
+        DepictionOperator_M551A1_TTS_Sheridan_US_Weapon5,
         DepictionOperator_M551A1_TTS_Sheridan_US_Weapon6,
         DepictionOperator_MovementFX_Amphibious,
         DepictionOperator_EjectableProps_Vehicle,
@@ -21838,6 +23026,7 @@ Gfx_M551A1_TTS_Sheridan_US_Autogen is TacticVehicleDepictionTemplate
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_152mm_Sheridan ),
                 ( [ "weapon_effet_tag3" ], Weapon_ATGM_MGM551C_Shillelagh ),
                 ( [ "weapon_effet_tag4" ], Weapon_HMG_12_7_mm_M2HB ),
+                ( [ "weapon_effet_tag5" ], Weapon_MMG_M240_7_62mm ),
                 ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
             + DepictionAction_Stress_And_Wrecked
@@ -22833,7 +24022,6 @@ Gfx_M998_Humvee_Delta_US_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_CriticalFX_Tank
 
     SubDepictions = [
-        SubDepictionTowedUnit,
         TSubDepiction
         (
             Anchors = ["base_tourelle_01"]
@@ -24589,6 +25777,49 @@ Gfx_Mortier_2B14_82mm_SOV_Autogen is TacticVehicleDepictionTemplate
     SubDepictions = [
     ] + HumanSubDepictions_Mortier_2B14_82mm_SOV
 )
+// Dépiction de l'unité Mortier_2B14_82mm_VDV_SOV
+DepictionOperator_Mortier_2B14_82mm_VDV_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_Mortier_2B14_82mm_VDV_SOV_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+Gfx_Mortier_2B14_82mm_VDV_SOV_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'Mortier_2B14_82mm_VDV_SOV'
+    Selector = Selector_Mortier_2B14_82mm_VDV_SOV
+    Alternatives = Alternatives_Mortier_2B14_82mm_VDV_SOV
+
+    Operators = 
+    [
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Mortier_2B14_82mm_VDV_SOV_Weapon1,
+        DepictionOperator_Mortier_2B14_82mm_VDV_SOV_Weapon2,
+        DepictionOperator_Carriable_Mortar,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Mortier_2B14_82mm_TOWED ),
+                ( [ "weapon_effet_tag2" ], Weapon_Mortier_2B14_82mm_SMOKE_TOWED ),
+            ]
+            + DepictionAction_CriticalFX_Mortar
+
+    SubDepictions = [
+    ] + HumanSubDepictions_Mortier_2B14_82mm_VDV_SOV
+)
 // Dépiction de l'unité Mortier_2B9_Vasilek_SOV
 DepictionOperator_Mortier_2B9_Vasilek_SOV_Weapon1 is DepictionOperator_WeaponInstantFire
 (
@@ -24891,6 +26122,49 @@ Gfx_Mortier_81mm_BEL_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictions = [
     ] + HumanSubDepictions_Mortier_81mm_BEL
+)
+// Dépiction de l'unité Mortier_81mm_FR
+DepictionOperator_Mortier_81mm_FR_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_Mortier_81mm_FR_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+Gfx_Mortier_81mm_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'Mortier_81mm_FR'
+    Selector = Selector_Mortier_81mm_FR
+    Alternatives = Alternatives_Mortier_81mm_FR
+
+    Operators = 
+    [
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_FR,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Mortier_81mm_FR_Weapon1,
+        DepictionOperator_Mortier_81mm_FR_Weapon2,
+        DepictionOperator_Carriable_Mortar,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Mortier_81mm_MO81_61C_towed ),
+                ( [ "weapon_effet_tag2" ], Weapon_Mortier_81mm_MO81_61C_towed_SMOKE ),
+            ]
+            + DepictionAction_CriticalFX_Mortar
+
+    SubDepictions = [
+    ] + HumanSubDepictions_Mortier_81mm_FR
 )
 // Dépiction de l'unité Mortier_M43_82mm_DDR
 DepictionOperator_Mortier_M43_82mm_DDR_Weapon1 is DepictionOperator_WeaponInstantFire
@@ -25289,6 +26563,53 @@ Gfx_OT_65_DDR_Autogen is TacticVehicleDepictionTemplate
             + DepictionAction_FX_Amphibious_NoPropulsion
 
     SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_OT_65_DDR) ]
+)
+// Dépiction de l'unité Obusier_155mm_mle1950_FR
+DepictionOperator_Obusier_155mm_mle1950_FR_Weapon1 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
+)
+DepictionOperator_Obusier_155mm_mle1950_FR_Weapon2 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_2", ]
+    NbProj = 1
+)
+Gfx_Obusier_155mm_mle1950_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'Obusier_155mm_mle1950_FR'
+    Selector = Selector_Obusier_155mm_mle1950_FR
+    Alternatives = Alternatives_Obusier_155mm_mle1950_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_Infanterie_Crew_FR,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Turret_1_Aim,
+        DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Obusier_155mm_mle1950_FR_Weapon1,
+        DepictionOperator_Obusier_155mm_mle1950_FR_Weapon2,
+        DepictionOperator_Propulsion_Wheels_Canon,
+        DepictionOperator_Carriable_Canon_Arms20,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_Howz_Canon_M50_155mm ),
+                ( [ "weapon_effet_tag2" ], Weapon_Howz_Canon_M50_155mm_SMOKE ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+    ] + HumanSubDepictions_Obusier_155mm_mle1950_FR
 )
 // Dépiction de l'unité Osa_9K33M3_DDR
 DepictionOperator_Osa_9K33M3_DDR_Weapon1 is DepictionOperator_WeaponMissileCarriageFire
@@ -26381,11 +27702,19 @@ DepictionOperator_T55AM2B_DDR_Weapon4 is DepictionOperator_WeaponMissileCarriage
     WeaponShootDataPropertyName = ["WeaponShootData_0_4", ]
     NbProj = 1
 )
-DepictionOperator_T55AM2B_DDR_Weapon5 is DepictionOperator_WeaponInstantFire
+DepictionOperator_T55AM2B_DDR_Weapon5 is DepictionOperator_WeaponContinuousFire
 (
     FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
+DepictionOperator_T55AM2B_DDR_Weapon6 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag6"
     Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
-    WeaponShootDataPropertyName = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_6", "WeaponShootData_1_6", "WeaponShootData_2_6", "WeaponShootData_3_6", ]
     NbProj = 4
 )
 Gfx_T55AM2B_DDR_Autogen is TacticVehicleDepictionTemplate
@@ -26406,10 +27735,12 @@ Gfx_T55AM2B_DDR_Autogen is TacticVehicleDepictionTemplate
         DepictionOperator_Turret_1_Aim,
         $/GFX/Sound/DepictionOperator_TurretSound_ST_T64_T72_T80,
         DepictionOperator_Turret_1_HydraulicRecoil,
+        DepictionOperator_Turret_4_Aim,
         DepictionOperator_T55AM2B_DDR_Weapon1,
         DepictionOperator_T55AM2B_DDR_Weapon2,
         DepictionOperator_T55AM2B_DDR_Weapon4,
         DepictionOperator_T55AM2B_DDR_Weapon5,
+        DepictionOperator_T55AM2B_DDR_Weapon6,
         DepictionOperator_EjectableProps_Vehicle,
     ]
 
@@ -26417,7 +27748,8 @@ Gfx_T55AM2B_DDR_Autogen is TacticVehicleDepictionTemplate
                 ( [ "weapon_effet_tag1" ], Weapon_Canon_AP_100mm_D10T_late ),
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_100mm_D10T_late ),
                 ( [ "weapon_effet_tag4" ], Weapon_ATGM_9M117_Bastion ),
-                ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+                ( [ "weapon_effet_tag5" ], Weapon_MMG_PKT_7_62mm ),
+                ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
             + DepictionAction_Stress_And_Wrecked
             + DepictionAction_MovementFX_Tracked
@@ -27189,6 +28521,14 @@ DepictionOperator_T62MD_SOV_Weapon4 is DepictionOperator_WeaponMissileCarriageFi
     WeaponShootDataPropertyName = ["WeaponShootData_0_4", ]
     NbProj = 1
 )
+DepictionOperator_T62MD_SOV_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
 DepictionOperator_T62MD_SOV_Weapon6 is DepictionOperator_WeaponInstantFire
 (
     FireEffectTag = "weapon_effet_tag6"
@@ -27215,10 +28555,12 @@ Gfx_T62MD_SOV_Autogen is TacticVehicleDepictionTemplate
         $/GFX/Sound/DepictionOperator_TurretSound_ST_T64_T72_T80,
         DepictionOperator_Turret_1_HydraulicRecoil,
         DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_4_Aim,
         DepictionOperator_T62MD_SOV_Weapon1,
         DepictionOperator_T62MD_SOV_Weapon2,
         DepictionOperator_T62MD_SOV_Weapon3,
         DepictionOperator_T62MD_SOV_Weapon4,
+        DepictionOperator_T62MD_SOV_Weapon5,
         DepictionOperator_T62MD_SOV_Weapon6,
         DepictionOperator_EjectableProps_Vehicle,
     ]
@@ -27228,6 +28570,7 @@ Gfx_T62MD_SOV_Autogen is TacticVehicleDepictionTemplate
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_115mm_U5TS_T62M ),
                 ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_DShKM ),
                 ( [ "weapon_effet_tag4" ], Weapon_ATGM_9M117_Bastion ),
+                ( [ "weapon_effet_tag5" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
             + DepictionAction_Stress_And_Wrecked
@@ -27265,6 +28608,14 @@ DepictionOperator_T62MV_SOV_Weapon4 is DepictionOperator_WeaponMissileCarriageFi
     WeaponShootDataPropertyName = ["WeaponShootData_0_4", ]
     NbProj = 1
 )
+DepictionOperator_T62MV_SOV_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
 DepictionOperator_T62MV_SOV_Weapon6 is DepictionOperator_WeaponInstantFire
 (
     FireEffectTag = "weapon_effet_tag6"
@@ -27291,10 +28642,12 @@ Gfx_T62MV_SOV_Autogen is TacticVehicleDepictionTemplate
         $/GFX/Sound/DepictionOperator_TurretSound_ST_T64_T72_T80,
         DepictionOperator_Turret_1_HydraulicRecoil,
         DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_4_Aim,
         DepictionOperator_T62MV_SOV_Weapon1,
         DepictionOperator_T62MV_SOV_Weapon2,
         DepictionOperator_T62MV_SOV_Weapon3,
         DepictionOperator_T62MV_SOV_Weapon4,
+        DepictionOperator_T62MV_SOV_Weapon5,
         DepictionOperator_T62MV_SOV_Weapon6,
         DepictionOperator_EjectableProps_Vehicle,
     ]
@@ -27304,6 +28657,7 @@ Gfx_T62MV_SOV_Autogen is TacticVehicleDepictionTemplate
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_115mm_U5TS_T62M ),
                 ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_DShKM ),
                 ( [ "weapon_effet_tag4" ], Weapon_ATGM_9M117_Bastion ),
+                ( [ "weapon_effet_tag5" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
             + DepictionAction_Stress_And_Wrecked
@@ -27418,6 +28772,14 @@ DepictionOperator_T62M_SOV_Weapon4 is DepictionOperator_WeaponMissileCarriageFir
     WeaponShootDataPropertyName = ["WeaponShootData_0_4", ]
     NbProj = 1
 )
+DepictionOperator_T62M_SOV_Weapon5 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_5"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_5"
+    NbFX = 1
+)
 DepictionOperator_T62M_SOV_Weapon6 is DepictionOperator_WeaponInstantFire
 (
     FireEffectTag = "weapon_effet_tag6"
@@ -27444,10 +28806,12 @@ Gfx_T62M_SOV_Autogen is TacticVehicleDepictionTemplate
         $/GFX/Sound/DepictionOperator_TurretSound_ST_T64_T72_T80,
         DepictionOperator_Turret_1_HydraulicRecoil,
         DepictionOperator_Turret_2_Aim,
+        DepictionOperator_Turret_4_Aim,
         DepictionOperator_T62M_SOV_Weapon1,
         DepictionOperator_T62M_SOV_Weapon2,
         DepictionOperator_T62M_SOV_Weapon3,
         DepictionOperator_T62M_SOV_Weapon4,
+        DepictionOperator_T62M_SOV_Weapon5,
         DepictionOperator_T62M_SOV_Weapon6,
         DepictionOperator_EjectableProps_Vehicle,
     ]
@@ -27457,6 +28821,7 @@ Gfx_T62M_SOV_Autogen is TacticVehicleDepictionTemplate
                 ( [ "weapon_effet_tag2" ], Weapon_Canon_HE_115mm_U5TS_T62M ),
                 ( [ "weapon_effet_tag3" ], Weapon_HMG_12_7_mm_DShKM ),
                 ( [ "weapon_effet_tag4" ], Weapon_ATGM_9M117_Bastion ),
+                ( [ "weapon_effet_tag5" ], Weapon_MMG_PKT_7_62mm ),
                 ( [ "weapon_effet_tag6" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
             ]
             + DepictionAction_Stress_And_Wrecked
@@ -29312,6 +30677,65 @@ Gfx_TPZ_Fuchs_RASIT_RFA_Autogen is TacticVehicleDepictionTemplate
     SubDepictions = [
     ] + HumanSubDepictions_TPZ_Fuchs_RASIT_RFA
 )
+// Dépiction de l'unité TRM_10000_FR
+Gfx_TRM_10000_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'TRM_10000_FR'
+    Selector = Selector_TRM_10000_FR
+    Alternatives = Alternatives_TRM_10000_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_TRM2000,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+        SubDepictionTowedUnit,
+    ] + HumanSubDepictions_TRM_10000_FR
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_TRM_10000_FR) ]
+)
+// Dépiction de l'unité TRM_10000_supply_FR
+Gfx_TRM_10000_supply_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'TRM_10000_supply_FR'
+    Selector = Selector_TRM_10000_supply_FR
+    Alternatives = Alternatives_TRM_10000_supply_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_TRM2000,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_Vehicle,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictions = [
+    ] + HumanSubDepictions_TRM_10000_supply_FR
+)
 // Dépiction de l'unité TRM_2000_20mm_FR
 DepictionOperator_TRM_2000_20mm_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
 (
@@ -31044,6 +32468,69 @@ Gfx_VAB_RASIT_FR_Autogen is TacticVehicleDepictionTemplate
     SubDepictions = [
     ] + HumanSubDepictions_VAB_RASIT_FR
 )
+// Dépiction de l'unité VAB_Reserve_FR
+DepictionOperator_VAB_Reserve_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 1
+)
+Gfx_VAB_Reserve_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'VAB_Reserve_FR'
+    Selector = Selector_VAB_Reserve_FR
+    Alternatives = Alternatives_VAB_Reserve_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_VAB,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_NoCanonRecoil,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Amphibious,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+            + DepictionAction_FX_Amphibious_NoPropulsion
+
+    SubDepictions = [
+        SubDepictionTowedUnit,
+        TSubDepiction
+        (
+            Anchors = ["base_tourelle_01"]
+            Depiction = TDepictionTemplate
+            (
+                CoatingName = "VAB_Reserve_FR_turret1"
+                ResidentMaterialTags = [ MaterialTagMech ]
+                AdditionalTextures = $/M3D/Shader/VehicleDestTextures
+                Selector = ~/OnlyHighDepictionSelector
+                DepictionAlternatives = [
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_VAB_Reserve_FR_Tourelle_01 )
+                ]
+                Operators = [
+                    DepictionOperator_Reset_Generic,
+                    DepictionOperator_Turret_1_Aim,
+                    DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
+                    DepictionOperator_VAB_Reserve_FR_Weapon1,
+                ]
+                Actions = MAP[
+                    ( [ "weapon_effet_tag1" ], Weapon_HMG_12_7_mm_M2HB ),
+                ]
+            )
+        ),
+    ] + HumanSubDepictions_VAB_Reserve_FR
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_VAB_Reserve_FR) ]
+)
 // Dépiction de l'unité VAB_T20_FR
 DepictionOperator_VAB_T20_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
 (
@@ -31236,6 +32723,67 @@ Gfx_VBL_Reco_FR_Autogen is TacticVehicleDepictionTemplate
 
     SubDepictions = [
     ] + HumanSubDepictions_VBL_Reco_FR
+)
+// Dépiction de l'unité VIB_FR
+DepictionOperator_VIB_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag1"
+    Anchors = ["fx_tourelle1_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_1"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_1"
+    NbFX = 1
+)
+DepictionOperator_VIB_FR_Weapon2 is DepictionOperator_WeaponContinuousFire
+(
+    FireEffectTag = "weapon_effet_tag2"
+    Anchors = ["fx_tourelle4_tir_01"]
+    WeaponShootDataPropertyName = "WeaponShootData_0_2"
+    WeaponActiveAndCanShootPropertyName = "WeaponActiveAndCanShoot_2"
+    NbFX = 1
+)
+DepictionOperator_VIB_FR_Weapon5 is DepictionOperator_WeaponInstantFire
+(
+    FireEffectTag = "weapon_effet_tag5"
+    Anchors = ["fx_tourelle5_tir_01", "fx_tourelle5_tir_02"]
+    WeaponShootDataPropertyName = ["WeaponShootData_0_5", "WeaponShootData_1_5", "WeaponShootData_2_5", "WeaponShootData_3_5", ]
+    NbProj = 4
+)
+Gfx_VIB_FR_Autogen is TacticVehicleDepictionTemplate
+(
+    CoatingName = 'VIB_FR'
+    Selector = Selector_VIB_FR
+    Alternatives = Alternatives_VIB_FR
+
+    Operators = 
+    [
+        DepictionOperator_CropFlattening,
+        $/GFX/Sound/DepictionOperator_MovementSound_SM_VAB,
+        DepictionOperator_SoundProbe,
+        DepictionOperator_CriticalEffects,
+        DepictionOperator_Chassis_MediumTank_NoCanonRecoil,
+        DepictionOperator_Propulsion_Wheels_Generic,
+        DepictionOperator_MovementFX_Standard,
+        DepictionOperator_Turret_1_Aim,
+        $/GFX/Sound/DepictionOperator_TurretSound_ST_Luchs,
+        DepictionOperator_Turret_1_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_Turret_4_Aim,
+        DepictionOperator_Turret_4_TurretRockingRecoil_LightMachineGun,
+        DepictionOperator_VIB_FR_Weapon1,
+        DepictionOperator_VIB_FR_Weapon2,
+        DepictionOperator_VIB_FR_Weapon5,
+        DepictionOperator_EjectableProps_Vehicle,
+    ]
+
+    Actions = MAP[
+                ( [ "weapon_effet_tag1" ], Weapon_DCA_1_canon_T20_20mm ),
+                ( [ "weapon_effet_tag2" ], Weapon_MMG_AANF1_7_62mm ),
+                ( [ "weapon_effet_tag5" ], Weapon_SMOKE_Vehicle_Grenadex8 ),
+            ]
+            + DepictionAction_Stress_And_Wrecked
+            + DepictionAction_MovementFX_Wheeled
+            + DepictionAction_CriticalFX_Tank
+
+    SubDepictionGenerators = [ TransportedInfantrySubGenerator(Mesh = $/GFX/DepictionResources/Modele_VIB_FR) ]
 )
 // Dépiction de l'unité VLRA_20mm_FR
 DepictionOperator_VLRA_20mm_FR_Weapon1 is DepictionOperator_WeaponContinuousFire
@@ -31927,8 +33475,8 @@ DepictionOperator_ZSU_57_2_DDR_Weapon1 is DepictionOperator_WeaponInstantFire
 (
     FireEffectTag = "weapon_effet_tag1"
     Anchors = ["fx_tourelle1_tir_01", "fx_tourelle1_tir_02"]
-    WeaponShootDataPropertyName = ["WeaponShootData_0_1", "WeaponShootData_1_1", ]
-    NbProj = 2
+    WeaponShootDataPropertyName = ["WeaponShootData_0_1", ]
+    NbProj = 1
 )
 Gfx_ZSU_57_2_DDR_Autogen is TacticVehicleDepictionTemplate
 (

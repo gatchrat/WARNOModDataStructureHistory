@@ -303,8 +303,5 @@ UISpecificStrategicStartBattlePawnBriefViewDescriptor is TUISpecificStrategicSta
 (
     MainComponentDescriptor = ~/BUCKSpecificStrategicStartBattlePawnBriefMainComponentDescriptor
     MainComponentContainerUniqueName = "" // Permet d'indiquer l'endroit ou le composant doit s'insérer
-
-    AttackColorToken = "BlancEquipe"
-    DefenseColorToken = "Vert"
 )
 

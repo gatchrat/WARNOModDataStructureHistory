@@ -75,7 +75,7 @@ PanelSelectionUnique_Nom is BUCKButtonDescriptor
         PanelRoundedCorner
         (
             Radius = 8
-            BorderLineColorToken = "BoutonTemps"
+            BorderLineColorToken = "BoutonTemps_Line"
             RoundedVertexes = [true, true, false, false]
         ),
         BUCKListDescriptor
@@ -801,8 +801,8 @@ is BUCKButtonDescriptor
                 PanelRoundedCorner
                 (
                     Radius = 4
-                    BackgroundBlockColorToken = "BoutonTemps"
-                    BorderLineColorToken = "BoutonTemps"
+                    BackgroundBlockColorToken = "BoutonTemps_Background"
+                    BorderLineColorToken = "BoutonTemps_Line"
                 )
             ]
         ),
@@ -903,7 +903,7 @@ private PanelSelectionUnique_RoeShortcuts is BUCKContainerDescriptor
     BackgroundBlockColorToken = "TypeC"
 
     HasBorder = true
-    BorderLineColorToken = "BoutonTemps"
+    BorderLineColorToken = "BoutonTemps_Line"
 
     FitStyle = ~/ContainerFitStyle/MaxBetweenUserDefinedAndContentHorizontally
 

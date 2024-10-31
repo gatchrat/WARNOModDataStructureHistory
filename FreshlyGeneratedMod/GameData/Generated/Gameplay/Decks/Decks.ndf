@@ -227,6 +227,51 @@ export Descriptor_Deck_FR_11e_Para_multi is TDeckDescriptor
     ]
 )
 
+export Descriptor_Deck_FR_152e_Infanterie_multi is TDeckDescriptor
+(
+    DeckName = 'LBRGMDXMTK'
+    DeckDivision = ~/Descriptor_Deck_Division_FR_152e_Infanterie_multi
+    DeckPackList =
+    [
+        ~/Descriptor_Deck_Pack_FOB_FR_1,
+        ~/Descriptor_Deck_Pack_Alouette_II_CMD_FR_1,
+        ~/Descriptor_Deck_Pack_TRM_2000_supply_FR_0,
+        ~/Descriptor_Deck_Pack_TRM_2000_supply_FR_0,
+        ~/Descriptor_Deck_Pack_TRM_10000_supply_FR_0,
+        ~/Descriptor_Deck_Pack_Reserviste_CMD_FR_VAB_Reserve_FR_1,
+        ~/Descriptor_Deck_Pack_Reserviste_FR_TRM_2000_FR_0,
+        ~/Descriptor_Deck_Pack_Rifles_RIMa_CMD_FR_VAB_FR_1,
+        ~/Descriptor_Deck_Pack_Rifles_RIMa_FR_VAB_FR_1,
+        ~/Descriptor_Deck_Pack_Rifles_RIMa_APILAS_FR_VAB_FR_1,
+        ~/Descriptor_Deck_Pack_ATteam_RCL_M40A1_FR_M201_FR_1,
+        ~/Descriptor_Deck_Pack_ATteam_Milan_1_FR_VAB_MILAN_FR_1,
+        ~/Descriptor_Deck_Pack_ATteam_Milan_2_FR_VAB_MILAN_FR_1,
+        ~/Descriptor_Deck_Pack_Commandos_Air_FR_VIB_FR_2,
+        ~/Descriptor_Deck_Pack_Obusier_155mm_mle1950_FR_TRM_10000_FR_0,
+        ~/Descriptor_Deck_Pack_Obusier_155mm_mle1950_FR_TRM_10000_FR_0,
+        ~/Descriptor_Deck_Pack_Mortier_MORT61_120mm_FR_TRM_2000_FR_1,
+        ~/Descriptor_Deck_Pack_AML_90_CMD_FR_2,
+        ~/Descriptor_Deck_Pack_AML_90_Reserve_FR_1,
+        ~/Descriptor_Deck_Pack_AML_90_Reserve_FR_1,
+        ~/Descriptor_Deck_Pack_AML_90_Reserve_FR_1,
+        ~/Descriptor_Deck_Pack_VAB_HOT_FR_0,
+        ~/Descriptor_Deck_Pack_Sniper_RIMa_FR_VLTT_P4_FR_1,
+        ~/Descriptor_Deck_Pack_Scout_RIMa_FR_VAB_FR_1,
+        ~/Descriptor_Deck_Pack_AML_90_FR_1,
+        ~/Descriptor_Deck_Pack_EBR_90mm_FR_0,
+        ~/Descriptor_Deck_Pack_MANPAD_Mistral_FR_M201_FR_0,
+        ~/Descriptor_Deck_Pack_DCA_76T2_20mm_CPA_FR_TRM_2000_FR_1,
+        ~/Descriptor_Deck_Pack_Crotale_FR_1,
+        ~/Descriptor_Deck_Pack_Crotale_FR_1,
+        ~/Descriptor_Deck_Pack_Ecureuil_20mm_FR_1,
+        ~/Descriptor_Deck_Pack_Alouette_III_SS11_FR_1,
+        ~/Descriptor_Deck_Pack_CM170_Magister_FR_2,
+        ~/Descriptor_Deck_Pack_F8P_Crusader_AA2_FR_2,
+        ~/Descriptor_Deck_Pack_Alpha_Jet_E_NPLM_FR_2,
+        ~/Descriptor_Deck_Pack_Super_Etendard_AT_FR_1,
+    ]
+)
+
 export Descriptor_Deck_FR_5e_Blindee_multi is TDeckDescriptor
 (
     DeckName = 'LPUBQMILBV'
@@ -420,7 +465,6 @@ export Descriptor_Deck_RFA_TerrKdo_Sud_multi is TDeckDescriptor
         ~/Descriptor_Deck_Pack_Engineers_CMD_RFA_Iltis_trans_RFA_1,
         ~/Descriptor_Deck_Pack_HeimatschutzJager_RFA_Unimog_trans_RFA_0,
         ~/Descriptor_Deck_Pack_Jager_RFA_M113A1G_RFA_1,
-        ~/Descriptor_Deck_Pack_Jager_Carl_RFA_M113A1G_RFA_1,
         ~/Descriptor_Deck_Pack_Jager_noAT_RFA_M113A1G_MILAN_RFA_1,
         ~/Descriptor_Deck_Pack_GreenBerets_US_M998_Humvee_US_2,
         ~/Descriptor_Deck_Pack_ATteam_Milan_2_FR_VLTT_P4_FR_0,
@@ -448,7 +492,6 @@ export Descriptor_Deck_RFA_TerrKdo_Sud_multi is TDeckDescriptor
         ~/Descriptor_Deck_Pack_Alpha_Jet_A_he_RFA_1,
         ~/Descriptor_Deck_Pack_Alpha_Jet_A_clu_RFA_1,
         ~/Descriptor_Deck_Pack_F104G_Starfighter_AT_RFA_1,
-        ~/Descriptor_Deck_Pack_Jager_Aufk_RFA_UH1D_RFA_0,
     ]
 )
 
@@ -670,6 +713,52 @@ export Descriptor_Deck_SOV_6IndMSBrig_multi is TDeckDescriptor
         ~/Descriptor_Deck_Pack_KrAZ_255B_supply_SOV_0,
         ~/Descriptor_Deck_Pack_MiG_21bis_CLU_DDR_1,
         ~/Descriptor_Deck_Pack_BM27_Uragan_SOV_0,
+    ]
+)
+
+export Descriptor_Deck_SOV_76_VDV_multi is TDeckDescriptor
+(
+    DeckName = 'LPCRPUZJTW'
+    DeckDivision = ~/Descriptor_Deck_Division_SOV_76_VDV_multi
+    DeckPackList =
+    [
+        ~/Descriptor_Deck_Pack_LUAZ_967M_CMD_VDV_SOV_1,
+        ~/Descriptor_Deck_Pack_BMD_2_CMD_SOV_1,
+        ~/Descriptor_Deck_Pack_LUAZ_967M_supply_SOV_1,
+        ~/Descriptor_Deck_Pack_GAZ_66_supply_SOV_0,
+        ~/Descriptor_Deck_Pack_VDV_CMD_SOV_BMD_2_SOV_2,
+        ~/Descriptor_Deck_Pack_VDV_CMD_SOV_LUAZ_967M_SOV_2,
+        ~/Descriptor_Deck_Pack_VDV_SOV_BTR_D_SOV_1,
+        ~/Descriptor_Deck_Pack_VDV_SOV_BTR_D_SOV_1,
+        ~/Descriptor_Deck_Pack_VDV_Combine_SOV_BTR_D_SOV_1,
+        ~/Descriptor_Deck_Pack_VDV_Metis_SOV_BTR_D_SOV_1,
+        ~/Descriptor_Deck_Pack_Spetsnaz_Vympel_SOV_GAZ_66B_SOV_2,
+        ~/Descriptor_Deck_Pack_ATteam_RCL_SPG9_VDV_SOV_LUAZ_967M_SOV_1,
+        ~/Descriptor_Deck_Pack_Atteam_Fagot_VDV_SOV_BTR_D_Robot_SOV_2,
+        ~/Descriptor_Deck_Pack_Atteam_Konkurs_VDV_SOV_BTR_D_Robot_SOV_2,
+        ~/Descriptor_Deck_Pack_2S9_Nona_SOV_1,
+        ~/Descriptor_Deck_Pack_2S9_Nona_SOV_1,
+        ~/Descriptor_Deck_Pack_BM21V_GradV_SOV_1,
+        ~/Descriptor_Deck_Pack_BM21V_GradV_SOV_1,
+        ~/Descriptor_Deck_Pack_BMD_3_SOV_1,
+        ~/Descriptor_Deck_Pack_BMD_3_SOV_1,
+        ~/Descriptor_Deck_Pack_BRDM_2_Konkurs_SOV_1,
+        ~/Descriptor_Deck_Pack_BRDM_2_Konkurs_SOV_1,
+        ~/Descriptor_Deck_Pack_Scout_Spetsnaz_VDV_SOV_BTR_D_reco_SOV_2,
+        ~/Descriptor_Deck_Pack_Scout_LRRP_SOV_GAZ_66B_SOV_2,
+        ~/Descriptor_Deck_Pack_BMD_1_Reostat_SOV_1,
+        ~/Descriptor_Deck_Pack_BMD_3_reco_SOV_1,
+        ~/Descriptor_Deck_Pack_Pchela_1T_SOV_1,
+        ~/Descriptor_Deck_Pack_MANPAD_Igla_VDV_SOV_BTR_ZD_Skrezhet_SOV_1,
+        ~/Descriptor_Deck_Pack_GAZ_66B_ZU_SOV_1,
+        ~/Descriptor_Deck_Pack_BRDM_Strela_1_SOV_1,
+        ~/Descriptor_Deck_Pack_MiG_31_AA1_SOV_1,
+        ~/Descriptor_Deck_Pack_Su_24MP_EW_SOV_2,
+        ~/Descriptor_Deck_Pack_Su_24MP_SEAD2_SOV_1,
+        ~/Descriptor_Deck_Pack_Su_24M_thermo_SOV_1,
+        ~/Descriptor_Deck_Pack_Su_24M_AT2_SOV_1,
+        ~/Descriptor_Deck_Pack_Su_24M_LGB2_SOV_1,
+        ~/Descriptor_Deck_Pack_GAZ_66_supply_SOV_0,
     ]
 )
 
@@ -3401,6 +3490,7 @@ private DeckList is TDeckDescriptorList
         ~/Descriptor_Deck_WP_Unternehmen_Zentrum_multi,
         ~/Descriptor_Deck_RDA_Rugen_Gruppierung,
         ~/Descriptor_Deck_FR_11e_Para_multi,
+        ~/Descriptor_Deck_FR_152e_Infanterie_multi,
         ~/Descriptor_Deck_FR_5e_Blindee_multi,
         ~/Descriptor_Deck_RDA_KdA_Bezirk_Erfurt_multi,
         ~/Descriptor_Deck_RFA_2_PzGrenadier_multi,
@@ -3411,6 +3501,7 @@ private DeckList is TDeckDescriptorList
         ~/Descriptor_Deck_SOV_35_AirAslt_Brig_multi,
         ~/Descriptor_Deck_SOV_39_Gds_Rifle_multi,
         ~/Descriptor_Deck_SOV_6IndMSBrig_multi,
+        ~/Descriptor_Deck_SOV_76_VDV_multi,
         ~/Descriptor_Deck_SOV_79_Gds_Tank_multi,
         ~/Descriptor_Deck_UK_1st_Armoured_multi,
         ~/Descriptor_Deck_UK_2nd_Infantry_multi,

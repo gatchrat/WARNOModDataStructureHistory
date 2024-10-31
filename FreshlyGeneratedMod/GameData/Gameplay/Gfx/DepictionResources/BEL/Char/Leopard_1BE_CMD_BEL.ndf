@@ -15,5 +15,5 @@ export Modele_Leopard_1BE_CMD_BEL_LOW is ModelDescriptor
 
 export Modele_Leopard_1BE_CMD_BEL_Tourelle_02 is ModelDescriptor
 (
-    FileName = ModelFile_M60_t2
+    FileName = ModelFile_MAG_t2
 )

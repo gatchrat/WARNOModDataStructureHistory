@@ -7,8 +7,8 @@ DefaultButtonHUDDims is [170.0, 24.0]
 template BoutonFulda
 [
     BigLineAction : int = ~/BigLineAction/BalancedMultiline,
-    BackgroundColor : string = "BoutonTemps",
-    LineBorderColor : string = "BoutonTemps",
+    BackgroundColor : string = "BoutonTemps_Background",
+    LineBorderColor : string = "BoutonTemps_Text",
     TextColor : string = "ButtonHUD/Text2",
     TextSize : string = "11",
     TextToken : string = "HUD_UNKN",
@@ -161,7 +161,7 @@ template BoutonFulda_AvecIcone
                     Radius = 3
                     NbOfPoints = 3
                     BackgroundBlockColorToken = (<IsFromStrategic> == true ? "SM_RifleGreen_75" : "BoutonFlares")
-                    BorderLineColorToken = (<IsFromStrategic> == true ? "SM_Grullo" : "BoutonTemps")
+                    BorderLineColorToken = (<IsFromStrategic> == true ? "SM_Grullo" : "BoutonTemps_Line")
                 )
             ]
         ),
@@ -212,8 +212,8 @@ template BUCKSpecificButton
     BorderThicknessToken : string = '1',
     FitStyle : int = ~/ContainerFitStyle/None,
 
-    PanelRoundedCorner_BorderLineColorToken : string = "BoutonTemps",
-    PanelRoundedCorner_BackgroundBlockColorToken : string = "BoutonTemps",
+    PanelRoundedCorner_BorderLineColorToken : string = "BoutonTemps_Line",
+    PanelRoundedCorner_BackgroundBlockColorToken : string = "BoutonTemps_Background",
 
     Components : LIST<TBUCKContainerDescriptor> = [],
 

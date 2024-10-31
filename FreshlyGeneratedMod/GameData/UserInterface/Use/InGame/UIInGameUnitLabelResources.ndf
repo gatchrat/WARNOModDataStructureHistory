@@ -13,7 +13,7 @@ SpecificInGameUnitLabelResources is TUISpecificInGameUnitLabelResources
 (
     UILayer                         = $/UserInterface/UILayer_Labels
     UI3DLayer                       = $/UserInterface/UI3DLayer_General
-    Camera                          = $/M3D/Camera/CameraPrincipale
+    Camera                          = $/M3D/Misc/CameraPrincipale
 
     CameraMoverHelperProxy          = $/M3D/Scene/IngameCameraMoverHelperProxy
     OpacityControlByFloat           = $/M3D/Shader/UnitLabelOpacity
@@ -32,7 +32,7 @@ SpecificInGameUnitLabelResources is TUISpecificInGameUnitLabelResources
 
     UI3DTransformation = TModernWarfareLabelTransformation
     (
-        Camera = $/M3D/Camera/CameraPrincipale
+        Camera = $/M3D/Misc/CameraPrincipale
         Scene2D = $/M3D/Scene/Scene_2D_Interface
         RefResolution = [ 1920.0, 1080.0 ]
     )

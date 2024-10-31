@@ -12,6 +12,7 @@ export ModelPylon6 is CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/Amm
 export ModelPylon7 is CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_7.fbx' )
 
 export PodModelPylon4 is  CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/Ammo/Pylones/US/LAU_10A/LAU_10A_x4.fbx' )
+export PodModelPylon6 is  CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/UK/Helico/Gazelle_SNEB/SNEB_x6.fbx' )
 export PodModelPylon7 is  CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/US/Helico/AH_6C_Little_Bird/Pod_Rockets_7_Little_Bird.fbx' )
 export PodModelPylon19 is CommonMeshDesc( ModelFile = 'GameData:/Assets/3D/Units/US/Helico/Cobra_AH_1F/Pod_Rockets_19.fbx' )
 

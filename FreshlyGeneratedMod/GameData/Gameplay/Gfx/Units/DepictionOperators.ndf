@@ -64,7 +64,7 @@ DepictionOperator_ShadowPointCloudProvider is TPointCloudProviderOperatorDesc
 (
     OperatorId = 'ShadowPointCloudProvider'
     PointCloudProvider = $/M3D/Scene/PointCloudProviderPrincipal
-    Camera = $/M3D/Camera/CameraPrincipale
+    Camera = $/M3D/Misc/CameraPrincipale
 )
 
 // ****************************************************************************************************************************************
