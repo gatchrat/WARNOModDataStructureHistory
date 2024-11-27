@@ -8224,7 +8224,7 @@ export Descriptor_ShowRoomUnit_Commandos_Air_FR is TEntityDescriptor
         ~/EffectApplierModuleDescriptor,
         TExperienceModuleDescriptor
         (
-            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_simple_v3
+            ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_XP_pack_SF_v2
             CanWinExperience = True
             ExperienceGainBySecond = ~/ExperienceGainBySecond
             ExperienceMultiplierBonusOnKill = ~/ExperienceMultiplierBonusOnKill
