@@ -8,7 +8,7 @@ export ModernWarfareModularUnitFireDescriptorForTestIA is TEntityDescriptor
     [
         TTypeUnitModuleDescriptor(),
         TPositionModuleDescriptor(),
-        TApparenceModelModuleDescriptor
+        TApparenceModuleDescriptor
         (
             Depiction  = Template_DescriptorFire_Depiction
             (
