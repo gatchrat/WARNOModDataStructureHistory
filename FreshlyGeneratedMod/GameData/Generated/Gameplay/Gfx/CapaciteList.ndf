@@ -13,8 +13,6 @@ export Capacite_Aura_Commandement_1 is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 353
     RangeGRU                = 450
     CastTime                = 0.00
@@ -25,8 +23,6 @@ export Capacite_Aura_Commandement_1 is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Gain_un_niveau_XP
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -59,8 +55,6 @@ export Capacite_Aura_Commandement_2 is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 353
     RangeGRU                = 601
     CastTime                = 0.00
@@ -71,8 +65,6 @@ export Capacite_Aura_Commandement_2 is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Gain_un_niveau_XP
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -105,8 +97,6 @@ export Capacite_Aura_Commandement_3 is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 530
     RangeGRU                = 750
     CastTime                = 0.00
@@ -117,8 +107,6 @@ export Capacite_Aura_Commandement_3 is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Gain_un_niveau_XP
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -151,8 +139,6 @@ export Capacite_Aura_capture_allie_solo is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 70
     RangeGRU                = 123
     CastTime                = 0.00
@@ -163,8 +149,6 @@ export Capacite_Aura_capture_allie_solo is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_capture_allie_solo
     TargetEffectDuration    = 1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -194,8 +178,6 @@ export Capacite_Bouclier_Anti_Suppression_50 is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 353
     RangeGRU                = 353
     CastTime                = 0.00
@@ -206,8 +188,6 @@ export Capacite_Bouclier_Anti_Suppression_50 is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Bouclier_Suppression_50
     TargetEffectDuration    = 2.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -236,8 +216,6 @@ export Capacite_Bouclier_Anti_Suppression_99 is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 250
     RangeGRU                = 250
     CastTime                = 0.00
@@ -248,8 +226,6 @@ export Capacite_Bouclier_Anti_Suppression_99 is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Bouclier_Suppression_99
     TargetEffectDuration    = 2.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -278,8 +254,6 @@ export Capacite_Choc is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 53
     RangeGRU                = 175
     CastTime                = 0.00
@@ -291,8 +265,6 @@ export Capacite_Choc is TCapaciteDescriptor
     TargetEffectDuration    = -1.00
     SelfEffect       = ~/UnitEffect_Choc
     SelfEffectDuration      = -1.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -310,6 +282,46 @@ export Capacite_Choc is TCapaciteDescriptor
     ]
 
 )
+export Capacite_Choc_feedback is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{c1c26b50-425f-4f23-b329-fc342f6eab10}
+    Name             = "Choc_feedback"
+    NameToken        = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_soi
+    TargetTeamFilter        = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_soi
+    RadiusGRU               = 1
+    RangeGRU                = 1
+    CastTime                = 1.00
+    Cooldown                = 0.00
+    CheckVisibility         = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_Choc_feedback
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = 0.00
+    MaxTargetNb            = 1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+    ]
+    TagsCibleExcluded = [
+    ]
+    Conditions = [
+        ~/ConditionTagNotRaisedInUnit_choc_ok_1,
+    ]
+)
 export Capacite_Cowering_Rampe_Capacite is TCapaciteDescriptor
 (
     DescriptorId     = GUID:{2f7b9b74-2d8c-4883-babf-2fe3607e1b15}
@@ -322,8 +334,6 @@ export Capacite_Cowering_Rampe_Capacite is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -334,8 +344,6 @@ export Capacite_Cowering_Rampe_Capacite is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Infanterie_Cowering_Rampe
     TargetEffectDuration    = 1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = False
@@ -367,8 +375,6 @@ export Capacite_Cowering_Stop_Capacite is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -379,8 +385,6 @@ export Capacite_Cowering_Stop_Capacite is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Infanterie_Cowering_Stop
     TargetEffectDuration    = 1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = False
@@ -412,8 +416,6 @@ export Capacite_Debarque_camion is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 2.00
@@ -424,8 +426,6 @@ export Capacite_Debarque_camion is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Baisse_Dangerosite_et_Transport_0_Effet
     TargetEffectDuration    = 1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = False
@@ -456,8 +456,6 @@ export Capacite_Declare_hors_transport is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -468,8 +466,6 @@ export Capacite_Declare_hors_transport is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Ajoute_Tag_Hors_Transport
     TargetEffectDuration    = 1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -498,8 +494,6 @@ export Capacite_GSR is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 1.00
@@ -510,8 +504,6 @@ export Capacite_GSR is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_GSR
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -544,8 +536,6 @@ export Capacite_GSR_no_GSR is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 8.00
@@ -556,8 +546,6 @@ export Capacite_GSR_no_GSR is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Ajoute_Tag_GSR_ok
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -588,8 +576,6 @@ export Capacite_IFV is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 176
     RangeGRU                = 350
     CastTime                = 0.00
@@ -600,8 +586,6 @@ export Capacite_IFV is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Bouclier_Suppression_IFV
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -619,6 +603,46 @@ export Capacite_IFV is TCapaciteDescriptor
     ]
 
 )
+export Capacite_IFV_feedback is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{cba5c0b1-0d5e-445b-abe1-f7f734bfc0c5}
+    Name             = "IFV_feedback"
+    NameToken        = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_soi
+    TargetTeamFilter        = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_soi
+    RadiusGRU               = 1
+    RangeGRU                = 1
+    CastTime                = 1.00
+    Cooldown                = 0.00
+    CheckVisibility         = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_IFV_feedback
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = 0.00
+    MaxTargetNb            = 1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+    ]
+    TagsCibleExcluded = [
+    ]
+    Conditions = [
+        ~/ConditionTagNotRaisedInUnit_IFV_ok_1,
+    ]
+)
 export Capacite_Infanterie_Dissimulee is TCapaciteDescriptor
 (
     DescriptorId     = GUID:{da97526b-947b-4690-9066-254e4b06106c}
@@ -631,8 +655,6 @@ export Capacite_Infanterie_Dissimulee is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 0
     RangeGRU                = 1
     CastTime                = 1.00
@@ -643,8 +665,6 @@ export Capacite_Infanterie_Dissimulee is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Infanterie_bonus_discretion
     TargetEffectDuration    = 2.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = False
@@ -677,8 +697,6 @@ export Capacite_Infanterie_Retranchee is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 0
     RangeGRU                = 1
     CastTime                = 1.00
@@ -689,8 +707,6 @@ export Capacite_Infanterie_Retranchee is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Infanterie_bonus_defense
     TargetEffectDuration    = 2.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = False
@@ -722,8 +738,6 @@ export Capacite_Malus_Suppress_AllTime is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -734,8 +748,6 @@ export Capacite_Malus_Suppress_AllTime is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Effet_Suppress_Recu_125pourcent
     TargetEffectDuration    = 30.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -764,8 +776,6 @@ export Capacite_Malus_Suppress_Zone_Influence_Ennemie is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/ennemi
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -776,8 +786,6 @@ export Capacite_Malus_Suppress_Zone_Influence_Ennemie is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Effet_Suppress_Recu_125pourcent
     TargetEffectDuration    = 0.60
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -806,8 +814,6 @@ export Capacite_MilitaryPolice is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 500
     RangeGRU                = 500
     CastTime                = 0.00
@@ -818,8 +824,6 @@ export Capacite_MilitaryPolice is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_military_police
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -837,6 +841,44 @@ export Capacite_MilitaryPolice is TCapaciteDescriptor
     ]
 
 )
+export Capacite_MilitaryPolice_feedback is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{29dff076-b61d-47f4-bb62-884b4feaa105}
+    Name             = "MilitaryPolice_feedback"
+    NameToken        = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_soi
+    TargetTeamFilter        = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_soi
+    RadiusGRU               = 1
+    RangeGRU                = 1
+    CastTime                = 1.00
+    Cooldown                = 0.00
+    CheckVisibility         = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_military_police_feedback
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = 0.00
+    MaxTargetNb            = 1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+    ]
+    TagsCibleExcluded = [
+    ]
+
+)
 export Capacite_Ordre_Unload_NonArmes is TCapaciteDescriptor
 (
     DescriptorId     = GUID:{889498fc-c2fb-45fd-8f96-b3805e45cf87}
@@ -849,8 +891,6 @@ export Capacite_Ordre_Unload_NonArmes is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -861,8 +901,6 @@ export Capacite_Ordre_Unload_NonArmes is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Destruction
     TargetEffectDuration    = 1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = False
@@ -891,8 +929,6 @@ export Capacite_Regen_suppress_xp_1 is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 0
     RangeGRU                = 1
     CastTime                = 1.00
@@ -903,8 +939,6 @@ export Capacite_Regen_suppress_xp_1 is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Regen_suppress_regular
     TargetEffectDuration    = 1.00
     SelfEffectDuration      = 1.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = False
@@ -936,8 +970,6 @@ export Capacite_Regen_suppress_xp_2 is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 0
     RangeGRU                = 1
     CastTime                = 1.00
@@ -948,8 +980,6 @@ export Capacite_Regen_suppress_xp_2 is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Regen_suppress_veteran
     TargetEffectDuration    = 1.00
     SelfEffectDuration      = 1.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = False
@@ -981,8 +1011,6 @@ export Capacite_Regen_suppress_xp_3 is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 0
     RangeGRU                = 1
     CastTime                = 1.00
@@ -993,8 +1021,6 @@ export Capacite_Regen_suppress_xp_3 is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Regen_suppress_elite
     TargetEffectDuration    = 1.00
     SelfEffectDuration      = 1.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = False
@@ -1014,51 +1040,169 @@ export Capacite_Regen_suppress_xp_3 is TCapaciteDescriptor
         ~/ConditionNotInMovement,
     ]
 )
-export Capacite_Suicide_SurCettePosition is TCapaciteDescriptor
+export Capacite_SF_feedback is TCapaciteDescriptor
 (
-    DescriptorId     = GUID:{b0442fa7-73fa-41c6-be1a-4aba6e7217e9}
-    Name             = "Suicide_SurCettePosition"
-    NameToken        = "ht_movedie"
+    DescriptorId     = GUID:{df3bc3d9-bc30-407d-817c-1d10d1d7c235}
+    Name             = "SF_feedback"
+    NameToken        = "None"
     CumulEffect             = ~/CapaciteCumulEffect_jamais
-    Declenchement           = ~/CapaciteDeclenchementType_ordre_zone
-    TypeCible               = ~/CapaciteTypeCible_position
-    TargetTeamFilter        = ~/CapaciteTargetFilter_tout
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_soi
+    TargetTeamFilter        = ~/CapaciteTargetFilter_joueur
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = True
     RadiusGRU               = 1
     RangeGRU                = 1
-    CastTime                = 0.00
-    Cooldown                = 2.00
+    CastTime                = 1.00
+    Cooldown                = 0.00
     CheckVisibility         = True
     AllowReflexDuringCast   = True
-    CanBeCastFromTransport  = False
-    TargetEffect            = ~/UnitEffect_Effet_Vide
-    TargetEffectDuration    = 1.00
-    SelfEffect       = ~/UnitEffect_Effet_Meurt
-    SelfEffectDuration      = 1.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_SF_feedback
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = 0.00
     MaxTargetNb            = 1
     MultiplyCost           = False
-    TargetInBuilding       = False
-    TargetInTransport      = False
-    TargetInSelf           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
     TargetMySelf           = True
     FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
     DisplayRangeColor      = RGBA[0,0,0,0]
     DisplayRangeThickness  = 0.00
     Price = MAP[]
     TagsCiblePossible = [
-        "GroundUnits",
     ]
     TagsCibleExcluded = [
     ]
-    Conditions = [
-        ~/ConditionNotInMovement,
+
+)
+export Capacite_StressOnMiss_high is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{d94dc338-6d42-4a2c-8e97-accd98d09167}
+    Name             = "StressOnMiss_high"
+    NameToken        = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_unite
+    TargetTeamFilter        = ~/CapaciteTargetFilter_ennemi
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_circulaire
+    RadiusGRU               = 0
+    RangeGRU                = 400
+    CastTime                = 0.00
+    Cooldown                = 0.10
+    CheckVisibility         = False
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_stressOnMiss_high
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = -1.00
+    MaxTargetNb            = 1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+        "Avion",
+        "Helo",
     ]
+    TagsCibleExcluded = [
+        "UAV",
+        "UAV",
+    ]
+
+)
+export Capacite_StressOnMiss_low is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{ebd79ee3-f1be-443e-a8e2-86b8837bef13}
+    Name             = "StressOnMiss_low"
+    NameToken        = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_unite
+    TargetTeamFilter        = ~/CapaciteTargetFilter_ennemi
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_circulaire
+    RadiusGRU               = 0
+    RangeGRU                = 400
+    CastTime                = 0.00
+    Cooldown                = 0.10
+    CheckVisibility         = False
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_stressOnMiss_low
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = -1.00
+    MaxTargetNb            = 1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+        "Avion",
+        "Helo",
+    ]
+    TagsCibleExcluded = [
+        "UAV",
+        "UAV",
+    ]
+
+)
+export Capacite_StressOnMiss_mid is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{9c4f4136-a292-4620-b94a-7cca717482dc}
+    Name             = "StressOnMiss_mid"
+    NameToken        = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_unite
+    TargetTeamFilter        = ~/CapaciteTargetFilter_ennemi
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_circulaire
+    RadiusGRU               = 0
+    RangeGRU                = 400
+    CastTime                = 0.00
+    Cooldown                = 0.10
+    CheckVisibility         = False
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_stressOnMiss_mid
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = -1.00
+    MaxTargetNb            = 1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+        "Avion",
+        "Helo",
+    ]
+    TagsCibleExcluded = [
+        "UAV",
+        "UAV",
+    ]
+
 )
 export Capacite_Tank_Dissimule is TCapaciteDescriptor
 (
@@ -1072,8 +1216,6 @@ export Capacite_Tank_Dissimule is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 0
     RangeGRU                = 1
     CastTime                = 1.00
@@ -1084,8 +1226,6 @@ export Capacite_Tank_Dissimule is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Tank_bonus_discretion
     TargetEffectDuration    = 2.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = False
@@ -1116,8 +1256,6 @@ export Capacite_UAV is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -1128,8 +1266,6 @@ export Capacite_UAV is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Malus_ciblage_UAV
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1158,8 +1294,6 @@ export Capacite_electronic_warfare is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 3887
     RangeGRU                = 3887
     CastTime                = 0.00
@@ -1170,8 +1304,6 @@ export Capacite_electronic_warfare is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_electronic_warfare
     TargetEffectDuration    = 1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1201,8 +1333,6 @@ export Capacite_eo_dazzler is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -1213,8 +1343,6 @@ export Capacite_eo_dazzler is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_eo_dazzler
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1245,8 +1373,6 @@ export Capacite_fireDirection is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1415
     RangeGRU                = 1415
     CastTime                = 0.00
@@ -1257,8 +1383,6 @@ export Capacite_fireDirection is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_fireDirection
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1288,8 +1412,6 @@ export Capacite_jammer is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 3887
     RangeGRU                = 3887
     CastTime                = 0.00
@@ -1300,8 +1422,6 @@ export Capacite_jammer is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_jammer
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1331,8 +1451,6 @@ export Capacite_jammer_arty is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 3887
     RangeGRU                = 3887
     CastTime                = 0.00
@@ -1343,8 +1461,6 @@ export Capacite_jammer_arty is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_electronic_warfare_arty
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1374,8 +1490,6 @@ export Capacite_poorly_trained is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -1386,8 +1500,6 @@ export Capacite_poorly_trained is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_reserviste
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1419,8 +1531,6 @@ export Capacite_reserviste is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -1431,8 +1541,6 @@ export Capacite_reserviste is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_reserviste
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1463,8 +1571,6 @@ export Capacite_resolute is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 0.00
@@ -1475,8 +1581,6 @@ export Capacite_resolute is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_resolute
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1491,9 +1595,7 @@ export Capacite_resolute is TCapaciteDescriptor
     ]
     TagsCibleExcluded = [
     ]
-    Conditions = [
-        ~/ConditionNotInMovement,
-    ]
+
 )
 export Capacite_security is TCapaciteDescriptor
 (
@@ -1507,8 +1609,6 @@ export Capacite_security is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 1.00
@@ -1519,8 +1619,6 @@ export Capacite_security is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_security
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1540,6 +1638,44 @@ export Capacite_security is TCapaciteDescriptor
         ~/ConditionNotInMovement,
     ]
 )
+export Capacite_security_feedback is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{2bdba237-87c2-495c-812c-23df856856f7}
+    Name             = "security_feedback"
+    NameToken        = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_soi
+    TargetTeamFilter        = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_soi
+    RadiusGRU               = 1
+    RangeGRU                = 1
+    CastTime                = 1.00
+    Cooldown                = 0.00
+    CheckVisibility         = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_Choc_feedback
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = 0.00
+    MaxTargetNb            = 1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+    ]
+    TagsCibleExcluded = [
+    ]
+
+)
 export Capacite_sigint_close is TCapaciteDescriptor
 (
     DescriptorId     = GUID:{d0116721-a8a9-4943-a9c8-929671d551fd}
@@ -1552,8 +1688,6 @@ export Capacite_sigint_close is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 2250
     RangeGRU                = 2250
     CastTime                = 0.00
@@ -1565,8 +1699,6 @@ export Capacite_sigint_close is TCapaciteDescriptor
     TargetEffectDuration    = -1.00
     SelfEffect       = ~/UnitEffect_sigint_close
     SelfEffectDuration      = -1.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1600,8 +1732,6 @@ export Capacite_sigint_far is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_circulaire
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 4500
     RangeGRU                = 4500
     CastTime                = 0.00
@@ -1613,8 +1743,6 @@ export Capacite_sigint_far is TCapaciteDescriptor
     TargetEffectDuration    = -1.00
     SelfEffect       = ~/UnitEffect_sigint_far
     SelfEffectDuration      = -1.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = -1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1637,6 +1765,46 @@ export Capacite_sigint_far is TCapaciteDescriptor
         ~/ConditionTagNotRaisedInUnit_sigint_close_1,
     ]
 )
+export Capacite_sigint_feedback is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{655f1d47-cca6-4ce9-bb43-f62b8c0d7033}
+    Name             = "sigint_feedback"
+    NameToken        = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_soi
+    TargetTeamFilter        = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_soi
+    RadiusGRU               = 1
+    RangeGRU                = 1
+    CastTime                = 1.00
+    Cooldown                = 0.00
+    CheckVisibility         = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_sigint_feedback
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = 0.00
+    MaxTargetNb            = 1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+    ]
+    TagsCibleExcluded = [
+    ]
+    Conditions = [
+        ~/ConditionTagNotRaisedInUnit_sigint_ok_1,
+    ]
+)
 export Capacite_sniper is TCapaciteDescriptor
 (
     DescriptorId     = GUID:{8d3a0125-e213-4514-84d8-6921a5d1feb5}
@@ -1649,8 +1817,6 @@ export Capacite_sniper is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 1.00
@@ -1661,8 +1827,6 @@ export Capacite_sniper is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_sniper
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
@@ -1682,6 +1846,46 @@ export Capacite_sniper is TCapaciteDescriptor
         ~/ConditionNotInMovement,
     ]
 )
+export Capacite_sniper_feedback is TCapaciteDescriptor
+(
+    DescriptorId     = GUID:{7a2fd586-e50d-4ea4-97e7-3b5843938a77}
+    Name             = "sniper_feedback"
+    NameToken        = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_soi
+    TargetTeamFilter        = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_soi
+    RadiusGRU               = 1
+    RangeGRU                = 1
+    CastTime                = 1.00
+    Cooldown                = 0.00
+    CheckVisibility         = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_sniper_feedback
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = 0.00
+    MaxTargetNb            = 1
+    MultiplyCost           = False
+    TargetInBuilding       = True
+    TargetInTransport      = True
+    TargetInSelf           = True
+    TargetMySelf           = True
+    FeedbackActivationMask = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor      = RGBA[0,0,0,0]
+    DisplayRangeThickness  = 0.00
+    Price = MAP[]
+    TagsCiblePossible = [
+    ]
+    TagsCibleExcluded = [
+    ]
+    Conditions = [
+        ~/ConditionTagNotRaisedInUnit_snipe_ok_1,
+    ]
+)
 export Capacite_sniper_no_snipe is TCapaciteDescriptor
 (
     DescriptorId     = GUID:{d789677b-b842-44d8-990e-82b1a32f91c7}
@@ -1694,8 +1898,6 @@ export Capacite_sniper_no_snipe is TCapaciteDescriptor
     InfluenceMapAlliance    = ~/AllianceRelation/vide
     TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
     AreaShape               = ~/CapaciteAreaShape_soi
-    InfluenceMapType        = ~/CapaciteInfluenceMapType_zones
-    ActionRadiusWithBoundingBox = False
     RadiusGRU               = 1
     RangeGRU                = 1
     CastTime                = 10.00
@@ -1706,8 +1908,6 @@ export Capacite_sniper_no_snipe is TCapaciteDescriptor
     TargetEffect            = ~/UnitEffect_Ajoute_Tag_snipe_ok
     TargetEffectDuration    = -1.00
     SelfEffectDuration      = 0.00
-    MinVirtualUnits         = 1
-    OrderMustSpreadTargets = False
     MaxTargetNb            = 1
     MultiplyCost           = False
     TargetInBuilding       = True
