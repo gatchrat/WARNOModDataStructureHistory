@@ -123,7 +123,6 @@ private EffectsPacksList is TGameplayEffectsPacksList
         ~/UnitEffect_Optiques_plus_15pourcent,
         ~/UnitEffect_Optiques_plus_25pourcent,
         ~/UnitEffect_Optiques_plus_33pourcent,
-        ~/UnitEffect_Placebo,
         ~/UnitEffect_Precision_moins_20,
         ~/UnitEffect_Precision_moins_25,
         ~/UnitEffect_Precision_plus_10,

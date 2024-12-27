@@ -4275,20 +4275,20 @@ Weapon_Bomb_Mk82_250kg_x12 is TCompositeHappening
         $/GFX/Sound/SFXWeapon_Bomb_Mk82_250kg_x12,
     ]
 )
-Weapon_Bomb_GBU_10_x1 is TCompositeHappening
+Weapon_Bomb_GBU_10_x2 is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Bomb_GBU_10_x1,
-        $/GFX/Sound/SFXWeapon_Bomb_GBU_10_x1,
+        FXWeapon_Bomb_GBU_10_x2,
+        $/GFX/Sound/SFXWeapon_Bomb_GBU_10_x2,
     ]
 )
-Weapon_Bomb_GBU_12_x1 is TCompositeHappening
+Weapon_Bomb_GBU_12_x2 is TCompositeHappening
 (
     SubHappenings = 
     [
-        FXWeapon_Bomb_GBU_12_x1,
-        $/GFX/Sound/SFXWeapon_Bomb_GBU_12_x1,
+        FXWeapon_Bomb_GBU_12_x2,
+        $/GFX/Sound/SFXWeapon_Bomb_GBU_12_x2,
     ]
 )
 Weapon_Bomb_GBU_27_x1 is TCompositeHappening
@@ -4313,14 +4313,6 @@ Weapon_AA_AIM120A_AMRAAM is TCompositeHappening
     [
         FXWeapon_AA_AIM120A_AMRAAM,
         $/GFX/Sound/SFXWeapon_AA_AIM120A_AMRAAM,
-    ]
-)
-Weapon_Bomb_GBU_10_x2 is TCompositeHappening
-(
-    SubHappenings = 
-    [
-        FXWeapon_Bomb_GBU_10_x2,
-        $/GFX/Sound/SFXWeapon_Bomb_GBU_10_x2,
     ]
 )
 Weapon_AA_AIM9P_Sidewinder is TCompositeHappening
@@ -4353,6 +4345,14 @@ Weapon_Bomb_BL755_cluster_264kg_x4 is TCompositeHappening
     [
         FXWeapon_Bomb_BL755_cluster_264kg_x4,
         $/GFX/Sound/SFXWeapon_Bomb_BL755_cluster_264kg_x4,
+    ]
+)
+Weapon_Bomb_GBU_12_x1 is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_Bomb_GBU_12_x1,
+        $/GFX/Sound/SFXWeapon_Bomb_GBU_12_x1,
     ]
 )
 Weapon_AGM_AGM88_HARM is TCompositeHappening

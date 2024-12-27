@@ -5991,11 +5991,12 @@ Op_F111F_Aardvark_LGB2_US_Weapon2 is DepictionOperator_WeaponMissileCarriageFire
 (
     Connoisseur = MissileCarriage_F111F_Aardvark_LGB2_US
     FireEffectTag = "weapon_effet_tag2"
-    NbProj = 1
+    NbProj = 2
     WeaponIndex = 2
     WeaponShootDataPropertyName = 
     [
         "WeaponShootData_0_2",
+        "WeaponShootData_1_2",
     ]
 )
 export Gfx_F111F_Aardvark_LGB2_US is TacticAerialDepictionTemplate
@@ -6022,7 +6023,7 @@ export Gfx_F111F_Aardvark_LGB2_US is TacticAerialDepictionTemplate
             DepictionOperator_Flares,
         ]
         Actions = MAP[
-                    ( [ "weapon_effet_tag2" ], Weapon_Bomb_GBU_10_x1 ),
+                    ( [ "weapon_effet_tag2" ], Weapon_Bomb_GBU_10_x2 ),
                 ]
                 + DepictionAction_Stress_And_Wrecked_Avion
                 + DepictionAction_CriticalFX_Airplane
@@ -6050,11 +6051,12 @@ Op_F111F_Aardvark_LGB_US_Weapon2 is DepictionOperator_WeaponMissileCarriageFire
 (
     Connoisseur = MissileCarriage_F111F_Aardvark_LGB_US
     FireEffectTag = "weapon_effet_tag2"
-    NbProj = 1
+    NbProj = 2
     WeaponIndex = 2
     WeaponShootDataPropertyName = 
     [
         "WeaponShootData_0_2",
+        "WeaponShootData_1_2",
     ]
 )
 export Gfx_F111F_Aardvark_LGB_US is TacticAerialDepictionTemplate
@@ -6081,7 +6083,7 @@ export Gfx_F111F_Aardvark_LGB_US is TacticAerialDepictionTemplate
             DepictionOperator_Flares,
         ]
         Actions = MAP[
-                    ( [ "weapon_effet_tag2" ], Weapon_Bomb_GBU_12_x1 ),
+                    ( [ "weapon_effet_tag2" ], Weapon_Bomb_GBU_12_x2 ),
                 ]
                 + DepictionAction_Stress_And_Wrecked_Avion
                 + DepictionAction_CriticalFX_Airplane

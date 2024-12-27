@@ -10156,7 +10156,7 @@ export MissileCarriage_F111F_Aardvark_CBU_US_Showroom is TMissileCarriageConnois
         ),
     ]
 )
-// F111F_Aardvark_LGB2_US : ['Bomb GBU 10 x1']
+// F111F_Aardvark_LGB2_US : ['Bomb GBU 10 x2']
 export MissileCarriage_F111F_Aardvark_LGB2_US is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_F111F_Aardvark_LGB2_US
@@ -10165,7 +10165,7 @@ export MissileCarriage_F111F_Aardvark_LGB2_US is TMissileCarriageConnoisseur
     [
         TMissileCarriageWeaponInfo
         (
-            Count = 2
+            Count = 4
             MissileType = eAGM
             WeaponIndex = 2
         ),
@@ -10179,13 +10179,13 @@ export MissileCarriage_F111F_Aardvark_LGB2_US_Showroom is TMissileCarriageConnoi
     [
         TMissileCarriageWeaponInfo
         (
-            Count = 2
+            Count = 4
             MissileType = eAGM
             WeaponIndex = 2
         ),
     ]
 )
-// F111F_Aardvark_LGB_US : ['Bomb GBU 12 x1']
+// F111F_Aardvark_LGB_US : ['Bomb GBU 12 x2']
 export MissileCarriage_F111F_Aardvark_LGB_US is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_F111F_Aardvark_LGB_US
@@ -10194,7 +10194,7 @@ export MissileCarriage_F111F_Aardvark_LGB_US is TMissileCarriageConnoisseur
     [
         TMissileCarriageWeaponInfo
         (
-            Count = 2
+            Count = 4
             MissileType = eAGM
             WeaponIndex = 2
         ),
@@ -10208,7 +10208,7 @@ export MissileCarriage_F111F_Aardvark_LGB_US_Showroom is TMissileCarriageConnois
     [
         TMissileCarriageWeaponInfo
         (
-            Count = 2
+            Count = 4
             MissileType = eAGM
             WeaponIndex = 2
         ),

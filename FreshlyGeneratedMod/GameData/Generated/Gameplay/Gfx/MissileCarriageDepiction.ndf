@@ -5386,7 +5386,7 @@ SubGenerators_F111F_Aardvark_LGB2_US is TStaticMissileCarriageSubDepictionGenera
                 PhysicalProperty = "Tourelle2_MissileCount"
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU10
             )
-            MissileCount = 2
+            MissileCount = 4
             WeaponIndex = 2
         ),
     ]
@@ -5404,7 +5404,7 @@ SubGenerators_Showroom_F111F_Aardvark_LGB2_US is TStaticMissileCarriageSubDepict
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU10
             )
-            MissileCount = 2
+            MissileCount = 4
             WeaponIndex = 2
         ),
     ]
@@ -5423,7 +5423,7 @@ SubGenerators_F111F_Aardvark_LGB_US is TStaticMissileCarriageSubDepictionGenerat
                 PhysicalProperty = "Tourelle2_MissileCount"
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU12
             )
-            MissileCount = 2
+            MissileCount = 4
             WeaponIndex = 2
         ),
     ]
@@ -5441,7 +5441,7 @@ SubGenerators_Showroom_F111F_Aardvark_LGB_US is TStaticMissileCarriageSubDepicti
             (
                 ProjectileModelResource = $/GFX/DepictionResources/Modele_Missile_GBU12
             )
-            MissileCount = 2
+            MissileCount = 4
             WeaponIndex = 2
         ),
     ]

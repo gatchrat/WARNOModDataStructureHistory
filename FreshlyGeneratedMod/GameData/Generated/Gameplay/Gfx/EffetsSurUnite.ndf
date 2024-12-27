@@ -2363,13 +2363,6 @@ export UnitEffect_Optiques_plus_33pourcent is TEffectsPackDescriptor
         ),
     ]
 )
-export UnitEffect_Placebo is TEffectsPackDescriptor
-(
-    DescriptorId       = GUID:{5e6eb10f-c221-4c05-97f6-657a2d8349d9}
-    NameForDebug       = 'Placebo'
-    EffectsDescriptors = [
-    ]
-)
 export UnitEffect_Precision_moins_20 is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{604fcc23-ebc2-4620-af2b-2bf470db0be3}
