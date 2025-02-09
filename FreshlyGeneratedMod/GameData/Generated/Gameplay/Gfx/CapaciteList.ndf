@@ -1244,6 +1244,87 @@ export Capacite_Tank_Dissimule is TCapaciteDescriptor
         ~/ConditionNotInMovement,
     ]
 )
+export Capacite_Trepied is TCapaciteDescriptor
+(
+    DescriptorId            = GUID:{dc4f6df4-271c-4cf6-b2cc-cfc4cb6704f9}
+    Name                    = "Trepied"
+    NameToken               = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_soi
+    TargetTeamFilter        = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_soi
+    RadiusGRU               = 1
+    RangeGRU                = 1
+    CastTime                = 1.00
+    Cooldown                = 0.00
+    CheckVisibility         = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_Trepied
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = 0.00
+    MaxTargetNb             = 1
+    MultiplyCost            = False
+    TargetInBuilding        = True
+    TargetInTransport       = True
+    TargetInSelf            = True
+    TargetMySelf            = True
+    FeedbackActivationMask  = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor       = RGBA[0,0,0,0]
+    DisplayRangeThickness   = 0.00
+    Price                   = MAP[]
+    TagsCiblePossible       = [
+    ]
+    TagsCibleExcluded       = [
+    ]
+    Conditions              = [
+        ~/ConditionTagRaisedInUnit_Trepied_ok_1,
+        ~/ConditionNotInMovement,
+    ]
+)
+export Capacite_Trepied_no_Trepied is TCapaciteDescriptor
+(
+    DescriptorId            = GUID:{80fcb3ad-eb26-4d3e-b01d-523d53602d2b}
+    Name                    = "Trepied_no_Trepied"
+    NameToken               = "None"
+    CumulEffect             = ~/CapaciteCumulEffect_jamais
+    Declenchement           = ~/CapaciteDeclenchementType_automatique
+    TypeCible               = ~/CapaciteTypeCible_soi
+    TargetTeamFilter        = ~/CapaciteTargetFilter_joueur
+    InfluenceMapAlliance    = ~/AllianceRelation/vide
+    TargetWoundedFilter     = ~/CapaciteWoundedFilterType_tout
+    AreaShape               = ~/CapaciteAreaShape_soi
+    RadiusGRU               = 1
+    RangeGRU                = 1
+    CastTime                = 10.00
+    Cooldown                = 0.00
+    CheckVisibility         = True
+    AllowReflexDuringCast   = True
+    CanBeCastFromTransport  = True
+    TargetEffect            = ~/UnitEffect_Ajoute_Tag_Trepied_ok
+    TargetEffectDuration    = -1.00
+    SelfEffectDuration      = 0.00
+    MaxTargetNb             = 1
+    MultiplyCost            = False
+    TargetInBuilding        = True
+    TargetInTransport       = True
+    TargetInSelf            = True
+    TargetMySelf            = True
+    FeedbackActivationMask  = ~/CapaciteFeedbackActivationMask_never
+    DisplayRangeColor       = RGBA[0,0,0,0]
+    DisplayRangeThickness   = 0.00
+    Price                   = MAP[]
+    TagsCiblePossible       = [
+    ]
+    TagsCibleExcluded       = [
+    ]
+    Conditions              = [
+        ~/ConditionNotInMovement,
+    ]
+)
 export Capacite_UAV is TCapaciteDescriptor
 (
     DescriptorId            = GUID:{5df09981-76d9-4e63-b27b-6a4605eab9eb}

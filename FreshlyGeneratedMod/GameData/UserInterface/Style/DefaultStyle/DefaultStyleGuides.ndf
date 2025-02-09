@@ -2277,6 +2277,8 @@ DefaultStyleGuide is TUIStyleGuide
                                                             ( ~/ComponentState/ToggleHighlighted,     TColorRTTI( Color = [156,210,226,255] ) ),
                                                         ]),
         // panel Info
+        ("White_50",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [255,255,255,127] ) ),]),
+        ("Black_50",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [0,0,0,127] ) ),]),
         ("Gris_pi",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [142,136,126,233] ) ),]),
         ("Gris3_pi",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [99,104,104,200] ) ),]),
         ("GrisBarre_pi",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [109,111,111,255] ) ),]),
@@ -2285,6 +2287,7 @@ DefaultStyleGuide is TUIStyleGuide
         ("GrisFonceWeaponAttribute",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [45,46,47,183] ) ),]),
         ("GrisFonceJauge",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [63,63,63,205] ) ),]),
         ("MarronPanel_base",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [145,131,104,245] ) ),]),
+        ("MarronPanel_base_75",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [145,131,104,191] ) ),]),
         ("MarronPanel_baseLight",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [145,131,104,195] ) ),]),
         ("MarronPanel_fonce",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [110,101,78,255] ) ),]),
         ("MarronPanel_Tresfonce",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [82,75,58,235] ) ),]),  //[65,60,46,235]

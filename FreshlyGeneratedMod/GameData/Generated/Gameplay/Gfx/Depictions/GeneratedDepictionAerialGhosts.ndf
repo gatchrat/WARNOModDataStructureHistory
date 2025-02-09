@@ -71,6 +71,11 @@ GhostDepiction_AH1F_Cobra_US is GhostAerialDepictionTemplate
     Alternatives = Alternatives_AH1F_Cobra_US
     Selector = SpecificHelicoDepictionSelector
 )
+GhostDepiction_AH1F_HeavyHog_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_AH1F_HeavyHog_US
+    Selector = SpecificHelicoDepictionSelector
+)
 GhostDepiction_AH1F_Hog_US is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_AH1F_Hog_US
@@ -1279,11 +1284,6 @@ GhostDepiction_Mi_2_trans_POL is GhostAerialDepictionTemplate
 GhostDepiction_Mi_2_trans_SOV is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Mi_2_trans_SOV
-    Selector = SpecificHelicoDepictionSelector
-)
-GhostDepiction_Mi_4AV_130mm_TCH is GhostAerialDepictionTemplate
-(
-    Alternatives = Alternatives_Mi_4AV_130mm_TCH
     Selector = SpecificHelicoDepictionSelector
 )
 GhostDepiction_Mi_6_POL is GhostAerialDepictionTemplate

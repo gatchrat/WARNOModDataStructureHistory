@@ -4093,6 +4093,56 @@ export SoundHappening_FULDA_AT4_Firing is TSoundHappening
 )
 
 
+export Sound_FULDA_Bereg_130mm is TSoundSet
+(
+    Items = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Tir_Canon_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Canon/130mm_canon_tir_A222_1.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Tir_Canon_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Canon/130mm_canon_tir_A222_2.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Tir_Canon_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Canon/130mm_canon_tir_A222_3.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Tir_Canon_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Canon/130mm_canon_tir_A222_4.wav"
+            )
+            UseSpecialLoop = False
+        ),
+    ]
+)
+
+export SoundHappening_FULDA_Bereg_130mm is TSoundHappening
+(
+    SoundDescList = Sound_FULDA_Bereg_130mm
+    Volume = 2
+)
+
+
 export Sound_FULDA_Bofor_autocanon is TSoundSet
 (
     Items = 
@@ -6569,6 +6619,38 @@ export SoundHappening_FULDA_KPVT is TSoundHappening
 (
     SoundDescList = Sound_FULDA_KPVT
     Volume = 1
+)
+
+
+export Sound_FULDA_KS19_100mm is TSoundSet
+(
+    Items = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Tir_Canon_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Canon/100mm_canon_tir_KS19_1.wav"
+            )
+            UseSpecialLoop = False
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Tir_Canon_Gros
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Canon/100mm_canon_tir_KS19_2.wav"
+            )
+            UseSpecialLoop = False
+        ),
+    ]
+)
+
+export SoundHappening_FULDA_KS19_100mm is TSoundHappening
+(
+    SoundDescList = Sound_FULDA_KS19_100mm
+    Volume = 2
 )
 
 
@@ -10929,6 +11011,47 @@ export SoundHappening_FULDA_UZI_Burst is TSoundHappening
 (
     SoundDescList = Sound_FULDA_UZI_Burst
     Volume = 1
+)
+
+
+export Sound_FULDA_VZ53_30mm_chain_gun is TSoundSet
+(
+    Items = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Tir_Autocanon
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Autocanons/Tir_30mm_autocanon_VZ53_1.wav"
+            )
+            UseSpecialLoop = True
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Tir_Autocanon
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Autocanons/Tir_30mm_autocanon_VZ53_2.wav"
+            )
+            UseSpecialLoop = True
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Tir_Autocanon
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Autocanons/Tir_30mm_autocanon_VZ53_3.wav"
+            )
+            UseSpecialLoop = True
+        ),
+    ]
+)
+
+export SoundHappening_FULDA_VZ53_30mm_chain_gun is TSoundHappening
+(
+    SoundDescList = Sound_FULDA_VZ53_30mm_chain_gun
+    Volume = 2
 )
 
 

@@ -70,6 +70,19 @@ export UnitEffect_Ajoute_Tag_Hors_Transport is TEffectsPackDescriptor
         ),
     ]
 )
+export UnitEffect_Ajoute_Tag_Trepied_ok is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{1148ca27-f929-4324-bf78-9d121f03ee56}
+    NameForDebug       = 'Ajoute_Tag_Trepied_ok'
+    EffectsDescriptors = [
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Trepied_ok",
+            ]
+        ),
+    ]
+)
 export UnitEffect_Ajoute_Tag_no_snipe is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{0993037f-694f-418c-99f7-6c9c9549c6fb}
@@ -2943,6 +2956,38 @@ export UnitEffect_Tps_entre_salve_85pourcent is TEffectsPackDescriptor
         (
             ModifierType  = ~/ModifierType_Multiplicatif
             ModifierValue = 0.85
+        ),
+    ]
+)
+export UnitEffect_Trepied is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{9e70af7d-fbc6-499b-bf12-de171c4e5c3b}
+    NameForDebug       = 'Trepied'
+    EffectsDescriptors = [
+        TUnitEffectIncreaseConcealmentBonusDescriptor
+        (
+            ModifierType       = ~/ModifierType_Additionnel
+            BonusConcealmentBonus  = 0.5
+        ),
+        TUnitEffectIncreaseWeaponPorteeMaxDescriptor
+        (
+            ModifierType  = ~/ModifierType_Multiplicatif
+            ModifierValue = 1.25
+        ),
+        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType  = ~/ModifierType_Pourcentage
+            ModifierValue = 10
+        ),
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Trepied_ok",
+            ]
+        ),
+        TUnitEffectShowLabelIconDescriptor
+        (
+            TextureToken         = "icone_sniper"
         ),
     ]
 )

@@ -56,6 +56,8 @@ export Modele_Missile_Vympel_R27ER is TResourceMesh( Mesh="GameData:/Assets/3D/U
 export Modele_Missile_MD_24F is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Roquettes/SOV/MD_24F/MD_24F.fbx" )
 export Modele_Missile_Falanga is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Missiles/SOV/9M17PV_FALANGA/9M17PV_FALANGA.fbx" )
 export Modele_Missile_3M8M is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Missiles/SOV/3M8M/3M8M.fbx" )
+export Modele_Missile_R98MR is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Missiles/SOV/R98MR/R98MR.fbx" )
+export Modele_Missile_R98MT is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Missiles/SOV/R98MT/R98MT.fbx" )
 
 //old
 export Modele_Missile_MK20_RockeyeII is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Bombes/Mk_20_Rockeye_II.fbx" )
@@ -104,6 +106,7 @@ export Modele_Missile_Aspide_1A is TResourceMesh( Mesh="GameData:/Assets/3D/Unit
 export Modele_Missile_Hellfire is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_114_Hellfire.fbx" )
 export Modele_Missile_AGM_122_Sidearm is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_122_Sidearm.fbx" )
 export Modele_Missile_MK22_Mod_2_Rocket is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Roquettes/US/MK22_Mod_2_ROCKET/MK22_Mod_2_ROCKET.fbx" )
+export Modele_Missile_ADATS is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Missiles/US/ADATS/ADATS.fbx" )
 
 //---------------MAVERICK---------------------------------------------------------------------------------------------------
 export ModelFile_Missile_Maverick is 'GameData:/Assets/3D/Units/Ammo/Missiles/US/AGM_65_Maverick/AGM_65_Maverick.fbx'

@@ -44,17 +44,14 @@ ShowRoomResource is TUISpecificShowRoomResources
 
     WarningPanelResources           = ~/WarningPanelInGameResources
 
-    WarnOnMultiplayerDeckNotFilled  = true
-
     SelectionHandlerInGameResources = ~/SelectionResources
     MagnifierMultiplier = 0.9
 
     DummyComponentForBlur = ~/DummyComponentForBlur
 
-    CountriesToShow = ["SOV","US","UK","FR","CAN","POL","DDR","RFA","NL","BEL","LUX","TCH","ESP"]
     AllianceToCountriesToShow = MAP [
-        (ECoalition/Axis, ["SOV","DDR","POL","TCH"]),
-        (ECoalition/Allied, ["US","UK","FR","RFA","CAN","NL","BEL","LUX","ESP"])
+        (ECoalition/Axis, ["SOV","POL","DDR","TCH"]),
+        (ECoalition/Allied, ["US","UK","FR","CAN","RFA","NL","BEL","LUX","ESP"])
     ]
 
     SpecificHidingViewDescriptor = ~/UISpecificHidingViewDescriptor

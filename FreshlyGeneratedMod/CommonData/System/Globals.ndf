@@ -110,11 +110,7 @@ PrimitiveType_TRIANGLELIST  is 3
 // valeur des types de rendu des DynamicRenderToolBox ( ne pas toucher, doit matcher le CPP )
 DebugMaterialType_NONE     is -1
 DebugMaterialType_BLENDED  is 0
-DebugMaterialType_ADDITIVE is 1
-DebugMaterialType_BUTTON_STANDARD is 2
-DebugMaterialType_BUTTON_HOVERED is 3
-DebugMaterialType_BUTTON_PRESSED is 4
-DebugMaterialType_BUTTON_DISABLED is 5
+DebugMaterialType_BUTTON is 1
 
 //-----------------------------------------------------------------------------
 // Constantes diverses

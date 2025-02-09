@@ -88,22 +88,21 @@ FeedbackMessage_OnSmartMoveAndAttackOrder       is 83
 FeedbackMessage_OnSellOrder                     is 84
 FeedbackMessage_OnLandOrder                     is 85
 FeedbackMessage_OnAirplaneEvacuateOrder         is 86
-FeedbackMessage_OnAirplaneTakeOffOrder          is 87
-FeedbackMessage_OnFortifyOrder                  is 88
-FeedbackMessage_OnFortifyAntiAirOrder           is 89
-FeedbackMessage_OnChangeAltitudeOrder             is 90
-FeedbackMessage_OnSpreadOrder                     is 91
-FeedbackMessage_OnAIManageArtillery_AutoOrder   is 92
-FeedbackMessage_OnAIManageArtillery_CounterBatteryOrder   is 93
-FeedbackMessage_OnAIDefendOrder                 is 94
-FeedbackMessage_OnAIAirplaneAutoManageOrder       is 95
-FeedbackMessage_OnShootDefensiveSmokeOrder      is 96
-FeedbackMessage_OnAISupplyOrder                 is 97
-FeedbackMessage_OnIFV                           is 98
-FeedbackMessage_OnREDUnitLostForReplay          is 99
-FeedbackMessage_OnCommandZoneCapturedForReplay  is 100
-FeedbackMessage_OnCommandZoneLostForReplay      is 101
-FeedbackMessage_OnBLUUnitLostForReplay          is 102
+FeedbackMessage_OnFortifyOrder                  is 87
+FeedbackMessage_OnFortifyAntiAirOrder           is 88
+FeedbackMessage_OnChangeAltitudeOrder             is 89
+FeedbackMessage_OnSpreadOrder                     is 90
+FeedbackMessage_OnAIManageArtillery_AutoOrder   is 91
+FeedbackMessage_OnAIManageArtillery_CounterBatteryOrder   is 92
+FeedbackMessage_OnAIDefendOrder                 is 93
+FeedbackMessage_OnAIAirplaneAutoManageOrder       is 94
+FeedbackMessage_OnShootDefensiveSmokeOrder      is 95
+FeedbackMessage_OnAISupplyOrder                 is 96
+FeedbackMessage_OnIFV                           is 97
+FeedbackMessage_OnREDUnitLostForReplay          is 98
+FeedbackMessage_OnCommandZoneCapturedForReplay  is 99
+FeedbackMessage_OnCommandZoneLostForReplay      is 100
+FeedbackMessage_OnBLUUnitLostForReplay          is 101
 
 
 export Generated_DispatchedMessageType_Enum is TDispatchedMessageType
@@ -196,7 +195,6 @@ export Generated_DispatchedMessageType_Enum is TDispatchedMessageType
         "FeedbackMessage_OnSellOrder",
         "FeedbackMessage_OnLandOrder",
         "FeedbackMessage_OnAirplaneEvacuateOrder",
-        "FeedbackMessage_OnAirplaneTakeOffOrder",
         "FeedbackMessage_OnFortifyOrder",
         "FeedbackMessage_OnFortifyAntiAirOrder",
         "FeedbackMessage_OnChangeAltitudeOrder",

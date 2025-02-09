@@ -48,6 +48,8 @@ template DepictionOperator_AnimationDeployable
     DeployFromTurnTime : float,
     FoldForMoveTime    : float,
     FoldForTurnTime    : float,
+
+    FilterTurretBoneForAllAnimation = false,
 ]
 is TCosmeticSkeletalAnimationDeployableOperatorDesc
 (
@@ -62,6 +64,8 @@ is TCosmeticSkeletalAnimationDeployableOperatorDesc
     DeployFromTurnTime = <DeployFromTurnTime>
     FoldForMoveTime = <FoldForMoveTime>
     FoldForTurnTime = <FoldForTurnTime>
+
+    FilterTurretBoneForAllAnimation = <FilterTurretBoneForAllAnimation>
 )
 
 //Anims pour nouveau squelette Fulda

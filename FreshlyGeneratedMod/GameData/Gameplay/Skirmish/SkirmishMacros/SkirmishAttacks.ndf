@@ -99,6 +99,7 @@ private template Template_Main_Attack
     PoolModel_Generic = ~/Pool_Main_Attack,
     PoolModel_Easy = ~/Pool_Main_Attack_Easy,
     RatioMinimumPourAttaquer = 0.875,
+    ProdProperties = [TProdProperty_LaunchAsSoonAsPossible],
 ]
 is TMacroActionDescriptor_CorridorAttack_Specific
 (
@@ -113,9 +114,9 @@ is TMacroActionDescriptor_CorridorAttack_Specific
         TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
         TCoordinationSettingHolder(CoordinationType = <SupportingStatus>),
 
-        TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [<PoolModel_Generic>]
+        TMacroActionProductionSettingHolder(ProdProperties = <ProdProperties> PoolModelList = [<PoolModel_Generic>]
             TaggedPoolModelList = [(["AttackMain"], [<PoolModel_Generic>]),] PrioritizeCorridorsForTaggedPoolModels = true),
-        TMacroActionProductionSettingHolder(DifficultyList = [IADifficulty/Facile] ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [<PoolModel_Easy>] TaggedPoolModelList = [(["AttackMain"], [<PoolModel_Easy>]),] PrioritizeCorridorsForTaggedPoolModels = true),
+        TMacroActionProductionSettingHolder(DifficultyList = [IADifficulty/Facile] ProdProperties = <ProdProperties> PoolModelList = [<PoolModel_Easy>] TaggedPoolModelList = [(["AttackMain"], [<PoolModel_Easy>]),] PrioritizeCorridorsForTaggedPoolModels = true),
 
         TAttackRatioSettingHolder(RatioMinimumPourAttaquer = <RatioMinimumPourAttaquer> RatioPourAttaquerPerduAChaqueTick = 0.00084), // Perte de 0.1 de ratio toutes les 2 minutes
         TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),

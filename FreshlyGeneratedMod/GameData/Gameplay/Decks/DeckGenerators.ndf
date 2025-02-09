@@ -1,6 +1,4 @@
 
-DeckGeneratorContainer is TDeckGeneratorContainer
+unnamed TDeckGeneratorContainer
 (
-    DeckNameToGenerator = MAP [
-    ]
 )

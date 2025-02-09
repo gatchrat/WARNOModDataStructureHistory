@@ -20,6 +20,7 @@ Generated_DamageFamily_Enum is TDamageFamilyList
     Values = [
         "DamageFamily_ap",
         "DamageFamily_ap_missile",
+        "DamageFamily_ap_missile_sead",
         "DamageFamily_artillerie",
         "DamageFamily_assaut",
         "DamageFamily_balle",

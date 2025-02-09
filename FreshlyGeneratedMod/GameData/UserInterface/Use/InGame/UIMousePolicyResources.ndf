@@ -1055,8 +1055,8 @@ private PathAndArrowSizeMultiplierHelper is TPathAndArrowSizeMultiplierHelper
 // Flèche pour l'envoi d'un avion en mission
 private AirplaneMissionArrowDescriptor is TUIPathDescriptor
 (
-    Color                 = [255, 255, 255, 255] // BGRA
-    PlaqueSurLeSol        = true
+    Color                 = RGBA[255, 255, 255, 255]
+    World                 = $/M3D/Scene/DefaultWorld
     RenderLayerSelector = TRenderLayerSelector(RenderLayerName='Calque_Fleche_GD')
     Material              = $/M3D/Shader/MaterialBezierLine_Bichrome
     Width                 = 1500
@@ -1069,8 +1069,8 @@ private AirplaneMissionArrowDescriptor is TUIPathDescriptor
 // Flèche pour une unité de renfort
 private SpawnUnitArrowDescriptor is TUIPathDescriptor
 (
-    Color                 = [255, 255, 255, 255] // BGRA
-    PlaqueSurLeSol        = true
+    Color                 = RGBA[255, 255, 255, 255]
+    World                 = $/M3D/Scene/DefaultWorld
     RenderLayerSelector = TRenderLayerSelector(RenderLayerName='Calque_Fleche_GD')
     Material              = $/M3D/Shader/MaterialBezierLine_Bichrome
     Width                 = 1500

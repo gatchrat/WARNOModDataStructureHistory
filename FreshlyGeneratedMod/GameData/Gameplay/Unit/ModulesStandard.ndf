@@ -1,11 +1,21 @@
 DebugModuleDescriptor is TDebugModuleDescriptor()
+EffectApplierModuleDescriptor is TEffectApplierModuleDescriptor()
 EmptyTagsModuleDescriptor is TTagsModuleDescriptor()
+InfluenceDataModuleDescriptor is TInfluenceDataModuleDescriptor()
+InfluencePositionModuleDescriptor is TInfluencePositionModuleDescriptor()
 LinkTeamModuleDescriptor is TLinkTeamModuleDescriptor()
 PackSignauxModuleDescriptor  is TPackSignauxModuleDescriptor()
 SimpleTypeUnitModuleDescriptor is TTypeUnitModuleDescriptor()
 TargetDataModuleDescriptor is TTargetDataModuleDescriptor()
 
 IfNotCadavreCondition is TModuleSelectorCondition_IsNotCadavre()
+
+BuildingPositionModuleDescriptor is TPositionModuleDescriptor
+(
+    InGeoDb                    = True
+    ClampInWorld               = True
+    ClampOutMap                = False
+)
 
 ShowroomPositionModuleDescriptor is TPositionModuleDescriptor
 (
@@ -26,6 +36,12 @@ MissilePositionModuleDescriptor is TPositionModuleDescriptor
     InGeoDb                    = True
     ClampInWorld               = False
     ClampOutMap                = True
+)
+
+IAStratZoneIndexModuleDescriptor is TModuleSelector
+(
+    Default        = TIAStratZoneIndexModuleDescriptor()
+    Condition      = ~/IfNotCadavreCondition
 )
 
 SmokePositionModuleDescriptor is TPositionModuleDescriptor

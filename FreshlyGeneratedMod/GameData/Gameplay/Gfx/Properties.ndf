@@ -16,24 +16,17 @@ export InfantryDepictionSquadShowroom is TTimelyDepictionReceiverFactory
   )
 )
 
+unnamed TMimeticGhostRegistration
+(
+    GfxProperties = ~/GfxProperties
+    MimeticGhost = MAP
+    [
+        ('dummy', DummyDepiction),
+    ]
+)
 
 export GfxProperties is TGfxProperties
 (
-    World = $/M3D/Scene/DefaultWorld
-    InfantryMimetic = ~/InfantryMimetic + MAP[
-        ('TestUnit_ModelInfantry', TacticDepiction_TestUnit_ModelInfantry_Squad),
-        ('TestMissile', TestMissileDepiction),
-        ('TestTank', TestTankDepiction),
-        ('TestVehicule', TestVehiculeDepiction),
-        ('TestHelico', TestHelicoDepiction),
-        ('TestAvion', TestAvionDepiction),
-        ('TestInfantrySquad', TestInfantrySquadDepiction),
-        ('TestTankStrategic', TestTankDepiction),
-        ('TestAvionStrategic', TestAvionDepiction),
-    ]
-    UnitMimeticGhost = ~/InfantryMimeticGhost + ~/DepictionMimeticGhosts + ~/PawnGhost + ~/AerialPawnGhost + MAP[
-        ('dummy', DummyDepiction),
-    ]
     BuildingMimeticGhost = ~/BuildingMimeticGhost
     BuildingULBVDescriptor = ~/DefaultUnitLevelBuildViewDescriptor
     DistrictULBVDescriptor = ~/MapBuildingUnitLevelBuildViewDescriptor

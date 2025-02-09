@@ -24,6 +24,7 @@ export PodFRModelPylon_4  is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo
 export PodFRModelResource is  TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Pylones/FR/JL_100R.fbx" ) // ce pod a 19 boites
 export PodRFAModelResource is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Pylones/FR/JL_100R.fbx" ) // ce pod a 19 boites
 export PodUKModelResource is  TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Pylones/UK/LAU_5003/LAU_5003_x19.fbx" ) // ce pod a 19 boites
+export PodCANModelResource is  TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Pylones/CAN/LAU_5003_CRV7_x19/LAU_5003_CRV7_x19.fbx" ) // ce pod a 19 boites
 export PodUSModelResource is  TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Pylones/US/LAU_32/LAU_32_x7.fbx" ) // ce pod a 7 boites
 
 export ATGMModelResource is TResourceMesh( Mesh="GameData:/Assets/3D/Units/Ammo/Pylones/Pylone_ATGM.fbx" )

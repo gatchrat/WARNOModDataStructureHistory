@@ -285,6 +285,9 @@ DepictionPylonSet_Airplane_RFA_Showroom is DepictionPylonSet_Airplane_Common_Sho
 DepictionPylonSet_Airplane_UK is DepictionPylonSet_Airplane_Common( ModelResource = $/GFX/DepictionResources/PodUKModelResource )
 DepictionPylonSet_Airplane_UK_Showroom is DepictionPylonSet_Airplane_Common_Showroom( ModelResource = $/GFX/DepictionResources/PodUKModelResource )
 
+DepictionPylonSet_Airplane_CAN is DepictionPylonSet_Airplane_Common( ModelResource = $/GFX/DepictionResources/PodCANModelResource )
+DepictionPylonSet_Airplane_CAN_Showroom is DepictionPylonSet_Airplane_Common_Showroom( ModelResource = $/GFX/DepictionResources/PodCANModelResource )
+
 DepictionPylonSet_Airplane_US is DepictionPylonSet_Airplane_Common( ModelResource = $/GFX/DepictionResources/PodUSModelResource )
 DepictionPylonSet_Airplane_US_Showroom is DepictionPylonSet_Airplane_Common_Showroom( ModelResource = $/GFX/DepictionResources/PodUSModelResource )
 

@@ -1,6 +1,6 @@
 SelectionResources is TSelectionHandlerInGameResources
 (
-    RenderToolbox               = ~/SelectionRenderToolBox
+    Renderer = ~/SelectionRenderToolBox
     DrawingParameters           = $/M3D/Input/SelectionHandlerDrawingParameters
 
     UserInputLayer                            = $/M3D/Input/UserInputLayerHandler/InputLayer_SelectionInGame
@@ -8,8 +8,6 @@ SelectionResources is TSelectionHandlerInGameResources
 
     Camera                                    = $/M3D/Misc/CameraPrincipale
     World                                     = $/M3D/Scene/DefaultWorld
-
-    DebugSelection                            = false // Debug de sélection (affichage des BBox des unites)
 
     SceneReferenceForSelection                = $/M3D/Scene/Scene_2D_Interface
 

@@ -128,29 +128,23 @@ DepictionAction_Wrecked_Avion is MAP[
 
 DepictionAction_Wrecked_Helicopter is MAP[
     ( ['Fx_Cadavre_Fire'], CompositeCadaverFX( Fx = $/GFX/GameFx/FX_Vehicule_Dest_Fire_Avion) ),
-    ( ['Fx_Cadavre_Crashing'], TCompositeHappening
-    (
-        SubHappenings =
-        [
-            TIntroduceMobileHappening
+    ( ['Fx_Cadavre_Crashing'], TIntroduceMobileHappening
+        (
+            Anchor = "fx_stress_02"
+            Happening = TRandomHappening
             (
-                Anchor = "fx_stress_02"
-                Happening = TRandomHappening
-                (
-                    Alternatives =
-                    [
-                        FxCadavreCrashing(Action = $/GFX/GameFx/fx_crash_Helico_01),
-                        FxCadavreCrashing(Action = $/GFX/GameFx/fx_crash_Helico_02),
-                        FxCadavreCrashing(Action = $/GFX/GameFx/fx_crash_Helico_03),
-                        FxCadavreCrashing(Action = $/GFX/GameFx/fx_crash_Helico_04),
-                        FxCadavreCrashing(Action = $/GFX/GameFx/fx_crash_Helico_05),
+                Alternatives =
+                [
+                    FxCadavreCrashing(Action = $/GFX/GameFx/fx_crash_Helico_01),
+                    FxCadavreCrashing(Action = $/GFX/GameFx/fx_crash_Helico_02),
+                    FxCadavreCrashing(Action = $/GFX/GameFx/fx_crash_Helico_03),
+                    FxCadavreCrashing(Action = $/GFX/GameFx/fx_crash_Helico_04),
+                    FxCadavreCrashing(Action = $/GFX/GameFx/fx_crash_Helico_05),
 
-                    ]
-                )
-            ),
-            $/GFX/Sound/SoundHappening_CrashAvion,
-        ]
-    )),
+                ]
+            )
+        )
+    ),
 ]
 
 Stress is MAP

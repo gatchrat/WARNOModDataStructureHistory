@@ -3145,6 +3145,22 @@ Weapon_Canon_HE_125_mm_2A46_T64A is TCompositeHappening
         $/GFX/Sound/SFXWeapon_Canon_HE_125_mm_2A46_T64A,
     ]
 )
+Weapon_Canon_AP_125_mm_2A46_T64A_late is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_Canon_AP_125_mm_2A46_T64A_late,
+        $/GFX/Sound/SFXWeapon_Canon_AP_125_mm_2A46_T64A_late,
+    ]
+)
+Weapon_Canon_HE_125_mm_2A46_T64A_late is TCompositeHappening
+(
+    SubHappenings = 
+    [
+        FXWeapon_Canon_HE_125_mm_2A46_T64A_late,
+        $/GFX/Sound/SFXWeapon_Canon_HE_125_mm_2A46_T64A_late,
+    ]
+)
 Weapon_Canon_AP_125_mm_2A46_T64B_very_late is TCompositeHappening
 (
     SubHappenings = 

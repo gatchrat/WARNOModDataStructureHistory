@@ -19392,6 +19392,349 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowDescriptor
         (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Attack_adelante' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Attack_choisissez_vos_cibles' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Attack_descendez_moi_ces_rouges' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Attack_ouvrez_le_feu' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Attack_Position_feu_a_volonte' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Attack_pour_la_france' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_DamageReceived_on_va_faire_camerone' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_DamageReceived_toubib' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Enemy_Contact_ennemis_droit_devant' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_EnemyUnitContact
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Load_tout_le_monde_en_voiture' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_LoadIntoTransport
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_affirmatif' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_en_avant_doigt_sur_la_gachette' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_en_formation_de_combat' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_on_y_va_et_gaffe_aux_popofs' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_ramassez_votre_paquetage_on_y_va' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_tirez_d_abord_reflechissez_ensuite' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_van_damme_gaultier_avec_moi' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_bien_recu' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_legionnaires_suivez_moi' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_marche_ou_creve' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_on_bouge' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_sortez_vous_les_doigts_du_cul' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_en_avant_doigt_sur_la_gachette' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_en_formation_de_combat' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_on_y_va_et_gaffe_aux_popofs' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_ramassez_votre_paquetage_on_y_va' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_tirez_d_abord_reflechissez_ensuite' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Move_Attack_van_damme_gaultier_avec_moi' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_No_Ammo_on_va_etre_a_sec' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Panicking_toubib_besoin_de_morphine_ici' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Panicking_tout_le_monde_a_terre' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Impossible_negatif_chef' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_PositionForbidden
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Select_1e_compagnie_au_rapport' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Select_a_vos_ordres' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Select_pares' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Select_quels_sont_les_ordres' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Select_restez_sur_vos_gardes_les_gars' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Select_section_prete' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Select_section_prete_en_formation' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Select_si_l_ennemi_est_a_portee_alors_nous_aussi' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Select_verifiez_vos_munitions_soldats' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Attack_Position_feu_a_volonte' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Stop_tenez_vos_positions' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Stop
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Surrender_on_se_rend' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_Surrender
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Target_Destroyed_bien_joue_les_gars' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Target_Destroyed_on_les_a_eu' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Target_Destroyed_un_popof_en_moins' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Withdraw_en_arriere_les_gars' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_WithdrawOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'FR/Inf_Legion_Espagnol/FR_Inf_Legion_Withdraw_retraite' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'FR'
+            TypeSpecific      = TAcknowUnitType_Inf_Legion
+            Action            = TAcknowUnitAction_WithdrawOrder
+        ),
+        TAcknowDescriptor
+        (
             Sound             = Template_UnitAcknow( Identifier = 'FR/FR_Inf_Load_tout_le_monde_en_voiture' Filter = TSoundFilter_RadioOutside )
             MotherCountry     = 'FR'
             TypeSpecific      = TAcknowUnitType_Inf

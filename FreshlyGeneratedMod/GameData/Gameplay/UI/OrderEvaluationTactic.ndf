@@ -38,12 +38,6 @@ public orderEvaluatorCollectionTactic is TOrderEvaluatorCollectionDescriptor(
             IgnoreDirectOrder = false
         ),
 
-        TOrderEvaluatorAny(
-            OrderToken = "AirplaneTakeOff"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
         TOrderEvaluatorChangeAltitude(
             OrderToken = "ChangeAltitude"
             IgnoreDefaultOrder = true

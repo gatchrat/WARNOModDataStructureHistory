@@ -1,7 +1,7 @@
 private LandReinforcementArrowDescriptor is TUIPathDescriptor
 (
     Color                 = [0, 0, 0, 0]
-    PlaqueSurLeSol        = true
+    World                 = $/M3D/Scene/DefaultWorld
     RenderLayerSelector = TRenderLayerSelector(RenderLayerName='Calque_Fleche_GD')
     Material              = $/M3D/Shader/MaterialBezierLine_Bichrome
     Width                 = 1500
@@ -14,7 +14,7 @@ private LandReinforcementArrowDescriptor is TUIPathDescriptor
 private AerialReinforcementArrowDescriptor is TUIPathDescriptor
 (
     Color                 = [0, 0, 0, 0]
-    PlaqueSurLeSol        = true
+    World                 = $/M3D/Scene/DefaultWorld
     RenderLayerSelector   = TRenderLayerSelector(RenderLayerName='Calque_Fleche_GD')
     Material              = $/M3D/Shader/MaterialBezierLine_Bichrome
     Width                 = 1000

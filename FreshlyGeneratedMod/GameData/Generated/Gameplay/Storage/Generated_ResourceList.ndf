@@ -5,8 +5,6 @@ export Resource_DefaultMunitions is 0
 export Resource_CommandPoints is 1
 export Resource_StrategicPoints is 2
 export Resource_Tickets is 3
-export Resource_munitions is 4
-export Resource_munitions_artillerie is 5
 
 
 
@@ -17,7 +15,5 @@ export Generated_ResourceList_Enum is TEnumResourceList
         "Resource_CommandPoints",
         "Resource_StrategicPoints",
         "Resource_Tickets",
-        "Resource_munitions",
-        "Resource_munitions_artillerie",
     ]
 )

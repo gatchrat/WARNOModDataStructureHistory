@@ -1,17 +1,8 @@
-template TPictographStyleDescriptorForCommander
-[
-    Color : color,
-]
-is TPictographStyleDescriptor
-(
-    Thickness = 500.0
-    Color = <Color>
-)
-
 CommanderResources is TUISpecificCommanderResources
 (
-    CommanderEffectAreaStyleDescriptor = TPictographStyleDescriptorForCommander
+    CommanderEffectAreaStyleDescriptor = TPictographStyleDescriptor
     (
+        Thickness = 500.0
         Color = [255, 255, 255, 128]
     )
 )

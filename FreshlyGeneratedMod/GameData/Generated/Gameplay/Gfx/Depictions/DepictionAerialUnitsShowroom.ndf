@@ -271,6 +271,30 @@ export Gfx_AH1F_Cobra_US_Showroom is ShowroomAerialDepictionTemplate
         SubGenerators_Showroom_AH1F_Cobra_US,
     ]
 )
+export Gfx_AH1F_HeavyHog_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_AH1F_HeavyHog_US
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_AH1F_HeavyHog_US,
+    ]
+)
 export Gfx_AH1F_Hog_US_Showroom is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_AH1F_Hog_US
@@ -4545,26 +4569,6 @@ export Gfx_Mi_2_trans_POL_Showroom is ShowroomAerialDepictionTemplate
 export Gfx_Mi_2_trans_SOV_Showroom is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_2_trans_SOV
-    Operators = 
-    [
-        DepictionOperator_Reset_Generic,
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_1"
-            RotationAxis = float3[0, 0, 1]
-            RotationInDegree = -30
-        ),
-        TCosmeticFixedBoneRotationOperatorDesc
-        (
-            BoneName = "bloc_moteur_2"
-            RotationAxis = float3[0, 1, 0]
-            RotationInDegree = -30
-        ),
-    ]
-)
-export Gfx_Mi_4AV_130mm_TCH_Showroom is ShowroomAerialDepictionTemplate
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_4AV_130mm_TCH
     Operators = 
     [
         DepictionOperator_Reset_Generic,

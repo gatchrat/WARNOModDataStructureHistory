@@ -256,6 +256,7 @@ FxImpactDCAProximityFuzeVehiculeAir_ is TRandomHappening
 )
 FxImpactDCAAirGros is ImpactWrapper( Action = $/GFX/GameFx/fx_impact_DCA_air_gros )
 FxImpactDCAAirPetit is ImpactWrapper( Action = $/GFX/GameFx/fx_impact_DCA_air_petit )
+FxImpactDCAAirTresGros is ImpactWrapper( Action = $/GFX/GameFx/fx_impact_DCA_air_tres_gros )
 FxImpactLanceFlammes_ is TRandomHappening
 (
     Alternatives = [
@@ -449,6 +450,7 @@ FxImpactHeVehiculeAirPetit_ is TRandomHappening
         ImpactWrapper( Action = $/GFX/GameFx/fx_impact_he_vehicule_air_petit_4 ),
     ]
 )
+FxImpactHeVehiculeAirTresGros is ImpactWrapper( Action = $/GFX/GameFx/fx_impact_he_vehicule_air_tres_gros )
 FxImpactMissileAir is ImpactWrapper( Action = $/GFX/GameFx/fx_impact_missile_air )
 FxImpactMissileAirGros is ImpactWrapper( Action = $/GFX/GameFx/fx_impact_missile_air_gros )
 FxImpactMissileAirMoyen is ImpactWrapper( Action = $/GFX/GameFx/fx_impact_missile_air_moyen )
@@ -1264,6 +1266,16 @@ AllImpactHappenings is MAP[
       ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ FxImpactApVehiculeAirGros, $/GFX/Sound/SoundHappening_ImpactObus_grosVehicule ] ) ),
       ( EImpactSurface/Missile , $/GFX/Sound/SoundHappening_ImpactObus_grosVehicule ),
       ( EImpactSurface/Ricochet , TCompositeHappening( SubHappenings = [ FxRebondObusGros, $/GFX/Sound/SoundHappening_ImpactObus_grosVehicule ] ) ),
+    ])),
+  ([ 'CanonGrosHEU5TSDouilleAA' ], TImpactHappening( Happenings = MAP[
+      ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ FxImpactSolHEGros_, $/GFX/Sound/SoundHappening_ImpactCanon_grosSol ] ) ),
+      ( EImpactSurface/Water , TCompositeHappening( SubHappenings = [ FxImpactEauHEGros, $/GFX/Sound/SoundHappening_Impact_HE_Gros_Eau ] ) ),
+      ( EImpactSurface/Air , TCompositeHappening( SubHappenings = [ FxImpactDCAAirTresGros, $/GFX/Sound/SoundHappening_ImpactSAM_gros ] ) ),
+      ( EImpactSurface/Wall , TCompositeHappening( SubHappenings = [ FxImpactBatHeGros_, $/GFX/Sound/SoundHappening_ImpactCanon_grosBatiment ] ) ),
+      ( EImpactSurface/Vehicle , TCompositeHappening( SubHappenings = [ FxImpactSolHEGros_, $/GFX/Sound/SoundHappening_ImpactObus_grosVehicule ] ) ),
+      ( EImpactSurface/FlyingVehicle , TCompositeHappening( SubHappenings = [ FxImpactHeVehiculeAirTresGros, $/GFX/Sound/SoundHappening_ImpactSAM_gros ] ) ),
+      ( EImpactSurface/Missile , $/GFX/Sound/SoundHappening_ImpactObus_grosVehicule ),
+      ( EImpactSurface/Ricochet , $/GFX/Sound/SoundHappening_ImpactObus_grosVehicule ),
     ])),
   ([ 'CanonMoyenAPPT76' ], TImpactHappening( Happenings = MAP[
       ( EImpactSurface/Ground , TCompositeHappening( SubHappenings = [ FxImpactSolHEPetit_, $/GFX/Sound/SoundHappening_ImpactCanon_moyenSol ] ) ),

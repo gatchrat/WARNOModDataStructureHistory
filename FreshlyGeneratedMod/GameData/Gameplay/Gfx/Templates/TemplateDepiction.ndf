@@ -420,56 +420,14 @@ AlternativeTowedNone is TMeshlessDepictionDescriptor
     ReferenceMeshForSkeleton = $/GFX/DepictionResources/EmptyBoxesWithMissileHooks
 )
 
-template TacticTowedSubDepictionTemplate
+template TowedUnitSubDepictionGenerator
 [
-    Alternatives,
-    InitialPoses,
-    MissileAlternatives,
-    AllowedUnits
+    Mesh,
 ]
-is TSubDepiction
+is TTowedUnitSubDepictionGenerator
 (
-    Anchors = ["remorque"]
-    Depiction = TDepictionTemplate
-    (
-        TowedInitialPoses is TTowedInitialPoses( InitialPoses = <InitialPoses> )
-
-        Deviator = TTowedDeviatorDesc
-        (
-                WorldFloorProxy = $/M3D/Scene/WorldFloorForIAProxy
-                InitialPoses = TowedInitialPoses
-        )
-        ResidentMaterialTags = [ MaterialTagMech ]
-        AdditionalTextures = $/M3D/Shader/VehicleDestTextures
-        Selector = ~/TowedUnitSubDepictionSelector
-        DepictionAlternatives = [ AlternativeTowedNone ] + <Alternatives>
-
-        Operators = [
-            TCosmeticTowedPoseOperatorDesc(
-                OperatorId = 'TowedUnit'
-                InitialPoses = TowedInitialPoses
-            ),
-            DepictionOperator_Propulsion_Wheels_TowedCanon,
-        ]
-
-        SubDepictions = [ TSubDepiction
-            (
-                Anchors = ["aa_1_1", "aa_1_2", "aa_1_3", "aa_1_4", "aa_1_5", "aa_1_6", "aa_1_7", "aa_1_8"]
-                Depiction = TDepictionTemplate
-                (
-                    ResidentMaterialTags = [ MaterialTagMech ]
-                    AdditionalTextures = $/M3D/Shader/VehicleDestTextures
-                    Selector = TSubDepictionInstancedTowedMissileSelector
-                    (
-                        HighNoneLimitInMeter = LodHighNoneLimit_Missile
-                        CameraMoverManager = $/Camera/CameraMoverManager
-                        AllowedUnits = <AllowedUnits>
-                    )
-                    DepictionAlternatives = [ AlternativeNone ] + <MissileAlternatives>
-                )
-            )
-        ]
-    )
+    ReferenceMesh = <Mesh>
+    TowedUnitCatalog = $/DepictionCore/TowedUnitCatalog
 )
 
 template RocketSubDepictionTemplate

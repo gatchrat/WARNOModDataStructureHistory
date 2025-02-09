@@ -1,6 +1,3 @@
-InfluencePositionModuleDescriptor is TInfluencePositionModuleDescriptor()
-InfluenceDataModuleDescriptor is TInfluenceDataModuleDescriptor()
-EffectApplierModuleDescriptor is TEffectApplierModuleDescriptor()
 OrderDisplayModuleDescriptor is TOrderDisplayModuleDescriptor()
 
 CapturableModuleDescriptor is TCapturableModuleDescriptor
@@ -25,12 +22,6 @@ TargetCoordinatorModuleSelector is TModuleSelector
 TargetManagerModuleSelector is TModuleSelector
 (
     Default        = TTargetManagerModuleDescriptor()
-    Condition      = ~/IfNotCadavreCondition
-)
-
-IAStratZoneIndexModuleDescriptor is TModuleSelector
-(
-    Default        = TIAStratZoneIndexModuleDescriptor()
     Condition      = ~/IfNotCadavreCondition
 )
 
@@ -67,8 +58,6 @@ template AirplaneMovementDescriptor
         RollAngle = <RollAngle>
         RollSpeed = <RollSpeed>
         EvacAngle = <EvacAngle>
-        IgnoreBattlefieldOrders = False
-        EvacuateOnTargetReached = False
         EvacToStartingPoint = <EvacToStartingPoint>
         ElevatorRotationMax = ~/ElevatorRotationMax
         AileronRotationMax = ~/AileronRotationMax
@@ -232,13 +221,6 @@ BunkerCadavrePositionModuleDescriptor is TPositionModuleDescriptor
 (
     InGeoDb                    = False
     ClampInWorld               = False
-    ClampOutMap                = False
-)
-
-BuildingPositionModuleDescriptor is TPositionModuleDescriptor
-(
-    InGeoDb                    = True
-    ClampInWorld               = True
     ClampOutMap                = False
 )
 

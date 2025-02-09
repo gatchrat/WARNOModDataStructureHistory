@@ -6619,6 +6619,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'MANPAD_Strela_2M_Naval_POL'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_MANPAD_Strela_2M_Naval_POL'
+    AutoNameBase          = 'MANPAD_Strela_2M_Naval_POL'
+    ModelResource         = $/GFX/DepictionResources/Modele_MANPAD_Strela_2M_POL
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'MANPAD_Strela_2M_POL'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_MANPAD_Strela_2M_POL'
     AutoNameBase          = 'MANPAD_Strela_2M_POL'
@@ -6931,6 +6939,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Marder_1A1_MILAN_RFA'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Marder_1A1_MILAN_RFA'
+    AutoNameBase          = 'Marder_1A1_MILAN_RFA'
+    ModelResource         = $/GFX/DepictionResources/Modele_Marder_1A2_MILAN_RFA
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Marder_1A1_RFA'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Marder_1A1_RFA'
     AutoNameBase          = 'Marder_1A1_RFA'
@@ -6967,14 +6983,6 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Marder_1A3_RFA'
     AutoNameBase          = 'Marder_1A3_RFA'
     ModelResource         = $/GFX/DepictionResources/Modele_Marder_1A3_RFA
-    ThumbstackScale       = 20
-)
-unnamed Template_SceneryDescriptorSpawn
-(
-    RegistrationName      = 'Marder_1A_MILAN_RFA'
-    ClassName             = '$/GFX/Unit/Descriptor_Unit_Marder_1A_MILAN_RFA'
-    AutoNameBase          = 'Marder_1A_MILAN_RFA'
-    ModelResource         = $/GFX/DepictionResources/Modele_Marder_1A2_MILAN_RFA
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -10483,14 +10491,6 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
-    RegistrationName      = 'VLTT_P4_PC_para_FR'
-    ClassName             = '$/GFX/Unit/Descriptor_Unit_VLTT_P4_PC_para_FR'
-    AutoNameBase          = 'VLTT_P4_PC_para_FR'
-    ModelResource         = $/GFX/DepictionResources/Modele_VLTT_P4_PC_FR
-    ThumbstackScale       = 20
-)
-unnamed Template_SceneryDescriptorSpawn
-(
     RegistrationName      = 'Volkspolizei_CMD_DDR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Volkspolizei_CMD_DDR'
     AutoNameBase          = 'Volkspolizei_CMD_DDR'
@@ -10711,7 +10711,7 @@ unnamed Template_SceneryDescriptorSpawn
     RegistrationName      = 'AH1F_HeavyHog_US'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_AH1F_HeavyHog_US'
     AutoNameBase          = 'AH1F_HeavyHog_US'
-    ModelResource         = $/GFX/DepictionResources/Modele_AH1F_Hog_US
+    ModelResource         = $/GFX/DepictionResources/Modele_AH1F_HeavyHog_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -11464,14 +11464,6 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Mi_2_trans_SOV'
     AutoNameBase          = 'Mi_2_trans_SOV'
     ModelResource         = $/GFX/DepictionResources/Modele_Mi_2_trans_SOV
-    ThumbstackScale       = 20
-)
-unnamed Template_SceneryDescriptorSpawn
-(
-    RegistrationName      = 'Mi_4AV_130mm_TCH'
-    ClassName             = '$/GFX/Unit/Descriptor_Unit_Mi_4AV_130mm_TCH'
-    AutoNameBase          = 'Mi_4AV_130mm_TCH'
-    ModelResource         = $/GFX/DepictionResources/Modele_Mi_4AV_130mm_TCH
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn

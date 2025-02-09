@@ -3021,13 +3021,13 @@ SubGenerators_AH1F_HeavyHog_US is TStaticMissileCarriageSubDepictionGenerator
 (
     MissileCarriageConnoisseur = MissileCarriage_AH1F_HeavyHog_US
     Pylons = ~/DepictionPylonSet_Helico_Default
-    ReferenceMesh = $/GFX/DepictionResources/Modele_AH1F_Hog_US
+    ReferenceMesh = $/GFX/DepictionResources/Modele_AH1F_HeavyHog_US
 )
 SubGenerators_Showroom_AH1F_HeavyHog_US is TStaticMissileCarriageSubDepictionGenerator
 (
     MissileCarriageConnoisseur = MissileCarriage_AH1F_HeavyHog_US_Showroom
     Pylons = ~/DepictionPylonSet_Helico_Default_Showroom
-    ReferenceMesh = $/GFX/DepictionResources/Modele_AH1F_Hog_US
+    ReferenceMesh = $/GFX/DepictionResources/Modele_AH1F_HeavyHog_US
 )
 SubGenerators_AH1F_Hog_US is TStaticMissileCarriageSubDepictionGenerator
 (
@@ -3933,18 +3933,6 @@ SubGenerators_Showroom_Mi_2_rocket_POL is TStaticMissileCarriageSubDepictionGene
     MissileCarriageConnoisseur = MissileCarriage_Mi_2_rocket_POL_Showroom
     Pylons = ~/DepictionPylonSet_Helico_Default_Showroom
     ReferenceMesh = $/GFX/DepictionResources/Modele_Mi_2_rocket_POL
-)
-SubGenerators_Mi_4AV_130mm_TCH is TStaticMissileCarriageSubDepictionGenerator
-(
-    MissileCarriageConnoisseur = MissileCarriage_Mi_4AV_130mm_TCH
-    Pylons = ~/DepictionPylonSet_Helico_Default
-    ReferenceMesh = $/GFX/DepictionResources/Modele_Mi_4AV_130mm_TCH
-)
-SubGenerators_Showroom_Mi_4AV_130mm_TCH is TStaticMissileCarriageSubDepictionGenerator
-(
-    MissileCarriageConnoisseur = MissileCarriage_Mi_4AV_130mm_TCH_Showroom
-    Pylons = ~/DepictionPylonSet_Helico_Default_Showroom
-    ReferenceMesh = $/GFX/DepictionResources/Modele_Mi_4AV_130mm_TCH
 )
 SubGenerators_Mi_8MTV_SOV is TStaticMissileCarriageSubDepictionGenerator
 (

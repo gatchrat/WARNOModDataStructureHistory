@@ -305,6 +305,25 @@ export DepictionOperator_MovementSound_SM_SD_avion_SU25 is TCosmeticConstantMove
         ),
     ]
 )
+export DepictionOperator_MovementSound_SM_SD_avion_SU_15 is TCosmeticConstantMovementSoundOperatorDesc
+(
+    FadeInDuration = 0.5
+    MaxVolume = 1
+    MaxVolumeSpeed = 80
+    MinVolume = 0.1
+    OperatorId = "constantSound"
+    Sounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/Su24_Engine.wav"
+            )
+        ),
+    ]
+)
 export DepictionOperator_MovementSound_SM_SD_avion_Super_Etendard is TCosmeticConstantMovementSoundOperatorDesc
 (
     FadeInDuration = 0.5
@@ -320,6 +339,25 @@ export DepictionOperator_MovementSound_SM_SD_avion_Super_Etendard is TCosmeticCo
             TheSoundStream = TSoundStream
             (
                 FileName = "GameData:/Assets/Sounds/SFX/Avions/Super_Etendard_Engine.wav"
+            )
+        ),
+    ]
+)
+export DepictionOperator_MovementSound_SM_SD_avion_T33_Shooting_Star is TCosmeticConstantMovementSoundOperatorDesc
+(
+    FadeInDuration = 0.5
+    MaxVolume = 1
+    MaxVolumeSpeed = 80
+    MinVolume = 0.1
+    OperatorId = "constantSound"
+    Sounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/T33_Shooting_Star_Engine.wav"
             )
         ),
     ]
@@ -586,6 +624,25 @@ export DepictionOperator_MovementSound_SM_SD_avion_multirole_F16 is TCosmeticCon
             TheSoundStream = TSoundStream
             (
                 FileName = "GameData:/Assets/Sounds/SFX/Avions/F16_Engine.wav"
+            )
+        ),
+    ]
+)
+export DepictionOperator_MovementSound_SM_SD_avion_multirole_F18 is TCosmeticConstantMovementSoundOperatorDesc
+(
+    FadeInDuration = 0.5
+    MaxVolume = 1
+    MaxVolumeSpeed = 80
+    MinVolume = 0.1
+    OperatorId = "constantSound"
+    Sounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur_Avion
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Avions/F18_Engine.wav"
             )
         ),
     ]

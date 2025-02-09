@@ -12,11 +12,10 @@ ESmartGroupGrade is TBaseClass
     WarrantOfficer is 7
 )
 
-private GroupRules is TDeckGroupRules
+unnamed TDeckGroupRules
 (
     MaxNbSmartGroupByCombatGroup = 6
     MaxNbPackBySmartGroup = 3
-    CanUseSamePackInSameSmartGroupSlot = true
 
     MaxNbCombatGroupForGameMode = MAP
     [

@@ -981,7 +981,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 0
                )
                RateOfFire = TMinMaxValue (
-                       Min = 1.0
+                       Min = 1.9672131147540983
                        Max = 18.94736842105263
                )
                TimeBetweenTwoShots = TMinMaxValue (
@@ -989,11 +989,11 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 2.0
                )
                NbShotsBySalvo = TMinMaxValue (
-                       Min = 1
+                       Min = 2
                        Max = 40
                )
                SupplyCost = TMinMaxValue (
-                       Min = 100.0
+                       Min = 160.0
                        Max = 3000.0
                )
                Penetration = TMinMaxValue (
@@ -1086,7 +1086,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                // SuppressDamages x weapon_count_ (Number of weapons)
                SuppressDamages = TMinMaxValue (
                        Min = 7
-                       Max = 290
+                       Max = 360
                )
                SplashDamageRadiusGRU = TMinMaxValue (
                        Min = 2
@@ -1110,10 +1110,10 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                ReloadTime = TMinMaxValue (
                        Min = 3.0
-                       Max = 30.0
+                       Max = 60.0
                )
                RateOfFire = TMinMaxValue (
-                       Min = 5.333333333333333
+                       Min = 3.2
                        Max = 57.14285714285714
                )
                TimeBetweenTwoShots = TMinMaxValue (
@@ -1141,7 +1141,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                        Max = 15
                )
                Penetration = TMinMaxValue (
-                       Min = 1
+                       Min = 2
                        Max = 6
               )
          )
@@ -1586,7 +1586,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                // SuppressDamages x weapon_count_ (Number of weapons)
                SuppressDamages = TMinMaxValue (
                        Min = 7
-                       Max = 290
+                       Max = 304
                )
                SplashDamageRadiusGRU = TMinMaxValue (
                        Min = 2

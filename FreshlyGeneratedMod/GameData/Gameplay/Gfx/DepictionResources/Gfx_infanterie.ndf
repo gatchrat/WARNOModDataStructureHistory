@@ -737,10 +737,6 @@ export Modele_Engineers_DShV_SOV_04 is TResourceMesh( Mesh=SOV_VDV_2 )
 export Modele_Engineers_DShV_SOV_05 is TResourceMesh( Mesh=SOV_VDV_1 )
 export Modele_Engineers_DShV_SOV_LOW is TResourceMesh( Mesh=SOV_VDV_1_LOW )
 
-//Engineers_Vysadkari_TCH
-export Modele_Engineers_Vysadkari_TCH is TResourceMesh( Mesh=SOV_VDV_1 )
-export Modele_Engineers_Vysadkari_TCH_LOW is TResourceMesh( Mesh=SOV_VDV_1_LOW )
-
 //Engineers_VDV_SOV
 export Modele_Engineers_VDV_SOV is TResourceMesh( Mesh=SOV_VDV_1 )
 export Modele_Engineers_VDV_SOV_02 is TResourceMesh( Mesh=SOV_VDV_2 )
@@ -2038,23 +2034,35 @@ export Modele_Commando_Scout_CAN is TResourceMesh( Mesh=US_GI_1 )
 export Modele_Commando_Scout_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Engineers_CAN
-export Modele_Engineers_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Engineers_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Engineers_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_1 )
+export Modele_Engineers_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Engineers_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Engineers_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Engineers_CMD_CAN
-export Modele_Engineers_CMD_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Engineers_CMD_CAN is TResourceMesh( Mesh=CAN_Officer_1 )
+export Modele_Engineers_CMD_CAN_02 is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Engineers_CMD_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_AA )
+export Modele_Engineers_CMD_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Engineers_CMD_CAN_05 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Engineers_CMD_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Engineers_Flam_CAN
-export Modele_Engineers_Flam_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Engineers_Flam_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Engineers_Flam_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_1 )
+export Modele_Engineers_Flam_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Engineers_Flam_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Engineers_Flam_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //MANPAD_Blowpipe_CAN
-export Modele_MANPAD_Blowpipe_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_MANPAD_Blowpipe_CAN is TResourceMesh( Mesh=CAN_Soldier_AA )
+export Modele_MANPAD_Blowpipe_CAN_02 is TResourceMesh( Mesh=CAN_NCO_1 )
 export Modele_MANPAD_Blowpipe_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //MANPAD_Javelin_CAN
-export Modele_MANPAD_Javelin_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_MANPAD_Javelin_CAN is TResourceMesh( Mesh=CAN_Soldier_AA )
+export Modele_MANPAD_Javelin_CAN_02 is TResourceMesh( Mesh=CAN_NCO_1 )
 export Modele_MANPAD_Javelin_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Sniper_CAN
@@ -2066,59 +2074,100 @@ export Modele_Pathfinders_CAN is TResourceMesh( Mesh=US_GI_1 )
 export Modele_Pathfinders_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Reserve_CAN
-export Modele_Reserve_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Reserve_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Reserve_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_1 )
+export Modele_Reserve_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Reserve_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Reserve_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Reserve_CMD_CAN
-export Modele_Reserve_CMD_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Reserve_CMD_CAN is TResourceMesh( Mesh=CAN_Officer_1 )
+export Modele_Reserve_CMD_CAN_02 is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Reserve_CMD_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_AA )
+export Modele_Reserve_CMD_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Reserve_CMD_CAN_05 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Reserve_CMD_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Rifles_Mech_CAN
-export Modele_Rifles_Mech_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Rifles_Mech_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Rifles_Mech_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_1 )
+export Modele_Rifles_Mech_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Rifles_Mech_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Rifles_Mech_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Rifles_Mech_CMD_CAN
-export Modele_Rifles_Mech_CMD_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Rifles_Mech_CMD_CAN is TResourceMesh( Mesh=CAN_Officer_1 )
+export Modele_Rifles_Mech_CMD_CAN_02 is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Rifles_Mech_CMD_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_AA )
+export Modele_Rifles_Mech_CMD_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Rifles_Mech_CMD_CAN_05 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Rifles_Mech_CMD_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Rifles_Mech_Escorte_CAN
-export Modele_Rifles_Mech_Escorte_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Rifles_Mech_Escorte_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Rifles_Mech_Escorte_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_1 )
+export Modele_Rifles_Mech_Escorte_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Rifles_Mech_Escorte_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Rifles_Mech_Escorte_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Rifles_Mech_MAG_CAN
-export Modele_Rifles_Mech_MAG_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Rifles_Mech_MAG_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Rifles_Mech_MAG_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_1 )
+export Modele_Rifles_Mech_MAG_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Rifles_Mech_MAG_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Rifles_Mech_MAG_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Rifles_Mot_CAN
-export Modele_Rifles_Mot_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Rifles_Mot_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Rifles_Mot_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_1 )
+export Modele_Rifles_Mot_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Rifles_Mot_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Rifles_Mot_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Rifles_Mot_CMD_CAN
-export Modele_Rifles_Mot_CMD_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Rifles_Mot_CMD_CAN is TResourceMesh( Mesh=CAN_Officer_1 )
+export Modele_Rifles_Mot_CMD_CAN_02 is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Rifles_Mot_CMD_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_AA )
+export Modele_Rifles_Mot_CMD_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Rifles_Mot_CMD_CAN_05 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Rifles_Mot_CMD_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Rifles_Mot_CarlG_CAN
-export Modele_Rifles_Mot_CarlG_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Rifles_Mot_CarlG_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Rifles_Mot_CarlG_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_1 )
+export Modele_Rifles_Mot_CarlG_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Rifles_Mot_CarlG_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Rifles_Mot_CarlG_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Rifles_Mot_Eryx_CAN
-export Modele_Rifles_Mot_Eryx_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Rifles_Mot_Eryx_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Rifles_Mot_Eryx_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_1 )
+export Modele_Rifles_Mot_Eryx_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Rifles_Mot_Eryx_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Rifles_Mot_Eryx_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Scout_CAN
-export Modele_Scout_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Scout_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Scout_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Scout_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Scout_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Scout_GSR_CAN
-export Modele_Scout_GSR_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Scout_GSR_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Scout_GSR_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Scout_GSR_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Scout_GSR_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //Groupe_AT_CAN
-export Modele_Groupe_AT_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_Groupe_AT_CAN is TResourceMesh( Mesh=CAN_NCO_1 )
+export Modele_Groupe_AT_CAN_02 is TResourceMesh( Mesh=CAN_Soldier_1 )
+export Modele_Groupe_AT_CAN_03 is TResourceMesh( Mesh=CAN_Soldier_2 )
+export Modele_Groupe_AT_CAN_04 is TResourceMesh( Mesh=CAN_Soldier_3 )
 export Modele_Groupe_AT_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 //MP_CAN
-export Modele_MP_CAN is TResourceMesh( Mesh=US_GI_1 )
+export Modele_MP_CAN is TResourceMesh( Mesh=CAN_MP_2 )
+export Modele_MP_CAN_02 is TResourceMesh( Mesh=CAN_MP_1 )
 export Modele_MP_CAN_LOW is TResourceMesh( Mesh=US_GI_1_LOW )
 
 
@@ -2651,6 +2700,9 @@ TCH_NCO_vz60 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/NCO_vz60.
 TCH_Officer_vz60 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Officer_vz60.fbx'
 TCH_Soldier_vz60_1 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Soldier_vz60_1.fbx'
 TCH_Soldier_vz60_2 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Soldier_vz60_2.fbx'
+TCH_Soldier_vz60_1_LM is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Soldier_vz60_1_LM.fbx'
+TCH_Soldier_vz60_2_LM is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Soldier_vz60_2_LM.fbx'
+TCH_NCO_vz60_LM is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/NCO_vz60_LM.fbx'
 TCH_Soldier_vz60_LOW is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz60/Soldier_vz60_1.fbx'
 
 TCH_AA_vz85 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz85/AA_vz85.fbx'
@@ -2665,7 +2717,7 @@ TCH_NCO_Vysadkar is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/NCO_Vysad
 TCH_Officer_Vysadkar is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/Officer_Vysadkar.fbx'
 TCH_Vysadkar_1 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/Vysadkar_1.fbx'
 TCH_Vysadkar_2 is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/Vysadkar_2.fbx'
-TCH_Vysadkar_LOW is 'GameData:/Assets/3D/Units/TCH/Infanterie/Vysadkar/Soldier_vz85_1.fbx'
+TCH_Vysadkar_LOW is 'GameData:/Assets/3D/Units/TCH/Infanterie/Soldier_vz85/Soldier_vz85_1.fbx'
 
 //------------------------------------------------------------------------------
 
@@ -2674,29 +2726,37 @@ export Modele_MP_TCH is TResourceMesh( Mesh=TCH_MP )
 export Modele_MP_TCH_LOW is TResourceMesh( Mesh=TCH_MP_LOW )
 
 //MANPAD_Strela_2M_TCH
-export Modele_MANPAD_Strela_2M_TCH is TResourceMesh( Mesh=TCH_AA_vz85 )
-export Modele_MANPAD_Strela_2M_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
-export Modele_MANPAD_Strela_2M_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
+export Modele_MANPAD_Strela_2M_TCH is TResourceMesh( Mesh=TCH_AA_vz60 )
+export Modele_MANPAD_Strela_2M_TCH_02 is TResourceMesh( Mesh=TCH_NCO_vz60 )
+export Modele_MANPAD_Strela_2M_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz60_LOW )
 
 //MANPAD_Igla_Vysadkari_TCH
-export Modele_MANPAD_Igla_Vysadkari_TCH is TResourceMesh( Mesh=TCH_AA_vz85 )
-export Modele_MANPAD_Igla_Vysadkari_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
+export Modele_MANPAD_Igla_Vysadkari_TCH is TResourceMesh( Mesh=TCH_AA_Vysadkar )
+export Modele_MANPAD_Igla_Vysadkari_TCH_02 is TResourceMesh( Mesh=TCH_NCO_Vysadkar )
+export Modele_MANPAD_Igla_Vysadkari_TCH_LOW is TResourceMesh( Mesh=TCH_Vysadkar_LOW )
 
 //MANPAD_Igla_TCH
 export Modele_MANPAD_Igla_TCH is TResourceMesh( Mesh=TCH_AA_vz85 )
-export Modele_MANPAD_Igla_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_MANPAD_Igla_TCH_02 is TResourceMesh( Mesh=TCH_NCO_vz85 )
 export Modele_MANPAD_Igla_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Militia_CMD_TCH
-export Modele_Militia_CMD_TCH is TResourceMesh( Mesh=TCH_NCO_vz60 )
+export Modele_Militia_CMD_TCH is TResourceMesh( Mesh=TCH_Officer_vz60 )
+export Modele_Militia_CMD_TCH_02 is TResourceMesh( Mesh=TCH_NCO_vz60_LM )
+export Modele_Militia_CMD_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz60_1_LM )
+export Modele_Militia_CMD_TCH_04 is TResourceMesh( Mesh=TCH_Soldier_vz60_2_LM )
 export Modele_Militia_CMD_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz60_LOW )
 
 //Militia_TCH
-export Modele_Militia_TCH is TResourceMesh( Mesh=TCH_NCO_vz60 )
+export Modele_Militia_TCH is TResourceMesh( Mesh=TCH_NCO_vz60_LM )
+export Modele_Militia_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz60_1_LM )
+export Modele_Militia_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz60_2_LM )
 export Modele_Militia_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz60_LOW )
 
 //Scout_Militia_TCH
-export Modele_Scout_Militia_TCH is TResourceMesh( Mesh=TCH_NCO_vz60 )
+export Modele_Scout_Militia_TCH is TResourceMesh( Mesh=TCH_NCO_vz60_LM )
+export Modele_Scout_Militia_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz60_1_LM )
+export Modele_Scout_Militia_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz60_2_LM )
 export Modele_Scout_Militia_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz60_LOW )
 
 //Reserve_TCH
@@ -2707,45 +2767,72 @@ export Modele_Reserve_TCH_04 is TResourceMesh( Mesh=TCH_Soldier_vz60_1 )
 export Modele_Reserve_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz60_LOW )
 
 //Vysadkari_CMD_TCH
-export Modele_Vysadkari_CMD_TCH is TResourceMesh( Mesh=TCH_NCO_Vysadkar )
-export Modele_Vysadkari_CMD_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
+export Modele_Vysadkari_CMD_TCH is TResourceMesh( Mesh=TCH_Officer_Vysadkar )
+export Modele_Vysadkari_CMD_TCH_02 is TResourceMesh( Mesh=TCH_NCO_Vysadkar )
+export Modele_Vysadkari_CMD_TCH_03 is TResourceMesh( Mesh=TCH_Vysadkar_1 )
+export Modele_Vysadkari_CMD_TCH_04 is TResourceMesh( Mesh=TCH_Vysadkar_2 )
+export Modele_Vysadkari_CMD_TCH_LOW is TResourceMesh( Mesh=TCH_Vysadkar_LOW )
 
 //Scout_Vysadkari_TCH
 export Modele_Scout_Vysadkari_TCH is TResourceMesh( Mesh=TCH_NCO_Vysadkar )
-export Modele_Scout_Vysadkari_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
+export Modele_Scout_Vysadkari_TCH_02 is TResourceMesh( Mesh=TCH_Vysadkar_1 )
+export Modele_Scout_Vysadkari_TCH_03 is TResourceMesh( Mesh=TCH_Vysadkar_2 )
+export Modele_Scout_Vysadkari_TCH_LOW is TResourceMesh( Mesh=TCH_Vysadkar_LOW )
 
 //Vysadkari_TCH
 export Modele_Vysadkari_TCH is TResourceMesh( Mesh=TCH_NCO_Vysadkar )
 export Modele_Vysadkari_TCH_02 is TResourceMesh( Mesh=TCH_Vysadkar_1 )
 export Modele_Vysadkari_TCH_03 is TResourceMesh( Mesh=TCH_Vysadkar_2 )
-export Modele_Vysadkari_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
+export Modele_Vysadkari_TCH_LOW is TResourceMesh( Mesh=TCH_Vysadkar_LOW )
+
+//Engineers_Vysadkari_TCH
+export Modele_Engineers_Vysadkari_TCH is TResourceMesh( Mesh=TCH_NCO_Vysadkar )
+export Modele_Engineers_Vysadkari_TCH_02 is TResourceMesh( Mesh=TCH_Vysadkar_1 )
+export Modele_Engineers_Vysadkari_TCH_03 is TResourceMesh( Mesh=TCH_Vysadkar_2 )
+export Modele_Engineers_Vysadkari_TCH_LOW is TResourceMesh( Mesh=TCH_Vysadkar_LOW )
 
 //Engineers_CMD_TCH
-export Modele_Engineers_CMD_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Engineers_CMD_TCH is TResourceMesh( Mesh=TCH_Officer_vz85 )
+export Modele_Engineers_CMD_TCH_02 is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Engineers_CMD_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_Engineers_CMD_TCH_04 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Engineers_CMD_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Engineers_Flam_TCH
 export Modele_Engineers_Flam_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Engineers_Flam_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_Engineers_Flam_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Engineers_Flam_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Engineers_Scout_TCH
 export Modele_Engineers_Scout_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Engineers_Scout_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_Engineers_Scout_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Engineers_Scout_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Engineers_TCH
 export Modele_Engineers_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Engineers_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_Engineers_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Engineers_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Groupe_AT_TCH
 export Modele_Groupe_AT_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Groupe_AT_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_Groupe_AT_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Groupe_AT_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //HvyScout_TCH
 export Modele_HvyScout_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_HvyScout_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_HvyScout_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_HvyScout_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //MotRifles_CMD_TCH
-export Modele_MotRifles_CMD_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_MotRifles_CMD_TCH is TResourceMesh( Mesh=TCH_Officer_vz85 )
+export Modele_MotRifles_CMD_TCH_02 is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_MotRifles_CMD_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_MotRifles_CMD_TCH_04 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_MotRifles_CMD_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //MotRifles_TCH
@@ -2761,35 +2848,50 @@ export Modele_MotRifles_RPG7_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_MotRifles_RPG7_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Rifles_CMD_TCH
-export Modele_Rifles_CMD_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Rifles_CMD_TCH is TResourceMesh( Mesh=TCH_Officer_vz85 )
+export Modele_Rifles_CMD_TCH_02 is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Rifles_CMD_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_Rifles_CMD_TCH_04 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Rifles_CMD_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Rifles_HMG_TCH
 export Modele_Rifles_HMG_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Rifles_HMG_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_Rifles_HMG_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Rifles_HMG_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Rifles_TCH
 export Modele_Rifles_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Rifles_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_Rifles_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Rifles_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Scout_LRRP_TCH
 export Modele_Scout_LRRP_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Scout_LRRP_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_Scout_LRRP_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Scout_LRRP_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Scout_SF_TCH
-export Modele_Scout_SF_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
-export Modele_Scout_SF_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
+export Modele_Scout_SF_TCH is TResourceMesh( Mesh=TCH_NCO_Vysadkar )
+export Modele_Scout_SF_TCH_02 is TResourceMesh( Mesh=TCH_NCO_Vysadkar )
+export Modele_Scout_SF_TCH_03 is TResourceMesh( Mesh=TCH_NCO_Vysadkar )
+export Modele_Scout_SF_TCH_LOW is TResourceMesh( Mesh=TCH_Vysadkar_LOW )
 
 //Scout_SIGINT_TCH
 export Modele_Scout_SIGINT_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Scout_SIGINT_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_1 )
+export Modele_Scout_SIGINT_TCH_03 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Scout_SIGINT_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Scout_TCH
 export Modele_Scout_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Scout_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Scout_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Sniper_TCH
 export Modele_Sniper_TCH is TResourceMesh( Mesh=TCH_NCO_vz85 )
+export Modele_Sniper_TCH_02 is TResourceMesh( Mesh=TCH_Soldier_vz85_2 )
 export Modele_Sniper_TCH_LOW is TResourceMesh( Mesh=TCH_Soldier_vz85_LOW )
 
 //Security_TCH
@@ -3213,8 +3315,13 @@ FR_Alpin_NCO_LOW is 'GameData:/Assets/3D/Units/FR/Infanterie/Alpins/Alpin_NCO_LO
 FR_RCAM is 'GameData:/Assets/3D/Units/FR/Infanterie/RCAM/RCAM.fbx'
 
 FR_Legion_1 is 'GameData:/Assets/3D/Units/FR/Infanterie/Legion/Legion_1.fbx'
+FR_Legion_2 is 'GameData:/Assets/3D/Units/FR/Infanterie/Legion/Legion_2.fbx'
 FR_Legion_NCO is 'GameData:/Assets/3D/Units/FR/Infanterie/Legion/Legion_NCO.fbx'
 FR_Legion_spe is 'GameData:/Assets/3D/Units/FR/Infanterie/Legion/Legion_spe.fbx'
+FR_SapeurLegion_NCO is 'GameData:/Assets/3D/Units/FR/Infanterie/Legion/SapeurLegion_NCO.fbx'
+FR_Legion_Officer is 'GameData:/Assets/3D/Units/FR/Infanterie/Chasseurs/Legion_Officer.fbx'
+FR_SapeurLegion_Officer is 'GameData:/Assets/3D/Units/FR/Infanterie/Chasseurs/SapeurLegion_Officer.fbx'
+FR_Hussard_NCO is 'GameData:/Assets/3D/Units/FR/Infanterie/Chasseurs/Hussard_NCO.fbx'
 FR_Legion_LOW is 'GameData:/Assets/3D/Units/FR/Infanterie/Legion/Legion_1_LOW.fbx'
 
 FR_Para_NCO is 'GameData:/Assets/3D/Units/FR/Infanterie/Paras/Para_NCO.fbx'
@@ -3251,6 +3358,7 @@ FR_Gendarme_Air_Officier is 'GameData:/Assets/3D/Units/FR/Infanterie/Gendarmerie
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Gendarmes/Gendarme_2.fbx'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Gendarmes/Gendarme_NCO.fbx'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Legion/Legion_1.fbx'
+// 'GameData:/Assets/3D/Units/FR/Infanterie/Legion/Legion_2.fbx'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Legion/Legion_NCO.fbx'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Legion/Legion_spe.fbx'
 // 'GameData:/Assets/3D/Units/FR/Infanterie/Paras/Para_NCO.fbx'
@@ -3317,7 +3425,6 @@ export Modele_Commandos_CRAP_Para_FR_02 is TResourceMesh( Mesh=CRAP_1 )
 export Modele_Commandos_CRAP_Para_FR_03 is TResourceMesh( Mesh=FR_Chasseur_Sniper )
 export Modele_Commandos_CRAP_Para_FR_04 is TResourceMesh( Mesh=CRAP_3 )
 export Modele_Commandos_CRAP_Para_FR_LOW is TResourceMesh( Mesh=CRAP_1_LOW )
-
 
 //LRRP_FR
 export Modele_LRRP_FR is TResourceMesh( Mesh=CRAP_1 )
@@ -3424,12 +3531,10 @@ export Modele_Para_Sapeurs_Flam_FR_06 is TResourceMesh( Mesh=FR_Chasseur_2 )
 export Modele_Para_Sapeurs_Flam_FR_LOW is TResourceMesh( Mesh=FR_Para_LOW )
 
 //Sapeurs_Legion_Flam_FR
-export Modele_Sapeurs_Legion_Flam_FR is TResourceMesh( Mesh=FR_Para_NCO )
-export Modele_Sapeurs_Legion_Flam_FR_02 is TResourceMesh( Mesh=FR_Para_spe_flamer )
+export Modele_Sapeurs_Legion_Flam_FR is TResourceMesh( Mesh=FR_Legion_NCO )
+export Modele_Sapeurs_Legion_Flam_FR_02 is TResourceMesh( Mesh=FR_Legion_spe )
 export Modele_Sapeurs_Legion_Flam_FR_03 is TResourceMesh( Mesh=FR_Chasseur_1_flamer )
-export Modele_Sapeurs_Legion_Flam_FR_04 is TResourceMesh( Mesh=FR_Chasseur_Sniper )
-export Modele_Sapeurs_Legion_Flam_FR_05 is TResourceMesh( Mesh=FR_Chasseur_1 )
-export Modele_Sapeurs_Legion_Flam_FR_06 is TResourceMesh( Mesh=FR_Chasseur_2 )
+export Modele_Sapeurs_Legion_Flam_FR_04 is TResourceMesh( Mesh=FR_Chasseur_2 )
 export Modele_Sapeurs_Legion_Flam_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
 //Scout_FR
@@ -3439,11 +3544,18 @@ export Modele_Scout_FR_03 is TResourceMesh( Mesh=FR_Chasseur_NCO )
 export Modele_Scout_FR_04 is TResourceMesh( Mesh=FR_Chasseur_spe )
 export Modele_Scout_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
+//Hussards_FR
+export Modele_Hussards_FR is TResourceMesh( Mesh=FR_Hussard_NCO )
+export Modele_Hussards_FR_02 is TResourceMesh( Mesh=FR_Chasseur_2 )
+export Modele_Hussards_FR_03 is TResourceMesh( Mesh=FR_Chasseur_NCO )
+export Modele_Hussards_FR_04 is TResourceMesh( Mesh=FR_Chasseur_spe )
+export Modele_Hussards_FR_05 is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Hussards_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
+
 //Commandos_Legion_FR
 export Modele_Commandos_Legion_FR is TResourceMesh( Mesh=CRAP_NCO )
 export Modele_Commandos_Legion_FR_02 is TResourceMesh( Mesh=CRAP_2 )
 export Modele_Commandos_Legion_FR_03 is TResourceMesh( Mesh=CRAP_3 )
-export Modele_Commandos_Legion_FR_04 is TResourceMesh( Mesh=FR_Legion_1 )
 export Modele_Commandos_Legion_FR_LOW is TResourceMesh( Mesh=CRAP_1_LOW )
 
 //Commandos_FR
@@ -3512,10 +3624,9 @@ export Modele_Para_FR_LOW is TResourceMesh( Mesh=FR_Para_LOW )
 
 //Para_Legion_FR
 export Modele_Para_Legion_FR is TResourceMesh( Mesh=FR_Legion_NCO )
-export Modele_Para_Legion_FR_02 is TResourceMesh( Mesh=FR_Legion_spe )
-export Modele_Para_Legion_FR_03 is TResourceMesh( Mesh=FR_Legion_1 )
-export Modele_Para_Legion_FR_04 is TResourceMesh( Mesh=FR_Chasseur_2 )
-export Modele_Para_Legion_FR_05 is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Para_Legion_FR_02 is TResourceMesh( Mesh=FR_Legion_1 )
+export Modele_Para_Legion_FR_03 is TResourceMesh( Mesh=FR_Chasseur_2 )
+export Modele_Para_Legion_FR_04 is TResourceMesh( Mesh=FR_Chasseur_1 )
 export Modele_Para_Legion_FR_LOW is TResourceMesh( Mesh=FR_Legion_LOW )
 
 //Para_Sapeurs_CMD_FR
@@ -3650,24 +3761,53 @@ export Modele_Rifles_Aero_FR_06 is TResourceMesh( Mesh=FR_Chasseur_2 )
 export Modele_Rifles_Aero_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
 //Sapeurs_Legion_CMD_FR
-export Modele_Sapeurs_Legion_CMD_FR is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Sapeurs_Legion_CMD_FR is TResourceMesh( Mesh=FR_Chasseur_Officer )
+export Modele_Sapeurs_Legion_CMD_FR_02 is TResourceMesh( Mesh=FR_Legion_NCO )
+export Modele_Sapeurs_Legion_CMD_FR_03 is TResourceMesh( Mesh=FR_Legion_spe )
+export Modele_Sapeurs_Legion_CMD_FR_04 is TResourceMesh( Mesh=FR_Chasseur_2 )
+export Modele_Sapeurs_Legion_CMD_FR_05 is TResourceMesh( Mesh=FR_Chasseur_1 )
 export Modele_Sapeurs_Legion_CMD_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
 //Sapeurs_Legion_FR
-export Modele_Sapeurs_Legion_FR is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Sapeurs_Legion_FR is TResourceMesh( Mesh=FR_Legion_NCO )
+export Modele_Sapeurs_Legion_FR_02 is TResourceMesh( Mesh=FR_Legion_spe )
+export Modele_Sapeurs_Legion_FR_03 is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Sapeurs_Legion_FR_04 is TResourceMesh( Mesh=FR_Chasseur_2 )
 export Modele_Sapeurs_Legion_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
 //Rifles_Legion_APILAS_FR
-export Modele_Rifles_Legion_APILAS_FR is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Rifles_Legion_APILAS_FR is TResourceMesh( Mesh=FR_Legion_NCO )
+export Modele_Rifles_Legion_APILAS_FR_02 is TResourceMesh( Mesh=FR_Legion_spe )
+export Modele_Rifles_Legion_APILAS_FR_03 is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Rifles_Legion_APILAS_FR_04 is TResourceMesh( Mesh=FR_Chasseur_2 )
 export Modele_Rifles_Legion_APILAS_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
 //Rifles_Legion_CMD_FR
-export Modele_Rifles_Legion_CMD_FR is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Rifles_Legion_CMD_FR is TResourceMesh( Mesh=FR_Chasseur_Officer )
+export Modele_Rifles_Legion_CMD_FR_02 is TResourceMesh( Mesh=FR_Legion_NCO )
+export Modele_Rifles_Legion_CMD_FR_03 is TResourceMesh( Mesh=FR_Legion_spe )
+export Modele_Rifles_Legion_CMD_FR_04 is TResourceMesh( Mesh=FR_Chasseur_2 )
+export Modele_Rifles_Legion_CMD_FR_05 is TResourceMesh( Mesh=FR_Chasseur_1 )
 export Modele_Rifles_Legion_CMD_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
 //Rifles_Legion_FR
-export Modele_Rifles_Legion_FR is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Rifles_Legion_FR is TResourceMesh( Mesh=FR_Legion_NCO )
+export Modele_Rifles_Legion_FR_02 is TResourceMesh( Mesh=FR_Legion_spe )
+export Modele_Rifles_Legion_FR_03 is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Rifles_Legion_FR_04 is TResourceMesh( Mesh=FR_Chasseur_2 )
 export Modele_Rifles_Legion_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
+
+//Scout_Legion_FR
+export Modele_Scout_Legion_FR is TResourceMesh( Mesh=FR_Legion_NCO )
+export Modele_Scout_Legion_FR_02 is TResourceMesh( Mesh=FR_Legion_spe )
+export Modele_Scout_Legion_FR_03 is TResourceMesh( Mesh=FR_Chasseur_1 )
+export Modele_Scout_Legion_FR_04 is TResourceMesh( Mesh=FR_Chasseur_2 )
+export Modele_Scout_Legion_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
+
+//Sniper_Legion_FR
+export Modele_Sniper_Legion_FR is TResourceMesh( Mesh=FR_Legion_NCO )
+export Modele_Sniper_Legion_FR_02 is TResourceMesh( Mesh=FR_Legion_spe )
+export Modele_Sniper_Legion_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
 //Rifles_Alpin_FR
 export Modele_Rifles_Alpin_FR is TResourceMesh( Mesh=FR_Alpin_NCO )
@@ -3682,24 +3822,20 @@ export Modele_Rifles_FR_05 is TResourceMesh( Mesh=FR_Chasseur_spe )
 export Modele_Rifles_FR_06 is TResourceMesh( Mesh=FR_Chasseur_2 )
 export Modele_Rifles_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
-
 //MANPAD_Mistral_para_FR
-export Modele_MANPAD_Mistral_para_FR is TResourceMesh( Mesh=FR_Chasseur_1 )
-export Modele_MANPAD_Mistral_para_FR_02 is TResourceMesh( Mesh=FR_Chasseur_2 )
-export Modele_MANPAD_Mistral_para_FR_03 is TResourceMesh( Mesh=FR_Chasseur_NCO )
-export Modele_MANPAD_Mistral_para_FR_04 is TResourceMesh( Mesh=FR_Chasseur_Sniper )
-export Modele_MANPAD_Mistral_para_FR_05 is TResourceMesh( Mesh=FR_Chasseur_spe )
-export Modele_MANPAD_Mistral_para_FR_06 is TResourceMesh( Mesh=FR_Chasseur_2 )
+export Modele_MANPAD_Mistral_para_FR is TResourceMesh( Mesh=FR_Para_NCO )
+export Modele_MANPAD_Mistral_para_FR_02 is TResourceMesh( Mesh=FR_Para_spe )
 export Modele_MANPAD_Mistral_para_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
 //MANPAD_Mistral_FR
 export Modele_MANPAD_Mistral_FR is TResourceMesh( Mesh=FR_Chasseur_1 )
-export Modele_MANPAD_Mistral_FR_02 is TResourceMesh( Mesh=FR_Chasseur_2 )
-export Modele_MANPAD_Mistral_FR_03 is TResourceMesh( Mesh=FR_Chasseur_NCO )
-export Modele_MANPAD_Mistral_FR_04 is TResourceMesh( Mesh=FR_Chasseur_Sniper )
-export Modele_MANPAD_Mistral_FR_05 is TResourceMesh( Mesh=FR_Chasseur_spe )
-export Modele_MANPAD_Mistral_FR_06 is TResourceMesh( Mesh=FR_Chasseur_2 )
+export Modele_MANPAD_Mistral_FR_02 is TResourceMesh( Mesh=FR_Chasseur_NCO )
 export Modele_MANPAD_Mistral_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
+
+//MANPAD_Mistral_Legion_FR
+export Modele_MANPAD_Mistral_Legion_FR is TResourceMesh( Mesh=FR_Legion_NCO )
+export Modele_MANPAD_Mistral_Legion_FR_02 is TResourceMesh( Mesh=FR_Legion_spe )
+export Modele_MANPAD_Mistral_Legion_FR_LOW is TResourceMesh( Mesh=FR_Chasseur_LOW )
 
 //------------------------------------------------------------------------------
 //-----------------------------------SOLDATS UK---------------------------------
@@ -4682,6 +4818,11 @@ export Modele_MANPAD_Strela_2M_POL_LOW is TResourceMesh( Mesh=DDR_MotSchutzen_LO
 export Modele_MANPAD_Strela_2M_Para_POL is TResourceMesh( Mesh=POL_Spado_NCO )
 export Modele_MANPAD_Strela_2M_Para_POL_02 is TResourceMesh( Mesh=POL_Spado_1 )
 export Modele_MANPAD_Strela_2M_Para_POL_LOW is TResourceMesh( Mesh=POL_Niebieskie_1_LOW )
+
+//MANPAD_Strela_2M_Naval_POL
+export Modele_MANPAD_Strela_2M_Naval_POL is TResourceMesh( Mesh=POL_Niebieskie_NCO )
+export Modele_MANPAD_Strela_2M_Naval_POL_02 is TResourceMesh( Mesh=POL_Niebieskie_1 )
+export Modele_MANPAD_Strela_2M_Naval_POL_LOW is TResourceMesh( Mesh=POL_Niebieskie_1_LOW )
 
 //Commandos_POL
 export Modele_Commandos_POL is TResourceMesh( Mesh=POL_Spado_NCO )

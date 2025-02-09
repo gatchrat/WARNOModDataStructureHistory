@@ -44,6 +44,7 @@ unnamed TAcknowUnitType
         "TAcknowUnitType_Inf2",
         "TAcknowUnitType_InfLVF",
         "TAcknowUnitType_Inf_Elite",
+        "TAcknowUnitType_Inf_Legion",
         "TAcknowUnitType_Inf_Militia",
         "TAcknowUnitType_KaJaPa",
         "TAcknowUnitType_LargeBoat",

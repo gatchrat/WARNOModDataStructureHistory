@@ -57,7 +57,7 @@ template BUCKAnimatedContainerDescriptor
 
     UseRewind : bool = true, // Si true, lorsque l'animation est redeclenchée apres avoir jouée, elle va rejouer à l'envers
 
-    ParametersByTrigger : MAP<int, TUIAnimationParametersRTTI>, // Les paramètre des l'animation rangé par déclencheur (mettre des valeurs négatives pour les déclencheurs customs)
+    ParametersByTrigger : MAP<int, TUIAnimationParametersDescriptor>, // Les paramètre des l'animation rangé par déclencheur (mettre des valeurs négatives pour les déclencheurs customs)
 ]
 is TBUCKAnimatedContainerDescriptor
 (
@@ -158,7 +158,8 @@ template BUCKSimpleAnimatedContainerDescriptor
     TriggerWhenSetInvisible : bool = false, // Declenche l'animation avant la disparition du conteneur à l'écran
 
     AnimationTotalDuration : float, // Duree de l'animation
-    AnimationModifier : TUIAnimationModifierRTTI,
+    FrameAnimationModifier : TUIAnimationFramePropertyModifierDescriptor = nil,
+    OpacityAnimationModifier : TUIAnimationOpacityModifierDescriptor = nil,
 
 ] is BUCKAnimatedContainerDescriptor
 (
@@ -201,13 +202,11 @@ template BUCKSimpleAnimatedContainerDescriptor
     ButtonNameForTrigger = <ButtonNameForTrigger>
     ButtonUniqueNameForTrigger = <ButtonUniqueNameForTrigger>
 
-    AnimationParameters is TUIAnimationParametersRTTI
+    AnimationParameters is TUIAnimationParametersDescriptor
     (
         TotalDuration = <AnimationTotalDuration>
-        ModifierDescriptors =
-        [
-            <AnimationModifier>,
-        ]
+        FrameModifierDescriptor = <FrameAnimationModifier>
+        OpacityModifierDescriptor = <OpacityAnimationModifier>
     )
 
     ParametersByTrigger = MAP
@@ -252,8 +251,8 @@ template BUCKTranslationAnimatedContainerDescriptor
     PointerEventsToAllow : int = ~/EAllowablePointerEventType/None,
 
     GridAlign : bool = false,
-
     FitStyle : int = ~/ContainerFitStyle/None,
+
     ChildFitToContent : bool = false,
 
     ClipContent : bool = false,
@@ -285,6 +284,9 @@ template BUCKTranslationAnimatedContainerDescriptor
     AnimationTotalDuration : float, // Duree de l'animation
     AnimationModificator : int = ~/AnimModificator/None,
     AnimationModificatorParameters : List<float> = [],
+
+    AnimateFitStyle : bool = false,
+    FitStyleAfterAnimation : int = ~/EAllowablePointerEventType/None,
 
     FramePropertyAfterAnimation : TUIFramePropertyRTTI, // Position finale du conteneur a la fin de l'animation
 
@@ -334,7 +336,7 @@ template BUCKTranslationAnimatedContainerDescriptor
 
     AnimationTotalDuration = <AnimationTotalDuration>
 
-    AnimationModifier = TUIAnimationFramePropertyModifierRTTI
+    FrameAnimationModifier = TUIAnimationFramePropertyModifierDescriptor
     (
         Duration = <AnimationTotalDuration>
         StartTime = 0.0
@@ -350,9 +352,10 @@ template BUCKTranslationAnimatedContainerDescriptor
             | <AnimationModificator> == ~/AnimModificator/InvMaxed
             ) ? true : false
 
-        InitialFrameProperty = <FramePropertyBeforeAnimation>
         FinalFrameProperty = <FramePropertyAfterAnimation>
         ForcedFinalFrameProperty = FinalFramePropertyIsInitialFrameProperty ? <FramePropertyBeforeAnimation> : <FramePropertyAfterAnimation>
+        FitStyleBeforeAnimation = <FitStyle>
+        FitStyleAfterAnimation = (<AnimateFitStyle> ? <FitStyleAfterAnimation> : <FitStyle>)
     )
 )
 

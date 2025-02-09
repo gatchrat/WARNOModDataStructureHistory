@@ -4797,6 +4797,35 @@ export MissileCarriage_MTLB_Strela10_SOV_Showroom is TMissileCarriageConnoisseur
         ),
     ]
 )
+// Marder_1A1_MILAN_RFA : ['ATGM MILAN']
+export MissileCarriage_Marder_1A1_MILAN_RFA is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Marder_1A2_MILAN_RFA
+    PylonSet = ~/DepictionPylonSet_ATGM
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 5
+            MissileType = eAGM
+            WeaponIndex = 2
+        ),
+    ]
+)
+export MissileCarriage_Marder_1A1_MILAN_RFA_Showroom is TMissileCarriageConnoisseur
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Marder_1A2_MILAN_RFA
+    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
+    WeaponInfos = 
+    [
+        TMissileCarriageWeaponInfo
+        (
+            Count = 5
+            MissileType = eAGM
+            WeaponIndex = 2
+        ),
+    ]
+)
 // Marder_1A2_MILAN_RFA : ['ATGM MILAN']
 export MissileCarriage_Marder_1A2_MILAN_RFA is TMissileCarriageConnoisseur
 (
@@ -4844,35 +4873,6 @@ export MissileCarriage_Marder_1A3_MILAN_RFA is TMissileCarriageConnoisseur
 export MissileCarriage_Marder_1A3_MILAN_RFA_Showroom is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Marder_1A3_MILAN_RFA
-    PylonSet = ~/DepictionPylonSet_ATGM_Showroom
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 5
-            MissileType = eAGM
-            WeaponIndex = 2
-        ),
-    ]
-)
-// Marder_1A_MILAN_RFA : ['ATGM MILAN']
-export MissileCarriage_Marder_1A_MILAN_RFA is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_Marder_1A2_MILAN_RFA
-    PylonSet = ~/DepictionPylonSet_ATGM
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 5
-            MissileType = eAGM
-            WeaponIndex = 2
-        ),
-    ]
-)
-export MissileCarriage_Marder_1A_MILAN_RFA_Showroom is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_Marder_1A2_MILAN_RFA
     PylonSet = ~/DepictionPylonSet_ATGM_Showroom
     WeaponInfos = 
     [
@@ -6387,7 +6387,7 @@ export MissileCarriage_AH1F_Cobra_US_Showroom is TMissileCarriageConnoisseur
 // AH1F_HeavyHog_US : ['RocketAir Zuni 1272mm x8'] ['RocketAir Zuni 1272mm x8']
 export MissileCarriage_AH1F_HeavyHog_US is TMissileCarriageConnoisseur
 (
-    MeshDescriptor = $/GFX/DepictionResources/Modele_AH1F_Hog_US
+    MeshDescriptor = $/GFX/DepictionResources/Modele_AH1F_HeavyHog_US
     PylonSet = ~/DepictionPylonSet_Helico_Default
     WeaponInfos = 
     [
@@ -6409,7 +6409,7 @@ export MissileCarriage_AH1F_HeavyHog_US is TMissileCarriageConnoisseur
 )
 export MissileCarriage_AH1F_HeavyHog_US_Showroom is TMissileCarriageConnoisseur
 (
-    MeshDescriptor = $/GFX/DepictionResources/Modele_AH1F_Hog_US
+    MeshDescriptor = $/GFX/DepictionResources/Modele_AH1F_HeavyHog_US
     PylonSet = ~/DepictionPylonSet_Helico_Default_Showroom
     WeaponInfos = 
     [
@@ -8208,37 +8208,6 @@ export MissileCarriage_Mi_2_rocket_POL is TMissileCarriageConnoisseur
 export MissileCarriage_Mi_2_rocket_POL_Showroom is TMissileCarriageConnoisseur
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_2_rocket_POL
-    PylonSet = ~/DepictionPylonSet_Helico_Default_Showroom
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 32
-            MissileType = eAGM
-            MountingType = eMountingPod
-            WeaponIndex = 2
-        ),
-    ]
-)
-// Mi_4AV_130mm_TCH : ['RocketAir S5 57mm x32']
-export MissileCarriage_Mi_4AV_130mm_TCH is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_4AV_130mm_TCH
-    PylonSet = ~/DepictionPylonSet_Helico_Default
-    WeaponInfos = 
-    [
-        TMissileCarriageWeaponInfo
-        (
-            Count = 32
-            MissileType = eAGM
-            MountingType = eMountingPod
-            WeaponIndex = 2
-        ),
-    ]
-)
-export MissileCarriage_Mi_4AV_130mm_TCH_Showroom is TMissileCarriageConnoisseur
-(
-    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_4AV_130mm_TCH
     PylonSet = ~/DepictionPylonSet_Helico_Default_Showroom
     WeaponInfos = 
     [

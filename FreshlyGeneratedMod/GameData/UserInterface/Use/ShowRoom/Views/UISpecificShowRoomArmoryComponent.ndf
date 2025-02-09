@@ -105,8 +105,8 @@ private template CategoryFiltersMainRack
 [
     ElementNamePrefix : string,
     TextureColorToken : string = "GrisOnglet_armory",
-    MagnifiableWidthHeight : float2 = [40.0, 40.0],
-    MagnifiableWidthHeight_button : float2 = [28.0, 28.0],
+    MagnifiableWidthHeight : float2,
+    MagnifiableWidthHeight_button : float2,
 ] is BUCKListElementDescriptor
 (
     ComponentDescriptor = BUCKRackDescriptor
@@ -637,7 +637,24 @@ private ShowroomTopFiltersList is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKRackDescriptor
             (
-                ElementName = "CountryFilterRack"
+                ElementName = "NATOCountryFilterRack"
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    RelativeWidthHeight = [0.0, 1.0]
+                )
+
+                FirstMargin = TRTTILength( Magnifiable = 0.0 )
+                InterItemMargin = TRTTILength( Pixel = 5.0 )
+                Axis = ~/ListAxis/Horizontal
+
+                BladeDescriptor = ArmoryCountryFilterButtonDescriptor
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKRackDescriptor
+            (
+                ElementName = "PACTCountryFilterRack"
                 ComponentFrame = TUIFramePropertyRTTI
                 (
                     RelativeWidthHeight = [0.0, 1.0]
@@ -688,19 +705,51 @@ private ShowroomTopFiltersList is BUCKListDescriptor
 
                 Components =
                 [
-                    BUCKRackDescriptor
+                    BUCKListDescriptor
                     (
-                        ElementName = "DivisionFilterRack"
                         ComponentFrame = TUIFramePropertyRTTI
                         (
                             RelativeWidthHeight = [0.0, 1.0]
                         )
-
-                        FirstMargin = TRTTILength( Magnifiable = 0.0 )
-                        InterItemMargin = TRTTILength( Pixel = 4.0 )
                         Axis = ~/ListAxis/Horizontal
 
-                        BladeDescriptor = ArmoryDivisionFilterButtonDescriptor
+                        Elements =
+                        [
+                            BUCKListElementDescriptor
+                            (
+                                ComponentDescriptor = BUCKRackDescriptor
+                                (
+                                    ElementName = "NATODivisionFilterRack"
+                                    ComponentFrame = TUIFramePropertyRTTI
+                                    (
+                                        RelativeWidthHeight = [0.0, 1.0]
+                                    )
+
+                                    FirstMargin = TRTTILength( Magnifiable = 0.0 )
+                                    InterItemMargin = TRTTILength( Pixel = 4.0 )
+                                    Axis = ~/ListAxis/Horizontal
+
+                                    BladeDescriptor = ArmoryDivisionFilterButtonDescriptor
+                                )
+                            ),
+                            BUCKListElementDescriptor
+                            (
+                                ComponentDescriptor = BUCKRackDescriptor
+                                (
+                                    ElementName = "PACTDivisionFilterRack"
+                                    ComponentFrame = TUIFramePropertyRTTI
+                                    (
+                                        RelativeWidthHeight = [0.0, 1.0]
+                                    )
+
+                                    FirstMargin = TRTTILength( Magnifiable = 0.0 )
+                                    InterItemMargin = TRTTILength( Pixel = 4.0 )
+                                    Axis = ~/ListAxis/Horizontal
+
+                                    BladeDescriptor = ArmoryDivisionFilterButtonDescriptor
+                                )
+                            )
+                        ]
                     )
                 ]
             )
@@ -1036,7 +1085,7 @@ ShowroomVerticalFilterBarContainer is PanelRoundedCorner
     ElementName = "FiltresCategoriesContainer"
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [100.0, 970.0]
+        MagnifiableWidthHeight = [100.0, 830.0]
     )
 
     BorderLineColorToken = 'MarronPanel_noir'
@@ -1054,7 +1103,7 @@ ShowroomVerticalFilterBarContainer is PanelRoundedCorner
                 RelativeWidthHeight = [1.0, 0.0]
             )
 
-            InterItemMargin = TRTTILength( Magnifiable = 30.0 )
+            InterItemMargin = TRTTILength( Magnifiable = 10.0 )
 
             Axis = ~/ListAxis/Vertical
             Elements =
@@ -1085,8 +1134,8 @@ ShowroomVerticalFilterBarContainer is PanelRoundedCorner
                     ComponentDescriptor = CategoryFiltersMainRack
                     (
                         ElementNamePrefix = "Type"
-                        MagnifiableWidthHeight_button = [40.0, 40.0]
-                        MagnifiableWidthHeight = [40.0, 40.0]
+                        MagnifiableWidthHeight = [30.0, 30.0]
+                        MagnifiableWidthHeight_button = [30.0, 30.0]
 
                         TextureColorToken = "MarronPanel_noir2"
                     )
@@ -1101,6 +1150,7 @@ ShowroomVerticalFilterBarContainer is PanelRoundedCorner
                     (
                         ElementNamePrefix = "Role"
                         MagnifiableWidthHeight = [20.0, 20.0]
+                        MagnifiableWidthHeight_button = [28.0, 28.0]
                         TextureColorToken = "Bouton_puissance"
                     )
                 )

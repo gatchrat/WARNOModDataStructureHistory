@@ -27,15 +27,6 @@ export SpecificVehicleDepictionSelector is TLodSelector
     OptionalLimit = $/GraphicOption/ModelQuality
 )
 
-template SpecificVehicleDepictionSelectorWithSkins [ SkinMap ] is TLodSelectorWithSkins
-(
-    HighMidLimitInMeter = LodHighMidLimit_Vehicle
-    MidLowLimitInMeter = LodMidLowLimit_Vehicle
-    CameraMoverManager = $/Camera/CameraMoverManager
-    OptionalLimit = $/GraphicOption/ModelQuality
-    SkinMap = <SkinMap>
-)
-
 export SpecificAirplaneDepictionSelector is TLodSelector
 (
     HighMidLimitInMeter = LodHighMidLimit_Airplane
