@@ -2090,8 +2090,6 @@ DefaultStyleGuide is TUIStyleGuide
         ("UIPlayerSpecific/Grey/ObjectiveContent",      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = GrisMoyen5 ) ), ]),
         ("UIPlayerSpecific/Blue/PawnPhaseFighting",        MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color =  Noir) ), ]),
         ("UIPlayerSpecific/Blue/PawnPhaseNotFighting",      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Otan_fond ) ), ]),
-        ("UIPlayerSpecific/Green/PawnPhaseFighting",       MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Blanc2 ) ), ]),
-        ("UIPlayerSpecific/Green/PawnPhaseNotFighting",     MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Otan ) ), ]),
         ("UIPlayerSpecific/Red/PawnPhaseFighting",         MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color =  Noir) ), ]),
         ("UIPlayerSpecific/Red/PawnPhaseNotFighting",       MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Rouge ) ), ]),
         ("UIPlayerSpecific/Orange/PawnPhaseFighting",      MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Blanc2 ) ), ]),
@@ -2287,7 +2285,8 @@ DefaultStyleGuide is TUIStyleGuide
         ("GrisFonceWeaponAttribute",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [45,46,47,183] ) ),]),
         ("GrisFonceJauge",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [63,63,63,205] ) ),]),
         ("MarronPanel_base",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [145,131,104,245] ) ),]),
-        ("MarronPanel_base_75",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [145,131,104,191] ) ),]),
+        ("MarronPanel_base_75",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [110,101,78,100] ) ),]),
+
         ("MarronPanel_baseLight",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [145,131,104,195] ) ),]),
         ("MarronPanel_fonce",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [110,101,78,255] ) ),]),
         ("MarronPanel_Tresfonce",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [82,75,58,235] ) ),]),  //[65,60,46,235]
@@ -2329,6 +2328,69 @@ DefaultStyleGuide is TUIStyleGuide
                                                             ( ~/ComponentState/ToggleHighlighted,                   TColorRTTI( Color = [43,35,36,245] ) ),
                                                         ]),
         ("MarronPanel_blanc",                       MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [203+20,194+20,180+20,255] ) ),]),
+        ("AmroryButtonBkg",               MAP [
+                                                            ( ~/ComponentState/Grayed,                              TColorRTTI( Color = [43,35,36,10] ) ),
+                                                            ( ~/ComponentState/Normal,                              TColorRTTI( Color = [142,132,113,255] ) ),
+                                                            ( ~/ComponentState/Highlighted,                         TColorRTTI( Color = [223+10,214+10,200+10,255] ) ),
+                                                            ( ~/ComponentState/ToggleHighlighted,                   TColorRTTI( Color = [223,214,200,255] ) ),
+                                                            ( ~/ComponentState/Toggled,                   TColorRTTI( Color = [223,214,200,255] ) ),
+                                                        ]),
+        ("AmroryCheckBoxBkg",               MAP [
+                                                            ( ~/ComponentState/Grayed,                              TColorRTTI( Color = [43,35,36,10] ) ),
+                                                            ( ~/ComponentState/Normal,                              TColorRTTI( Color = [142,132,113,255] ) ),
+                                                            ( ~/ComponentState/Highlighted,                         TColorRTTI( Color = [142+10,132+10,113+10,255] ) ),
+                                                            ( ~/ComponentState/ToggleHighlighted,                   TColorRTTI( Color = [142,132,113,255] ) ),
+                                                            ( ~/ComponentState/Toggled,                   TColorRTTI( Color = [142+10,132+10,113+10,255] ) ),
+                                                        ]),
+        ("AmroryButtonBkg_75",               MAP [
+                                                            ( ~/ComponentState/Grayed,                              TColorRTTI( Color = [43,35,36,10] ) ),
+                                                            ( ~/ComponentState/Normal,                              TColorRTTI( Color = [142,132,113,191] ) ),
+                                                            ( ~/ComponentState/Highlighted,                         TColorRTTI( Color = [223+10,214+10,200+10,255] ) ),
+                                                            ( ~/ComponentState/ToggleHighlighted,                   TColorRTTI( Color = [223,214,200,255] ) ),
+                                                            ( ~/ComponentState/Toggled,                   TColorRTTI( Color = [223,212,205,255] ) ),
+                                                        ]),
+        ("AmroryButtonBkg2",               MAP [
+                                                            ( ~/ComponentState/Grayed,                              TColorRTTI( Color = [43,35,36,10] ) ),
+                                                            ( ~/ComponentState/Normal,                             TColorRTTI( Color = [223,214,200,255] ) ),
+                                                            ( ~/ComponentState/Highlighted,                         TColorRTTI( Color = [223+10,214+10,200+10,255] ) ),
+                                                            ( ~/ComponentState/Toggled,                              TColorRTTI( Color = [223,214,200,211] ) ),
+                                                            ( ~/ComponentState/ToggleHighlighted,                   TColorRTTI( Color = [223+10,214+10,200+10,255] ) ),
+                                                        ]),
+        ("AmroryButtonTxt",                       MAP [
+                                                            ( ~/ComponentState/Grayed,                              TColorRTTI( Color = [108,108,108,170] ) ),
+                                                            ( ~/ComponentState/Normal,                              TColorRTTI( Color = [46,39,39,255] ) ),
+                                                            ( ~/ComponentState/Highlighted,                         TColorRTTI( Color = [22,17,18,245] ) ),
+                                                            ( ~/ComponentState/Toggled,                             TColorRTTI( Color = [64,53,54,255] ) ),
+                                                            ( ~/ComponentState/ToggleHighlighted,                   TColorRTTI( Color = [17,14,14,255] ) ),
+                                                        ]),
+        ("AmroryFiltreTxt",                       MAP [
+                                                            ( ~/ComponentState/Grayed,                              TColorRTTI( Color = [108,108,108,170] ) ),
+                                                            ( ~/ComponentState/Normal,                              TColorRTTI( Color = [223,214,200,255] ) ),
+                                                            ( ~/ComponentState/Highlighted,                         TColorRTTI( Color = [255,255,255,255] ) ),
+                                                            ( ~/ComponentState/Toggled,                             TColorRTTI( Color = [243,234,220,255] ) ),
+                                                            ( ~/ComponentState/ToggleHighlighted,                   TColorRTTI( Color = [255,255,255,255] ) ),
+                                                        ]),
+        ("AmroryButtonBorder",                       MAP [
+                                                            ( ~/ComponentState/Normal,                              TColorRTTI( Color = Transparent ) ),
+                                                            ( ~/ComponentState/Highlighted,                         TColorRTTI( Color = [255,255,255,50] ) ),
+                                                            ( ~/ComponentState/Toggled,                             TColorRTTI( Color = [255,225,255,191] ) ),
+                                                            ( ~/ComponentState/ToggleHighlighted,                   TColorRTTI( Color = [255,255,255,255] ) ),
+                                                        ]),
+        ("AmroryFlagColor",                       MAP [
+                                                            ( ~/ComponentState/Normal,                              TColorRTTI( Color = [220,220,220,255] ) ),
+                                                            ( ~/ComponentState/Highlighted,                         TColorRTTI( Color = [255,255,255,255] ) ),
+                                                            ( ~/ComponentState/Toggled,                             TColorRTTI( Color = [220,220,220,255] ) ),
+                                                            ( ~/ComponentState/ToggleHighlighted,                   TColorRTTI( Color = [255,255,255,255] ) ),
+                                                        ]),
+
+        ("ArmoryFiterToggle",                     MAP [
+                                                            ( ~/ComponentState/Normal,                TColorRTTI( Color = Transparent  ) ),
+                                                            ( ~/ComponentState/Clicked,               TColorRTTI( Color = BlancPur ) ),
+                                                            ( ~/ComponentState/Toggled,               TColorRTTI( Color = BlancPur ) ),
+                                                            ( ~/ComponentState/ToggleHighlighted,     TColorRTTI( Color = BlancPur ) ),
+                                                            ( ~/ComponentState/Grayed,                TColorRTTI( Color = Transparent ) ),
+                                                      ]),
+
 
         ("Blanc220",                                MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [220,220,220,255] ) ),]),
 
@@ -2462,15 +2524,18 @@ DefaultStyleGuide is TUIStyleGuide
         ("division_US_air",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = bleuNavy_clair ) ),]),
 
         // RFA
+        // eviter division_RFA_1 trop clair
         ("division_RFA_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [172,184,184,255] ) ),]),
+
         ("division_RFA_2",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [86,93,94,255] ) ),]),
         ("division_RFA_3",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [87,100,102,255] ) ),]),
         ("division_RFA_4",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [45,58,60,255] ) ),]),
         ("division_RFA_5",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [2,16,19,255] ) ),]),
-        ("division_RFA_violet_sombre",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [50,25,66,255] ) ),]),
+        ("division_RFA_violet_sombre",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [0,25,66,255] ) ),]),
         ("division_RFA_kassel_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [28,29,32,215] ) ),]),
         ("division_RFA_kdo", MAP [( ~/ComponentState/Normal, TColorRTTI( Color = [73,71,62,215] ) ),]),
         ("division_RFA_air_kassel_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [157,177,234,210] ) ),]),
+
         ("division_BE_kassel_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [120,121,65,255] ) ),]),
         ("division_BE_Boar_1",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [147,148,79,255] ) ),]),
         ("division_BE_Boar_2",                        MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [181,180,97,255] ) ),]),
@@ -2492,8 +2557,14 @@ DefaultStyleGuide is TUIStyleGuide
         ("SovDivision_kassel_2",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [87,28,28,180] ) ), ]),
         ("SovDivision_kassel_1",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [99,191,172,180] ) ), ]),
         ("SovDivision_kassel_3",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [201,59,12,180] ) ), ]),
-
         ("SovDivision_boar_1",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [255,45,46,180] ) ), ]),
+
+
+        ("canadianDiv_1",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [120, 40, 30,220] ) ), ]),
+
+        ("CzecDiv_1",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [60, 75, 50,255] ) ), ]),
+        ("CzecDiv_2",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [85, 107, 47,255] ) ), ]),
+        ("CzecDiv_3",                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [90, 95, 80,255] ) ), ]),
 
 
 
@@ -2749,6 +2820,7 @@ DefaultStyleGuide is TUIStyleGuide
                                 ]),
         ("Marron_texte",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [117,102,96,255] ) ),]),
         ("BlancTexte",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [226,220,218,255] ) ),]),
+
         ("BlancListeUnite",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [241,242,247,255] ) ),]),
         ("Gris_unitConfig_titre",                 MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [72,72,74,255] ) ),]),
         ("Gris_unitConfig_Experience",            MAP [( ~/ComponentState/Normal,                 TColorRTTI( Color = [67,67,70,255] ) ),]),
@@ -2839,23 +2911,25 @@ DefaultStyleGuide is TUIStyleGuide
                                                             ]),
         //-------------------------------------------------------------------------------------
         // multi
-        ("Blanc_leaderboard",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [229,219,214,255] ) ), ]),
-        ("Gris_leaderboard",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [158,148,146,255] ) ), ]),
-        ("Gris_QuickServeur",              MAP [
-                                                ( ~/ComponentState/Normal, TColorRTTI( Color = [190,185,187,255] ) ),
-                                                ( ~/ComponentState/Highlighted,           TColorRTTI( Color = [255,255,255,255] ) ),
-                                                ( ~/ComponentState/Grayed,                TColorRTTI( Color = [120,120,120,65] ) ),
-                                                ( ~/ComponentState/Toggled,               TColorRTTI( Color = [255,255,255,245] ) ),
-                                                ( ~/ComponentState/ToggleHighlighted,     TColorRTTI( Color = [255,255,255,128] ) ),
-                                                ]),
-        ("Gris_Friends",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [116,110,110,255] ) ), ]),
-        ("Jaune_NbPlayers",              MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [254,253,24,255] ) ), ]),
-        ("boutonFiltre",              MAP [
-                                        ( ~/ComponentState/Normal,                TColorRTTI( Color = [60,60,60,128] ) ),
-                                        ( ~/ComponentState/Highlighted,           TColorRTTI( Color = [128,128,128,250] ) ),
-                                        ( ~/ComponentState/Grayed,                TColorRTTI( Color = [120,120,120,128] ) ),
-                                        ( ~/ComponentState/Toggled,               TColorRTTI( Color = [255,255,255,245] ) ),
-                                        ( ~/ComponentState/ToggleHighlighted,     TColorRTTI( Color = [255,255,255,128] ) ),
+        ("Blanc_leaderboard",       MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [229,219,214,255] ) ), ]),
+        ("Gris_leaderboard",        MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [158,148,146,255] ) ), ]),
+        ("Gris_QuickServeur",       MAP [
+                                            ( ~/ComponentState/Normal, TColorRTTI( Color = [190,185,187,255] ) ),
+                                            ( ~/ComponentState/Highlighted,           TColorRTTI( Color = [255,255,255,255] ) ),
+                                            ( ~/ComponentState/Grayed,                TColorRTTI( Color = [120,120,120,65] ) ),
+                                            ( ~/ComponentState/Toggled,               TColorRTTI( Color = [255,255,255,245] ) ),
+                                            ( ~/ComponentState/ToggleHighlighted,     TColorRTTI( Color = [255,255,255,128] ) ),
+                                        ]),
+        ("Gris_Friends",            MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [116,110,110,255] ) ), ]),
+        ("Jaune_NbPlayers",         MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = [254,253,24,255] ) ), ]),
+        ("boutonFiltre",            MAP [
+                                            ( ~/ComponentState/Normal,                  TColorRTTI( Color = [60,60,60,128] ) ),
+                                            ( ~/ComponentState/Highlighted,             TColorRTTI( Color = [128,128,128,250] ) ),
+                                            ( ~/ComponentState/Grayed,                  TColorRTTI( Color = [120,120,120,128] ) ),
+                                            ( ~/ComponentState/Toggled,                 TColorRTTI( Color = [255,255,255,245] ) ),
+                                            ( ~/ComponentState/ToggleHighlighted,       TColorRTTI( Color = [255,255,255,128] ) ),
+                                            ( ~/ComponentState/Intermediate,            TColorRTTI( Color = [255,255,255,245] ) ),
+                                            ( ~/ComponentState/IntermediateHighlighted, TColorRTTI( Color = [255,255,255,128] ) ),
                                         ]),
         //-------------------------------------------------------------------------------------
         // load

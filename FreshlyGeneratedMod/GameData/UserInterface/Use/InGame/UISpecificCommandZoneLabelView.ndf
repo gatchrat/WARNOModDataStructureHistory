@@ -121,7 +121,7 @@ UISpecificCommandZoneLabelViewDescriptor is TUISpecificCommandZoneLabelViewDescr
 
     TokenFormatCommandPointsByCombatRule = MAP
     [
-        (CombatRule/Conquest,        "FRM_CNQ_AR"),
-        (CombatRule/Destruction,     "FRM_COM_AR")
+        (ECombatRule/Conquest,        "FRM_CNQ_AR"),
+        (ECombatRule/Destruction,     "FRM_COM_AR")
     ]
 )

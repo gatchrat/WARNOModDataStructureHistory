@@ -12,8 +12,7 @@ Flag_AlreadyModifiePorteeDuTirUnitGroup is 9
 Flag_AlreadyUnitGroupIncontrolable is 10
 Flag_LowAltitudeFlying is 11
 Flag_NearGroundFlying is 12
-Flag_DetectableLowAltitude is 13
-Flag_HighAltitudeFlying is 14
-Flag_FakeTarget is 15
-Flag_ProjectileFlying is 16
-Flag_SousTirArtillerie is 17
+Flag_HighAltitudeFlying is 13
+Flag_FakeTarget is 14
+Flag_ProjectileFlying is 15
+Flag_SousTirArtillerie is 16

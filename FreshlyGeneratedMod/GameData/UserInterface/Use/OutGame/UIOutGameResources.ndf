@@ -63,7 +63,7 @@ export OutGameResourceSpecific is TUISpecificOutGameResources
 
     LevelUpContent              = ~/LevelUpPanelDescriptor
 
-    GameModeResources           = ~/GameModeResources
+    DeploymentModeResources     = ~/DeploymentModeResources
     CombatRuleResources         = ~/CombatRuleResources
 
     CutSceneResources           = ~/outGameCutSceneResources

@@ -13,7 +13,7 @@ private player_mission_BasicAirstrikeSupport is
 ///////////////////////////////////////////////////////////////////////////////////////////
 // MACRO ACTIONS
 ///////////////////////////////////////////////////////////////////////////////////////////
-export colonelAttackDescriptor is TMacroActionDescriptor_Attack_Specific
+export playerMissionAttackDescriptor is TMacroActionDescriptor_ObjectiveAttack_Specific
 (
     ParametresDeMission =
     [
@@ -29,7 +29,7 @@ export colonelAttackDescriptor is TMacroActionDescriptor_Attack_Specific
     ]
 )
 ///////////////////////////////////////////////////////////////////////////////////////////
-export colonelDefenseDescriptor is TMacroActionDescriptor_Defense_Specific
+export playerMissionDefenseDescriptor is TMacroActionDescriptor_Defense_Specific
 (
     ParametresDeMission =
     [
@@ -43,7 +43,7 @@ export colonelDefenseDescriptor is TMacroActionDescriptor_Defense_Specific
     ]
 )
 ///////////////////////////////////////////////////////////////////////////////////////////
-export colonelArtilleryCounterBatteryDescriptor is TMacroActionDescriptor_Artillery_Specific
+export playerMissionArtilleryCounterBatteryDescriptor is TMacroActionDescriptor_Artillery_Specific
 (
     ParametresDeMission =
     [
@@ -58,7 +58,7 @@ export colonelArtilleryCounterBatteryDescriptor is TMacroActionDescriptor_Artill
     ]
 )
 ///////////////////////////////////////////////////////////////////////////////////////////
-export colonelArtilleryDescriptor is TMacroActionDescriptor_Artillery_Specific
+export playerMissionArtilleryDescriptor is TMacroActionDescriptor_Artillery_Specific
 (
     ParametresDeMission =
     [
@@ -72,7 +72,7 @@ export colonelArtilleryDescriptor is TMacroActionDescriptor_Artillery_Specific
     ]
 )
 ///////////////////////////////////////////////////////////////////////////////////////////
-export colonelAirstrikeDescriptor is TMacroActionDescriptor_AirStrike_Common
+export playerMissionAirstrikeDescriptor is TMacroActionDescriptor_AirStrike_Common
 (
     ParametresDeMission =
     [
@@ -85,7 +85,7 @@ export colonelAirstrikeDescriptor is TMacroActionDescriptor_AirStrike_Common
     ]
 )
 ///////////////////////////////////////////////////////////////////////////////////////////
-export colonelAirstrikeSEADDescriptor is TMacroActionDescriptor_AirStrike_Common
+export playerMissionAirstrikeSEADDescriptor is TMacroActionDescriptor_AirStrike_Common
 (
     ParametresDeMission =
     [
@@ -97,7 +97,7 @@ export colonelAirstrikeSEADDescriptor is TMacroActionDescriptor_AirStrike_Common
     ]
 )
 ///////////////////////////////////////////////////////////////////////////////////////////
-export colonelAirRecoDescriptor is TMacroActionDescriptor_AirReco_Specific
+export playerMissionAirRecoDescriptor is TMacroActionDescriptor_AirReco_Specific
 (
     ParametresDeMission =
     [
@@ -108,7 +108,7 @@ export colonelAirRecoDescriptor is TMacroActionDescriptor_AirReco_Specific
     ]
 )
 ///////////////////////////////////////////////////////////////////////////////////////////
-export colonelSupplyDescriptor is TMacroActionDescriptor_Supply_Specific
+export playerMissionSupplyDescriptor is TMacroActionDescriptor_Supply_Specific
 (
     ParametresDeMission =
     [
@@ -126,7 +126,7 @@ export colonelSupplyDescriptor is TMacroActionDescriptor_Supply_Specific
 // MISSION DESCRIPTORS
 ///////////////////////////////////////////////////////////////////////////////////////////
 export PlayerMissionDescriptorAttack is TPlayerMissionDescriptor(
-    MacroActionDescriptor = colonelAttackDescriptor
+    MacroActionDescriptor = playerMissionAttackDescriptor
     AuthorizedTags = ~/Attack_AuthorizedTags
     ExclusionTags = ~/Attack_ExcludedTags
     Mergeable = true
@@ -134,7 +134,7 @@ export PlayerMissionDescriptorAttack is TPlayerMissionDescriptor(
 )
 
 export PlayerMissionDescriptor_ManageArtillery_Focus is TPlayerMissionDescriptor(
-    MacroActionDescriptor = colonelArtilleryDescriptor
+    MacroActionDescriptor = playerMissionArtilleryDescriptor
     AuthorizedTags = ~/ManageArtillery_Focus_AuthorizedTags
     ExclusionTags = ~/ManageArtillery_Focus_ExcludedTags
     Mergeable = false
@@ -142,7 +142,7 @@ export PlayerMissionDescriptor_ManageArtillery_Focus is TPlayerMissionDescriptor
 )
 
 export PlayerMissionDescriptor_Hold is TPlayerMissionDescriptor(
-    MacroActionDescriptor = colonelDefenseDescriptor
+    MacroActionDescriptor = playerMissionDefenseDescriptor
     AuthorizedTags = ~/Hold_AuthorizedTags
     ExclusionTags = ~/Hold_ExcludedTags
     Mergeable = true
@@ -150,7 +150,7 @@ export PlayerMissionDescriptor_Hold is TPlayerMissionDescriptor(
 )
 
 export PlayerMissionDescriptor_ManageArtillery_CounterBattery is TPlayerMissionDescriptor(
-    MacroActionDescriptor = colonelArtilleryCounterBatteryDescriptor
+    MacroActionDescriptor = playerMissionArtilleryCounterBatteryDescriptor
     AuthorizedTags = ~/ManageArtillery_CounterBattery_AuthorizedTags
     ExclusionTags = ~/ManageArtillery_CounterBattery_ExcludedTags
     Mergeable = false
@@ -158,7 +158,7 @@ export PlayerMissionDescriptor_ManageArtillery_CounterBattery is TPlayerMissionD
 )
 
 export PlayerMissionDescriptor_ManageArtillery_Auto is TPlayerMissionDescriptor(
-    MacroActionDescriptor = colonelArtilleryDescriptor
+    MacroActionDescriptor = playerMissionArtilleryDescriptor
     AuthorizedTags = ~/ManageArtillery_Auto_AuthorizedTags
     ExclusionTags = ~/ManageArtillery_Auto_ExcludedTags
     Mergeable = false
@@ -166,7 +166,7 @@ export PlayerMissionDescriptor_ManageArtillery_Auto is TPlayerMissionDescriptor(
 )
 
 export PlayerMissionDescriptor_ManageAirplanes is TPlayerMissionDescriptor(
-    MacroActionDescriptor = colonelAirstrikeDescriptor
+    MacroActionDescriptor = playerMissionAirstrikeDescriptor
     AuthorizedTags = ~/ManageAirplanes_AuthorizedTags
     ExclusionTags = ~/ManageAirplanes_ExcludedTags
     Mergeable = false
@@ -174,7 +174,7 @@ export PlayerMissionDescriptor_ManageAirplanes is TPlayerMissionDescriptor(
 )
 
 export PlayerMissionDescriptor_ManageAirplanesSEAD is TPlayerMissionDescriptor(
-    MacroActionDescriptor = colonelAirstrikeSEADDescriptor
+    MacroActionDescriptor = playerMissionAirstrikeSEADDescriptor
     AuthorizedTags = ~/ManageAirplanesSEAD_AuthorizedTags
     ExclusionTags = ~/ManageAirplanesSEAD_ExcludedTags
     Mergeable = false
@@ -183,7 +183,7 @@ export PlayerMissionDescriptor_ManageAirplanesSEAD is TPlayerMissionDescriptor(
 
 
 export PlayerMissionDescriptor_ManageAirReco is TPlayerMissionDescriptor(
-    MacroActionDescriptor = colonelAirRecoDescriptor
+    MacroActionDescriptor = playerMissionAirRecoDescriptor
     AuthorizedTags = ~/ManageAirReco_AuthorizedTags
     ExclusionTags = ~/ManageAirReco_ExcludedTags
     Mergeable = true
@@ -191,7 +191,7 @@ export PlayerMissionDescriptor_ManageAirReco is TPlayerMissionDescriptor(
 )
 
 export PlayerMissionDescriptor_Supply is TPlayerMissionDescriptor(
-    MacroActionDescriptor = colonelSupplyDescriptor
+    MacroActionDescriptor = playerMissionSupplyDescriptor
     AuthorizedTags = ~/Supply_AuthorizedTags
     ExclusionTags = ~/Supply_ExcludedTags
     Mergeable = false

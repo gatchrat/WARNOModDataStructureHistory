@@ -15,5 +15,4 @@ UIOrderDisplayResources is TTacticOrderDisplayResources
     CameraMoverHelperProxy    = $/M3D/Scene/IngameCameraMoverHelperProxy
     FadeHeightTransitionStart = 4*16000.0//9000.0
     FadeHeightTransitionEnd   = 3*16000.0 //5000.0
-    InstantOrdersThatNeedFakeFeedback = ["UnloadFromTransport"]
 )

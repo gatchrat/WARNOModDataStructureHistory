@@ -17,78 +17,48 @@ private HintComponentFrame is TUIFramePropertyRTTI
 (
     RelativeWidthHeight = [0.0, 0.0]
     MagnifiableWidthHeight = [HintInGameMaxMagnifiableWidth, 0.0]
-    AlignementToFather = [0.5, 0.0]
-    AlignementToAnchor = [0.5, 0.0]
 )
 
 private HintComponentPadding is TRTTILength4
 (
-    Magnifiable = [10, 0, 10, 0]
+    Magnifiable = [10.0, 0.0, 10.0, 0.0]
 )
 
 // Texte pour le titre du hint
-private HintInGameTitleTextBUCKComponent is BUCKContainerDescriptor
+private HintInGameTitleTextBUCKComponent is HintTitleTextBUCKComponent
 (
-    ComponentFrame = TUIFramePropertyRTTI
-    (
+    ComponentFrame = ~/HintComponentFrame
+    ParagraphStyle = ~/HintParagraphStyle
 
-        MagnifiableWidthHeight = [0.0, 0.0]
-    )
+    HorizontalFitStyle = ~/FitStyle/MinBetweenUserDefinedAndContent
+    TextPadding = ~/HintComponentPadding
+    TypefaceToken = "Eurostyle_Heavy"
+    BigLineAction = ~/BigLineAction/MultiLine
+    TextStyle = "UpperCase"
 
-    FitStyle = ~/ContainerFitStyle/FitToContent
-
-    Components =
-    [
-        HintTitleTextBUCKComponent
-        (
-            ComponentFrame = ~/HintComponentFrame
-            ParagraphStyle = ~/HintParagraphStyle
-
-            HorizontalFitStyle = ~/FitStyle/MinBetweenUserDefinedAndContent
-            TextPadding = ~/HintComponentPadding
-            TypefaceToken = "Eurostyle_Heavy"
-            BigLineAction = ~/BigLineAction/MultiLine
-
-            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-            TextSize = "17"
-            TextColor = "BlancEquipe" //"Hint/InGame/Title"
-        )
-    ]
-
-
+    TextDico = ~/LocalisationConstantes/dico_interface_ingame
+    TextSize = "17"
+    TextColor = "BlancEquipe"
 )
 
 // -------------------------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------------------------
 
 // Texte pour le corps hint
-private HintInGameBodyTextBUCKComponent is BUCKContainerDescriptor
+private HintInGameBodyTextBUCKComponent is HintBodyTextBUCKComponent
 (
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        MagnifiableWidthHeight = [0.0, 0.0]
-    )
+    ComponentFrame = ~/HintComponentFrame
+    ParagraphStyle = ~/HintParagraphStyle
 
-    FitStyle = ~/ContainerFitStyle/FitToContent
+    TextPadding = ~/HintComponentPadding
+    HorizontalFitStyle = ~/FitStyle/MinBetweenUserDefinedAndContent
 
-    Components =
-    [
-        HintBodyTextBUCKComponent
-        (
-            ComponentFrame = ~/HintComponentFrame
-            ParagraphStyle = ~/HintParagraphStyle
+    TypefaceToken = "Eurostyle_Medium"
+    BigLineAction = ~/BigLineAction/MultiLine
 
-            TextPadding = ~/HintComponentPadding
-            HorizontalFitStyle = ~/FitStyle/MinBetweenUserDefinedAndContent
-
-            TypefaceToken = "Eurostyle_Medium"
-            BigLineAction = ~/BigLineAction/MultiLine
-
-            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-            TextSize = "13"
-            TextColor = "BlancEquipe" //"Hint/InGame/Body"
-        )
-    ]
+    TextDico = ~/LocalisationConstantes/dico_interface_ingame
+    TextSize = "13"
+    TextColor = "BlancEquipe" //"Hint/InGame/Body"
 )
 
 // -------------------------------------------------------------------------------------------------

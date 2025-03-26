@@ -630,17 +630,17 @@ private MutliScenarioListHeaderWithFilter is BUCKListDescriptor
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = BUCKCheckBoxListDescriptor
+            ComponentDescriptor = BUCKSimpleButtonCheckBoxListDescriptor
             (
                 ElementName = "FiltersList"
                 ComponentFrame = TUIFramePropertyRTTI()
                 TextColor = "Gris_QuickServeur"
                 ShowFilter_TextColor = "loadTexte"
-                ToggleListButtonText = 'filter'
+                ToggleListButtonTextToken = "filter"
                 BoxMagnifiableWidthHeight = [~/HeaderWithFilterHeight, ~/HeaderWithFilterHeight]
                 MagnifiableOffsetRack = [-10.0, 50.0]
-                TextureToken = 'outgame_icone_filter'
-                TextureColorToken = 'boutonFiltre'
+                TextureToken = "outgame_icone_filter"
+                TextureColorToken = "boutonFiltre"
                 CheckboxHasBackground = false
                 CheckboxHasBorder = false
                 CategorySeparation = ~/ECheckBoxListSeparatorConfiguration/ShowCategoryName

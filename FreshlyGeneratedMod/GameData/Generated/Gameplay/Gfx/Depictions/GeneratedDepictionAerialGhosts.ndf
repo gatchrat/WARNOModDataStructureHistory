@@ -46,6 +46,36 @@ GhostDepiction_A37B_Dragonfly_US is GhostAerialDepictionTemplate
     Alternatives = Alternatives_A37B_Dragonfly_US
     Selector = SpecificAirplaneDepictionSelector
 )
+GhostDepiction_A6E_Intruder_SEAD_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_A6E_Intruder_SEAD_US
+    Selector = SpecificAirplaneDepictionSelector
+)
+GhostDepiction_A6E_Intruder_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_A6E_Intruder_US
+    Selector = SpecificAirplaneDepictionSelector
+)
+GhostDepiction_A7D_Corsair_II_AT_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_A7D_Corsair_II_AT_US
+    Selector = SpecificAirplaneDepictionSelector
+)
+GhostDepiction_A7D_Corsair_II_CLU_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_A7D_Corsair_II_CLU_US
+    Selector = SpecificAirplaneDepictionSelector
+)
+GhostDepiction_A7D_Corsair_II_RKT_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_A7D_Corsair_II_RKT_US
+    Selector = SpecificAirplaneDepictionSelector
+)
+GhostDepiction_A7D_Corsair_II_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_A7D_Corsair_II_US
+    Selector = SpecificAirplaneDepictionSelector
+)
 GhostDepiction_AH1E_Cobra_US is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_AH1E_Cobra_US
@@ -79,6 +109,11 @@ GhostDepiction_AH1F_HeavyHog_US is GhostAerialDepictionTemplate
 GhostDepiction_AH1F_Hog_US is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_AH1F_Hog_US
+    Selector = SpecificHelicoDepictionSelector
+)
+GhostDepiction_AH1S_Cobra_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_AH1S_Cobra_US
     Selector = SpecificHelicoDepictionSelector
 )
 GhostDepiction_AH64_Apache_ATAS_US is GhostAerialDepictionTemplate
@@ -124,6 +159,11 @@ GhostDepiction_Alouette_III_FR is GhostAerialDepictionTemplate
 GhostDepiction_Alouette_III_NL is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Alouette_III_NL
+    Selector = SpecificHelicoDepictionSelector
+)
+GhostDepiction_Alouette_III_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_Alouette_III_SOV
     Selector = SpecificHelicoDepictionSelector
 )
 GhostDepiction_Alouette_III_SS11_FR is GhostAerialDepictionTemplate
@@ -291,6 +331,16 @@ GhostDepiction_CH53G_trans_RFA is GhostAerialDepictionTemplate
     Alternatives = Alternatives_CH53G_trans_RFA
     Selector = SpecificHelicoDepictionSelector
 )
+GhostDepiction_CH54B_Tarhe_supply_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_CH54B_Tarhe_supply_US
+    Selector = SpecificHelicoDepictionSelector
+)
+GhostDepiction_CH54B_Tarhe_trans_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_CH54B_Tarhe_trans_US
+    Selector = SpecificHelicoDepictionSelector
+)
 GhostDepiction_CL_289_RFA is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_CL_289_RFA
@@ -304,6 +354,11 @@ GhostDepiction_CM170_Magister_FR is GhostAerialDepictionTemplate
 GhostDepiction_CM170_Magister_SS11_FR is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_CM170_Magister_SS11_FR
+    Selector = SpecificAirplaneDepictionSelector
+)
+GhostDepiction_EA6B_Prowler_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_EA6B_Prowler_US
     Selector = SpecificAirplaneDepictionSelector
 )
 GhostDepiction_EF111_Raven_US is GhostAerialDepictionTemplate
@@ -976,6 +1031,11 @@ GhostDepiction_MiG_23MF_DDR is GhostAerialDepictionTemplate
     Alternatives = Alternatives_MiG_23MF_DDR
     Selector = SpecificAirplaneDepictionSelector
 )
+GhostDepiction_MiG_23MLD_AA1_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_MiG_23MLD_AA1_SOV
+    Selector = SpecificAirplaneDepictionSelector
+)
 GhostDepiction_MiG_23MLD_SOV is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_MiG_23MLD_SOV
@@ -1331,6 +1391,11 @@ GhostDepiction_Mi_8TB_DDR is GhostAerialDepictionTemplate
     Alternatives = Alternatives_Mi_8TB_DDR
     Selector = SpecificHelicoDepictionSelector
 )
+GhostDepiction_Mi_8TB_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_Mi_8TB_SOV
+    Selector = SpecificHelicoDepictionSelector
+)
 GhostDepiction_Mi_8TB_reco_Marine_DDR is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Mi_8TB_reco_Marine_DDR
@@ -1501,6 +1566,11 @@ GhostDepiction_Mirage_IV_SEAD_FR is GhostAerialDepictionTemplate
     Alternatives = Alternatives_Mirage_IV_SEAD_FR
     Selector = SpecificAirplaneDepictionSelector
 )
+GhostDepiction_OA10A_US is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_OA10A_US
+    Selector = SpecificAirplaneDepictionSelector
+)
 GhostDepiction_OH58A_reco_NG_US is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_OH58A_reco_NG_US
@@ -1560,6 +1630,16 @@ GhostDepiction_Puma_UK is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Puma_UK
     Selector = SpecificHelicoDepictionSelector
+)
+GhostDepiction_Su_15TM_AA2_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_Su_15TM_AA2_SOV
+    Selector = SpecificAirplaneDepictionSelector
+)
+GhostDepiction_Su_15TM_AA_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_Su_15TM_AA_SOV
+    Selector = SpecificAirplaneDepictionSelector
 )
 GhostDepiction_Su_17M4_SOV is GhostAerialDepictionTemplate
 (
@@ -1749,6 +1829,11 @@ GhostDepiction_Su_25_rkt2_SOV is GhostAerialDepictionTemplate
 GhostDepiction_Su_25_rkt_SOV is GhostAerialDepictionTemplate
 (
     Alternatives = Alternatives_Su_25_rkt_SOV
+    Selector = SpecificAirplaneDepictionSelector
+)
+GhostDepiction_Su_27K_SOV is GhostAerialDepictionTemplate
+(
+    Alternatives = Alternatives_Su_27K_SOV
     Selector = SpecificAirplaneDepictionSelector
 )
 GhostDepiction_Su_27S_SOV is GhostAerialDepictionTemplate

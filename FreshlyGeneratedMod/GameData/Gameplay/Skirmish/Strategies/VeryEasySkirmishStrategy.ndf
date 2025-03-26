@@ -92,13 +92,15 @@ export VEasy_Phase_Deploiement is TSequenceGeneratorDescriptor
 
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
 
-        ~/Defense_Static_Adaptive,          // ~100
+        ~/Defense_Corridor_Adaptive,          // ~100
         ~/Defense_Filler,            // budget 40
 
         //------------------------------
         // Défenses Avions Arti
         //------------------------------
         ~/Supply_Skirmish_Allied,
+
+        ~/Airstrike_AirReco,
 
     ] + ~/Defenses_Airstrike_Arti_Shuffle_Deploy
 
@@ -130,8 +132,8 @@ export VEasy_Phase_Command is TSequenceGeneratorDescriptor
         // Défenses prioritaires
         //------------------------------
         // Statiques pour tenir le terrain
-        ~/Defense_Static_Adaptive, // Canon AT - Chasseur de char - ATInf - HMG - Flamer // 85
-        ~/Defense_Static_AA,
+        ~/Defense_Corridor_Adaptive, // Canon AT - Chasseur de char - ATInf - HMG - Flamer // 85
+        ~/Defense_Corridor_AA,
 
         ~/Defense_Objectif,
 
@@ -140,10 +142,10 @@ export VEasy_Phase_Command is TSequenceGeneratorDescriptor
         //------------------------------
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
 
-        ~/Defense_Static_Adaptive,  // Faire du code pour adapater le budget en fonction de l'income
-        ~/Defense_Static_Adaptive,
+        ~/Defense_Corridor_Adaptive,  // Faire du code pour adapater le budget en fonction de l'income
+        ~/Defense_Corridor_Adaptive,
 
-        ~/Defense_Static_Adaptive,
+        ~/Defense_Corridor_Adaptive,
 
         ~/Airstrike_Offense,
         ~/Airstrike_AA,
@@ -152,6 +154,8 @@ export VEasy_Phase_Command is TSequenceGeneratorDescriptor
         // Défenses Avions Arti
         //------------------------------
         ~/Supply_Skirmish_Allied,
+
+        ~/Airstrike_AirReco,
 
     ] + ~/Airstrike_Arti_Shuffle // On sort les défenses d'ici pour les mettre plus haut dans la prio
 

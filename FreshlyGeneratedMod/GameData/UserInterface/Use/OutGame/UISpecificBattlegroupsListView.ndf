@@ -43,6 +43,8 @@ template DeckListButton
     LeftClickSound = <LeftClickSound>
 )
 
+//--------------------------------------------------------
+
 private DeckListPanelRenameButton is DeckListButton
 (
     ElementName = 'RenameButton'
@@ -55,6 +57,8 @@ private DeckListPanelRenameButton is DeckListButton
 
     LeftClickSound = SoundEvent_RenameDeck
 )
+
+//--------------------------------------------------------
 
 private DeckListPanelRemoveButton is DeckListButton
 (
@@ -70,6 +74,8 @@ private DeckListPanelRemoveButton is DeckListButton
     LeftClickSound = SoundEvent_RemoveDeck
 )
 
+//--------------------------------------------------------
+
 private DeckListPanelCopyButton is DeckListButton
 (
     ElementName = 'CopyButton'
@@ -82,6 +88,8 @@ private DeckListPanelCopyButton is DeckListButton
 
     LeftClickSound = SoundEvent_CopyDeck
 )
+
+//-------------------------------------------------------------------------------------
 
 private DeckListPanelExportButton is DeckListButton
 (
@@ -100,17 +108,16 @@ private DeckListPanelExportButton is DeckListButton
 
 private DeckListPanelImportButton is ConfirmButton
 (
-    ElementName = 'ImportButton'
-    TextToken = 'AB_DCKIMPO'
+    ElementName = "ImportButton"
+    TextToken = "AB_DCKIMPO"
     ButtonMagnifiableWidthHeight = [175.0, 34.0]
     TextTypefaceToken = "Liberator"
-    //TextStyle = 'TextStyleEcranMoniteur_gris'
-    TextColorToken = 'boutonFiltre'
-    BorderLineColorToken = 'boutonFiltre'
+    TextColorToken = "boutonFiltre"
+    BorderLineColorToken = "boutonFiltre"
     HasBackground = false
-    BackgroundBlockColorToken = 'loginBoutonBackground_cyan'
-    TextSizeToken = '26'
-    BorderThicknessToken = '3'
+    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
+    TextSizeToken = "26"
+    BorderThicknessToken = "3"
 
     HintableAreaComponent = BUCKSpecificHintableArea
     (
@@ -123,19 +130,20 @@ private DeckListPanelImportButton is ConfirmButton
     LeftClickSound = SoundEvent_OpenImportDeckModal
 )
 
+//-------------------------------------------------------------------------------------
+
 private DeckListPanelEditButton is ConfirmButton
 (
-    ElementName = 'EditButton'
-    TextToken = 'AB_DCKEDIT'
+    ElementName = "EditButton"
+    TextToken = "AB_DCKEDIT"
     ButtonMagnifiableWidthHeight = [175.0, 34.0]
     TextTypefaceToken = "Liberator"
-    //TextStyle = 'TextStyleEcranMoniteur_gris'
-    TextColorToken = 'boutonFiltre'
-    BorderLineColorToken = 'boutonFiltre'
+    TextColorToken = "boutonFiltre"
+    BorderLineColorToken = "boutonFiltre"
     HasBackground = false
-    BackgroundBlockColorToken = 'loginBoutonBackground_cyan'
-    TextSizeToken = '26'
-    BorderThicknessToken = '3'
+    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
+    TextSizeToken = "26"
+    BorderThicknessToken = "3"
 
     HintableAreaComponent = BUCKSpecificHintableArea
     (
@@ -147,19 +155,20 @@ private DeckListPanelEditButton is ConfirmButton
     LeftClickSound = SoundEvent_EditDeck
 )
 
+//-------------------------------------------------------------------------------------
+
 private DeckListPanelViewButton is ConfirmButton
 (
-    ElementName = 'ViewButton'
-    TextToken = 'AB_DCKVIEW'
+    ElementName = "ViewButton"
+    TextToken = "AB_DCKVIEW"
     ButtonMagnifiableWidthHeight = [175.0, 34.0]
     TextTypefaceToken = "Liberator"
-    //TextStyle = 'TextStyleEcranMoniteur_gris'
-    TextColorToken = 'boutonFiltre'
-    BorderLineColorToken = 'boutonFiltre'
+    TextColorToken = "boutonFiltre"
+    BorderLineColorToken = "boutonFiltre"
     HasBackground = false
-    BackgroundBlockColorToken = 'loginBoutonBackground_cyan'
-    TextSizeToken = '26'
-    BorderThicknessToken = '3'
+    BackgroundBlockColorToken = "loginBoutonBackground_cyan"
+    TextSizeToken = "26"
+    BorderThicknessToken = "3"
 
     HintableAreaComponent = BUCKSpecificHintableArea
     (
@@ -171,20 +180,22 @@ private DeckListPanelViewButton is ConfirmButton
     LeftClickSound = SoundEvent_ViewDeck
 )
 
-// BattlegroupListe
+//-------------------------------------------------------------------------------------
+
+// BattlegroupList
 private DeckListPanelCreateButton is ConfirmButton
 (
-    ElementName = 'CreateButton'
-    TextToken = 'NV_CREATE'
+    ElementName = "CreateButton"
+    TextToken = "NV_CREATE"
     Mapping = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_ENTER ) )
     ButtonMagnifiableWidthHeight = [175.0, 34.0]
     TextTypefaceToken = "Liberator"
-    TextColorToken = 'blanc_contour'
-    BorderLineColorToken = 'boutonFiltre'
+    TextColorToken = "blanc_contour"
+    BorderLineColorToken = "boutonFiltre"
     HasBackground = true
-    BackgroundBlockColorToken = 'Vert_bouton'
-    TextSizeToken = '26'
-    BorderThicknessToken = '3'
+    BackgroundBlockColorToken = "Vert_bouton"
+    TextSizeToken = "26"
+    BorderThicknessToken = "3"
     BigLineAction = ~/BigLineAction/ResizeFont
     TextPadding = TRTTILength4( Magnifiable = [5.0, 0.0, 5.0, 0.0] )
 
@@ -197,6 +208,8 @@ private DeckListPanelCreateButton is ConfirmButton
     )
     LeftClickSound = SoundEvent_OpenCreateDeckModal
 )
+
+//-------------------------------------------------------------------------------------
 
 private DeckListPanelSelectButton is ConfirmButton
 (
@@ -213,19 +226,21 @@ private DeckListPanelSelectButton is ConfirmButton
     BigLineAction = ~/BigLineAction/ResizeFont
 
     ButtonMagnifiableWidthHeight = [400.0, 34.0]
-    BackgroundBlockColorToken = 'VertConfirm'
+    BackgroundBlockColorToken = "VertConfirm"
     ButtonAlignementToAnchor = [0.5, 0.5]
     ButtonAlignementToFather = [0.5, 0.5]
-    BorderLineColorToken = 'blanc_contour'
+    BorderLineColorToken = "blanc_contour"
     HasBackground = true
-    BorderThicknessToken = '2'
-    TextColorToken = 'blanc_contour'
-    TextSizeToken = '26'
+    BorderThicknessToken = "2"
+    TextColorToken = "blanc_contour"
+    TextSizeToken = "26"
     TextTypefaceToken = "Liberator"
-    TextPadding = TRTTILength4( Magnifiable = [2.0, 0.0, 2.0, 0.0] )
+    TextPadding = TRTTILength4(Magnifiable = [2.0, 0.0, 2.0, 0.0])
 
     LeftClickSound = SoundEvent_SelectDeck
 )
+
+//-------------------------------------------------------------------------------------
 
 DeckListBackButton is BUCKButtonDescriptor
 (
@@ -234,9 +249,9 @@ DeckListBackButton is BUCKButtonDescriptor
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [25.0, 25.0]
-        AlignementToAnchor = [0.0, 0.0]
-        AlignementToFather = [0.0, 0.0]
-        MagnifiableOffset = [825,22]
+        AlignementToAnchor = [1.0, 0.0]
+        AlignementToFather = [1.0, 0.0]
+        MagnifiableOffset = [-260.0, 20.0]
     )
 
     IsTogglable = true
@@ -255,8 +270,8 @@ DeckListBackButton is BUCKButtonDescriptor
             (
                 MagnifiableWidthHeight = [20.0, 20.0]
             )
-            TextureToken = 'showRoomTexture_minimize'
-            TextureColorToken = 'MarronPanel_noir_toggled2'
+            TextureToken = "showRoomTexture_minimize"
+            TextureColorToken = "MarronPanel_noir_toggled2"
             Rotation = -90
         ),
     ]
@@ -329,61 +344,61 @@ BUCKContainerDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight= [86, 20]
-        MagnifiableOffset = [0,50]
+        MagnifiableWidthHeight= [86.0, 20.0]
+        MagnifiableOffset = [0.0, 50.0]
     )
+
     Components =
     [
         BUCKPerspectiveWarpOffscreenContainerDescriptor
         (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
 
             DistortTextureDrawer = $/UserInterface/UIDistortTextureDrawer
             PointerEventsToAllow = ~/EAllowablePointerEventType/Move
 
-            MagnifiableTopLeftOffset = [0, 0]
-            MagnifiableTopRightOffset = [-27, -61]
+            MagnifiableTopLeftOffset = [0.0, 0.0]
+            MagnifiableTopRightOffset = [-27.0, -61.0]
             MagnifiableBottomLeftOffset = [15.0, -10.0]
-            MagnifiableBottomRightOffset = [-12,-68]
-
-            ComponentFrame = TUIFramePropertyRTTI( RelativeWidthHeight = [1,1] )
+            MagnifiableBottomRightOffset = [-12.0,-68.0]
 
 
             Components =
             [
-            BUCKTextDescriptor
-            (
-                ComponentFrame = TUIFramePropertyRTTI
+                BUCKTextDescriptor
                 (
-                    MagnifiableWidthHeight = [85.0, 20.0]
-                    AlignementToAnchor = [0.0, 0.0]
-                    AlignementToFather = [0.0, 0.0]
+                    ComponentFrame = TUIFramePropertyRTTI
+                    (
+                        MagnifiableWidthHeight = [85.0, 20.0]
+                        AlignementToAnchor = [0.0, 0.0]
+                        AlignementToFather = [0.0, 0.0]
+                    )
+
+                    HasBorder = true
+                    BorderLineColorToken = 'gris_ligne_battlegroup'
+                    BorderThicknessToken = '1'
+                    BordersToDraw = ~/TBorderSide/Top
+
+
+                    HorizontalFitStyle = ~/FitStyle/UserDefined
+                    VerticalFitStyle = ~/FitStyle/UserDefined
+                    ParagraphStyle = TParagraphStyle
+                    (
+                        VerticalAlignment = ~/UIText_Up
+                        Alignment = UIText_Left
+                    )
+
+                    TextPadding = TRTTILength4(Magnifiable = [20.0, 5.0, 0.0, 0.0])
+                    TextStyle = 'Default'
+                    TypefaceToken = "Eurostyle"
+                    TextSize = '12'
+                    TextColor = 'gris_load'
+                    TextToken = <TextToken>
+                    TextDico = ~/LocalisationConstantes/dico_interface_outgame
                 )
-
-
-                HasBorder = true
-                BorderLineColorToken = 'gris_ligne_battlegroup'
-                BorderThicknessToken = '1'
-                BordersToDraw = ~/TBorderSide/Top
-
-
-                HorizontalFitStyle = ~/FitStyle/UserDefined
-                VerticalFitStyle = ~/FitStyle/UserDefined
-                ParagraphStyle = TParagraphStyle
-                (
-                    VerticalAlignment = ~/UIText_Up
-                    Alignment = UIText_Left
-                )
-
-                TextPadding = TRTTILength4 (Magnifiable = [20,5,0,0])
-                TextStyle = 'Default'
-                TypefaceToken = "Eurostyle"
-                TextSize = '12'
-                TextColor = 'gris_load'
-                TextToken = <TextToken>
-                TextDico = ~/LocalisationConstantes/dico_interface_outgame
-
-
-            )
             ]
         )
     ]
@@ -546,15 +561,15 @@ BattlegroupsBriefMultiListTitle is BUCKListDescriptor
                 SortingType = ~/MultiListSorting/String
                 HidePointerEvents = true
                 Components =
-                                       [
-                                           TextListe( TextToken = 'DB_RATE' ),
-                                           BUCKSpecificHintableArea
-                                           (
-                                               DicoToken = ~/LocalisationConstantes/dico_interface_outgame
-                                               HintBodyToken = "div_rateB"
-                                               HintExtendedToken = "div_rateE"
-                                           )
-                                       ]
+                [
+                    TextListe( TextToken = 'DB_RATE' ),
+                    BUCKSpecificHintableArea
+                    (
+                        DicoToken = ~/LocalisationConstantes/dico_interface_outgame
+                        HintBodyToken = "div_rateB"
+                        HintExtendedToken = "div_rateE"
+                    )
+                ]
             )
         ),
         // Unit Type
@@ -574,15 +589,15 @@ BattlegroupsBriefMultiListTitle is BUCKListDescriptor
                 SortingType = ~/MultiListSorting/Integer
                 HidePointerEvents = true
                 Components =
-                                        [
-                                            TextListe( TextToken = 'DB_UTYPE' ),
-                                            BUCKSpecificHintableArea
-                                            (
-                                                DicoToken = ~/LocalisationConstantes/dico_interface_outgame
-                                                HintBodyToken = "div_typeB"
-                                                HintExtendedToken = "div_typeE"
-                                            )
-                                        ]
+                [
+                    TextListe( TextToken = 'DB_UTYPE' ),
+                    BUCKSpecificHintableArea
+                    (
+                        DicoToken = ~/LocalisationConstantes/dico_interface_outgame
+                        HintBodyToken = "div_typeB"
+                        HintExtendedToken = "div_typeE"
+                    )
+                ]
             )
         )
     ]
@@ -887,7 +902,7 @@ EcranDeckAnimated is WindowFrame
                     TextSize = "32"
                 ),
                 DeckListBackButton,
-                BUCKCheckBoxListDescriptor
+                BUCKCheckBoxListDescriptorExcelStyle
                 (
                     ElementName = "FiltersList"
                     ComponentFrame = TUIFramePropertyRTTI
@@ -901,11 +916,9 @@ EcranDeckAnimated is WindowFrame
                     CheckboxHasBackground = false
                     CheckboxHasBorder = false
                     ListData = ~/BattlegroupFilterList
-                    UseExcelStyle = true
                     ArrowTextureColorToken = 'Blanc_multi'
                     ArrowTextureToken = 'Outgame_deck_arrow'
                     ArrowBoxMagnifiableWidthHeight = [20.0, 25.0]
-
                     ItemListBackgroundBlockColorToken = 'H2_bleu_2_hint'
                 ),
                 BUCKTextDescriptor
@@ -967,13 +980,9 @@ EcranDeckAnimated is WindowFrame
                                 (
                                     ComponentDescriptor = BoutonsDeck
                                 ),
-
                             ]
-
-
                         ),
                     ]
-
                 ),
             ]
         )
@@ -1045,6 +1054,8 @@ DeckOverview is BUCKTranslationAnimatedContainerDescriptor
     ]
 )
 
+//--------------------------------------------------------
+
 DeckOverviewContent is BUCKContainerDescriptor
 (
     ElementName = "DeckOverviewContent"
@@ -1052,8 +1063,6 @@ DeckOverviewContent is BUCKContainerDescriptor
     (
         RelativeWidthHeight = [1.0, 1.0]
         MagnifiableWidthHeight = [-180.0, -30.0]
-        AlignementToAnchor = [0.0, 0.0]
-        AlignementToFather = [0.0, 0.0]
         MagnifiableOffset = [130.0, 30.0]
     )
 
@@ -1066,8 +1075,8 @@ DeckOverviewContent is BUCKContainerDescriptor
             (
                 RelativeWidthHeight = [1.0, 0.0]
             )
-            Axis = ~/ListAxis/Vertical
 
+            Axis = ~/ListAxis/Vertical
             InterItemMargin = TRTTILength( Magnifiable = 5.0 )
 
             Elements =
@@ -1096,7 +1105,9 @@ DeckOverviewContent is BUCKContainerDescriptor
     ]
 )
 
-DeckOverviewInfosColumnWidth is 130
+//--------------------------------------------------------
+
+DeckOverviewInfosColumnWidth is 130.0
 
 DeckOverviewInformationsHeadersFrame is BUCKContainerDescriptor
 (
@@ -1245,6 +1256,8 @@ DeckOverviewInformationsHeadersFrame is BUCKContainerDescriptor
     ]
 )
 
+//--------------------------------------------------------
+
 DeckOverviewInformationsContentFrame is BUCKContainerDescriptor
 (
     ElementName = "DeckOverviewInformationsContentFrame"
@@ -1348,6 +1361,8 @@ DeckOverviewInformationsContentFrame is BUCKContainerDescriptor
     ]
 )
 
+//--------------------------------------------------------
+
 DeckOverviewActivationPointsFrame is BUCKContainerDescriptor
 (
     ElementName = "DeckOverviewActivationPointsFrame"
@@ -1419,6 +1434,8 @@ DeckOverviewActivationPointsFrame is BUCKContainerDescriptor
     ]
 )
 
+//--------------------------------------------------------
+
 DeckOverviewUnitsFrame is BUCKSpecificScrollingContainerDescriptor
 (
     ElementName = "DeckOverviewUnitsFrame"
@@ -1473,14 +1490,16 @@ DeckOverviewUnitsFrame is BUCKSpecificScrollingContainerDescriptor
     ]
 )
 
+//--------------------------------------------------------
+
 DeckOverviewCategoryLine is BUCKListDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [0.0, 75.0]
     )
-    Axis = ~/ListAxis/Horizontal
 
+    Axis = ~/ListAxis/Horizontal
     InterItemMargin = TRTTILength(Magnifiable = 5.0)
 
     Elements =

@@ -1164,7 +1164,7 @@ template UISpecificSkirmishProductionMenuViewDescriptor
 
     TokenFormatCommandPointsByCombatRule = MAP
     [
-        (CombatRule/Conquest,        "SP_CNQ_TFS"),
-        (CombatRule/Destruction,     "SP_COM_TFS")
+        (ECombatRule/Conquest,        "SP_CNQ_TFS"),
+        (ECombatRule/Destruction,     "SP_COM_TFS")
     ]
 )

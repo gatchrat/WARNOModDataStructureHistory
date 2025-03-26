@@ -1,5 +1,5 @@
 //-------------------------------------------------------------------------
-export Challenge_Defense_Dynamic_Filler is TMacroActionDescriptor_CorridorDynamicDefense_Specific
+export Challenge_Defense_Corridor_Filler is TMacroActionDescriptor_CorridorDefense_Specific
 (
     ParametresDeMission =
     [
@@ -43,7 +43,7 @@ export Challenge_Hydra_Defense_Objectif is TMacroActionDescriptor_Defense_Specif
 //-------------------------------------------------------------------------
 export Pool_Defense_Objectif_Challenge_Hydra is TPoolModel
 (
-    Budget = MAP [($/GFX/Resources/Resource_CommandPoints, 600)]
+    Budget = MAP [($/GFX/Resources/Resource_CommandPoints, 300)]
     ModelList = [
         TPoolElement(
             DescriptorId = GUID:{211e7a3f-84f9-456e-8517-6af0c32f5fcd}

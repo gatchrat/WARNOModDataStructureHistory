@@ -681,6 +681,102 @@ export DepictionOperator_MovementSound_SM_Infanterie_Crew_NL is TCosmeticWalkMov
         ),
     ]
 )
+export DepictionOperator_MovementSound_SM_Infanterie_Crew_NL_Engine is TCosmeticWalkMovementSoundOperatorDesc
+(
+    IdleFadeOutDuration = 0.5
+    IdleSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Idle/Kraka_Wheeled_vehicle_LoopIdle.wav"
+            )
+        ),
+    ]
+    MaxVolume = 0.5
+    MaxVolumeSpeed = 20
+    MinVolume = 0.1
+    OperatorId = "walkSound"
+    RunFadeInDuration = 0.5
+    RunFadeOutDuration = 0.25
+    RunOutPitchToGo = 0
+    RunOutPitchVelocity = 0.4
+    RunSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Infanterie_NL_Run_1.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Infanterie_NL_Run_2.wav"
+            )
+        ),
+    ]
+    StartSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_NL_Start_01.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_NL_Start_02.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_NL_Start_03.wav"
+            )
+        ),
+    ]
+    StopSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Infanterie_NL_Stop_1.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Infanterie_NL_Stop_2.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Infanterie_NL_Stop_3.wav"
+            )
+        ),
+    ]
+)
 export DepictionOperator_MovementSound_SM_Infanterie_Crew_POL is TCosmeticWalkMovementSoundOperatorDesc
 (
     IdleFadeOutDuration = 0.5
@@ -933,6 +1029,174 @@ export DepictionOperator_MovementSound_SM_Infanterie_Crew_SOVIET is TCosmeticWal
             TheSoundStream = TSoundStream
             (
                 FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Infanterie_SOVIET_Stop_4.wav"
+            )
+        ),
+    ]
+)
+export DepictionOperator_MovementSound_SM_Infanterie_Crew_SPAIN_Engine is TCosmeticWalkMovementSoundOperatorDesc
+(
+    IdleFadeOutDuration = 0.5
+    IdleSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Idle/Kraka_Wheeled_vehicle_LoopIdle.wav"
+            )
+        ),
+    ]
+    MaxVolume = 0.5
+    MaxVolumeSpeed = 20
+    MinVolume = 0.1
+    OperatorId = "walkSound"
+    RunFadeInDuration = 0.5
+    RunFadeOutDuration = 0.25
+    RunOutPitchToGo = 0
+    RunOutPitchVelocity = 0.4
+    RunSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Infanterie_FR_Run_1.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Infanterie_FR_Run_2.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Infanterie_FR_Run_3.wav"
+            )
+        ),
+    ]
+    StartSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_FR_Start_1.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_FR_Start_2.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_FR_Start_3.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_FR_Start_4.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_FR_Start_5.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_FR_Start_6.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_FR_Start_7.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Infanterie_FR_Start_8.wav"
+            )
+        ),
+    ]
+    StopSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Infanterie_FR_Stop_1.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Infanterie_FR_Stop_2.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Infanterie_FR_Stop_3.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Infanterie_FR_Stop_4.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Infanterie_FR_Stop_5.wav"
+            )
+        ),
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Deplacement_Infanterie
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Infanterie_FR_Stop_6.wav"
             )
         ),
     ]

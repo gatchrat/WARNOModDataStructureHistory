@@ -33,9 +33,6 @@ OutGameSearchAutoMatchGameDescriptor is BUCKContainerDescriptor
 
             Axis = ~/ListAxis/Vertical
 
-            AssumeChildrenAreFixedSize = false
-            AssumeChildrenAreClippable = true
-
             Elements =
             [
                 BUCKListElementDescriptor

@@ -715,10 +715,20 @@ DepictionOperator_Carriable_Canon_NoArms is template_DepictionOperator_Carriable
     ChassisMovementDeltaFrames = [0.75, 1.0]
 )
 
-DepictionOperator_Carriable_Canon_NoArms_Pitch is template_DepictionOperator_Carriable
+DepictionOperator_Carriable_Canon_NoArms_Pitch_Down is template_DepictionOperator_Carriable
 (
     ArmsSpreadAngleInDegrees = 0
     ChassisMovingAngleInDegrees = 15
+    ChassisAltitudeTranslationInMeters = 0
+    StartingAnimationDuration = 1.4
+    StoppingAnimationDuration = 1.6
+    ChassisMovementDeltaFrames = [0.75, 1.0]
+)
+
+DepictionOperator_Carriable_Canon_NoArms_Pitch_Up is template_DepictionOperator_Carriable
+(
+    ArmsSpreadAngleInDegrees = 0
+    ChassisMovingAngleInDegrees = -15
     ChassisAltitudeTranslationInMeters = 0
     StartingAnimationDuration = 1.4
     StoppingAnimationDuration = 1.6

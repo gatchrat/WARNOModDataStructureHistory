@@ -294,8 +294,6 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
     ]
 
     ProductionCapturableRadiusCheckMultiplier = 3.0
-    SupplyMinDistanceCheckGRU = 353
-    SupplyDistanceToStopGRU = 88
 
     IAStratPathCacheCostPathfindType = ~/IAStratPathCacheCostConstante/IAStratPathCacheCostPathfindType
 
@@ -308,7 +306,6 @@ IAStratConstantes is TIAStratConstantesDescriptor_Specific
 //--------------------------------------------------------------------------------------//
 UnitPowerInformation is TUnitPowerInformationConstante
 (
-    UnitPowerAntiAirMultiplier = 1.0
     UnitPowerDistrictCoeff = 1.5 //
     UnitPowerTerrainCoeff = 1.0
     UnitPowerBuildingMultiplier = 0.01
@@ -354,7 +351,7 @@ AirstrikeConstantes is TIAStratAirstrikeConstantes
         ("Avion_AT", ["Char", "ChasseurDeChar", "Vehicule_Appui", "Vehicule_CMD", "Vehicule_Reco", "Artillerie"]),
         ("Avion_SEAD", ["Canon_AA"]),
         ("Avion_Napalm", ["Infanterie"]),
-        ("Avion_Chasseur", ["Helo_Gunship", "Helo_AT", "Helo_AA", "Avion"]),
+        ("Avion_Chasseur", ["Helo_Gunship", "Helo_AT", "Helo_AA", "Avion", "Avion_Reco"]),
         ("Avion_Bombardier_Infanterie", ["Infanterie", "ChasseurDeChar_Standard"]),
         ("Avion_Bombardier_Vehicule", ["ChasseurDeChar", "Char", "Vehicule_Appui"]),
     ]
@@ -449,41 +446,5 @@ export DefaultWargameTransport is
         ("Vehicule_Transport", True),
         ("Helo_Transport", True),
         ("Helo_Transport_Arme", False),
-    ]
-)
-//--------------------------------------------------------------------------------------//
-//                                                                                      //
-//                                                                                      //
-//                                                                                      //
-//                                                                                      //
-//--------------------------------------------------------------------------------------//
-FakeGunThreatDescriptor is TFakeGunThreatDescriptor
-(
-    FakeThreatLifeTime = 90
-    DistanceFromStartGRU = 707
-    StepSize = 1000.0
-    DecalageAltitude = 300.0
-    VisionRangeGRU = 3534
-    OwnerRatioForFakeGunThreat = 0.9
-    GunList = [
-        TFakeGunDescriptor(
-            CurrentRangeGRU = 1767
-            TirIndirect = false
-            TypeArme = TDamageTypeRTTI(Family=DamageFamily_balle Index=1)
-            ColPlan = ~/ECollisionPlane/Ground
-            ),
-        TFakeGunDescriptor(
-            CurrentRangeGRU = 1767
-            TirIndirect = false
-            TypeArme = TDamageTypeRTTI(Family=DamageFamily_he Index=1)
-            ColPlan = ~/ECollisionPlane/Ground
-            ),
-        TFakeGunDescriptor(
-            CurrentRangeGRU = 1767
-            TirIndirect = false
-            TypeArme = TDamageTypeRTTI(Family=DamageFamily_ap Index=10)
-            ColPlan = ~/ECollisionPlane/Ground
-            IsPiercing = true
-            ),
     ]
 )

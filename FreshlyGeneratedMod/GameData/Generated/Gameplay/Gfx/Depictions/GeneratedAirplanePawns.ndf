@@ -136,6 +136,16 @@ Depiction_pion_RFA_JBG33_2 is StrategicAirplanePawnDepictionTemplate
     MeshDescriptorPawn = $/GFX/DepictionResources/Modele_Tornado_IDS_AT1_RFA
     MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_RFA
 )
+Depiction_pion_RFA_JBG34 is StrategicAirplanePawnDepictionTemplate
+(
+    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_Tornado_IDS_AT1_RFA
+    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_RFA
+)
+Depiction_pion_RFA_JBG34_2 is StrategicAirplanePawnDepictionTemplate
+(
+    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_Tornado_IDS_AT1_RFA
+    MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_RFA
+)
 Depiction_pion_RFA_JBG35 is StrategicAirplanePawnDepictionTemplate
 (
     MeshDescriptorPawn = $/GFX/DepictionResources/Modele_F4F_Phantom_II_HE1_RFA
@@ -233,7 +243,7 @@ Depiction_pion_SOV_787IAP is StrategicAirplanePawnDepictionTemplate
 )
 Depiction_pion_SOV_833IAP is StrategicAirplanePawnDepictionTemplate
 (
-    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_MiG_23P_SOV
+    MeshDescriptorPawn = $/GFX/DepictionResources/Modele_MiG_23MLD_SOV
     MeshSocle = $/GFX/DepictionResources/MeshModele_Socle_SOV
 )
 Depiction_pion_SOV_85IGAP is StrategicAirplanePawnDepictionTemplate
@@ -468,6 +478,8 @@ export Gfx_pion_RDA_JG8 is TTimelyDepictionReceiverFactory( DepictionTemplate = 
 export Gfx_pion_RDA_JG9 is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_RDA_JG9)
 export Gfx_pion_RFA_JBG33 is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_RFA_JBG33)
 export Gfx_pion_RFA_JBG33_2 is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_RFA_JBG33_2)
+export Gfx_pion_RFA_JBG34 is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_RFA_JBG34)
+export Gfx_pion_RFA_JBG34_2 is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_RFA_JBG34_2)
 export Gfx_pion_RFA_JBG35 is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_RFA_JBG35)
 export Gfx_pion_RFA_JBG35_2 is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_RFA_JBG35_2)
 export Gfx_pion_RFA_JG74 is TTimelyDepictionReceiverFactory( DepictionTemplate = Depiction_pion_RFA_JG74)
@@ -562,6 +574,8 @@ unnamed TMimeticGhostRegistration
         ( 'pion_RDA_JG9', Depiction_pion_RDA_JG9 ),
         ( 'pion_RFA_JBG33', Depiction_pion_RFA_JBG33 ),
         ( 'pion_RFA_JBG33_2', Depiction_pion_RFA_JBG33_2 ),
+        ( 'pion_RFA_JBG34', Depiction_pion_RFA_JBG34 ),
+        ( 'pion_RFA_JBG34_2', Depiction_pion_RFA_JBG34_2 ),
         ( 'pion_RFA_JBG35', Depiction_pion_RFA_JBG35 ),
         ( 'pion_RFA_JBG35_2', Depiction_pion_RFA_JBG35_2 ),
         ( 'pion_RFA_JG74', Depiction_pion_RFA_JG74 ),

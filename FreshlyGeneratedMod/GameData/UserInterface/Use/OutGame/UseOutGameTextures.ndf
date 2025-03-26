@@ -99,8 +99,6 @@ UseOutGame_Warning is TUIResourceTexture_Common( FileName = 'GameData:/Assets/2D
 // fulda
 Outgame_backgroundOfflineHomeScreen is TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Home/home_background.png" )
 
-
-//Outgame_backgroundOnlineHomeScreen is TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/UseOutGame/HUB/BackgroundOnlineHomeScreen.png" )
 Outgame_HL_solo is TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Home/home_solo_HL.png" )
 Outgame_HL_armory is TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Home/home_armory_HL.png" )
 Outgame_HL_multi is TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/UseOutGame/Home/home_multi_HL.png" )

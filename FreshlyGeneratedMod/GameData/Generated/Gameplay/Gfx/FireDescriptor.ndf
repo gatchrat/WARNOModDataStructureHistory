@@ -34,7 +34,7 @@ export Descriptor_Fire_Incendie is TEntityDescriptor
             TimeBetweenBurns               = 5
             IgniteDistricts                = False
             OverridenSpreadDescriptor      = nil
-            SmokeDescriptor                = Descriptor_Smoke_FumiIncendie
+            SmokeDescriptor                = nil
         ),
     ]
 )
@@ -71,7 +71,7 @@ export Descriptor_Fire_Napalm is TEntityDescriptor
             TimeBetweenBurns               = 5
             IgniteDistricts                = False
             OverridenSpreadDescriptor      = Descriptor_Fire_Incendie
-            SmokeDescriptor                = Descriptor_Smoke_FumiNapalm
+            SmokeDescriptor                = nil
         ),
     ]
 )
@@ -108,7 +108,7 @@ export Descriptor_Fire_NapalmLeger is TEntityDescriptor
             TimeBetweenBurns               = 5
             IgniteDistricts                = False
             OverridenSpreadDescriptor      = Descriptor_Fire_Incendie
-            SmokeDescriptor                = Descriptor_Smoke_FumiIncendie
+            SmokeDescriptor                = nil
         ),
     ]
 )
@@ -145,7 +145,7 @@ export Descriptor_Fire_NapalmLourd is TEntityDescriptor
             TimeBetweenBurns               = 1
             IgniteDistricts                = False
             OverridenSpreadDescriptor      = Descriptor_Fire_Incendie
-            SmokeDescriptor                = Descriptor_Smoke_FumiNapalmlourd
+            SmokeDescriptor                = nil
         ),
     ]
 )
@@ -182,7 +182,7 @@ export Descriptor_Fire_NapalmMoyen is TEntityDescriptor
             TimeBetweenBurns               = 1
             IgniteDistricts                = False
             OverridenSpreadDescriptor      = Descriptor_Fire_Incendie
-            SmokeDescriptor                = Descriptor_Smoke_FumiIncendie
+            SmokeDescriptor                = nil
         ),
     ]
 )

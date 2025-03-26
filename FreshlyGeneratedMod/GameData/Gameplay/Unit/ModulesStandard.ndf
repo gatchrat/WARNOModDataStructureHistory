@@ -139,7 +139,6 @@ HelicoFlagsModuleDescriptor is TFlagsModuleDescriptor
         Flag_Detectable,
         Flag_LdDetectable,
         Flag_NearGroundFlying,
-        Flag_DetectableLowAltitude,
     ]
 )
 
@@ -151,7 +150,6 @@ AirplaneFlagsModuleDescriptor is TFlagsModuleDescriptor
         Flag_LdDetectable,
         Flag_Avion,
         Flag_HighAltitudeFlying,
-        Flag_DetectableLowAltitude,
     ]
 )
 

@@ -77,8 +77,8 @@ export ChalDefenseGeneric_Phase_Deploiement is TSequenceGeneratorDescriptor
 
         ~/Defense_Objectif, //Chere mais dépendant du nombre d'objectif et de la capture
 
-        ~/Challenge_Defense_Dynamic_Filler,
-        ~/Defense_Dynamic_Adaptive,
+        ~/Challenge_Defense_Corridor_Filler,
+        ~/Defense_Corridor_Adaptive,
 
         ~/Airstrike_AA,
         ~/Artillery_TriggerHappy_1for2Corridors,
@@ -106,8 +106,8 @@ export ChalDefenseGeneric_Phase_Command is TSequenceGeneratorDescriptor
 
         ~/Defense_Objectif, //Chere mais dépendant du nombre d'objectif et de la capture
 
-        ~/Challenge_Defense_Dynamic_Filler,
-        ~/Defense_Dynamic_Adaptive,
+        ~/Challenge_Defense_Corridor_Filler,
+        ~/Defense_Corridor_Adaptive,
 
         ~/Airstrike_AA,
         ~/Artillery_TriggerHappy_1for2Corridors,
@@ -122,8 +122,8 @@ export ChalDefenseGeneric_Phase_Command is TSequenceGeneratorDescriptor
 
 Challenge_Defense_Scaling is
 [
-    ~/Challenge_Defense_Dynamic_Filler,
-    ~/Defense_Dynamic_Adaptive,
+    ~/Challenge_Defense_Corridor_Filler,
+    ~/Defense_Corridor_Adaptive,
     ~/Defense_Objectif,
     ~/Artillery_TriggerHappy_1for2Corridors,
     ~/Airstrike_AA,

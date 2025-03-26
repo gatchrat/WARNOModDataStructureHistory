@@ -340,15 +340,12 @@ ColumnInfantrySquadSlotPositionsModuleDescriptor is TInfantrySquadSlotPositionsM
 
 BuildingScannerConfigurationDescriptor is TScannerConfigurationDescriptor
 (
-    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-    PorteeVisionTBAGRU = 0.0
-    PorteeVisionFOWGRU = 0.0
-    DetectionTBAGRU = 3533.56890459
-    PorteeVisionGRU = 3533.56890459
-    PorteeIdentification = 0.0
-    OpticalStrength = 0.0
-    OpticalStrengthAltitude = 40
-    SpecializedDetectionsGRU = MAP [
-        ( EVisionUnitType/AlwaysInHighAltitude, 3533.56890459 ),
+    VisionRangesGRU = MAP [
+        ( EVisionUnitType/Standard, 3533.56890459 ),
+        ( EVisionUnitType/HighAltitude, 3533.56890459 ),
+    ]
+    OpticalStrengths = MAP [
+        ( EVisionUnitType/LowAltitude, 40.0 ),
+        ( EVisionUnitType/HighAltitude, 40.0 ),
     ]
 )

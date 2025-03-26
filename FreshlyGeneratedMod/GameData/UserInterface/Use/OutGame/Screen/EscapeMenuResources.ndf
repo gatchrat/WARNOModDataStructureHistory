@@ -296,8 +296,6 @@ private EscapeMenuDescriptor is BUCKListDescriptor
     InterItemMargin = TRTTILength( Magnifiable = ~/EscapeMenuSpaceBetweenButtons )
     BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
     GridAlign = false
-    AssumeChildrenAreFixedSize = true
-    AssumeChildrenAreClippable = false
 
     Elements =
     [

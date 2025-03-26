@@ -226,6 +226,42 @@ unnamed TCoatingRecipe
 unnamed TCoatingRecipe
 (
     Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24D_s5_AT_TCH'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_AT_TCH'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_RKT_TCH'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
+    CoatingName = 'Mi_24V_RKT2_TCH'
+    Ingredients = [
+        Mi_24P_landing_gears_coating_ingredient,
+    ]
+)
+
+unnamed TCoatingRecipe
+(
+    Cookbook = $/DepictionCore/CoatingCookbook
     CoatingName = 'Ka_50_SOV'
     Ingredients = [
         Ka_50_SOV_landing_gears_coating_ingredient,

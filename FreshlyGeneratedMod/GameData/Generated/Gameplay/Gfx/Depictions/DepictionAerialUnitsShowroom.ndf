@@ -151,6 +151,96 @@ export Gfx_A37B_Dragonfly_US_Showroom is ShowroomAerialDepictionTemplate
         ),
     ]
 )
+export Gfx_A6E_Intruder_SEAD_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_A6E_Intruder_SEAD_US
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_A6E_Intruder_SEAD_US,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_A6E_Intruder_SEAD_US_train
+        ),
+    ]
+)
+export Gfx_A6E_Intruder_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_A6E_Intruder_US
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_A6E_Intruder_US,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_A6E_Intruder_US_train
+        ),
+    ]
+)
+export Gfx_A7D_Corsair_II_AT_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_A7D_Corsair_II_AT_US
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_A7D_Corsair_II_AT_US,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_A7D_Corsair_II_AT_US_train
+        ),
+    ]
+)
+export Gfx_A7D_Corsair_II_CLU_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_A7D_Corsair_II_CLU_US
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_A7D_Corsair_II_CLU_US,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_A7D_Corsair_II_CLU_US_train
+        ),
+    ]
+)
+export Gfx_A7D_Corsair_II_RKT_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_A7D_Corsair_II_RKT_US
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_A7D_Corsair_II_RKT_US,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_A7D_Corsair_II_RKT_US_train
+        ),
+    ]
+)
+export Gfx_A7D_Corsair_II_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_A7D_Corsair_II_US
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_A7D_Corsair_II_US,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_A7D_Corsair_II_US_train
+        ),
+    ]
+)
 export Gfx_AH1E_Cobra_US_Showroom is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_AH1E_Cobra_US
@@ -317,6 +407,30 @@ export Gfx_AH1F_Hog_US_Showroom is ShowroomAerialDepictionTemplate
     SubDepictionGenerators = 
     [
         SubGenerators_Showroom_AH1F_Hog_US,
+    ]
+)
+export Gfx_AH1S_Cobra_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_AH1S_Cobra_US
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_AH1S_Cobra_US,
     ]
 )
 export Gfx_AH64_Apache_ATAS_US_Showroom is ShowroomAerialDepictionTemplate
@@ -506,6 +620,26 @@ export Gfx_Alouette_III_FR_Showroom is ShowroomAerialDepictionTemplate
 export Gfx_Alouette_III_NL_Showroom is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Alouette_III_NL
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+)
+export Gfx_Alouette_III_SOV_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Alouette_III_SOV
     Operators = 
     [
         DepictionOperator_Reset_Generic,
@@ -1127,6 +1261,46 @@ export Gfx_CH53G_trans_RFA_Showroom is ShowroomAerialDepictionTemplate
         ),
     ]
 )
+export Gfx_CH54B_Tarhe_supply_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_CH54B_Tarhe_supply_US
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = 30
+        ),
+    ]
+)
+export Gfx_CH54B_Tarhe_trans_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_CH54B_Tarhe_trans_US
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = 30
+        ),
+    ]
+)
 export Gfx_CL_289_RFA_Showroom is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_CL_289_RFA
@@ -1165,6 +1339,21 @@ export Gfx_CM170_Magister_SS11_FR_Showroom is ShowroomAerialDepictionTemplate
         ShowroomLandingGear
         (
             MeshDescriptor = $/GFX/DepictionResources/Modele_CM170_Magister_SS11_FR_train
+        ),
+    ]
+)
+export Gfx_EA6B_Prowler_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_EA6B_Prowler_US
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_EA6B_Prowler_US,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_EA6B_Prowler_US_train
         ),
     ]
 )
@@ -3255,7 +3444,7 @@ export Gfx_MiG_23BN_RKT_DDR_Showroom is ShowroomAerialDepictionTemplate
         (
             AirStartGroupIndex = 1
             GroundStartGroupIndex = 1
-            RocketCount = 2
+            RocketCount = 4
             RocketMeshDescriptor = $/GFX/DepictionResources/Modele_Missile_S_24_240mm
             UnitMeshDescriptor = $/GFX/DepictionResources/Modele_MiG_23BN_RKT_DDR
             WeaponIndex = 2
@@ -3341,6 +3530,21 @@ export Gfx_MiG_23MF_DDR_Showroom is ShowroomAerialDepictionTemplate
         ShowroomLandingGear
         (
             MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_23MF_DDR_train
+        ),
+    ]
+)
+export Gfx_MiG_23MLD_AA1_SOV_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_23MLD_AA1_SOV
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_MiG_23MLD_AA1_SOV,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_MiG_23MLD_AA1_SOV_train
         ),
     ]
 )
@@ -4778,6 +4982,30 @@ export Gfx_Mi_8TB_DDR_Showroom is ShowroomAerialDepictionTemplate
         SubGenerators_Showroom_Mi_8TB_DDR,
     ]
 )
+export Gfx_Mi_8TB_SOV_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8TB_SOV
+    Operators = 
+    [
+        DepictionOperator_Reset_Generic,
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_1"
+            RotationAxis = float3[0, 0, 1]
+            RotationInDegree = -30
+        ),
+        TCosmeticFixedBoneRotationOperatorDesc
+        (
+            BoneName = "bloc_moteur_2"
+            RotationAxis = float3[0, 1, 0]
+            RotationInDegree = -30
+        ),
+    ]
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_Mi_8TB_SOV,
+    ]
+)
 export Gfx_Mi_8TB_reco_Marine_DDR_Showroom is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_Mi_8TB_reco_Marine_DDR
@@ -5618,6 +5846,21 @@ export Gfx_Mirage_IV_SEAD_FR_Showroom is ShowroomAerialDepictionTemplate
         ),
     ]
 )
+export Gfx_OA10A_US_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_OA10A_US
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_OA10A_US,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_OA10A_US_train
+        ),
+    ]
+)
 export Gfx_OH58A_reco_NG_US_Showroom is ShowroomAerialDepictionTemplate
 (
     MeshDescriptor = $/GFX/DepictionResources/Modele_OH58A_reco_NG_US
@@ -5854,6 +6097,68 @@ export Gfx_Puma_UK_Showroom is ShowroomAerialDepictionTemplate
             BoneName = "bloc_moteur_2"
             RotationAxis = float3[0, 1, 0]
             RotationInDegree = -30
+        ),
+    ]
+)
+export Gfx_Su_15TM_AA2_SOV_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Su_15TM_AA2_SOV
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_Su_15TM_AA2_SOV,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Su_15TM_AA2_SOV_train
+        ),
+        TSubDepiction
+        (
+            Anchors = 
+            [
+                "pod_upk_d",
+            ]
+            Depiction = TDepictionTemplate
+            (
+                CoatingName = "Su_15TM_AA2_SOV_turret3_pod_upk_d"
+                DepictionAlternatives = 
+                [
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_15TM_AA2_SOV_Tourelle_03 ),
+                ]
+                Selector = OnlyHighDepictionSelector
+            )
+        ),
+        TSubDepiction
+        (
+            Anchors = 
+            [
+                "pod_upk_g",
+            ]
+            Depiction = TDepictionTemplate
+            (
+                CoatingName = "Su_15TM_AA2_SOV_turret3_pod_upk_g"
+                DepictionAlternatives = 
+                [
+                    DepictionDescriptor_LOD_High( MeshDescriptor = $/GFX/DepictionResources/Modele_Su_15TM_AA2_SOV_Tourelle_03 ),
+                ]
+                Selector = OnlyHighDepictionSelector
+            )
+        ),
+    ]
+)
+export Gfx_Su_15TM_AA_SOV_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Su_15TM_AA_SOV
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_Su_15TM_AA_SOV,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Su_15TM_AA_SOV_train
         ),
     ]
 )
@@ -6466,6 +6771,21 @@ export Gfx_Su_25_rkt_SOV_Showroom is ShowroomAerialDepictionTemplate
         ShowroomLandingGear
         (
             MeshDescriptor = $/GFX/DepictionResources/Modele_Su_25_rkt_SOV_train
+        ),
+    ]
+)
+export Gfx_Su_27K_SOV_Showroom is ShowroomAerialDepictionTemplate
+(
+    MeshDescriptor = $/GFX/DepictionResources/Modele_Su_27K_SOV
+    SubDepictionGenerators = 
+    [
+        SubGenerators_Showroom_Su_27K_SOV,
+    ]
+    SubDepictions = 
+    [
+        ShowroomLandingGear
+        (
+            MeshDescriptor = $/GFX/DepictionResources/Modele_Su_27K_SOV_train
         ),
     ]
 )

@@ -256,8 +256,6 @@ BUCKSpecificOffMapMainComponentDescriptor is BUCKContainerDescriptor
                                 ElementName = 'UnitGrid'
                                 ComponentFrame = TUIFramePropertyRTTI()
 
-                                AssumeChildrenAreClippable = true
-
                                 FirstElementMargin = TRTTILength2(Magnifiable = [10.0, 0.0])
                                 InterElementMargin = TRTTILength2(Magnifiable = [3.0, 3.0])
 

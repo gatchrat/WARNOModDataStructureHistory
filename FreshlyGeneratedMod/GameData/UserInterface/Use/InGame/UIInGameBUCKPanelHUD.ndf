@@ -67,8 +67,6 @@ is BUCKContainerDescriptor
 
             BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromFrameProperty
             GridAlign = false
-            AssumeChildrenAreFixedSize = false
-            AssumeChildrenAreClippable = true
 
             Elements =
             ( !<TitleAfterContent> & <TitleVisible> ? [

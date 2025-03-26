@@ -12,13 +12,11 @@
 // TuerLaMissionEnFinDeVieAuLieuDeLaRelancer : (bool)
 // MissionOmnisciente : Pas utilise dans Normandie (systeme de connaissance de zone)
 //-------------------------------------------------------------------------
-// Parametres TMacroActionDescriptor_Attack_Specific
+// Parametres TAttackRatioSettingHolder
 //-------------------------------------------------------------------------
 // RatioMinimumPourAttaquer : (float) le ratio qu'on doit posséder pour pouvoir déclencher l'attaque
-// ForceZoneAttaqueName : (string)
-// InterdireRequisition : (bool) si on utilise le systeme de Defense de base d'AoA
 //-------------------------------------------------------------------------
-// Parametres supplémentaire TMacroActionDescriptor_CorridorAttack_Specific
+// Parametres TForcedPlacementSettingHolder
 //-------------------------------------------------------------------------
 // ForcedCorridor : (format special ex:[1]) permet de forcer l'attaque sur un couloir.
 //

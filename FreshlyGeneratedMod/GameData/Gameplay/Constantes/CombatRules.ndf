@@ -1,6 +1,6 @@
 
 //A maintenir synchro avec Engine\Code\Eugen\CPP\EugIA_Common\CombatRule.h
-CombatRule is TBaseClass
+ECombatRule is TBaseClass
 (
     NotSpecified    is 0
     Destruction     is 1

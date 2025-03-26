@@ -54,6 +54,11 @@ template BUCKEditableTextDescriptor
 
     TextStyle : string = "",                                                                                          // Le Token de TextStyle pour le texte
 
+    PlaceholderTextName : string = "",                                                                                // Spécifie l'ElementName du PlaceholderText. Utile en cas de doublon
+    PlaceholderTextToken : string = "",                                                                               // Un texte à afficher lorsque le champ est vide
+    PlaceholderTextDico : string = "",                                                                                // Dico pour PlaceholderTextToken
+    PlaceholderTextColor : string = "",                                                                               // La couleur de PlaceholderTextToken
+    PlaceHolderTextMagnifiableOffset : float2 = [15.0, 0.0],
     Flags : int = 0,                                                                                                  // Les Flags permettant de paramétrer le copy/paste etc...
                                                                                                                       //   (Renseigner un EditableTextFlag défini dans UICommonEnum.ndf)
     DontMaskEventOnValidate : bool = false,                                                                           // True = ne masquera pas l'évenement "Enter".
@@ -113,6 +118,8 @@ is TBUCKEditableTextDescriptor
 
     TextStyle = <TextStyle>
 
+    PlaceholderTextName = (<PlaceholderTextName> != "" ? <PlaceholderTextName> : <ElementName> + "PlaceholderText")
+
     Flags = <Flags>
     DontMaskEventOnValidate = <DontMaskEventOnValidate>
     SelectTextOnFocus = <SelectTextOnFocus>
@@ -127,7 +134,32 @@ is TBUCKEditableTextDescriptor
 
             ClipContent = true
             IsClippable = <IsClippable>
-            Components = (<HintComponentDescriptor> != nil ? [<HintComponentDescriptor>] : [])
+            Components = (<HintComponentDescriptor> != nil ? [<HintComponentDescriptor>] : []) +
+            (<PlaceholderTextToken> == "" ? [] :
+            [
+                BUCKTextDescriptor
+                (
+                    ElementName = (<PlaceholderTextName> != "" ? <PlaceholderTextName> : <ElementName> + "PlaceholderText")
+                    ComponentFrame = TUIFramePropertyRTTI
+                    (
+                        AlignementToFather = [0.0, 0.5]
+                        AlignementToAnchor = [0.0, 0.5]
+                        MagnifiableOffset = <PlaceHolderTextMagnifiableOffset>
+                    )
+
+                    ParagraphStyle = ~/paragraphStyleTextLeftAlign
+                    HorizontalFitStyle = ~/FitStyle/FitToContent
+                    VerticalFitStyle = ~/FitStyle/FitToContent
+
+                    TextToken = <PlaceholderTextToken>
+                    TextDico = <PlaceholderTextDico>
+                    TextColor = <PlaceholderTextColor>
+
+                    TextStyle = <TextStyle>
+                    TextSize = <TextSizeToken>
+                    TypefaceToken = <TypefaceToken>
+                )
+            ])
         )
     ]
 )

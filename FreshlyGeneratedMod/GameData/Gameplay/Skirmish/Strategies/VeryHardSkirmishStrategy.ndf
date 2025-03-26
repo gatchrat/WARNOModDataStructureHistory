@@ -94,7 +94,7 @@ export VHard_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/FOB_Skirmish,
 
         ~/Attack_Objectives,
-        ~/Defense_Static_AA,
+        ~/Defense_Corridor_AA,
 
         ~/Airstrike_AA,
 
@@ -107,8 +107,10 @@ export VHard_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/Attack_Main,
         ~/Attack_Helo,
 
-        ~/Defense_Static_AA,
-        ~/Defense_Dynamic_AA,
+        ~/Defense_Corridor_AA,
+        ~/Defense_Corridor_AA,
+
+        ~/Airstrike_AirReco,
 
         ~/Artillery_TriggerHappy,        // Artillerie pas chère                 //  80
 
@@ -119,7 +121,7 @@ export VHard_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/Attack_Adaptive,          // ~100
         ~/Attack_Filler,            // budget 40
 
-        ~/Defense_Static_AA,
+        ~/Defense_Corridor_AA,
         ~/CaptureHalfZoneObjectif_Ceil,
 
         //------------------------------
@@ -128,8 +130,8 @@ export VHard_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/Airstrike_Assault,
         ~/Artillery_TriggerHappy_1for2Corridors,
 
-        ~/Defense_Static_Adaptive,
-        ~/Defense_Static_Adaptive,
+        ~/Defense_Corridor_Adaptive,
+        ~/Defense_Corridor_Adaptive,
 
         ~/Airstrike_Offense,
         ~/Airstrike_AA,
@@ -166,7 +168,7 @@ export VHard_Phase_Command is TSequenceGeneratorDescriptor
         ~/CaptureOneObjectif,
 
         ~/Attack_Objectives,
-        ~/Defense_Static_AA,
+        ~/Defense_Corridor_AA,
 
         ~/Airstrike_AA,
 
@@ -182,12 +184,14 @@ export VHard_Phase_Command is TSequenceGeneratorDescriptor
         // Défenses prioritaires
         //------------------------------
         // Statiques pour tenir le terrain
-        ~/Defense_Static_Adaptive, // Canon AT - Chasseur de char - ATInf - HMG - Flamer // 85
-        ~/Defense_Static_AA,
-        ~/Defense_Dynamic_AA,
+        ~/Defense_Corridor_Adaptive, // Canon AT - Chasseur de char - ATInf - HMG - Flamer // 85
+        ~/Defense_Corridor_AA,
+        ~/Defense_Corridor_AA,
 
-        ~/Defense_Dynamic_Adaptive,
-        ~/Defense_Dynamic_Adaptive,
+        ~/Airstrike_AirReco,
+
+        ~/Defense_Corridor_Adaptive,
+        ~/Defense_Corridor_Adaptive,
 
         //Cet mission lance les objectifs restant
         ~/Defense_Objectif,
@@ -198,7 +202,7 @@ export VHard_Phase_Command is TSequenceGeneratorDescriptor
         ~/Attack_Adaptive,
         ~/Attack_Filler,
 
-        ~/Defense_Static_AA,
+        ~/Defense_Corridor_AA,
         ~/CaptureHalfZoneObjectif_Ceil,
 
         ~/Airstrike_Offense,
@@ -212,13 +216,13 @@ export VHard_Phase_Command is TSequenceGeneratorDescriptor
         //------------------------------
         ~/Airstrike_Assault,
 
-        ~/Defense_Static_AA,
-        ~/Defense_Dynamic_AA,
+        ~/Defense_Corridor_AA,
+        ~/Defense_Corridor_AA,
 
         ~/Artillery_TriggerHappy_1for2Corridors,
 
-        ~/Defense_Static_Adaptive,
-        ~/Defense_Static_Adaptive,
+        ~/Defense_Corridor_Adaptive,
+        ~/Defense_Corridor_Adaptive,
 
         ~/Airstrike_Offense,
         ~/Airstrike_AA,
@@ -266,7 +270,9 @@ export VHard_Phase_LastHope is TSequenceGeneratorDescriptor
         // Défenses prioritaires
         //------------------------------
         // Statiques pour tenir le terrain
-        ~/Defense_Dynamic_AA,
+        ~/Defense_Corridor_AA,
+
+        ~/Airstrike_AirReco,
 
         //Cet mission lance les objectifs restant
         ~/Defense_Objectif,
@@ -296,8 +302,8 @@ export VHard_Phase_LastHope is TSequenceGeneratorDescriptor
         //------------------------------
         ~/Airstrike_Assault,
 
-        ~/Defense_Static_AA,
-        ~/Defense_Dynamic_AA,
+        ~/Defense_Corridor_AA,
+        ~/Defense_Corridor_AA,
 
         ~/Artillery_TriggerHappy_1for2Corridors,
 
@@ -329,9 +335,11 @@ VeryHardScaling is
     ~/Attack_Adaptive_Autogen,
     ~/Attack_Adaptive_Autogen,
 
-    ~/Defense_Dynamic_Adaptive_Autogen,
-    ~/Defense_Dynamic_Adaptive_Autogen,
-    ~/Defense_Dynamic_AA_Autogen,
+    ~/Airstrike_AirReco_Autogen,
+
+    ~/Defense_Corridor_Adaptive_Autogen,
+    ~/Defense_Corridor_Adaptive_Autogen,
+    ~/Defense_Corridor_AA_Autogen,
 
     ~/Airstrike_Assault_Autogen,
     ~/Airstrike_Offense_Autogen,
@@ -355,6 +363,8 @@ VeryHardScaling_Attack is
 
     ~/Airstrike_Assault_Autogen,
     ~/Airstrike_Offense_Autogen,
+
+    ~/Airstrike_AirReco_Autogen,
     ~/Airstrike_AA_Autogen,
 
     ~/Artillery_TriggerHappy_Autogen,

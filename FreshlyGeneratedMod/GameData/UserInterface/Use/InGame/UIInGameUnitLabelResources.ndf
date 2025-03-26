@@ -88,7 +88,6 @@ SpecificInGameUnitLabelResources is TUISpecificInGameUnitLabelResources
     [
         (ETerrainType/ForetLegere,  "CommonTexture_Couvert_Moyen"),
         (ETerrainType/ForetDense,   "CommonTexture_Couvert_Moyen"),
-        (ETerrainType/LightSmoke,   "CommonTexture_Couvert_Moyen"),
         (ETerrainType/MediumSmoke,  "CommonTexture_Couvert_Moyen"),
         (ETerrainType/PetitBatiment,"CommonTexture_Couvert_Lourd"),
         (ETerrainType/Batiment,     "CommonTexture_Couvert_Lourd"),

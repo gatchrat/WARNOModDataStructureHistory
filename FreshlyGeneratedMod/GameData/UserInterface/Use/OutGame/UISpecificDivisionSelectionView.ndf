@@ -103,7 +103,7 @@ DivisionsBriefMultiListTitle is BUCKListDescriptor
             HintBodyToken = "div_nameB"
             HintExtendedToken = ""
             MagnifiableWidthHeight = [505.0, 0.0]
-        ),,
+        ),
         MultilistTitle
         (
             ElementName = 'DivisionPowerTextMultiList'
@@ -120,7 +120,7 @@ DivisionsBriefMultiListTitle is BUCKListDescriptor
             HintBodyToken = "div_typeB"
             HintExtendedToken = "div_typeE"
             MagnifiableWidthHeight = [52.0, 0.0]
-        ),
+        )
     ]
 )
 //-------------------------------------------------------------------------------------
@@ -296,7 +296,7 @@ private SpecificDivisionSelectionContent is BUCKListDescriptor
 
     ForegroundComponents =
     [
-        BUCKCheckBoxListDescriptor
+        BUCKCheckBoxListDescriptorExcelStyle
         (
             ElementName = "FiltersList"
             ComponentFrame = TUIFramePropertyRTTI
@@ -306,14 +306,11 @@ private SpecificDivisionSelectionContent is BUCKListDescriptor
             )
 
             IsForModale = true
-            UseExcelStyle = true
             HasBackgroundAll = true
             BackgroundAllBlockColorToken = 'VertLogin'
             BoxMagnifiableWidthHeight = [20.0, 20.0]
 
             TextColor = 'loginBlanc'
-            HasBackground = true
-            BackgroundBlockColorToken = 'loginBoutonBackground_vert'
             MagnifiableOffsetRack = [-130.0, 35.0]
             ListData = ~/DivisionFilterList
             ItemListBackgroundBlockColorToken = 'VertLogin'

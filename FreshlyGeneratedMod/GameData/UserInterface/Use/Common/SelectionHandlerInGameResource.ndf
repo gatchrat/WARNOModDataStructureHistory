@@ -1,6 +1,6 @@
 SelectionResources is TSelectionHandlerInGameResources
 (
-    Renderer = ~/SelectionRenderToolBox
+    Renderer = ~/SelectionRenderer
     DrawingParameters           = $/M3D/Input/SelectionHandlerDrawingParameters
 
     UserInputLayer                            = $/M3D/Input/UserInputLayerHandler/InputLayer_SelectionInGame

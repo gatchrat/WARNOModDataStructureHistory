@@ -45,9 +45,6 @@ template BUCKRackDescriptor
     InterItemMargin : TRTTILength = TRTTILength(),
     LastMargin : TRTTILength = TRTTILength(),
 
-    AssumeChildrenAreFixedSize : bool = false,
-    AssumeChildrenAreClippable : bool = false,
-
     // Elements : LIST<TBUCKListElementDescriptor> = [],                                     // On ne doit pas avoir d'élements, il faut définir le descripteur des lames
     // -- BUCKListDescriptor
 
@@ -101,9 +98,6 @@ is TBUCKRackDescriptor
     FirstMargin = <FirstMargin>
     InterItemMargin = <InterItemMargin>
     LastMargin = <LastMargin>
-
-    AssumeChildrenAreFixedSize = <AssumeChildrenAreFixedSize>
-    AssumeChildrenAreClippable = <AssumeChildrenAreClippable>
 
     // Elements = <Elements>
     // -- BUCKListDescriptor

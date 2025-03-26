@@ -4,11 +4,10 @@ template EAllianceStyleCommon
 ]
 is TBaseClass
 (
-    NotInitialized  is 0
-    Neutral         is 1
-    AlliedWithAll   is 2
-    EnemyWithAll    is 3
-    StartSpecificValue is 4
+    Neutral         is 0
+    AlliedWithAll   is 1
+    EnemyWithAll    is 2
+    StartSpecificValue is 3
 )
 
 template EAllianceStyleModernWarfare [] is EAllianceStyleCommon

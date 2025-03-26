@@ -117,8 +117,12 @@ ShowRoomTexture_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
                                                             (~/ComponentState/ToggleHighlighted, TUIResourceTexture_Common( FileName = "GameData:/Assets/2D/Interface/ShowRoom/minimize.png" )),
                                                         ]),
 
-        ("ShowRoomTexture_LightCycle",                MAP [
+        ("ShowRoomTexture_LightCycle",              MAP [
                                                             (~/ComponentState/Normal, showRoomTexture_LightCycle)
+                                                        ]),
+
+        ("ShowRoomTexture_FilterReset",             MAP [
+                                                            (~/ComponentState/Normal, StyleDeskTexture_CheckBox_Tick)
                                                         ]),
     ]
 )

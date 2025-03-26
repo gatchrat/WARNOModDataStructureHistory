@@ -1,60 +1,8 @@
-//*****************************************************************************
-// Mechant copier-coller de visualdebuginfohandler.ndf, mais je ne sais pas vraiment comment ça marche, alors je fais ce que je peux.
-template Template_RenderParameterBlended
-[
-    MeshMaterialFill2D = $/M3D/Shader/MeshMaterialVisualDebugInfoHandler_Blend2D,
-    CalqueFill2D = $/M3D/Scene/Scene_2D_Interface/Calque_Selection_Fill,
-]
-is TRenderTypeParameters
+export SelectionRenderer is TSelectionRenderer
 (
-    Name = "blend"
-    MeshMaterialFill2D = <MeshMaterialFill2D>
-    MeshMaterialBorder2D = $/M3D/Shader/MeshMaterialVisualDebugInfoHandler_Blend2D
-    MeshMaterialFill3D = $/M3D/Shader/MeshMaterialVisualDebugInfoHandler_Blend
-    MeshMaterialBorder3D = $/M3D/Shader/MeshMaterialVisualDebugInfoHandler_Blend
-    CalqueLine2D = $/M3D/Scene/Scene_2D_Interface/Calque_Selection_Line
-    CalqueFill2D = <CalqueFill2D>
-    CalqueLine3D = $/M3D/Scene/Scene3D_AfterPostProcess/Calque_DebugInfo_Line
-    CalqueFill3D = $/M3D/Scene/Scene3D_AfterPostProcess/Calque_DebugInfo_Fill
-    SortTriangles3D = true
-)
-
-template Template_TextRenderParameter // standard
-[
-    Name,
-    MeshMaterial,
-    Calque = $/M3D/Scene/Scene_2D_Interface/Calque_Selection_Line, // pas bien, mais on n'est pas sensé l'utiliser...
-    FreeTypeGenerator = $/M3D/Fonts/DebugFont
-]
-is TTextRenderTypeParameters
-(
-    Name = <Name>
-    MeshMaterial = <MeshMaterial>
-    Calque = <Calque>
-    FreeTypeGenerator = <FreeTypeGenerator>
-)
-//*****************************************************************************
-export SelectionRenderToolBox is TDynamicRenderToolBox
-(
-    MainCamera = $/M3D/Misc/CameraPrincipale
     Scene2D   = $/M3D/Scene/Scene_2D_Interface
-    WorldFloorProxy = $/M3D/Scene/WorldFloorForIAProxy
-    CalqueText   = $/M3D/Scene/Scene_2D_Interface/Calque_Selection_Line
-    FreeTypeGenerator = $/M3D/Fonts/HandPenFont
-    MeshMaterialText   = $/M3D/Shader/MaterialText_Std
-
-    RenderParameters =
-    [
-        Template_RenderParameterBlended(), // 0
-        Template_RenderParameterBlended // Button 1
-        (
-            CalqueFill2D = $/M3D/Scene/Scene_2D_Interface/Calque_Selection_Fill
-        ),
-    ]
-
-    TextRenderParameter = Template_TextRenderParameter
-    (
-        Name = "default"
-        MeshMaterial = $/M3D/Shader/MaterialText_Stroke
-    )
+    MeshMaterialBorder2D = $/M3D/Shader/MeshMaterialVisualDebugInfoHandler_Blend2D
+    MeshMaterialFill2D = $/M3D/Shader/MeshMaterialVisualDebugInfoHandler_Blend2D
+    CalqueFill2D = $/M3D/Scene/Scene_2D_Interface/Calque_Selection_Fill
+    CalqueLine2D = $/M3D/Scene/Scene_2D_Interface/Calque_Selection_Line
 )

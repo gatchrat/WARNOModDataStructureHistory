@@ -574,27 +574,8 @@ export CubeAction_Order_Reverse is Template_CubeActionOrderButtonInformationsDes
 
 
 // Synchro avec enum Functionalities cf CubeActionModuleDescriptor.h
-Functionality_HoldFire         is 7
 Functionality_RiposteStance    is 9
 Functionality_AutoCover        is 10
-
-// TODO : à supprimer, Template_CubeAction_Functionality_Back fait le boulot ; gardé uniquement pour faire la transition
-export CubeAction_Functionality_HoldFire is Template_CubeActionFunctionalityButtonInformationsDescriptor_WithSound
-(
-    CubeActionName          = "CubeAction_Order_HoldFire"
-    DebugName               = "InGameCubeAction_ButtonHoldFire"
-
-    CubeActionFunctionType = ~/TacticCubeActionFunctionType/TogglableOrders
-
-    ButtonTextToken         = 'ORD_HOLDF'
-    HintTitleToken          = 'ORD_HOLDF'
-    HintBodyToken           = 'HNT_HOLDF'
-    HintExtendedToken       = ''
-    HintDico                = ~/LocalisationConstantes/dico_interface_ingame
-
-    FunctionalityType       = Functionality_HoldFire
-    Mapping                 = $/KeyboardOption/Mapping_HoldFire
-)
 
 export CubeAction_Functionality_RiposteStance is Template_CubeActionFunctionalityButtonInformationsDescriptor_WithSound
 (

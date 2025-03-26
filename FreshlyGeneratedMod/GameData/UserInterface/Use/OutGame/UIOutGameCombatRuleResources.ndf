@@ -48,7 +48,7 @@ CombatRuleResources is TUIOutGameCombatRuleResources
 (
     CombatRuleInfos =
     [
-        //CombatRule/NotSpecified,
+        //ECombatRule/NotSpecified,
         TUICombatRuleResource
         (
             Name = 'NON_APP'
@@ -58,7 +58,7 @@ CombatRuleResources is TUIOutGameCombatRuleResources
             ScenarioListFilterName = ''
         ),
 
-        //CombatRule/Destruction,
+        //ECombatRule/Destruction,
         TUICombatRuleResource
         (
             Name = 'GRL_DESTT'
@@ -74,7 +74,7 @@ CombatRuleResources is TUIOutGameCombatRuleResources
             ScenarioListFilterName = 'MSSDESTR'
         ),
 
-        //CombatRule/ConquestGameMode,
+        //ECombatRule/ConquestGameMode,
         TUICombatRuleResource
         (
             Name = 'GRL_CONQT'

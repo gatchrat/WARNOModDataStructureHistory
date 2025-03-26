@@ -128,9 +128,6 @@ template BUCKListDescriptor
     InterItemMargin : TRTTILength = TRTTILength(),                                           // Taille de la marge entre les éléments de la liste
     LastMargin : TRTTILength = TRTTILength(),                                                // Taille de la marge après le dernier élément de la liste
 
-    AssumeChildrenAreFixedSize : bool = false,                                               // Optimisation : on assure que les enfants ne changent pas de taille
-    AssumeChildrenAreClippable : bool = false,                                               // Optimisation : on assure que les enfants sont tous clippable
-
     Elements : LIST<TBUCKListElementDescriptor> = []                                         // Les éléments de la liste (qui définissent sa taille) sont encapsulés dans des TBUCKElementListDescriptor (voir template)
 ]
 is TBUCKListDescriptor
@@ -182,9 +179,6 @@ is TBUCKListDescriptor
     FirstMargin = <FirstMargin>
     InterItemMargin = <InterItemMargin>
     LastMargin = <LastMargin>
-
-    AssumeChildrenAreFixedSize = <AssumeChildrenAreFixedSize>
-    AssumeChildrenAreClippable = <AssumeChildrenAreClippable>
 
     Elements = <Elements>
 )

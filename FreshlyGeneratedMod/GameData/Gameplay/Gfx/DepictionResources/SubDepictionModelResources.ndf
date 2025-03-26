@@ -239,6 +239,19 @@ export MeshDescriptor_Servant_D_SOV is TResourceMesh
 export MeshDescriptor_Servant_G_SOV_LOW is TResourceMesh (Mesh=MotoStrelki_1_LOW)
 export MeshDescriptor_Servant_D_SOV_LOW is TResourceMesh (Mesh=MotoStrelki_1_LOW)
 //--------------------------------------------------------------------------------------------------------------------
+export MeshDescriptor_Servant_G_Rezervisti_SOV is TResourceMesh
+(
+    // Mesh="GameData:/Assets/3D/Units/URSS/Infanterie/MotoStrelki/MotoStrelki_1.fbx"
+    Mesh=SOV_Rezervisti_1
+)
+export MeshDescriptor_Servant_D_Rezervisti_SOV is TResourceMesh
+(
+    // Mesh="GameData:/Assets/3D/Units/URSS/Infanterie/Rezervisti/Rezervisti_2.fbx"
+    Mesh=SOV_Rezervisti_2
+)
+export MeshDescriptor_Servant_G_Rezervisti_SOV_LOW is TResourceMesh (Mesh=MotoStrelki_1_LOW)
+export MeshDescriptor_Servant_D_Rezervisti_SOV_LOW is TResourceMesh (Mesh=MotoStrelki_1_LOW)
+//--------------------------------------------------------------------------------------------------------------------
 export MeshDescriptor_Servant_G_LUX is TResourceMesh (Mesh=BEL_Lux_1)
 export MeshDescriptor_Servant_D_LUX is TResourceMesh (Mesh=BEL_Lux_2)
 // export MeshDescriptor_Servant_G_LUX is TResourceMesh

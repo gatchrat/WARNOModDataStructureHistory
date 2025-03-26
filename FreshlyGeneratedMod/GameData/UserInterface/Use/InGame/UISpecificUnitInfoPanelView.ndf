@@ -169,35 +169,6 @@ is BUCKContainerDescriptor
                         ComponentFrame = TUIFramePropertyRTTI ()
                     )
                 ),
-                //-------------------------------------------------------------------------------------
-                // BUCKListElementDescriptor
-                // (
-                //     ComponentDescriptor = BUCKRackDescriptor
-                //     (
-                //         ElementName = 'SpecialityTextureRack'
-                //         ComponentFrame = TUIFramePropertyRTTI
-                //         (
-                //             RelativeWidthHeight = [0.0, 1.0]
-                //             AlignementToAnchor = [0.0, 0.5]
-                //             AlignementToFather = [0.0, 0.5]
-                //         )
-
-                //         Axis = ~/ListAxis/Horizontal
-
-                //         BladeDescriptor = BUCKTextureDescriptor
-                //         (
-                //             ComponentFrame = TUIFramePropertyRTTI
-                //             (
-                //                 MagnifiableWidthHeight = [20.0, 20.0]
-                //             )
-
-                //             TextureFrame = TUIFramePropertyRTTI
-                //             (
-                //                 RelativeWidthHeight = [1.0, 1.0]
-                //             )
-                //         )
-                //     )
-                // ),
             ]
         ),
     ]
@@ -205,9 +176,9 @@ is BUCKContainerDescriptor
 
 //-------------------------------------------------------------------------------------
 
-private AffichageRoleUnit is BUCKContainerDescriptor
+private AffichagePriceCategoryUnit is BUCKContainerDescriptor
 (
-    ElementName = "AffichageRoleUnit"
+    ElementName = "AffichagePriceCategoryUnit"
 
     ComponentFrame = TUIFramePropertyRTTI
     (
@@ -271,93 +242,6 @@ private AffichageRoleUnit is BUCKContainerDescriptor
                 )
             ]
         )
-    ]
-)
-
-//-------------------------------------------------------------------------------------
-
-private AffichageCategoryPanelInfo is BUCKContainerDescriptor
-(
-    ElementName = 'PanelInfoCategory'
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [1.0, 0.0]
-        MagnifiableWidthHeight = [0.0, 18.0]
-    )
-
-    HasBackground = false
-    BackgroundBlockColorToken = "CyanClairFulda"
-
-    Components =
-    [
-        PanelRoundedCorner
-        (
-            BorderLineColorToken = "CyanFonceFulda"
-            BackgroundBlockColorToken = "CyanClairFulda"
-            Radius = 3
-        ),
-        // affichage titre = Role :
-        BUCKTextDescriptor
-        (
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 1.0]
-                AlignementToFather = [0.5, 0.0]
-                AlignementToAnchor = [0.5, 0.0]
-            )
-
-            ParagraphStyle = TParagraphStyle
-            (
-                Alignment = UIText_Left
-                VerticalAlignment = UIText_Bottom
-                InterLine = 0
-            )
-
-            TextStyle = "Default"
-            TextPadding = TRTTILength4( Magnifiable = [8.0, 0.0, 0.0, 0.0] )
-
-            HorizontalFitStyle = ~/FitStyle/UserDefined
-            VerticalFitStyle = ~/FitStyle/UserDefined
-
-            TypefaceToken = "UIMainFont"
-            BigLineAction = ~/BigLineAction/CutByDots
-
-            TextDico = ~/LocalisationConstantes/dico_interface_ingame
-            TextToken = 'FILT_ROLE'
-            TextColor = "Blanc"
-            TextSize = "16"
-        ),
-        // affichage loca interface unité
-        BUCKTextDescriptor
-        (
-            ElementName = 'UnitCategoryType'
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 1.0]
-                AlignementToFather = [0.5, 0.0]
-                AlignementToAnchor = [0.5, 0.0]
-            )
-
-            ParagraphStyle = TParagraphStyle
-            (
-                Alignment = UIText_Center
-                VerticalAlignment = UIText_Bottom
-                InterLine = 0
-            )
-
-            TextStyle = "Default"
-
-            HorizontalFitStyle = ~/FitStyle/UserDefined
-            VerticalFitStyle = ~/FitStyle/UserDefined
-
-            TypefaceToken = "UIMainFont"
-            BigLineAction = ~/BigLineAction/CutByDots
-
-            TextDico = ~/LocalisationConstantes/dico_interface_outgame
-
-            TextColor = "Noir"
-            TextSize = "16"
-        ),
     ]
 )
 
@@ -779,7 +663,7 @@ private UnitInfoPanelSpecialtiesSubPanel is BUCKListDescriptor
         BUCKListElementDescriptor
         (
             ExtendWeight = 0.5
-            ComponentDescriptor = ~/UnitInfoPanelRoleDescriptor
+            ComponentDescriptor = ~/UnitInfoPanelPriceCategoryDescriptor
         ),
     ]
 )
@@ -1007,60 +891,14 @@ is BUCKContainerDescriptor
                 ),
             ]
         ),
-        // fake text 1
-        // BUCKTextDescriptor
-        // (
-        //     ComponentFrame = TUIFramePropertyRTTI
-        //     (
-        //         MagnifiableWidthHeight = [20.0, 250.0]
-        //         AlignementToFather = [0.0, 0.5]
-        //         AlignementToAnchor = [0.0, 0.5]
-        //         MagnifiableOffset = [20.0,0]
-        //     )
-
-        //     ParagraphStyle = paragraphStyleTextCenter
-        //     TextStyle = "Default"
-        //     HorizontalFitStyle = ~/FitStyle/UserDefined
-        //     VerticalFitStyle = ~/FitStyle/UserDefined
-        //     TypefaceToken = "Eurostyle"
-        //     BigLineAction = ~/BigLineAction/MultiLine
-        //     TextToken = 'pi_fak1'
-        //     TextDico = ~/LocalisationConstantes/dico_interface_ingame
-        //     TextColor = "MarronPanel_noir"
-        //     TextSize = "8"
-        //     Rotation = -90
-        //     IsClippable = false
-        // ),
-        // BUCKTextDescriptor
-        // (
-        //     ComponentFrame = TUIFramePropertyRTTI
-        //     (
-        //         RelativeWidthHeight = [1.0, 0.0]
-        //         MagnifiableWidthHeight = [0.0, 10.0]
-        //         AlignementToFather = [0.5, 1.0]
-        //         AlignementToAnchor = [0.5, 1.0]
-        //         MagnifiableOffset = [3.0, -15.0]
-        //     )
-
-        //     ParagraphStyle = paragraphStyleTextCenter
-        //     TextStyle = "Default"
-        //     HorizontalFitStyle = ~/FitStyle/UserDefined
-        //     VerticalFitStyle = ~/FitStyle/UserDefined
-        //     TypefaceToken = "Eurostyle"
-        //     BigLineAction = ~/BigLineAction/MultiLine
-        //     TextToken = 'pi_fak2'
-        //     TextDico = ~/LocalisationConstantes/dico_interface_ingame
-        //     TextColor = "MarronPanel_noir"
-        //     TextSize = "8"
-        // ),
     ]
 )
 
 //-------------------------------------------------------------------------------------
 
-private UnitInfoPanelRoleDescriptor is BUCKListDescriptor
+private UnitInfoPanelPriceCategoryDescriptor is BUCKListDescriptor
 (
-    ElementName = "RoleContainer"
+    ElementName = "PriceCategoryContainer"
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [0.0, 45.0]
@@ -1078,7 +916,7 @@ private UnitInfoPanelRoleDescriptor is BUCKListDescriptor
     [
         BUCKSpecificHintableArea
         (
-            ElementName = "RoleHint"
+            ElementName = "PriceCategoryHint"
             DicoToken = ~/LocalisationConstantes/dico_units
         )
     ]
@@ -1089,7 +927,7 @@ private UnitInfoPanelRoleDescriptor is BUCKListDescriptor
         (
             ComponentDescriptor = BUCKTextureDescriptor
             (
-                ElementName = "RoleIconTexture"
+                ElementName = "PriceCategoryIconTexture"
 
                 ComponentFrame = TUIFramePropertyRTTI
                 (
@@ -1123,7 +961,6 @@ private UnitInfoPanelRoleDescriptor is BUCKListDescriptor
 
                 Elements =
                 [
-                    // titre
                     BUCKListElementDescriptor
                     (
                         ComponentDescriptor = BUCKTextDescriptor
@@ -1153,12 +990,11 @@ private UnitInfoPanelRoleDescriptor is BUCKListDescriptor
                             TextSize = "13"
                         )
                     ),
-                    // texte spécialité
                     BUCKListElementDescriptor
                     (
                         ComponentDescriptor = BUCKTextDescriptor
                         (
-                            ElementName = "RoleNameText"
+                            ElementName = "PriceCategoryNameText"
 
                             ComponentFrame = TUIFramePropertyRTTI
                             (
@@ -1352,6 +1188,7 @@ is TUISpecificUnitInfoPanelViewDescriptor
     MaxNbWeaponToShow = ~/MaxNbWeaponToShowInUI
 
     WeaponViewDescriptor = UISpecificUnitInfoSingleWeaponPanelViewDescriptor( Scale = Scale)
+    UnitSpecialtiesContainer = ~/UnitSpecialties
 
     VehiculeToken = "UIP_VEHIC"
     WeakTopToken = "UIP_RFWK"

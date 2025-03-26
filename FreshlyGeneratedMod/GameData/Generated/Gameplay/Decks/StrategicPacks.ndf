@@ -8409,13 +8409,6 @@ Descriptor_StrategicPack_BMP_2D_SOV_MotRifles_HMG_TTsko_SOV_1 is DeckPackDescrip
     Unit = $/GFX/Unit/Descriptor_Unit_MotRifles_HMG_TTsko_SOV
 )
 
-Descriptor_StrategicPack_BMP_2_CMD_SOV_MotRifles_CMD_TTsko_SOV_1 is DeckPackDescriptor
-(
-    Xp = 1
-    Transport = $/GFX/Unit/Descriptor_Unit_BMP_2_CMD_SOV
-    Unit = $/GFX/Unit/Descriptor_Unit_MotRifles_CMD_TTsko_SOV
-)
-
 Descriptor_StrategicPack_MTLB_Vasilek_SOV_1 is DeckPackDescriptor
 (
     Xp = 1
@@ -8930,10 +8923,10 @@ Descriptor_StrategicPack_MiG_27M_sead_SOV_2 is DeckPackDescriptor
     Unit = $/GFX/Unit/Descriptor_Unit_MiG_27M_sead_SOV
 )
 
-Descriptor_StrategicPack_MiG_23P_SOV_2 is DeckPackDescriptor
+Descriptor_StrategicPack_MiG_23MLD_AA1_SOV_2 is DeckPackDescriptor
 (
     Xp = 2
-    Unit = $/GFX/Unit/Descriptor_Unit_MiG_23P_SOV
+    Unit = $/GFX/Unit/Descriptor_Unit_MiG_23MLD_AA1_SOV
 )
 
 Descriptor_StrategicPack_MiG_25RBF_SOV_2 is DeckPackDescriptor

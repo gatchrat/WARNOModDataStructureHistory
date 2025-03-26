@@ -246,7 +246,6 @@ GameChatLogScrollingContainer is BUCKSpecificScrollingContainerDescriptor
             )
 
             Axis = ~/ListAxis/Vertical
-            AssumeChildrenAreClippable = true
 
             BladeDescriptor = ~/ChatLogMessage
         )

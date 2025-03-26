@@ -35,6 +35,23 @@ is TMacroActionDescriptor_AirStrike_Common
     <AdditionnalParameter>
 )
 //-------------------------------------------------------------------------
+private template Template_AirReco
+[
+    MinimumResourceForLaunch = MAP[],
+    PoolModel = ~/Pool_Airstrike_AA,
+]
+is TMacroActionDescriptor_AirReco_Specific
+(
+    ParametresDeMission =
+    [
+        TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
+        TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible] PoolModelList = [<PoolModel>]),
+        TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
+        TAirRecoMissionLaunchSettingHolder(MaxAirplaneCountOnBattlefield = 3 TicksBetweenTwoLaunch = 60 TicksBetweenTwoMissions = 60),
+        TAirStrikeAcceptableThreatSettingHolder(PercentAcceptableDangerousIndicesForAirplaneValidTarget = 0.75),
+    ]
+)
+//-------------------------------------------------------------------------
 // Missions
 //-------------------------------------------------------------------------
 export Airstrike_AA is Template_Airstrike
@@ -119,6 +136,20 @@ export Airstrike_Assault_Autogen is Template_Airstrike
     ]
 )
 
+//-------------------------------------------------------------------------
+export Airstrike_AirReco is Template_AirReco
+(
+    PoolModel = ~/Pool_AirReco
+)
+
+//-------------------------------------------------------------------------
+export Airstrike_AirReco_Autogen is Template_AirReco
+(
+    MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Stage_1
+    PoolModel = ~/Pool_AirReco
+)
+
+//-------------------------------------------------------------------------
 // Pool Models
 //-------------------------------------------------------------------------
 export Pool_Airstrike_AA is TPoolModel
@@ -189,3 +220,19 @@ export Pool_Airstrike_SEAD is TPoolModel
     ]
 )
 
+//-------------------------------------------------------------------------
+export Pool_AirReco is TPoolModel
+(
+    ModelList = [
+    TPoolElement(
+        DescriptorId = GUID:{d54cbc33-2b98-47e2-a2b6-8d71ac6ce3ce}
+        Required = true
+        Nb = 1
+        IndexPriorityOverPrice = true
+        PriceComparisonMethod = EPriceComparatorType/Random
+        TagsPriority = [
+            "Avion_Reco",
+        ]
+    ),
+    ]
+)

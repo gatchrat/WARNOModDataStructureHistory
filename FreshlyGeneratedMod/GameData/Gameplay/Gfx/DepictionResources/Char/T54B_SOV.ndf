@@ -1,0 +1,17 @@
+export Modele_T54B_SOV is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/DDR/Char/T54B/T54B.fbx"
+    Textures="GameData:/Assets/3D/Units/URSS/Char/T54B"
+)
+
+export Modele_T54B_SOV_MID is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/DDR/Char/T54B_MID/T54B_MID.fbx"
+    Textures="GameData:/Assets/3D/Units/URSS/Char/T54B_MID"
+)
+
+export Modele_T54B_SOV_LOW is TResourceMesh
+(
+    Mesh="GameData:/Assets/3D/Units/DDR/Char/T54B_LOW/T54B_LOW.fbx"
+    Textures="GameData:/Assets/3D/Units/URSS/Char/T54B_LOW"
+)

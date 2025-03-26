@@ -1507,7 +1507,7 @@ export DepictionOperator_MovementSound_SM_DAF is TCosmeticDriveMovementSoundOper
             SoundSettings = $/SoundSettings/SoundSettings_Moteur
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/TRM2000_Wheeled_vehicle_Loop.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/DAF_Wheeled_vehicle_Loop.wav"
             )
         ),
     ]
@@ -2238,6 +2238,65 @@ export DepictionOperator_MovementSound_SM_Humvee is TCosmeticDriveMovementSoundO
             TheSoundStream = TSoundStream
             (
                 FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/Humvee_Wheeled_vehicle_Stop.wav"
+            )
+        ),
+    ]
+    VolumeIdleStop = 0.8
+)
+export DepictionOperator_MovementSound_SM_IS2 is TCosmeticDriveMovementSoundOperatorDesc
+(
+    IdleDuration = 20
+    IdleFadeInDuration = 0.5
+    IdleFadeOutDuration = 2
+    IdleSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Idle/IS2_Tracked_MBT_LoopIdle.wav"
+            )
+        ),
+    ]
+    MaxVolume = 1
+    MaxVolumeSpeed = 80
+    MinVolume = 0.5
+    OperatorId = "driveSound"
+    RunFadeInDuration = 1
+    RunFadeOutDuration = 2
+    RunOutPitchToGo = 0
+    RunOutPitchVelocity = 0.4
+    RunSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/IS2_Tracked_MBT_Loop.wav"
+            )
+        ),
+    ]
+    StartSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/IS2_Tracked_MBT_Start_Engine.wav"
+            )
+        ),
+    ]
+    StopSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/IS2_Tracked_MBT_Stop.wav"
             )
         ),
     ]
@@ -3836,6 +3895,65 @@ export DepictionOperator_MovementSound_SM_PT76 is TCosmeticDriveMovementSoundOpe
     ]
     VolumeIdleStop = 0.8
 )
+export DepictionOperator_MovementSound_SM_Pegaso is TCosmeticDriveMovementSoundOperatorDesc
+(
+    IdleDuration = 10
+    IdleFadeInDuration = 0.5
+    IdleFadeOutDuration = 2
+    IdleSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Idle/Pegaso_Wheeled_vehicle_LoopIdle.wav"
+            )
+        ),
+    ]
+    MaxVolume = 1
+    MaxVolumeSpeed = 80
+    MinVolume = 0.5
+    OperatorId = "driveSound"
+    RunFadeInDuration = 0.5
+    RunFadeOutDuration = 2
+    RunOutPitchToGo = 0
+    RunOutPitchVelocity = 0.4
+    RunSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Pegaso_Wheeled_vehicle_Loop.wav"
+            )
+        ),
+    ]
+    StartSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Start/Pegaso_Wheeled_vehicle_Start_Engine.wav"
+            )
+        ),
+    ]
+    StopSounds = 
+    [
+        TSoundDescriptor
+        (
+            SoundSettings = $/SoundSettings/SoundSettings_Moteur
+            TheSoundStream = TSoundStream
+            (
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Stop/TRM2000_Wheeled_vehicle_Stop.wav"
+            )
+        ),
+    ]
+    VolumeIdleStop = 0.8
+)
 export DepictionOperator_MovementSound_SM_Praga is TCosmeticDriveMovementSoundOperatorDesc
 (
     IdleDuration = 10
@@ -3867,7 +3985,7 @@ export DepictionOperator_MovementSound_SM_Praga is TCosmeticDriveMovementSoundOp
             SoundSettings = $/SoundSettings/SoundSettings_Moteur
             TheSoundStream = TSoundStream
             (
-                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Ural_Wheeled_vehicle_Loop.wav"
+                FileName = "GameData:/Assets/Sounds/SFX/Moteurs/Praga_Wheeled_vehicle_Loop.wav"
             )
         ),
     ]

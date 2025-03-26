@@ -719,7 +719,6 @@ template BattleOutcomeHalfTable
             BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
 
             Axis = ~/ListAxis/Horizontal
-            AssumeChildrenAreClippable = true
 
             BladeDescriptor = <BladeDescriptor>
         )
@@ -863,7 +862,6 @@ private ResultOfBattleMainComponent is BUCKListDescriptor
                 )
 
                 Axis = ~/ListAxis/Vertical
-                AssumeChildrenAreClippable = true
 
                 BladeDescriptor = AutoResolveLine
                 (

@@ -20,9 +20,7 @@ ETerrainType is TBaseClass
     StrategicRiver        is 0x00010000
     StrategicUrban        is 0x00020000
 
-    LightSmoke            is 0x00080000
     MediumSmoke           is 0x00100000
-    HeavySmoke            is 0x00200000
 
     BloqueConstruction    is 0x80000000
 )

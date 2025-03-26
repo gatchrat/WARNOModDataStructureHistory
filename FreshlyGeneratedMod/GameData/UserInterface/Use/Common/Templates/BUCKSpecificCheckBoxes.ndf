@@ -10,7 +10,8 @@ template BUCKSpecificCheckBoxDescriptor
     UniqueName : string = '',
     ElementName : string = '',
 
-    ComponentFrame : TUIFramePropertyRTTI = TUIFramePropertyRTTI(
+    ComponentFrame : TUIFramePropertyRTTI = TUIFramePropertyRTTI
+    (
         MagnifiableWidthHeight = DefaultCheckBoxDims
         MagnifiableOffset = [0.0, 0.0]
         AlignementToFather = [0.0, 0.0]
@@ -27,6 +28,7 @@ template BUCKSpecificCheckBoxDescriptor
     TextureColorToken : string = '',
     HasBackground : bool = true,
     HasBorder : bool = true,
+    Components : LIST<TBUCKContainerDescriptor> = [],
 ]
 is BUCKCheckBoxDescriptor
 (

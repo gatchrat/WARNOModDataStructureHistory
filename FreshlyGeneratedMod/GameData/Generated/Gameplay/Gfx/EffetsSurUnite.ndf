@@ -966,14 +966,8 @@ export UnitEffect_Critic_Bailed_Out is TEffectsPackDescriptor
         ),
         TUnitEffectIncreaseSpecializedDetectionDescriptor
         (
-            ModifierType            = ~/ModifierType_Remplacement
-            VisionType              = ~/EVisionUnitType/Building
-            BonusValue              = 0
-        ),
-        TUnitEffectIncreaseSpecializedDetectionDescriptor
-        (
             ModifierType       = ~/ModifierType_Remplacement
-            VisionType         = ~/EVisionUnitType/AlwaysInHighAltitude
+            VisionType         = ~/EVisionUnitType/HighAltitude
             BonusValueGRU      = 0
         ),
         TUnitEffectIncreaseInfluenceValueDescriptor
@@ -3149,10 +3143,10 @@ export UnitEffect_eo_dazzler is TEffectsPackDescriptor
     DescriptorId       = GUID:{7a321bca-c294-462f-a15e-f7f43945d044}
     NameForDebug       = 'eo_dazzler'
     EffectsDescriptors = [
-        TUnitEffectBonusPrecisionWhenTargetedDescriptor
+        TUnitEffectBonusHitRollECMDescriptor
         (
-            ModifierType       = ~/ModifierType_Pourcentage
-            BonusPrecisionWhenTargeted = -10
+            ModifierType       = ~/ModifierType_Additionnel
+            BonusHitRollECM    = -0.1
         ),
     ]
 )

@@ -47,7 +47,7 @@ template SceneryDescriptor_TexturedSurface
 
         MeshMaterial = TMeshMaterial
         (
-            MaterialPasses = $/M3D/Shader/ShaderTexturedArea
+            MaterialPasses = TGetMaterialPassesSinglePass( ShaderDescriptor = $/M3D/Shader/ShaderTexturedArea )
             MaterialName = <RegistrationName>
             Tags = []
 

@@ -44,6 +44,7 @@ template BUCKCheckBoxDescriptor
     Grayed : bool = false,
     IsFocusable : bool = false,
     FocusMapping : TEugBMutablePBaseClass = TEugBMutablePBaseClass( Value = TUserInputMapping( KeyboardEventID = UserInputKeyboard/KEY_SPACE ) ),
+    RadioButtonManager : TBUCKRadioButtonManager = nil,
     //IsTogglable : bool = true,                                        // TOUJOURS vrai pour les checkbox
     // -- BUCKButtonDescriptor
 
@@ -97,6 +98,7 @@ is TBUCKCheckBoxDescriptor
     Grayed = <Grayed>
     IsFocusable = <IsFocusable>
     FocusMapping = <FocusMapping>
+    RadioButtonManager = <RadioButtonManager>
     IsTogglable = true
     // -- BUCKButtonDescriptor
 

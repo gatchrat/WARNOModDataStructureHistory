@@ -19,6 +19,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = '2K11_KRUG_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_2K11_KRUG_SOV'
+    AutoNameBase          = '2K11_KRUG_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_2K11_KRUG_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = '2K12_KUB_DDR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_2K12_KUB_DDR'
     AutoNameBase          = '2K12_KUB_DDR'
@@ -191,6 +199,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_81mm_mortar_US'
     AutoNameBase          = '81mm_mortar_US'
     ModelResource         = $/GFX/DepictionResources/Modele_81mm_mortar_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'A222_Bereg_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_A222_Bereg_SOV'
+    AutoNameBase          = 'A222_Bereg_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_A222_Bereg_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -571,6 +587,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'AT_KSM65_100mm_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_AT_KSM65_100mm_SOV'
+    AutoNameBase          = 'AT_KSM65_100mm_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_AT_KSM65_100mm_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'AT_T12R_Ruta_SOV'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_AT_T12R_Ruta_SOV'
     AutoNameBase          = 'AT_T12R_Ruta_SOV'
@@ -763,6 +787,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'ATteam_Milan_2_RIMa_FR'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_ATteam_Milan_2_RIMa_FR'
+    AutoNameBase          = 'ATteam_Milan_2_RIMa_FR'
+    ModelResource         = $/GFX/DepictionResources/Modele_ATteam_Milan_2_RIMa_FR
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'ATteam_Milan_2_UK'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_ATteam_Milan_2_UK'
     AutoNameBase          = 'ATteam_Milan_2_UK'
@@ -803,6 +835,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'ATteam_RCL_B11_Reserve_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_ATteam_RCL_B11_Reserve_SOV'
+    AutoNameBase          = 'ATteam_RCL_B11_Reserve_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_ATteam_RCL_B11_Reserve_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'ATteam_RCL_M40A1_FR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_ATteam_RCL_M40A1_FR'
     AutoNameBase          = 'ATteam_RCL_M40A1_FR'
@@ -815,6 +855,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_ATteam_RCL_M40A1_NG_US'
     AutoNameBase          = 'ATteam_RCL_M40A1_NG_US'
     ModelResource         = $/GFX/DepictionResources/Modele_ATteam_RCL_M40A1_NG_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'ATteam_RCL_M40A1_NL'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_ATteam_RCL_M40A1_NL'
+    AutoNameBase          = 'ATteam_RCL_M40A1_NL'
+    ModelResource         = $/GFX/DepictionResources/Modele_ATteam_RCL_M40A1_NL
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -1323,6 +1371,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'BM24M_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_BM24M_SOV'
+    AutoNameBase          = 'BM24M_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_BM24M_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'BM27_Uragan_SOV'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_BM27_Uragan_SOV'
     AutoNameBase          = 'BM27_Uragan_SOV'
@@ -1523,6 +1579,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'BMP_1_SP2_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_BMP_1_SP2_SOV'
+    AutoNameBase          = 'BMP_1_SP2_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_BMP_1_SP2_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'BMP_1_SP2_reco_POL'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_BMP_1_SP2_reco_POL'
     AutoNameBase          = 'BMP_1_SP2_reco_POL'
@@ -1707,6 +1771,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'BRDM_2_Malyu_P_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_BRDM_2_Malyu_P_SOV'
+    AutoNameBase          = 'BRDM_2_Malyu_P_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_BRDM_2_Malyu_P_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'BRDM_2_POL'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_BRDM_2_POL'
     AutoNameBase          = 'BRDM_2_POL'
@@ -1791,6 +1863,54 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_BTR_152A_DDR'
     AutoNameBase          = 'BTR_152A_DDR'
     ModelResource         = $/GFX/DepictionResources/Modele_BTR_152A_DDR
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'BTR_152A_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_BTR_152A_SOV'
+    AutoNameBase          = 'BTR_152A_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_BTR_152A_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'BTR_152K_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_BTR_152K_SOV'
+    AutoNameBase          = 'BTR_152K_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_BTR_152K_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'BTR_152S_CMD_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_BTR_152S_CMD_SOV'
+    AutoNameBase          = 'BTR_152S_CMD_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_BTR_152S_CMD_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'BTR_40A_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_BTR_40A_SOV'
+    AutoNameBase          = 'BTR_40A_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_BTR_40A_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'BTR_40B_CMD_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_BTR_40B_CMD_SOV'
+    AutoNameBase          = 'BTR_40B_CMD_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_BTR_40B_CMD_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'BTR_40_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_BTR_40_SOV'
+    AutoNameBase          = 'BTR_40_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_BTR_40_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -2035,10 +2155,50 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'CGage_Peacekeeper_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_CGage_Peacekeeper_US'
+    AutoNameBase          = 'CGage_Peacekeeper_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_CGage_Peacekeeper_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'CGage_V150_Commando_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_CGage_V150_Commando_US'
+    AutoNameBase          = 'CGage_V150_Commando_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_CGage_V150_Commando_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'CUCV_AGL_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_CUCV_AGL_US'
+    AutoNameBase          = 'CUCV_AGL_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_CUCV_AGL_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'CUCV_HMG_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_CUCV_HMG_US'
+    AutoNameBase          = 'CUCV_HMG_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_CUCV_HMG_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'CUCV_Hellfire_US'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_CUCV_Hellfire_US'
     AutoNameBase          = 'CUCV_Hellfire_US'
     ModelResource         = $/GFX/DepictionResources/Modele_CUCV_Hellfire_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'CUCV_MP_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_CUCV_MP_US'
+    AutoNameBase          = 'CUCV_MP_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_CUCV_MP_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -2259,6 +2419,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'DCA_AZP_S60_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_DCA_AZP_S60_SOV'
+    AutoNameBase          = 'DCA_AZP_S60_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_DCA_AZP_S60_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'DCA_Bofors_L60_FR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_DCA_Bofors_L60_FR'
     AutoNameBase          = 'DCA_Bofors_L60_FR'
@@ -2351,6 +2519,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_DCA_KS19_100mm_DDR'
     AutoNameBase          = 'DCA_KS19_100mm_DDR'
     ModelResource         = $/GFX/DepictionResources/Modele_DCA_KS19_100mm_DDR
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'DCA_KS30_130mm_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_DCA_KS30_130mm_SOV'
+    AutoNameBase          = 'DCA_KS30_130mm_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_DCA_KS30_130mm_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -2603,6 +2779,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Dragoon_300_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Dragoon_300_US'
+    AutoNameBase          = 'Dragoon_300_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_Dragoon_300_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'EBR_90mm_FR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_EBR_90mm_FR'
     AutoNameBase          = 'EBR_90mm_FR'
@@ -2835,6 +3019,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Engineers_Flam_Reserve_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Engineers_Flam_Reserve_SOV'
+    AutoNameBase          = 'Engineers_Flam_Reserve_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Engineers_Flam_Reserve_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Engineers_Flam_SOV'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Engineers_Flam_SOV'
     AutoNameBase          = 'Engineers_Flam_SOV'
@@ -2927,6 +3119,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Engineers_Reserve_RFA'
     AutoNameBase          = 'Engineers_Reserve_RFA'
     ModelResource         = $/GFX/DepictionResources/Modele_Engineers_Reserve_RFA
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Engineers_Reserve_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Engineers_Reserve_SOV'
+    AutoNameBase          = 'Engineers_Reserve_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Engineers_Reserve_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -3851,6 +4051,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Groupe_AT_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Groupe_AT_US'
+    AutoNameBase          = 'Groupe_AT_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_Rifles_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Groupe_AT_Wach_DDR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Groupe_AT_Wach_DDR'
     AutoNameBase          = 'Groupe_AT_Wach_DDR'
@@ -3887,6 +4095,54 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Gun_Group_UK'
     AutoNameBase          = 'Gun_Group_UK'
     ModelResource         = $/GFX/DepictionResources/Modele_Gun_Group_UK
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Gvardeitsy_BTR_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Gvardeitsy_BTR_SOV'
+    AutoNameBase          = 'Gvardeitsy_BTR_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_MotRifles_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Gvardeitsy_CMD_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Gvardeitsy_CMD_SOV'
+    AutoNameBase          = 'Gvardeitsy_CMD_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_MotRifles_CMD_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Gvardeitsy_HMG_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Gvardeitsy_HMG_SOV'
+    AutoNameBase          = 'Gvardeitsy_HMG_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_MotRifles_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Gvardeitsy_Metis_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Gvardeitsy_Metis_SOV'
+    AutoNameBase          = 'Gvardeitsy_Metis_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_MotRifles_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Gvardeitsy_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Gvardeitsy_SOV'
+    AutoNameBase          = 'Gvardeitsy_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_MotRifles_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Gvardeitsy_SVD_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Gvardeitsy_SVD_SOV'
+    AutoNameBase          = 'Gvardeitsy_SVD_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_MotRifles_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -3971,6 +4227,30 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'HMGteam_DShK_AA_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_HMGteam_DShK_AA_SOV'
+    AutoNameBase          = 'HMGteam_DShK_AA_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_HMGteam_DShK_AA_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'HMGteam_DShK_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_HMGteam_DShK_SOV'
+    AutoNameBase          = 'HMGteam_DShK_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_HMGteam_DShK_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'HMGteam_KPVT_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_HMGteam_KPVT_SOV'
+    AutoNameBase          = 'HMGteam_KPVT_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_HMGteam_KPVT_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'HMGteam_M1919A4_NL'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_HMGteam_M1919A4_NL'
     AutoNameBase          = 'HMGteam_M1919A4_NL'
@@ -4015,6 +4295,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_HMGteam_M2HB_LUX'
     AutoNameBase          = 'HMGteam_M2HB_LUX'
     ModelResource         = $/GFX/DepictionResources/Modele_HMGteam_M2HB_LUX
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'HMGteam_M2HB_M63_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_HMGteam_M2HB_M63_US'
+    AutoNameBase          = 'HMGteam_M2HB_M63_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_HMGteam_M2HB_M63_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -4159,6 +4447,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_HMGteam_MG3_RFA'
     AutoNameBase          = 'HMGteam_MG3_RFA'
     ModelResource         = $/GFX/DepictionResources/Modele_HMGteam_MG3_RFA
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'HMGteam_Maxim_Reserve_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_HMGteam_Maxim_Reserve_SOV'
+    AutoNameBase          = 'HMGteam_Maxim_Reserve_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_HMGteam_Maxim_Reserve_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -4371,10 +4667,42 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Howz_B4M_203mm_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Howz_B4M_203mm_SOV'
+    AutoNameBase          = 'Howz_B4M_203mm_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Howz_B4M_203mm_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Howz_BS3_100mm_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Howz_BS3_100mm_SOV'
+    AutoNameBase          = 'Howz_BS3_100mm_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Howz_BS3_100mm_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Howz_Br5M_280mm_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Howz_Br5M_280mm_SOV'
+    AutoNameBase          = 'Howz_Br5M_280mm_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Howz_Br5M_280mm_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Howz_D1_152mm_POL'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Howz_D1_152mm_POL'
     AutoNameBase          = 'Howz_D1_152mm_POL'
     ModelResource         = $/GFX/DepictionResources/Modele_Howz_D1_152mm_POL
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Howz_D1_152mm_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Howz_D1_152mm_SOV'
+    AutoNameBase          = 'Howz_D1_152mm_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Howz_D1_152mm_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -4451,6 +4779,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Howz_M101_105mm_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Howz_M101_105mm_US'
+    AutoNameBase          = 'Howz_M101_105mm_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_Howz_M101_105mm_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Howz_M101_105mm_para_BEL'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Howz_M101_105mm_para_BEL'
     AutoNameBase          = 'Howz_M101_105mm_para_BEL'
@@ -4479,6 +4815,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Howz_M114_39_155mm_NL'
     AutoNameBase          = 'Howz_M114_39_155mm_NL'
     ModelResource         = $/GFX/DepictionResources/Modele_Howz_M114_39_155mm_NL
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Howz_M119_105mm_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Howz_M119_105mm_US'
+    AutoNameBase          = 'Howz_M119_105mm_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_Howz_M119_105mm_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -4571,6 +4915,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'HvyScout_NG_Alaska_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_HvyScout_NG_Alaska_US'
+    AutoNameBase          = 'HvyScout_NG_Alaska_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_HvyScout_NG_Alaska_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'HvyScout_NG_Dragon_US'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_HvyScout_NG_Dragon_US'
     AutoNameBase          = 'HvyScout_NG_Dragon_US'
@@ -4595,6 +4947,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'HvyScout_Reserve_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_HvyScout_Reserve_SOV'
+    AutoNameBase          = 'HvyScout_Reserve_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_HvyScout_Reserve_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'HvyScout_SOV'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_HvyScout_SOV'
     AutoNameBase          = 'HvyScout_SOV'
@@ -4607,6 +4967,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_HvyScout_TTsko_SOV'
     AutoNameBase          = 'HvyScout_TTsko_SOV'
     ModelResource         = $/GFX/DepictionResources/Modele_HvyScout_TTsko_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'IS2M_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_IS2M_SOV'
+    AutoNameBase          = 'IS2M_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_IS2M_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -5267,6 +5635,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'LightRifles_AT4_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_LightRifles_AT4_US'
+    AutoNameBase          = 'LightRifles_AT4_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_LightRifles_AT4_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'LightRifles_CMD_LUX'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_LightRifles_CMD_LUX'
     AutoNameBase          = 'LightRifles_CMD_LUX'
@@ -5311,6 +5687,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_LightRifles_RCL_US'
     AutoNameBase          = 'LightRifles_RCL_US'
     ModelResource         = $/GFX/DepictionResources/Modele_LightRifles_RCL_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'LightRifles_Viper_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_LightRifles_Viper_US'
+    AutoNameBase          = 'LightRifles_Viper_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_LightRifles_Viper_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -5659,6 +6043,22 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'M113A1_ACAV_NG_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_M113A1_ACAV_NG_US'
+    AutoNameBase          = 'M113A1_ACAV_NG_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_M113A1_ACAV_NG_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'M113A1_Dragon_NG_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_M113A1_Dragon_NG_US'
+    AutoNameBase          = 'M113A1_Dragon_NG_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_M113A1_Dragon_NG_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'M113A1_NG_US'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_M113A1_NG_US'
     AutoNameBase          = 'M113A1_NG_US'
@@ -5807,6 +6207,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_M151A2_scout_US'
     AutoNameBase          = 'M151A2_scout_US'
     ModelResource         = $/GFX/DepictionResources/Modele_M151A2_scout_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'M151C_RCL_NG_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_M151C_RCL_NG_US'
+    AutoNameBase          = 'M151C_RCL_NG_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_M151C_RCL_NG_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -6211,6 +6619,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'M48A5_reco_NG_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_M48A5_reco_NG_US'
+    AutoNameBase          = 'M48A5_reco_NG_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_M48A5_reco_NG_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'M48_Chaparral_MIM72F_US'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_M48_Chaparral_MIM72F_US'
     AutoNameBase          = 'M48_Chaparral_MIM72F_US'
@@ -6367,6 +6783,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_M901A1_ITW_US'
     AutoNameBase          = 'M901A1_ITW_US'
     ModelResource         = $/GFX/DepictionResources/Modele_M901A1_ITW_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'M901_TOW_NG_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_M901_TOW_NG_US'
+    AutoNameBase          = 'M901_TOW_NG_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_M901_TOW_NG_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -6643,6 +7067,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'MANPAD_Strela_3_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_MANPAD_Strela_3_SOV'
+    AutoNameBase          = 'MANPAD_Strela_3_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_MANPAD_Strela_3_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'MAN_Kat_6x6_RFA'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_MAN_Kat_6x6_RFA'
     AutoNameBase          = 'MAN_Kat_6x6_RFA'
@@ -6779,6 +7211,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'MP_Combat_USAF_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_MP_Combat_USAF_US'
+    AutoNameBase          = 'MP_Combat_USAF_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_MP_Combat_USAF_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'MP_DDR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_MP_DDR'
     AutoNameBase          = 'MP_DDR'
@@ -6791,6 +7231,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_MP_NL'
     AutoNameBase          = 'MP_NL'
     ModelResource         = $/GFX/DepictionResources/Modele_MP_NL
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'MP_Patrol_USAF_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_MP_Patrol_USAF_US'
+    AutoNameBase          = 'MP_Patrol_USAF_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_MP_Patrol_USAF_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -7315,6 +7763,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Mortier_M29_81mm_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Mortier_M29_81mm_US'
+    AutoNameBase          = 'Mortier_M29_81mm_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_Mortier_M29_81mm_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Mortier_M43_160mm_POL'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Mortier_M43_160mm_POL'
     AutoNameBase          = 'Mortier_M43_160mm_POL'
@@ -7399,6 +7855,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Mortier_PM43_120mm_POL'
     AutoNameBase          = 'Mortier_PM43_120mm_POL'
     ModelResource         = $/GFX/DepictionResources/Modele_Mortier_PM43_120mm_POL
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Mortier_PM43_120mm_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Mortier_PM43_120mm_SOV'
+    AutoNameBase          = 'Mortier_PM43_120mm_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Mortier_PM43_120mm_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -7703,6 +8167,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Naval_Rifle_POL'
     AutoNameBase          = 'Naval_Rifle_POL'
     ModelResource         = $/GFX/DepictionResources/Modele_Naval_Rifle_POL
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Navy_SEAL_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Navy_SEAL_US'
+    AutoNameBase          = 'Navy_SEAL_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_Navy_SEAL_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -8147,6 +8619,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Partisan_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Partisan_SOV'
+    AutoNameBase          = 'Partisan_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Partisan_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Pathfinder_NG_US'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Pathfinder_NG_US'
     AutoNameBase          = 'Pathfinder_NG_US'
@@ -8267,6 +8747,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Reserve_CMD_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Reserve_CMD_SOV'
+    AutoNameBase          = 'Reserve_CMD_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Reserve_CMD_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Reserve_DDR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Reserve_DDR'
     AutoNameBase          = 'Reserve_DDR'
@@ -8279,6 +8767,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Reserve_HMG_DDR'
     AutoNameBase          = 'Reserve_HMG_DDR'
     ModelResource         = $/GFX/DepictionResources/Modele_Reserve_HMG_DDR
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Reserve_HMG_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Reserve_HMG_SOV'
+    AutoNameBase          = 'Reserve_HMG_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Reserve_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -8303,6 +8799,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Reserve_Polizei_RFA'
     AutoNameBase          = 'Reserve_Polizei_RFA'
     ModelResource         = $/GFX/DepictionResources/Modele_Reserve_Polizei_RFA
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Reserve_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Reserve_SOV'
+    AutoNameBase          = 'Reserve_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Reserve_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -8891,6 +9395,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Scout_NG_Alaska_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Scout_NG_Alaska_US'
+    AutoNameBase          = 'Scout_NG_Alaska_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_Scout_NG_Alaska_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Scout_NG_US'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Scout_NG_US'
     AutoNameBase          = 'Scout_NG_US'
@@ -9107,10 +9619,26 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Security_Naval_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Security_Naval_SOV'
+    AutoNameBase          = 'Security_Naval_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Security_Naval_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Security_RFA'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Security_RFA'
     AutoNameBase          = 'Security_RFA'
     ModelResource         = $/GFX/DepictionResources/Modele_Security_RFA
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Security_Reserve_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Security_Reserve_SOV'
+    AutoNameBase          = 'Security_Reserve_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Security_Reserve_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -9127,6 +9655,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Security_UK'
     AutoNameBase          = 'Security_UK'
     ModelResource         = $/GFX/DepictionResources/Modele_Security_UK
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Security_USMC_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Security_USMC_US'
+    AutoNameBase          = 'Security_USMC_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_Security_USMC_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -9159,6 +9695,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Sniper_M82_US'
     AutoNameBase          = 'Sniper_M82_US'
     ModelResource         = $/GFX/DepictionResources/Modele_Sniper_M82_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Sniper_NG_Alaska_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Sniper_NG_Alaska_US'
+    AutoNameBase          = 'Sniper_NG_Alaska_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_Sniper_NG_Alaska_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -9363,6 +9907,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'T54B_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_T54B_SOV'
+    AutoNameBase          = 'T54B_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_T54B_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'T55AM2B_DDR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_T55AM2B_DDR'
     AutoNameBase          = 'T55AM2B_DDR'
@@ -9391,6 +9943,22 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_T55AMS_Merida_POL'
     AutoNameBase          = 'T55AMS_Merida_POL'
     ModelResource         = $/GFX/DepictionResources/Modele_T55AMS_Merida_POL
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'T55AM_1_CMD_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_T55AM_1_CMD_SOV'
+    AutoNameBase          = 'T55AM_1_CMD_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_T55AM_1_CMD_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'T55AM_1_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_T55AM_1_SOV'
+    AutoNameBase          = 'T55AM_1_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_T55AM_1_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -9435,6 +10003,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'T55A_CMD_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_T55A_CMD_SOV'
+    AutoNameBase          = 'T55A_CMD_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_T55A_CMD_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'T55A_DDR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_T55A_DDR'
     AutoNameBase          = 'T55A_DDR'
@@ -9447,6 +10023,22 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_T55A_POL'
     AutoNameBase          = 'T55A_POL'
     ModelResource         = $/GFX/DepictionResources/Modele_T55A_POL
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'T55A_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_T55A_SOV'
+    AutoNameBase          = 'T55A_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_T55A_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'T55A_obr81_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_T55A_obr81_SOV'
+    AutoNameBase          = 'T55A_obr81_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_T55A_obr81_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -10724,6 +11316,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'AH1S_Cobra_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_AH1S_Cobra_US'
+    AutoNameBase          = 'AH1S_Cobra_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_AH1S_Cobra_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'AH64_Apache_ATAS_US'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_AH64_Apache_ATAS_US'
     AutoNameBase          = 'AH64_Apache_ATAS_US'
@@ -10792,6 +11392,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Alouette_III_NL'
     AutoNameBase          = 'Alouette_III_NL'
     ModelResource         = $/GFX/DepictionResources/Modele_Alouette_III_NL
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Alouette_III_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Alouette_III_SOV'
+    AutoNameBase          = 'Alouette_III_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Alouette_III_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -10960,6 +11568,22 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_CH53G_trans_RFA'
     AutoNameBase          = 'CH53G_trans_RFA'
     ModelResource         = $/GFX/DepictionResources/Modele_CH53G_trans_RFA
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'CH54B_Tarhe_supply_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_CH54B_Tarhe_supply_US'
+    AutoNameBase          = 'CH54B_Tarhe_supply_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_CH54B_Tarhe_supply_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'CH54B_Tarhe_trans_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_CH54B_Tarhe_trans_US'
+    AutoNameBase          = 'CH54B_Tarhe_trans_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_CH54B_Tarhe_trans_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -11540,6 +12164,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'Mi_8TB_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Mi_8TB_SOV'
+    AutoNameBase          = 'Mi_8TB_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Mi_8TB_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Mi_8TB_reco_Marine_DDR'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Mi_8TB_reco_Marine_DDR'
     AutoNameBase          = 'Mi_8TB_reco_Marine_DDR'
@@ -11973,6 +12605,54 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'A6E_Intruder_SEAD_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_A6E_Intruder_SEAD_US'
+    AutoNameBase          = 'A6E_Intruder_SEAD_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_A6E_Intruder_SEAD_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'A6E_Intruder_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_A6E_Intruder_US'
+    AutoNameBase          = 'A6E_Intruder_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_A6E_Intruder_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'A7D_Corsair_II_AT_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_A7D_Corsair_II_AT_US'
+    AutoNameBase          = 'A7D_Corsair_II_AT_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_A7D_Corsair_II_AT_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'A7D_Corsair_II_CLU_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_A7D_Corsair_II_CLU_US'
+    AutoNameBase          = 'A7D_Corsair_II_CLU_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_A7D_Corsair_II_CLU_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'A7D_Corsair_II_RKT_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_A7D_Corsair_II_RKT_US'
+    AutoNameBase          = 'A7D_Corsair_II_RKT_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_A7D_Corsair_II_RKT_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'A7D_Corsair_II_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_A7D_Corsair_II_US'
+    AutoNameBase          = 'A7D_Corsair_II_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_A7D_Corsair_II_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Alpha_Jet_A_clu_RFA'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Alpha_Jet_A_clu_RFA'
     AutoNameBase          = 'Alpha_Jet_A_clu_RFA'
@@ -12089,6 +12769,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_CM170_Magister_SS11_FR'
     AutoNameBase          = 'CM170_Magister_SS11_FR'
     ModelResource         = $/GFX/DepictionResources/Modele_CM170_Magister_SS11_FR
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'EA6B_Prowler_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_EA6B_Prowler_US'
+    AutoNameBase          = 'EA6B_Prowler_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_EA6B_Prowler_US
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -12957,6 +13645,14 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'MiG_23MLD_AA1_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_MiG_23MLD_AA1_SOV'
+    AutoNameBase          = 'MiG_23MLD_AA1_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_MiG_23MLD_AA1_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'MiG_23MLD_SOV'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_MiG_23MLD_SOV'
     AutoNameBase          = 'MiG_23MLD_SOV'
@@ -13269,10 +13965,34 @@ unnamed Template_SceneryDescriptorSpawn
 )
 unnamed Template_SceneryDescriptorSpawn
 (
+    RegistrationName      = 'OA10A_US'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_OA10A_US'
+    AutoNameBase          = 'OA10A_US'
+    ModelResource         = $/GFX/DepictionResources/Modele_OA10A_US
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
     RegistrationName      = 'Pchela_1T_SOV'
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Pchela_1T_SOV'
     AutoNameBase          = 'Pchela_1T_SOV'
     ModelResource         = $/GFX/DepictionResources/Modele_Pchela_1T_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Su_15TM_AA2_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Su_15TM_AA2_SOV'
+    AutoNameBase          = 'Su_15TM_AA2_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Su_15TM_AA2_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Su_15TM_AA_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Su_15TM_AA_SOV'
+    AutoNameBase          = 'Su_15TM_AA_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Su_15TM_AA_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn
@@ -13577,6 +14297,14 @@ unnamed Template_SceneryDescriptorSpawn
     ClassName             = '$/GFX/Unit/Descriptor_Unit_Su_25_rkt_SOV'
     AutoNameBase          = 'Su_25_rkt_SOV'
     ModelResource         = $/GFX/DepictionResources/Modele_Su_25_rkt_SOV
+    ThumbstackScale       = 20
+)
+unnamed Template_SceneryDescriptorSpawn
+(
+    RegistrationName      = 'Su_27K_SOV'
+    ClassName             = '$/GFX/Unit/Descriptor_Unit_Su_27K_SOV'
+    AutoNameBase          = 'Su_27K_SOV'
+    ModelResource         = $/GFX/DepictionResources/Modele_Su_27K_SOV
     ThumbstackScale       = 20
 )
 unnamed Template_SceneryDescriptorSpawn

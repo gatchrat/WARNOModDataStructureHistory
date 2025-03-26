@@ -56,12 +56,12 @@ is BUCKContainerDescriptor
     ]
 )
 
-GameModeResources is TUIOutGameGameModeResources
+DeploymentModeResources is TUIOutGameDeploymentModeResources
 (
-    GameModeInfos =
+    DeploymentModeInfos =
     [
         //EDeploymentMode/NotSpecified,
-        TUIGameModeResource
+        TUIDeploymentModeResource
         (
             Name = 'NON_APP'
             HintBody = 'NON_APP'
@@ -70,7 +70,7 @@ GameModeResources is TUIOutGameGameModeResources
         ),
 
         //EDeploymentMode/Conquest,
-        TUIGameModeResource
+        TUIDeploymentModeResource
         (
             Name = 'GMODE_CONQ'
             HintBody = 'HGM_CQST'
@@ -85,7 +85,7 @@ GameModeResources is TUIOutGameGameModeResources
         ),
 
         //EDeploymentMode/Breakthrough,
-        TUIGameModeResource
+        TUIDeploymentModeResource
         (
             Name = 'GMODE_BREA'
             HintBody = 'HGM_BREA'

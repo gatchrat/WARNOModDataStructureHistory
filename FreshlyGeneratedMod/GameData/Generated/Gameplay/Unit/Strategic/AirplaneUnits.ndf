@@ -57,7 +57,6 @@ export Descriptor_Unit_pion_BEL_10Wing_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -155,7 +154,6 @@ export Descriptor_Unit_pion_BEL_11Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -253,7 +251,6 @@ export Descriptor_Unit_pion_BEL_1Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -343,7 +340,6 @@ export Descriptor_Unit_pion_BEL_1Wing_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -441,7 +437,6 @@ export Descriptor_Unit_pion_BEL_23Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -539,7 +534,6 @@ export Descriptor_Unit_pion_BEL_2Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -629,7 +623,6 @@ export Descriptor_Unit_pion_BEL_2Wing_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -727,7 +720,6 @@ export Descriptor_Unit_pion_BEL_31Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -825,7 +817,6 @@ export Descriptor_Unit_pion_BEL_349Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -923,7 +914,6 @@ export Descriptor_Unit_pion_BEL_350Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1013,7 +1003,6 @@ export Descriptor_Unit_pion_BEL_3Wing_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1111,7 +1100,6 @@ export Descriptor_Unit_pion_BEL_42Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1209,7 +1197,6 @@ export Descriptor_Unit_pion_BEL_7Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1307,7 +1294,6 @@ export Descriptor_Unit_pion_BEL_8Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1397,7 +1383,6 @@ export Descriptor_Unit_pion_BEL_9Wing_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1487,7 +1472,6 @@ export Descriptor_Unit_pion_BEL_BAF_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1585,7 +1569,6 @@ export Descriptor_Unit_pion_NL_Grp_Eindhoven is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1683,7 +1666,6 @@ export Descriptor_Unit_pion_NL_Grp_Leeuwarden is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1781,7 +1763,6 @@ export Descriptor_Unit_pion_NL_Grp_Twenthe is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1879,7 +1860,6 @@ export Descriptor_Unit_pion_NL_Grp_Volkel is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -1970,7 +1950,6 @@ export Descriptor_Unit_pion_NL_KLu_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -2060,7 +2039,6 @@ export Descriptor_Unit_pion_POL_3DLMB_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -2158,7 +2136,6 @@ export Descriptor_Unit_pion_POL_PLMB40 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -2256,7 +2233,6 @@ export Descriptor_Unit_pion_POL_PLMB8 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -2347,7 +2323,6 @@ export Descriptor_Unit_pion_RDA_1LVD_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -2438,7 +2413,6 @@ export Descriptor_Unit_pion_RDA_3LVD_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -2536,7 +2510,6 @@ export Descriptor_Unit_pion_RDA_JBG28 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -2634,7 +2607,6 @@ export Descriptor_Unit_pion_RDA_JBG37 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -2732,7 +2704,6 @@ export Descriptor_Unit_pion_RDA_JBG77 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -2830,7 +2801,6 @@ export Descriptor_Unit_pion_RDA_JG1 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -2928,7 +2898,6 @@ export Descriptor_Unit_pion_RDA_JG2 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3026,7 +2995,6 @@ export Descriptor_Unit_pion_RDA_JG3 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3124,7 +3092,6 @@ export Descriptor_Unit_pion_RDA_JG7 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3222,7 +3189,6 @@ export Descriptor_Unit_pion_RDA_JG8 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3320,7 +3286,6 @@ export Descriptor_Unit_pion_RDA_JG9 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3410,7 +3375,6 @@ export Descriptor_Unit_pion_RFA_2LwDiv_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3508,7 +3472,6 @@ export Descriptor_Unit_pion_RFA_JBG33 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3606,7 +3569,6 @@ export Descriptor_Unit_pion_RFA_JBG33_2 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3633,6 +3595,200 @@ export Descriptor_Unit_pion_RFA_JBG33_2 is TEntityDescriptor
         (
             NameToken ='CRUMETCIRV'
             ProdMenuTexture = 'Texture_Button_Pawn_pion_RFA_JBG33_2'
+        ),
+        TStrategicPositionModuleDescriptor( IsAirport = False ),
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_RFA_JBG34 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{ea2989d3-4b05-420e-b870-50ad917a45e2}
+    ClassNameForDebug  = 'Pawn_pion_RFA_JBG34'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition            = ECoalition/Allied
+            MotherCountry        = 'RFA'
+            TypeUnitFormation    = 'Char'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_RFA_JBG34
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleIdentifier = "pion_RFA_JBG34"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/DebugModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_Support_air",
+                    "Texture_STRATEGIC_Support_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        ~/PackSignauxModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_RFA_JBG34'
+            RegimentName = 'None'
+            Score = 1
+            PictureForSelection = 'Texture_PawnPicture_Default'
+            MaxPackCount = 12
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.0
+                TimeBetweenEachIdentifyRoll = 0.0
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+            )
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = $/GFX/UI/CubeAction_Menu_Ordres_Pawn
+        ),
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='NDTKLPZMDF'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_RFA_JBG34'
+        ),
+        TStrategicPositionModuleDescriptor( IsAirport = False ),
+        ~/StrategicSequenceModuleDescriptor,
+        StrategicFatigueModuleDescriptor( InitialFatigue  = 0 ),
+        ~/IAStratZoneIndexModuleDescriptor,
+    ]
+)
+export Descriptor_Unit_pion_RFA_JBG34_2 is TEntityDescriptor
+(
+    DescriptorId       = GUID:{e3a0b033-b213-4f39-bfce-71b8ff371f43}
+    ClassNameForDebug  = 'Pawn_pion_RFA_JBG34_2'
+    ModulesDescriptors = [
+        TTypeUnitModuleDescriptor
+        (
+            Coalition            = ECoalition/Allied
+            MotherCountry        = 'RFA'
+            TypeUnitFormation    = 'Char'
+        ),
+        AirplaneFlagsModuleDescriptor,
+        ~/PawnPositionModuleDescriptor,
+        ~/LinkTeamModuleDescriptor,
+        TTagsModuleDescriptor
+        (
+            TagSet = [
+                "AllUnits",
+            ]
+        ),
+        TApparenceModuleDescriptor
+        (
+            PickableObject      = True
+            Depiction           = $/GFX/Depiction/Gfx_pion_RFA_JBG34_2
+            ReferenceMesh       = $/GFX/DepictionResources/MeshModele_Socle_US
+            BlackHoleIdentifier = "pion_RFA_JBG34_2"
+        ),
+        ~/StrategicStateEngineModuleDescriptor,
+        ~/DebugModuleDescriptor,
+        ~/StrategicSelectionModuleDescriptor,
+        ~/EffectApplierModuleDescriptor,
+        TStrategicLabelModuleDescriptor
+        (
+            BackgroundTexture = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+            (
+                CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromStrategicIconType
+                Alterator = $/GUIOption/StrategicIconType
+                Values =
+                [
+                    "Texture_STRATEGIC_RTS_H_Support_air",
+                    "Texture_STRATEGIC_Support_air",
+                ]
+            )
+        ),
+        ~/PawnAirplaneOrderConfigModuleDescriptor,
+        ~/PackSignauxModuleDescriptor,
+        TDeckModuleDescriptor
+        (
+            DeckIdentifier = 'pion_RFA_JBG34_2'
+            RegimentName = 'None'
+            Score = 1
+            PictureForSelection = 'Texture_PawnPicture_Default'
+            MaxPackCount = 12
+        ),
+        TStrategicBattleModuleDescriptor
+        (
+            CanBeInitialTarget = False
+            HasZoneOfControl = False
+            BattleSupportRadiusInAPCase = -1.0
+            BattleRole = ~/EStrategicBattleRole/AirSupport
+        ),
+        TVisibilityModuleDescriptor
+        (
+            UnitConcealmentBonus = 1.0
+        ),
+        TReverseScannerWithIdentificationDescriptor
+        (
+            VisibilityRollRule = TModernWarfareVisibilityRollRule
+            (
+                IdentifyBaseProbability     = 0.0
+                TimeBetweenEachIdentifyRoll = 0.0
+                VisibilityRuleDescriptor    = $/GFX/VisionRules/StandardWargameVisibilityRollRule
+            )
+        ),
+        TActionPointsModuleDescriptor
+        (
+            InitialActionPoint = 4
+            ActionPointRecoveryPerTurn = 4
+            NbInitialActionsPointsForProducedPawn = 4
+        ),
+        ~/StrategicMovementDescriptor_aerial,
+        ~/StrategicAerialModuleDescriptor,
+        TCubeActionModuleDescriptor
+        (
+            CubeActionDescriptor = $/GFX/UI/CubeAction_Menu_Ordres_Pawn
+        ),
+        StrategicUIModuleDescriptor
+        (
+            NameToken ='AUZQMXVNXD'
+            ProdMenuTexture = 'Texture_Button_Pawn_pion_RFA_JBG34_2'
         ),
         TStrategicPositionModuleDescriptor( IsAirport = False ),
         ~/StrategicSequenceModuleDescriptor,
@@ -3704,7 +3860,6 @@ export Descriptor_Unit_pion_RFA_JBG35 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3802,7 +3957,6 @@ export Descriptor_Unit_pion_RFA_JBG35_2 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3900,7 +4054,6 @@ export Descriptor_Unit_pion_RFA_JG74 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -3998,7 +4151,6 @@ export Descriptor_Unit_pion_RFA_JG74_2 is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -4088,7 +4240,6 @@ export Descriptor_Unit_pion_SOV_105ADIB_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -4186,7 +4337,6 @@ export Descriptor_Unit_pion_SOV_11ORAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -4276,7 +4426,6 @@ export Descriptor_Unit_pion_SOV_125ADIB_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -4366,7 +4515,6 @@ export Descriptor_Unit_pion_SOV_126IAD_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -4456,7 +4604,6 @@ export Descriptor_Unit_pion_SOV_16GvIAD_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -4546,7 +4693,6 @@ export Descriptor_Unit_pion_SOV_16VA_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -4644,7 +4790,6 @@ export Descriptor_Unit_pion_SOV_19GAPIB is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -4742,7 +4887,6 @@ export Descriptor_Unit_pion_SOV_20GAPIB is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -4840,7 +4984,6 @@ export Descriptor_Unit_pion_SOV_294ORAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -4938,7 +5081,6 @@ export Descriptor_Unit_pion_SOV_296APIB is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -5036,7 +5178,6 @@ export Descriptor_Unit_pion_SOV_31IGAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -5134,7 +5275,6 @@ export Descriptor_Unit_pion_SOV_33IAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -5232,7 +5372,6 @@ export Descriptor_Unit_pion_SOV_357OCHAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -5330,7 +5469,6 @@ export Descriptor_Unit_pion_SOV_35IAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -5428,7 +5566,6 @@ export Descriptor_Unit_pion_SOV_368OCHAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -5526,7 +5663,6 @@ export Descriptor_Unit_pion_SOV_559APIB is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -5616,7 +5752,6 @@ export Descriptor_Unit_pion_SOV_6GvIAD_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -5714,7 +5849,6 @@ export Descriptor_Unit_pion_SOV_730APIB is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -5812,7 +5946,6 @@ export Descriptor_Unit_pion_SOV_73IAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -5910,7 +6043,6 @@ export Descriptor_Unit_pion_SOV_773IAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6008,7 +6140,6 @@ export Descriptor_Unit_pion_SOV_787IAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6106,7 +6237,6 @@ export Descriptor_Unit_pion_SOV_833IAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6204,7 +6334,6 @@ export Descriptor_Unit_pion_SOV_85IGAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6302,7 +6431,6 @@ export Descriptor_Unit_pion_SOV_911APIB is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6400,7 +6528,6 @@ export Descriptor_Unit_pion_SOV_931ORAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6498,7 +6625,6 @@ export Descriptor_Unit_pion_SOV_968IAP is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6596,7 +6722,6 @@ export Descriptor_Unit_pion_UK_12Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6694,7 +6819,6 @@ export Descriptor_Unit_pion_UK_16_20Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6792,7 +6916,6 @@ export Descriptor_Unit_pion_UK_17_31Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6890,7 +7013,6 @@ export Descriptor_Unit_pion_UK_19_92Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -6980,7 +7102,6 @@ export Descriptor_Unit_pion_UK_2ATAF_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -7078,7 +7199,6 @@ export Descriptor_Unit_pion_UK_2_15Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -7176,7 +7296,6 @@ export Descriptor_Unit_pion_UK_3_4Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -7274,7 +7393,6 @@ export Descriptor_Unit_pion_UK_9_14Sq is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -7364,7 +7482,6 @@ export Descriptor_Unit_pion_UK_RAFG_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -7454,7 +7571,6 @@ export Descriptor_Unit_pion_UK_RAF_Bruggen_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -7544,7 +7660,6 @@ export Descriptor_Unit_pion_UK_RAF_Gutersloh_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -7634,7 +7749,6 @@ export Descriptor_Unit_pion_UK_RAF_Laarbruch_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -7724,7 +7838,6 @@ export Descriptor_Unit_pion_UK_RAF_Wildenrath_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -7822,7 +7935,6 @@ export Descriptor_Unit_pion_US_10TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -7912,7 +8024,6 @@ export Descriptor_Unit_pion_US_10TFW_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8002,7 +8113,6 @@ export Descriptor_Unit_pion_US_17AF_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8092,7 +8202,6 @@ export Descriptor_Unit_pion_US_20TFW_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8190,7 +8299,6 @@ export Descriptor_Unit_pion_US_22TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8288,7 +8396,6 @@ export Descriptor_Unit_pion_US_23TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8386,7 +8493,6 @@ export Descriptor_Unit_pion_US_313TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8484,7 +8590,6 @@ export Descriptor_Unit_pion_US_32TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8574,7 +8679,6 @@ export Descriptor_Unit_pion_US_36TFW_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8664,7 +8768,6 @@ export Descriptor_Unit_pion_US_3AF_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8762,7 +8865,6 @@ export Descriptor_Unit_pion_US_4450TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8860,7 +8962,6 @@ export Descriptor_Unit_pion_US_480TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -8950,7 +9051,6 @@ export Descriptor_Unit_pion_US_48TFW_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -9048,7 +9148,6 @@ export Descriptor_Unit_pion_US_492TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -9146,7 +9245,6 @@ export Descriptor_Unit_pion_US_493TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -9244,7 +9342,6 @@ export Descriptor_Unit_pion_US_494TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -9342,7 +9439,6 @@ export Descriptor_Unit_pion_US_495TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -9440,7 +9536,6 @@ export Descriptor_Unit_pion_US_496TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -9530,7 +9625,6 @@ export Descriptor_Unit_pion_US_4ATAF_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -9628,7 +9722,6 @@ export Descriptor_Unit_pion_US_509TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -9718,7 +9811,6 @@ export Descriptor_Unit_pion_US_50TFW_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -9816,7 +9908,6 @@ export Descriptor_Unit_pion_US_510TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -9914,7 +10005,6 @@ export Descriptor_Unit_pion_US_511TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10012,7 +10102,6 @@ export Descriptor_Unit_pion_US_512TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10110,7 +10199,6 @@ export Descriptor_Unit_pion_US_525TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10208,7 +10296,6 @@ export Descriptor_Unit_pion_US_526TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10306,7 +10393,6 @@ export Descriptor_Unit_pion_US_527Aggress is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10396,7 +10482,6 @@ export Descriptor_Unit_pion_US_52TFW_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10494,7 +10579,6 @@ export Descriptor_Unit_pion_US_53TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10592,7 +10676,6 @@ export Descriptor_Unit_pion_US_55TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10690,7 +10773,6 @@ export Descriptor_Unit_pion_US_77TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10788,7 +10870,6 @@ export Descriptor_Unit_pion_US_78TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10886,7 +10967,6 @@ export Descriptor_Unit_pion_US_79TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -10984,7 +11064,6 @@ export Descriptor_Unit_pion_US_81TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -11082,7 +11161,6 @@ export Descriptor_Unit_pion_US_81TFW is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -11172,7 +11250,6 @@ export Descriptor_Unit_pion_US_81TFW_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -11262,7 +11339,6 @@ export Descriptor_Unit_pion_US_86TFW_GROUPE is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -11360,7 +11436,6 @@ export Descriptor_Unit_pion_US_91TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -11458,7 +11533,6 @@ export Descriptor_Unit_pion_US_92TFS is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -11555,7 +11629,6 @@ export Descriptor_Unit_test_avion_alex is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (
@@ -11652,7 +11725,6 @@ export Descriptor_Unit_test_avion_cas is TEntityDescriptor
         TVisibilityModuleDescriptor
         (
             UnitConcealmentBonus = 1.0
-            VisionUnitType       = EVisionUnitType/Undefined
         ),
         TReverseScannerWithIdentificationDescriptor
         (

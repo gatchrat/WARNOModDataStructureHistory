@@ -52425,6 +52425,2799 @@ AcknowUnitContainer is TAcknowUnitContainerDescriptor
         ),
         TAcknowDescriptor
         (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Attack_palte_na_dane_souradnice' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Attack_palte_znicte_je' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Attack_Position_20_nahoru_pal' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Attack_Position_tady_srac_jedna_rozumim_palime_na_vase' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Attack_Position_vybusna_nabita_pripravena_k_palbe' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_DamageReceived_kurva_co_tu_furt_stojime_takhle_nas_dostanou' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_DamageReceived_trefili_nas' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Enemy_Contact_pozor_nepritel_je_blizko' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_EnemyUnitContact
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Load_pripravte_znovu_zbran' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_LoadIntoTransport
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Attack_davejte_si_pozor_na_ty_zasrany_kapitalisty' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Attack_pohybujte_se_opatrne_chlapi' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Attack_rozumim_premistujeme_se_prepinam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Attack_soudruhu_vypadame_snad_jako_tank' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Attack_udelame_co_bude_v_nasich_silach_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Fast_dobra_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Fast_jedeme_tam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Fast_na_silnici_budeme_rychlejsi' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Fast_panove_dame_si_ted_jednoho_panaka_a_druhej_bude' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Fast_udelame_to_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_jedeme' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_premistujeme_se_na_novou_pozici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_rozumim_menime_pozici_prepinam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_tam_nas_chcete_poslat_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Attack_davejte_si_pozor_na_ty_zasrany_kapitalisty' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Attack_pohybujte_se_opatrne_chlapi' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Attack_rozumim_premistujeme_se_prepinam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Attack_soudruhu_vypadame_snad_jako_tank' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Move_Attack_udelame_co_bude_v_nasich_silach_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_No_Ammo_vyuzili_jsme_vsechnu_nasi_munici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Panicking_dohajzlu_rozlili_nam_nasi_slivovici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Panicking_jsme_pod_palbou' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Impossible_to_nemuzeme_udelat_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_PositionForbidden
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Reverse_ustup' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Reverse
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Select_ano_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Select_bez_souradnic_nemohu_zahajit_palbu_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Select_delostrelci_na_vas_rozkaz' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Select_jsme_pripraveni_je_rozdrtit_na_prach' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Select_na_vas_rozkaz_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Select_potrebujete_palebnou_podporu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Select_pripraven_k_palbe' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Select_soudruhu_chcete_take_panaka' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Select_zadejte_nam_souradnice_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Select_zbran_pripravena' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Attack_Position_20_nahoru_pal' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Attack_Position_tady_srac_jedna_rozumim_palime_na_vase' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Attack_Position_vybusna_nabita_pripravena_k_palbe' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Smoke_nabijte_kourove_granaty' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Smoke
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Stop_tady_zastavime' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Stop
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Surrender_nestrilejte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_Surrender
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Target_Destroyed_cil_znicen' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Target_Destroyed_vypada_to_ze_jsme_neco_znicili' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/ArtShell/TCH_ArtShell_Withdraw_karle_dostan_nas_odsud_hned' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_ArtShell
+            Action            = TAcknowUnitAction_WithdrawOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Attack_dejte_jim_co_proto' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Attack_mame_ho_na_musce_pal' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Attack_Position_rozstrilejte_to' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Attack_strilejte_dle_libosti' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Attack_tohle_je_jak_strileni_spacku' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Attack_zvyste_na_30_a_strilejte_po_davkach' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_DamageReceived_k_zemi' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_DamageReceived_strileji_po_nas' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Enemy_Contact_nepritel_spatren_budte_pripraveni' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_EnemyUnitContact
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Load_vystupte_a_nabijte_zbran' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_LoadIntoTransport
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Attack_jdi_a_strilej_na_vsechno_co_se_pohne' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Attack_jedte_ale_budte_pripraveni_strilet' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Attack_menim_pozici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Attack_pohybujte_se_opatrne_chlapi' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Attack_rozkaz_je_strilet_na_potkani' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Fast_jeste_ze_pojedeme_po_silnici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Fast_neni_casu_nazbyt' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Fast_spechame' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Fast_zapalte_si_panove_jdeme_na_to' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Fast_zrychli_ridici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_rozumim_konec' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_rozumim_pane_premistujeme_se' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_rozumim_presunujeme_protivzdusnou_obranu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_samozrejme_soudruhu_jak_rikate_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Attack_jdi_a_strilej_na_vsechno_co_se_pohne' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Attack_jedte_ale_budte_pripraveni_strilet' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Attack_menim_pozici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Attack_pohybujte_se_opatrne_chlapi' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Move_Attack_rozkaz_je_strilet_na_potkani' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_No_Ammo_dosla_nam_munice' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Panicking_k_zemi' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Panicking_vypadnete_odsad' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Impossible_to_je_nemozne_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_PositionForbidden
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Reverse_ustup' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Reverse
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Select_cekame_na_rozkazy_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Select_cekame_na_vzdusne_nebo_pozemni_cile' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Select_dejte_nam_nejaky_cil' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Select_mate_nejake_rozkazy' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Select_na_vas_rozkaz' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Select_posloucham_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Select_pripraven_ke_strelbe' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Select_rozumim' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Select_sleduju_oblaka' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Select_zbran_zkontrolovana_a_pripravena' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Attack_Position_rozstrilejte_to' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Stop_cekame_na_vase_instrukce_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Stop
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Surrender_vzdavame_se' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_Surrender
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Target_Destroyed_dalsi_na_seznamu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Target_Destroyed_pada_dolu_jak_spacek' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/CanonAA/TCH_CanonAA_Withdraw_ustup' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_CanonAA
+            Action            = TAcknowUnitAction_WithdrawOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Attack_do_utoku_soudruzi' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Attack_palte_na_ne' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Attack_Position_strilejte_zde' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Attack_postaram_se_o_to_veleni' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Attack_utok_povedu_sam_veleni' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_DamageReceived_doprdele_mame_tu_zraneneho' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_DamageReceived_moje_noha_kurva_moje_noha' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_DamageReceived_tady_tata_medved_potrebujeme_okamzitou_pomoc' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Enemy_Contact_vsem_jednotkam_tady_tata_medved_nepritel' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_EnemyUnitContact
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Attack_bacha_na_ty_kapitalisticky_zkurvence' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Attack_mejte_prst_na_spousti' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Attack_nasledujte_me_soudruzi' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Attack_rozkazy_jsou_jasne_pokracujte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Attack_soudruzi_strilejte_po_davkach' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Fast_dam_vam_vedet_az_se_tam_dostanu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Fast_notak_chlapi_zaberte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Fast_okjdeme_na_to' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Fast_pojdme_rychle' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Fast_slapni_na_plyn_ridici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_jdeme_tam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_tady_tata_medved_cekam_na_pokyny' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_zachvilku_tam_budu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Attack_bacha_na_ty_kapitalisticky_zkurvence' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Attack_mejte_prst_na_spousti' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Attack_nasledujte_me_soudruzi' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Attack_rozkazy_jsou_jasne_pokracujte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Move_Attack_soudruzi_strilejte_po_davkach' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_No_Ammo_doprdele_dosla_munice' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Panicking_kryjte_se' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Panicking_poruciku_bacha_granat' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Impossible_to_nemohu_udelat_veleni' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_PositionForbidden
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Reverse_ustup_ustup' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Reverse
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Select_doufam_ze_uvidim_svoje_syny' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Select_jsme_pripraveni_tahnout_az_na_pariz' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Select_na_vas_rozkaz' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Select_pooo_zor' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Select_posloucham_veleni_prepinam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Select_tady_tata_medved_jsme_pripraveni' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Select_tata_medved_k_vasim_sluzbam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Select_tata_medved_posloucha' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Select_uz_me_z_tehle_valky_boli_hlava' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Attack_Position_strilejte_zde' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Stop_tady_zastavme' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Stop
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Surrender_chlapi_zahodte_zbrane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_Surrender
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Target_Destroyed_je_po_nem' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Target_Destroyed_nepritel_zlikvidovan' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Command/TCH_Command_Withdraw_seberte_sve_muze_a_utikejte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Command
+            Action            = TAcknowUnitAction_WithdrawOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_No_Fuel_dochazi_palivo' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_AirplaneOutOfFuel
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Attack_Position_zahajuji_palbu' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Attack_ruda_vazka_utoci' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Attack_tenhle_cil_chcete_znicit_jak_je_libo' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Attack_utocim_na_mravence' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Attack_uz_vidim_cil_zameruji_zbrane' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Attack_vsechny_je_dostanu' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_DamageReceived_dostavam_zasahy' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_DamageReceived_je_tady_docela_horko' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Evacuation_stress_koncim_prepinam' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Enemy_Contact_nepritel_na_2_hodinach' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_EnemyUnitContact
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Evacuation_critique_hori_mi_motor' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Evacuate
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Evacuation_critique_mayday_mayday' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Evacuate
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Evacuation_order_nerad_se_vzdavam' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Evacuate
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Evacuation_order_pokud_je_to_rozkaz' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Evacuate
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Evacuation_stress_koncim_prepinam' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Evacuate
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Move_dneska_litam_v_bonsku_a_priste_to_bude_ve_francii' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Move_doufam_ze_tu_nebude_protivzdusna' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Move_letim_na_dane_souradnice' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Move_rozumim_letime' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Move_tady_ruda_vazka_letime_na_dane_souradnice' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Evacuation_Ammo_munice_v_cudu' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_No_Fuel_dochazi_palivo' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Evacuation_critique_hori_mi_motor' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Evacuation_critique_mayday_mayday' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Impossible_je_mi_lito_ale_to_je_nemozne' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_PositionForbidden
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Select_kde_nas_potrebujete_pane' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Select_mate_nejaky_rozkaz_pane' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Select_motor_vypada_v_cajku' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Select_my_a_nase_zbrane_jsou_pripravene' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Select_na_nas_se_muzete_spolehnout' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Select_potrebujete_strazneho_andela' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Select_ruda_vazka_k_vasim_sluzbam' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Select_ruda_vazka_posloucha' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Attack_Position_zahajuji_palbu' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Target_Destroyed_dalsi_mrtvej_zmrd' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/HeliAttack/TCH_HeliAttack_Target_Destroyed_trefa' Filter = TSoundFilter_RadioAirplane )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_HeliAttack
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Attack_budeme_strilet_az_je_budeme_mit_na_musce' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Attack_dneska_nebudu_ten_koho_budou_oplakavat' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Attack_ja_ty_kokoty_postrilim_vsechny_do_jednoho' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Attack_Position_strilejte_dle_libosti' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Attack_toz_dneska_jsem_se_na_ne_tesil' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Attack_zahajte_palbu' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_DamageReceived_ahh_kurva_dostal_jsem_to' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_DamageReceived_angere_k_zemi' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_DamageReceived_morfium_potrebuji_morfium' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Enemy_Contact_na_prvni_hodine_nepratelsky_vojak_500_metru' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_EnemyUnitContact
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Load_diky_za_odvoz' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_LoadIntoTransport
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_budeme_potrebovat_kryci_palbu' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_mame_rozkazy_chlapi' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_pohnete_sebu_postrilejte_je_sijte_to_do_nich' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_pojdme_a_davejte_si_pozor_na_ty_zkurvence' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_pripravte_se_na_boj_panove' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_uz_abychom_to_meli_za_sebu' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_zabiju_je_fsecky' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_dobra_kluci_vstavejte_z_legatek' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_jdeme_na_to' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_jdete_a_rozptylte_se' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_pochod_par_kilaku_zadny_problem_pane' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_pomalu_mi_dochazi_cigarety_na_tyhle_pochody' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_rozumim_premistujeme_se_konec' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_toz_chlapi_nesedte_tu_na_legatkach_a_pojdme' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_budeme_potrebovat_kryci_palbu' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_mame_rozkazy_chlapi' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_pohnete_sebu_postrilejte_je_sijte_to_do_nich' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_pojdme_a_davejte_si_pozor_na_ty_zkurvence' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_pripravte_se_na_boj_panove' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_uz_abychom_to_meli_za_sebu' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Move_Attack_zabiju_je_fsecky' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_No_Ammo_munice_a_cigarety_jsou_fuc' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_No_Ammo_pica_uz_mi_dosla_munice' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Panicking_ja_uz_tu_nevydrzim' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Panicking_sraci_jedna_tady_srac_dva_pozadujeme_palebnou' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Impossible_negativni_pane' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_PositionForbidden
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_ani_nevite_jak_moc_mi_chybi_moja_devcica_pane' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_cekam_na_rozkaz' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_ja_muj_samopal_a_cigarety_jsu_pripravene' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_jednotka_je_pripravena' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_jestli_preziju_tak_chci_zase_videt_slovacky_rok' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_jsme_vyzbrojeni_az_po_usiska_pane' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_mate_rozkazy_pane' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_slysel_jsem_ze_se_za_par_dni_dostaneme_do_parize' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_srac_dva_pripraven' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_su_pripraven_padnout_za_vlast' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_tady_srac_dva_posloucham' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_toz_posloucham_pane' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Select_uz_by_to_chtelo_nejaku_prestrelku' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Attack_Position_strilejte_dle_libosti' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Stop_drzte_tuto_pozici' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Stop
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Surrender_nestrilejte_ja_jsem_nikoho_nezabil' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Surrender
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Surrender_vzdavame_sa' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_Surrender
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Target_Destroyed_dobra_prace_kluci' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Target_Destroyed_nazer_se_olova_parchante' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Target_Destroyed_prestante_strilet_ten_uz_je_mrtvej' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Withdraw_ustup' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_WithdrawOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Inf/TCH_Inf_Withdraw_ustup_kluci_ustup' Filter = TSoundFilter_RadioOutside )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Inf
+            Action            = TAcknowUnitAction_WithdrawOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Attack_palte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Attack_Position_zkusime_to' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Attack_postrilejte_je' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Attack_povazujte_to_za_hotovou_vec_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Attack_tasmansky_cert_utoci' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Attack_zahajte_palbu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_DamageReceived_pane_boze_proc_ja_crying' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_DamageReceived_spatrili_nas' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Enemy_Contact_tady_tasmansky_cert_nepritel_spatren' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_EnemyUnitContact
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Load_nastupte_si' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_LoadIntoTransport
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Attack_dobre_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Attack_pozor_na_imperialisti' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Attack_rostrilim_je_na_sracky' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Attack_rozumim' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Attack_uz_se_k_nim_blizime' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Fast_jedu_plnou_rychlosti' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Fast_pojdme_rychle' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Fast_pojede_rychle' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Fast_pojedu_tak_nejrychleji_jak_to_pujde' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Fast_rozumim_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_jak_si_prejete' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_na_dnesni_odpoledne_nemam_nic_jineho_v_planu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_pojdme_a_zustanme_potichu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_pojdme_se_porozhlednout_kolem' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Attack_dobre_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Attack_pozor_na_imperialisti' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Attack_rostrilim_je_na_sracky' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Attack_rozumim' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Move_Attack_uz_se_k_nim_blizime' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_No_Ammo_dosla_nam_munice' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Panicking_strileji_po_nas' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Panicking_uz_to_nemuzeme_vydrzet' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Impossible_v_zadnem_pripade_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_PositionForbidden
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Reverse_ustup' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Reverse
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Select_ano' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Select_bez_nas_byste_videl_hovno_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Select_cekam_na_vas_rozkaz' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Select_jsem_jedno_velke_ucho' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Select_potrebujete_dalsi_oci_soudruhu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Select_pripraven' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Select_pruzkumna_jednotka_na_vas_rozkaz' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Select_tasmansky_cert_hotelu_6_posloucham' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Select_zkouska_spojeni_hotel_6_prepinam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Attack_Position_zkusime_to' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Stop_zastavte_se_a_rozhlednete_se' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Stop
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Surrender_vzdavame_se' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_Surrender
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Target_Destroyed_mam_ho' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Target_Destroyed_trefa' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Reco/TCH_Reco_Withdraw_zdrhame' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Reco
+            Action            = TAcknowUnitAction_WithdrawOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Attack_Position_neco_se_tam_hybe_palte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Attack_strely_pripravene' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Attack_zabte_je' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Attack_zameruji_nepratelske_vozidlo' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Attack_znicte_ho' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_DamageReceived_jeste_jedna_takova_strela_a_je_po_nas' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_DamageReceived_kurva_dostali_jsem_zasah' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Enemy_Contact_vidim_pohyb_jsem_pripraven_zautocit' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_EnemyUnitContact
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Attack_jdu_na_to' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Attack_pohybujte_se_budte_ve_strehu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Attack_pojdme_a_davejme_si_pozor' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_cekam_na_pokyny' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Fast_ano_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Fast_pojedeme_co_nejrychleji' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Fast_proste_jed_ridici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Fast_rozumim' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_jdeme_na_to_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_jedeme_tam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_rozumim_presunujeme_se' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Attack_jdu_na_to' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Attack_pohybujte_se_budte_ve_strehu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Attack_pojdme_a_davejme_si_pozor' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_No_Ammo_dosla_nam_munice' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Panicking_rychle_pryc' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Impossible_zopakujte_rozkaz_prosim' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_PositionForbidden
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Fast_ano_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_QuickMove
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Fast_pojedeme_co_nejrychleji' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_QuickMove
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Fast_proste_jed_ridici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_QuickMove
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Move_Fast_rozumim' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_QuickMove
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Reverse_hod_tam_zpatecku' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Reverse
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Select_ano_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Select_cekam_na_vas_rozkaz' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Select_co_to_bude' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Select_hubitel_tanku_pripraven' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Select_jake_jsou_vase_rozkazy' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Select_jake_jsou_vase_rozkazy_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Select_jsem_pripraven_znicit_par_tanku_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Select_posloucham' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Select_pripraven_rozmrdat_par_tanku_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Select_pripraven_zabijet' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Attack_Position_neco_se_tam_hybe_palte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Stop_zastavte_motor' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Stop
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Surrender_vzdavame_se' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_Surrender
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Target_Destroyed_cil_znicen' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Target_Destroyed_o_jednoho_bastarda_mene' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/TankDestroyer/TCH_TankDestroyer_Target_Destroyed_trefa' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_TankDestroyer
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Attack_dobre_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Attack_palte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Attack_Position_neptejte_se_proste_strilejte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Attack_udelame_co_bude_v_nasich_silach_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Attack_zahajte_palbu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Attack_zbran_je_pripravena_pojdme_jim_to_nandat' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Attack
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_DamageReceived_jeste_jeden_zasah_a_je_po_nas' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_DamageReceived_jsme_tezce_zasazeni' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_DamageReceived
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Enemy_Contact_pozor_mame_tu_kontakt' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_EnemyUnitContact
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Load_doufam_ze_se_vam_toto_pohodli_bude_libit' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_LoadIntoTransport
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Load_vstupte_na_palubu' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_LoadIntoTransport
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Attack_jdeme_si_pro_ne' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Attack_mam_spatny_pocit' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Attack_pozor_na_nepritele' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Attack_pripraven_k_boji' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Attack_strilejte_na_vsechno_co_se_hejbe' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Fast_jedeme_tam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Fast_nemuzeme_jet_rychleji' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Fast_plnou_rychlosti' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Fast_rozumim_konec' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Fast_slysim_jasne_a_zretelne' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_jedeme_tam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_jedu_tam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_jsem_rad_ze_nekdo_vi_kam_jedeme' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_rozumim_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Move
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Attack_jdeme_si_pro_ne' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Attack_mam_spatny_pocit' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Attack_pozor_na_nepritele' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Attack_pripraven_k_boji' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Attack_strilejte_na_vsechno_co_se_hejbe' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_MoveAndAttackOrder
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_No_Ammo_potrebujeme_munici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_OutOfAmmo
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Panicking_hod_tam_zpatecku_hned' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Panicking_zpatky' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Panicking
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Impossible_negativni' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_PositionForbidden
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Fast_jedeme_tam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_QuickMove
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Fast_nemuzeme_jet_rychleji' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_QuickMove
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Fast_plnou_rychlosti' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_QuickMove
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Fast_rozumim_konec' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_QuickMove
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Move_Fast_slysim_jasne_a_zretelne' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_QuickMove
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Reverse_hod_tam_zpatecku' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Reverse
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Reverse_zpatecku_ridici' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Reverse
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Select_ano_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Select_bez_chlastu_bych_tohle_neodridil' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Select_cekame_na_vas_rozkaz' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Select_je_mi_potesenim_pane' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Select_jsme_pripraveni_nekoho_odvezt' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Select_motor_jede_cekame_na_vas_rozkaz' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Select_poslouchame' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Select_potrebujete_svezt' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Select_pripraven_k_preprave' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Select_volal_si_tu_nekdo_odvoz' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Select
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Attack_Position_neptejte_se_proste_strilejte' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_ShootOnPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Stop_zastavte_zde' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Stop
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Surrender_opustte_vozidlo' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Surrender
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Target_Destroyed_o_jednoho_imperialistu_min' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_TargetDestroyed
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Unload_sup_ven_panove' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Unload
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_Unload_vsichni_ven_hned' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_Unload
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_UnloadAtPosition_na_teto_pozici_budeme_nasazovat' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_UnloadAtPosition
+        ),
+        TAcknowDescriptor
+        (
+            Sound             = Template_UnitAcknow( Identifier = 'TCH/Transport/TCH_Transport_UnloadAtPosition_privezte_nas_tam' Filter = TSoundFilter_RadioVehicule )
+            MotherCountry     = 'TCH'
+            TypeSpecific      = TAcknowUnitType_Transport
+            Action            = TAcknowUnitAction_UnloadAtPosition
+        ),
+        TAcknowDescriptor
+        (
             Sound             = Template_UnitAcknow( Identifier = 'UK/UK_AirSup_No_Fuel_bingo_i_m_going_home' Filter = TSoundFilter_RadioAirplane )
             MotherCountry     = 'UK'
             TypeSpecific      = TAcknowUnitType_AirSup

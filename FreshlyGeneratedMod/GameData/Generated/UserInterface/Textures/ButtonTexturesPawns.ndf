@@ -45,6 +45,8 @@ PawnButtonTextureAdditionalBank is TBUCKToolAdditionalTextureBank
         ("Texture_Button_Pawn_pion_RFA_2LwDiv_GROUPE", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/PawnsIcons/NATO/default.png"))]),
         ("Texture_Button_Pawn_pion_RFA_JBG33", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/PawnsIcons/NATO/default.png"))]),
         ("Texture_Button_Pawn_pion_RFA_JBG33_2", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/PawnsIcons/NATO/default.png"))]),
+        ("Texture_Button_Pawn_pion_RFA_JBG34", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/PawnsIcons/NATO/default.png"))]),
+        ("Texture_Button_Pawn_pion_RFA_JBG34_2", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/PawnsIcons/NATO/default.png"))]),
         ("Texture_Button_Pawn_pion_RFA_JBG35", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/PawnsIcons/NATO/default.png"))]),
         ("Texture_Button_Pawn_pion_RFA_JBG35_2", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/PawnsIcons/NATO/default.png"))]),
         ("Texture_Button_Pawn_pion_RFA_JG74", MAP [( ~/ComponentState/Normal, TUIResourceTexture( FileName = "GameData:/Assets/2D/Interface/Common/PawnsIcons/NATO/default.png"))]),

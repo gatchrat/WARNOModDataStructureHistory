@@ -159,7 +159,7 @@ export EasyBTAtk_Phase_Command is TSequenceGeneratorDescriptor
 EasyAtk_Defenses_Airstrike_Arti_Shuffle_Deploy is
 [
     ~/Airstrike_Assault,
-    ~/Defense_Static_AA,
+    ~/Defense_Corridor_AA,
     ~/Airstrike_Offense,
     ~/Airstrike_AA,
     ~/Artillery_Expensive,
@@ -171,9 +171,9 @@ EasyAtk_Scaling is
     ~/Attack_Adaptive_Autogen,
     ~/Attack_Objectives_Autogen,
     ~/Airstrike_AA_Autogen,
-    ~/Defense_Dynamic_Adaptive_Autogen,
+    ~/Defense_Corridor_Adaptive_Autogen,
     ~/Artillery_Expensive_Autogen,
-    ~/Defense_Static_AA_Autogen,
+    ~/Defense_Corridor_AA_Autogen,
     ~/Attack_Adaptive_Autogen,
     ~/Airstrike_Offense_Autogen,
     ~/Artillery_TriggerHappy_Autogen,

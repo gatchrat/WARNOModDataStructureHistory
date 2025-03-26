@@ -10,7 +10,6 @@ HUDMultiSelectionHorizontalListDescriptor is BUCKListDescriptor
         AlignementToAnchor = [0.5, 0.0]
     )
 
-    AssumeChildrenAreFixedSize = true
     Axis = ~/ListAxis/Horizontal
     FirstMargin = TRTTILength(Magnifiable = 1)
     InterItemMargin = TRTTILength(Magnifiable = 2)

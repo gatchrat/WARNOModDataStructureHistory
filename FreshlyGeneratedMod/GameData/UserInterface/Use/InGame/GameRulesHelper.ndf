@@ -12,29 +12,19 @@ GameRulesHelper is TUITacticalGameRulesHelper
     StandardStepMessages = TUITacticalGameRulesHelperStepMessages
     (
         // Message on self score update
-        LocalPlayerAllianceScoreByGameMode = MAP
+        LocalPlayerAllianceScore =
         [
-            (
-                EDeploymentMode/Skirmish,
-                [
-                    (50.0, "win50"),
-                    (75.0, "win75"),
-                    (90.0, "win90")
-                ]
-            ),
+            (50.0, "win50"),
+            (75.0, "win75"),
+            (90.0, "win90")
         ]
 
         // Message about other alliance score update
-        OtherAllianceScoreByGameMode = MAP
+        OtherAllianceScore =
         [
-            (
-                EDeploymentMode/Skirmish,
-                [
-                    (50.0, "Ewin50"),
-                    (75.0, "Ewin75"),
-                    (90.0, "Ewin90")
-                ]
-            ),
+            (50.0, "Ewin50"),
+            (75.0, "Ewin75"),
+            (90.0, "Ewin90")
         ]
     )
 
@@ -42,29 +32,11 @@ GameRulesHelper is TUITacticalGameRulesHelper
     AttackingAllianceStepMessages = TUITacticalGameRulesHelperStepMessages
     (
         // Message on self score update
-        LocalPlayerAllianceScoreByGameMode = MAP
+        LocalPlayerAllianceScore =
         [
-            (
-                EDeploymentMode/Breakthrough,
-                [
-                    (20.0, "BKLOC20"),
-                    (50.0, "BKLOC50"),
-                    (75.0, "BKLOC75")
-                ]
-            ),
-        ]
-
-        // Message about other alliance score update
-        OtherAllianceScoreByGameMode = MAP
-        [
-            (
-                EDeploymentMode/Breakthrough,
-                [
-                    //(80.0, "BKOTH80"),
-                    //(50.0, "BKOTH50"),
-                    //(25.0, "BKOTH25")
-                ]
-            ),
+            (20.0, "BKLOC20"),
+            (50.0, "BKLOC50"),
+            (75.0, "BKLOC75")
         ]
     )
 
@@ -72,29 +44,11 @@ GameRulesHelper is TUITacticalGameRulesHelper
     DefendingAllianceStepMessages = TUITacticalGameRulesHelperStepMessages
     (
         // Message on self score update
-        LocalPlayerAllianceScoreByGameMode = MAP
+        LocalPlayerAllianceScore =
         [
-            (
-                EDeploymentMode/Breakthrough,
-                [
-                    (80.0, "BKOTH80"),
-                    (50.0, "BKOTH50"),
-                    (25.0, "BKOTH25")
-                ]
-            ),
-        ]
-
-        // Message about other alliance score update
-        OtherAllianceScoreByGameMode = MAP
-        [
-            (
-                EDeploymentMode/Breakthrough,
-                [
-                    //(80.0, "BKOTH80"),
-                    //(50.0, "BKOTH50"),
-                    //(25.0, "BKOTH25")
-                ]
-            ),
+            (80.0, "BKOTH80"),
+            (50.0, "BKOTH50"),
+            (25.0, "BKOTH25")
         ]
 
         AreDecreasingSteps = true

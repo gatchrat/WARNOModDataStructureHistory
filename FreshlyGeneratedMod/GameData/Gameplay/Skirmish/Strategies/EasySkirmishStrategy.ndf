@@ -98,13 +98,15 @@ export Easy_Phase_Deploiement is TSequenceGeneratorDescriptor
         ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
 
-        ~/Defense_Static_AA,
+        ~/Defense_Corridor_AA,
+
+        ~/Airstrike_AirReco,
 
         // Reste du front
-        ~/Defense_Static_Adaptive,          // ~100
+        ~/Defense_Corridor_Adaptive,          // ~100
 
 
-        ~/Defense_Static_Adaptive,          // ~100
+        ~/Defense_Corridor_Adaptive,          // ~100
         ~/Defense_Filler,            // budget 40
 
         //------------------------------
@@ -143,8 +145,10 @@ export Easy_Phase_Command is TSequenceGeneratorDescriptor
         // Défenses prioritaires
         //------------------------------
         // Statiques pour tenir le terrain
-        ~/Defense_Static_Adaptive, // Canon AT - Chasseur de char - ATInf - HMG - Flamer // 85
-        ~/Defense_Static_AA,
+        ~/Defense_Corridor_Adaptive, // Canon AT - Chasseur de char - ATInf - HMG - Flamer // 85
+        ~/Defense_Corridor_AA,
+
+        ~/Airstrike_AirReco,
 
         ~/Defense_Objectif,
 
@@ -155,12 +159,12 @@ export Easy_Phase_Command is TSequenceGeneratorDescriptor
         ~/Attack_Main,              // Plusieurs tanks pour un budget donné // 200
         ~/Artillery_Support,        // Artillerie pas chère                 //  80
 
-        ~/Defense_Static_AA,
+        ~/Defense_Corridor_AA,
 
-        ~/Defense_Static_Adaptive,  // Faire du code pour adapater le budget en fonction de l'income
-        ~/Defense_Static_Adaptive,
+        ~/Defense_Corridor_Adaptive,  // Faire du code pour adapater le budget en fonction de l'income
+        ~/Defense_Corridor_Adaptive,
 
-        ~/Defense_Static_Adaptive,
+        ~/Defense_Corridor_Adaptive,
 
         ~/Airstrike_Offense,
         ~/Airstrike_AA,
@@ -183,11 +187,12 @@ Easy_Scaling is
 [
     ~/Reco_Autogen,
     ~/Attack_Adaptive_Autogen,
-    ~/Defense_Dynamic_Adaptive_Autogen,
-    ~/Defense_Dynamic_Adaptive_Autogen,
+    ~/Defense_Corridor_Adaptive_Autogen,
+    ~/Defense_Corridor_Adaptive_Autogen,
+    ~/Airstrike_AirReco_Autogen,
     ~/Airstrike_AA_Autogen,
-    ~/Defense_Dynamic_Adaptive_Autogen,
-    ~/Defense_Static_AA_Autogen,
+    ~/Defense_Corridor_Adaptive_Autogen,
+    ~/Defense_Corridor_AA_Autogen,
     ~/Airstrike_Offense_Autogen,
     ~/Artillery_Expensive_Autogen,
     ~/Airstrike_Assault_Autogen,

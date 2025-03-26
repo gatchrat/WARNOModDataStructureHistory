@@ -1,283 +1,189 @@
 public orderEvaluatorCollectionTactic is TOrderEvaluatorCollectionDescriptor(
     GameplayLogicManagerHandler = $/UI/LogicManagers/InGameLogicManagerHandler
-    OrderEvaluatorList = [
+    DirectOrdersHandler = [
+        TOrderEvaluatorShootDefensiveSmoke( OrderToken = "ShootDefensiveSmoke"),
+        TOrderEvaluatorAny( OrderToken = "UnloadFromTransport"),
+        TOrderEvaluatorAny( OrderToken = "Sell"),
+        TOrderEvaluatorAny( OrderToken = "Land"),
+        TOrderEvaluatorStop( OrderToken = "Stop"),
+        TOrderEvaluatorAny( OrderToken = "AirplaneEvacuate"),
+        TOrderEvaluatorChangeAltitude( OrderToken = "ChangeAltitude"),
+        TOrderEvaluatorSpread( OrderToken = "Spread"),
+        TOrderEvaluatorAny( OrderToken = "AIDefend"),
+        TOrderEvaluatorAny( OrderToken = "AIManageArtillery_CounterBattery"),
+        TOrderEvaluatorAny( OrderToken = "AIManageArtillery_Auto"),
+        TOrderEvaluatorAny( OrderToken = "AIStop"),
+        TOrderEvaluatorAny( OrderToken = "AIAirplaneAutoManage"),
+        TOrderEvaluatorAny( OrderToken = "AISupply"),
+        TOrderEvaluatorAny( OrderToken = "AIAttack" IsTargetAuthorized = true),
+        TOrderEvaluatorAny( OrderToken = "AIManageArtillery_Focus" IsTargetAuthorized = true),
+        TOrderEvaluatorLoadIntoTransport( OrderToken = "LoadIntoTransport" TerminalIfSelected = true),
+        TOrderEvaluatorLoadUnit( OrderToken = "LoadUnit" TerminalIfSelected = true),
+        TOrderEvaluatorEnterDistrict( OrderToken = "EnterDistrict"),
+        TOrderEvaluatorAttack( OrderToken = "Attack" TerminalIfSelected = true),
+        TOrderEvaluatorAttack( OrderToken = "AirplaneAttack" TerminalIfSelected = true),
+        TOrderEvaluatorMoveAndAttack( OrderToken = "FastMoveAndAttack" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMoveAndAttack( OrderToken = "SmartMoveAndAttack" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMoveAndAttack( OrderToken = "MoveAndAttack" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorShootOnPosition( OrderToken = "ShootOnPositionWithoutCorrection" TerminalIfSelected = true),
+        TOrderEvaluatorShootOnPosition( OrderToken = "ShootOnPositionWithoutCorrectionSmoke" TerminalIfSelected = true),
+        TOrderEvaluatorShootOnPosition( OrderToken = "ShootOnPosition" TerminalIfSelected = true),
+        TOrderEvaluatorShootOnPosition( OrderToken = "ShootOnPositionSmoke" TerminalIfSelected = true),
+        TOrderEvaluatorAny( OrderToken = "Attack" IsTargetAuthorized = false),
+        TOrderEvaluatorUnloadAtPosition( OrderToken = "UnloadAtPosition" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMove( OrderToken = "Reverse" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMove( OrderToken = "QuickMove" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMove( OrderToken = "SmartMove" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMove( OrderToken = "Move" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorUseAnyCapacite( OrderToken = "UseCapacite"),
+        // /!\ Attention, l'evaluator de move valide quasiment tout (c'est une sorte de default case). Bien reflechir/tester avant de rajouter des trucs en dessous : on ne va peut-etre jamais passer dedans !
+    ]
 
-        TOrderEvaluatorShootDefensiveSmoke(
-            OrderToken = "ShootDefensiveSmoke"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
+    ContextualOrdersHandler =
+    [
+        TOrderEvaluatorLoadIntoTransport( OrderToken = "LoadIntoTransport" TerminalIfSelected = true),
+        TOrderEvaluatorLoadUnit( OrderToken = "LoadUnit" TerminalIfSelected = true),
+        TOrderEvaluatorAssaultDistrict( OrderToken = "AssaultDistrict"),
+        TOrderEvaluatorEnterDistrict( OrderToken = "EnterDistrict"),
+        TOrderEvaluatorAttack( OrderToken = "Attack" TerminalIfSelected = true),
+        TOrderEvaluatorAttack( OrderToken = "AirplaneAttack" TerminalIfSelected = true),
+        TOrderEvaluatorMoveAndAttack( OrderToken = "FastMoveAndAttack" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMoveAndAttack( OrderToken = "SmartMoveAndAttack" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMoveAndAttack( OrderToken = "MoveAndAttack" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMove( OrderToken = "QuickMove" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMove( OrderToken = "SmartMove" ClampDestinationOnNavMesh = true),
+        TOrderEvaluatorMove( OrderToken = "Move" ClampDestinationOnNavMesh = true),
+    ]
 
-        TOrderEvaluatorAny(
-            OrderToken = "UnloadFromTransport"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
 
-        TOrderEvaluatorAny(
-            OrderToken = "Sell"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "Land"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorStop(
-            OrderToken = "Stop"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "AirplaneEvacuate"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorChangeAltitude(
-            OrderToken = "ChangeAltitude"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorSpread(
-            OrderToken = "Spread"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "AIDefend"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "AIManageArtillery_CounterBattery"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "AIManageArtillery_Auto"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "AIStop"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "AIAirplaneAutoManage"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "AISupply"
-            IgnoreDefaultOrder = true
-            IgnoreDirectOrder = false
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "AIAttack"
-            IgnoreDefaultOrder = true
-            FXFeedback = $/GFX/GameFx/FX_Feedback_AIAttack
-            MouseWidgetSelector = "MouseWidgetSelector_AIAttack"
-            PlayFXFeedbackWithoutTargets = true
-            IsTargetAuthorized = true
-        ),
-
-        TOrderEvaluatorAny(
-            OrderToken = "AIManageArtillery_Focus"
-            IgnoreDefaultOrder = true
-            FXFeedback = $/GFX/GameFx/FX_Feedback_AIArtillery_Focus
-            MouseWidgetSelector = "MouseWidgetSelector_AIArtilleryFocus"
-            PlayFXFeedbackWithoutTargets = true
-            IsTargetAuthorized = true
-        ),
-
-        TOrderEvaluatorLoadIntoTransport(
-            OrderToken = "LoadIntoTransport"
-            IgnoreDefaultOrder = false
+    OrderFeedbacksMap = MAP [
+        ("Move", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Move
             MouseWidgetSelector = "MouseWidgetSelector_DefaultOrder"
-        ),
-
-        TOrderEvaluatorLoadUnit(
-            OrderToken = "LoadUnit"
-            IgnoreDefaultOrder = false
+            PlayFXFeedbackWithoutTargets = true
+        )),
+        ("QuickMove", TOrderFeedback(
+            FXFeedback = $/GFX/GameFx/FX_Feedback_Move
+            MouseWidgetSelector = "MouseWidgetSelector_MoveFast"
+            PlayFXFeedbackWithoutTargets = true
+        )),
+        ("Reverse", TOrderFeedback(
+            FXFeedback = $/GFX/GameFx/FX_Feedback_Move
+            MouseWidgetSelector = "MouseWidgetSelector_Reverse"
+            PlayFXFeedbackWithoutTargets = true
+        )),
+        ("SmartMove", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Move
             MouseWidgetSelector = "MouseWidgetSelector_DefaultOrder"
-        ),
+            PlayFXFeedbackWithoutTargets = true
+            OrderInterpretationForOrderDisplayAndAcknows = "Move"
+        )),
 
-        TOrderEvaluatorAssaultDistrict(
-            OrderToken = "AssaultDistrict"
-            IgnoreDefaultOrder = false
-            IgnoreDirectOrder = true
+        ("Attack", TOrderFeedback(
+            FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
+            MouseWidgetSelector = "MouseWidgetSelector_Attack"
+            PlayFXFeedbackWithoutTargets = true
+        )),
+        ("AirplaneAttack", TOrderFeedback(
+            FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
+            MouseWidgetSelector = "MouseWidgetSelector_Attack"
+            PlayFXFeedbackWithoutTargets = true
+        )),
+
+        ("AssaultDistrict", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
             MouseWidgetSelector = "MouseWidgetSelector_Attack"
             OrderInterpretationForOrderDisplayAndAcknows = "AssaultDistrict"
-        ),
-
-        TOrderEvaluatorEnterDistrict(
-            OrderToken = "EnterDistrict"
-            IgnoreDefaultOrder = false
+        )),
+        ("EnterDistrict", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Move
             MouseWidgetSelector =  "MouseWidgetSelector_DefaultOrder"
-        ),
+        )),
 
-        TOrderEvaluatorAttack(
-            OrderToken = "Attack"
-            IgnoreDefaultOrder = false
+        ("MoveAndAttack", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
             MouseWidgetSelector = "MouseWidgetSelector_Attack"
             PlayFXFeedbackWithoutTargets = true
-        ),
-
-        TOrderEvaluatorAttack(
-            OrderToken = "AirplaneAttack"
-            IgnoreDefaultOrder = false
+            OrderInterpretationForOrderDisplayAndAcknows = "MoveAndAttack"
+        )),
+        ("FastMoveAndAttack", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
             MouseWidgetSelector = "MouseWidgetSelector_Attack"
             PlayFXFeedbackWithoutTargets = true
-        ),
-
-        TOrderEvaluatorMoveAndAttack(
-            OrderToken = "FastMoveAndAttack"
-            IgnoreDefaultOrder = false
-            IgnoreDirectOrder = false
-            FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
-            MouseWidgetSelector = "MouseWidgetSelector_Attack"
-            PlayFXFeedbackWithoutTargets = true
-            ClampDestinationOnNavMesh = true
             OrderInterpretationForOrderDisplayAndAcknows = "FastMoveAndAttack"
-        ),
-
-        TOrderEvaluatorMoveAndAttack(
-            OrderToken = "SmartMoveAndAttack"
-            IgnoreDefaultOrder = false
-            IgnoreDirectOrder = false
+        )),
+        ("SmartMoveAndAttack", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
             MouseWidgetSelector = "MouseWidgetSelector_Attack"
             PlayFXFeedbackWithoutTargets = true
-            ClampDestinationOnNavMesh = true
             OrderInterpretationForOrderDisplayAndAcknows = "MoveAndAttack"
-        ),
+        )),
 
-        TOrderEvaluatorMoveAndAttack(
-            OrderToken = "MoveAndAttack"
-            IgnoreDefaultOrder = false
-            IgnoreDirectOrder = false
-            FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
-            MouseWidgetSelector = "MouseWidgetSelector_Attack"
+        ("LoadIntoTransport", TOrderFeedback(
+            FXFeedback = $/GFX/GameFx/FX_Feedback_Move
+            MouseWidgetSelector = "MouseWidgetSelector_DefaultOrder"
+        )),
+        ("LoadUnit", TOrderFeedback(
+            FXFeedback = $/GFX/GameFx/FX_Feedback_Move
+            MouseWidgetSelector = "MouseWidgetSelector_DefaultOrder"
+        )),
+        ("UnloadFromTransport", TOrderFeedback()),
+        ("UnloadAtPosition", TOrderFeedback(
+            FXFeedback = $/GFX/GameFx/FX_Feedback_Move
+            MouseWidgetSelector = "MouseWidgetSelector_UnloadAtPosition"
             PlayFXFeedbackWithoutTargets = true
-            ClampDestinationOnNavMesh = true
-            OrderInterpretationForOrderDisplayAndAcknows = "MoveAndAttack"
-        ),
+        )),
 
-        TOrderEvaluatorShootOnPosition(
-            OrderToken = "ShootOnPositionWithoutCorrection"
-            IgnoreDefaultOrder = true
+        ("Sell", TOrderFeedback()),
+        ("Land", TOrderFeedback()),
+        ("Stop", TOrderFeedback()),
+        ("AirplaneEvacuate", TOrderFeedback()),
+        ("ChangeAltitude", TOrderFeedback()),
+        ("Spread", TOrderFeedback()),
+
+        ("AIDefend", TOrderFeedback()),
+        ("AIManageArtillery_CounterBattery", TOrderFeedback()),
+        ("AIManageArtillery_Auto", TOrderFeedback()),
+        ("AIStop", TOrderFeedback()),
+        ("AIAirplaneAutoManage", TOrderFeedback()),
+        ("AISupply", TOrderFeedback()),
+        ("AIAttack", TOrderFeedback(
+            FXFeedback = $/GFX/GameFx/FX_Feedback_AIAttack
+            MouseWidgetSelector = "MouseWidgetSelector_AIAttack"
+            PlayFXFeedbackWithoutTargets = true
+        )),
+        ("AIManageArtillery_Focus", TOrderFeedback(
+            FXFeedback = $/GFX/GameFx/FX_Feedback_AIArtillery_Focus
+            MouseWidgetSelector = "MouseWidgetSelector_AIArtilleryFocus"
+            PlayFXFeedbackWithoutTargets = true
+        )),
+
+        ("ShootDefensiveSmoke", TOrderFeedback()),
+        ("ShootOnPositionWithoutCorrection", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
             MouseWidgetSelector = "MouseWidgetSelector_Attack"
             PlayFXFeedbackWithoutTargets = true
             OrderInterpretationForOrderDisplayAndAcknows = "ShootOnPosition"
-        ),
-
-        TOrderEvaluatorShootOnPosition(
-            OrderToken = "ShootOnPositionWithoutCorrectionSmoke"
-            IgnoreDefaultOrder = true
+        )),
+        ("ShootOnPositionWithoutCorrectionSmoke", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
             MouseWidgetSelector = "MouseWidgetSelector_Attack"
             PlayFXFeedbackWithoutTargets = true
             OrderInterpretationForOrderDisplayAndAcknows = "ShootOnPositionSmoke"
-        ),
-
-        TOrderEvaluatorShootOnPosition(
-            OrderToken = "ShootOnPosition"
-            IgnoreDefaultOrder = true
+        )),
+        ("ShootOnPosition", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
             MouseWidgetSelector = "MouseWidgetSelector_Attack"
             PlayFXFeedbackWithoutTargets = true
-        ),
-
-        TOrderEvaluatorShootOnPosition(
-            OrderToken = "ShootOnPositionSmoke"
-            IgnoreDefaultOrder = false
+        )),
+        ("ShootOnPositionSmoke", TOrderFeedback(
             FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
             MouseWidgetSelector = "MouseWidgetSelector_Attack"
             PlayFXFeedbackWithoutTargets = true
-        ),
+        )),
 
-        TOrderEvaluatorAny(
-            OrderToken = "Attack"
-            IgnoreDefaultOrder = true
-            FXFeedback = $/GFX/GameFx/FX_Feedback_Attack
-            MouseWidgetSelector = "MouseWidgetSelector_Attack"
-            PlayFXFeedbackWithoutTargets = true
-            IsTargetAuthorized = false
-        ),
-
-        TOrderEvaluatorUnloadAtPosition(
-            OrderToken = "UnloadAtPosition"
-            IgnoreDefaultOrder = true
-            FXFeedback = $/GFX/GameFx/FX_Feedback_Move
-            MouseWidgetSelector = "MouseWidgetSelector_UnloadAtPosition"
-            PlayFXFeedbackWithoutTargets = true
-            ClampDestinationOnNavMesh = true
-        ),
-
-        TOrderEvaluatorMove(
-            OrderToken = "Reverse"
-            IgnoreDefaultOrder = true
-            FXFeedback = $/GFX/GameFx/FX_Feedback_Move
-            MouseWidgetSelector = "MouseWidgetSelector_Reverse"
-            PlayFXFeedbackWithoutTargets = true
-            ClampDestinationOnNavMesh = true
-        ),
-
-        TOrderEvaluatorMove(
-            OrderToken = "QuickMove"
-            IgnoreDefaultOrder = false
-            FXFeedback = $/GFX/GameFx/FX_Feedback_Move
-            MouseWidgetSelector = "MouseWidgetSelector_MoveFast"
-            PlayFXFeedbackWithoutTargets = true
-            ClampDestinationOnNavMesh = true
-        ),
-
-        TOrderEvaluatorMove(
-            OrderToken = "SmartMove"
-            IgnoreDefaultOrder = false
-            FXFeedback = $/GFX/GameFx/FX_Feedback_Move
-            MouseWidgetSelector = "MouseWidgetSelector_DefaultOrder"
-            PlayFXFeedbackWithoutTargets = true
-            ClampDestinationOnNavMesh = true
-            OrderInterpretationForOrderDisplayAndAcknows = "Move"
-        ),
-
-        TOrderEvaluatorMove(
-            OrderToken = "Move"
-            IgnoreDefaultOrder = false
-            FXFeedback = $/GFX/GameFx/FX_Feedback_Move
-            MouseWidgetSelector = "MouseWidgetSelector_DefaultOrder"
-            PlayFXFeedbackWithoutTargets = true
-            ClampDestinationOnNavMesh = true
-        ),
-
-        TOrderEvaluatorUseAnyCapacite(
-            OrderToken = "UseCapacite"
-            IgnoreDefaultOrder = true
+        ("UseCapacite", TOrderFeedback(
             MouseWidgetSelector = "MouseWidgetSelector_Capacity"
-        ),
-        // /!\ Attention, l'evaluator de move valide quasiment tout (c'est une sorte de default case). Bien reflechir/tester avant de rajouter des trucs en dessous : on ne va peut-etre jamais passer dedans !
+        )),
     ]
 )
-

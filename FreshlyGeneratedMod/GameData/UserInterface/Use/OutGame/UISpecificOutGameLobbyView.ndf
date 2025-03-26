@@ -662,7 +662,7 @@ AxisContainer is BUCKListElementDescriptor
 
 //-------------------------------------------------------------------------------------
 
-BUCKSpecificOutGameLobbyMainComponentDescriptor is  BUCKContainerDescriptor
+BUCKSpecificOutGameLobbyMainComponentDescriptor is BUCKContainerDescriptor
 (
     ElementName = "BUCKSpecificOutGameLobbyMainComponentDescriptor"
     ComponentFrame = TUIFramePropertyRTTI
@@ -682,7 +682,6 @@ BUCKSpecificOutGameLobbyMainComponentDescriptor is  BUCKContainerDescriptor
                 AlignementToFather = [0.5, 1.0]
             )
 
-            TriggerWhenSetVisible = true
             AnimationTotalDuration = 0.2
             AnimationModificator = ~/AnimModificator/CubicStep
             AnimationModificatorParameters = [0.0, 1.0]

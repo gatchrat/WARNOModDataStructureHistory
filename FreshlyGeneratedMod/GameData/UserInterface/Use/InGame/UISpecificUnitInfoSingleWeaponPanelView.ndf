@@ -970,6 +970,8 @@ is TUISpecificUnitInfoSingleWeaponPanelViewDescriptor
 
     ]
 
+    WeaponTraitsContainer = ~/WeaponTraits
+
     WeaponDamageTypeAttributeDummy = ~/WeaponDamageTypeAttributeDummy // permet de configurer les "" dans le tableau du DamageTypeConfiguration
     NotApplicableToken = "UIP_NA"
     NoValueToken = "UIP_NOVAL"

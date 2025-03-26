@@ -55,6 +55,11 @@ template BUCKSpecificEditableTextDescriptor
 
     MaxChars : int = DefaultEditableTextMaxChar,
 
+    PlaceholderTextName : string = "",
+    PlaceholderTextToken : string = "",
+    PlaceholderTextDico : string = "",
+    PlaceholderTextColor : string = "Black_50",
+    PlaceHolderTextMagnifiableOffset : float2 = [15.0, 0.0],
     TextStyle : string = "",
 
     Flags : int = 0,
@@ -106,6 +111,11 @@ is BUCKEditableTextDescriptor
     TextColorToken = <TextColorToken>
     TextSizeToken = <TextSizeToken>
 
+    PlaceholderTextName = <PlaceholderTextName>
+    PlaceholderTextToken = <PlaceholderTextToken>
+    PlaceholderTextDico = <PlaceholderTextDico>
+    PlaceholderTextColor = <PlaceholderTextColor>
+    PlaceHolderTextMagnifiableOffset = <PlaceHolderTextMagnifiableOffset>
     MaxChars = <MaxChars>
 
     TextStyle = <TextStyle>
@@ -115,11 +125,15 @@ is BUCKEditableTextDescriptor
     SelectTextOnFocus = <SelectTextOnFocus>
 )
 
+//-------------------------------------------------------------------------------------
+
 private DefaultChampSaisieHeight is 33.0
 private DefaultChampSaisieWidth is 385.0
 private DefaultChampSaisieDims is [ DefaultChampSaisieWidth, DefaultChampSaisieHeight ]
 
 private DefaultChampSaisieMaxChar is 36
+
+//-------------------------------------------------------------------------------------
 
 template BUCKEditableTextInputFieldDescriptor
 [
@@ -136,7 +150,6 @@ template BUCKEditableTextInputFieldDescriptor
     SelectTextOnFocus : bool = true,
     TextSizeToken : string = "SD2_Moyen",
     TextStyle : string = "",
-
     DontMaskEventOnValidate : bool = false,
     ClippingContainerFrameProperty : TUIFramePropertyRTTI = TUIFramePropertyRTTI
     (
@@ -184,14 +197,13 @@ is BUCKSpecificEditableTextDescriptor
     DontMaskEventOnValidate = <DontMaskEventOnValidate>
 )
 
-
-
+//-------------------------------------------------------------------------------------
 
 // Editable text used for login panel and game room list panel
 template BUCKSpecificEditableTextInputFieldDescriptor
 [
-    UniqueName : string = '',
-    ElementName : string = '',
+    UniqueName : string = "",
+    ElementName : string = "",
     ComponentFrame : TUIFramePropertyRTTI = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [700.0, 30.0]

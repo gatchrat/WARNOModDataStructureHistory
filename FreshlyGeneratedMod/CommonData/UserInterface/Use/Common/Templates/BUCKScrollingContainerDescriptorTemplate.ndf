@@ -42,9 +42,6 @@ template BUCKScrollbarDescriptor
     FirstMargin : TRTTILength = TRTTILength(),
     InterItemMargin : TRTTILength = TRTTILength(),
     LastMargin : TRTTILength = TRTTILength(),
-
-    AssumeChildrenAreFixedSize : bool = false,
-    AssumeChildrenAreClippable : bool = false,
     // -- BUCKListDescriptor
 
     GoToBeginningButton : TBUCKButtonDescriptor = nil,
@@ -102,9 +99,6 @@ is TBUCKScrollbarDescriptor
     FirstMargin = <FirstMargin>
     InterItemMargin = <InterItemMargin>
     LastMargin = <LastMargin>
-
-    AssumeChildrenAreFixedSize = <AssumeChildrenAreFixedSize>
-    AssumeChildrenAreClippable = <AssumeChildrenAreClippable>
     // -- BUCKListDescriptor
 
     GoToBeginningButtonName = <GoToBeginningButtonName>
@@ -184,9 +178,6 @@ template BUCKSliderDescriptor
     FirstMargin : TRTTILength = TRTTILength(),
     InterItemMargin : TRTTILength = TRTTILength(),
     LastMargin : TRTTILength = TRTTILength(),
-
-    AssumeChildrenAreFixedSize : bool = false,
-    AssumeChildrenAreClippable : bool = false,
     // -- BUCKListDescriptor
 
     // ++ BUCKScrollbarDescriptor
@@ -245,9 +236,6 @@ is TBUCKSliderDescriptor
     FirstMargin = <FirstMargin>
     InterItemMargin = <InterItemMargin>
     LastMargin = <LastMargin>
-
-    AssumeChildrenAreFixedSize = <AssumeChildrenAreFixedSize>
-    AssumeChildrenAreClippable = <AssumeChildrenAreClippable>
     // -- BUCKListDescriptor
 
     // ++ BUCKScrollbarDescriptor

@@ -48,15 +48,13 @@ PawnAirplaneOrderConfigModuleDescriptor is TOrderConfigModuleDescriptor()
 
 PawnAirportScannerConfigurationDescriptor is TScannerConfigurationDescriptor
 (
-    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
-    PorteeVisionTBAGRU = 0.0
-    PorteeVisionFOWGRU = 0.0
-    DetectionTBAGRU = 353.356890459
-    PorteeVisionGRU = 353.356890459
-    PorteeIdentification = 0.0
-    OpticalStrength = 120
-    OpticalStrengthAltitude = 60
-    SpecializedDetectionsGRU = MAP [
-        ( EVisionUnitType/AlwaysInHighAltitude, 706.713780919 ),
+    VisionRangesGRU = MAP [
+        ( EVisionUnitType/Standard, 353.356890459 ),
+        ( EVisionUnitType/HighAltitude, 706.713780919 ),
+    ]
+    OpticalStrengths = MAP [
+        ( EVisionUnitType/Standard, 120.0 ),
+        ( EVisionUnitType/LowAltitude, 120.0 ),
+        ( EVisionUnitType/HighAltitude, 60.0 ),
     ]
 )

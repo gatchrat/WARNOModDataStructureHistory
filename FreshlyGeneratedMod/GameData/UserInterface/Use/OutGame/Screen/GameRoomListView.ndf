@@ -231,18 +231,18 @@ GameRoomListPanelWindowFrame is BUCKContainerDescriptor
 
         ListeDesParties,
 
-        BUCKCheckBoxListDescriptor
+        BUCKSimpleButtonCheckBoxListDescriptor
         (
             ElementName = "FiltersList"
             TextColor = "Gris_QuickServeur"
-            ToggleListButtonText = 'filter'
+            ToggleListButtonTextToken = "filter"
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableOffset = [-4.0, 498.0+50]
+                MagnifiableOffset = [-4.0, 548.0]
             )
-            BoxMagnifiableWidthHeight = [50,50]
-            TextureToken = 'outgame_icone_filter'
-            TextureColorToken = 'boutonFiltre'
+            BoxMagnifiableWidthHeight = [50.0, 50.0]
+            TextureToken = "outgame_icone_filter"
+            TextureColorToken = "boutonFiltre"
             CheckboxHasBackground = false
             CheckboxHasBorder = false
         ),
@@ -1130,7 +1130,6 @@ UISpecificOutGameGameRoomListViewDescriptor is TUISpecificOutGameGameRoomListVie
     MainComponentContainerUniqueName = "MultiGameRoomListContainer" // Permet d'indiquer l'endroit ou le composant doit s'insérer
     ModaleAskPassword = ~/ModaleAskPasswordWindowFrame
 
-    ChallengeModeComponent = GameModeDecorationComponent( TextureToken = "" ) //La texture et les hints seront settes via le code
     StrategicModeComponent = GameModeDecorationComponent
     (
         TextureToken = "OutgameTexture_StrategicModeTexture"

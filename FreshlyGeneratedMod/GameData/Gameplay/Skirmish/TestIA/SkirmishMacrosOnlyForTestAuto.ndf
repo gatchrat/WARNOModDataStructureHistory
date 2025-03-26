@@ -137,18 +137,7 @@ export Pool_Commandant_TestAuto is TPoolModel
 //-------------------------------------------------------------------------
 //Defense
 //-------------------------------------------------------------------------
-export Static_Defense_OnlyTestAuto is TMacroActionDescriptor_CorridorDefense_Specific
-(
-    ParametresDeMission =
-    [
-        TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = 1),
-        TMacroActionProductionSettingHolder(PoolModelList = [ ~/Pool_Defense_TestAuto]),
-        TForcedPlacementSettingHolder(ForcedCorridor = [2]), // On force le couloirs pour ne pas dépendre du déterminisme
-    ]
-)
-
-//-------------------------------------------------------------------------
-export Dynamic_Defense_OnlyTestAuto is TMacroActionDescriptor_CorridorDynamicDefense_Specific
+export Corridor_Defense_OnlyTestAuto is TMacroActionDescriptor_CorridorDefense_Specific
 (
     ParametresDeMission =
     [

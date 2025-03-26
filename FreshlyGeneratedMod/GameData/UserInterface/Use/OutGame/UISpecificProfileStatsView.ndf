@@ -714,145 +714,168 @@ StatsPanelRankMultiList is BUCKListDescriptor
 // -------------------------------------------------------------------------------------------------
 // MULTIPLAYER
 // -------------------------------------------------------------------------------------------------
-StatsPanelMultiplayerMultiList is BUCKListDescriptor
+StatsPanelMultiplayerMultiList is BUCKSpecificScrollingContainerDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [1.0, 0.0]
+        MagnifiableWidthHeight = [0.0, 630.0]
     )
 
-    Axis = ~/ListAxis/Vertical
-    FirstMargin = TRTTILength (Magnifiable = DecalageFeuille)
-    Elements =
+    ExternalScrollbar = false
+    HasVerticalScrollbar = true
+
+    VerticalScrollbarComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [5.0, 0.0]
+        MagnifiableOffset = [-10.0, 0.0]
+        AlignementToAnchor = [1.0, 0.0]
+        AlignementToFather = [1.0, 0.0]
+    )
+
+    Components =
     [
-        // Player name
-        BUCKListElementDescriptor
+        BUCKListDescriptor
         (
-            ComponentDescriptor = StatsPanelMultiListPlayerName( Category = "MultiplayerMulti" )
-        ),
-
-        /// Multiplayer
-
-        // Title
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StatsPanelMultiListTitleLine
+            ComponentFrame = TUIFramePropertyRTTI
             (
-                ElementName = "SubtitleMultiplayer"
-                //TitleToken = "SP_MULTIT"
+                RelativeWidthHeight = [1.0, 0.0]
             )
-        ),
 
-        // Multiplayer Matches
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StatsPanelMultiListLine
-            (
-                ElementName = "MultiplayerMatches"
-                TextToken = "SP_MLTGAM"
-            )
-        ),
-
-        // Multiplayer Victories
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StatsPanelMultiListLine
-            (
-                ElementName = "MultiplayerVictories"
-                TextToken = "SP_MLTVIC"
-            )
-        ),
-
-        // Multiplayer Defeats
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StatsPanelMultiListLine
-            (
-                ElementName = "MultiplayerDefeats"
-                TextToken = "SP_MLTDEF"
-            )
-        ),
-
-        // Multiplayer Draws
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StatsPanelMultiListLine
-            (
-                ElementName = "MultiplayerDraws"
-                TextToken = "SP_MLTDRA"
-            )
-        ),
-
-        // Multiplayer Ratio
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StatsPanelMultiListLine
-            (
-                ElementName = "MultiplayerRatio"
-                TextToken = "SP_MLTRAT"
-            )
-        ),
-
-        // Multiplayer Game With NATO
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StatsPanelMultiListLine
-            (
-                ElementName = "MultiplayerGameWithNATO"
-                TextToken = "SP_MLTNATO"
-            )
-        ),
-
-        // Multiplayer Game With PACT
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StatsPanelMultiListLine
-            (
-                ElementName = "MultiplayerGameWithPACT"
-                TextToken = "SP_MLTPACT"
-            )
-        ),
-
-        // Last Multi Game Played
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StatsPanelMultiListLine
-            (
-                ElementName = "LastMultiGamePlayed"
-                TextToken = "SP_LSTPLY"
-            )
-        ),
-        /// Division played in multiplayer games
-
-        // Title
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = StatsPanelMultiListTitleLine
-            (
-                ElementName = "SubtitleSortedDiv"
-                TitleToken = "SP_SRTDIVT"
-            )
-        ),
-
-        // Sorted divisions
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = BUCKRackDescriptor
-            (
-                ElementName = "DivisionRack"
-                ComponentFrame = TUIFramePropertyRTTI
+            Axis = ~/ListAxis/Vertical
+            FirstMargin = TRTTILength (Magnifiable = DecalageFeuille)
+            Elements =
+            [
+                // Player name
+                BUCKListElementDescriptor
                 (
-                    RelativeWidthHeight = [1.0, 0.0]
-                )
+                    ComponentDescriptor = StatsPanelMultiListPlayerName( Category = "MultiplayerMulti" )
+                ),
 
-                Axis = ~/ListAxis/Vertical
+                /// Multiplayer
 
-                BladeDescriptor = StatsPanelMultiListLine
+                // Title
+                BUCKListElementDescriptor
                 (
-                    ElementName = 'DivisionLine'
-                    TextToken = ''
+                    ComponentDescriptor = StatsPanelMultiListTitleLine
+                    (
+                        ElementName = "SubtitleMultiplayer"
+                        //TitleToken = "SP_MULTIT"
+                    )
+                ),
+
+                // Multiplayer Matches
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = StatsPanelMultiListLine
+                    (
+                        ElementName = "MultiplayerMatches"
+                        TextToken = "SP_MLTGAM"
+                    )
+                ),
+
+                // Multiplayer Victories
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = StatsPanelMultiListLine
+                    (
+                        ElementName = "MultiplayerVictories"
+                        TextToken = "SP_MLTVIC"
+                    )
+                ),
+
+                // Multiplayer Defeats
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = StatsPanelMultiListLine
+                    (
+                        ElementName = "MultiplayerDefeats"
+                        TextToken = "SP_MLTDEF"
+                    )
+                ),
+
+                // Multiplayer Draws
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = StatsPanelMultiListLine
+                    (
+                        ElementName = "MultiplayerDraws"
+                        TextToken = "SP_MLTDRA"
+                    )
+                ),
+
+                // Multiplayer Ratio
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = StatsPanelMultiListLine
+                    (
+                        ElementName = "MultiplayerRatio"
+                        TextToken = "SP_MLTRAT"
+                    )
+                ),
+
+                // Multiplayer Game With NATO
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = StatsPanelMultiListLine
+                    (
+                        ElementName = "MultiplayerGameWithNATO"
+                        TextToken = "SP_MLTNATO"
+                    )
+                ),
+
+                // Multiplayer Game With PACT
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = StatsPanelMultiListLine
+                    (
+                        ElementName = "MultiplayerGameWithPACT"
+                        TextToken = "SP_MLTPACT"
+                    )
+                ),
+
+                // Last Multi Game Played
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = StatsPanelMultiListLine
+                    (
+                        ElementName = "LastMultiGamePlayed"
+                        TextToken = "SP_LSTPLY"
+                    )
+                ),
+                /// Division played in multiplayer games
+
+                // Title
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = StatsPanelMultiListTitleLine
+                    (
+                        ElementName = "SubtitleSortedDiv"
+                        TitleToken = "SP_SRTDIVT"
+                    )
+                ),
+
+                // Sorted divisions
+                BUCKListElementDescriptor
+                (
+                    ComponentDescriptor = BUCKRackDescriptor
+                    (
+                        ElementName = "DivisionRack"
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            RelativeWidthHeight = [1.0, 0.0]
+                        )
+
+                        Axis = ~/ListAxis/Vertical
+
+                        BladeDescriptor = StatsPanelMultiListLine
+                        (
+                            ElementName = 'DivisionLine'
+                            TextToken = ''
+                        )
+                    )
                 )
-            )
+            ]
         )
     ]
 )

@@ -50,9 +50,6 @@ template BUCKGridDescriptor
     // InterItemMargin : TRTTILength = TRTTILength(),                                           // Dans une Grid ce paramètre n'est pas utilisé
     // LastMargin : TRTTILength = TRTTILength(),                                                // Dans une Grid ce paramètre n'est pas utilisé
 
-    AssumeChildrenAreFixedSize : bool = false,
-    AssumeChildrenAreClippable : bool = false,
-
     // Elements : LIST<TBUCKListElementDescriptor> = []                                         // Dans une Grid ce paramètre n'est pas utilisé
     // -- BUCKListDescriptor
 
@@ -120,9 +117,6 @@ is TBUCKGridDescriptor
     FirstMargin = TRTTILength()
     InterItemMargin = TRTTILength()
     LastMargin = TRTTILength()
-
-    AssumeChildrenAreFixedSize = <AssumeChildrenAreFixedSize>
-    AssumeChildrenAreClippable = <AssumeChildrenAreClippable>
     // -- BUCKListDescriptor
 
     FirstElementMargin = <FirstElementMargin>

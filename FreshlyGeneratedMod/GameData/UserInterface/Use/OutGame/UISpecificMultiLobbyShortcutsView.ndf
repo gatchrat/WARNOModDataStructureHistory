@@ -337,7 +337,7 @@ UISpecificMultiLobbyShortcutsViewDescriptor is TUISpecificMultiLobbyShortcutsVie
             NumberOfPlayers = 6
             InitMoney       = 1000
             UseAutofill     = false
-            CombatRule      = ~/CombatRule/Conquest
+            CombatRule      = ~/ECombatRule/Conquest
         ),
         TLobbyNDFDescriptor
         (
@@ -345,7 +345,7 @@ UISpecificMultiLobbyShortcutsViewDescriptor is TUISpecificMultiLobbyShortcutsVie
             NumberOfPlayers = 20
             InitMoney       = 1500
             UseAutofill     = false
-            CombatRule      = ~/CombatRule/Conquest
+            CombatRule      = ~/ECombatRule/Conquest
         ),
         TLobbyNDFDescriptor
         (
@@ -353,7 +353,7 @@ UISpecificMultiLobbyShortcutsViewDescriptor is TUISpecificMultiLobbyShortcutsVie
             NumberOfPlayers = 20
             InitMoney       = 1000
             UseAutofill = false
-            CombatRule      = ~/CombatRule/Conquest
+            CombatRule      = ~/ECombatRule/Conquest
         ),
     ]
 )

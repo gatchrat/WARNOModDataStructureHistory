@@ -41,14 +41,11 @@ is HUDButton
 
 //-------------------------------------------------------------------------------------
 private ArmoryCategoryRadioButtonManager is TBUCKRadioButtonManager()
-
 private ArmoryCategoryButtonDescriptor is BUCKButtonDescriptor
 (
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [70.0, 34.0]
-        AlignementToAnchor = [0.5, 0.0]
-        AlignementToFather = [0.5, 0.0]
     )
 
     LeftClickSound = SoundEvent_ArmorySwitchCategory
@@ -57,17 +54,17 @@ private ArmoryCategoryButtonDescriptor is BUCKButtonDescriptor
 
     Components =
     [
-        BUCKTextureDescriptor
+        BUCKContainerDescriptor
         (
-            TextureToken = "Texture_ShortButton"
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [72.0, 36.0]
-                AlignementToAnchor = [0.5, 0.5]
-                AlignementToFather = [0.5, 0.5]
+                RelativeWidthHeight = [1.0, 1.0]
             )
-
-            ResizeMode = ~/TextureResizeMode/UserDefined
+            HasBackground = true
+            BackgroundBlockColorToken = 'AmroryButtonBkg'
+            HasBorder = true
+            BorderLineColorToken = 'AmroryButtonTxt'
+            BorderThicknessToken = '1'
         ),
         BUCKTextDescriptor
         (
@@ -89,7 +86,7 @@ private ArmoryCategoryButtonDescriptor is BUCKButtonDescriptor
 
             TextSize = "22"
             TextDico = ~/LocalisationConstantes/dico_interface_outgame
-            TextColor = "MarronPanel_noir2"
+            TextColor = "AmroryButtonTxt"
         ),
         BUCKSpecificHintableArea
         (
@@ -97,55 +94,6 @@ private ArmoryCategoryButtonDescriptor is BUCKButtonDescriptor
             DicoToken = ~/LocalisationConstantes/dico_interface_ingame
         )
     ]
-)
-
-//-------------------------------------------------------------------------------------
-
-private template CategoryFiltersMainRack
-[
-    ElementNamePrefix : string,
-    TextureColorToken : string = "GrisOnglet_armory",
-    MagnifiableWidthHeight : float2,
-    MagnifiableWidthHeight_button : float2,
-] is BUCKListElementDescriptor
-(
-    ComponentDescriptor = BUCKRackDescriptor
-    (
-        ElementName = <ElementNamePrefix> + "FiltersMainRack"
-
-        ComponentFrame = TUIFramePropertyRTTI
-        (
-            AlignementToAnchor = [0.5, 0.0]
-            AlignementToFather = [0.5, 0.0]
-        )
-
-        BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
-        Axis = ~/ListAxis/Vertical
-
-        InterItemMargin = TRTTILength(Magnifiable = 8.0)
-
-        BladeDescriptor = BUCKRackDescriptor
-        (
-            ElementName = "FiltersSubRack"
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                AlignementToAnchor = [0.5, 0.0]
-                AlignementToFather = [0.5, 0.0]
-            )
-
-            BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
-            Axis = ~/ListAxis/Horizontal
-            InterItemMargin = TRTTILength(Magnifiable = 2.0)
-            BladeDescriptor = ShowroomTogglableFilterButton
-            (
-                ElementName = "FilterButton"
-                MagnifiableWidthHeight = <MagnifiableWidthHeight_button>
-                SubComponentMagnifiableWidthHeight = <MagnifiableWidthHeight>
-                SubComponentRelativeWidthHeight = [0.0, 0.0]
-                TextureColorToken = <TextureColorToken>
-            )
-        )
-    )
 )
 
 //-------------------------------------------------------------------------------------
@@ -177,7 +125,7 @@ private BoutonMenuShowRoomArmory is BUCKContainerDescriptor
 
 BattlegroupsButton is BUCKButtonDescriptor
 (
-    ElementName = 'BattlegroupsButton'
+    ElementName = "BattlegroupsButton"
 
     ComponentFrame = TUIFramePropertyRTTI
     (
@@ -203,7 +151,7 @@ BattlegroupsButton is BUCKButtonDescriptor
                 AlignementToFather = [0.5, 0.0]
             )
 
-            TextureToken = 'deck_fond'
+            TextureToken = "deck_fond"
 
             Components =
             [
@@ -238,8 +186,9 @@ BattlegroupsButton is BUCKButtonDescriptor
                         AlignementToFather = [1.0, 0.0]
                         AlignementToAnchor = [1.0, 0.0]
                     )
-                    TextureToken = 'showRoomTexture_maximize'
-                    TextureColorToken = 'MarronPanel_noir_toggled2'
+                    ComponentStateLocked = true
+                    TextureToken = "showRoomTexture_maximize"
+                    TextureColorToken = "MarronPanel_noir_toggled2"
                     Rotation = -90
                 ),
             ]
@@ -252,7 +201,7 @@ BattlegroupsButton is BUCKButtonDescriptor
 template ShowroomTogglableFilterButton
 [
     ElementName : string = "",
-    MagnifiableWidthHeight : float2 = [56.0, 36.0],
+    MagnifiableWidthHeight : float2 = [72.0, 43.2],
     AlignementToAnchor : float2 = [0.0, 0.5],
     AlignementToFather : float2 = [0.0, 0.5],
     SubComponentRelativeWidthHeight : float2 = [1.0, 1.0],
@@ -281,28 +230,29 @@ template ShowroomTogglableFilterButton
     [
         BUCKTextureDescriptor
         (
-            TextureToken = "Texture_ShortButton"
+            ElementName = <ElementName> + "Texture"
             ComponentFrame = TUIFramePropertyRTTI
             (
+
                 RelativeWidthHeight = [1.0, 1.0]
                 AlignementToAnchor = [0.5, 0.5]
                 AlignementToFather = [0.5, 0.5]
             )
-            ResizeMode = ~/TextureResizeMode/UserDefined
+
+            TextureToken = <TextureToken>
+            TextureColorToken = "AmroryFlagColor"
         ),
         BUCKTextureDescriptor
         (
-            ElementName = <ElementName> + "Texture"
             ComponentFrame = TUIFramePropertyRTTI
             (
-                RelativeWidthHeight = <SubComponentRelativeWidthHeight>
-                MagnifiableWidthHeight = <SubComponentMagnifiableWidthHeight>
-                AlignementToAnchor = [0.5, 0.5]
-                AlignementToFather = [0.5, 0.5]
+                MagnifiableWidthHeight = [15.0, 15.0]
+                AlignementToAnchor = [1.0, 1.0]
+                AlignementToFather = [1.0, 1.0]
             )
-            ResizeMode = ~/TextureResizeMode/UserDefined
-            TextureToken = <TextureToken>
-            TextureColorToken = <TextureColorToken>
+
+            TextureToken = "Outgame_deck_filter"
+            TextureColorToken = "ArmoryFiterToggle"
         ),
         BUCKTextDescriptor
         (
@@ -330,23 +280,12 @@ template ShowroomTogglableFilterButton
             TextDico = ~/LocalisationConstantes/dico_interface_outgame
             TextColor = "GrisBois_armory"
         ),
-        BUCKTextureDescriptor
-        (
-            TextureToken = "Texture_ShortButton_FilterButtonOverlay"
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 1.0]
-                AlignementToAnchor = [0.5, 0.5]
-                AlignementToFather = [0.5, 0.5]
-            )
-            ResizeMode = ~/TextureResizeMode/UserDefined
-        ),
         BUCKSpecificHintableArea
         (
             ElementName = <ElementName> + "HintableArea"
             DicoToken = <HintDicoToken>
             HintTitleToken = <HintTitleToken>
-        )
+        ),
     ]
 )
 
@@ -355,7 +294,6 @@ template ShowroomTogglableFilterButton
 ArmoryCountryFilterButtonDescriptor is ShowroomTogglableFilterButton
 (
     ElementName = "CountryButton"
-    SubComponentRelativeWidthHeight = [0.7, 0.7]
     HintDicoToken = ~/LocalisationConstantes/dico_interface_outgame
 )
 
@@ -372,31 +310,34 @@ ArmoryDivisionFilterButtonDescriptor is BUCKButtonDescriptor
     )
 
     IsTogglable = true
-    HasBorder = false
-    BorderLineColorToken = "Blanc"
-    BorderThicknessToken = "1"
     LeftClickSound = SoundEvent_ArmorySelectDivision
 
     Components =
     [
         BUCKTextureDescriptor
         (
-            ElementName = 'ButtonTexture'
+            ElementName = "ButtonTexture"
 
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [32.0, 32.0]
-                MagnifiableOffset = [0.0, -1.0]
+                RelativeWidthHeight = [1.0, 1.0]
                 AlignementToAnchor = [0.5, 0.5]
                 AlignementToFather = [0.5, 0.5]
             )
+            TextureColorToken = "AmroryFlagColor"
+        ),
 
-            TextureFrame = TUIFramePropertyRTTI
+        BUCKTextureDescriptor
+        (
+            ComponentFrame = TUIFramePropertyRTTI
             (
-                RelativeWidthHeight = [1.0, 1.0]
+                MagnifiableWidthHeight = [15.0, 15.0]
+                AlignementToAnchor = [1.0, 1.0]
+                AlignementToFather = [1.0, 1.0]
             )
 
-            ClipTextureToComponent = true
+            TextureToken = "Outgame_deck_filter"
+            TextureColorToken = "ArmoryFiterToggle"
         ),
 
         BUCKTextDescriptor
@@ -427,17 +368,6 @@ ArmoryDivisionFilterButtonDescriptor is BUCKButtonDescriptor
             HorizontalFitStyle = ~/FitStyle/UserDefined
             BigLineAction = ~/BigLineAction/ResizeFont
             TextDico = ~/LocalisationConstantes/dico_interface_outgame
-        ),
-        BUCKTextureDescriptor
-        (
-            TextureToken = "Texture_ShortButton"
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [40.0, 40.0]
-                AlignementToAnchor = [0.5, 0.5]
-                AlignementToFather = [0.5, 0.5]
-            )
-            ResizeMode = ~/TextureResizeMode/UserDefined
         ),
         BUCKTextureDescriptor
         (
@@ -481,7 +411,7 @@ UISpecificSkinRackView is TUISpecificSkinRackViewDescriptor
             RelativeWidthHeight = [0.0, 0.5]
         )
 
-        InterItemMargin = TRTTILength( Pixel = 2.0)
+        InterItemMargin = TRTTILength(Pixel = 2.0)
 
         BladeDescriptor = ~/UnitSkinButton
     )
@@ -498,16 +428,14 @@ private UnitSkinButtonMagnifiableBorderWidth is 3.0
 // Button for Skin Unit Icon
 UnitSkinButton is BUCKButtonDescriptor
 (
-    ElementName = 'UnitSkinButton'
+    ElementName = "UnitSkinButton"
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [UnitSkinButtonMagnifiableWithBorderWidth, 0.0]
+        MagnifiableWidthHeight = [~/UnitSkinButtonMagnifiableWithBorderWidth, 0.0]
         RelativeWidthHeight = [0.0, 1.0]
     )
 
-    HasBackground = true
-    BackgroundBlockColorToken = 'Orange'
     IsTogglable = true
     CannotDeselect = true
     HidePointerEvents = false
@@ -522,7 +450,7 @@ UnitSkinButton is BUCKButtonDescriptor
 
         BUCKTextureDescriptor
         (
-            ElementName = 'UnitSkinIcon'
+            ElementName = "UnitSkinIcon"
             ComponentFrame = TUIFramePropertyRTTI
             (
                 RelativeWidthHeight = [0.0, 1.0]
@@ -556,42 +484,68 @@ UnitSkinButtonBigBorder is BUCKContainerDescriptor
 
 //-------------------------------------------------------------------------------------
 // affichage des pays & catégories d'unités
-private ShowroomTopFiltersList is BUCKListDescriptor
+
+private ShowroomTopFiltersBarContainer is BUCKListDescriptor
 (
-    ElementName = "ShowroomTopFiltersList"
+    ElementName = "FiltersPanel"
     ComponentFrame = TUIFramePropertyRTTI
     (
-        RelativeWidthHeight = [0.0, 1.0]
+        RelativeWidthHeight = [1.0, 0.0]
     )
 
+    Axis = ~/ListAxis/Vertical
+    FirstMargin = TRTTILength( Magnifiable = 8.0 )
+    InterItemMargin = TRTTILength( Magnifiable = 4.0 )
+
+    HasBackground = true
+    BackgroundBlockColorToken = "MarronPanel_base_75"
+
+    Elements =
+    [
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ~/AllNationsFilter
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = AllegianceDivisionFilter(ElementName = "NATODivisionFilterRack")
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = AllegianceDivisionFilter(ElementName = "PACTDivisionFilterRack")
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ~/DisplayNewFilterBar
+        ),
+    ]
+)
+
+//-------------------------------------------------------------------------------------
+
+private AllNationsFilter is BUCKListDescriptor
+(
+    ElementName = "AllNationsFilter"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        AlignementToAnchor = [0.5, 0.0]
+        AlignementToFather = [0.5, 0.0]
+    )
+
+    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
     FirstMargin = TRTTILength( Magnifiable = 0.0 )
-    InterItemMargin = TRTTILength( Magnifiable = 10.0 )
-    LastMargin = TRTTILength( Magnifiable = 10.0 )
+    InterItemMargin = TRTTILength( Magnifiable = 8.0 )
     Axis = ~/ListAxis/Horizontal
 
     Elements =
     [
-        // Alliance Filter
-
-        BUCKListElementSpacer( Magnifiable = 10.0 ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = TexteIndicatifCategorie
-            (
-                ElementName = "AlliancesTitle"
-                TextToken = 'Fil_allia'
-                HasBorder = false
-                AlignementToAnchor = [0.0, 0.5]
-                AlignementToFather = [0.0, 0.5]
-            )
-        ),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = ShowroomTogglableFilterButton
             (
                 ElementName = "AllianceFilterAllies"
                 TextureToken = "CommonTexture_MotherCountryFlag_NATO_small"
-                SubComponentRelativeWidthHeight = [0.7, 0.7]
                 HintTitleToken = "NATO"
                 HintDicoToken = ~/LocalisationConstantes/dico_interface_outgame
             )
@@ -603,26 +557,12 @@ private ShowroomTopFiltersList is BUCKListDescriptor
             (
                 ElementName = "AllianceFilterAxis"
                 TextureToken = "CommonTexture_MotherCountryFlag_PACT_small"
-                SubComponentRelativeWidthHeight = [0.7, 0.7]
                 HintTitleToken = "PACT"
                 HintDicoToken = ~/LocalisationConstantes/dico_interface_outgame
             )
         ),
 
-        // Nation Filter
-
-        BUCKListElementSpacer( Magnifiable = 15.0 ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = TexteIndicatifCategorie
-            (
-                ElementName = "CountriesTitle"
-                TextToken = 'Fil_pays'
-                HasBorder = false
-                AlignementToAnchor = [0.0, 0.5]
-                AlignementToFather = [0.0, 0.5]
-            )
-        ),
+        BUCKListElementSpacer( Magnifiable = 24.0 ),
         BUCKListElementDescriptor
         (
             ComponentDescriptor = ShowroomTogglableFilterButton
@@ -633,6 +573,8 @@ private ShowroomTopFiltersList is BUCKListDescriptor
                 HintDicoToken = ~/LocalisationConstantes/dico_interface_outgame
             )
         ),
+
+        // nato nations
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKRackDescriptor
@@ -644,12 +586,15 @@ private ShowroomTopFiltersList is BUCKListDescriptor
                 )
 
                 FirstMargin = TRTTILength( Magnifiable = 0.0 )
-                InterItemMargin = TRTTILength( Pixel = 5.0 )
+                InterItemMargin = TRTTILength( Magnifiable = 8.0 )
                 Axis = ~/ListAxis/Horizontal
 
                 BladeDescriptor = ArmoryCountryFilterButtonDescriptor
             )
         ),
+        BUCKListElementSpacer( Magnifiable = 24.0 ),
+
+        // pact nations
         BUCKListElementDescriptor
         (
             ComponentDescriptor = BUCKRackDescriptor
@@ -661,134 +606,52 @@ private ShowroomTopFiltersList is BUCKListDescriptor
                 )
 
                 FirstMargin = TRTTILength( Magnifiable = 0.0 )
-                InterItemMargin = TRTTILength( Pixel = 5.0 )
+                InterItemMargin = TRTTILength( Magnifiable = 8.0 )
                 Axis = ~/ListAxis/Horizontal
 
                 BladeDescriptor = ArmoryCountryFilterButtonDescriptor
             )
         ),
-
-        // Division filter
-
-        BUCKListElementSpacer( Magnifiable = 15.0 ),
-        BUCKListElementDescriptor
-        (
-            ComponentDescriptor = TexteIndicatifCategorie
-            (
-                ElementName = "DivisionsTitle"
-                TextToken = 'Fil_div'
-                HasBorder = false
-                AlignementToAnchor = [0.0, 0.5]
-                AlignementToFather = [0.0, 0.5]
-            )
-        ),
-        BUCKListElementDescriptor
-        (
-            ExtendWeight = 1.0
-            ComponentDescriptor = BUCKSpecificScrollingContainerDescriptor
-            (
-                ElementName = "DivisionsScrollingContainer"
-                ComponentFrame = TUIFramePropertyRTTI
-                (
-                    RelativeWidthHeight = [1.0, 1.0]
-                )
-
-                ScrollStepSize = [44.0, 0.0]
-                HasHorizontalScrollbar = true
-                HorizontalScrollbarComponentFrame = TUIFramePropertyRTTI
-                (
-                    MagnifiableWidthHeight = [0.0, 10.0]
-                    MagnifiableOffset = [0.0, 10.0]
-                    AlignementToAnchor = [0.0, 1.0]
-                    AlignementToFather = [0.0, 1.0]
-                )
-
-                Components =
-                [
-                    BUCKListDescriptor
-                    (
-                        ComponentFrame = TUIFramePropertyRTTI
-                        (
-                            RelativeWidthHeight = [0.0, 1.0]
-                        )
-                        Axis = ~/ListAxis/Horizontal
-
-                        Elements =
-                        [
-                            BUCKListElementDescriptor
-                            (
-                                ComponentDescriptor = BUCKRackDescriptor
-                                (
-                                    ElementName = "NATODivisionFilterRack"
-                                    ComponentFrame = TUIFramePropertyRTTI
-                                    (
-                                        RelativeWidthHeight = [0.0, 1.0]
-                                    )
-
-                                    FirstMargin = TRTTILength( Magnifiable = 0.0 )
-                                    InterItemMargin = TRTTILength( Pixel = 4.0 )
-                                    Axis = ~/ListAxis/Horizontal
-
-                                    BladeDescriptor = ArmoryDivisionFilterButtonDescriptor
-                                )
-                            ),
-                            BUCKListElementDescriptor
-                            (
-                                ComponentDescriptor = BUCKRackDescriptor
-                                (
-                                    ElementName = "PACTDivisionFilterRack"
-                                    ComponentFrame = TUIFramePropertyRTTI
-                                    (
-                                        RelativeWidthHeight = [0.0, 1.0]
-                                    )
-
-                                    FirstMargin = TRTTILength( Magnifiable = 0.0 )
-                                    InterItemMargin = TRTTILength( Pixel = 4.0 )
-                                    Axis = ~/ListAxis/Horizontal
-
-                                    BladeDescriptor = ArmoryDivisionFilterButtonDescriptor
-                                )
-                            )
-                        ]
-                    )
-                ]
-            )
-        )
     ]
 )
 
 //-------------------------------------------------------------------------------------
 
-template ShowroomLightCycleButtonContainer
+template AllegianceDivisionFilter
 [
-    MagnifiableOffset : float2,
-] is BUCKContainerDescriptor
+    ElementName : string,
+] is BUCKRackDescriptor
 (
+    ElementName = <ElementName>
     ComponentFrame = TUIFramePropertyRTTI
     (
-        AlignementToAnchor = [1.0, 0.0]
-        AlignementToFather = [1.0, 0.0]
-        MagnifiableOffset = <MagnifiableOffset>
+        MagnifiableWidthHeight = [0.0, 44.0]
+        AlignementToFather = [0.5, 0.0]
+        AlignementToAnchor = [0.5, 0.0]
     )
 
-    FitStyle = ~/ContainerFitStyle/FitToContent
+    Axis = ~/ListAxis/Horizontal
 
-    Components =
-    [
-        ~/ShowroomLightCycleButton,
-    ]
+    FirstMargin = TRTTILength( Magnifiable = 0.0 )
+    InterItemMargin = TRTTILength( Pixel = 8.0 )
+
+    BladeDescriptor = ~/ArmoryDivisionFilterButtonDescriptor
 )
 
 //-------------------------------------------------------------------------------------
 
-ShowroomLightCycleButton is BUCKButtonDescriptor
+template ShowroomLightCycleButton
+[
+    MagnifiableOffset : float2,
+] is BUCKButtonDescriptor
 (
     ElementName = "ShowroomLightCycleButton"
     ComponentFrame = TUIFramePropertyRTTI
     (
         MagnifiableWidthHeight = [30.0, 30.0]
-        AlignementToAnchor = [0.0, 0.5]
-        AlignementToFather = [0.0, 0.5]
+        AlignementToAnchor = [1.0, 0.0]
+        AlignementToFather = [1.0, 0.0]
+        MagnifiableOffset = <MagnifiableOffset>
     )
 
     Mapping = $/KeyboardOption/Mapping_NextLightMode
@@ -816,21 +679,73 @@ ShowroomLightCycleButton is BUCKButtonDescriptor
 )
 
 //-------------------------------------------------------------------------------------
+
+ShowHideHUDButton is BUCKButtonDescriptor
+(
+    ElementName = "ShowHideHUDButton"
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [80.0, 25.0]
+        AlignementToAnchor = [1.0, 0.0]
+        AlignementToFather = [1.0, 0.0]
+        MagnifiableOffset = [-10.0, 35.0]
+    )
+
+    IsTogglable = true
+    HasBorder = true
+    BorderThicknessToken = "2"
+    BorderLineColorToken = "MarronPanel_noir"
+
+    Components =
+    [
+        BUCKTextDescriptor
+        (
+            ElementName = "ShowHideHUDButtonText"
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                AlignementToAnchor = [0.5, 0.5]
+                AlignementToFather = [0.5, 0.5]
+            )
+
+            ParagraphStyle = TParagraphStyle
+            (
+                Alignment = UIText_Center
+                VerticalAlignment = UIText_VerticalCenter
+            )
+
+            TextStyle = "Default"
+            HorizontalFitStyle = ~/FitStyle/FitToContent
+            VerticalFitStyle = ~/FitStyle/FitToContent
+            TypefaceToken = "Eurostyle_Italic"
+            BigLineAction = ~/BigLineAction/MultiLine
+            TextToken = "ARM_HHUD"
+            TextDico = ~/LocalisationConstantes/dico_interface_outgame
+            TextColor = "BlancTexte"
+            TextSize = "12"
+            TextPadding = TRTTILength4(Magnifiable = [5.0, 5.0, 5.0, 5.0])
+        ),
+    ]
+)
+
+//-------------------------------------------------------------------------------------
 // affichae catégories
-private affichageCategorie is BUCKListElementDescriptor
+private AffichageCategorie is BUCKListElementDescriptor
 (
     ComponentDescriptor = BUCKListDescriptor
     (
-        ElementName = 'DeckCategoryList'
+        ElementName = "DeckCategoryList"
         ComponentFrame = TUIFramePropertyRTTI
         (
-            MagnifiableWidthHeight = [100.0, 0.0]
-        )
-        Axis = ~/ListAxis/Vertical
-
+            AlignementToAnchor = [0.0, 0.5]
+            AlignementToFather = [0.0, 0.5]
+            )
+        Axis = ~/ListAxis/Horizontal
+        BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
         // => ArmoryCategoryButtonDescriptor
     )
 )
+
+//-------------------------------------------------------------------------------------
 
 template TexteIndicatifCategorie
 [
@@ -845,40 +760,175 @@ template TexteIndicatifCategorie
     ElementName = <ElementName>
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [0.0, 20.0]
-        AlignementToFather = <AlignementToFather>
-        AlignementToAnchor = <AlignementToAnchor>
+        MagnifiableWidthHeight = [1.0, 0.0]
+        AlignementToAnchor = [0.0, 0.5]
+        AlignementToFather = [0.0, 0.5]
     )
 
-    ParagraphStyle = paragraphStyleTextCenter
+    ParagraphStyle = TParagraphStyle
+    (
+        Alignment = UIText_Right
+        VerticalAlignment = UIText_VerticalCenter
+    )
     TextStyle = "Default"
-    HorizontalFitStyle = ~/FitStyle/FitToContent
-    VerticalFitStyle = ~/FitStyle/UserDefined
-    TypefaceToken = "Eurostyle"
+    HorizontalFitStyle = ~/FitStyle/UserDefined
+    VerticalFitStyle = ~/FitStyle/FitToContent
+    TypefaceToken = "Eurostyle_Italic"
     BigLineAction = ~/BigLineAction/MultiLine
     TextToken = <TextToken>
     TextDico = ~/LocalisationConstantes/dico_interface_outgame
-    TextColor = "MarronPanel_noir"
-    TextSize = "10"
+    TextColor = "BlancTexte"
+    TextSize = "12"
 
     HasBorder = <HasBorder>
-    BorderThicknessToken = '2'
-    BorderLineColorToken = 'MarronPanel_noir'
+    BorderThicknessToken = "2"
+    BorderLineColorToken = "MarronPanel_noir"
     BordersToDraw = ~/TBorderSide/Top
+)
+
+
+//-------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------
+DisplayNewFilterBar is BUCKListDescriptor
+(
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [0.0, 44.0]
+    )
+
+    Axis = ~/ListAxis/Horizontal
+    FirstMargin = TRTTILength(Magnifiable = 4.0)
+    InterItemMargin = TRTTILength(Magnifiable = 24.0)
+    HasBackground = true
+    BackgroundBlockColorToken = "AmroryButtonBkg_75"
+
+    Elements =
+    [
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = AffichageCategorie
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ~/AvailableUnitNumber
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = ~/UnitGridNameFilter
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = FilterHeader
+            (
+                FilterElementName = "Role"
+                TextToken = "ARM_ROL"
+                CheckboxBladeDescriptor = CheckboxWithIconAndTitleDefinition
+                (
+                    IconTextureMagnifiableWidthHeight = [26.0, 26.0]
+                    TextDico = ~/LocalisationConstantes/dico_units
+                    RadioButtonManager = TBUCKRadioButtonManager()
+                    TextureToken = "StyleDeskTexture_RadioButton"
+                    BorderLineColorToken = "AmroryFiltreTxt"
+                    TextureColorToken = "AmroryButtonBkg_75"
+                    CheckboxHasBackground = false
+                    CheckboxHasBorder = false
+                )
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = FilterHeader
+            (
+                FilterElementName = "Specialty"
+                TextToken = "ARM_TRA"
+                CheckboxBladeDescriptor = CheckboxWithIconAndTitleDefinition
+                (
+                    TextDico = ~/LocalisationConstantes/dico_units
+                    BorderLineColorToken = "AmroryFiltreTxt"
+                    BackgroundBlockColorToken = "AmroryCheckBoxBkg"
+                )
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = FilterHeader
+            (
+                FilterElementName = "Weapon"
+                TextToken = "ARM_WEA"
+                CheckboxBladeDescriptor = CheckboxWithIconAndTitleDefinition
+                (
+                    IconMagnifiableWidthHeight = [32.0, 20.0]
+                    IconTextureMagnifiableWidthHeight = [40.0, 20.0]
+                    TextDico = ~/LocalisationConstantes/dico_interface_ingame
+                    BorderLineColorToken = "AmroryFiltreTxt"
+                    BackgroundBlockColorToken = "AmroryCheckBoxBkg"
+                )
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = FilterHeader
+            (
+                FilterElementName = "Movement"
+                TextToken = "ARM_MOV"
+                CheckboxBladeDescriptor = CheckboxWithTitleDefinition
+                (
+                    TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                    RadioButtonManager = TBUCKRadioButtonManager()
+                    TextureToken = "StyleDeskTexture_RadioButton"
+                    CheckboxHasBackground = false
+                    CheckboxHasBorder = false
+                    TextureColorToken = "AmroryButtonBkg_75"
+                )
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ExtendWeight = 1.0
+            ComponentDescriptor = BUCKContainerDescriptor(ComponentFrame = TUIFramePropertyRTTI())
+        ),
+    ]
 )
 
 //-------------------------------------------------------------------------------------
 
-UnitGridNameFilter is BUCKSpecificEditableTextDescriptor
+AvailableUnitNumber is BUCKTextDescriptor
 (
-    ElementName = 'NameFilterEditableText'
+    ElementName = "ArmoryUnitListUnitsNumber"
 
     ComponentFrame = TUIFramePropertyRTTI
     (
-        RelativeWidthHeight = [1.0, 0.0]
-        MagnifiableWidthHeight = [-20.0, 20.0]
-        AlignementToAnchor = [0.5, 0.0]
-        AlignementToFather = [0.5, 0.0]
+        MagnifiableWidthHeight = [100.0, 20.0]
+        AlignementToAnchor = [0.0, 0.5]
+        AlignementToFather = [0.0, 0.5]
+    )
+
+    HorizontalFitStyle = ~/FitStyle/UserDefined
+
+    ParagraphStyle = TParagraphStyle
+    (
+        Alignment = UIText_Left
+        VerticalAlignment = UIText_VerticalCenter
+        InterLine = 0
+    )
+
+    TextStyle = "Default"
+    TextToken = "ARM_NBU"
+    TextDico = ~/LocalisationConstantes/dico_interface_outgame
+    TypefaceToken = "Eurostyle"
+    TextColor = "AmroryFiltreTxt"
+    TextSize = "16"
+)
+//-------------------------------------------------------------------------------------
+UnitGridNameFilter is BUCKSpecificEditableTextDescriptor
+(
+    ElementName = "NameFilterEditableText"
+
+    ComponentFrame = TUIFramePropertyRTTI
+    (
+        MagnifiableWidthHeight = [230.0, 20.0]
+        AlignementToAnchor = [0.0, 0.5]
+        AlignementToFather = [0.0, 0.5]
     )
 
     ClippingContainerFrameProperty = TUIFramePropertyRTTI
@@ -889,26 +939,47 @@ UnitGridNameFilter is BUCKSpecificEditableTextDescriptor
         AlignementToAnchor = [0.5, 0.5]
     )
 
-    TextSizeToken = "14"
+    TextSizeToken = "12"
     TypefaceToken = "Eurostyle"
     HasBorder = false
     Flags = EditableTextFlag/H_LEFT + EditableTextFlag/ONE_LINE
     MaxChars = 140
     TextStyle = "Default"
-    TextColorToken = "MarronPanel_noir"
+    TextColorToken = "AmroryButtonTxt"
+
+    PlaceholderTextToken = "Fil_nom"
+    PlaceholderTextDico = ~/LocalisationConstantes/dico_interface_outgame
+    PlaceholderTextColor = "Black_50"
+    PlaceHolderTextMagnifiableOffset = [0,0]
 
     HintComponentName = "NameFilterEditableTextHint"
-
     HidePointerEvents = true
 
     Components =
     [
         PanelRoundedCorner
         (
-            Radius = 5
-            BackgroundBlockColorToken = "MarronPanel_fonce"
-            BorderLineColorToken = "MarronPanel_noir"
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1,1]
+                MagnifiableOffset = [-6,0]
+            )
+            Radius = 100
+            BackgroundBlockColorToken = "AmroryFiltreTxt"
+            BorderLineColorToken = "Transparent"
         ),
+        BUCKTextureDescriptor
+        (
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                MagnifiableWidthHeight = [12.0, 12.0]
+                MagnifiableOffset = [-8.0-6, 0.0]
+                AlignementToAnchor = [1.0, 0.5]
+                AlignementToFather = [1.0, 0.5]
+            )
+            TextureToken = "UseOutGame_Search"
+            TextureColorToken = "Black_50"
+         )
     ]
 )
 
@@ -919,60 +990,24 @@ ArmoryUnitListContainer is BUCKContainerDescriptor
     ElementName = 'ArmoryUnitListContainer'
     ComponentFrame = TUIFramePropertyRTTI
     (
-        RelativeWidthHeight = [0.0, 1.0]
-        MagnifiableWidthHeight = [700.0, -37.0]
-        MagnifiableOffset = [100.0, 77.0]
+        MagnifiableWidthHeight = [700.0, 805.0]
     )
 
     Components =
     [
-        BUCKTextDescriptor
-        (
-            ElementName = "ArmoryUnitListUnitsNumber"
-
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                MagnifiableWidthHeight = [0.0, 20.0]
-                MagnifiableOffset = [5.0, -24.0]
-            )
-
-            ParagraphStyle = TParagraphStyle
-            (
-                Alignment = UIText_Center
-                VerticalAlignment = UIText_VerticalCenter
-                InterLine = 0
-            )
-
-            TextPadding = TRTTILength4( Magnifiable = [5.0, 0.0, 5.0, 0.0] )
-
-            HasBackground = true
-            BackgroundBlockColorToken = "Black80"
-
-            HorizontalFitStyle = ~/FitStyle/FitToContent
-
-            TextStyle = "Default"
-
-            TextToken = "ARM_NBU"
-            TextDico = ~/LocalisationConstantes/dico_interface_outgame
-
-            TypefaceToken = "Liberator"
-            TextColor = "ListeExcel/Cartouche"
-            TextSize = "18"
-        ),
         BUCKSpecificScrollingContainerDescriptor
         (
-            ElementName = 'UnitDivisionScrollingContainer'
+            ElementName = "UnitDivisionScrollingContainer"
             ComponentFrame = TUIFramePropertyRTTI
             (
-                RelativeWidthHeight = [1.0, 0.0]
-                MagnifiableWidthHeight = [0.0, 905.0]
+                RelativeWidthHeight = [1.0, 1.0]
             )
 
             ExternalScrollbar = true
-
             ScrollStepSize = [0.0, 60.0]
             HasVerticalScrollbar = true
-
+            ScrollBarBackgroundToken = "AmroryButtonTxt"
+            ScrollBarElevatorBackgroundToken = "AmroryButtonBkg"
             VerticalScrollbarComponentFrame = TUIFramePropertyRTTI
             (
                 MagnifiableWidthHeight = [10.0, 0.0]
@@ -1008,12 +1043,11 @@ ArmoryUnitListContainer is BUCKContainerDescriptor
                                 ElementName = "PackList"
 
                                 ComponentFrame = TUIFramePropertyRTTI()
-
                                 FirstElementMargin = TRTTILength2( Magnifiable = [15.0, 0.0] )
                                 InterElementMargin = TRTTILength2( Magnifiable = [1.0, 1.0] )
                                 LastElementMargin = TRTTILength2( Magnifiable = [25.0, 0.0] )
 
-                                MaxElementsPerDimension = [MaxUnitByLineInUnitDivisionGridArmory, 0]
+                                MaxElementsPerDimension = [~/MaxUnitByLineInUnitDivisionGridArmory, 0]
 
                                 // envoie UnitPackDescriptor
                             )
@@ -1025,145 +1059,145 @@ ArmoryUnitListContainer is BUCKContainerDescriptor
     ]
 )
 
-//-------------------------------------------------------------------------------------
+//------------------------------------------------
 
-ShowroomTopFiltersBarContainer is BUCKContainerDescriptor
-(
-    ComponentFrame = TUIFramePropertyRTTI
-    (
-        RelativeWidthHeight = [1.0, 0.0]
-        MagnifiableWidthHeight = [0.0, 45.0]
-    )
-    HasBackground = true
-    BackgroundBlockColorToken = 'MarronPanel_base'
-
-    Components =
-    [
-        ~/ShowroomTopFiltersList,
-    ]
-)
-
-//-------------------------------------------------------------------------------------
-
-template ShowroomVerticalFilterBarElement
+template ArmoryFilterMainCheckboxDefinition
 [
     ElementName : string,
-    ElementTitle : string,
-    ComponentDescriptor : TBUCKContainerDescriptor
-] is BUCKListElementDescriptor
+    ToggleListButtonTextToken : string,
+] is BUCKListDescriptor
 (
-    ComponentDescriptor = BUCKListDescriptor
-    (
-        ElementName = <ElementName> + "List"
+    ComponentFrame = TUIFramePropertyRTTI()
 
-        ComponentFrame = TUIFramePropertyRTTI
+    Axis = ~/ListAxis/Horizontal
+    BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+
+    Elements =
+    [
+        BUCKListElementDescriptor
         (
-            RelativeWidthHeight = [1.0, 0.0]
+            ComponentDescriptor = BUCKContainerDescriptor
+            (
+                ComponentFrame = TUIFramePropertyRTTI
+                (
+                    MagnifiableWidthHeight = [15.0, 15.0]
+                )
+
+                HasBorder = true
+                BorderLineColorToken = "AmroryFiltreTxt"
+                BorderThicknessToken = "1"
+
+                Components =
+                [
+                    BUCKButtonDescriptor
+                    (
+                        ElementName = <ElementName> + "Reset"
+                        ComponentFrame = TUIFramePropertyRTTI
+                        (
+                            RelativeWidthHeight = [1.0, 1.0]
+                        )
+
+                        Components =
+                        [
+                            BUCKTextureDescriptor
+                            (
+                                ElementName = <ElementName> + "ResetTexture"
+                                ComponentFrame = TUIFramePropertyRTTI
+                                (
+                                    RelativeWidthHeight = [1.0, 1.0]
+                                )
+
+                                TextureToken = "ShowRoomTexture_FilterReset"
+                                TextureColorToken = "AmroryFlagColor"
+                            )
+                        ]
+                    )
+                ]
+            )
+        ),
+        BUCKListElementDescriptor
+        (
+            ComponentDescriptor = BUCKTextDescriptor
+            (
+                ElementName = <ElementName> + "CheckBoxText"
+
+                TextDico = ~/LocalisationConstantes/dico_interface_outgame
+                TextToken = <ToggleListButtonTextToken>
+                TextSize = "16"
+                TextColor = "AmroryFiltreTxt"
+                TextStyle = "Default"
+                TypefaceToken = "Eurostyle"
+
+                ComponentStateLocked = true
+
+                HorizontalFitStyle = ~/FitStyle/FitToContent
+                VerticalFitStyle = ~/FitStyle/FitToParent
+
+                ParagraphStyle = TParagraphStyle
+                (
+                    VerticalAlignment = ~/UIText_VerticalCenter
+                )
+                TextPadding = TRTTILength4( Magnifiable = [5.0, 5.0, 25.0, 5.0] )
+            )
+        ),
+    ]
+
+    BackgroundComponents =
+    [
+        BUCKButtonDescriptor
+        (
+            ElementName = <ElementName>
+
+            ComponentFrame = TUIFramePropertyRTTI
+            (
+                RelativeWidthHeight = [1.0, 1.0]
+            )
+
+            IsTogglable = true
+            LeftClickSound = ~/SoundEvent_CheckBoxTick
         )
-
-        Axis = ~/ListAxis/Vertical
-
-        Elements =
-        [
-            BUCKListElementDescriptor
-            (
-                ComponentDescriptor = TexteIndicatifCategorie( TextToken = <ElementTitle> ElementName = <ElementName> + "Title")
-            ),
-            BUCKListElementSpacer(Magnifiable = 5.0),
-            BUCKListElementDescriptor
-            (
-                ComponentDescriptor = <ComponentDescriptor>
-            ),
-        ]
-    )
+    ]
 )
 
 //-------------------------------------------------------------------------------------
 
-ShowroomVerticalFilterBarContainer is PanelRoundedCorner
+template FilterHeader
+[
+    TextToken : string,
+    FilterElementName : string,
+    CheckboxBladeDescriptor : TBUCKContainerDescriptor,
+] is BUCKBaseCheckBoxListDescriptor
 (
-    ElementName = "FiltresCategoriesContainer"
+    ElementName = <FilterElementName> + "Filter"
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [100.0, 830.0]
+        AlignementToFather = [0.0, 0.5]
+        AlignementToAnchor = [0.0, 0.5]
     )
 
-    BorderLineColorToken = 'MarronPanel_noir'
-    BackgroundBlockColorToken = 'MarronPanel_base'
-    RoundedVertexes = [false,false,false,true]
-    Radius = 20
+    MainButtonElementName = <FilterElementName> + "Button"
+    CategoryRackElementName = <FilterElementName> + "Rack"
 
-    Components =
-    [
-        BUCKListDescriptor
-        (
-            ElementName = "FiltresCategories"
-            ComponentFrame = TUIFramePropertyRTTI
-            (
-                RelativeWidthHeight = [1.0, 0.0]
-            )
+    CheckboxForCategory = false
+    CategorySeparation = ~/ECheckBoxListSeparatorConfiguration/DoNotShow
 
-            InterItemMargin = TRTTILength( Magnifiable = 10.0 )
+    CheckboxBladeDescriptor = <CheckboxBladeDescriptor>
 
-            Axis = ~/ListAxis/Vertical
-            Elements =
+    // caracs dropdown
+    ItemListBackgroundBlockColorToken = "AmroryButtonBkg"
+    MagnifiableOffsetRack = [-8.0, 30.0]
 
-            [
-                //-------------------------------------------------------------------------------------
-                // affichage du filtre par nom
-                ShowroomVerticalFilterBarElement
-                (
-                    ElementName = "NameFilter"
-                    ElementTitle = "Fil_nom"
-                    ComponentDescriptor = UnitGridNameFilter
-                ),
-                //-------------------------------------------------------------------------------------
-                // affichage des catégories
-                ShowroomVerticalFilterBarElement
-                (
-                    ElementName = "CategoryFilters"
-                    ElementTitle = "Fil_cat"
-                    ComponentDescriptor = affichageCategorie
-                ),
-                //-------------------------------------------------------------------------------------
-                // affichage des types
-                ShowroomVerticalFilterBarElement
-                (
-                    ElementName = "TypeFilters"
-                    ElementTitle = "Fil_role"
-                    ComponentDescriptor = CategoryFiltersMainRack
-                    (
-                        ElementNamePrefix = "Type"
-                        MagnifiableWidthHeight = [30.0, 30.0]
-                        MagnifiableWidthHeight_button = [30.0, 30.0]
-
-                        TextureColorToken = "MarronPanel_noir2"
-                    )
-                ),
-                //-------------------------------------------------------------------------------------
-                // affichge des valeurs
-                ShowroomVerticalFilterBarElement
-                (
-                    ElementName = "ValueFilters"
-                    ElementTitle = "Fil_valeur"
-                    ComponentDescriptor = CategoryFiltersMainRack
-                    (
-                        ElementNamePrefix = "Role"
-                        MagnifiableWidthHeight = [20.0, 20.0]
-                        MagnifiableWidthHeight_button = [28.0, 28.0]
-                        TextureColorToken = "Bouton_puissance"
-                    )
-                )
-            ]
-        )
-    ]
+    MainCheckboxComponent = ArmoryFilterMainCheckboxDefinition
+    (
+        ElementName = <FilterElementName> + "Button"
+        ToggleListButtonTextToken = <TextToken>
+    )
 )
 
 //-------------------------------------------------------------------------------------
 
 PanelArmurerieHaut is BUCKListDescriptor
 (
-    ElementName = "PanneauxFiltres"
     ComponentFrame = TUIFramePropertyRTTI
     (
         RelativeWidthHeight = [1.0, 0.0]
@@ -1174,11 +1208,29 @@ PanelArmurerieHaut is BUCKListDescriptor
     [
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ShowroomTopFiltersBarContainer
+            ComponentDescriptor = ~/ShowroomTopFiltersBarContainer
         ),
         BUCKListElementDescriptor
         (
-            ComponentDescriptor = ShowroomVerticalFilterBarContainer
+            ComponentDescriptor = BUCKListDescriptor
+            (
+                Axis = ~/ListAxis/Horizontal
+                ComponentFrame = TUIFramePropertyRTTI()
+
+                BreadthComputationMode = ~/BreadthComputationMode/ComputeBreadthFromLargestChild
+                FirstMargin = TRTTILength( Magnifiable = 6.0 )
+                InterItemMargin = TRTTILength( Magnifiable = 0.0 )
+                LastMargin = TRTTILength( Magnifiable = 0.0 )
+
+                Elements =
+                [
+
+                    BUCKListElementDescriptor
+                    (
+                        ComponentDescriptor = ~/ArmoryUnitListContainer
+                    ),
+                ]
+            )
         ),
     ]
 )
@@ -1197,7 +1249,6 @@ ArmoryMainComponentDescriptor is BUCKContainerDescriptor
     Components =
     [
         ~/PanelArmurerieHaut,
-        ~/ArmoryUnitListContainer,
         ~/BoutonMenuShowRoomArmory,
         AnimationPanelUnitInfos(),
         BUCKContainerDescriptor
@@ -1207,10 +1258,9 @@ ArmoryMainComponentDescriptor is BUCKContainerDescriptor
             (
                 RelativeWidthHeight = [1.0, 1.0]
             )
-
-            FitStyle = ~/ContainerFitStyle/None
         ),
-        ShowroomLightCycleButtonContainer(MagnifiableOffset = [-10.0, 65.0]),
+        ~/ShowHideHUDButton,
+        ShowroomLightCycleButton(MagnifiableOffset = [-10.0, 65.0]),
     ]
 )
 
@@ -1225,8 +1275,8 @@ private AffichageHintNewbieArmory is PanelRoundedCorner
         AlignementToFather = [1.0, 0.0]
     )
 
-    BackgroundBlockColorToken = 'hint_fond'
-    BorderLineColorToken = 'MarronPanel_noir'
+    BackgroundBlockColorToken = "hint_fond"
+    BorderLineColorToken = "MarronPanel_noir"
 
     Components =
     [
@@ -1292,6 +1342,9 @@ ArmoryComponentDescriptor is TUISpecificShowRoomArmoryComponentDescriptor
         LastMargin = TRTTILength( Magnifiable = 10.0 )
      )
 
+    UnitSpecialtiesContainer = ~/UnitSpecialties
+    WeaponTraitsContainer = ~/WeaponTraits
+
     DeckUnitButtonDummyDescriptor = UnitDeckListDummyButton()
 
     SkinRackComponentDescriptor = ~/UISpecificSkinRackView
@@ -1317,75 +1370,51 @@ ArmoryComponentDescriptor is TUISpecificShowRoomArmoryComponentDescriptor
         EDefaultFactories/DCA,
         EDefaultFactories/Helis,
         EDefaultFactories/Planes,
-
     ]
 
-    TypeFilters =
+    UnarmedTraitToken = "Unarmed"
+
+    MovementTypeFilters =
     [
-        MAP
-        [
-            ("Texture_Speciality_Icon_hq", ["hq", "hq_helo", "hq_inf", "hq_tank", "hq_veh"]),
-            ("Texture_Speciality_Icon_supply", ["supply"]),
-        ],
-        MAP
-        [
-            ("Texture_Speciality_Icon_infantry", ["infantry"]),
-            ("Texture_Speciality_Icon_engineer", ["engineer"]),
-        ],
-        MAP
-        [
-            ("Texture_Speciality_Icon_mortar", ["mortar"]),
-            ("Texture_Speciality_Icon_howitzer", ["howitzer"]),
-        ],
-        MAP
-        [
-            ("Texture_Speciality_Icon_mlrs", ["mlrs"]),
-        ],
-        MAP
-        [
-            ("Texture_Speciality_Icon_ifv", ["ifv"]),
-            ("Texture_Speciality_Icon_armor", ["armor","Armor_heavy"]),
-        ],
-        MAP[
-            ("Texture_Speciality_Icon_reco", ["reco","hel_reco"]),
-            ("Texture_Speciality_Icon_transport", ["transport"]),
-        ],
-        MAP
-        [
-            ("Texture_Speciality_Icon_appui", ["appui"]),
-            ("Texture_Speciality_Icon_AT", ["AT"]),
-        ],
-        MAP
-        [
-            ("Texture_Speciality_Icon_AA", ["AA"]),
-            ("Texture_Speciality_Icon_sead", ["sead"]),
-        ],
-    ]
-
-    RoleFilters =
-    [
-        MAP
-        [
-            ("Texture_Speciality_Icon_A",["tank_A"]),
-            ("Texture_Speciality_Icon_B",["tank_B"]),
-
-        ],
-        MAP
-        [
-
-            ("Texture_Speciality_Icon_C",["tank_C"]),
-            ("Texture_Speciality_Icon_D",["tank_D"]),
-        ],
+        TMovementTypeAndLocalisation
+        (
+            MovementToken = "FILT_INF"
+            MovementTypes =
+            [
+                EUnitMovingType/Infantry,
+            ]
+        ),
+        TMovementTypeAndLocalisation
+        (
+            MovementToken = "FILT_WHE"
+            MovementTypes =
+            [
+                EUnitMovingType/AllTerrainWheel,
+                EUnitMovingType/AllTerrainWheelAmphibious,
+            ]
+        ),
+        TMovementTypeAndLocalisation
+        (
+            MovementToken = "FILT_TRK"
+            MovementTypes =
+            [
+                EUnitMovingType/Track,
+                EUnitMovingType/TrackAmphibious,
+            ]
+        ),
+        TMovementTypeAndLocalisation
+        (
+            MovementToken = "FILT_FLY"
+            MovementTypes =
+            [
+                EUnitMovingType/Flying,
+            ]
+        ),
     ]
 
     NbUnitsInDeckPerCategory = ~/MaxUnitsInDeckPerCategory
 
-    //-------------------------------------------------------------------------------------
-    // boutons pour catégories
-    //-------------------------------------------------------------------------------------
     CategoryButtonDescriptor = ~/ArmoryCategoryButtonDescriptor
-
-    //-------------------------------------------------------------------------------------
 
     ShortcutsLayer = $/M3D/Input/UserInputLayerHandler/InputLayer_InGameShortcuts
 

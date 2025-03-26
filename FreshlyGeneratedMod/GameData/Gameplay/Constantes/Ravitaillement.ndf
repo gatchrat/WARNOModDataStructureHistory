@@ -1,7 +1,6 @@
-export SpecificDefaultSupplyRangeGRU is 442 //utilisé par le halo également
 export StandardSupply is TSupplyDescriptor
 (
-    DefaultSupplyRangeGRU = SpecificDefaultSupplyRangeGRU
+    DefaultSupplyRangeGRU = 442
 
     // Tous les ravitaillement sont découpé en deux variables
     // 1 -> SupplyBySecond => Nombre de point de la ressource concerné ravitaillé par seconde
@@ -45,11 +44,6 @@ SupplyFeedbackDrawer is TSupplyFeedbackDrawer
     LineColor = RGBA[244, 187, 50, 255]
     ZOffset = 250.0
     LineThickness = 600.0
-    FeedbackDescriptor = ~/SupplyFeedbackDescriptor
-)
-
-SupplyFeedbackDescriptor is TSupplyFeedbackDescriptor
-(
     FeedbackScreenResilienceDuration = 3.0
     FeedbackFadeOutTime = 1.0
 )

@@ -34,14 +34,6 @@ export Maintain_CorridorDefenses is TMacroActionDescriptor_CorridorDefense_Speci
     ]
 )
 //-------------------------------------------------------------------------
-export Maintain_CorridorDynamicDefenses is TMacroActionDescriptor_CorridorDynamicDefense_Specific
-(
-    ParametresDeMission =
-    [
-        TGenerationSettingHolder(GenerationType = TGenerationType_Maintain),
-    ]
-)
-//-------------------------------------------------------------------------
 //-------------------------------------------------------------------------
 private template Template_Defense_Corridor
 [
@@ -72,80 +64,28 @@ is TMacroActionDescriptor_CorridorDefense_Specific
     ]
 )
 //-------------------------------------------------------------------------
-//-------------------------------------------------------------------------
-private template Template_Dynamic_Defense_Corridor
-[
-    NumberLaunchBasedOnGenerationType:int = 1,
-    MinimumResourceForLaunch = MAP[],
-    PoolModelList = [~/Pool_AT_Defense, Pool_HMG_Defense],
-    UseTaggedPool:bool = true
-]
-is TMacroActionDescriptor_CorridorDynamicDefense_Specific
-(
-    ParametresDeMission =
-    [
-        TGenerationSettingHolder(GenerationType = TGenerationType_FixedSize NumberLaunchBasedOnGenerationType = <NumberLaunchBasedOnGenerationType>),
-        TAirStrikeSettingHolder(Setting = ~/BasicAirstrikeSupport),
-        TArtilleryAmountSettingHolder(ArtilleryAmount = 1),
-        TSupportSettingHolder(SettingList = [Renfort_TransportsAbandonnes]),
-        TMacroActionProductionSettingHolder(ProdProperties = [TProdProperty_LaunchAsSoonAsPossible]
-        PoolModelList = <PoolModelList>
-        TaggedPoolModelList = (
-        <UseTaggedPool> == false ? [] :
-        [
-            (["DefenseInfantry"], [~/Pool_HMG_Defense]),
-            (["DefenseAA"], [~/Pool_AA_Defense]),
-            (["DefenseTank"], [~/Pool_AT_Defense]),
-        ])
-        DisableReinforcement = true),
-        TMacroActionLifetimeSettingHolder(MinimumResourceForLaunch = <MinimumResourceForLaunch>),
-    ]
-)
-//-------------------------------------------------------------------------
 // Defenses couloir classiques
 //-------------------------------------------------------------------------
-export Defense_Static_Adaptive is Template_Defense_Corridor
+export Defense_Corridor_Adaptive is Template_Defense_Corridor
 (
 )
 //-------------------------------------------------------------------------
-export Defense_Static_AA is Template_Defense_Corridor
-(
-    PoolModelList = [ ~/Pool_AA_Defense_Static ]
-    UseTaggedPool = false
-)
-//-------------------------------------------------------------------------
-export Defense_Dynamic_AA is Template_Dynamic_Defense_Corridor
+export Defense_Corridor_AA is Template_Defense_Corridor
 (
     PoolModelList = [ ~/Pool_AA_Defense ]
     UseTaggedPool = false
-)
-//-------------------------------------------------------------------------
-export Defense_Dynamic_Adaptive is Template_Dynamic_Defense_Corridor
-(
 )
 //-------------------------------------------------------------------------
 // Defenses couloir autogen
 //-------------------------------------------------------------------------
-export Defense_Static_Adaptive_Autogen is Template_Defense_Corridor
-(
-    MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Stage_1
-)
-//-------------------------------------------------------------------------
-export Defense_Static_AA_Autogen is Template_Defense_Corridor
+export Defense_Corridor_AA_Autogen is Template_Defense_Corridor
 (
     PoolModelList = [ ~/Pool_AA_Defense ]
     MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Stage_1
     UseTaggedPool = false
 )
 //-------------------------------------------------------------------------
-export Defense_Dynamic_AA_Autogen is Template_Dynamic_Defense_Corridor
-(
-    PoolModelList = [ ~/Pool_AA_Defense ]
-    MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Stage_1
-    UseTaggedPool = false
-)
-//-------------------------------------------------------------------------
-export Defense_Dynamic_Adaptive_Autogen is Template_Dynamic_Defense_Corridor
+export Defense_Corridor_Adaptive_Autogen is Template_Defense_Corridor
 (
     MinimumResourceForLaunch = ~/MinimumResourceForLaunch_Stage_1
 )
@@ -247,26 +187,6 @@ export Pool_AT_Defense is TPoolModel
             PriceComparisonMethod = EPriceComparatorType/Cheapest
             TagsPriority = [
                 "Infanterie_Spec_Defense",
-            ]
-            +~/ProductionFallback
-        ),
-    ]
-)
-//-------------------------------------------------------------------------
-export Pool_AA_Defense_Static is TPoolModel
-(
-    ModelList = [
-        TPoolElement(
-            DescriptorId = GUID:{92c0825b-8802-4d43-b641-3e99146bf83d}
-            Required = true
-            Nb = 2
-            IndexPriorityOverPrice = true
-            PriceComparisonMethod = EPriceComparatorType/Random
-            TagsPriority = [
-                "Infanterie_AA",
-                "Canon_AA_Standard",
-                "Canon_AA_Porte",
-                "Helo_AA",
             ]
             +~/ProductionFallback
         ),
@@ -748,7 +668,7 @@ export Pool_Defense_Helo is TPoolModel
 
 //-------------------------------------------------------------------------
 //-------------------------------------------------------------------------
-private template Template_Defense_Corridor_BKT
+private template Template_Defense_Static_BKT
 [
     NumberLaunchBasedOnGenerationType:int = 1,
     PoolModelList = [~/Pool_AT_Defense, Pool_HMG_Defense],
@@ -769,7 +689,7 @@ is TMacroActionDescriptor_Defense_Specific
 
 //-------------------------------------------------------------------------
 
-export Defense_Static_ATGM_BKT is Template_Defense_Corridor_BKT
+export Defense_Static_ATGM_BKT is Template_Defense_Static_BKT
 (
     NumberLaunchBasedOnGenerationType = 3
     PoolModelList = [Pool_Defense_ATGM_BKT]
@@ -778,7 +698,7 @@ export Defense_Static_ATGM_BKT is Template_Defense_Corridor_BKT
 
 //-------------------------------------------------------------------------
 
-export Defense_Static_ATGM_Reco_BKT is Template_Defense_Corridor_BKT
+export Defense_Static_ATGM_Reco_BKT is Template_Defense_Static_BKT
 (
     NumberLaunchBasedOnGenerationType = 2
     PoolModelList = [Pool_Defense_Reco_ATGM_BKT]
@@ -787,7 +707,7 @@ export Defense_Static_ATGM_Reco_BKT is Template_Defense_Corridor_BKT
 
 //-------------------------------------------------------------------------
 
-export Defense_Static_Inf_BKT is Template_Defense_Corridor_BKT
+export Defense_Static_Inf_BKT is Template_Defense_Static_BKT
 (
     NumberLaunchBasedOnGenerationType = 2
     PoolModelList = [Pool_Defense_Inf_BKT]

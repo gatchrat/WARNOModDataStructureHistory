@@ -49,9 +49,6 @@ template BUCKHintDescriptor
     InterItemMargin : TRTTILength = TRTTILength(),
     LastMargin : TRTTILength = TRTTILength(),
 
-    AssumeChildrenAreFixedSize : bool = false,
-    AssumeChildrenAreClippable : bool = false,
-
     Elements : LIST<TBUCKListElementDescriptor> = [],
     // -- BUCKListDescriptor
 
@@ -109,9 +106,6 @@ is TBUCKHintDescriptor
     FirstMargin = <FirstMargin>
     InterItemMargin = <InterItemMargin>
     LastMargin = <LastMargin>
-
-    AssumeChildrenAreFixedSize = <AssumeChildrenAreFixedSize>
-    AssumeChildrenAreClippable = <AssumeChildrenAreClippable>
 
     Elements = <Elements>
     // -- BUCKListDescriptor
